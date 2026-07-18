@@ -1,5 +1,7 @@
 name: ETF Daily Pipeline
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
   schedule:
     - cron: "20 22 * * 1-5"
