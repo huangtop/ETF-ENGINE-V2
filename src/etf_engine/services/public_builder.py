@@ -21,7 +21,13 @@ def build_public() -> None:
     metrics = json.loads(metrics_path.read_text(encoding="utf-8")) if metrics_path.exists() else []
     metric_map = {}
     for row in metrics:
-        metric_map.setdefault(row["etf_id"], {})[row["metric_code"]] = row
+        # 為每個 ETF 建立指標映射: {metric_code: {value, unit}}
+        if row["etf_id"] not in metric_map:
+            metric_map[row["etf_id"]] = {}
+        metric_map[row["etf_id"]][row["metric_code"]] = {
+            "value": row["value"],
+            "unit": row.get("unit", "ratio")
+        }
     class_map = {}
     for row in classifications:
         class_map.setdefault(row["etf_id"], []).append({"dimension": row["dimension"], "code": row["code"]})

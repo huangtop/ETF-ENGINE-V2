@@ -27,7 +27,44 @@
       "code": "high_dividend"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "total_return_1y": {
+      "value": 45.4572,
+      "unit": "percent"
+    },
+    "annualized_return": {
+      "value": 45.4572,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 19.8923,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": 2.2098,
+      "unit": "ratio"
+    },
+    "max_drawdown": {
+      "value": -8.0855,
+      "unit": "percent"
+    },
+    "alpha": {
+      "value": -5.7571,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.6016,
+      "unit": "ratio"
+    },
+    "tracking_error": {
+      "value": 16.1847,
+      "unit": "percent"
+    },
+    "data_years": {
+      "value": 2.9286,
+      "unit": "years"
+    }
+  },
   "latest_price": {
     "date": "2026-07-17",
     "value": 50.75,

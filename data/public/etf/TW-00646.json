@@ -31,7 +31,44 @@
       "code": "market_cap"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "total_return_1y": {
+      "value": 34.8404,
+      "unit": "percent"
+    },
+    "annualized_return": {
+      "value": 34.8404,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 12.1612,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": 2.7416,
+      "unit": "ratio"
+    },
+    "max_drawdown": {
+      "value": -7.4261,
+      "unit": "percent"
+    },
+    "alpha": {
+      "value": 9.5603,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.2811,
+      "unit": "ratio"
+    },
+    "tracking_error": {
+      "value": 20.8797,
+      "unit": "percent"
+    },
+    "data_years": {
+      "value": 2.9286,
+      "unit": "years"
+    }
+  },
   "latest_price": {
     "date": "2026-07-17",
     "value": 76.05,

@@ -27,7 +27,44 @@
       "code": "sector"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "total_return_1y": {
+      "value": 99.0419,
+      "unit": "percent"
+    },
+    "annualized_return": {
+      "value": 99.0419,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 39.514,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": 2.4685,
+      "unit": "ratio"
+    },
+    "max_drawdown": {
+      "value": -20.5701,
+      "unit": "percent"
+    },
+    "alpha": {
+      "value": -9.6563,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 1.1495,
+      "unit": "ratio"
+    },
+    "tracking_error": {
+      "value": 26.5815,
+      "unit": "percent"
+    },
+    "data_years": {
+      "value": 2.9286,
+      "unit": "years"
+    }
+  },
   "latest_price": {
     "date": "2026-07-17",
     "value": 83.1,
