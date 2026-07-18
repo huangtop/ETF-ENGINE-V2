@@ -1,0 +1,51 @@
+{
+  "etf_id": "US-DRAM",
+  "ticker": "DRAM",
+  "quote_symbol": "DRAM",
+  "name": "Roundhill Memory ETF",
+  "short_name": "DRAM",
+  "listing_market": "US",
+  "listing_exchange": "NYSE/NASDAQ",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "S&P 500 ETF",
+  "issuer": "Roundhill Memory",
+  "asset_class": "equity",
+  "is_thematic": true,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "region",
+      "code": "global_or_us"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "memory"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "hbm"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "storage"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "ai_compute"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}

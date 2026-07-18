@@ -1,0 +1,47 @@
+{
+  "etf_id": "US-VTI",
+  "ticker": "VTI",
+  "quote_symbol": "VTI",
+  "name": "Vanguard Total Stock Market ETF",
+  "short_name": "VTI",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "CRSP US Total Market",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "strategy",
+      "code": "market_cap"
+    },
+    {
+      "dimension": "style",
+      "code": "total_market"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}

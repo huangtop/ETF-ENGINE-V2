@@ -1,0 +1,47 @@
+{
+  "etf_id": "US-IWM",
+  "ticker": "IWM",
+  "quote_symbol": "IWM",
+  "name": "iShares Russell 2000 ETF",
+  "short_name": "IWM",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Russell 2000",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "strategy",
+      "code": "market_cap"
+    },
+    {
+      "dimension": "style",
+      "code": "small_blend"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}

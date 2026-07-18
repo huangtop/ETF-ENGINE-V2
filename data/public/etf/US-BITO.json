@@ -1,0 +1,47 @@
+{
+  "etf_id": "US-BITO",
+  "ticker": "BITO",
+  "quote_symbol": "BITO",
+  "name": "ProShares Bitcoin Strategy ETF",
+  "short_name": "BITO",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Bloomberg Bitcoin",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "strategy",
+      "code": "digital_asset"
+    },
+    {
+      "dimension": "style",
+      "code": "bitcoin_futures"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "etf_id": "US-BND",
+  "ticker": "BND",
+  "quote_symbol": "BND",
+  "name": "Vanguard Total Bond Market ETF",
+  "short_name": "BND",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Bloomberg US Aggregate Float Adjusted",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "fixed_income"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "strategy",
+      "code": "aggregate_bond"
+    },
+    {
+      "dimension": "style",
+      "code": "core_bond"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}

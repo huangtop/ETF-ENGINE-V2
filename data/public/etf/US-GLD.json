@@ -1,0 +1,47 @@
+{
+  "etf_id": "US-GLD",
+  "ticker": "GLD",
+  "quote_symbol": "GLD",
+  "name": "SPDR Gold Shares",
+  "short_name": "GLD",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "LBMA Gold Price",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "commodity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "strategy",
+      "code": "commodity"
+    },
+    {
+      "dimension": "style",
+      "code": "gold"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}

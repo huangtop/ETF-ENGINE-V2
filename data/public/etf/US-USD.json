@@ -1,0 +1,43 @@
+{
+  "etf_id": "US-USD",
+  "ticker": "USD",
+  "quote_symbol": "USD",
+  "name": "ProShares Ultra Semiconductors",
+  "short_name": "USD",
+  "listing_market": "US",
+  "listing_exchange": "NYSE/NASDAQ",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "S&P 500 ETF",
+  "issuer": "ProShares Ultra Semiconductors",
+  "asset_class": "equity",
+  "is_thematic": true,
+  "active": true,
+  "classifications": [
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "region",
+      "code": "global_or_us"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "semiconductor"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "leveraged"
+    }
+  ],
+  "metrics": {},
+  "latest_price": null,
+  "trend": [],
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  }
+}
