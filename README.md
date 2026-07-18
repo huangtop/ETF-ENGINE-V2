@@ -82,3 +82,5 @@ Windows PowerShell：
 - Added granular AI layers: memory/HBM, semiconductors, cloud, software, data centers, networking, cybersecurity, robotics, autonomous systems and AI power infrastructure.
 - Added Top Holdings, Top-3/Top-10 concentration, stock-to-ETF reverse lookup and weighted ETF overlap analysis.
 - See `docs/US_AI_ETF.md` for the taxonomy and public JSON endpoints.
+
+cd /Users/xxx/Desktop/Python\ Code/Streamlit\ Project/ETF-Engine-v2 && source .venv/bin/activate && python -m etf_engine.cli run --market all

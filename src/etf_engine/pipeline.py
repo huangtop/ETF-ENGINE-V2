@@ -10,13 +10,26 @@ from etf_engine.settings import settings
 def run(market:str='all')->dict:
     settings.ensure_dirs(); seed=SeedRepository(); entities=[e for e in seed.entities() if e.active and (market=='all' or e.listing_market==market)]
     service=PriceService(); holding_service=HoldingService(); end=date.today(); start=end-timedelta(days=365*3+15); metrics=[]; errors=[]; holdings_synced=0; cache={}
-    def get(symbol:str):
-        if symbol in cache:return cache[symbol]
-        target=next((e for e in seed.entities() if e.quote_symbol==symbol),None)
+    def get(symbol: str):
+        if symbol in cache:
+            return cache[symbol]
+        target = next((e for e in seed.entities() if e.quote_symbol == symbol), None)
         if target is None:
             from etf_engine.models import ETFEntity
-            target=ETFEntity(etf_id=f'TMP-{symbol}',ticker=symbol,quote_symbol=symbol,name=symbol,listing_market='US',listing_exchange='US',currency='USD',benchmark_symbol=symbol)
-        cache[symbol]=service.sync(target,start,end); return cache[symbol]
+            # 為基準指數創建臨時實體，使用有效的 etf_id 格式
+            market_prefix = 'TW' if '.TW' in symbol else 'US'
+            target = ETFEntity(
+                etf_id=f'{market_prefix}-BENCH',
+                ticker=symbol.split('.')[0],
+                quote_symbol=symbol,
+                name=symbol,
+                listing_market=market_prefix,
+                listing_exchange='TWSE' if market_prefix == 'TW' else 'US',
+                currency='TWD' if market_prefix == 'TW' else 'USD',
+                benchmark_symbol=symbol
+            )
+        cache[symbol] = service.sync(target, start, end)
+        return cache[symbol]
     for entity in entities:
         try:
             prices=service.sync(entity,start,end); benchmark=get(entity.benchmark_symbol)
