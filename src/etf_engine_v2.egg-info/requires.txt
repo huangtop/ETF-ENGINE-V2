@@ -1,0 +1,12 @@
+pandas<3,>=2.2
+numpy<3,>=1.26
+requests<3,>=2.32
+yfinance<1,>=0.2.54
+pydantic<3,>=2.8
+pyarrow<22,>=17
+tenacity<10,>=9
+typer<1,>=0.12
+
+[dev]
+pytest<9,>=8
+ruff<1,>=0.8
