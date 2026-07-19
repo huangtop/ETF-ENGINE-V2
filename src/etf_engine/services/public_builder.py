@@ -17,6 +17,14 @@ def build_public() -> None:
     repo = SeedRepository()
     entities = [x.model_dump() for x in repo.entities()]
     classifications = [x.model_dump() for x in repo.classifications()]
+    
+    # 載入中文翻譯
+    translations_path = settings.seed_dir / "translations_zh.json"
+    translations = {}
+    if translations_path.exists():
+        trans_data = json.loads(translations_path.read_text(encoding="utf-8"))
+        translations = {t["etf_id"]: t["name_zh"] for t in trans_data}
+    
     metrics_path = settings.normalized_dir / "metrics" / "latest.json"
     metrics = json.loads(metrics_path.read_text(encoding="utf-8")) if metrics_path.exists() else []
     metric_map = {}
@@ -73,6 +81,7 @@ def build_public() -> None:
         }
         item = {
             **entity,
+            "name_zh": translations.get(entity["etf_id"]),  # 中文名稱
             "classifications": class_map.get(entity["etf_id"], []),
             "metrics": metric_map.get(entity["etf_id"], {}),
             "latest_price": latest_price,
