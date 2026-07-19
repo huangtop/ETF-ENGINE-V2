@@ -14,11 +14,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動國泰動能高息",
+    "short_name_en": "國泰動能高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動國泰動能高息",
+    "display_short_name": "國泰動能高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -27,6 +36,14 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "momentum"
       }
     ],
     "metrics": {
@@ -400,11 +417,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動摩根台灣鑫收",
+    "short_name_en": "摩根鑫收",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動摩根台灣鑫收",
+    "display_short_name": "摩根鑫收",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -413,6 +439,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -782,19 +812,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大中型100",
+    "short_name_en": "元大中型100",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大中型100",
+    "display_short_name": "元大中型100",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "market_cap",
+        "code": "mid_cap"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -3816,19 +3863,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦台灣科技",
+    "short_name_en": "富邦台灣科技",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦台灣科技",
+    "display_short_name": "富邦台灣科技",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       }
     ],
     "metrics": {
@@ -6830,19 +6890,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大 MSCI 台灣金融",
+    "short_name_en": "台灣金融",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大 MSCI 台灣金融",
+    "display_short_name": "台灣金融",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "financials"
       }
     ],
     "metrics": {
@@ -9864,19 +9937,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大高股息",
+    "short_name_en": "高股息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大高股息",
+    "display_short_name": "高股息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -12898,19 +12988,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦摩台",
+    "short_name_en": "富邦摩台",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦摩台",
+    "display_short_name": "富邦摩台",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -15916,19 +16019,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大富櫃50",
+    "short_name_en": "元大富櫃50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大富櫃50",
+    "display_short_name": "元大富櫃50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -18954,19 +19070,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大MSCI台灣",
+    "short_name_en": "元大MSCI台灣",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大MSCI台灣",
+    "display_short_name": "元大MSCI台灣",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -21980,19 +22109,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "永豐台灣加權",
+    "short_name_en": "永豐台灣加權",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "永豐台灣加權",
+    "display_short_name": "永豐台灣加權",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -25002,19 +25144,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦台50",
+    "short_name_en": "富邦台50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦台50",
+    "display_short_name": "富邦台50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -28036,7 +28191,12 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大S&P500",
+    "short_name_en": "元大S&P500",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大S&P500",
+    "display_short_name": "元大S&P500",
     "classifications": [
       {
         "dimension": "asset_class",
@@ -28051,8 +28211,8 @@
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "market_cap"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -31074,7 +31234,12 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦NASDAQ100",
+    "short_name_en": "富邦NASDAQ100",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦NASDAQ100",
+    "display_short_name": "富邦NASDAQ100",
     "classifications": [
       {
         "dimension": "asset_class",
@@ -31089,8 +31254,8 @@
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "market_cap"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -34112,19 +34277,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦公司治理",
+    "short_name_en": "富邦公司治理",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦公司治理",
+    "display_short_name": "富邦公司治理",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "esg"
       }
     ],
     "metrics": {
@@ -37146,15 +37324,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰股利精選30",
+    "short_name_en": "國泰股利精選",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰股利精選30",
+    "display_short_name": "國泰股利精選",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
       },
       {
         "dimension": "strategy",
@@ -40180,19 +40371,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰標普低波高息",
+    "short_name_en": "國泰標普低波高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰標普低波高息",
+    "display_short_name": "國泰標普低波高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "low_volatility"
       }
     ],
     "metrics": {
@@ -43214,19 +43422,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大台灣高息低波",
+    "short_name_en": "元大高息低波",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大台灣高息低波",
+    "display_short_name": "元大高息低波",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "low_volatility"
       }
     ],
     "metrics": {
@@ -46248,15 +46473,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦臺灣優質高息",
+    "short_name_en": "富邦優質高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦臺灣優質高息",
+    "display_short_name": "富邦優質高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
       },
       {
         "dimension": "strategy",
@@ -49282,19 +49520,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "復華富時高息低波",
+    "short_name_en": "復華高息低波",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "復華富時高息低波",
+    "display_short_name": "復華高息低波",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "low_volatility"
       }
     ],
     "metrics": {
@@ -52316,7 +52571,12 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "統一FANG+",
+    "short_name_en": "統一FANG+",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "統一FANG+",
+    "display_short_name": "統一FANG+",
     "classifications": [
       {
         "dimension": "asset_class",
@@ -52331,12 +52591,8 @@
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "market_cap"
-      },
-      {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -55358,19 +55614,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰北美科技",
+    "short_name_en": "國泰北美科技",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰北美科技",
+    "display_short_name": "國泰北美科技",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "united_states"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       }
     ],
     "metrics": {
@@ -58392,19 +58661,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰費城半導體",
+    "short_name_en": "費城半導體",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰費城半導體",
+    "display_short_name": "費城半導體",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -61426,19 +61712,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大全球未來通訊",
+    "short_name_en": "元大未來通訊",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大全球未來通訊",
+    "display_short_name": "元大未來通訊",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "global"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -64460,19 +64755,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰永續高股息",
+    "short_name_en": "國泰永續高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰永續高股息",
+    "display_short_name": "國泰永續高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "esg"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -67494,19 +67810,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰台灣科技龍頭",
+    "short_name_en": "國泰科技龍頭",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰台灣科技龍頭",
+    "display_short_name": "國泰科技龍頭",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       }
     ],
     "metrics": {
@@ -70528,19 +70857,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "中信關鍵半導體",
+    "short_name_en": "中信關鍵半導體",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "中信關鍵半導體",
+    "display_short_name": "中信關鍵半導體",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -73562,19 +73908,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦台灣半導體",
+    "short_name_en": "富邦台灣半導體",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦台灣半導體",
+    "display_short_name": "富邦台灣半導體",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -76596,19 +76959,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "國泰全球智能電動車",
+    "short_name_en": "國泰智能電車",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "國泰全球智能電動車",
+    "display_short_name": "國泰智能電車",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "global"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "automotive"
+      },
+      {
+        "dimension": "theme",
+        "code": "electric_vehicles"
       }
     ],
     "metrics": {
@@ -79630,19 +80010,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "中信小資高價30",
+    "short_name_en": "中信小資高價",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "中信小資高價30",
+    "display_short_name": "中信小資高價",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -82664,19 +83053,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦未來車",
+    "short_name_en": "富邦未來車",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦未來車",
+    "display_short_name": "富邦未來車",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "automotive"
+      },
+      {
+        "dimension": "theme",
+        "code": "electric_vehicles"
       }
     ],
     "metrics": {
@@ -85698,19 +86104,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "中信綠能及電動車",
+    "short_name_en": "中信綠能電車",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "中信綠能及電動車",
+    "display_short_name": "中信綠能電車",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "automotive"
+      },
+      {
+        "dimension": "theme",
+        "code": "electric_vehicles"
       }
     ],
     "metrics": {
@@ -88732,19 +89155,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "富邦特選高股息30",
+    "short_name_en": "富邦特選高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "富邦特選高股息30",
+    "display_short_name": "富邦特選高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -91766,19 +92206,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "新光臺灣半導體30",
+    "short_name_en": "新光台灣半導體",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "新光臺灣半導體30",
+    "display_short_name": "新光台灣半導體",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -94800,19 +95257,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "FT台灣Smart",
+    "short_name_en": "FT台灣Smart",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "FT台灣Smart",
+    "display_short_name": "FT台灣Smart",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "smart_beta"
       }
     ],
     "metrics": {
@@ -97834,15 +98304,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "永豐優息存股",
+    "short_name_en": "永豐優息存股",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "永豐優息存股",
+    "display_short_name": "永豐優息存股",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
       },
       {
         "dimension": "strategy",
@@ -100868,19 +101351,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "中信台灣智慧50",
+    "short_name_en": "中信智慧50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "中信台灣智慧50",
+    "display_short_name": "中信智慧50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "smart_beta"
       }
     ],
     "metrics": {
@@ -103902,19 +104398,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "兆豐台灣晶圓製造",
+    "short_name_en": "兆豐晶圓製造",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "兆豐台灣晶圓製造",
+    "display_short_name": "兆豐晶圓製造",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -106936,19 +107449,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "凱基優選高股息30",
+    "short_name_en": "凱基優選高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "凱基優選高股息30",
+    "display_short_name": "凱基優選高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -109970,19 +110500,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "大華優利高填息30",
+    "short_name_en": "大華優利高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "大華優利高填息30",
+    "display_short_name": "大華優利高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "high_dividend"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -113004,15 +113543,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "群益台灣精選高息",
+    "short_name_en": "群益精選高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "群益台灣精選高息",
+    "display_short_name": "群益精選高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
       },
       {
         "dimension": "strategy",
@@ -116038,19 +116590,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "兆豐龍頭等權重",
+    "short_name_en": "兆豐龍頭等權",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "兆豐龍頭等權重",
+    "display_short_name": "兆豐龍頭等權",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "sector"
+        "code": "equal_weight"
       }
     ],
     "metrics": {
@@ -119072,19 +119637,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "群益台ESG低碳50",
+    "short_name_en": "群益ESG低碳50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "群益台ESG低碳50",
+    "display_short_name": "群益ESG低碳50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "esg"
       }
     ],
     "metrics": {
@@ -122106,19 +122684,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "新光標普電動車",
+    "short_name_en": "新光標普電動車",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "新光標普電動車",
+    "display_short_name": "新光標普電動車",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "automotive"
+      },
+      {
+        "dimension": "theme",
+        "code": "electric_vehicles"
       }
     ],
     "metrics": {
@@ -124048,19 +124643,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "群益半導體收益",
+    "short_name_en": "群益半導體收益",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "群益半導體收益",
+    "display_short_name": "群益半導體收益",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
         "dimension": "strategy",
-        "code": "sector"
+        "code": "income"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -127082,15 +127698,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "復華台灣科技優息",
+    "short_name_en": "復華科技優息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "復華台灣科技優息",
+    "display_short_name": "復華科技優息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       },
       {
         "dimension": "strategy",
@@ -130116,15 +130749,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "永豐 ESG 低碳高息",
+    "short_name_en": "永豐ESG高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "永豐 ESG 低碳高息",
+    "display_short_name": "永豐ESG高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "esg"
       },
       {
         "dimension": "strategy",
@@ -133122,15 +133772,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "兆豐永續高息等權",
+    "short_name_en": "兆豐永續高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "兆豐永續高息等權",
+    "display_short_name": "兆豐永續高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "equal_weight"
+      },
+      {
+        "dimension": "strategy",
+        "code": "esg"
       },
       {
         "dimension": "strategy",
@@ -135988,19 +136659,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "中信成長高股息",
+    "short_name_en": "中信成長高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "中信成長高股息",
+    "display_short_name": "中信成長高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "growth"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -138694,19 +139386,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "野村台灣創新科技50",
+    "short_name_en": "野村創新科技",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "野村台灣創新科技50",
+    "display_short_name": "野村創新科技",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       }
     ],
     "metrics": {
@@ -141400,15 +142105,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "台新永續高息中小",
+    "short_name_en": "台新永續高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "台新永續高息中小",
+    "display_short_name": "台新永續高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "esg"
       },
       {
         "dimension": "strategy",
@@ -144086,19 +144808,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "統一台灣高息動能",
+    "short_name_en": "統一高息動能",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "統一台灣高息動能",
+    "display_short_name": "統一高息動能",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "momentum"
       }
     ],
     "metrics": {
@@ -146428,19 +147167,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "元大台灣價值高息",
+    "short_name_en": "元大價值高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "元大台灣價值高息",
+    "display_short_name": "元大價值高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "value"
       }
     ],
     "metrics": {
@@ -148738,19 +149494,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "中信上游半導體",
+    "short_name_en": "中信上游半導體",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "中信上游半導體",
+    "display_short_name": "中信上游半導體",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -151092,19 +151865,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "兆豐電子高股息等權",
+    "short_name_en": "兆豐電子高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "兆豐電子高股息等權",
+    "display_short_name": "兆豐電子高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "equal_weight"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -153274,19 +154068,36 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "野村趨勢動能高息",
+    "short_name_en": "野村動能高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "野村趨勢動能高息",
+    "display_short_name": "野村動能高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
         "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "momentum"
       }
     ],
     "metrics": {
@@ -155484,23 +156295,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "群益科技高息成長",
+    "short_name_en": "群益科技高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "群益科技高息成長",
+    "display_short_name": "群益科技高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "high_dividend"
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       },
       {
         "dimension": "strategy",
-        "code": "sector"
+        "code": "growth"
+      },
+      {
+        "dimension": "strategy",
+        "code": "high_dividend"
       }
     ],
     "metrics": {
@@ -157698,19 +158526,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "台新臺灣 IC 設計動能",
+    "short_name_en": "台新IC設計",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "台新臺灣 IC 設計動能",
+    "display_short_name": "台新IC設計",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "sector",
+        "code": "semiconductors"
+      },
+      {
         "dimension": "strategy",
-        "code": "sector"
+        "code": "momentum"
+      },
+      {
+        "dimension": "theme",
+        "code": "semiconductors"
       }
     ],
     "metrics": {
@@ -159816,19 +160665,28 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "凱基台灣AI 50",
+    "short_name_en": "凱基台灣AI50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "凱基台灣AI 50",
+    "display_short_name": "凱基台灣AI50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
-        "dimension": "strategy",
-        "code": "sector"
+        "dimension": "management_style",
+        "code": "passive"
       }
     ],
     "metrics": {
@@ -161698,15 +162556,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "FT臺灣永續高息",
+    "short_name_en": "FT永續高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "FT臺灣永續高息",
+    "display_short_name": "FT永續高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
+      },
+      {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
+        "dimension": "strategy",
+        "code": "esg"
       },
       {
         "dimension": "strategy",
@@ -163484,19 +164359,40 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "台新AI優息動能",
+    "short_name_en": "台新AI優息動能",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "台新AI優息動能",
+    "display_short_name": "台新AI優息動能",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "sector"
+        "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "momentum"
+      },
+      {
+        "dimension": "theme",
+        "code": "artificial_intelligence"
       }
     ],
     "metrics": {
@@ -165122,11 +166018,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動野村台灣優選",
+    "short_name_en": "野村優選",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動野村台灣優選",
+    "display_short_name": "野村優選",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -166420,19 +167325,32 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "凱基台灣TOP50",
+    "short_name_en": "凱基TOP50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "凱基台灣TOP50",
+    "display_short_name": "凱基TOP50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
       },
       {
+        "dimension": "geography",
+        "code": "taiwan"
+      },
+      {
         "dimension": "listing_market",
         "code": "tw"
       },
       {
+        "dimension": "management_style",
+        "code": "passive"
+      },
+      {
         "dimension": "strategy",
-        "code": "market_cap"
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -166926,11 +167844,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動統一台股增長",
+    "short_name_en": "統一成長",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動統一台股增長",
+    "display_short_name": "統一成長",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -166939,6 +167866,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "growth"
       }
     ],
     "metrics": {
@@ -168156,11 +169087,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動群益台灣強棒",
+    "short_name_en": "群益強棒",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動群益台灣強棒",
+    "display_short_name": "群益強棒",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -169394,11 +170334,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動中信ARK創新",
+    "short_name_en": "ARK創新",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動中信ARK創新",
+    "display_short_name": "ARK創新",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -170560,11 +171509,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動安聯台灣高息",
+    "short_name_en": "安聯高息",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動安聯台灣高息",
+    "display_short_name": "安聯高息",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -170573,6 +171531,14 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "high_dividend"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {
@@ -171650,11 +172616,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動野村台灣50",
+    "short_name_en": "野村台灣50",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動野村台灣50",
+    "display_short_name": "野村台灣50",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -171663,6 +172638,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "broad_market"
       }
     ],
     "metrics": {
@@ -172736,11 +173715,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動台新龍頭成長",
+    "short_name_en": "台新龍頭",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動台新龍頭成長",
+    "display_short_name": "台新龍頭",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -172749,6 +173737,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "growth"
       }
     ],
     "metrics": {
@@ -173706,11 +174698,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動台新優勢成長",
+    "short_name_en": "台新優勢",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動台新優勢成長",
+    "display_short_name": "台新優勢",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -173719,6 +174720,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "growth"
       }
     ],
     "metrics": {
@@ -174348,11 +175353,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動統一全球創新",
+    "short_name_en": "統一創新",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動統一全球創新",
+    "display_short_name": "統一創新",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "global"
       },
       {
         "dimension": "listing_market",
@@ -175146,11 +176160,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動摩根美國科技",
+    "short_name_en": "摩根美國科技",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動摩根美國科技",
+    "display_short_name": "摩根美國科技",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "united_states"
       },
       {
         "dimension": "listing_market",
@@ -175159,6 +176182,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       }
     ],
     "metrics": {
@@ -175964,11 +176991,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動元大 AI 新經濟",
+    "short_name_en": "元大AI新經濟",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動元大 AI 新經濟",
+    "display_short_name": "元大AI新經濟",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -175977,6 +177013,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "theme",
+        "code": "artificial_intelligence"
       }
     ],
     "metrics": {
@@ -176642,11 +177682,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動復華未來50",
+    "short_name_en": "復華未來",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動復華未來50",
+    "display_short_name": "復華未來",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -177304,11 +178353,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動群益台灣科技創新",
+    "short_name_en": "群益科技",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動群益台灣科技創新",
+    "display_short_name": "群益科技",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -177317,6 +178375,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "sector",
+        "code": "technology"
       }
     ],
     "metrics": {
@@ -177946,11 +179008,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動安聯台灣",
+    "short_name_en": "安聯台灣",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動安聯台灣",
+    "display_short_name": "安聯台灣",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -178488,11 +179559,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動第一金台股優",
+    "short_name_en": "第一金台股優",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動第一金台股優",
+    "display_short_name": "第一金台股優",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -179098,11 +180178,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動中信台灣卓越",
+    "short_name_en": "中信卓越",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動中信台灣卓越",
+    "display_short_name": "中信卓越",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -179668,11 +180757,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動兆豐台灣豐收",
+    "short_name_en": "兆豐豐收",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動兆豐台灣豐收",
+    "display_short_name": "兆豐豐收",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -180094,11 +181192,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動群益美國增長",
+    "short_name_en": "群益美國增長",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動群益美國增長",
+    "display_short_name": "群益美國增長",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "united_states"
       },
       {
         "dimension": "listing_market",
@@ -180107,6 +181214,10 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "strategy",
+        "code": "growth"
       }
     ],
     "metrics": {
@@ -180480,11 +181591,20 @@
     "asset_class": null,
     "is_thematic": false,
     "active": true,
+    "name_en": "主動復華金融股息",
+    "short_name_en": "復華金融",
     "name_zh": null,
+    "short_name_zh": null,
+    "display_name": "主動復華金融股息",
+    "display_short_name": "復華金融",
     "classifications": [
       {
         "dimension": "asset_class",
         "code": "equity"
+      },
+      {
+        "dimension": "geography",
+        "code": "taiwan"
       },
       {
         "dimension": "listing_market",
@@ -180493,6 +181613,14 @@
       {
         "dimension": "management_style",
         "code": "active"
+      },
+      {
+        "dimension": "sector",
+        "code": "financials"
+      },
+      {
+        "dimension": "strategy",
+        "code": "income"
       }
     ],
     "metrics": {},

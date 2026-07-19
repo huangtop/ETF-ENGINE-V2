@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard Total Stock Market ETF",
+  "short_name_en": "VTI",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Vanguard Total Stock Market ETF",
+  "display_short_name": "VTI",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "market_cap"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "total_market"
+      "dimension": "market_cap",
+      "code": "all_cap"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
     }
   ],
   "metrics": {

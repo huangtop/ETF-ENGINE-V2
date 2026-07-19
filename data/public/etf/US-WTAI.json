@@ -13,16 +13,13 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "WisdomTree Artificial Intelligence and Innovation Fund",
+  "short_name_en": "WTAI",
   "name_zh": "WisdomTree 人工智能與創新基金",
+  "short_name_zh": null,
+  "display_name": "WisdomTree 人工智能與創新基金",
+  "display_short_name": "WisdomTree 人工智能與創新基金",
   "classifications": [
-    {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
     {
       "dimension": "ai_layer",
       "code": "ai_core"
@@ -30,6 +27,30 @@
     {
       "dimension": "ai_layer",
       "code": "innovation"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
     }
   ],
   "metrics": {

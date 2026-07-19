@@ -13,11 +13,20 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "主動群益美國增長",
+  "short_name_en": "群益美國增長",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "主動群益美國增長",
+  "display_short_name": "群益美國增長",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
     },
     {
       "dimension": "listing_market",
@@ -26,6 +35,10 @@
     {
       "dimension": "management_style",
       "code": "active"
+    },
+    {
+      "dimension": "strategy",
+      "code": "growth"
     }
   ],
   "metrics": {

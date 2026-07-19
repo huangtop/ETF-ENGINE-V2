@@ -13,19 +13,32 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "元大富櫃50",
+  "short_name_en": "元大富櫃50",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "元大富櫃50",
+  "display_short_name": "元大富櫃50",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
       "dimension": "strategy",
-      "code": "market_cap"
+      "code": "broad_market"
     }
   ],
   "metrics": {

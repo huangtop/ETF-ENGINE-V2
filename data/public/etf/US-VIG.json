@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard Dividend Appreciation ETF",
+  "short_name_en": "VIG",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Vanguard Dividend Appreciation ETF",
+  "display_short_name": "VIG",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "dividend_growth"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "large_blend"
+      "dimension": "market_cap",
+      "code": "large_cap"
+    },
+    {
+      "dimension": "strategy",
+      "code": "dividend_growth"
     }
   ],
   "metrics": {

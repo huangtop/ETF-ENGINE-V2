@@ -13,19 +13,32 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "富邦公司治理",
+  "short_name_en": "富邦公司治理",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "富邦公司治理",
+  "display_short_name": "富邦公司治理",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
       "dimension": "strategy",
-      "code": "market_cap"
+      "code": "esg"
     }
   ],
   "metrics": {

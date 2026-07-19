@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Schwab U.S. Dividend Equity ETF",
+  "short_name_en": "SCHD",
   "name_zh": "Schwab 美國股利股票 ETF",
+  "short_name_zh": null,
+  "display_name": "Schwab 美國股利股票 ETF",
+  "display_short_name": "Schwab 美國股利股票 ETF",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,20 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "dividend"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "large_value"
+      "dimension": "market_cap",
+      "code": "large_cap"
+    },
+    {
+      "dimension": "strategy",
+      "code": "high_dividend"
+    },
+    {
+      "dimension": "strategy",
+      "code": "quality"
     }
   ],
   "metrics": {

@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "JPMorgan Equity Premium Income ETF",
+  "short_name_en": "JEPI",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "JPMorgan Equity Premium Income ETF",
+  "display_short_name": "JEPI",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,20 @@
       "code": "us"
     },
     {
+      "dimension": "management_style",
+      "code": "active"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
       "dimension": "strategy",
       "code": "covered_call"
     },
     {
-      "dimension": "style",
-      "code": "large_blend"
+      "dimension": "strategy",
+      "code": "income"
     }
   ],
   "metrics": {

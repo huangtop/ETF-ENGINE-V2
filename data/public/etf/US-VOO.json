@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard S&P 500 ETF",
+  "short_name_en": "VOO",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Vanguard S&P 500 ETF",
+  "display_short_name": "VOO",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "market_cap"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "large_blend"
+      "dimension": "market_cap",
+      "code": "large_cap"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
     }
   ],
   "metrics": {

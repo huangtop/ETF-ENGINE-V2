@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Financial Select Sector SPDR Fund",
+  "short_name_en": "XLF",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Financial Select Sector SPDR Fund",
+  "display_short_name": "XLF",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,11 +33,11 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "sector"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
+      "dimension": "sector",
       "code": "financials"
     }
   ],

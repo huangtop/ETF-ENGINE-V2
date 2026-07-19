@@ -13,19 +13,48 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Xtrackers Semiconductor Select Equity ETF",
+  "short_name_en": "CHPS",
   "name_zh": "Xtrackers 芯片精選股票 ETF",
+  "short_name_zh": null,
+  "display_name": "Xtrackers 芯片精選股票 ETF",
+  "display_short_name": "Xtrackers 芯片精選股票 ETF",
   "classifications": [
+    {
+      "dimension": "ai_layer",
+      "code": "semiconductor"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "semiconductors"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
     {
       "dimension": "theme",
       "code": "artificial_intelligence"
     },
     {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
-    {
-      "dimension": "ai_layer",
-      "code": "semiconductor"
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

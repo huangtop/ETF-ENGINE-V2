@@ -13,16 +13,13 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Roundhill Generative AI & Technology ETF",
+  "short_name_en": "CHAT",
   "name_zh": "Roundhill 生成式 AI 與科技 ETF",
+  "short_name_zh": null,
+  "display_name": "Roundhill 生成式 AI 與科技 ETF",
+  "display_short_name": "Roundhill 生成式 AI 與科技 ETF",
   "classifications": [
-    {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
     {
       "dimension": "ai_layer",
       "code": "ai_core"
@@ -38,6 +35,34 @@
     {
       "dimension": "ai_layer",
       "code": "software"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "active"
+    },
+    {
+      "dimension": "sector",
+      "code": "technology"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
     }
   ],
   "metrics": {

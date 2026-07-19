@@ -13,19 +13,32 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "FT台灣Smart",
+  "short_name_en": "FT台灣Smart",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "FT台灣Smart",
+  "display_short_name": "FT台灣Smart",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
       "dimension": "strategy",
-      "code": "market_cap"
+      "code": "smart_beta"
     }
   ],
   "metrics": {

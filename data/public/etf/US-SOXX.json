@@ -13,8 +13,25 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "iShares Semiconductor ETF",
+  "short_name_en": "SOXX",
   "name_zh": "iShares 費城半導體 ETF",
+  "short_name_zh": null,
+  "display_name": "iShares 費城半導體 ETF",
+  "display_short_name": "iShares 費城半導體 ETF",
   "classifications": [
+    {
+      "dimension": "ai_layer",
+      "code": "ai_compute"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "gpu"
+    },
+    {
+      "dimension": "ai_layer",
+      "code": "semiconductor"
+    },
     {
       "dimension": "asset_class",
       "code": "equity"
@@ -28,11 +45,11 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "sector"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
+      "dimension": "sector",
       "code": "semiconductors"
     },
     {
@@ -40,20 +57,8 @@
       "code": "artificial_intelligence"
     },
     {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
-    {
-      "dimension": "ai_layer",
-      "code": "semiconductor"
-    },
-    {
-      "dimension": "ai_layer",
-      "code": "gpu"
-    },
-    {
-      "dimension": "ai_layer",
-      "code": "ai_compute"
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

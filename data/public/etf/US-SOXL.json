@@ -13,23 +13,56 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Direxion Daily Semiconductor Bull 3X Shares",
+  "short_name_en": "SOXL",
   "name_zh": "Direxion 日漲3倍半導體 ETF",
+  "short_name_zh": null,
+  "display_name": "Direxion 日漲3倍半導體 ETF",
+  "display_short_name": "Direxion 日漲3倍半導體 ETF",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
+      "dimension": "ai_layer",
+      "code": "leveraged"
     },
     {
       "dimension": "ai_layer",
       "code": "semiconductor"
     },
     {
-      "dimension": "ai_layer",
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "semiconductors"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "strategy",
       "code": "leveraged"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

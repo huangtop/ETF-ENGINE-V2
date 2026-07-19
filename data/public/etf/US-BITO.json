@@ -13,11 +13,16 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "ProShares Bitcoin Strategy ETF",
+  "short_name_en": "BITO",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "ProShares Bitcoin Strategy ETF",
+  "display_short_name": "BITO",
   "classifications": [
     {
       "dimension": "asset_class",
-      "code": "equity"
+      "code": "digital_asset"
     },
     {
       "dimension": "geography",
@@ -28,11 +33,11 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "digital_asset"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
+      "dimension": "strategy",
       "code": "bitcoin_futures"
     }
   ],

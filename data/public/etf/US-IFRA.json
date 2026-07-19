@@ -13,19 +13,44 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "iShares U.S. Infrastructure ETF",
+  "short_name_en": "IFRA",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "iShares U.S. Infrastructure ETF",
+  "display_short_name": "IFRA",
   "classifications": [
+    {
+      "dimension": "ai_layer",
+      "code": "physical_infrastructure"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
     {
       "dimension": "theme",
       "code": "artificial_intelligence"
     },
     {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
-    {
-      "dimension": "ai_layer",
-      "code": "physical_infrastructure"
+      "dimension": "theme",
+      "code": "infrastructure"
     }
   ],
   "metrics": {

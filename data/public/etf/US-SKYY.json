@@ -13,23 +13,48 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "First Trust Cloud Computing ETF",
+  "short_name_en": "SKYY",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "First Trust Cloud Computing ETF",
+  "display_short_name": "SKYY",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
+      "dimension": "ai_layer",
+      "code": "ai_infrastructure"
     },
     {
       "dimension": "ai_layer",
       "code": "cloud"
     },
     {
-      "dimension": "ai_layer",
-      "code": "ai_infrastructure"
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "cloud_computing"
     }
   ],
   "metrics": {

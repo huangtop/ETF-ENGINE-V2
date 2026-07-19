@@ -13,23 +13,48 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "VanEck Uranium and Nuclear ETF",
+  "short_name_en": "NLR",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "VanEck Uranium and Nuclear ETF",
+  "display_short_name": "NLR",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
+      "dimension": "ai_layer",
+      "code": "ai_power"
     },
     {
       "dimension": "ai_layer",
       "code": "nuclear"
     },
     {
-      "dimension": "ai_layer",
-      "code": "ai_power"
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "nuclear_energy"
     }
   ],
   "metrics": {

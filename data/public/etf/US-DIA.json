@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "SPDR Dow Jones Industrial Average ETF Trust",
+  "short_name_en": "DIA",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "SPDR Dow Jones Industrial Average ETF Trust",
+  "display_short_name": "DIA",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "market_cap"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "large_value"
+      "dimension": "market_cap",
+      "code": "large_cap"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
     }
   ],
   "metrics": {

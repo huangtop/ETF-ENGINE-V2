@@ -13,23 +13,44 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "iShares North American Tech-Multimedia Networking ETF",
+  "short_name_en": "IGN",
   "name_zh": "iShares 北美科技-多媒體網絡 ETF",
+  "short_name_zh": null,
+  "display_name": "iShares 北美科技-多媒體網絡 ETF",
+  "display_short_name": "iShares 北美科技-多媒體網絡 ETF",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
+      "dimension": "ai_layer",
+      "code": "connectivity"
     },
     {
       "dimension": "ai_layer",
       "code": "networking"
     },
     {
-      "dimension": "ai_layer",
-      "code": "connectivity"
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
     }
   ],
   "metrics": {

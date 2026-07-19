@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard Total Bond Market ETF",
+  "short_name_en": "BND",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Vanguard Total Bond Market ETF",
+  "display_short_name": "BND",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,12 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "aggregate_bond"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "core_bond"
+      "dimension": "strategy",
+      "code": "aggregate_bond"
     }
   ],
   "metrics": {

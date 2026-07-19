@@ -13,11 +13,20 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "主動統一台股增長",
+  "short_name_en": "統一成長",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "主動統一台股增長",
+  "display_short_name": "統一成長",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "taiwan"
     },
     {
       "dimension": "listing_market",
@@ -26,6 +35,10 @@
     {
       "dimension": "management_style",
       "code": "active"
+    },
+    {
+      "dimension": "strategy",
+      "code": "growth"
     }
   ],
   "metrics": {

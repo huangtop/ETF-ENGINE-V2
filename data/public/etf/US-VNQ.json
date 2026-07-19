@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard Real Estate ETF",
+  "short_name_en": "VNQ",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Vanguard Real Estate ETF",
+  "display_short_name": "VNQ",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
       "code": "real_estate"
     },
     {
-      "dimension": "style",
-      "code": "us_reit"
+      "dimension": "strategy",
+      "code": "real_estate"
     }
   ],
   "metrics": {

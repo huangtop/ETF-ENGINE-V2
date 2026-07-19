@@ -13,19 +13,36 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "國泰全球智能電動車",
+  "short_name_en": "國泰智能電車",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "國泰全球智能電動車",
+  "display_short_name": "國泰智能電車",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "global"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
-      "dimension": "strategy",
-      "code": "sector"
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "automotive"
+    },
+    {
+      "dimension": "theme",
+      "code": "electric_vehicles"
     }
   ],
   "metrics": {

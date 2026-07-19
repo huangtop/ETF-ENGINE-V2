@@ -13,16 +13,13 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Global X Cloud Computing ETF",
+  "short_name_en": "CLOU",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Global X Cloud Computing ETF",
+  "display_short_name": "CLOU",
   "classifications": [
-    {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
     {
       "dimension": "ai_layer",
       "code": "cloud"
@@ -30,6 +27,34 @@
     {
       "dimension": "ai_layer",
       "code": "software"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "global"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "cloud_computing"
     }
   ],
   "metrics": {

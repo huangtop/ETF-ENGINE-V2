@@ -13,23 +13,52 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "SPDR S&P Semiconductor ETF",
+  "short_name_en": "XSD",
   "name_zh": "SPDR 標普半導體 ETF",
+  "short_name_zh": null,
+  "display_name": "SPDR 標普半導體 ETF",
+  "display_short_name": "SPDR 標普半導體 ETF",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
+      "dimension": "ai_layer",
+      "code": "equal_weight"
     },
     {
       "dimension": "ai_layer",
       "code": "semiconductor"
     },
     {
-      "dimension": "ai_layer",
-      "code": "equal_weight"
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "semiconductors"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

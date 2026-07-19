@@ -13,19 +13,40 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "中信成長高股息",
+  "short_name_en": "中信成長高息",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "中信成長高股息",
+  "display_short_name": "中信成長高息",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "growth"
+    },
+    {
       "dimension": "strategy",
       "code": "high_dividend"
+    },
+    {
+      "dimension": "strategy",
+      "code": "income"
     }
   ],
   "metrics": {

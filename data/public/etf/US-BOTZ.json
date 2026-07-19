@@ -13,27 +13,52 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Global X Robotics & Artificial Intelligence ETF",
+  "short_name_en": "BOTZ",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Global X Robotics & Artificial Intelligence ETF",
+  "display_short_name": "BOTZ",
   "classifications": [
-    {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
     {
       "dimension": "ai_layer",
       "code": "ai_core"
     },
     {
       "dimension": "ai_layer",
-      "code": "robotics"
+      "code": "automation"
     },
     {
       "dimension": "ai_layer",
-      "code": "automation"
+      "code": "robotics"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "global"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "robotics"
     }
   ],
   "metrics": {

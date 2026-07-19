@@ -13,16 +13,13 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Invesco AI and Next Gen Software ETF",
+  "short_name_en": "IGPT",
   "name_zh": "景順 AI 與下一代軟件 ETF",
+  "short_name_zh": null,
+  "display_name": "景順 AI 與下一代軟件 ETF",
+  "display_short_name": "景順 AI 與下一代軟件 ETF",
   "classifications": [
-    {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
     {
       "dimension": "ai_layer",
       "code": "ai_software"
@@ -30,6 +27,34 @@
     {
       "dimension": "ai_layer",
       "code": "software"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "technology"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
     }
   ],
   "metrics": {

@@ -13,11 +13,20 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "主動復華金融股息",
+  "short_name_en": "復華金融",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "主動復華金融股息",
+  "display_short_name": "復華金融",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "taiwan"
     },
     {
       "dimension": "listing_market",
@@ -26,6 +35,14 @@
     {
       "dimension": "management_style",
       "code": "active"
+    },
+    {
+      "dimension": "sector",
+      "code": "financials"
+    },
+    {
+      "dimension": "strategy",
+      "code": "income"
     }
   ],
   "metrics": {},

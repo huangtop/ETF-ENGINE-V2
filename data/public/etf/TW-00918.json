@@ -13,19 +13,28 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "大華優利高填息30",
+  "short_name_en": "大華優利高息",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "大華優利高填息30",
+  "display_short_name": "大華優利高息",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
-      "dimension": "strategy",
-      "code": "high_dividend"
+      "dimension": "management_style",
+      "code": "passive"
     }
   ],
   "metrics": {

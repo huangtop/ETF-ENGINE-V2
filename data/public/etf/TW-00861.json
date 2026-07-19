@@ -13,19 +13,28 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "元大全球未來通訊",
+  "short_name_en": "元大未來通訊",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "元大全球未來通訊",
+  "display_short_name": "元大未來通訊",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "global"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
-      "dimension": "strategy",
-      "code": "sector"
+      "dimension": "management_style",
+      "code": "passive"
     }
   ],
   "metrics": {

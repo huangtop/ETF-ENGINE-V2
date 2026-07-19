@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard FTSE Developed Markets ETF",
+  "short_name_en": "VEA",
   "name_zh": "Vanguard FTSE 發達市場 ETF",
+  "short_name_zh": null,
+  "display_name": "Vanguard FTSE 發達市場 ETF",
+  "display_short_name": "Vanguard FTSE 發達市場 ETF",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -21,19 +26,15 @@
     },
     {
       "dimension": "geography",
-      "code": "international"
+      "code": "developed_ex_us"
     },
     {
       "dimension": "listing_market",
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "market_cap"
-    },
-    {
-      "dimension": "style",
-      "code": "developed_ex_us"
+      "dimension": "management_style",
+      "code": "passive"
     }
   ],
   "metrics": {

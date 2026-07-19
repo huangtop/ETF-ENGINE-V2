@@ -13,19 +13,16 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Roundhill Memory ETF",
+  "short_name_en": "DRAM",
   "name_zh": "Roundhill 內存 ETF",
+  "short_name_zh": null,
+  "display_name": "Roundhill 內存 ETF",
+  "display_short_name": "Roundhill 內存 ETF",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
-    {
       "dimension": "ai_layer",
-      "code": "memory"
+      "code": "ai_compute"
     },
     {
       "dimension": "ai_layer",
@@ -33,11 +30,35 @@
     },
     {
       "dimension": "ai_layer",
-      "code": "storage"
+      "code": "memory"
     },
     {
       "dimension": "ai_layer",
-      "code": "ai_compute"
+      "code": "storage"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
     }
   ],
   "metrics": {

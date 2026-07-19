@@ -13,16 +13,13 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Global X Data Center & Digital Infrastructure ETF",
+  "short_name_en": "DTCR",
   "name_zh": "Global X 數據中心與數字基礎設施 ETF",
+  "short_name_zh": null,
+  "display_name": "Global X 數據中心與數字基礎設施 ETF",
+  "display_short_name": "Global X 數據中心與數字基礎設施 ETF",
   "classifications": [
-    {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
     {
       "dimension": "ai_layer",
       "code": "data_center"
@@ -30,6 +27,38 @@
     {
       "dimension": "ai_layer",
       "code": "digital_infrastructure"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "global"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "data_center"
+    },
+    {
+      "dimension": "theme",
+      "code": "infrastructure"
     }
   ],
   "metrics": {

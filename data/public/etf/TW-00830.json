@@ -13,19 +13,36 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "國泰費城半導體",
+  "short_name_en": "費城半導體",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "國泰費城半導體",
+  "display_short_name": "費城半導體",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
-      "dimension": "strategy",
-      "code": "sector"
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "semiconductors"
+    },
+    {
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

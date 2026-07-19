@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "iShares Core Dividend Growth ETF",
+  "short_name_en": "DGRO",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "iShares Core Dividend Growth ETF",
+  "display_short_name": "DGRO",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,20 @@
       "code": "us"
     },
     {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "market_cap",
+      "code": "large_cap"
+    },
+    {
       "dimension": "strategy",
       "code": "dividend_growth"
     },
     {
-      "dimension": "style",
-      "code": "large_blend"
+      "dimension": "strategy",
+      "code": "growth"
     }
   ],
   "metrics": {

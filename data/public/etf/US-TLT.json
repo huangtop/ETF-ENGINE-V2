@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "iShares 20+ Year Treasury Bond ETF",
+  "short_name_en": "TLT",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "iShares 20+ Year Treasury Bond ETF",
+  "display_short_name": "TLT",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,12 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "treasury"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "long_government"
+      "dimension": "strategy",
+      "code": "treasury"
     }
   ],
   "metrics": {

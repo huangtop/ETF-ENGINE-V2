@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "iShares 7-10 Year Treasury Bond ETF",
+  "short_name_en": "IEF",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "iShares 7-10 Year Treasury Bond ETF",
+  "display_short_name": "IEF",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,12 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "treasury"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "intermediate_government"
+      "dimension": "strategy",
+      "code": "treasury"
     }
   ],
   "metrics": {

@@ -13,11 +13,20 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "主動摩根美國科技",
+  "short_name_en": "摩根美國科技",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "主動摩根美國科技",
+  "display_short_name": "摩根美國科技",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
     },
     {
       "dimension": "listing_market",
@@ -26,6 +35,10 @@
     {
       "dimension": "management_style",
       "code": "active"
+    },
+    {
+      "dimension": "sector",
+      "code": "technology"
     }
   ],
   "metrics": {

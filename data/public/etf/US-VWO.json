@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Vanguard FTSE Emerging Markets ETF",
+  "short_name_en": "VWO",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Vanguard FTSE Emerging Markets ETF",
+  "display_short_name": "VWO",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -21,19 +26,15 @@
     },
     {
       "dimension": "geography",
-      "code": "international"
+      "code": "emerging_markets"
     },
     {
       "dimension": "listing_market",
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "market_cap"
-    },
-    {
-      "dimension": "style",
-      "code": "emerging_markets"
+      "dimension": "management_style",
+      "code": "passive"
     }
   ],
   "metrics": {

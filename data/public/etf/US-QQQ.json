@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "Invesco QQQ Trust",
+  "short_name_en": "QQQ",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "Invesco QQQ Trust",
+  "display_short_name": "QQQ",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
-      "dimension": "strategy",
-      "code": "growth"
+      "dimension": "management_style",
+      "code": "passive"
     },
     {
-      "dimension": "style",
-      "code": "large_growth"
+      "dimension": "market_cap",
+      "code": "large_cap"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
     }
   ],
   "metrics": {

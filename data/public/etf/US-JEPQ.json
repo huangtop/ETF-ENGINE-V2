@@ -13,7 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "JPMorgan Nasdaq Equity Premium Income ETF",
+  "short_name_en": "JEPQ",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "JPMorgan Nasdaq Equity Premium Income ETF",
+  "display_short_name": "JEPQ",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -28,12 +33,16 @@
       "code": "us"
     },
     {
+      "dimension": "management_style",
+      "code": "active"
+    },
+    {
       "dimension": "strategy",
       "code": "covered_call"
     },
     {
-      "dimension": "style",
-      "code": "large_growth"
+      "dimension": "strategy",
+      "code": "income"
     }
   ],
   "metrics": {

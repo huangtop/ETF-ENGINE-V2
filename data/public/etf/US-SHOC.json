@@ -13,19 +13,48 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Strive U.S. Semiconductor ETF",
+  "short_name_en": "SHOC",
   "name_zh": "Strive 美國半導體 ETF",
+  "short_name_zh": null,
+  "display_name": "Strive 美國半導體 ETF",
+  "display_short_name": "Strive 美國半導體 ETF",
   "classifications": [
+    {
+      "dimension": "ai_layer",
+      "code": "semiconductor"
+    },
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "semiconductors"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
     {
       "dimension": "theme",
       "code": "artificial_intelligence"
     },
     {
-      "dimension": "region",
-      "code": "global_or_us"
-    },
-    {
-      "dimension": "ai_layer",
-      "code": "semiconductor"
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

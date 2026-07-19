@@ -13,19 +13,40 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "群益半導體收益",
+  "short_name_en": "群益半導體收益",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "群益半導體收益",
+  "display_short_name": "群益半導體收益",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "semiconductors"
+    },
+    {
       "dimension": "strategy",
-      "code": "sector"
+      "code": "income"
+    },
+    {
+      "dimension": "theme",
+      "code": "semiconductors"
     }
   ],
   "metrics": {

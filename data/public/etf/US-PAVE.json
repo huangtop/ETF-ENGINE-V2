@@ -13,23 +13,48 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "name_en": "Global X U.S. Infrastructure Development ETF",
+  "short_name_en": "PAVE",
   "name_zh": "Global X 美國基礎設施發展 ETF",
+  "short_name_zh": null,
+  "display_name": "Global X 美國基礎設施發展 ETF",
+  "display_short_name": "Global X 美國基礎設施發展 ETF",
   "classifications": [
     {
-      "dimension": "theme",
-      "code": "artificial_intelligence"
-    },
-    {
-      "dimension": "region",
-      "code": "global_or_us"
+      "dimension": "ai_layer",
+      "code": "industrial_ai"
     },
     {
       "dimension": "ai_layer",
       "code": "physical_infrastructure"
     },
     {
-      "dimension": "ai_layer",
-      "code": "industrial_ai"
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "global"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    },
+    {
+      "dimension": "theme",
+      "code": "artificial_intelligence"
+    },
+    {
+      "dimension": "theme",
+      "code": "infrastructure"
     }
   ],
   "metrics": {

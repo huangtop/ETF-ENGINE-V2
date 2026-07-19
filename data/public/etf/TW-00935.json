@@ -13,19 +13,32 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "name_en": "野村台灣創新科技50",
+  "short_name_en": "野村創新科技",
   "name_zh": null,
+  "short_name_zh": null,
+  "display_name": "野村台灣創新科技50",
+  "display_short_name": "野村創新科技",
   "classifications": [
     {
       "dimension": "asset_class",
       "code": "equity"
     },
     {
+      "dimension": "geography",
+      "code": "taiwan"
+    },
+    {
       "dimension": "listing_market",
       "code": "tw"
     },
     {
-      "dimension": "strategy",
-      "code": "sector"
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "sector",
+      "code": "technology"
     }
   ],
   "metrics": {
