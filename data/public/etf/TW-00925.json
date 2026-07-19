@@ -47,19 +47,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": -1.5892,
+      "value": 1.5132,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -1.5892,
+      "value": 1.5132,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 34.14,
+      "value": 34.0542,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.0905,
+      "value": 0.0004,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -67,24 +67,24 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": -4.3063,
+      "value": -2.5243,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6887,
+      "value": 0.6842,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 28.8495,
+      "value": 28.8582,
       "unit": "percent"
     },
     "data_years": {
-      "value": 1.8452,
+      "value": 1.8571,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2025-06-04",
+    "date": "2025-06-10",
     "value": 16.1,
     "currency": "TWD"
   },
@@ -627,7 +627,7 @@
     },
     {
       "date": "2024-01-15",
-      "value": 87.12
+      "value": 88.12
     },
     {
       "date": "2024-01-16",
@@ -1948,12 +1948,109 @@
     {
       "date": "2025-06-04",
       "value": 89.79
+    },
+    {
+      "date": "2025-06-05",
+      "value": 89.79
+    },
+    {
+      "date": "2025-06-06",
+      "value": 89.79
+    },
+    {
+      "date": "2025-06-09",
+      "value": 89.79
+    },
+    {
+      "date": "2025-06-10",
+      "value": 89.79
     }
   ],
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "HMC",
+      "holding_name": "Honda Motor Co Ltd ADR",
+      "weight": 0.0907021,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.083697796,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "CMI",
+      "holding_name": "Cummins Inc",
+      "weight": 0.082003295,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "GM",
+      "holding_name": "General Motors Co",
+      "weight": 0.0796104,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "XPEV",
+      "holding_name": "XPeng Inc ADR",
+      "weight": 0.0784838,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "RIVN",
+      "holding_name": "Rivian Automotive Inc Class A",
+      "weight": 0.0597343,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "LI",
+      "holding_name": "Li Auto Inc ADR",
+      "weight": 0.0475127,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "TM",
+      "holding_name": "Toyota Motor Corp ADR",
+      "weight": 0.0469797,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "LCID",
+      "holding_name": "Lucid Group Inc Shs",
+      "weight": 0.041241497,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00925",
+      "holding_symbol": "BWA",
+      "holding_name": "BorgWarner Inc",
+      "weight": 0.0383016,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.648267,
+    "top_3_weight": 0.256403
   }
 }

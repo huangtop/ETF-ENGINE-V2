@@ -47,19 +47,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 64.016,
+      "value": 64.8975,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 64.016,
+      "value": 64.8975,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 23.4451,
+      "value": 23.4341,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.6665,
+      "value": 2.7054,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -67,15 +67,15 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": -4.5967,
+      "value": -4.5218,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7565,
+      "value": 0.7564,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 14.5617,
+      "value": 14.5901,
       "unit": "percent"
     },
     "data_years": {
@@ -627,7 +627,7 @@
     },
     {
       "date": "2024-01-15",
-      "value": 102.36
+      "value": 102.31
     },
     {
       "date": "2024-01-16",
@@ -811,7 +811,7 @@
     },
     {
       "date": "2024-03-29",
-      "value": 127.22
+      "value": 127.12
     },
     {
       "date": "2024-04-01",
@@ -3022,6 +3022,10 @@
       "value": 260.4
     },
     {
+      "date": "2026-07-10",
+      "value": 260.4
+    },
+    {
       "date": "2026-07-13",
       "value": 262.97
     },
@@ -3042,10 +3046,91 @@
       "value": 252.13
     }
   ],
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.1858221,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.1816208,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.1415904,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.058422998,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "TXN",
+      "holding_name": "Texas Instruments Inc",
+      "weight": 0.042300202,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "ETN",
+      "holding_name": "Eaton Corp PLC",
+      "weight": 0.0338688,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "UBER",
+      "holding_name": "Uber Technologies Inc",
+      "weight": 0.030555999,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "6501.T",
+      "holding_name": "Hitachi Ltd",
+      "weight": 0.0299587,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "ORLY",
+      "holding_name": "O'Reilly Automotive Inc",
+      "weight": 0.0263724,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    },
+    {
+      "etf_id": "TW-00895",
+      "holding_symbol": "GM",
+      "holding_name": "General Motors Co",
+      "weight": 0.0244044,
+      "as_of": "2026-07-19",
+      "source": "yahoo"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.754917,
+    "top_3_weight": 0.509033
   }
 }
