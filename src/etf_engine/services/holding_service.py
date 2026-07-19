@@ -1,112 +1,45 @@
 from __future__ import annotations
-
 import json
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-
-import pandas as pd
-
-from etf_engine.models import ETFEntity, HoldingRecord
+from etf_engine.models import ETFEntity
+from etf_engine.providers.holdings import ManualProvider, YahooProvider
 from etf_engine.settings import settings
 
-
 class HoldingService:
-    """Fetch and cache ETF holdings.
-
-    Yahoo's fund-data shape has changed across yfinance releases, so this adapter
-    accepts both DataFrame and dict-like payloads. A failed refresh never deletes
-    the last successful cache.
-    """
-
-    def path(self, etf_id: str) -> Path:
-        return settings.normalized_dir / "holdings" / f"{etf_id}.json"
-
-    def load(self, etf_id: str) -> list[dict[str, Any]]:
-        path = self.path(etf_id)
-        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
-
-    def sync(self, entity: ETFEntity) -> list[dict[str, Any]]:
-        try:
-            import yfinance as yf
-            ticker = yf.Ticker(entity.quote_symbol)
-            fund_data = ticker.funds_data
-            raw = getattr(fund_data, "top_holdings", None)
-            rows = self._normalize(entity.etf_id, raw)
-            if rows:
-                path = self.path(entity.etf_id)
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-                return rows
-        except Exception:
-            pass
-        return self.load(entity.etf_id)
-
-    def _normalize(self, etf_id: str, raw: Any) -> list[dict[str, Any]]:
-        if raw is None:
-            return []
-        if isinstance(raw, pd.DataFrame):
-            frame = raw.reset_index()
-            records = frame.to_dict("records")
-        elif isinstance(raw, dict):
-            records = []
-            for symbol, value in raw.items():
-                if isinstance(value, dict):
-                    records.append({"symbol": symbol, **value})
-                else:
-                    records.append({"symbol": symbol, "weight": value})
-        elif isinstance(raw, list):
-            records = raw
-        else:
-            return []
-
-        normalized: list[dict[str, Any]] = []
-        for row in records:
-            lowered = {str(k).lower().replace(" ", "_"): v for k, v in row.items()}
-            symbol = lowered.get("symbol") or lowered.get("holding_symbol") or lowered.get("ticker")
-            if not symbol:
-                symbol = lowered.get("index")
-            weight = lowered.get("holding_percent")
-            if weight is None:
-                weight = lowered.get("weight")
-            if weight is None:
-                weight = lowered.get("percent_assets")
+    def __init__(self, providers=None): self.providers=providers or [ManualProvider(),YahooProvider()]
+    def path(self,etf_id:str)->Path: return settings.normalized_dir/"holdings"/f"{etf_id}.json"
+    def load(self,etf_id:str)->list[dict[str,Any]]:
+        p=self.path(etf_id); return json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+    def _valid(self,entity:ETFEntity,rows:list[dict[str,Any]])->bool:
+        if not rows: return False
+        symbols=[x["holding_symbol"] for x in rows]
+        if len(symbols)!=len(set(symbols)): return False
+        total=sum(float(x["weight"]) for x in rows)
+        if entity.asset_class=="equity" and not (0.20 <= total <= 1.15): return False
+        return all(0 <= float(x["weight"]) <= 1 for x in rows)
+    def sync(self,entity:ETFEntity)->list[dict[str,Any]]:
+        errors=[]
+        for provider in self.providers:
             try:
-                weight = float(weight)
-            except (TypeError, ValueError):
-                continue
-            if weight > 1:
-                weight /= 100.0
-            name = lowered.get("name") or lowered.get("holding_name")
-            record = HoldingRecord(
-                etf_id=etf_id,
-                holding_symbol=str(symbol).upper(),
-                holding_name=str(name) if name else None,
-                weight=weight,
-                as_of=date.today(),
-            )
-            normalized.append(record.model_dump(mode="json"))
-        normalized.sort(key=lambda x: x["weight"], reverse=True)
-        return normalized[:100]
+                rows=provider.fetch(entity)
+                if self._valid(entity,rows):
+                    p=self.path(entity.etf_id); p.parent.mkdir(parents=True,exist_ok=True)
+                    p.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+                    self._write_state(entity.etf_id,"success",provider.name,len(rows),None)
+                    return rows
+            except Exception as exc: errors.append(f"{provider.name}: {exc}")
+        cached=self.load(entity.etf_id)
+        self._write_state(entity.etf_id,"cached" if cached else "failed",None,len(cached),"; ".join(errors))
+        return cached
+    def _write_state(self,etf_id,status,source,count,error):
+        p=settings.state_dir/"holdings_sync.json"; state=json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+        state[etf_id]={"status":status,"source":source,"holding_count":count,"error":error,"updated_at":datetime.now(timezone.utc).isoformat()}
+        p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
-
-def overlap(left: list[dict[str, Any]], right: list[dict[str, Any]]) -> dict[str, Any]:
-    """Weighted overlap: sum of the lower weight for every shared holding."""
-    lmap = {x["holding_symbol"]: float(x["weight"]) for x in left}
-    rmap = {x["holding_symbol"]: float(x["weight"]) for x in right}
-    shared = sorted(set(lmap) & set(rmap))
-    details = [
-        {
-            "holding_symbol": symbol,
-            "left_weight": round(lmap[symbol], 6),
-            "right_weight": round(rmap[symbol], 6),
-            "overlap_weight": round(min(lmap[symbol], rmap[symbol]), 6),
-        }
-        for symbol in shared
-    ]
-    details.sort(key=lambda x: x["overlap_weight"], reverse=True)
-    return {
-        "overlap_ratio": round(sum(x["overlap_weight"] for x in details), 6),
-        "shared_holdings_count": len(details),
-        "shared_holdings": details,
-    }
+def overlap(left,right):
+    l={x["holding_symbol"]:float(x["weight"]) for x in left}; r={x["holding_symbol"]:float(x["weight"]) for x in right}; shared=sorted(set(l)&set(r))
+    details=[{"holding_symbol":s,"left_weight":round(l[s],6),"right_weight":round(r[s],6),"overlap_weight":round(min(l[s],r[s]),6)} for s in shared]
+    details.sort(key=lambda x:x["overlap_weight"],reverse=True)
+    return {"overlap_ratio":round(sum(x["overlap_weight"] for x in details),6),"shared_holdings_count":len(details),"shared_holdings":details}
