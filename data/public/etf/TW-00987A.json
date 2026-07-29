@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動台新優勢成長",
   "display_short_name": "台新優勢",
+  "display_label": "(00987A)主動台新優勢成長",
+  "bilingual_name": "主動台新優勢成長",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -43,45 +45,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 43.1,
+      "value": 23.9,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 74.3918,
+      "value": 40.6946,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 43.182,
+      "value": 44.917,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.688,
+      "value": 0.8726,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -25.3855,
+      "value": -31.7731,
       "unit": "percent"
     },
     "alpha": {
-      "value": -30.7093,
+      "value": -41.5889,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.1406,
+      "value": 1.1756,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 26.396,
+      "value": 26.8112,
       "unit": "percent"
     },
     "data_years": {
-      "value": 0.5794,
+      "value": 0.5873,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 14.31,
+    "date": "2026-07-29",
+    "value": 12.39,
     "currency": "TWD"
   },
   "trend": [
@@ -668,93 +670,161 @@
     {
       "date": "2026-07-27",
       "value": 143.1
+    },
+    {
+      "date": "2026-07-28",
+      "value": 133.5
+    },
+    {
+      "date": "2026-07-29",
+      "value": 123.9
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00987A",
-      "holding_symbol": "2330.TW",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0811554,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00987A",
       "holding_symbol": "3017.TW",
       "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.0684976,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0731131,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Asia Vital Components Co Ltd",
+      "holding_name_zh": "奇鋐",
+      "display_name": "奇鋐",
+      "display_label": "(3017.TW)奇鋐",
+      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
     },
     {
       "etf_id": "TW-00987A",
-      "holding_symbol": "6223.TWO",
-      "holding_name": "MPI Corp",
-      "weight": 0.063039,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.0730289,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "TW-00987A",
-      "holding_symbol": "6274.TWO",
-      "holding_name": "Taiwan Union Technology Corp",
-      "weight": 0.0554307,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00987A",
-      "holding_symbol": "3665.TW",
-      "holding_name": "Bizlink Holding Inc",
-      "weight": 0.0542422,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00987A",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0457084,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00987A",
-      "holding_symbol": "8299.TWO",
-      "holding_name": "Phison Electronics Corp",
-      "weight": 0.044812102,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00987A",
-      "holding_symbol": "3653.TW",
-      "holding_name": "Jentech Precision Industrial Co Ltd",
-      "weight": 0.044363998,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3037.TW",
+      "holding_name": "Unimicron Technology Corp",
+      "weight": 0.0684499,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Unimicron Technology Corp",
+      "holding_name_zh": "欣興",
+      "display_name": "欣興",
+      "display_label": "(3037.TW)欣興",
+      "bilingual_name": "Unimicron Technology Corp（欣興）"
     },
     {
       "etf_id": "TW-00987A",
       "holding_symbol": "2383.TW",
       "holding_name": "Elite Material Co Ltd",
-      "weight": 0.042214297,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0617025,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Elite Material Co Ltd",
+      "holding_name_zh": "台光電",
+      "display_name": "台光電",
+      "display_label": "(2383.TW)台光電",
+      "bilingual_name": "Elite Material Co Ltd（台光電）"
     },
     {
       "etf_id": "TW-00987A",
-      "holding_symbol": "2345.TW",
-      "holding_name": "Accton Technology Corp",
-      "weight": 0.041188203,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0553626,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": null,
+      "display_name": "MPI Corp",
+      "display_label": "(6223.TWO)MPI Corp",
+      "bilingual_name": "MPI Corp"
+    },
+    {
+      "etf_id": "TW-00987A",
+      "holding_symbol": "8996.TW",
+      "holding_name": "Kaori Heat Treatment Co Ltd",
+      "weight": 0.0454032,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Kaori Heat Treatment Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Kaori Heat Treatment Co Ltd",
+      "display_label": "(8996.TW)Kaori Heat Treatment Co Ltd",
+      "bilingual_name": "Kaori Heat Treatment Co Ltd"
+    },
+    {
+      "etf_id": "TW-00987A",
+      "holding_symbol": "6805.TW",
+      "holding_name": "Fositek Corp Ordinary Shares",
+      "weight": 0.0429891,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Fositek Corp Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Fositek Corp Ordinary Shares",
+      "display_label": "(6805.TW)Fositek Corp Ordinary Shares",
+      "bilingual_name": "Fositek Corp Ordinary Shares"
+    },
+    {
+      "etf_id": "TW-00987A",
+      "holding_symbol": "2327.TW",
+      "holding_name": "Yageo Corp",
+      "weight": 0.0426053,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Yageo Corp",
+      "holding_name_zh": "國巨",
+      "display_name": "國巨",
+      "display_label": "(2327.TW)國巨",
+      "bilingual_name": "Yageo Corp（國巨）"
+    },
+    {
+      "etf_id": "TW-00987A",
+      "holding_symbol": "6274.TWO",
+      "holding_name": "Taiwan Union Technology Corp",
+      "weight": 0.0424234,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Taiwan Union Technology Corp",
+      "holding_name_zh": null,
+      "display_name": "Taiwan Union Technology Corp",
+      "display_label": "(6274.TWO)Taiwan Union Technology Corp",
+      "bilingual_name": "Taiwan Union Technology Corp"
+    },
+    {
+      "etf_id": "TW-00987A",
+      "holding_symbol": "3443.TW",
+      "holding_name": "Global Unichip Corp",
+      "weight": 0.0391508,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Global Unichip Corp",
+      "holding_name_zh": null,
+      "display_name": "Global Unichip Corp",
+      "display_label": "(3443.TW)Global Unichip Corp",
+      "bilingual_name": "Global Unichip Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.540652,
-    "top_3_weight": 0.212692
+    "top_10_weight": 0.544229,
+    "top_3_weight": 0.214592
   }
 }

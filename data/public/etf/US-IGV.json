@@ -15,10 +15,12 @@
   "active": true,
   "name_en": "iShares Expanded Tech-Software Sector ETF",
   "short_name_en": "IGV",
-  "name_zh": null,
+  "name_zh": "iShares 擴展科技軟體類股 ETF",
   "short_name_zh": null,
-  "display_name": "iShares Expanded Tech-Software Sector ETF",
-  "display_short_name": "IGV",
+  "display_name": "iShares 擴展科技軟體類股 ETF",
+  "display_short_name": "iShares 擴展科技軟體類股 ETF",
+  "display_label": "(IGV)iShares 擴展科技軟體類股 ETF",
+  "bilingual_name": "iShares Expanded Tech-Software Sector ETF（iShares 擴展科技軟體類股 ETF）",
   "classifications": [
     {
       "dimension": "ai_layer",
@@ -91,7 +93,7 @@
       "unit": "percent"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     }
   },
@@ -3132,80 +3134,140 @@
       "holding_symbol": "PANW",
       "holding_name": "Palo Alto Networks Inc",
       "weight": 0.1037125,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Palo Alto Networks Inc",
+      "holding_name_zh": "Palo Alto Networks",
+      "display_name": "Palo Alto Networks",
+      "display_label": "(PANW)Palo Alto Networks",
+      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
       "weight": 0.0807212,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "PLTR",
       "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.077045895,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0770459,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "holding_name_zh": "Palantir Technologies",
+      "display_name": "Palantir Technologies",
+      "display_label": "(PLTR)Palantir Technologies",
+      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "CRWD",
       "holding_name": "CrowdStrike Holdings Inc Class A",
       "weight": 0.0728425,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "CrowdStrike Holdings Inc Class A",
+      "holding_name_zh": "CrowdStrike",
+      "display_name": "CrowdStrike",
+      "display_label": "(CRWD)CrowdStrike",
+      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "ORCL",
       "holding_name": "Oracle Corp",
       "weight": 0.0626129,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Oracle Corp",
+      "holding_name_zh": null,
+      "display_name": "Oracle Corp",
+      "display_label": "(ORCL)Oracle Corp",
+      "bilingual_name": "Oracle Corp"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "CRM",
       "holding_name": "Salesforce Inc",
       "weight": 0.0480586,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Salesforce Inc",
+      "holding_name_zh": null,
+      "display_name": "Salesforce Inc",
+      "display_label": "(CRM)Salesforce Inc",
+      "bilingual_name": "Salesforce Inc"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "APP",
       "holding_name": "AppLovin Corp Ordinary Shares - Class A",
       "weight": 0.0475776,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "AppLovin Corp Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "AppLovin Corp Ordinary Shares - Class A",
+      "display_label": "(APP)AppLovin Corp Ordinary Shares - Class A",
+      "bilingual_name": "AppLovin Corp Ordinary Shares - Class A"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "CDNS",
       "holding_name": "Cadence Design Systems Inc",
-      "weight": 0.039140698,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0391407,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Cadence Design Systems Inc",
+      "holding_name_zh": null,
+      "display_name": "Cadence Design Systems Inc",
+      "display_label": "(CDNS)Cadence Design Systems Inc",
+      "bilingual_name": "Cadence Design Systems Inc"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "NOW",
       "holding_name": "ServiceNow Inc",
       "weight": 0.0387126,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "ServiceNow Inc",
+      "holding_name_zh": null,
+      "display_name": "ServiceNow Inc",
+      "display_label": "(NOW)ServiceNow Inc",
+      "bilingual_name": "ServiceNow Inc"
     },
     {
       "etf_id": "US-IGV",
       "holding_symbol": "FTNT",
       "holding_name": "Fortinet Inc",
       "weight": 0.0361719,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Fortinet Inc",
+      "holding_name_zh": "Fortinet",
+      "display_name": "Fortinet",
+      "display_label": "(FTNT)Fortinet",
+      "bilingual_name": "Fortinet Inc（Fortinet）"
     }
   ],
   "holdings_summary": {

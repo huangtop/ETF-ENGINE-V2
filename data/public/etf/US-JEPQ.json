@@ -15,10 +15,12 @@
   "active": true,
   "name_en": "JPMorgan Nasdaq Equity Premium Income ETF",
   "short_name_en": "JEPQ",
-  "name_zh": null,
+  "name_zh": "JPMorgan Nasdaq 股票溢價收益主動型 ETF",
   "short_name_zh": null,
-  "display_name": "JPMorgan Nasdaq Equity Premium Income ETF",
-  "display_short_name": "JEPQ",
+  "display_name": "JPMorgan Nasdaq 股票溢價收益主動型 ETF",
+  "display_short_name": "JPMorgan Nasdaq 股票溢價收益主動型 ETF",
+  "display_label": "(JEPQ)JPMorgan Nasdaq 股票溢價收益主動型 ETF",
+  "bilingual_name": "JPMorgan Nasdaq Equity Premium Income ETF（JPMorgan Nasdaq 股票溢價收益主動型 ETF）",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -79,7 +81,7 @@
       "unit": "percent"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     }
   },
@@ -367,7 +369,7 @@
     },
     {
       "date": "2023-10-30",
-      "value": 96.68
+      "value": 96.67
     },
     {
       "date": "2023-10-31",
@@ -723,7 +725,7 @@
     },
     {
       "date": "2024-03-08",
-      "value": 116.52
+      "value": 116.53
     },
     {
       "date": "2024-03-11",
@@ -2567,7 +2569,7 @@
     },
     {
       "date": "2026-01-09",
-      "value": 157.91
+      "value": 157.9
     },
     {
       "date": "2026-01-12",
@@ -3120,80 +3122,140 @@
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
       "weight": 0.0662365,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
       "weight": 0.0577464,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
       "weight": 0.055289,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "GOOG",
       "holding_name": "Alphabet Inc Class C",
       "weight": 0.0500319,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
       "weight": 0.038645,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
       "weight": 0.0383076,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
       "weight": 0.0364199,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "LRCX",
       "holding_name": "Lam Research Corp",
-      "weight": 0.028649298,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0286493,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "TSLA",
       "holding_name": "Tesla Inc",
       "weight": 0.0236834,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
       "weight": 0.0235766,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
     }
   ],
   "holdings_summary": {

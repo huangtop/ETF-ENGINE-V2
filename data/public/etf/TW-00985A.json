@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動野村台灣50",
   "display_short_name": "野村台灣50",
+  "display_label": "(00985A)主動野村台灣50",
+  "bilingual_name": "主動野村台灣50",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -43,45 +45,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 107.1,
+      "value": 86.4865,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 107.1,
+      "value": 86.4865,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 26.0892,
+      "value": 27.2043,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 4.0477,
+      "value": 3.124,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -12.7993,
+      "value": -18.8942,
       "unit": "percent"
     },
     "alpha": {
-      "value": 8.7686,
+      "value": 5.5847,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9113,
+      "value": 0.9316,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 11.3426,
+      "value": 11.4305,
       "unit": "percent"
     },
     "data_years": {
-      "value": 1.0198,
+      "value": 1.0278,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 20.71,
+    "date": "2026-07-29",
+    "value": 18.63,
     "currency": "TWD"
   },
   "trend": [
@@ -1112,6 +1114,14 @@
     {
       "date": "2026-07-27",
       "value": 207.1
+    },
+    {
+      "date": "2026-07-28",
+      "value": 196.0
+    },
+    {
+      "date": "2026-07-29",
+      "value": 186.3
     }
   ],
   "top_holdings": [
@@ -1119,86 +1129,146 @@
       "etf_id": "TW-00985A",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.24274759,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.2509599,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "TW-00985A",
-      "holding_symbol": "2395.TW",
-      "holding_name": "Advantech Co Ltd",
-      "weight": 0.0559097,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3131.TWO",
+      "holding_name": "Grand Process Technology Corp",
+      "weight": 0.0289709,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Grand Process Technology Corp",
+      "holding_name_zh": null,
+      "display_name": "Grand Process Technology Corp",
+      "display_label": "(3131.TWO)Grand Process Technology Corp",
+      "bilingual_name": "Grand Process Technology Corp"
+    },
+    {
+      "etf_id": "TW-00985A",
+      "holding_symbol": "2059.TW",
+      "holding_name": "King Slide Works Co Ltd",
+      "weight": 0.0258736,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "King Slide Works Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "King Slide Works Co Ltd",
+      "display_label": "(2059.TW)King Slide Works Co Ltd",
+      "bilingual_name": "King Slide Works Co Ltd"
+    },
+    {
+      "etf_id": "TW-00985A",
+      "holding_symbol": "4958.TW",
+      "holding_name": "Zhen Ding Technology Holding Ltd",
+      "weight": 0.0247211,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Zhen Ding Technology Holding Ltd",
+      "holding_name_zh": null,
+      "display_name": "Zhen Ding Technology Holding Ltd",
+      "display_label": "(4958.TW)Zhen Ding Technology Holding Ltd",
+      "bilingual_name": "Zhen Ding Technology Holding Ltd"
+    },
+    {
+      "etf_id": "TW-00985A",
+      "holding_symbol": "8046.TW",
+      "holding_name": "Nan Ya Printed Circuit Board Corp",
+      "weight": 0.0246569,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Nan Ya Printed Circuit Board Corp",
+      "holding_name_zh": null,
+      "display_name": "Nan Ya Printed Circuit Board Corp",
+      "display_label": "(8046.TW)Nan Ya Printed Circuit Board Corp",
+      "bilingual_name": "Nan Ya Printed Circuit Board Corp"
+    },
+    {
+      "etf_id": "TW-00985A",
+      "holding_symbol": "3661.TW",
+      "holding_name": "Alchip Technologies Ltd",
+      "weight": 0.0242261,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Alchip Technologies Ltd",
+      "holding_name_zh": null,
+      "display_name": "Alchip Technologies Ltd",
+      "display_label": "(3661.TW)Alchip Technologies Ltd",
+      "bilingual_name": "Alchip Technologies Ltd"
     },
     {
       "etf_id": "TW-00985A",
       "holding_symbol": "2412.TW",
       "holding_name": "Chunghwa Telecom Co Ltd",
-      "weight": 0.0442904,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0239037,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Chunghwa Telecom Co Ltd",
+      "holding_name_zh": "中華電",
+      "display_name": "中華電",
+      "display_label": "(2412.TW)中華電",
+      "bilingual_name": "Chunghwa Telecom Co Ltd（中華電）"
     },
     {
       "etf_id": "TW-00985A",
-      "holding_symbol": "1216.TW",
-      "holding_name": "Uni-President Enterprises Corp",
-      "weight": 0.0351384,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00985A",
-      "holding_symbol": "3293.TWO",
-      "holding_name": "International Games System Co Ltd",
-      "weight": 0.0349894,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00985A",
-      "holding_symbol": "4904.TW",
-      "holding_name": "Far EasTone Telecommunications Co Ltd",
-      "weight": 0.027598701,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00985A",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0271424,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00985A",
-      "holding_symbol": "2881.TW",
-      "holding_name": "Fubon Financial Holdings Co Ltd",
-      "weight": 0.021683801,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00985A",
-      "holding_symbol": "4749.TWO",
-      "holding_name": "Advanced Echem Materials Co Ltd",
-      "weight": 0.0194231,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2376.TW",
+      "holding_name": "Gigabyte Technology Co Ltd",
+      "weight": 0.0236305,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Gigabyte Technology Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Gigabyte Technology Co Ltd",
+      "display_label": "(2376.TW)Gigabyte Technology Co Ltd",
+      "bilingual_name": "Gigabyte Technology Co Ltd"
     },
     {
       "etf_id": "TW-00985A",
       "holding_symbol": "2360.TW",
       "holding_name": "Chroma Ate Inc",
-      "weight": 0.018008899,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0233957,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Chroma Ate Inc",
+      "holding_name_zh": "致茂",
+      "display_name": "致茂",
+      "display_label": "(2360.TW)致茂",
+      "bilingual_name": "Chroma Ate Inc（致茂）"
+    },
+    {
+      "etf_id": "TW-00985A",
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0231448,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": null,
+      "display_name": "MPI Corp",
+      "display_label": "(6223.TWO)MPI Corp",
+      "bilingual_name": "MPI Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.526932,
-    "top_3_weight": 0.342948
+    "top_10_weight": 0.473483,
+    "top_3_weight": 0.305804
   }
 }

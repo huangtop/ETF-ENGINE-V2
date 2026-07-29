@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動中信ARK創新",
   "display_short_name": "ARK創新",
+  "display_label": "(00983A)主動中信ARK創新",
+  "bilingual_name": "主動中信ARK創新",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -39,19 +41,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 5.0046,
+      "value": 1.3711,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 5.0046,
+      "value": 1.3711,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 30.199,
+      "value": 30.1823,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.1161,
+      "value": -0.0043,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -59,25 +61,25 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": -46.3672,
+      "value": -41.4986,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7469,
+      "value": 0.7238,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 24.14,
+      "value": 24.4351,
       "unit": "percent"
     },
     "data_years": {
-      "value": 1.0992,
+      "value": 1.1071,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 11.33,
+    "date": "2026-07-29",
+    "value": 11.09,
     "currency": "TWD"
   },
   "trend": [
@@ -1188,6 +1190,14 @@
     {
       "date": "2026-07-27",
       "value": 113.3
+    },
+    {
+      "date": "2026-07-28",
+      "value": 110.6
+    },
+    {
+      "date": "2026-07-29",
+      "value": 110.9
     }
   ],
   "top_holdings": [
@@ -1196,80 +1206,140 @@
       "holding_symbol": "TSLA",
       "holding_name": "Tesla Inc",
       "weight": 0.09060001,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
       "weight": 0.0677,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "HOOD",
       "holding_name": "Robinhood Markets Inc Class A",
-      "weight": 0.060900003,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0609,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Robinhood Markets Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Robinhood Markets Inc Class A",
+      "display_label": "(HOOD)Robinhood Markets Inc Class A",
+      "bilingual_name": "Robinhood Markets Inc Class A"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "TXG",
       "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
       "weight": 0.0517,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "10x Genomics Inc Ordinary Shares - Class A",
+      "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
+      "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "TWST",
       "holding_name": "Twist Bioscience Corp",
       "weight": 0.0513,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Twist Bioscience Corp",
+      "holding_name_zh": null,
+      "display_name": "Twist Bioscience Corp",
+      "display_label": "(TWST)Twist Bioscience Corp",
+      "bilingual_name": "Twist Bioscience Corp"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "TEM",
       "holding_name": "Tempus AI Inc Class A common stock",
       "weight": 0.0484,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Tempus AI Inc Class A common stock",
+      "holding_name_zh": null,
+      "display_name": "Tempus AI Inc Class A common stock",
+      "display_label": "(TEM)Tempus AI Inc Class A common stock",
+      "bilingual_name": "Tempus AI Inc Class A common stock"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "SPCX",
       "holding_name": "Space Exploration Technologies Corp Class A",
       "weight": 0.0432,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Space Exploration Technologies Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Space Exploration Technologies Corp Class A",
+      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+      "bilingual_name": "Space Exploration Technologies Corp Class A"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "TSM",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
       "weight": 0.0424,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "holding_name_zh": "台積電ADR",
+      "display_name": "台積電ADR",
+      "display_label": "(TSM)台積電ADR",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "BEAM",
       "holding_name": "Beam Therapeutics Inc",
       "weight": 0.0383,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Beam Therapeutics Inc",
+      "holding_name_zh": null,
+      "display_name": "Beam Therapeutics Inc",
+      "display_label": "(BEAM)Beam Therapeutics Inc",
+      "bilingual_name": "Beam Therapeutics Inc"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "CRSP",
       "holding_name": "CRISPR Therapeutics AG",
       "weight": 0.0342,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "CRISPR Therapeutics AG",
+      "holding_name_zh": null,
+      "display_name": "CRISPR Therapeutics AG",
+      "display_label": "(CRSP)CRISPR Therapeutics AG",
+      "bilingual_name": "CRISPR Therapeutics AG"
     }
   ],
   "holdings_summary": {

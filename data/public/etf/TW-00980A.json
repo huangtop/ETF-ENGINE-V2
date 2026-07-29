@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動野村台灣優選",
   "display_short_name": "野村優選",
+  "display_label": "(00980A)主動野村台灣優選",
+  "bilingual_name": "主動野村台灣優選",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -39,45 +41,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 105.9766,
+      "value": 79.1524,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 105.9766,
+      "value": 79.1524,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 29.2649,
+      "value": 30.704,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.57,
+      "value": 2.5291,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -17.8141,
+      "value": -23.8429,
       "unit": "percent"
     },
     "alpha": {
-      "value": 4.8518,
+      "value": -1.8041,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9681,
+      "value": 0.9981,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 15.1176,
+      "value": 15.4846,
       "unit": "percent"
     },
     "data_years": {
-      "value": 1.2302,
+      "value": 1.2381,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 22.28,
+    "date": "2026-07-29",
+    "value": 19.58,
     "currency": "TWD"
   },
   "trend": [
@@ -1320,6 +1322,14 @@
     {
       "date": "2026-07-27",
       "value": 237.7
+    },
+    {
+      "date": "2026-07-28",
+      "value": 221.69
+    },
+    {
+      "date": "2026-07-29",
+      "value": 208.89
     }
   ],
   "top_holdings": [
@@ -1327,86 +1337,146 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0892536,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.08780751,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
+    },
+    {
+      "etf_id": "TW-00980A",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0656229,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
     },
     {
       "etf_id": "TW-00980A",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.036732,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0532297,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Delta Electronics Inc",
+      "holding_name_zh": "台達電",
+      "display_name": "台達電",
+      "display_label": "(2308.TW)台達電",
+      "bilingual_name": "Delta Electronics Inc（台達電）"
     },
     {
       "etf_id": "TW-00980A",
-      "holding_symbol": "2317.TW",
-      "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.031070001,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2059.TW",
+      "holding_name": "King Slide Works Co Ltd",
+      "weight": 0.046526,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "King Slide Works Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "King Slide Works Co Ltd",
+      "display_label": "(2059.TW)King Slide Works Co Ltd",
+      "bilingual_name": "King Slide Works Co Ltd"
     },
     {
       "etf_id": "TW-00980A",
-      "holding_symbol": "3017.TW",
-      "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.030465601,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00980A",
-      "holding_symbol": "6669.TW",
-      "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.029853301,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00980A",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0293853,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00980A",
-      "holding_symbol": "8210.TW",
-      "holding_name": "Chenbro Micom Co Ltd",
-      "weight": 0.0277531,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00980A",
-      "holding_symbol": "2345.TW",
-      "holding_name": "Accton Technology Corp",
-      "weight": 0.0273203,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2383.TW",
+      "holding_name": "Elite Material Co Ltd",
+      "weight": 0.0415068,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Elite Material Co Ltd",
+      "holding_name_zh": "台光電",
+      "display_name": "台光電",
+      "display_label": "(2383.TW)台光電",
+      "bilingual_name": "Elite Material Co Ltd（台光電）"
     },
     {
       "etf_id": "TW-00980A",
       "holding_symbol": "7769.TW",
       "holding_name": "Hon Precision Inc",
-      "weight": 0.026219899,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.034579,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Hon Precision Inc",
+      "holding_name_zh": null,
+      "display_name": "Hon Precision Inc",
+      "display_label": "(7769.TW)Hon Precision Inc",
+      "bilingual_name": "Hon Precision Inc"
     },
     {
       "etf_id": "TW-00980A",
-      "holding_symbol": "2408.TW",
-      "holding_name": "Nanya Technology Corp",
-      "weight": 0.0260725,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3037.TW",
+      "holding_name": "Unimicron Technology Corp",
+      "weight": 0.0345578,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Unimicron Technology Corp",
+      "holding_name_zh": "欣興",
+      "display_name": "欣興",
+      "display_label": "(3037.TW)欣興",
+      "bilingual_name": "Unimicron Technology Corp（欣興）"
+    },
+    {
+      "etf_id": "TW-00980A",
+      "holding_symbol": "3653.TW",
+      "holding_name": "Jentech Precision Industrial Co Ltd",
+      "weight": 0.0297644,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Jentech Precision Industrial Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Jentech Precision Industrial Co Ltd",
+      "display_label": "(3653.TW)Jentech Precision Industrial Co Ltd",
+      "bilingual_name": "Jentech Precision Industrial Co Ltd"
+    },
+    {
+      "etf_id": "TW-00980A",
+      "holding_symbol": "2368.TW",
+      "holding_name": "Gold Circuit Electronics Ltd",
+      "weight": 0.0271019,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Gold Circuit Electronics Ltd",
+      "holding_name_zh": null,
+      "display_name": "Gold Circuit Electronics Ltd",
+      "display_label": "(2368.TW)Gold Circuit Electronics Ltd",
+      "bilingual_name": "Gold Circuit Electronics Ltd"
+    },
+    {
+      "etf_id": "TW-00980A",
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0265985,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": null,
+      "display_name": "MPI Corp",
+      "display_label": "(6223.TWO)MPI Corp",
+      "bilingual_name": "MPI Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.354126,
-    "top_3_weight": 0.157056
+    "top_10_weight": 0.447295,
+    "top_3_weight": 0.20666
   }
 }

@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "FT臺灣永續高息",
   "display_short_name": "FT永續高息",
+  "display_label": "(00961)FT臺灣永續高息",
+  "bilingual_name": "FT臺灣永續高息",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -47,19 +49,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 34.8339,
+      "value": 36.403,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 34.8339,
+      "value": 36.403,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.4566,
+      "value": 17.4151,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.9095,
+      "value": 2.0042,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -67,25 +69,25 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": 3.9212,
+      "value": 7.2473,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3933,
+      "value": 0.3864,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 21.2713,
+      "value": 21.5361,
       "unit": "percent"
     },
     "data_years": {
-      "value": 1.7183,
+      "value": 1.7222,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 12.58,
+    "date": "2026-07-29",
+    "value": 12.59,
     "currency": "TWD"
   },
   "trend": [
@@ -1820,93 +1822,157 @@
     {
       "date": "2026-07-28",
       "value": 125.8
+    },
+    {
+      "date": "2026-07-29",
+      "value": 125.9
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2603.TW",
-      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
-      "weight": 0.08274551,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2542.TW",
+      "holding_name": "Highwealth Construction Corp",
+      "weight": 0.0872737,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Highwealth Construction Corp",
+      "holding_name_zh": null,
+      "display_name": "Highwealth Construction Corp",
+      "display_label": "(2542.TW)Highwealth Construction Corp",
+      "bilingual_name": "Highwealth Construction Corp"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2609.TW",
-      "holding_name": "Yang Ming Marine Transport Corp",
-      "weight": 0.0607793,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2357.TW",
+      "holding_name": "Asustek Computer Inc",
+      "weight": 0.0807052,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Asustek Computer Inc",
+      "holding_name_zh": "華碩",
+      "display_name": "華碩",
+      "display_label": "(2357.TW)華碩",
+      "bilingual_name": "Asustek Computer Inc（華碩）"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "3481.TW",
-      "holding_name": "Innolux Corp",
-      "weight": 0.0546761,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00961",
-      "holding_symbol": "2385.TW",
-      "holding_name": "Chicony Electronics Co Ltd",
-      "weight": 0.0385062,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.0768351,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Quanta Computer Inc",
+      "holding_name_zh": "廣達",
+      "display_name": "廣達",
+      "display_label": "(2382.TW)廣達",
+      "bilingual_name": "Quanta Computer Inc（廣達）"
     },
     {
       "etf_id": "TW-00961",
       "holding_symbol": "2347.TW",
       "holding_name": "Synnex Technology International Corp",
-      "weight": 0.0378272,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0614653,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Synnex Technology International Corp",
+      "holding_name_zh": null,
+      "display_name": "Synnex Technology International Corp",
+      "display_label": "(2347.TW)Synnex Technology International Corp",
+      "bilingual_name": "Synnex Technology International Corp"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.0371275,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3293.TWO",
+      "holding_name": "International Games System Co Ltd",
+      "weight": 0.0603119,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "International Games System Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "International Games System Co Ltd",
+      "display_label": "(3293.TWO)International Games System Co Ltd",
+      "bilingual_name": "International Games System Co Ltd"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2371.TW",
-      "holding_name": "Tatung Co Ltd",
-      "weight": 0.037017502,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2886.TW",
+      "holding_name": "Mega Financial Holding Co Ltd",
+      "weight": 0.0558877,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Mega Financial Holding Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Mega Financial Holding Co Ltd",
+      "display_label": "(2886.TW)Mega Financial Holding Co Ltd",
+      "bilingual_name": "Mega Financial Holding Co Ltd"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "3036.TW",
-      "holding_name": "WT Microelectronics Co Ltd",
-      "weight": 0.035021402,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3231.TW",
+      "holding_name": "Wistron Corp",
+      "weight": 0.0558733,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Wistron Corp",
+      "holding_name_zh": null,
+      "display_name": "Wistron Corp",
+      "display_label": "(3231.TW)Wistron Corp",
+      "bilingual_name": "Wistron Corp"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2105.TW",
-      "holding_name": "Cheng Shin Rubber Industry Co Ltd",
-      "weight": 0.0323079,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2884.TW",
+      "holding_name": "E. Sun Financial Holding Co Ltd",
+      "weight": 0.0540063,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "E. Sun Financial Holding Co Ltd",
+      "holding_name_zh": "玉山金",
+      "display_name": "玉山金",
+      "display_label": "(2884.TW)玉山金",
+      "bilingual_name": "E. Sun Financial Holding Co Ltd（玉山金）"
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "3702.TW",
-      "holding_name": "WPG Holding Co Ltd",
-      "weight": 0.0321853,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "5876.TW",
+      "holding_name": "The Shanghai Commercial and Savings Bank",
+      "weight": 0.053789,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "The Shanghai Commercial and Savings Bank",
+      "holding_name_zh": null,
+      "display_name": "The Shanghai Commercial and Savings Bank",
+      "display_label": "(5876.TW)The Shanghai Commercial and Savings Bank",
+      "bilingual_name": "The Shanghai Commercial and Savings Bank"
+    },
+    {
+      "etf_id": "TW-00961",
+      "holding_symbol": "2633.TW",
+      "holding_name": "Taiwan High Speed Rail Corp",
+      "weight": 0.0513201,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Taiwan High Speed Rail Corp",
+      "holding_name_zh": null,
+      "display_name": "Taiwan High Speed Rail Corp",
+      "display_label": "(2633.TW)Taiwan High Speed Rail Corp",
+      "bilingual_name": "Taiwan High Speed Rail Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.448194,
-    "top_3_weight": 0.198201
+    "top_10_weight": 0.637468,
+    "top_3_weight": 0.244814
   }
 }

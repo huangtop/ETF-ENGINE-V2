@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "兆豐電子高股息等權",
   "display_short_name": "兆豐電子高息",
+  "display_label": "(00943)兆豐電子高股息等權",
+  "bilingual_name": "兆豐電子高股息等權",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -51,45 +53,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 49.7466,
+      "value": 44.3808,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 49.7466,
+      "value": 44.3808,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 23.8432,
+      "value": 23.9684,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.0235,
+      "value": 1.7891,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -11.5105,
+      "value": -13.6928,
       "unit": "percent"
     },
     "alpha": {
-      "value": 0.2036,
+      "value": -0.8143,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6154,
+      "value": 0.6164,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 20.2171,
+      "value": 20.247,
       "unit": "percent"
     },
     "data_years": {
-      "value": 2.1111,
+      "value": 2.1151,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 20.68,
+    "date": "2026-07-29",
+    "value": 20.17,
     "currency": "TWD"
   },
   "trend": [
@@ -2220,93 +2222,157 @@
     {
       "date": "2026-07-28",
       "value": 137.87
+    },
+    {
+      "date": "2026-07-29",
+      "value": 134.47
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00943",
-      "holding_symbol": "6285.TW",
-      "holding_name": "WNC Corp",
-      "weight": 0.0320019,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "6613.TWO",
+      "holding_name": "Nova Technology Corp",
+      "weight": 0.026417,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Nova Technology Corp",
+      "holding_name_zh": null,
+      "display_name": "Nova Technology Corp",
+      "display_label": "(6613.TWO)Nova Technology Corp",
+      "bilingual_name": "Nova Technology Corp"
     },
     {
       "etf_id": "TW-00943",
-      "holding_symbol": "1582.TW",
-      "holding_name": "Syncmold Enterprise Corp",
-      "weight": 0.0278138,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "8016.TW",
+      "holding_name": "Sitronix Technology Corp",
+      "weight": 0.0211123,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Sitronix Technology Corp",
+      "holding_name_zh": null,
+      "display_name": "Sitronix Technology Corp",
+      "display_label": "(8016.TW)Sitronix Technology Corp",
+      "bilingual_name": "Sitronix Technology Corp"
     },
     {
       "etf_id": "TW-00943",
-      "holding_symbol": "3265.TWO",
-      "holding_name": "Winstek Semiconductor Co Ltd",
-      "weight": 0.0275145,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "8081.TW",
+      "holding_name": "Global Mixed-Mode Technology Inc",
+      "weight": 0.0203892,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Global Mixed-Mode Technology Inc",
+      "holding_name_zh": null,
+      "display_name": "Global Mixed-Mode Technology Inc",
+      "display_label": "(8081.TW)Global Mixed-Mode Technology Inc",
+      "bilingual_name": "Global Mixed-Mode Technology Inc"
     },
     {
       "etf_id": "TW-00943",
       "holding_symbol": "3702.TW",
       "holding_name": "WPG Holding Co Ltd",
-      "weight": 0.0252022,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00943",
-      "holding_symbol": "2393.TW",
-      "holding_name": "Everlight Electronics Co Ltd",
-      "weight": 0.0248509,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00943",
-      "holding_symbol": "6147.TWO",
-      "holding_name": "Chipbond Technology Corp",
-      "weight": 0.0245893,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00943",
-      "holding_symbol": "2409.TW",
-      "holding_name": "AUO Corp",
-      "weight": 0.0241073,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0191454,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "WPG Holding Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "WPG Holding Co Ltd",
+      "display_label": "(3702.TW)WPG Holding Co Ltd",
+      "bilingual_name": "WPG Holding Co Ltd"
     },
     {
       "etf_id": "TW-00943",
       "holding_symbol": "2347.TW",
       "holding_name": "Synnex Technology International Corp",
-      "weight": 0.023307,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0188936,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Synnex Technology International Corp",
+      "holding_name_zh": null,
+      "display_name": "Synnex Technology International Corp",
+      "display_label": "(2347.TW)Synnex Technology International Corp",
+      "bilingual_name": "Synnex Technology International Corp"
     },
     {
       "etf_id": "TW-00943",
-      "holding_symbol": "3209.TW",
-      "holding_name": "Alltek Technology Corp",
-      "weight": 0.023280201,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2327.TW",
+      "holding_name": "Yageo Corp",
+      "weight": 0.0188491,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Yageo Corp",
+      "holding_name_zh": "國巨",
+      "display_name": "國巨",
+      "display_label": "(2327.TW)國巨",
+      "bilingual_name": "Yageo Corp（國巨）"
     },
     {
       "etf_id": "TW-00943",
-      "holding_symbol": "8091.TWO",
-      "holding_name": "FeedBack Tech Corp",
-      "weight": 0.023042299,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3033.TW",
+      "holding_name": "Weikeng Industrial Co Ltd",
+      "weight": 0.0187447,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Weikeng Industrial Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Weikeng Industrial Co Ltd",
+      "display_label": "(3033.TW)Weikeng Industrial Co Ltd",
+      "bilingual_name": "Weikeng Industrial Co Ltd"
+    },
+    {
+      "etf_id": "TW-00943",
+      "holding_symbol": "2393.TW",
+      "holding_name": "Everlight Electronics Co Ltd",
+      "weight": 0.0180881,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Everlight Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Everlight Electronics Co Ltd",
+      "display_label": "(2393.TW)Everlight Electronics Co Ltd",
+      "bilingual_name": "Everlight Electronics Co Ltd"
+    },
+    {
+      "etf_id": "TW-00943",
+      "holding_symbol": "2377.TW",
+      "holding_name": "Micro-Star International Co Ltd",
+      "weight": 0.018074,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Micro-Star International Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Micro-Star International Co Ltd",
+      "display_label": "(2377.TW)Micro-Star International Co Ltd",
+      "bilingual_name": "Micro-Star International Co Ltd"
+    },
+    {
+      "etf_id": "TW-00943",
+      "holding_symbol": "3015.TW",
+      "holding_name": "Fsp Technology Inc",
+      "weight": 0.0176715,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Fsp Technology Inc",
+      "holding_name_zh": null,
+      "display_name": "Fsp Technology Inc",
+      "display_label": "(3015.TW)Fsp Technology Inc",
+      "bilingual_name": "Fsp Technology Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.255709,
-    "top_3_weight": 0.08733
+    "top_10_weight": 0.197385,
+    "top_3_weight": 0.067918
   }
 }

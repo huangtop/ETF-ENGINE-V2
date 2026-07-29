@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動復華金融股息",
   "display_short_name": "復華金融",
+  "display_label": "(00998A)主動復華金融股息",
+  "bilingual_name": "主動復華金融股息",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -47,19 +49,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 20.1337,
+      "value": 19.1787,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 61.8744,
+      "value": 58.2292,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.1049,
+      "value": 17.0942,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.5296,
+      "value": 3.3186,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -67,25 +69,25 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": 38.2456,
+      "value": 37.4872,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.213,
+      "value": 0.2149,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 31.2139,
+      "value": 31.4409,
       "unit": "percent"
     },
     "data_years": {
-      "value": 0.3254,
+      "value": 0.3294,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 17.61,
+    "date": "2026-07-29",
+    "value": 17.47,
     "currency": "TWD"
   },
   "trend": [
@@ -416,12 +418,157 @@
     {
       "date": "2026-07-28",
       "value": 120.13
+    },
+    {
+      "date": "2026-07-29",
+      "value": 119.18
     }
   ],
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "NLY",
+      "holding_name": "Annaly Capital Management Inc",
+      "weight": 0.0475203,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Annaly Capital Management Inc",
+      "holding_name_zh": null,
+      "display_name": "Annaly Capital Management Inc",
+      "display_label": "(NLY)Annaly Capital Management Inc",
+      "bilingual_name": "Annaly Capital Management Inc"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "BMPS.MI",
+      "holding_name": "Banca Monte dei Paschi di Siena",
+      "weight": 0.0457676,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Banca Monte dei Paschi di Siena",
+      "holding_name_zh": null,
+      "display_name": "Banca Monte dei Paschi di Siena",
+      "display_label": "(BMPS.MI)Banca Monte dei Paschi di Siena",
+      "bilingual_name": "Banca Monte dei Paschi di Siena"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "UNI.MI",
+      "holding_name": "Unipol Assicurazioni SpA",
+      "weight": 0.0437044,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Unipol Assicurazioni SpA",
+      "holding_name_zh": null,
+      "display_name": "Unipol Assicurazioni SpA",
+      "display_label": "(UNI.MI)Unipol Assicurazioni SpA",
+      "bilingual_name": "Unipol Assicurazioni SpA"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "ABN.AS",
+      "holding_name": "ABN AMRO Bank NV",
+      "weight": 0.0391578,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "ABN AMRO Bank NV",
+      "holding_name_zh": null,
+      "display_name": "ABN AMRO Bank NV",
+      "display_label": "(ABN.AS)ABN AMRO Bank NV",
+      "bilingual_name": "ABN AMRO Bank NV"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "C",
+      "holding_name": "Citigroup Inc",
+      "weight": 0.0387976,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Citigroup Inc",
+      "holding_name_zh": null,
+      "display_name": "Citigroup Inc",
+      "display_label": "(C)Citigroup Inc",
+      "bilingual_name": "Citigroup Inc"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "HSBA.L",
+      "holding_name": "HSBC Holdings PLC",
+      "weight": 0.0384922,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "HSBC Holdings PLC",
+      "holding_name_zh": null,
+      "display_name": "HSBC Holdings PLC",
+      "display_label": "(HSBA.L)HSBC Holdings PLC",
+      "bilingual_name": "HSBC Holdings PLC"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "TPEIR.AT",
+      "holding_name": "Piraeus Bank SA",
+      "weight": 0.0382857,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Piraeus Bank SA",
+      "holding_name_zh": null,
+      "display_name": "Piraeus Bank SA",
+      "display_label": "(TPEIR.AT)Piraeus Bank SA",
+      "bilingual_name": "Piraeus Bank SA"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "MS",
+      "holding_name": "Morgan Stanley",
+      "weight": 0.0347682,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Morgan Stanley",
+      "holding_name_zh": null,
+      "display_name": "Morgan Stanley",
+      "display_label": "(MS)Morgan Stanley",
+      "bilingual_name": "Morgan Stanley"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "AMUN.PA",
+      "holding_name": "Amundi SA",
+      "weight": 0.0309455,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Amundi SA",
+      "holding_name_zh": null,
+      "display_name": "Amundi SA",
+      "display_label": "(AMUN.PA)Amundi SA",
+      "bilingual_name": "Amundi SA"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "ETE.AT",
+      "holding_name": "National Bank of Greece SA",
+      "weight": 0.0301861,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "National Bank of Greece SA",
+      "holding_name_zh": null,
+      "display_name": "National Bank of Greece SA",
+      "display_label": "(ETE.AT)National Bank of Greece SA",
+      "bilingual_name": "National Bank of Greece SA"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.387625,
+    "top_3_weight": 0.136992
   }
 }
