@@ -3,22 +3,22 @@
   "ticker": "0056",
   "quote_symbol": "0056.TW",
   "name": "元大高股息",
-  "short_name": "高股息",
+  "short_name": "元大高股息",
   "listing_market": "TW",
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "臺灣高股息指數",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
   "name_en": "元大高股息",
-  "short_name_en": "高股息",
+  "short_name_en": "元大高股息",
   "name_zh": null,
   "short_name_zh": null,
   "display_name": "元大高股息",
-  "display_short_name": "高股息",
+  "display_short_name": "元大高股息",
   "display_label": "(0056)元大高股息",
   "bilingual_name": "元大高股息",
   "classifications": [
@@ -37,6 +37,10 @@
     {
       "dimension": "management_style",
       "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
     },
     {
       "dimension": "strategy",
@@ -85,6 +89,7 @@
       "unit": "years"
     }
   },
+  "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-29",
     "value": 46.73,

@@ -3,22 +3,22 @@
   "ticker": "00989A",
   "quote_symbol": "00989A.TW",
   "name": "主動摩根美國科技",
-  "short_name": "摩根美國科技",
+  "short_name": "主動摩根美國科技",
   "listing_market": "TW",
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "不適用",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
   "name_en": "主動摩根美國科技",
-  "short_name_en": "摩根美國科技",
+  "short_name_en": "主動摩根美國科技",
   "name_zh": null,
   "short_name_zh": null,
   "display_name": "主動摩根美國科技",
-  "display_short_name": "摩根美國科技",
+  "display_short_name": "主動摩根美國科技",
   "display_label": "(00989A)主動摩根美國科技",
   "bilingual_name": "主動摩根美國科技",
   "classifications": [
@@ -39,860 +39,26 @@
       "code": "active"
     },
     {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
       "dimension": "sector",
       "code": "technology"
     }
   ],
-  "metrics": {
-    "total_return_1y": {
-      "value": 5.1333,
-      "unit": "percent"
-    },
-    "annualized_return": {
-      "value": 6.7375,
-      "unit": "percent"
-    },
-    "annualized_volatility": {
-      "value": 28.5354,
-      "unit": "percent"
-    },
-    "sharpe_ratio": {
-      "value": 0.1835,
-      "unit": "ratio"
-    },
-    "max_drawdown": {
-      "value": -17.8416,
-      "unit": "percent"
-    },
-    "alpha": {
-      "value": -34.2393,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 0.7269,
-      "unit": "ratio"
-    },
-    "tracking_error": {
-      "value": 20.8398,
-      "unit": "percent"
-    },
-    "data_years": {
-      "value": 0.7619,
-      "unit": "years"
-    }
-  },
-  "latest_price": {
-    "date": "2026-07-29",
-    "value": 15.77,
-    "currency": "TWD"
-  },
-  "trend": [
-    {
-      "date": "2025-10-14",
-      "value": 100.0
-    },
-    {
-      "date": "2025-10-15",
-      "value": 100.0
-    },
-    {
-      "date": "2025-10-16",
-      "value": 100.2
-    },
-    {
-      "date": "2025-10-17",
-      "value": 100.13
-    },
-    {
-      "date": "2025-10-20",
-      "value": 101.67
-    },
-    {
-      "date": "2025-10-21",
-      "value": 101.4
-    },
-    {
-      "date": "2025-10-22",
-      "value": 101.27
-    },
-    {
-      "date": "2025-10-23",
-      "value": 100.93
-    },
-    {
-      "date": "2025-10-27",
-      "value": 105.0
-    },
-    {
-      "date": "2025-10-28",
-      "value": 106.87
-    },
-    {
-      "date": "2025-10-29",
-      "value": 105.8
-    },
-    {
-      "date": "2025-10-30",
-      "value": 106.07
-    },
-    {
-      "date": "2025-10-31",
-      "value": 105.87
-    },
-    {
-      "date": "2025-11-03",
-      "value": 106.6
-    },
-    {
-      "date": "2025-11-04",
-      "value": 105.6
-    },
-    {
-      "date": "2025-11-05",
-      "value": 102.73
-    },
-    {
-      "date": "2025-11-06",
-      "value": 104.33
-    },
-    {
-      "date": "2025-11-07",
-      "value": 102.33
-    },
-    {
-      "date": "2025-11-10",
-      "value": 103.0
-    },
-    {
-      "date": "2025-11-11",
-      "value": 103.93
-    },
-    {
-      "date": "2025-11-12",
-      "value": 104.2
-    },
-    {
-      "date": "2025-11-13",
-      "value": 103.13
-    },
-    {
-      "date": "2025-11-14",
-      "value": 99.33
-    },
-    {
-      "date": "2025-11-17",
-      "value": 99.8
-    },
-    {
-      "date": "2025-11-18",
-      "value": 97.73
-    },
-    {
-      "date": "2025-11-19",
-      "value": 96.93
-    },
-    {
-      "date": "2025-11-20",
-      "value": 99.93
-    },
-    {
-      "date": "2025-11-21",
-      "value": 94.93
-    },
-    {
-      "date": "2025-11-24",
-      "value": 95.67
-    },
-    {
-      "date": "2025-11-25",
-      "value": 98.2
-    },
-    {
-      "date": "2025-11-26",
-      "value": 99.6
-    },
-    {
-      "date": "2025-11-27",
-      "value": 100.2
-    },
-    {
-      "date": "2025-11-28",
-      "value": 100.67
-    },
-    {
-      "date": "2025-12-01",
-      "value": 100.2
-    },
-    {
-      "date": "2025-12-02",
-      "value": 101.33
-    },
-    {
-      "date": "2025-12-03",
-      "value": 102.13
-    },
-    {
-      "date": "2025-12-04",
-      "value": 102.07
-    },
-    {
-      "date": "2025-12-05",
-      "value": 102.87
-    },
-    {
-      "date": "2025-12-08",
-      "value": 102.53
-    },
-    {
-      "date": "2025-12-09",
-      "value": 102.6
-    },
-    {
-      "date": "2025-12-10",
-      "value": 103.0
-    },
-    {
-      "date": "2025-12-11",
-      "value": 101.4
-    },
-    {
-      "date": "2025-12-12",
-      "value": 102.27
-    },
-    {
-      "date": "2025-12-15",
-      "value": 100.4
-    },
-    {
-      "date": "2025-12-16",
-      "value": 98.47
-    },
-    {
-      "date": "2025-12-17",
-      "value": 99.73
-    },
-    {
-      "date": "2025-12-18",
-      "value": 98.13
-    },
-    {
-      "date": "2025-12-19",
-      "value": 99.6
-    },
-    {
-      "date": "2025-12-22",
-      "value": 102.33
-    },
-    {
-      "date": "2025-12-23",
-      "value": 102.67
-    },
-    {
-      "date": "2025-12-24",
-      "value": 102.13
-    },
-    {
-      "date": "2025-12-26",
-      "value": 102.53
-    },
-    {
-      "date": "2025-12-29",
-      "value": 102.13
-    },
-    {
-      "date": "2025-12-30",
-      "value": 101.47
-    },
-    {
-      "date": "2025-12-31",
-      "value": 101.0
-    },
-    {
-      "date": "2026-01-02",
-      "value": 101.27
-    },
-    {
-      "date": "2026-01-05",
-      "value": 101.4
-    },
-    {
-      "date": "2026-01-06",
-      "value": 102.93
-    },
-    {
-      "date": "2026-01-07",
-      "value": 103.73
-    },
-    {
-      "date": "2026-01-08",
-      "value": 104.0
-    },
-    {
-      "date": "2026-01-09",
-      "value": 102.93
-    },
-    {
-      "date": "2026-01-12",
-      "value": 102.6
-    },
-    {
-      "date": "2026-01-13",
-      "value": 104.2
-    },
-    {
-      "date": "2026-01-14",
-      "value": 104.2
-    },
-    {
-      "date": "2026-01-15",
-      "value": 102.33
-    },
-    {
-      "date": "2026-01-16",
-      "value": 102.6
-    },
-    {
-      "date": "2026-01-19",
-      "value": 100.27
-    },
-    {
-      "date": "2026-01-20",
-      "value": 100.6
-    },
-    {
-      "date": "2026-01-21",
-      "value": 100.27
-    },
-    {
-      "date": "2026-01-22",
-      "value": 100.73
-    },
-    {
-      "date": "2026-01-23",
-      "value": 101.47
-    },
-    {
-      "date": "2026-01-26",
-      "value": 100.2
-    },
-    {
-      "date": "2026-01-27",
-      "value": 101.67
-    },
-    {
-      "date": "2026-01-28",
-      "value": 101.93
-    },
-    {
-      "date": "2026-01-29",
-      "value": 102.13
-    },
-    {
-      "date": "2026-01-30",
-      "value": 100.67
-    },
-    {
-      "date": "2026-02-02",
-      "value": 97.27
-    },
-    {
-      "date": "2026-02-03",
-      "value": 99.67
-    },
-    {
-      "date": "2026-02-04",
-      "value": 96.8
-    },
-    {
-      "date": "2026-02-05",
-      "value": 93.53
-    },
-    {
-      "date": "2026-02-06",
-      "value": 90.33
-    },
-    {
-      "date": "2026-02-09",
-      "value": 94.2
-    },
-    {
-      "date": "2026-02-10",
-      "value": 95.47
-    },
-    {
-      "date": "2026-02-11",
-      "value": 96.07
-    },
-    {
-      "date": "2026-02-23",
-      "value": 94.13
-    },
-    {
-      "date": "2026-02-24",
-      "value": 93.6
-    },
-    {
-      "date": "2026-02-25",
-      "value": 93.8
-    },
-    {
-      "date": "2026-02-26",
-      "value": 94.6
-    },
-    {
-      "date": "2026-03-02",
-      "value": 93.27
-    },
-    {
-      "date": "2026-03-03",
-      "value": 94.0
-    },
-    {
-      "date": "2026-03-04",
-      "value": 92.4
-    },
-    {
-      "date": "2026-03-05",
-      "value": 94.67
-    },
-    {
-      "date": "2026-03-06",
-      "value": 94.47
-    },
-    {
-      "date": "2026-03-09",
-      "value": 90.13
-    },
-    {
-      "date": "2026-03-10",
-      "value": 94.07
-    },
-    {
-      "date": "2026-03-11",
-      "value": 94.87
-    },
-    {
-      "date": "2026-03-12",
-      "value": 94.13
-    },
-    {
-      "date": "2026-03-13",
-      "value": 93.27
-    },
-    {
-      "date": "2026-03-16",
-      "value": 93.8
-    },
-    {
-      "date": "2026-03-17",
-      "value": 93.87
-    },
-    {
-      "date": "2026-03-18",
-      "value": 95.6
-    },
-    {
-      "date": "2026-03-19",
-      "value": 94.33
-    },
-    {
-      "date": "2026-03-20",
-      "value": 94.8
-    },
-    {
-      "date": "2026-03-23",
-      "value": 91.8
-    },
-    {
-      "date": "2026-03-24",
-      "value": 93.07
-    },
-    {
-      "date": "2026-03-25",
-      "value": 94.0
-    },
-    {
-      "date": "2026-03-26",
-      "value": 93.27
-    },
-    {
-      "date": "2026-03-27",
-      "value": 90.93
-    },
-    {
-      "date": "2026-03-30",
-      "value": 88.4
-    },
-    {
-      "date": "2026-03-31",
-      "value": 87.8
-    },
-    {
-      "date": "2026-04-01",
-      "value": 91.0
-    },
-    {
-      "date": "2026-04-02",
-      "value": 89.8
-    },
-    {
-      "date": "2026-04-07",
-      "value": 91.47
-    },
-    {
-      "date": "2026-04-08",
-      "value": 95.8
-    },
-    {
-      "date": "2026-04-09",
-      "value": 95.33
-    },
-    {
-      "date": "2026-04-10",
-      "value": 95.13
-    },
-    {
-      "date": "2026-04-13",
-      "value": 93.67
-    },
-    {
-      "date": "2026-04-14",
-      "value": 97.0
-    },
-    {
-      "date": "2026-04-15",
-      "value": 98.27
-    },
-    {
-      "date": "2026-04-16",
-      "value": 100.47
-    },
-    {
-      "date": "2026-04-17",
-      "value": 101.13
-    },
-    {
-      "date": "2026-04-20",
-      "value": 102.13
-    },
-    {
-      "date": "2026-04-21",
-      "value": 103.6
-    },
-    {
-      "date": "2026-04-22",
-      "value": 103.87
-    },
-    {
-      "date": "2026-04-23",
-      "value": 103.87
-    },
-    {
-      "date": "2026-04-24",
-      "value": 103.93
-    },
-    {
-      "date": "2026-04-27",
-      "value": 105.47
-    },
-    {
-      "date": "2026-04-28",
-      "value": 105.6
-    },
-    {
-      "date": "2026-04-29",
-      "value": 103.87
-    },
-    {
-      "date": "2026-04-30",
-      "value": 104.8
-    },
-    {
-      "date": "2026-05-04",
-      "value": 109.13
-    },
-    {
-      "date": "2026-05-05",
-      "value": 109.47
-    },
-    {
-      "date": "2026-05-06",
-      "value": 111.93
-    },
-    {
-      "date": "2026-05-07",
-      "value": 113.0
-    },
-    {
-      "date": "2026-05-08",
-      "value": 112.47
-    },
-    {
-      "date": "2026-05-11",
-      "value": 114.73
-    },
-    {
-      "date": "2026-05-12",
-      "value": 115.8
-    },
-    {
-      "date": "2026-05-13",
-      "value": 115.27
-    },
-    {
-      "date": "2026-05-14",
-      "value": 116.33
-    },
-    {
-      "date": "2026-05-15",
-      "value": 116.13
-    },
-    {
-      "date": "2026-05-18",
-      "value": 114.27
-    },
-    {
-      "date": "2026-05-19",
-      "value": 112.4
-    },
-    {
-      "date": "2026-05-20",
-      "value": 112.33
-    },
-    {
-      "date": "2026-05-21",
-      "value": 114.93
-    },
-    {
-      "date": "2026-05-22",
-      "value": 116.73
-    },
-    {
-      "date": "2026-05-25",
-      "value": 118.67
-    },
-    {
-      "date": "2026-05-26",
-      "value": 118.27
-    },
-    {
-      "date": "2026-05-27",
-      "value": 119.0
-    },
-    {
-      "date": "2026-05-28",
-      "value": 117.67
-    },
-    {
-      "date": "2026-05-29",
-      "value": 119.73
-    },
-    {
-      "date": "2026-06-01",
-      "value": 121.47
-    },
-    {
-      "date": "2026-06-02",
-      "value": 122.33
-    },
-    {
-      "date": "2026-06-03",
-      "value": 124.13
-    },
-    {
-      "date": "2026-06-04",
-      "value": 121.87
-    },
-    {
-      "date": "2026-06-05",
-      "value": 120.87
-    },
-    {
-      "date": "2026-06-08",
-      "value": 114.8
-    },
-    {
-      "date": "2026-06-09",
-      "value": 116.8
-    },
-    {
-      "date": "2026-06-10",
-      "value": 114.13
-    },
-    {
-      "date": "2026-06-11",
-      "value": 113.27
-    },
-    {
-      "date": "2026-06-12",
-      "value": 117.53
-    },
-    {
-      "date": "2026-06-15",
-      "value": 120.87
-    },
-    {
-      "date": "2026-06-16",
-      "value": 122.4
-    },
-    {
-      "date": "2026-06-17",
-      "value": 120.13
-    },
-    {
-      "date": "2026-06-18",
-      "value": 120.07
-    },
-    {
-      "date": "2026-06-22",
-      "value": 122.2
-    },
-    {
-      "date": "2026-06-23",
-      "value": 121.47
-    },
-    {
-      "date": "2026-06-24",
-      "value": 119.87
-    },
-    {
-      "date": "2026-06-25",
-      "value": 121.0
-    },
-    {
-      "date": "2026-06-26",
-      "value": 118.47
-    },
-    {
-      "date": "2026-06-29",
-      "value": 119.27
-    },
-    {
-      "date": "2026-06-30",
-      "value": 123.27
-    },
-    {
-      "date": "2026-07-01",
-      "value": 125.87
-    },
-    {
-      "date": "2026-07-02",
-      "value": 123.47
-    },
-    {
-      "date": "2026-07-03",
-      "value": 119.6
-    },
-    {
-      "date": "2026-07-06",
-      "value": 119.93
-    },
-    {
-      "date": "2026-07-07",
-      "value": 118.6
-    },
-    {
-      "date": "2026-07-08",
-      "value": 116.67
-    },
-    {
-      "date": "2026-07-09",
-      "value": 117.73
-    },
-    {
-      "date": "2026-07-10",
-      "value": 117.73
-    },
-    {
-      "date": "2026-07-13",
-      "value": 117.33
-    },
-    {
-      "date": "2026-07-14",
-      "value": 117.07
-    },
-    {
-      "date": "2026-07-15",
-      "value": 120.2
-    },
-    {
-      "date": "2026-07-16",
-      "value": 118.0
-    },
-    {
-      "date": "2026-07-17",
-      "value": 111.87
-    },
-    {
-      "date": "2026-07-20",
-      "value": 112.73
-    },
-    {
-      "date": "2026-07-21",
-      "value": 113.6
-    },
-    {
-      "date": "2026-07-22",
-      "value": 115.07
-    },
-    {
-      "date": "2026-07-23",
-      "value": 113.8
-    },
-    {
-      "date": "2026-07-24",
-      "value": 111.8
-    },
-    {
-      "date": "2026-07-27",
-      "value": 111.07
-    },
-    {
-      "date": "2026-07-28",
-      "value": 107.4
-    },
-    {
-      "date": "2026-07-29",
-      "value": 105.13
-    }
-  ],
+  "metrics": {},
+  "bootstrap_status": "pending",
+  "latest_price": null,
+  "trend": [],
   "top_holdings": [
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "INTC",
-      "holding_name": "Intel Corp",
-      "weight": 0.0522651,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 1,
-      "holding_name_en": "Intel Corp",
-      "holding_name_zh": "英特爾",
-      "display_name": "英特爾",
-      "display_label": "(INTC)英特爾",
-      "bilingual_name": "Intel Corp（英特爾）"
-    },
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "LRCX",
-      "holding_name": "Lam Research Corp",
-      "weight": 0.0496463,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Lam Research Corp",
-      "holding_name_zh": "科林研發",
-      "display_name": "科林研發",
-      "display_label": "(LRCX)科林研發",
-      "bilingual_name": "Lam Research Corp（科林研發）"
-    },
     {
       "etf_id": "TW-00989A",
       "holding_symbol": "GOOG",
       "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0395797,
-      "as_of": null,
+      "weight": 0.0465123,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Alphabet Inc Class C",
       "holding_name_zh": "Alphabet C類股",
       "display_name": "Alphabet C類股",
@@ -901,54 +67,11 @@
     },
     {
       "etf_id": "TW-00989A",
-      "holding_symbol": "PANW",
-      "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.0368593,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Palo Alto Networks Inc",
-      "holding_name_zh": "Palo Alto Networks",
-      "display_name": "Palo Alto Networks",
-      "display_label": "(PANW)Palo Alto Networks",
-      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
-    },
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.036008,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
-    },
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0343142,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Broadcom Inc",
-      "holding_name_zh": "博通",
-      "display_name": "博通",
-      "display_label": "(AVGO)博通",
-      "bilingual_name": "Broadcom Inc（博通）"
-    },
-    {
-      "etf_id": "TW-00989A",
       "holding_symbol": "TTWO",
       "holding_name": "Take-Two Interactive Software Inc",
-      "weight": 0.0340104,
-      "as_of": null,
+      "weight": 0.0393878,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Take-Two Interactive Software Inc",
       "holding_name_zh": null,
       "display_name": "Take-Two Interactive Software Inc",
@@ -957,12 +80,24 @@
     },
     {
       "etf_id": "TW-00989A",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0385679,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
+    },
+    {
+      "etf_id": "TW-00989A",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0338479,
-      "as_of": null,
+      "weight": 0.0368614,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "NVIDIA Corp",
       "holding_name_zh": "輝達",
       "display_name": "輝達",
@@ -971,26 +106,76 @@
     },
     {
       "etf_id": "TW-00989A",
-      "holding_symbol": "SNDK",
-      "holding_name": "SanDisk Corp Ordinary Shares",
-      "weight": 0.032286,
-      "as_of": null,
+      "holding_symbol": "LRCX",
+      "holding_name": "Lam Research Corp",
+      "weight": 0.0366907,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "SanDisk Corp Ordinary Shares",
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.034731198,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0337722,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "SNOW",
+      "holding_name": "Snowflake Inc Ordinary Shares",
+      "weight": 0.032080602,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Snowflake Inc Ordinary Shares",
       "holding_name_zh": null,
-      "display_name": "SanDisk Corp Ordinary Shares",
-      "display_label": "(SNDK)SanDisk Corp Ordinary Shares",
-      "bilingual_name": "SanDisk Corp Ordinary Shares"
+      "display_name": "Snowflake Inc Ordinary Shares",
+      "display_label": "(SNOW)Snowflake Inc Ordinary Shares",
+      "bilingual_name": "Snowflake Inc Ordinary Shares"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "CIEN",
+      "holding_name": "Ciena Corp",
+      "weight": 0.0311868,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Ciena Corp",
+      "holding_name_zh": null,
+      "display_name": "Ciena Corp",
+      "display_label": "(CIEN)Ciena Corp",
+      "bilingual_name": "Ciena Corp"
     },
     {
       "etf_id": "TW-00989A",
       "holding_symbol": "ASML",
       "holding_name": "ASML Holding NV ADR",
-      "weight": 0.0310441,
-      "as_of": null,
+      "weight": 0.023025,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 10,
       "holding_name_en": "ASML Holding NV ADR",
       "holding_name_zh": "艾司摩爾ADR",
       "display_name": "艾司摩爾ADR",
@@ -1000,7 +185,7 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.379861,
-    "top_3_weight": 0.141491
+    "top_10_weight": 0.352816,
+    "top_3_weight": 0.124468
   }
 }

@@ -2,25 +2,25 @@
   "etf_id": "TW-0052",
   "ticker": "0052",
   "quote_symbol": "0052.TW",
-  "name": "富邦台灣科技",
-  "short_name": "富邦台灣科技",
+  "name": "富邦科技",
+  "short_name": "富邦科技",
   "listing_market": "TW",
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "臺灣資訊科技指數",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
-  "name_en": "富邦台灣科技",
-  "short_name_en": "富邦台灣科技",
+  "name_en": "富邦科技",
+  "short_name_en": "富邦科技",
   "name_zh": null,
   "short_name_zh": null,
-  "display_name": "富邦台灣科技",
-  "display_short_name": "富邦台灣科技",
-  "display_label": "(0052)富邦台灣科技",
-  "bilingual_name": "富邦台灣科技",
+  "display_name": "富邦科技",
+  "display_short_name": "富邦科技",
+  "display_label": "(0052)富邦科技",
+  "bilingual_name": "富邦科技",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -37,6 +37,10 @@
     {
       "dimension": "management_style",
       "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
     },
     {
       "dimension": "sector",
@@ -81,6 +85,7 @@
       "unit": "years"
     }
   },
+  "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-29",
     "value": 54.4,

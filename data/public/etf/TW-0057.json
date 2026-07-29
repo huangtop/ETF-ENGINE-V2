@@ -8,9 +8,9 @@
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "MSCI臺灣指數",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
   "name_en": "富邦摩台",
@@ -37,6 +37,10 @@
     {
       "dimension": "management_style",
       "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
     },
     {
       "dimension": "strategy",
@@ -81,6 +85,7 @@
       "unit": "years"
     }
   },
+  "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-29",
     "value": 275.75,

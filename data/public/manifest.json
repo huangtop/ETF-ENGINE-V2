@@ -1,9 +1,14 @@
 {
   "schema_version": "2.2",
-  "generated_at": "2026-07-29T07:42:39.878050+00:00",
-  "etf_count": 158,
-  "holding_symbols": 429,
+  "generated_at": "2026-07-29T15:38:04.915217+00:00",
+  "etf_count": 459,
+  "holding_symbols": 430,
   "overlap_pairs": 1326,
+  "bootstrap": {
+    "ready": 16,
+    "pending": 439,
+    "failed": 4
+  },
   "translations": {
     "locale": "zh-TW",
     "etf_count": 78,
@@ -11,7 +16,7 @@
     "fallback": "canonical_name"
   },
   "markets": {
-    "TW": 80,
+    "TW": 381,
     "US": 78
   }
 }

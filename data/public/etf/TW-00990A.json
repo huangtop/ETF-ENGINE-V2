@@ -2,25 +2,25 @@
   "etf_id": "TW-00990A",
   "ticker": "00990A",
   "quote_symbol": "00990A.TW",
-  "name": "主動元大 AI 新經濟",
-  "short_name": "元大AI新經濟",
+  "name": "主動元大AI新經濟",
+  "short_name": "主動元大AI新經濟",
   "listing_market": "TW",
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "不適用",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
-  "name_en": "主動元大 AI 新經濟",
-  "short_name_en": "元大AI新經濟",
+  "name_en": "主動元大AI新經濟",
+  "short_name_en": "主動元大AI新經濟",
   "name_zh": null,
   "short_name_zh": null,
-  "display_name": "主動元大 AI 新經濟",
-  "display_short_name": "元大AI新經濟",
-  "display_label": "(00990A)主動元大 AI 新經濟",
-  "bilingual_name": "主動元大 AI 新經濟",
+  "display_name": "主動元大AI新經濟",
+  "display_short_name": "主動元大AI新經濟",
+  "display_label": "(00990A)主動元大AI新經濟",
+  "bilingual_name": "主動元大AI新經濟",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -39,692 +39,39 @@
       "code": "active"
     },
     {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
       "dimension": "theme",
       "code": "artificial_intelligence"
     }
   ],
-  "metrics": {
-    "total_return_1y": {
-      "value": 38.3,
-      "unit": "percent"
-    },
-    "annualized_return": {
-      "value": 61.4752,
-      "unit": "percent"
-    },
-    "annualized_volatility": {
-      "value": 50.0563,
-      "unit": "percent"
-    },
-    "sharpe_ratio": {
-      "value": 1.1982,
-      "unit": "ratio"
-    },
-    "max_drawdown": {
-      "value": -36.3553,
-      "unit": "percent"
-    },
-    "alpha": {
-      "value": -29.4301,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 1.3347,
-      "unit": "ratio"
-    },
-    "tracking_error": {
-      "value": 31.2179,
-      "unit": "percent"
-    },
-    "data_years": {
-      "value": 0.623,
-      "unit": "years"
-    }
-  },
-  "latest_price": {
-    "date": "2026-07-29",
-    "value": 13.83,
-    "currency": "TWD"
-  },
-  "trend": [
-    {
-      "date": "2025-12-02",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-03",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-04",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-05",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-08",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-09",
-      "value": 100.1
-    },
-    {
-      "date": "2025-12-10",
-      "value": 100.4
-    },
-    {
-      "date": "2025-12-11",
-      "value": 100.4
-    },
-    {
-      "date": "2025-12-12",
-      "value": 98.4
-    },
-    {
-      "date": "2025-12-15",
-      "value": 97.9
-    },
-    {
-      "date": "2025-12-16",
-      "value": 97.8
-    },
-    {
-      "date": "2025-12-17",
-      "value": 96.6
-    },
-    {
-      "date": "2025-12-18",
-      "value": 97.8
-    },
-    {
-      "date": "2025-12-22",
-      "value": 101.0
-    },
-    {
-      "date": "2025-12-23",
-      "value": 101.4
-    },
-    {
-      "date": "2025-12-24",
-      "value": 104.5
-    },
-    {
-      "date": "2025-12-26",
-      "value": 106.8
-    },
-    {
-      "date": "2025-12-29",
-      "value": 105.1
-    },
-    {
-      "date": "2025-12-30",
-      "value": 103.0
-    },
-    {
-      "date": "2025-12-31",
-      "value": 102.1
-    },
-    {
-      "date": "2026-01-02",
-      "value": 101.5
-    },
-    {
-      "date": "2026-01-05",
-      "value": 103.0
-    },
-    {
-      "date": "2026-01-06",
-      "value": 103.1
-    },
-    {
-      "date": "2026-01-07",
-      "value": 104.8
-    },
-    {
-      "date": "2026-01-08",
-      "value": 104.9
-    },
-    {
-      "date": "2026-01-09",
-      "value": 103.3
-    },
-    {
-      "date": "2026-01-12",
-      "value": 104.2
-    },
-    {
-      "date": "2026-01-13",
-      "value": 105.6
-    },
-    {
-      "date": "2026-01-14",
-      "value": 107.0
-    },
-    {
-      "date": "2026-01-15",
-      "value": 105.4
-    },
-    {
-      "date": "2026-01-16",
-      "value": 107.7
-    },
-    {
-      "date": "2026-01-19",
-      "value": 106.9
-    },
-    {
-      "date": "2026-01-20",
-      "value": 106.6
-    },
-    {
-      "date": "2026-01-21",
-      "value": 107.3
-    },
-    {
-      "date": "2026-01-22",
-      "value": 110.4
-    },
-    {
-      "date": "2026-01-23",
-      "value": 110.1
-    },
-    {
-      "date": "2026-01-26",
-      "value": 108.7
-    },
-    {
-      "date": "2026-01-27",
-      "value": 109.3
-    },
-    {
-      "date": "2026-01-28",
-      "value": 112.3
-    },
-    {
-      "date": "2026-01-29",
-      "value": 113.7
-    },
-    {
-      "date": "2026-01-30",
-      "value": 113.3
-    },
-    {
-      "date": "2026-02-02",
-      "value": 109.2
-    },
-    {
-      "date": "2026-02-03",
-      "value": 115.5
-    },
-    {
-      "date": "2026-02-04",
-      "value": 116.1
-    },
-    {
-      "date": "2026-02-05",
-      "value": 111.4
-    },
-    {
-      "date": "2026-02-06",
-      "value": 109.7
-    },
-    {
-      "date": "2026-02-09",
-      "value": 115.4
-    },
-    {
-      "date": "2026-02-10",
-      "value": 117.1
-    },
-    {
-      "date": "2026-02-11",
-      "value": 116.7
-    },
-    {
-      "date": "2026-02-23",
-      "value": 121.5
-    },
-    {
-      "date": "2026-02-24",
-      "value": 124.5
-    },
-    {
-      "date": "2026-02-25",
-      "value": 126.3
-    },
-    {
-      "date": "2026-02-26",
-      "value": 127.6
-    },
-    {
-      "date": "2026-03-02",
-      "value": 125.5
-    },
-    {
-      "date": "2026-03-03",
-      "value": 124.5
-    },
-    {
-      "date": "2026-03-04",
-      "value": 116.0
-    },
-    {
-      "date": "2026-03-05",
-      "value": 121.9
-    },
-    {
-      "date": "2026-03-06",
-      "value": 119.7
-    },
-    {
-      "date": "2026-03-09",
-      "value": 110.4
-    },
-    {
-      "date": "2026-03-10",
-      "value": 117.5
-    },
-    {
-      "date": "2026-03-11",
-      "value": 121.5
-    },
-    {
-      "date": "2026-03-12",
-      "value": 119.9
-    },
-    {
-      "date": "2026-03-13",
-      "value": 119.1
-    },
-    {
-      "date": "2026-03-16",
-      "value": 120.4
-    },
-    {
-      "date": "2026-03-17",
-      "value": 121.1
-    },
-    {
-      "date": "2026-03-18",
-      "value": 124.5
-    },
-    {
-      "date": "2026-03-19",
-      "value": 123.7
-    },
-    {
-      "date": "2026-03-20",
-      "value": 126.0
-    },
-    {
-      "date": "2026-03-23",
-      "value": 119.8
-    },
-    {
-      "date": "2026-03-24",
-      "value": 119.8
-    },
-    {
-      "date": "2026-03-25",
-      "value": 125.3
-    },
-    {
-      "date": "2026-03-26",
-      "value": 124.5
-    },
-    {
-      "date": "2026-03-27",
-      "value": 121.4
-    },
-    {
-      "date": "2026-03-30",
-      "value": 118.1
-    },
-    {
-      "date": "2026-03-31",
-      "value": 113.0
-    },
-    {
-      "date": "2026-04-01",
-      "value": 118.1
-    },
-    {
-      "date": "2026-04-02",
-      "value": 118.6
-    },
-    {
-      "date": "2026-04-07",
-      "value": 123.3
-    },
-    {
-      "date": "2026-04-08",
-      "value": 132.9
-    },
-    {
-      "date": "2026-04-09",
-      "value": 135.1
-    },
-    {
-      "date": "2026-04-10",
-      "value": 140.1
-    },
-    {
-      "date": "2026-04-13",
-      "value": 139.2
-    },
-    {
-      "date": "2026-04-14",
-      "value": 145.0
-    },
-    {
-      "date": "2026-04-15",
-      "value": 145.5
-    },
-    {
-      "date": "2026-04-16",
-      "value": 145.7
-    },
-    {
-      "date": "2026-04-17",
-      "value": 147.6
-    },
-    {
-      "date": "2026-04-20",
-      "value": 148.3
-    },
-    {
-      "date": "2026-04-21",
-      "value": 151.4
-    },
-    {
-      "date": "2026-04-22",
-      "value": 153.9
-    },
-    {
-      "date": "2026-04-23",
-      "value": 152.8
-    },
-    {
-      "date": "2026-04-24",
-      "value": 155.0
-    },
-    {
-      "date": "2026-04-27",
-      "value": 157.5
-    },
-    {
-      "date": "2026-04-28",
-      "value": 157.4
-    },
-    {
-      "date": "2026-04-29",
-      "value": 155.3
-    },
-    {
-      "date": "2026-04-30",
-      "value": 158.8
-    },
-    {
-      "date": "2026-05-04",
-      "value": 167.7
-    },
-    {
-      "date": "2026-05-05",
-      "value": 167.9
-    },
-    {
-      "date": "2026-05-06",
-      "value": 174.5
-    },
-    {
-      "date": "2026-05-07",
-      "value": 176.0
-    },
-    {
-      "date": "2026-05-08",
-      "value": 170.8
-    },
-    {
-      "date": "2026-05-11",
-      "value": 176.8
-    },
-    {
-      "date": "2026-05-12",
-      "value": 181.4
-    },
-    {
-      "date": "2026-05-13",
-      "value": 180.6
-    },
-    {
-      "date": "2026-05-14",
-      "value": 182.8
-    },
-    {
-      "date": "2026-05-15",
-      "value": 176.7
-    },
-    {
-      "date": "2026-05-18",
-      "value": 174.0
-    },
-    {
-      "date": "2026-05-19",
-      "value": 161.6
-    },
-    {
-      "date": "2026-05-20",
-      "value": 165.7
-    },
-    {
-      "date": "2026-05-21",
-      "value": 176.7
-    },
-    {
-      "date": "2026-05-22",
-      "value": 185.3
-    },
-    {
-      "date": "2026-05-25",
-      "value": 195.0
-    },
-    {
-      "date": "2026-05-26",
-      "value": 193.8
-    },
-    {
-      "date": "2026-05-27",
-      "value": 198.8
-    },
-    {
-      "date": "2026-05-28",
-      "value": 192.3
-    },
-    {
-      "date": "2026-05-29",
-      "value": 201.5
-    },
-    {
-      "date": "2026-06-01",
-      "value": 202.0
-    },
-    {
-      "date": "2026-06-02",
-      "value": 201.7
-    },
-    {
-      "date": "2026-06-03",
-      "value": 211.1
-    },
-    {
-      "date": "2026-06-04",
-      "value": 207.0
-    },
-    {
-      "date": "2026-06-05",
-      "value": 202.5
-    },
-    {
-      "date": "2026-06-08",
-      "value": 189.0
-    },
-    {
-      "date": "2026-06-09",
-      "value": 195.0
-    },
-    {
-      "date": "2026-06-10",
-      "value": 185.4
-    },
-    {
-      "date": "2026-06-11",
-      "value": 183.2
-    },
-    {
-      "date": "2026-06-12",
-      "value": 192.5
-    },
-    {
-      "date": "2026-06-15",
-      "value": 204.7
-    },
-    {
-      "date": "2026-06-16",
-      "value": 208.9
-    },
-    {
-      "date": "2026-06-17",
-      "value": 207.2
-    },
-    {
-      "date": "2026-06-18",
-      "value": 209.7
-    },
-    {
-      "date": "2026-06-22",
-      "value": 217.3
-    },
-    {
-      "date": "2026-06-23",
-      "value": 210.8
-    },
-    {
-      "date": "2026-06-24",
-      "value": 205.1
-    },
-    {
-      "date": "2026-06-25",
-      "value": 211.8
-    },
-    {
-      "date": "2026-06-26",
-      "value": 202.3
-    },
-    {
-      "date": "2026-06-29",
-      "value": 199.0
-    },
-    {
-      "date": "2026-06-30",
-      "value": 207.8
-    },
-    {
-      "date": "2026-07-01",
-      "value": 212.3
-    },
-    {
-      "date": "2026-07-02",
-      "value": 203.8
-    },
-    {
-      "date": "2026-07-03",
-      "value": 197.6
-    },
-    {
-      "date": "2026-07-06",
-      "value": 193.2
-    },
-    {
-      "date": "2026-07-07",
-      "value": 182.9
-    },
-    {
-      "date": "2026-07-08",
-      "value": 178.8
-    },
-    {
-      "date": "2026-07-09",
-      "value": 179.6
-    },
-    {
-      "date": "2026-07-10",
-      "value": 179.6
-    },
-    {
-      "date": "2026-07-13",
-      "value": 176.0
-    },
-    {
-      "date": "2026-07-14",
-      "value": 173.7
-    },
-    {
-      "date": "2026-07-15",
-      "value": 181.6
-    },
-    {
-      "date": "2026-07-16",
-      "value": 171.9
-    },
-    {
-      "date": "2026-07-17",
-      "value": 154.9
-    },
-    {
-      "date": "2026-07-20",
-      "value": 158.2
-    },
-    {
-      "date": "2026-07-21",
-      "value": 164.3
-    },
-    {
-      "date": "2026-07-22",
-      "value": 167.0
-    },
-    {
-      "date": "2026-07-23",
-      "value": 168.6
-    },
-    {
-      "date": "2026-07-24",
-      "value": 163.6
-    },
-    {
-      "date": "2026-07-27",
-      "value": 161.0
-    },
-    {
-      "date": "2026-07-28",
-      "value": 147.6
-    },
-    {
-      "date": "2026-07-29",
-      "value": 138.3
-    }
-  ],
+  "metrics": {},
+  "bootstrap_status": "pending",
+  "latest_price": null,
+  "trend": [],
   "top_holdings": [
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "LITE",
+      "holding_name": "Lumentum Holdings Inc",
+      "weight": 0.0874747,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Lumentum Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "Lumentum Holdings Inc",
+      "display_label": "(LITE)Lumentum Holdings Inc",
+      "bilingual_name": "Lumentum Holdings Inc"
+    },
     {
       "etf_id": "TW-00990A",
       "holding_symbol": "SNDK",
       "holding_name": "SanDisk Corp Ordinary Shares",
-      "weight": 0.0694485,
-      "as_of": null,
+      "weight": 0.056770302,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 1,
       "holding_name_en": "SanDisk Corp Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "SanDisk Corp Ordinary Shares",
@@ -735,10 +82,9 @@
       "etf_id": "TW-00990A",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.0638369,
-      "as_of": null,
+      "weight": 0.048239004,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Micron Technology Inc",
       "holding_name_zh": "美光科技",
       "display_name": "美光科技",
@@ -747,96 +93,24 @@
     },
     {
       "etf_id": "TW-00990A",
-      "holding_symbol": "285A.T",
-      "holding_name": "Kioxia Holdings Corp Ordinary Shares",
-      "weight": 0.056157,
-      "as_of": null,
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.0403535,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Kioxia Holdings Corp Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Kioxia Holdings Corp Ordinary Shares",
-      "display_label": "(285A.T)Kioxia Holdings Corp Ordinary Shares",
-      "bilingual_name": "Kioxia Holdings Corp Ordinary Shares"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0497595,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "009150.KS",
-      "holding_name": "Samsung Electro-Mechanics Co Ltd",
-      "weight": 0.047689,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Samsung Electro-Mechanics Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electro-Mechanics Co Ltd",
-      "display_label": "(009150.KS)Samsung Electro-Mechanics Co Ltd",
-      "bilingual_name": "Samsung Electro-Mechanics Co Ltd"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "6976.T",
-      "holding_name": "Taiyo Yuden Co Ltd",
-      "weight": 0.0438725,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Taiyo Yuden Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Taiyo Yuden Co Ltd",
-      "display_label": "(6976.T)Taiyo Yuden Co Ltd",
-      "bilingual_name": "Taiyo Yuden Co Ltd"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "LITE",
-      "holding_name": "Lumentum Holdings Inc",
-      "weight": 0.0346134,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Lumentum Holdings Inc",
-      "holding_name_zh": null,
-      "display_name": "Lumentum Holdings Inc",
-      "display_label": "(LITE)Lumentum Holdings Inc",
-      "bilingual_name": "Lumentum Holdings Inc"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "6981.T",
-      "holding_name": "Murata Manufacturing Co Ltd",
-      "weight": 0.0322829,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Murata Manufacturing Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Murata Manufacturing Co Ltd",
-      "display_label": "(6981.T)Murata Manufacturing Co Ltd",
-      "bilingual_name": "Murata Manufacturing Co Ltd"
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "TW-00990A",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0303711,
-      "as_of": null,
+      "weight": 0.0399808,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Delta Electronics Inc",
       "holding_name_zh": "台達電",
       "display_name": "台達電",
@@ -845,22 +119,73 @@
     },
     {
       "etf_id": "TW-00990A",
-      "holding_symbol": "AMAT",
-      "holding_name": "Applied Materials Inc",
-      "weight": 0.0293392,
-      "as_of": null,
+      "holding_symbol": "TSEM.TA",
+      "holding_name": "Tower Semiconductor Ltd",
+      "weight": 0.0391476,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Applied Materials Inc",
-      "holding_name_zh": "應用材料",
-      "display_name": "應用材料",
-      "display_label": "(AMAT)應用材料",
-      "bilingual_name": "Applied Materials Inc（應用材料）"
+      "holding_name_en": "Tower Semiconductor Ltd",
+      "holding_name_zh": null,
+      "display_name": "Tower Semiconductor Ltd",
+      "display_label": "(TSEM.TA)Tower Semiconductor Ltd",
+      "bilingual_name": "Tower Semiconductor Ltd"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "TER",
+      "holding_name": "Teradyne Inc",
+      "weight": 0.0351107,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Teradyne Inc",
+      "holding_name_zh": "泰瑞達",
+      "display_name": "泰瑞達",
+      "display_label": "(TER)泰瑞達",
+      "bilingual_name": "Teradyne Inc（泰瑞達）"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "CIEN",
+      "holding_name": "Ciena Corp",
+      "weight": 0.0300455,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Ciena Corp",
+      "holding_name_zh": null,
+      "display_name": "Ciena Corp",
+      "display_label": "(CIEN)Ciena Corp",
+      "bilingual_name": "Ciena Corp"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "GLW",
+      "holding_name": "Corning Inc",
+      "weight": 0.0293308,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Corning Inc",
+      "holding_name_zh": null,
+      "display_name": "Corning Inc",
+      "display_label": "(GLW)Corning Inc",
+      "bilingual_name": "Corning Inc"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "AIXA.DE",
+      "holding_name": "Aixtron SE",
+      "weight": 0.028529301,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Aixtron SE",
+      "holding_name_zh": null,
+      "display_name": "Aixtron SE",
+      "display_label": "(AIXA.DE)Aixtron SE",
+      "bilingual_name": "Aixtron SE"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.45737,
-    "top_3_weight": 0.189442
+    "top_10_weight": 0.434982,
+    "top_3_weight": 0.192484
   }
 }

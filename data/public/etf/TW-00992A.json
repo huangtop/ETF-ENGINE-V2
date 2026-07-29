@@ -2,25 +2,25 @@
   "etf_id": "TW-00992A",
   "ticker": "00992A",
   "quote_symbol": "00992A.TW",
-  "name": "主動群益台灣科技創新",
-  "short_name": "群益科技",
+  "name": "主動群益科技創新",
+  "short_name": "主動群益科技創新",
   "listing_market": "TW",
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "不適用",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
-  "name_en": "主動群益台灣科技創新",
-  "short_name_en": "群益科技",
+  "name_en": "主動群益科技創新",
+  "short_name_en": "主動群益科技創新",
   "name_zh": null,
   "short_name_zh": null,
-  "display_name": "主動群益台灣科技創新",
-  "display_short_name": "群益科技",
-  "display_label": "(00992A)主動群益台灣科技創新",
-  "bilingual_name": "主動群益台灣科技創新",
+  "display_name": "主動群益科技創新",
+  "display_short_name": "主動群益科技創新",
+  "display_label": "(00992A)主動群益科技創新",
+  "bilingual_name": "主動群益科技創新",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -39,656 +39,26 @@
       "code": "active"
     },
     {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
       "dimension": "sector",
       "code": "technology"
     }
   ],
-  "metrics": {
-    "total_return_1y": {
-      "value": 39.6528,
-      "unit": "percent"
-    },
-    "annualized_return": {
-      "value": 67.517,
-      "unit": "percent"
-    },
-    "annualized_volatility": {
-      "value": 44.9367,
-      "unit": "percent"
-    },
-    "sharpe_ratio": {
-      "value": 1.4691,
-      "unit": "ratio"
-    },
-    "max_drawdown": {
-      "value": -28.0881,
-      "unit": "percent"
-    },
-    "alpha": {
-      "value": -19.7182,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 1.1604,
-      "unit": "ratio"
-    },
-    "tracking_error": {
-      "value": 27.3871,
-      "unit": "percent"
-    },
-    "data_years": {
-      "value": 0.5873,
-      "unit": "years"
-    }
-  },
-  "latest_price": {
-    "date": "2026-07-29",
-    "value": 13.59,
-    "currency": "TWD"
-  },
-  "trend": [
-    {
-      "date": "2025-12-16",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-17",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-18",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-19",
-      "value": 100.0
-    },
-    {
-      "date": "2025-12-22",
-      "value": 100.1
-    },
-    {
-      "date": "2025-12-23",
-      "value": 100.3
-    },
-    {
-      "date": "2025-12-24",
-      "value": 101.7
-    },
-    {
-      "date": "2025-12-26",
-      "value": 102.5
-    },
-    {
-      "date": "2025-12-29",
-      "value": 102.7
-    },
-    {
-      "date": "2025-12-30",
-      "value": 103.8
-    },
-    {
-      "date": "2025-12-31",
-      "value": 104.3
-    },
-    {
-      "date": "2026-01-02",
-      "value": 103.9
-    },
-    {
-      "date": "2026-01-05",
-      "value": 104.2
-    },
-    {
-      "date": "2026-01-06",
-      "value": 106.1
-    },
-    {
-      "date": "2026-01-07",
-      "value": 105.9
-    },
-    {
-      "date": "2026-01-08",
-      "value": 104.7
-    },
-    {
-      "date": "2026-01-09",
-      "value": 104.8
-    },
-    {
-      "date": "2026-01-12",
-      "value": 106.4
-    },
-    {
-      "date": "2026-01-13",
-      "value": 106.1
-    },
-    {
-      "date": "2026-01-14",
-      "value": 107.9
-    },
-    {
-      "date": "2026-01-15",
-      "value": 107.3
-    },
-    {
-      "date": "2026-01-16",
-      "value": 109.2
-    },
-    {
-      "date": "2026-01-19",
-      "value": 109.5
-    },
-    {
-      "date": "2026-01-20",
-      "value": 110.6
-    },
-    {
-      "date": "2026-01-21",
-      "value": 108.7
-    },
-    {
-      "date": "2026-01-22",
-      "value": 111.8
-    },
-    {
-      "date": "2026-01-23",
-      "value": 112.7
-    },
-    {
-      "date": "2026-01-26",
-      "value": 113.6
-    },
-    {
-      "date": "2026-01-27",
-      "value": 115.9
-    },
-    {
-      "date": "2026-01-28",
-      "value": 117.9
-    },
-    {
-      "date": "2026-01-29",
-      "value": 116.4
-    },
-    {
-      "date": "2026-01-30",
-      "value": 114.9
-    },
-    {
-      "date": "2026-02-02",
-      "value": 112.1
-    },
-    {
-      "date": "2026-02-03",
-      "value": 115.4
-    },
-    {
-      "date": "2026-02-04",
-      "value": 116.1
-    },
-    {
-      "date": "2026-02-05",
-      "value": 113.6
-    },
-    {
-      "date": "2026-02-06",
-      "value": 112.0
-    },
-    {
-      "date": "2026-02-09",
-      "value": 115.7
-    },
-    {
-      "date": "2026-02-10",
-      "value": 117.3
-    },
-    {
-      "date": "2026-02-11",
-      "value": 119.1
-    },
-    {
-      "date": "2026-02-23",
-      "value": 120.2
-    },
-    {
-      "date": "2026-02-24",
-      "value": 124.3
-    },
-    {
-      "date": "2026-02-25",
-      "value": 127.3
-    },
-    {
-      "date": "2026-02-26",
-      "value": 129.2
-    },
-    {
-      "date": "2026-03-02",
-      "value": 128.7
-    },
-    {
-      "date": "2026-03-03",
-      "value": 124.3
-    },
-    {
-      "date": "2026-03-04",
-      "value": 116.4
-    },
-    {
-      "date": "2026-03-05",
-      "value": 122.6
-    },
-    {
-      "date": "2026-03-06",
-      "value": 122.8
-    },
-    {
-      "date": "2026-03-09",
-      "value": 113.5
-    },
-    {
-      "date": "2026-03-10",
-      "value": 118.9
-    },
-    {
-      "date": "2026-03-11",
-      "value": 126.5
-    },
-    {
-      "date": "2026-03-12",
-      "value": 127.7
-    },
-    {
-      "date": "2026-03-13",
-      "value": 128.4
-    },
-    {
-      "date": "2026-03-16",
-      "value": 130.0
-    },
-    {
-      "date": "2026-03-17",
-      "value": 132.3
-    },
-    {
-      "date": "2026-03-18",
-      "value": 136.8
-    },
-    {
-      "date": "2026-03-19",
-      "value": 137.7
-    },
-    {
-      "date": "2026-03-20",
-      "value": 136.7
-    },
-    {
-      "date": "2026-03-23",
-      "value": 131.0
-    },
-    {
-      "date": "2026-03-24",
-      "value": 128.6
-    },
-    {
-      "date": "2026-03-25",
-      "value": 135.6
-    },
-    {
-      "date": "2026-03-26",
-      "value": 135.7
-    },
-    {
-      "date": "2026-03-27",
-      "value": 134.8
-    },
-    {
-      "date": "2026-03-30",
-      "value": 132.6
-    },
-    {
-      "date": "2026-03-31",
-      "value": 124.9
-    },
-    {
-      "date": "2026-04-01",
-      "value": 132.2
-    },
-    {
-      "date": "2026-04-02",
-      "value": 129.5
-    },
-    {
-      "date": "2026-04-07",
-      "value": 134.3
-    },
-    {
-      "date": "2026-04-08",
-      "value": 143.9
-    },
-    {
-      "date": "2026-04-09",
-      "value": 144.6
-    },
-    {
-      "date": "2026-04-10",
-      "value": 149.1
-    },
-    {
-      "date": "2026-04-13",
-      "value": 149.4
-    },
-    {
-      "date": "2026-04-14",
-      "value": 151.0
-    },
-    {
-      "date": "2026-04-15",
-      "value": 153.2
-    },
-    {
-      "date": "2026-04-16",
-      "value": 156.8
-    },
-    {
-      "date": "2026-04-17",
-      "value": 160.7
-    },
-    {
-      "date": "2026-04-20",
-      "value": 167.9
-    },
-    {
-      "date": "2026-04-21",
-      "value": 168.7
-    },
-    {
-      "date": "2026-04-22",
-      "value": 170.6
-    },
-    {
-      "date": "2026-04-23",
-      "value": 166.6
-    },
-    {
-      "date": "2026-04-24",
-      "value": 169.3
-    },
-    {
-      "date": "2026-04-27",
-      "value": 168.3
-    },
-    {
-      "date": "2026-04-28",
-      "value": 170.4
-    },
-    {
-      "date": "2026-04-29",
-      "value": 170.8
-    },
-    {
-      "date": "2026-04-30",
-      "value": 173.8
-    },
-    {
-      "date": "2026-05-04",
-      "value": 180.5
-    },
-    {
-      "date": "2026-05-05",
-      "value": 180.2
-    },
-    {
-      "date": "2026-05-06",
-      "value": 180.0
-    },
-    {
-      "date": "2026-05-07",
-      "value": 180.4
-    },
-    {
-      "date": "2026-05-08",
-      "value": 176.6
-    },
-    {
-      "date": "2026-05-11",
-      "value": 185.0
-    },
-    {
-      "date": "2026-05-12",
-      "value": 186.7
-    },
-    {
-      "date": "2026-05-13",
-      "value": 182.5
-    },
-    {
-      "date": "2026-05-14",
-      "value": 182.4
-    },
-    {
-      "date": "2026-05-15",
-      "value": 174.2
-    },
-    {
-      "date": "2026-05-18",
-      "value": 172.9
-    },
-    {
-      "date": "2026-05-19",
-      "value": 167.5
-    },
-    {
-      "date": "2026-05-20",
-      "value": 166.8
-    },
-    {
-      "date": "2026-05-21",
-      "value": 176.7
-    },
-    {
-      "date": "2026-05-22",
-      "value": 182.8
-    },
-    {
-      "date": "2026-05-25",
-      "value": 188.5
-    },
-    {
-      "date": "2026-05-26",
-      "value": 189.2
-    },
-    {
-      "date": "2026-05-27",
-      "value": 187.5
-    },
-    {
-      "date": "2026-05-28",
-      "value": 180.1
-    },
-    {
-      "date": "2026-05-29",
-      "value": 183.5
-    },
-    {
-      "date": "2026-06-01",
-      "value": 185.7
-    },
-    {
-      "date": "2026-06-02",
-      "value": 181.4
-    },
-    {
-      "date": "2026-06-03",
-      "value": 185.2
-    },
-    {
-      "date": "2026-06-04",
-      "value": 182.0
-    },
-    {
-      "date": "2026-06-05",
-      "value": 179.3
-    },
-    {
-      "date": "2026-06-08",
-      "value": 175.2
-    },
-    {
-      "date": "2026-06-09",
-      "value": 182.9
-    },
-    {
-      "date": "2026-06-10",
-      "value": 174.7
-    },
-    {
-      "date": "2026-06-11",
-      "value": 172.5
-    },
-    {
-      "date": "2026-06-12",
-      "value": 178.0
-    },
-    {
-      "date": "2026-06-15",
-      "value": 182.4
-    },
-    {
-      "date": "2026-06-16",
-      "value": 185.1
-    },
-    {
-      "date": "2026-06-17",
-      "value": 186.5
-    },
-    {
-      "date": "2026-06-18",
-      "value": 189.8
-    },
-    {
-      "date": "2026-06-22",
-      "value": 194.2
-    },
-    {
-      "date": "2026-06-23",
-      "value": 189.5
-    },
-    {
-      "date": "2026-06-24",
-      "value": 187.4
-    },
-    {
-      "date": "2026-06-25",
-      "value": 188.2
-    },
-    {
-      "date": "2026-06-26",
-      "value": 178.6
-    },
-    {
-      "date": "2026-06-29",
-      "value": 178.0
-    },
-    {
-      "date": "2026-06-30",
-      "value": 185.4
-    },
-    {
-      "date": "2026-07-01",
-      "value": 189.7
-    },
-    {
-      "date": "2026-07-02",
-      "value": 190.7
-    },
-    {
-      "date": "2026-07-03",
-      "value": 191.0
-    },
-    {
-      "date": "2026-07-06",
-      "value": 186.0
-    },
-    {
-      "date": "2026-07-07",
-      "value": 177.1
-    },
-    {
-      "date": "2026-07-08",
-      "value": 176.5
-    },
-    {
-      "date": "2026-07-09",
-      "value": 178.3
-    },
-    {
-      "date": "2026-07-10",
-      "value": 178.3
-    },
-    {
-      "date": "2026-07-13",
-      "value": 176.7
-    },
-    {
-      "date": "2026-07-14",
-      "value": 170.1
-    },
-    {
-      "date": "2026-07-15",
-      "value": 174.9
-    },
-    {
-      "date": "2026-07-16",
-      "value": 172.13
-    },
-    {
-      "date": "2026-07-17",
-      "value": 156.4
-    },
-    {
-      "date": "2026-07-20",
-      "value": 152.81
-    },
-    {
-      "date": "2026-07-21",
-      "value": 161.54
-    },
-    {
-      "date": "2026-07-22",
-      "value": 166.68
-    },
-    {
-      "date": "2026-07-23",
-      "value": 168.12
-    },
-    {
-      "date": "2026-07-24",
-      "value": 161.03
-    },
-    {
-      "date": "2026-07-27",
-      "value": 162.05
-    },
-    {
-      "date": "2026-07-28",
-      "value": 149.83
-    },
-    {
-      "date": "2026-07-29",
-      "value": 139.65
-    }
-  ],
+  "metrics": {},
+  "bootstrap_status": "pending",
+  "latest_price": null,
+  "trend": [],
   "top_holdings": [
     {
       "etf_id": "TW-00992A",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0774221,
-      "as_of": null,
+      "weight": 0.059559103,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
       "holding_name_zh": "台積電",
       "display_name": "台積電",
@@ -699,10 +69,9 @@
       "etf_id": "TW-00992A",
       "holding_symbol": "2383.TW",
       "holding_name": "Elite Material Co Ltd",
-      "weight": 0.0693362,
-      "as_of": null,
+      "weight": 0.041978102,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Elite Material Co Ltd",
       "holding_name_zh": "台光電",
       "display_name": "台光電",
@@ -711,40 +80,11 @@
     },
     {
       "etf_id": "TW-00992A",
-      "holding_symbol": "3017.TW",
-      "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.0582124,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Asia Vital Components Co Ltd",
-      "holding_name_zh": "奇鋐",
-      "display_name": "奇鋐",
-      "display_label": "(3017.TW)奇鋐",
-      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
-    },
-    {
-      "etf_id": "TW-00992A",
-      "holding_symbol": "8996.TW",
-      "holding_name": "Kaori Heat Treatment Co Ltd",
-      "weight": 0.0577274,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Kaori Heat Treatment Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Kaori Heat Treatment Co Ltd",
-      "display_label": "(8996.TW)Kaori Heat Treatment Co Ltd",
-      "bilingual_name": "Kaori Heat Treatment Co Ltd"
-    },
-    {
-      "etf_id": "TW-00992A",
       "holding_symbol": "2345.TW",
       "holding_name": "Accton Technology Corp",
-      "weight": 0.0556965,
-      "as_of": null,
+      "weight": 0.0400791,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Accton Technology Corp",
       "holding_name_zh": "智邦",
       "display_name": "智邦",
@@ -753,40 +93,37 @@
     },
     {
       "etf_id": "TW-00992A",
-      "holding_symbol": "3037.TW",
-      "holding_name": "Unimicron Technology Corp",
-      "weight": 0.0512678,
-      "as_of": null,
+      "holding_symbol": "6515.TW",
+      "holding_name": "WinWay Technology Co Ltd Ordinary Shares",
+      "weight": 0.039671198,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Unimicron Technology Corp",
-      "holding_name_zh": "欣興",
-      "display_name": "欣興",
-      "display_label": "(3037.TW)欣興",
-      "bilingual_name": "Unimicron Technology Corp（欣興）"
+      "holding_name_en": "WinWay Technology Co Ltd Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "WinWay Technology Co Ltd Ordinary Shares",
+      "display_label": "(6515.TW)WinWay Technology Co Ltd Ordinary Shares",
+      "bilingual_name": "WinWay Technology Co Ltd Ordinary Shares"
     },
     {
       "etf_id": "TW-00992A",
-      "holding_symbol": "2059.TW",
-      "holding_name": "King Slide Works Co Ltd",
-      "weight": 0.0492729,
-      "as_of": null,
+      "holding_symbol": "3017.TW",
+      "holding_name": "Asia Vital Components Co Ltd",
+      "weight": 0.0368045,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "King Slide Works Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "King Slide Works Co Ltd",
-      "display_label": "(2059.TW)King Slide Works Co Ltd",
-      "bilingual_name": "King Slide Works Co Ltd"
+      "holding_name_en": "Asia Vital Components Co Ltd",
+      "holding_name_zh": "奇鋐",
+      "display_name": "奇鋐",
+      "display_label": "(3017.TW)奇鋐",
+      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
     },
     {
       "etf_id": "TW-00992A",
       "holding_symbol": "6223.TWO",
       "holding_name": "MPI Corp",
-      "weight": 0.0453626,
-      "as_of": null,
+      "weight": 0.035221,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "MPI Corp",
       "holding_name_zh": null,
       "display_name": "MPI Corp",
@@ -795,36 +132,60 @@
     },
     {
       "etf_id": "TW-00992A",
-      "holding_symbol": "3665.TW",
-      "holding_name": "Bizlink Holding Inc",
-      "weight": 0.0417864,
-      "as_of": null,
+      "holding_symbol": "3533.TW",
+      "holding_name": "Lotes Co Ltd",
+      "weight": 0.0351475,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Bizlink Holding Inc",
+      "holding_name_en": "Lotes Co Ltd",
       "holding_name_zh": null,
-      "display_name": "Bizlink Holding Inc",
-      "display_label": "(3665.TW)Bizlink Holding Inc",
-      "bilingual_name": "Bizlink Holding Inc"
+      "display_name": "Lotes Co Ltd",
+      "display_label": "(3533.TW)Lotes Co Ltd",
+      "bilingual_name": "Lotes Co Ltd"
     },
     {
       "etf_id": "TW-00992A",
-      "holding_symbol": "3008.TW",
-      "holding_name": "Largan Precision Co Ltd",
-      "weight": 0.0411689,
-      "as_of": null,
+      "holding_symbol": "8299.TWO",
+      "holding_name": "Phison Electronics Corp",
+      "weight": 0.0325407,
+      "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Largan Precision Co Ltd",
+      "holding_name_en": "Phison Electronics Corp",
       "holding_name_zh": null,
-      "display_name": "Largan Precision Co Ltd",
-      "display_label": "(3008.TW)Largan Precision Co Ltd",
-      "bilingual_name": "Largan Precision Co Ltd"
+      "display_name": "Phison Electronics Corp",
+      "display_label": "(8299.TWO)Phison Electronics Corp",
+      "bilingual_name": "Phison Electronics Corp"
+    },
+    {
+      "etf_id": "TW-00992A",
+      "holding_symbol": "2059.TW",
+      "holding_name": "King Slide Works Co Ltd",
+      "weight": 0.0303126,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "King Slide Works Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "King Slide Works Co Ltd",
+      "display_label": "(2059.TW)King Slide Works Co Ltd",
+      "bilingual_name": "King Slide Works Co Ltd"
+    },
+    {
+      "etf_id": "TW-00992A",
+      "holding_symbol": "8996.TW",
+      "holding_name": "Kaori Heat Treatment Co Ltd",
+      "weight": 0.030235901,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "holding_name_en": "Kaori Heat Treatment Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Kaori Heat Treatment Co Ltd",
+      "display_label": "(8996.TW)Kaori Heat Treatment Co Ltd",
+      "bilingual_name": "Kaori Heat Treatment Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.547253,
-    "top_3_weight": 0.204971
+    "top_10_weight": 0.38155,
+    "top_3_weight": 0.141616
   }
 }

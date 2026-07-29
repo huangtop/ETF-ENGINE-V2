@@ -2,25 +2,25 @@
   "etf_id": "TW-0055",
   "ticker": "0055",
   "quote_symbol": "0055.TW",
-  "name": "元大 MSCI 台灣金融",
-  "short_name": "台灣金融",
+  "name": "元大MSCI金融",
+  "short_name": "元大MSCI金融",
   "listing_market": "TW",
   "listing_exchange": "TWSE",
   "currency": "TWD",
   "benchmark_symbol": "0050.TW",
-  "benchmark_name": null,
+  "benchmark_name": "MSCI台灣金融指數",
   "issuer": null,
-  "asset_class": null,
+  "asset_class": "equity",
   "is_thematic": false,
   "active": true,
-  "name_en": "元大 MSCI 台灣金融",
-  "short_name_en": "台灣金融",
+  "name_en": "元大MSCI金融",
+  "short_name_en": "元大MSCI金融",
   "name_zh": null,
   "short_name_zh": null,
-  "display_name": "元大 MSCI 台灣金融",
-  "display_short_name": "台灣金融",
-  "display_label": "(0055)元大 MSCI 台灣金融",
-  "bilingual_name": "元大 MSCI 台灣金融",
+  "display_name": "元大MSCI金融",
+  "display_short_name": "元大MSCI金融",
+  "display_label": "(0055)元大MSCI金融",
+  "bilingual_name": "元大MSCI金融",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -39,8 +39,16 @@
       "code": "passive"
     },
     {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
       "dimension": "sector",
       "code": "financials"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
     }
   ],
   "metrics": {
@@ -81,6 +89,7 @@
       "unit": "years"
     }
   },
+  "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-29",
     "value": 42.1,
