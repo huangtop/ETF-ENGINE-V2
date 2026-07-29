@@ -74,6 +74,18 @@ Windows PowerShell：
 `observed_at` 是本系統成功觀察資料的時間，不代表 provider 的資料日期。
 若來源未提供可靠日期，`provider_generated_at` 與 `provider_as_of` 皆為 `null`。
 
+V031E.2B 會將內容變更的相鄰 observation 轉成未經推理的原始事件，供 AXIOM
+唯讀取得：
+
+- `data/public/history/holdings/manifest.json`
+- `data/public/history/holdings/latest_changes.json`
+- `data/public/history/holdings/<etf_id>.json`
+
+事件類型為 `ENTERED_TOP_HOLDINGS`、`EXITED_TOP_HOLDINGS`、
+`WEIGHT_INCREASED`、`WEIGHT_DECREASED` 與 `UNCHANGED`。首次快照沒有比較基準，
+因此不產生事件；相同內容的重複 observation 也不產生重複 transition。ETF Engine
+不提供 AXIOM identity mapping、重要性評分、估值、新聞或產業鏈推理。
+
 ## 重要設計
 
 - `etf_id` 是永久識別碼，例如 `TW-0050`、`US-SPY`。

@@ -5,6 +5,7 @@ from pathlib import Path
 
 from etf_engine.repository import SeedRepository, PriceRepository
 from etf_engine.services.holding_service import HoldingService, overlap
+from etf_engine.services.holdings_change_export import HoldingsChangeExporter
 from etf_engine.settings import settings
 
 
@@ -237,6 +238,7 @@ def build_public() -> None:
             },
         },
     )
+    HoldingsChangeExporter().build()
 
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@ import json
 
 from etf_engine.repository import SeedRepository
 from etf_engine.services.holding_service import HoldingService
+from etf_engine.services.holdings_change_export import HoldingsChangeExporter
 
 
 def sync(market: str = "all", active_only: bool = True) -> dict:
@@ -27,13 +28,15 @@ def sync(market: str = "all", active_only: bool = True) -> dict:
         else:
             failed += 1
 
-    return {
+    result = {
         "synced": synced,
         "cached": cached,
         "synced_or_cached": synced + cached,
         "failed": failed,
         "market": market,
     }
+    HoldingsChangeExporter().build()
+    return result
 
 
 def main() -> None:
