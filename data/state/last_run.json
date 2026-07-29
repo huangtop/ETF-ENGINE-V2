@@ -2,33 +2,12 @@
   "run_date": "2026-07-29",
   "market": "all",
   "eligible": 459,
-  "processed": 20,
+  "processed": 36,
   "bootstrap_limit": 20,
   "bootstrap_attempted": 20,
-  "bootstrap_ready": 16,
-  "bootstrap_pending": 443,
-  "metric_rows": 135,
-  "holdings_synced": 16,
-  "errors": [
-    {
-      "etf_id": "TW-0054",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "TW-0058",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "TW-0059",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "TW-0060",
-      "stage": "prices",
-      "error": "no provider data"
-    }
-  ]
+  "bootstrap_ready": 36,
+  "bootstrap_pending": 423,
+  "metric_rows": 315,
+  "holdings_synced": 30,
+  "errors": []
 }
