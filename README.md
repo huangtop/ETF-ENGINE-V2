@@ -94,6 +94,18 @@ V031E.2B 會將內容變更的相鄰 observation 轉成未經推理的原始事�
 - ETF 可以同時具有多個分類，不再重複維護於不同檔案。
 - 股息 seed 值不再當作同一種資料；新版只保留明確定義的 metric。
 
+## 台灣繁體顯示欄位
+
+ETF 與持股的 canonical 英文名稱及永久識別碼維持不變，public JSON 另提供
+`name_zh`／`holding_name_zh`、`display_name`、`display_label` 與
+`bilingual_name`，讓 AXIOM 或其他前端自行選擇台灣化短標籤或中英雙語名稱。
+未知譯名一律回退 provider 原名，不進行未審核的機器翻譯。
+
+持股譯名維護於 `data/seed/holding_translations_zh.json`，可保存人工審核來源。
+例如 IQMM 的 public display label 為
+`(IQMM)ProShares GENIUS貨幣市場主動型ETF`，canonical `holding_name` 仍為
+`ProShares GENIUS Money Market ETF`。
+
 ## 舊專案遷移
 
 舊 JSON 已轉入 `data/seed/entities.json`、`classifications.json` 與 `metric_overrides.json`。

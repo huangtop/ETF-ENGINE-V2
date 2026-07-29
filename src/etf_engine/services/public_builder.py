@@ -4,6 +4,10 @@ from itertools import combinations
 from pathlib import Path
 
 from etf_engine.repository import SeedRepository, PriceRepository
+from etf_engine.services.display_translations import (
+    load_holding_translations,
+    localize_holding,
+)
 from etf_engine.services.holding_service import HoldingService, overlap
 from etf_engine.services.holdings_change_export import HoldingsChangeExporter
 from etf_engine.settings import settings
@@ -53,6 +57,7 @@ def build_public() -> None:
     entities = [x.model_dump() for x in repo.entities()]
     classifications = [x.model_dump() for x in repo.classifications()]
     translations = load_translations()
+    holding_translations = load_holding_translations()
 
     metrics_path = settings.normalized_dir / "metrics" / "latest.json"
     metrics = (
@@ -123,12 +128,21 @@ def build_public() -> None:
                     for date, value in norm.items()
                 ]
 
-        holdings = holding_service.load(etf_id)
+        holdings = [
+            localize_holding(row, holding_translations)
+            for row in holding_service.load(etf_id)
+        ]
         holdings_map[etf_id] = holdings
 
         for row in holdings:
             reverse_holdings.setdefault(row["holding_symbol"], []).append(
                 {
+                    "holding_symbol": row["holding_symbol"],
+                    "holding_name_en": row["holding_name_en"],
+                    "holding_name_zh": row["holding_name_zh"],
+                    "holding_display_name": row["display_name"],
+                    "holding_display_label": row["display_label"],
+                    "holding_bilingual_name": row["bilingual_name"],
                     "etf_id": etf_id,
                     "ticker": entity["ticker"],
                     "name": display_name,
@@ -157,6 +171,12 @@ def build_public() -> None:
             "short_name_zh": short_name_zh,
             "display_name": display_name,
             "display_short_name": display_short_name,
+            "display_label": f"({entity['ticker']}){display_name}",
+            "bilingual_name": (
+                f"{entity.get('name')}（{name_zh}）"
+                if entity.get("name") and name_zh
+                else display_name
+            ),
             "classifications": class_map.get(etf_id, []),
             "metrics": metric_map.get(etf_id, {}),
             "latest_price": latest_price,
@@ -232,6 +252,12 @@ def build_public() -> None:
             "etf_count": len(payload),
             "holding_symbols": len(reverse_holdings),
             "overlap_pairs": len(overlap_index),
+            "translations": {
+                "locale": "zh-TW",
+                "etf_count": len(translations),
+                "holding_symbol_count": len(holding_translations),
+                "fallback": "canonical_name",
+            },
             "markets": {
                 "TW": sum(x["listing_market"] == "TW" for x in payload),
                 "US": sum(x["listing_market"] == "US" for x in payload),

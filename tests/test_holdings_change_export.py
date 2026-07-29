@@ -44,6 +44,8 @@ def test_exports_all_raw_change_types(tmp_path):
     assert changes["AVGO"]["change_type"] == "ENTERED_TOP_HOLDINGS"
     assert changes["MU"]["change_type"] == "EXITED_TOP_HOLDINGS"
     assert changes["NVDA"]["change_type"] == "WEIGHT_INCREASED"
+    assert changes["NVDA"]["holding_name_zh"] == "輝達"
+    assert changes["NVDA"]["holding_display_label"] == "(NVDA)輝達"
     assert changes["AMD"]["change_type"] == "WEIGHT_DECREASED"
     assert changes["MSFT"]["change_type"] == "UNCHANGED"
     assert changes["MU"]["previous_weight"] == 0.005

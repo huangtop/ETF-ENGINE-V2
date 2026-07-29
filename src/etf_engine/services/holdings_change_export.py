@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 from uuid import uuid4
 
+from etf_engine.services.display_translations import load_holding_translations
 from etf_engine.services.holdings_history import COVERAGE
 from etf_engine.settings import settings
 
@@ -29,9 +30,11 @@ class HoldingsChangeExporter:
         self,
         history_dir: Path | None = None,
         public_dir: Path | None = None,
+        translations_path: Path | None = None,
     ) -> None:
         self.history_dir = history_dir or settings.root / "data" / "history" / "holdings"
         self.public_dir = public_dir or settings.public_dir / "history" / "holdings"
+        self.translations = load_holding_translations(translations_path)
 
     def build(self) -> dict[str, Any]:
         observations_document = self._read(
@@ -137,8 +140,8 @@ class HoldingsChangeExporter:
             "changes": changes,
         }
 
-    @staticmethod
     def _change(
+        self,
         etf_id: str,
         symbol: str,
         previous: dict[str, Any] | None,
@@ -169,10 +172,20 @@ class HoldingsChangeExporter:
                 current_observation["observed_at"],
             ]
         )
+        translation = self.translations.get(symbol, {})
+        name_en = translation.get("name_en")
+        name_zh = translation.get("name_zh")
+        display_name = name_zh or name_en or symbol
+        bilingual_name = f"{name_en}（{name_zh}）" if name_en and name_zh else display_name
         return {
             "event_id": hashlib.sha256(identity.encode("utf-8")).hexdigest(),
             "etf_id": etf_id,
             "holding_symbol": symbol,
+            "holding_name_en": name_en,
+            "holding_name_zh": name_zh,
+            "holding_display_name": display_name,
+            "holding_display_label": f"({symbol}){display_name}",
+            "holding_bilingual_name": bilingual_name,
             "previous_weight": previous_weight,
             "current_weight": current_weight,
             "delta_weight": delta_weight,
