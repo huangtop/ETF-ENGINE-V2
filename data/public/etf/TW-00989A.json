@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動摩根美國科技",
   "display_short_name": "摩根美國科技",
+  "display_label": "(00989A)主動摩根美國科技",
+  "bilingual_name": "主動摩根美國科技",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -43,19 +45,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 11.0667,
+      "value": 5.1333,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 14.6779,
+      "value": 6.7375,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.3111,
+      "value": 28.5354,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.4655,
+      "value": 0.1835,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -63,25 +65,25 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": -35.1761,
+      "value": -34.2393,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7301,
+      "value": 0.7269,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 20.8205,
+      "value": 20.8398,
       "unit": "percent"
     },
     "data_years": {
-      "value": 0.754,
+      "value": 0.7619,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 16.66,
+    "date": "2026-07-29",
+    "value": 15.77,
     "currency": "TWD"
   },
   "trend": [
@@ -844,93 +846,161 @@
     {
       "date": "2026-07-27",
       "value": 111.07
+    },
+    {
+      "date": "2026-07-28",
+      "value": 107.4
+    },
+    {
+      "date": "2026-07-29",
+      "value": 105.13
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00989A",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0465123,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "TTWO",
-      "holding_name": "Take-Two Interactive Software Inc",
-      "weight": 0.0393878,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "TSLA",
-      "holding_name": "Tesla Inc",
-      "weight": 0.0385679,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00989A",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0368614,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "INTC",
+      "holding_name": "Intel Corp",
+      "weight": 0.0522651,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Intel Corp",
+      "holding_name_zh": "英特爾",
+      "display_name": "英特爾",
+      "display_label": "(INTC)英特爾",
+      "bilingual_name": "Intel Corp（英特爾）"
     },
     {
       "etf_id": "TW-00989A",
       "holding_symbol": "LRCX",
       "holding_name": "Lam Research Corp",
-      "weight": 0.0366907,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0496463,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     },
     {
       "etf_id": "TW-00989A",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.034731198,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0395797,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "PANW",
+      "holding_name": "Palo Alto Networks Inc",
+      "weight": 0.0368593,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Palo Alto Networks Inc",
+      "holding_name_zh": "Palo Alto Networks",
+      "display_name": "Palo Alto Networks",
+      "display_label": "(PANW)Palo Alto Networks",
+      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.036008,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
     },
     {
       "etf_id": "TW-00989A",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0337722,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0343142,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
     },
     {
       "etf_id": "TW-00989A",
-      "holding_symbol": "SNOW",
-      "holding_name": "Snowflake Inc Ordinary Shares",
-      "weight": 0.032080602,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "TTWO",
+      "holding_name": "Take-Two Interactive Software Inc",
+      "weight": 0.0340104,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Take-Two Interactive Software Inc",
+      "holding_name_zh": null,
+      "display_name": "Take-Two Interactive Software Inc",
+      "display_label": "(TTWO)Take-Two Interactive Software Inc",
+      "bilingual_name": "Take-Two Interactive Software Inc"
     },
     {
       "etf_id": "TW-00989A",
-      "holding_symbol": "CIEN",
-      "holding_name": "Ciena Corp",
-      "weight": 0.0311868,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0338479,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "TW-00989A",
+      "holding_symbol": "SNDK",
+      "holding_name": "SanDisk Corp Ordinary Shares",
+      "weight": 0.032286,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "SanDisk Corp Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "SanDisk Corp Ordinary Shares",
+      "display_label": "(SNDK)SanDisk Corp Ordinary Shares",
+      "bilingual_name": "SanDisk Corp Ordinary Shares"
     },
     {
       "etf_id": "TW-00989A",
       "holding_symbol": "ASML",
       "holding_name": "ASML Holding NV ADR",
-      "weight": 0.023025,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0310441,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "ASML Holding NV ADR",
+      "holding_name_zh": "艾司摩爾ADR",
+      "display_name": "艾司摩爾ADR",
+      "display_label": "(ASML)艾司摩爾ADR",
+      "bilingual_name": "ASML Holding NV ADR（艾司摩爾ADR）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.352816,
-    "top_3_weight": 0.124468
+    "top_10_weight": 0.379861,
+    "top_3_weight": 0.141491
   }
 }

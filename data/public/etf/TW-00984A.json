@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動安聯台灣高息",
   "display_short_name": "安聯高息",
+  "display_label": "(00984A)主動安聯台灣高息",
+  "bilingual_name": "主動安聯台灣高息",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -47,45 +49,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 58.9726,
+      "value": 44.0106,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 58.9726,
+      "value": 44.0106,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 21.811,
+      "value": 22.749,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.635,
+      "value": 1.8687,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -14.2723,
+      "value": -20.6116,
       "unit": "percent"
     },
     "alpha": {
-      "value": -0.3435,
+      "value": -5.3979,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6621,
+      "value": 0.6837,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 16.0945,
+      "value": 16.0908,
       "unit": "percent"
     },
     "data_years": {
-      "value": 1.0238,
+      "value": 1.0317,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 14.66,
+    "date": "2026-07-29",
+    "value": 13.4,
     "currency": "TWD"
   },
   "trend": [
@@ -319,7 +321,7 @@
     },
     {
       "date": "2025-09-24",
-      "value": 105.01
+      "value": 105.0
     },
     {
       "date": "2025-09-25",
@@ -567,7 +569,7 @@
     },
     {
       "date": "2025-12-26",
-      "value": 111.83
+      "value": 111.82
     },
     {
       "date": "2025-12-29",
@@ -1120,93 +1122,161 @@
     {
       "date": "2026-07-27",
       "value": 158.81
+    },
+    {
+      "date": "2026-07-28",
+      "value": 151.45
+    },
+    {
+      "date": "2026-07-29",
+      "value": 145.16
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00984A",
-      "holding_symbol": "2330.TW",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0455082,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00984A",
       "holding_symbol": "2382.TW",
       "holding_name": "Quanta Computer Inc",
-      "weight": 0.0439142,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00984A",
-      "holding_symbol": "3045.TW",
-      "holding_name": "Taiwan Mobile Co Ltd",
-      "weight": 0.0338963,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00984A",
-      "holding_symbol": "2881.TW",
-      "holding_name": "Fubon Financial Holdings Co Ltd",
-      "weight": 0.0326213,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00984A",
-      "holding_symbol": "2882.TW",
-      "holding_name": "Cathay Financial Holding Co Ltd",
-      "weight": 0.031242399,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00984A",
-      "holding_symbol": "2891.TW",
-      "holding_name": "CTBC Financial Holding Co Ltd",
-      "weight": 0.0304967,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0375301,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Quanta Computer Inc",
+      "holding_name_zh": "廣達",
+      "display_name": "廣達",
+      "display_label": "(2382.TW)廣達",
+      "bilingual_name": "Quanta Computer Inc（廣達）"
     },
     {
       "etf_id": "TW-00984A",
       "holding_symbol": "2303.TW",
       "holding_name": "United Microelectronics Corp",
-      "weight": 0.028931402,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0368716,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "United Microelectronics Corp",
+      "holding_name_zh": "聯電",
+      "display_name": "聯電",
+      "display_label": "(2303.TW)聯電",
+      "bilingual_name": "United Microelectronics Corp（聯電）"
     },
     {
       "etf_id": "TW-00984A",
-      "holding_symbol": "2885.TW",
-      "holding_name": "Yuanta Financial Holdings Co Ltd",
-      "weight": 0.0286795,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.0269796,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "TW-00984A",
-      "holding_symbol": "2880.TW",
-      "holding_name": "Hua Nan Financial Holdings Co Ltd",
-      "weight": 0.024036601,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2881.TW",
+      "holding_name": "Fubon Financial Holdings Co Ltd",
+      "weight": 0.0267807,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Fubon Financial Holdings Co Ltd",
+      "holding_name_zh": "富邦金",
+      "display_name": "富邦金",
+      "display_label": "(2881.TW)富邦金",
+      "bilingual_name": "Fubon Financial Holdings Co Ltd（富邦金）"
     },
     {
       "etf_id": "TW-00984A",
-      "holding_symbol": "2887.TW",
-      "holding_name": "TS Financial Holding Co Ltd",
-      "weight": 0.0222814,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2891.TW",
+      "holding_name": "CTBC Financial Holding Co Ltd",
+      "weight": 0.0253649,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "CTBC Financial Holding Co Ltd",
+      "holding_name_zh": "中信金",
+      "display_name": "中信金",
+      "display_label": "(2891.TW)中信金",
+      "bilingual_name": "CTBC Financial Holding Co Ltd（中信金）"
+    },
+    {
+      "etf_id": "TW-00984A",
+      "holding_symbol": "2357.TW",
+      "holding_name": "Asustek Computer Inc",
+      "weight": 0.024112,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Asustek Computer Inc",
+      "holding_name_zh": "華碩",
+      "display_name": "華碩",
+      "display_label": "(2357.TW)華碩",
+      "bilingual_name": "Asustek Computer Inc（華碩）"
+    },
+    {
+      "etf_id": "TW-00984A",
+      "holding_symbol": "2882.TW",
+      "holding_name": "Cathay Financial Holding Co Ltd",
+      "weight": 0.0234966,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Cathay Financial Holding Co Ltd",
+      "holding_name_zh": "國泰金",
+      "display_name": "國泰金",
+      "display_label": "(2882.TW)國泰金",
+      "bilingual_name": "Cathay Financial Holding Co Ltd（國泰金）"
+    },
+    {
+      "etf_id": "TW-00984A",
+      "holding_symbol": "3045.TW",
+      "holding_name": "Taiwan Mobile Co Ltd",
+      "weight": 0.0231174,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Taiwan Mobile Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Taiwan Mobile Co Ltd",
+      "display_label": "(3045.TW)Taiwan Mobile Co Ltd",
+      "bilingual_name": "Taiwan Mobile Co Ltd"
+    },
+    {
+      "etf_id": "TW-00984A",
+      "holding_symbol": "2603.TW",
+      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
+      "weight": 0.0230832,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
+      "holding_name_zh": "長榮",
+      "display_name": "長榮",
+      "display_label": "(2603.TW)長榮",
+      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
+    },
+    {
+      "etf_id": "TW-00984A",
+      "holding_symbol": "2327.TW",
+      "holding_name": "Yageo Corp",
+      "weight": 0.022439,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Yageo Corp",
+      "holding_name_zh": "國巨",
+      "display_name": "國巨",
+      "display_label": "(2327.TW)國巨",
+      "bilingual_name": "Yageo Corp（國巨）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.321608,
-    "top_3_weight": 0.123319
+    "top_10_weight": 0.269775,
+    "top_3_weight": 0.101381
   }
 }

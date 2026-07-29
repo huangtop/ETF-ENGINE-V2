@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "主動元大 AI 新經濟",
   "display_short_name": "元大AI新經濟",
+  "display_label": "(00990A)主動元大 AI 新經濟",
+  "bilingual_name": "主動元大 AI 新經濟",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -43,45 +45,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 61.0,
+      "value": 38.3,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 99.1742,
+      "value": 61.4752,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 48.4129,
+      "value": 50.0563,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.0175,
+      "value": 1.1982,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -28.7161,
+      "value": -36.3553,
       "unit": "percent"
     },
     "alpha": {
-      "value": -20.0925,
+      "value": -29.4301,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.3021,
+      "value": 1.3347,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 30.7766,
+      "value": 31.2179,
       "unit": "percent"
     },
     "data_years": {
-      "value": 0.6151,
+      "value": 0.623,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 16.1,
+    "date": "2026-07-29",
+    "value": 13.83,
     "currency": "TWD"
   },
   "trend": [
@@ -704,93 +706,161 @@
     {
       "date": "2026-07-27",
       "value": 161.0
+    },
+    {
+      "date": "2026-07-28",
+      "value": 147.6
+    },
+    {
+      "date": "2026-07-29",
+      "value": 138.3
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00990A",
-      "holding_symbol": "LITE",
-      "holding_name": "Lumentum Holdings Inc",
-      "weight": 0.0874747,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00990A",
       "holding_symbol": "SNDK",
       "holding_name": "SanDisk Corp Ordinary Shares",
-      "weight": 0.056770302,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0694485,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "SanDisk Corp Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "SanDisk Corp Ordinary Shares",
+      "display_label": "(SNDK)SanDisk Corp Ordinary Shares",
+      "bilingual_name": "SanDisk Corp Ordinary Shares"
     },
     {
       "etf_id": "TW-00990A",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.048239004,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0638369,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
     },
     {
       "etf_id": "TW-00990A",
-      "holding_symbol": "2330.TW",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0403535,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "285A.T",
+      "holding_name": "Kioxia Holdings Corp Ordinary Shares",
+      "weight": 0.056157,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Kioxia Holdings Corp Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Kioxia Holdings Corp Ordinary Shares",
+      "display_label": "(285A.T)Kioxia Holdings Corp Ordinary Shares",
+      "bilingual_name": "Kioxia Holdings Corp Ordinary Shares"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.0497595,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "009150.KS",
+      "holding_name": "Samsung Electro-Mechanics Co Ltd",
+      "weight": 0.047689,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Samsung Electro-Mechanics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electro-Mechanics Co Ltd",
+      "display_label": "(009150.KS)Samsung Electro-Mechanics Co Ltd",
+      "bilingual_name": "Samsung Electro-Mechanics Co Ltd"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "6976.T",
+      "holding_name": "Taiyo Yuden Co Ltd",
+      "weight": 0.0438725,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Taiyo Yuden Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Taiyo Yuden Co Ltd",
+      "display_label": "(6976.T)Taiyo Yuden Co Ltd",
+      "bilingual_name": "Taiyo Yuden Co Ltd"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "LITE",
+      "holding_name": "Lumentum Holdings Inc",
+      "weight": 0.0346134,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Lumentum Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "Lumentum Holdings Inc",
+      "display_label": "(LITE)Lumentum Holdings Inc",
+      "bilingual_name": "Lumentum Holdings Inc"
+    },
+    {
+      "etf_id": "TW-00990A",
+      "holding_symbol": "6981.T",
+      "holding_name": "Murata Manufacturing Co Ltd",
+      "weight": 0.0322829,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Murata Manufacturing Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Murata Manufacturing Co Ltd",
+      "display_label": "(6981.T)Murata Manufacturing Co Ltd",
+      "bilingual_name": "Murata Manufacturing Co Ltd"
     },
     {
       "etf_id": "TW-00990A",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0399808,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0303711,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Delta Electronics Inc",
+      "holding_name_zh": "台達電",
+      "display_name": "台達電",
+      "display_label": "(2308.TW)台達電",
+      "bilingual_name": "Delta Electronics Inc（台達電）"
     },
     {
       "etf_id": "TW-00990A",
-      "holding_symbol": "TSEM.TA",
-      "holding_name": "Tower Semiconductor Ltd",
-      "weight": 0.0391476,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "TER",
-      "holding_name": "Teradyne Inc",
-      "weight": 0.0351107,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "CIEN",
-      "holding_name": "Ciena Corp",
-      "weight": 0.0300455,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "GLW",
-      "holding_name": "Corning Inc",
-      "weight": 0.0293308,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00990A",
-      "holding_symbol": "AIXA.DE",
-      "holding_name": "Aixtron SE",
-      "weight": 0.028529301,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "AMAT",
+      "holding_name": "Applied Materials Inc",
+      "weight": 0.0293392,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Applied Materials Inc",
+      "holding_name_zh": "應用材料",
+      "display_name": "應用材料",
+      "display_label": "(AMAT)應用材料",
+      "bilingual_name": "Applied Materials Inc（應用材料）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.434982,
-    "top_3_weight": 0.192484
+    "top_10_weight": 0.45737,
+    "top_3_weight": 0.189442
   }
 }

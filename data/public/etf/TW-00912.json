@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "中信台灣智慧50",
   "display_short_name": "中信智慧50",
+  "display_label": "(00912)中信台灣智慧50",
+  "bilingual_name": "中信台灣智慧50",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -43,35 +45,35 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 63.1381,
+      "value": 54.7938,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 63.1381,
+      "value": 54.7938,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 25.7559,
+      "value": 26.2416,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.3932,
+      "value": 2.0309,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -15.2429,
+      "value": -19.3188,
       "unit": "percent"
     },
     "alpha": {
-      "value": -11.9195,
+      "value": -13.6209,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9173,
+      "value": 0.9258,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 9.2504,
+      "value": 9.3178,
       "unit": "percent"
     },
     "data_years": {
@@ -80,15 +82,11 @@
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 30.36,
+    "date": "2026-07-29",
+    "value": 28.9,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-07-14",
-      "value": 100.0
-    },
     {
       "date": "2023-07-17",
       "value": 100.0
@@ -3032,6 +3030,10 @@
     {
       "date": "2026-07-28",
       "value": 193.5
+    },
+    {
+      "date": "2026-07-29",
+      "value": 184.19
     }
   ],
   "top_holdings": [
@@ -3040,80 +3042,140 @@
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
       "weight": 0.38799998,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "2059.TW",
       "holding_name": "King Slide Works Co Ltd",
       "weight": 0.0499,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "King Slide Works Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "King Slide Works Co Ltd",
+      "display_label": "(2059.TW)King Slide Works Co Ltd",
+      "bilingual_name": "King Slide Works Co Ltd"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "2408.TW",
       "holding_name": "Nanya Technology Corp",
       "weight": 0.0398,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Nanya Technology Corp",
+      "holding_name_zh": "南亞科",
+      "display_name": "南亞科",
+      "display_label": "(2408.TW)南亞科",
+      "bilingual_name": "Nanya Technology Corp（南亞科）"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
       "weight": 0.0355,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Delta Electronics Inc",
+      "holding_name_zh": "台達電",
+      "display_name": "台達電",
+      "display_label": "(2308.TW)台達電",
+      "bilingual_name": "Delta Electronics Inc（台達電）"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "5274.TWO",
       "holding_name": "Aspeed Technology Inc",
       "weight": 0.0341,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Aspeed Technology Inc",
+      "holding_name_zh": null,
+      "display_name": "Aspeed Technology Inc",
+      "display_label": "(5274.TWO)Aspeed Technology Inc",
+      "bilingual_name": "Aspeed Technology Inc"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "6223.TWO",
       "holding_name": "MPI Corp",
-      "weight": 0.033800002,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0338,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": null,
+      "display_name": "MPI Corp",
+      "display_label": "(6223.TWO)MPI Corp",
+      "bilingual_name": "MPI Corp"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "2887.TW",
       "holding_name": "TS Financial Holding Co Ltd",
-      "weight": 0.026300002,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0263,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "TS Financial Holding Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "TS Financial Holding Co Ltd",
+      "display_label": "(2887.TW)TS Financial Holding Co Ltd",
+      "bilingual_name": "TS Financial Holding Co Ltd"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "2360.TW",
       "holding_name": "Chroma Ate Inc",
       "weight": 0.0251,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Chroma Ate Inc",
+      "holding_name_zh": "致茂",
+      "display_name": "致茂",
+      "display_label": "(2360.TW)致茂",
+      "bilingual_name": "Chroma Ate Inc（致茂）"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "7769.TW",
       "holding_name": "Hon Precision Inc",
       "weight": 0.0248,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Hon Precision Inc",
+      "holding_name_zh": null,
+      "display_name": "Hon Precision Inc",
+      "display_label": "(7769.TW)Hon Precision Inc",
+      "bilingual_name": "Hon Precision Inc"
     },
     {
       "etf_id": "TW-00912",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
       "weight": 0.0224,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
     }
   ],
   "holdings_summary": {

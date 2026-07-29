@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "中信上游半導體",
   "display_short_name": "中信上游半導體",
+  "display_label": "(00941)中信上游半導體",
+  "bilingual_name": "中信上游半導體",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -47,45 +49,45 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 80.0725,
+      "value": 71.5835,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 80.0725,
+      "value": 71.5835,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.219,
+      "value": 28.6188,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.7844,
+      "value": 2.4489,
       "unit": "ratio"
     },
     "max_drawdown": {
-      "value": -18.578,
+      "value": -22.2477,
       "unit": "percent"
     },
     "alpha": {
-      "value": 7.6996,
+      "value": 5.7583,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7889,
+      "value": 0.7986,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 19.9094,
+      "value": 19.9234,
       "unit": "percent"
     },
     "data_years": {
-      "value": 2.2817,
+      "value": 2.2857,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 24.85,
+    "date": "2026-07-29",
+    "value": 23.73,
     "currency": "TWD"
   },
   "trend": [
@@ -2388,6 +2390,10 @@
     {
       "date": "2026-07-28",
       "value": 161.89
+    },
+    {
+      "date": "2026-07-29",
+      "value": 154.59
     }
   ],
   "top_holdings": [
@@ -2396,80 +2402,140 @@
       "holding_symbol": "AMAT",
       "holding_name": "Applied Materials Inc",
       "weight": 0.1016,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Applied Materials Inc",
+      "holding_name_zh": "應用材料",
+      "display_name": "應用材料",
+      "display_label": "(AMAT)應用材料",
+      "bilingual_name": "Applied Materials Inc（應用材料）"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "KLAC",
       "holding_name": "KLA Corp",
       "weight": 0.0935,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "KLA Corp",
+      "holding_name_zh": "科磊",
+      "display_name": "科磊",
+      "display_label": "(KLAC)科磊",
+      "bilingual_name": "KLA Corp（科磊）"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "LRCX",
       "holding_name": "Lam Research Corp",
       "weight": 0.09020001,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
       "weight": 0.0743,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "ASML Holding NV",
+      "holding_name_zh": null,
+      "display_name": "ASML Holding NV",
+      "display_label": "(ASML.AS)ASML Holding NV",
+      "bilingual_name": "ASML Holding NV"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "8035.T",
       "holding_name": "Tokyo Electron Ltd",
       "weight": 0.0625,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Tokyo Electron Ltd",
+      "holding_name_zh": null,
+      "display_name": "Tokyo Electron Ltd",
+      "display_label": "(8035.T)Tokyo Electron Ltd",
+      "bilingual_name": "Tokyo Electron Ltd"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "LIN",
       "holding_name": "Linde PLC",
       "weight": 0.0586,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Linde PLC",
+      "holding_name_zh": null,
+      "display_name": "Linde PLC",
+      "display_label": "(LIN)Linde PLC",
+      "bilingual_name": "Linde PLC"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "APD",
       "holding_name": "Air Products and Chemicals Inc",
       "weight": 0.0556,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Air Products and Chemicals Inc",
+      "holding_name_zh": null,
+      "display_name": "Air Products and Chemicals Inc",
+      "display_label": "(APD)Air Products and Chemicals Inc",
+      "bilingual_name": "Air Products and Chemicals Inc"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "4063.T",
       "holding_name": "Shin-Etsu Chemical Co Ltd",
-      "weight": 0.054899998,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0549,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Shin-Etsu Chemical Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Shin-Etsu Chemical Co Ltd",
+      "display_label": "(4063.T)Shin-Etsu Chemical Co Ltd",
+      "bilingual_name": "Shin-Etsu Chemical Co Ltd"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "AI.PA",
       "holding_name": "Air Liquide SA",
       "weight": 0.0548,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Air Liquide SA",
+      "holding_name_zh": null,
+      "display_name": "Air Liquide SA",
+      "display_label": "(AI.PA)Air Liquide SA",
+      "bilingual_name": "Air Liquide SA"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "BAS.DE",
       "holding_name": "Basf SE",
       "weight": 0.0432,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Basf SE",
+      "holding_name_zh": null,
+      "display_name": "Basf SE",
+      "display_label": "(BAS.DE)Basf SE",
+      "bilingual_name": "Basf SE"
     }
   ],
   "holdings_summary": {

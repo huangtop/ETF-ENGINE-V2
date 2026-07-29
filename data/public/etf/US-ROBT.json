@@ -15,10 +15,12 @@
   "active": true,
   "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
   "short_name_en": "ROBT",
-  "name_zh": null,
+  "name_zh": "First Trust Nasdaq 人工智慧與機器人 ETF",
   "short_name_zh": null,
-  "display_name": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-  "display_short_name": "ROBT",
+  "display_name": "First Trust Nasdaq 人工智慧與機器人 ETF",
+  "display_short_name": "First Trust Nasdaq 人工智慧與機器人 ETF",
+  "display_label": "(ROBT)First Trust Nasdaq 人工智慧與機器人 ETF",
+  "bilingual_name": "First Trust Nasdaq Artificial Intelligence and Robotics ETF（First Trust Nasdaq 人工智慧與機器人 ETF）",
   "classifications": [
     {
       "dimension": "ai_layer",
@@ -59,11 +61,11 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 5.707,
+      "value": 5.7074,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 5.707,
+      "value": 5.7074,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,7 +81,7 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": -19.6164,
+      "value": -19.6161,
       "unit": "percent"
     },
     "beta": {
@@ -91,13 +93,13 @@
       "unit": "percent"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     }
   },
   "latest_price": {
     "date": "2026-07-28",
-    "value": 53.9628,
+    "value": 53.963,
     "currency": "USD"
   },
   "trend": [
@@ -3132,80 +3134,140 @@
       "holding_symbol": "PANW",
       "holding_name": "Palo Alto Networks Inc",
       "weight": 0.0181106,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Palo Alto Networks Inc",
+      "holding_name_zh": "Palo Alto Networks",
+      "display_name": "Palo Alto Networks",
+      "display_label": "(PANW)Palo Alto Networks",
+      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "TEM",
       "holding_name": "Tempus AI Inc Class A common stock",
-      "weight": 0.017171001,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.017171,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Tempus AI Inc Class A common stock",
+      "holding_name_zh": null,
+      "display_name": "Tempus AI Inc Class A common stock",
+      "display_label": "(TEM)Tempus AI Inc Class A common stock",
+      "bilingual_name": "Tempus AI Inc Class A common stock"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "CCC",
       "holding_name": "CCC Intelligent Solutions Holdings Inc",
       "weight": 0.016424,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "CCC Intelligent Solutions Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "CCC Intelligent Solutions Holdings Inc",
+      "display_label": "(CCC)CCC Intelligent Solutions Holdings Inc",
+      "bilingual_name": "CCC Intelligent Solutions Holdings Inc"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "ILMN",
       "holding_name": "Illumina Inc",
       "weight": 0.0161414,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Illumina Inc",
+      "holding_name_zh": null,
+      "display_name": "Illumina Inc",
+      "display_label": "(ILMN)Illumina Inc",
+      "bilingual_name": "Illumina Inc"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "OII",
       "holding_name": "Oceaneering International Inc",
-      "weight": 0.015855901,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0158559,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Oceaneering International Inc",
+      "holding_name_zh": null,
+      "display_name": "Oceaneering International Inc",
+      "display_label": "(OII)Oceaneering International Inc",
+      "bilingual_name": "Oceaneering International Inc"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "UPST",
       "holding_name": "Upstart Holdings Inc Ordinary Shares",
-      "weight": 0.015685901,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0156859,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Upstart Holdings Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Upstart Holdings Inc Ordinary Shares",
+      "display_label": "(UPST)Upstart Holdings Inc Ordinary Shares",
+      "bilingual_name": "Upstart Holdings Inc Ordinary Shares"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "GNTX",
       "holding_name": "Gentex Corp",
       "weight": 0.0156471,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Gentex Corp",
+      "holding_name_zh": null,
+      "display_name": "Gentex Corp",
+      "display_label": "(GNTX)Gentex Corp",
+      "bilingual_name": "Gentex Corp"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "DT",
       "holding_name": "Dynatrace Inc Ordinary Shares",
-      "weight": 0.015423501,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0154235,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Dynatrace Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Dynatrace Inc Ordinary Shares",
+      "display_label": "(DT)Dynatrace Inc Ordinary Shares",
+      "bilingual_name": "Dynatrace Inc Ordinary Shares"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "S",
       "holding_name": "SentinelOne Inc Class A",
-      "weight": 0.015339499,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0153395,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "SentinelOne Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "SentinelOne Inc Class A",
+      "display_label": "(S)SentinelOne Inc Class A",
+      "bilingual_name": "SentinelOne Inc Class A"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "RXRX",
       "holding_name": "Recursion Pharmaceuticals Inc Class A",
       "weight": 0.0152932,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Recursion Pharmaceuticals Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Recursion Pharmaceuticals Inc Class A",
+      "display_label": "(RXRX)Recursion Pharmaceuticals Inc Class A",
+      "bilingual_name": "Recursion Pharmaceuticals Inc Class A"
     }
   ],
   "holdings_summary": {

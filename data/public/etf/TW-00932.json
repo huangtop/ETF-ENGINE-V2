@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "兆豐永續高息等權",
   "display_short_name": "兆豐永續高息",
+  "display_label": "(00932)兆豐永續高息等權",
+  "bilingual_name": "兆豐永續高息等權",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -51,19 +53,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 19.6721,
+      "value": 16.8436,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 19.6721,
+      "value": 16.8436,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.5408,
+      "value": 17.6159,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.036,
+      "value": 0.871,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -71,25 +73,25 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": -10.945,
+      "value": -11.4443,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4347,
+      "value": 0.4348,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 19.9536,
+      "value": 20.0624,
       "unit": "percent"
     },
     "data_years": {
-      "value": 2.7897,
+      "value": 2.7937,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 16.79,
+    "date": "2026-07-29",
+    "value": 16.51,
     "currency": "TWD"
   },
   "trend": [
@@ -2904,93 +2906,157 @@
     {
       "date": "2026-07-28",
       "value": 111.56
+    },
+    {
+      "date": "2026-07-29",
+      "value": 109.7
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "3264.TWO",
-      "holding_name": "Ardentec Corp",
-      "weight": 0.0377151,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "6525.TW",
+      "holding_name": "GEM Services Inc",
+      "weight": 0.0309735,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "GEM Services Inc",
+      "holding_name_zh": null,
+      "display_name": "GEM Services Inc",
+      "display_label": "(6525.TW)GEM Services Inc",
+      "bilingual_name": "GEM Services Inc"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "2451.TW",
-      "holding_name": "Transcend Information Inc",
-      "weight": 0.0330549,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "8016.TW",
+      "holding_name": "Sitronix Technology Corp",
+      "weight": 0.0288202,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Sitronix Technology Corp",
+      "holding_name_zh": null,
+      "display_name": "Sitronix Technology Corp",
+      "display_label": "(8016.TW)Sitronix Technology Corp",
+      "bilingual_name": "Sitronix Technology Corp"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "8112.TW",
-      "holding_name": "Supreme Electronics Co Ltd",
-      "weight": 0.0308222,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2855.TW",
+      "holding_name": "President Securities Corp",
+      "weight": 0.028203,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "President Securities Corp",
+      "holding_name_zh": null,
+      "display_name": "President Securities Corp",
+      "display_label": "(2855.TW)President Securities Corp",
+      "bilingual_name": "President Securities Corp"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "2355.TW",
-      "holding_name": "Chin-Poon Industrial Co Ltd",
-      "weight": 0.0283763,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3033.TW",
+      "holding_name": "Weikeng Industrial Co Ltd",
+      "weight": 0.0251922,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Weikeng Industrial Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Weikeng Industrial Co Ltd",
+      "display_label": "(3033.TW)Weikeng Industrial Co Ltd",
+      "bilingual_name": "Weikeng Industrial Co Ltd"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "4906.TW",
-      "holding_name": "Gemtek Technology Co Ltd",
-      "weight": 0.0267572,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2458.TW",
+      "holding_name": "Elan Microelectronics Corp",
+      "weight": 0.0245795,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Elan Microelectronics Corp",
+      "holding_name_zh": null,
+      "display_name": "Elan Microelectronics Corp",
+      "display_label": "(2458.TW)Elan Microelectronics Corp",
+      "bilingual_name": "Elan Microelectronics Corp"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "2327.TW",
-      "holding_name": "Yageo Corp",
-      "weight": 0.0261451,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3034.TW",
+      "holding_name": "Novatek Microelectronics Corp",
+      "weight": 0.0237214,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Novatek Microelectronics Corp",
+      "holding_name_zh": "聯詠",
+      "display_name": "聯詠",
+      "display_label": "(3034.TW)聯詠",
+      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "2347.TW",
-      "holding_name": "Synnex Technology International Corp",
-      "weight": 0.0245961,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "3014.TW",
+      "holding_name": "Ite Tech Inc",
+      "weight": 0.0233714,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Ite Tech Inc",
+      "holding_name_zh": null,
+      "display_name": "Ite Tech Inc",
+      "display_label": "(3014.TW)Ite Tech Inc",
+      "bilingual_name": "Ite Tech Inc"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "3010.TW",
-      "holding_name": "Wah Lee Industrial Corp",
-      "weight": 0.024098001,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "8936.TWO",
+      "holding_name": "Kuo Toong International Co Ltd",
+      "weight": 0.0226939,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Kuo Toong International Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Kuo Toong International Co Ltd",
+      "display_label": "(8936.TWO)Kuo Toong International Co Ltd",
+      "bilingual_name": "Kuo Toong International Co Ltd"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.0237589,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2618.TW",
+      "holding_name": "Eva Airways Corp",
+      "weight": 0.0223754,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Eva Airways Corp",
+      "holding_name_zh": null,
+      "display_name": "Eva Airways Corp",
+      "display_label": "(2618.TW)Eva Airways Corp",
+      "bilingual_name": "Eva Airways Corp"
     },
     {
       "etf_id": "TW-00932",
-      "holding_symbol": "6147.TWO",
-      "holding_name": "Chipbond Technology Corp",
-      "weight": 0.023468202,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "6206.TW",
+      "holding_name": "Flytech Technology Co Ltd",
+      "weight": 0.0221219,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Flytech Technology Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Flytech Technology Co Ltd",
+      "display_label": "(6206.TW)Flytech Technology Co Ltd",
+      "bilingual_name": "Flytech Technology Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.278792,
-    "top_3_weight": 0.101592
+    "top_10_weight": 0.252052,
+    "top_3_weight": 0.087997
   }
 }

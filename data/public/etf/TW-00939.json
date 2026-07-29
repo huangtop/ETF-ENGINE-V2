@@ -19,6 +19,8 @@
   "short_name_zh": null,
   "display_name": "統一台灣高息動能",
   "display_short_name": "統一高息動能",
+  "display_label": "(00939)統一台灣高息動能",
+  "bilingual_name": "統一台灣高息動能",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -47,19 +49,19 @@
   ],
   "metrics": {
     "total_return_1y": {
-      "value": 55.5395,
+      "value": 53.9625,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 55.5395,
+      "value": 53.9625,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.422,
+      "value": 18.4322,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.9334,
+      "value": 2.8462,
       "unit": "ratio"
     },
     "max_drawdown": {
@@ -67,25 +69,25 @@
       "unit": "percent"
     },
     "alpha": {
-      "value": 10.5369,
+      "value": 12.1735,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.5062,
+      "value": 0.4994,
       "unit": "ratio"
     },
     "tracking_error": {
-      "value": 18.1886,
+      "value": 18.4567,
       "unit": "percent"
     },
     "data_years": {
-      "value": 2.2698,
+      "value": 2.2738,
       "unit": "years"
     }
   },
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 21.48,
+    "date": "2026-07-29",
+    "value": 21.37,
     "currency": "TWD"
   },
   "trend": [
@@ -2376,93 +2378,157 @@
     {
       "date": "2026-07-28",
       "value": 142.91
+    },
+    {
+      "date": "2026-07-29",
+      "value": 142.18
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00939",
+      "holding_symbol": "2881.TW",
+      "holding_name": "Fubon Financial Holdings Co Ltd",
+      "weight": 0.0720974,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Fubon Financial Holdings Co Ltd",
+      "holding_name_zh": "富邦金",
+      "display_name": "富邦金",
+      "display_label": "(2881.TW)富邦金",
+      "bilingual_name": "Fubon Financial Holdings Co Ltd（富邦金）"
+    },
+    {
+      "etf_id": "TW-00939",
       "holding_symbol": "2891.TW",
       "holding_name": "CTBC Financial Holding Co Ltd",
-      "weight": 0.0740533,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00939",
-      "holding_symbol": "2885.TW",
-      "holding_name": "Yuanta Financial Holdings Co Ltd",
-      "weight": 0.071058005,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00939",
-      "holding_symbol": "2449.TW",
-      "holding_name": "King Yuan Electronics Co Ltd",
-      "weight": 0.0655711,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0648377,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "CTBC Financial Holding Co Ltd",
+      "holding_name_zh": "中信金",
+      "display_name": "中信金",
+      "display_label": "(2891.TW)中信金",
+      "bilingual_name": "CTBC Financial Holding Co Ltd（中信金）"
     },
     {
       "etf_id": "TW-00939",
       "holding_symbol": "2882.TW",
       "holding_name": "Cathay Financial Holding Co Ltd",
-      "weight": 0.0626639,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
-    },
-    {
-      "etf_id": "TW-00939",
-      "holding_symbol": "2881.TW",
-      "holding_name": "Fubon Financial Holdings Co Ltd",
-      "weight": 0.0583568,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0627337,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Cathay Financial Holding Co Ltd",
+      "holding_name_zh": "國泰金",
+      "display_name": "國泰金",
+      "display_label": "(2882.TW)國泰金",
+      "bilingual_name": "Cathay Financial Holding Co Ltd（國泰金）"
     },
     {
       "etf_id": "TW-00939",
       "holding_symbol": "2887.TW",
       "holding_name": "TS Financial Holding Co Ltd",
-      "weight": 0.0554884,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0561741,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "TS Financial Holding Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "TS Financial Holding Co Ltd",
+      "display_label": "(2887.TW)TS Financial Holding Co Ltd",
+      "bilingual_name": "TS Financial Holding Co Ltd"
     },
     {
       "etf_id": "TW-00939",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.051272403,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2357.TW",
+      "holding_name": "Asustek Computer Inc",
+      "weight": 0.051929,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Asustek Computer Inc",
+      "holding_name_zh": "華碩",
+      "display_name": "華碩",
+      "display_label": "(2357.TW)華碩",
+      "bilingual_name": "Asustek Computer Inc（華碩）"
     },
     {
       "etf_id": "TW-00939",
-      "holding_symbol": "3036.TW",
-      "holding_name": "WT Microelectronics Co Ltd",
-      "weight": 0.0469517,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2885.TW",
+      "holding_name": "Yuanta Financial Holdings Co Ltd",
+      "weight": 0.0461083,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Yuanta Financial Holdings Co Ltd",
+      "holding_name_zh": "元大金",
+      "display_name": "元大金",
+      "display_label": "(2885.TW)元大金",
+      "bilingual_name": "Yuanta Financial Holdings Co Ltd（元大金）"
     },
     {
       "etf_id": "TW-00939",
-      "holding_symbol": "6257.TW",
-      "holding_name": "Sigurd Microelectronics Corp",
-      "weight": 0.037768498,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "holding_symbol": "2886.TW",
+      "holding_name": "Mega Financial Holding Co Ltd",
+      "weight": 0.0460801,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Mega Financial Holding Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Mega Financial Holding Co Ltd",
+      "display_label": "(2886.TW)Mega Financial Holding Co Ltd",
+      "bilingual_name": "Mega Financial Holding Co Ltd"
+    },
+    {
+      "etf_id": "TW-00939",
+      "holding_symbol": "2412.TW",
+      "holding_name": "Chunghwa Telecom Co Ltd",
+      "weight": 0.0459116,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Chunghwa Telecom Co Ltd",
+      "holding_name_zh": "中華電",
+      "display_name": "中華電",
+      "display_label": "(2412.TW)中華電",
+      "bilingual_name": "Chunghwa Telecom Co Ltd（中華電）"
+    },
+    {
+      "etf_id": "TW-00939",
+      "holding_symbol": "2884.TW",
+      "holding_name": "E. Sun Financial Holding Co Ltd",
+      "weight": 0.0437426,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "E. Sun Financial Holding Co Ltd",
+      "holding_name_zh": "玉山金",
+      "display_name": "玉山金",
+      "display_label": "(2884.TW)玉山金",
+      "bilingual_name": "E. Sun Financial Holding Co Ltd（玉山金）"
     },
     {
       "etf_id": "TW-00939",
       "holding_symbol": "2603.TW",
       "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
-      "weight": 0.037455,
-      "as_of": "2026-07-19",
-      "source": "yahoo"
+      "weight": 0.0396658,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
+      "holding_name_zh": "長榮",
+      "display_name": "長榮",
+      "display_label": "(2603.TW)長榮",
+      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.560639,
-    "top_3_weight": 0.210682
+    "top_10_weight": 0.52928,
+    "top_3_weight": 0.199669
   }
 }

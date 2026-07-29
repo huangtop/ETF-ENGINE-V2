@@ -15,10 +15,12 @@
   "active": true,
   "name_en": "Financial Select Sector SPDR Fund",
   "short_name_en": "XLF",
-  "name_zh": null,
+  "name_zh": "金融類股精選 SPDR ETF",
   "short_name_zh": null,
-  "display_name": "Financial Select Sector SPDR Fund",
-  "display_short_name": "XLF",
+  "display_name": "金融類股精選 SPDR ETF",
+  "display_short_name": "金融類股精選 SPDR ETF",
+  "display_label": "(XLF)金融類股精選 SPDR ETF",
+  "bilingual_name": "Financial Select Sector SPDR Fund（金融類股精選 SPDR ETF）",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -75,7 +77,7 @@
       "unit": "percent"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     }
   },
@@ -2375,7 +2377,7 @@
     },
     {
       "date": "2025-10-31",
-      "value": 152.39
+      "value": 152.4
     },
     {
       "date": "2025-11-03",
@@ -3115,81 +3117,141 @@
       "etf_id": "US-XLF",
       "holding_symbol": "BRK-B",
       "holding_name": "Berkshire Hathaway Inc Class B",
-      "weight": 0.120706104,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.1207061,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Berkshire Hathaway Inc Class B",
+      "holding_name_zh": null,
+      "display_name": "Berkshire Hathaway Inc Class B",
+      "display_label": "(BRK-B)Berkshire Hathaway Inc Class B",
+      "bilingual_name": "Berkshire Hathaway Inc Class B"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "JPM",
       "holding_name": "JPMorgan Chase & Co",
       "weight": 0.1154039,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "JPMorgan Chase & Co",
+      "holding_name_zh": null,
+      "display_name": "JPMorgan Chase & Co",
+      "display_label": "(JPM)JPMorgan Chase & Co",
+      "bilingual_name": "JPMorgan Chase & Co"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "V",
       "holding_name": "Visa Inc Class A",
       "weight": 0.0749232,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Visa Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Visa Inc Class A",
+      "display_label": "(V)Visa Inc Class A",
+      "bilingual_name": "Visa Inc Class A"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "MA",
       "holding_name": "Mastercard Inc Class A",
       "weight": 0.0545263,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Mastercard Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Mastercard Inc Class A",
+      "display_label": "(MA)Mastercard Inc Class A",
+      "bilingual_name": "Mastercard Inc Class A"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "BAC",
       "holding_name": "Bank of America Corp",
-      "weight": 0.048948202,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0489482,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Bank of America Corp",
+      "holding_name_zh": null,
+      "display_name": "Bank of America Corp",
+      "display_label": "(BAC)Bank of America Corp",
+      "bilingual_name": "Bank of America Corp"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "GS",
       "holding_name": "The Goldman Sachs Group Inc",
       "weight": 0.0392524,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "The Goldman Sachs Group Inc",
+      "holding_name_zh": null,
+      "display_name": "The Goldman Sachs Group Inc",
+      "display_label": "(GS)The Goldman Sachs Group Inc",
+      "bilingual_name": "The Goldman Sachs Group Inc"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "WFC",
       "holding_name": "Wells Fargo & Co",
       "weight": 0.0332747,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Wells Fargo & Co",
+      "holding_name_zh": null,
+      "display_name": "Wells Fargo & Co",
+      "display_label": "(WFC)Wells Fargo & Co",
+      "bilingual_name": "Wells Fargo & Co"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "MS",
       "holding_name": "Morgan Stanley",
       "weight": 0.0329716,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Morgan Stanley",
+      "holding_name_zh": null,
+      "display_name": "Morgan Stanley",
+      "display_label": "(MS)Morgan Stanley",
+      "bilingual_name": "Morgan Stanley"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "C",
       "holding_name": "Citigroup Inc",
       "weight": 0.031409,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Citigroup Inc",
+      "holding_name_zh": null,
+      "display_name": "Citigroup Inc",
+      "display_label": "(C)Citigroup Inc",
+      "bilingual_name": "Citigroup Inc"
     },
     {
       "etf_id": "US-XLF",
       "holding_symbol": "AXP",
       "holding_name": "American Express Co",
       "weight": 0.0236856,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "American Express Co",
+      "holding_name_zh": null,
+      "display_name": "American Express Co",
+      "display_label": "(AXP)American Express Co",
+      "bilingual_name": "American Express Co"
     }
   ],
   "holdings_summary": {

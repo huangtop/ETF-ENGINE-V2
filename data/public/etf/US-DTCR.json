@@ -15,10 +15,12 @@
   "active": true,
   "name_en": "Global X Data Center & Digital Infrastructure ETF",
   "short_name_en": "DTCR",
-  "name_zh": "Global X 數據中心與數字基礎設施 ETF",
+  "name_zh": "Global X 資料中心與數位基礎設施 ETF",
   "short_name_zh": null,
-  "display_name": "Global X 數據中心與數字基礎設施 ETF",
-  "display_short_name": "Global X 數據中心與數字基礎設施 ETF",
+  "display_name": "Global X 資料中心與數位基礎設施 ETF",
+  "display_short_name": "Global X 資料中心與數位基礎設施 ETF",
+  "display_label": "(DTCR)Global X 資料中心與數位基礎設施 ETF",
+  "bilingual_name": "Global X Data Center & Digital Infrastructure ETF（Global X 資料中心與數位基礎設施 ETF）",
   "classifications": [
     {
       "dimension": "ai_layer",
@@ -95,7 +97,7 @@
       "unit": "percent"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     }
   },
@@ -3136,80 +3138,140 @@
       "holding_symbol": "EQIX",
       "holding_name": "Equinix Inc",
       "weight": 0.1228185,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Equinix Inc",
+      "holding_name_zh": "Equinix",
+      "display_name": "Equinix",
+      "display_label": "(EQIX)Equinix",
+      "bilingual_name": "Equinix Inc（Equinix）"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "DLR",
       "holding_name": "Digital Realty Trust Inc",
       "weight": 0.10623,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Digital Realty Trust Inc",
+      "holding_name_zh": "Digital Realty",
+      "display_name": "Digital Realty",
+      "display_label": "(DLR)Digital Realty",
+      "bilingual_name": "Digital Realty Trust Inc（Digital Realty）"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "AMT",
       "holding_name": "American Tower Corp",
       "weight": 0.0867675,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "American Tower Corp",
+      "holding_name_zh": "美國電塔",
+      "display_name": "美國電塔",
+      "display_label": "(AMT)美國電塔",
+      "bilingual_name": "American Tower Corp（美國電塔）"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "CCI",
       "holding_name": "Crown Castle Inc",
       "weight": 0.0603558,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Crown Castle Inc",
+      "holding_name_zh": null,
+      "display_name": "Crown Castle Inc",
+      "display_label": "(CCI)Crown Castle Inc",
+      "bilingual_name": "Crown Castle Inc"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "MRVL",
       "holding_name": "Marvell Technology Inc",
       "weight": 0.0576671,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Marvell Technology Inc",
+      "holding_name_zh": "邁威爾科技",
+      "display_name": "邁威爾科技",
+      "display_label": "(MRVL)邁威爾科技",
+      "bilingual_name": "Marvell Technology Inc（邁威爾科技）"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.054216698,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0542167,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "000660.KS",
       "holding_name": "SK Hynix Inc",
-      "weight": 0.054128498,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0541285,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "SK Hynix Inc",
+      "holding_name_zh": null,
+      "display_name": "SK Hynix Inc",
+      "display_label": "(000660.KS)SK Hynix Inc",
+      "bilingual_name": "SK Hynix Inc"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "NXT.AX",
       "holding_name": "Nextdc Ltd",
       "weight": 0.0502938,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Nextdc Ltd",
+      "holding_name_zh": null,
+      "display_name": "Nextdc Ltd",
+      "display_label": "(NXT.AX)Nextdc Ltd",
+      "bilingual_name": "Nextdc Ltd"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "INTC",
       "holding_name": "Intel Corp",
-      "weight": 0.045068998,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.045069,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Intel Corp",
+      "holding_name_zh": "英特爾",
+      "display_name": "英特爾",
+      "display_label": "(INTC)英特爾",
+      "bilingual_name": "Intel Corp（英特爾）"
     },
     {
       "etf_id": "US-DTCR",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.040711798,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0407118,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
     }
   ],
   "holdings_summary": {

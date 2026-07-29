@@ -15,10 +15,12 @@
   "active": true,
   "name_en": "JPMorgan Equity Premium Income ETF",
   "short_name_en": "JEPI",
-  "name_zh": null,
+  "name_zh": "JPMorgan 美國股票溢價收益主動型 ETF",
   "short_name_zh": null,
-  "display_name": "JPMorgan Equity Premium Income ETF",
-  "display_short_name": "JEPI",
+  "display_name": "JPMorgan 美國股票溢價收益主動型 ETF",
+  "display_short_name": "JPMorgan 美國股票溢價收益主動型 ETF",
+  "display_label": "(JEPI)JPMorgan 美國股票溢價收益主動型 ETF",
+  "bilingual_name": "JPMorgan Equity Premium Income ETF（JPMorgan 美國股票溢價收益主動型 ETF）",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -83,7 +85,7 @@
       "unit": "percent"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     }
   },
@@ -815,7 +817,7 @@
     },
     {
       "date": "2024-04-10",
-      "value": 107.26
+      "value": 107.25
     },
     {
       "date": "2024-04-11",
@@ -3124,80 +3126,140 @@
       "holding_symbol": "ABBV",
       "holding_name": "AbbVie Inc",
       "weight": 0.0173016,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "AbbVie Inc",
+      "holding_name_zh": "艾伯維",
+      "display_name": "艾伯維",
+      "display_label": "(ABBV)艾伯維",
+      "bilingual_name": "AbbVie Inc（艾伯維）"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "HWM",
       "holding_name": "Howmet Aerospace Inc",
       "weight": 0.016889,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Howmet Aerospace Inc",
+      "holding_name_zh": null,
+      "display_name": "Howmet Aerospace Inc",
+      "display_label": "(HWM)Howmet Aerospace Inc",
+      "bilingual_name": "Howmet Aerospace Inc"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "JNJ",
       "holding_name": "Johnson & Johnson",
       "weight": 0.0166278,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Johnson & Johnson",
+      "holding_name_zh": null,
+      "display_name": "Johnson & Johnson",
+      "display_label": "(JNJ)Johnson & Johnson",
+      "bilingual_name": "Johnson & Johnson"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "ETN",
       "holding_name": "Eaton Corp PLC",
       "weight": 0.016299,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Eaton Corp PLC",
+      "holding_name_zh": null,
+      "display_name": "Eaton Corp PLC",
+      "display_label": "(ETN)Eaton Corp PLC",
+      "bilingual_name": "Eaton Corp PLC"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "TT",
       "holding_name": "Trane Technologies PLC Class A",
       "weight": 0.0160901,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Trane Technologies PLC Class A",
+      "holding_name_zh": null,
+      "display_name": "Trane Technologies PLC Class A",
+      "display_label": "(TT)Trane Technologies PLC Class A",
+      "bilingual_name": "Trane Technologies PLC Class A"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "LRCX",
       "holding_name": "Lam Research Corp",
       "weight": 0.0156378,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
       "weight": 0.0152169,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
       "weight": 0.0152102,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "ROST",
       "holding_name": "Ross Stores Inc",
-      "weight": 0.015136499,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "weight": 0.0151365,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Ross Stores Inc",
+      "holding_name_zh": null,
+      "display_name": "Ross Stores Inc",
+      "display_label": "(ROST)Ross Stores Inc",
+      "bilingual_name": "Ross Stores Inc"
     },
     {
       "etf_id": "US-JEPI",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
       "weight": 0.015061,
-      "as_of": "2026-07-28",
-      "source": "yahoo"
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
     }
   ],
   "holdings_summary": {

@@ -1,14 +1,26 @@
 {
   "left_etf_id": "TW-00990A",
   "right_etf_id": "US-FTXL",
-  "overlap_ratio": 0.048239,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.142935,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "MU",
-      "left_weight": 0.048239,
+      "left_weight": 0.063837,
       "right_weight": 0.121988,
-      "overlap_weight": 0.048239
+      "overlap_weight": 0.063837
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.049759,
+      "right_weight": 0.063224,
+      "overlap_weight": 0.049759
+    },
+    {
+      "holding_symbol": "AMAT",
+      "left_weight": 0.029339,
+      "right_weight": 0.042315,
+      "overlap_weight": 0.029339
     }
   ]
 }
