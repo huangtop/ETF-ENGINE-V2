@@ -1,23 +1,25 @@
 from __future__ import annotations
 
 import json
-from datetime import date
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-import pandas as pd
-
-from etf_engine.models import ETFEntity, HoldingRecord
+from etf_engine.models import ETFEntity
+from etf_engine.providers.holdings import ManualProvider, YahooProvider
+from etf_engine.services.holdings_history import HoldingsHistoryService
 from etf_engine.settings import settings
 
 
-class HoldingService:
-    """Fetch and cache ETF holdings.
+@dataclass(frozen=True)
+class HoldingSyncResult:
+    rows: list[dict[str, Any]]
+    fetched: bool
+    source: str | None = None
 
-    Yahoo's fund-data shape has changed across yfinance releases, so this adapter
-    accepts both DataFrame and dict-like payloads. A failed refresh never deletes
-    the last successful cache.
-    """
+
+class HoldingService:
+    """Fetch and cache ETF holdings without replacing last-known-good on failure."""
 
     def path(self, etf_id: str) -> Path:
         return settings.normalized_dir / "holdings" / f"{etf_id}.json"
@@ -26,68 +28,45 @@ class HoldingService:
         path = self.path(etf_id)
         return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
 
+    def __init__(self, providers=None, history: HoldingsHistoryService | None = None):
+        self.providers = providers or [ManualProvider(), YahooProvider()]
+        self.history = history or HoldingsHistoryService()
+
     def sync(self, entity: ETFEntity) -> list[dict[str, Any]]:
-        try:
-            import yfinance as yf
-            ticker = yf.Ticker(entity.quote_symbol)
-            fund_data = ticker.funds_data
-            raw = getattr(fund_data, "top_holdings", None)
-            rows = self._normalize(entity.etf_id, raw)
-            if rows:
-                path = self.path(entity.etf_id)
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-                return rows
-        except Exception:
-            pass
-        return self.load(entity.etf_id)
+        """Preserve the original list-returning API for callers."""
+        return self.sync_with_status(entity).rows
 
-    def _normalize(self, etf_id: str, raw: Any) -> list[dict[str, Any]]:
-        if raw is None:
-            return []
-        if isinstance(raw, pd.DataFrame):
-            frame = raw.reset_index()
-            records = frame.to_dict("records")
-        elif isinstance(raw, dict):
-            records = []
-            for symbol, value in raw.items():
-                if isinstance(value, dict):
-                    records.append({"symbol": symbol, **value})
-                else:
-                    records.append({"symbol": symbol, "weight": value})
-        elif isinstance(raw, list):
-            records = raw
-        else:
-            return []
-
-        normalized: list[dict[str, Any]] = []
-        for row in records:
-            lowered = {str(k).lower().replace(" ", "_"): v for k, v in row.items()}
-            symbol = lowered.get("symbol") or lowered.get("holding_symbol") or lowered.get("ticker")
-            if not symbol:
-                symbol = lowered.get("index")
-            weight = lowered.get("holding_percent")
-            if weight is None:
-                weight = lowered.get("weight")
-            if weight is None:
-                weight = lowered.get("percent_assets")
+    def sync_with_status(self, entity: ETFEntity) -> HoldingSyncResult:
+        for provider in self.providers:
             try:
-                weight = float(weight)
-            except (TypeError, ValueError):
+                rows = provider.fetch(entity)
+            except Exception:
                 continue
-            if weight > 1:
-                weight /= 100.0
-            name = lowered.get("name") or lowered.get("holding_name")
-            record = HoldingRecord(
-                etf_id=etf_id,
-                holding_symbol=str(symbol).upper(),
-                holding_name=str(name) if name else None,
-                weight=weight,
-                as_of=date.today(),
+            if not rows:
+                continue
+
+            provider_dates = {row.get("as_of") for row in rows if row.get("as_of")}
+            provider_as_of = provider_dates.pop() if len(provider_dates) == 1 else None
+            generated_dates = {
+                row.get("provider_generated_at") for row in rows if row.get("provider_generated_at")
+            }
+            provider_generated_at = generated_dates.pop() if len(generated_dates) == 1 else None
+            self.history.record(
+                entity.etf_id,
+                rows,
+                provider_generated_at=provider_generated_at,
+                provider_as_of=provider_as_of,
             )
-            normalized.append(record.model_dump(mode="json"))
-        normalized.sort(key=lambda x: x["weight"], reverse=True)
-        return normalized[:100]
+            path = self.path(entity.etf_id)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(
+                json.dumps(rows, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            return HoldingSyncResult(rows=rows, fetched=True, source=provider.name)
+
+        # A failed refresh must leave both cache and history untouched.
+        return HoldingSyncResult(rows=self.load(entity.etf_id), fetched=False)
 
 
 def overlap(left: list[dict[str, Any]], right: list[dict[str, Any]]) -> dict[str, Any]:

@@ -35,7 +35,9 @@ def run(market:str='all')->dict:
             prices=service.sync(entity,start,end); benchmark=get(entity.benchmark_symbol)
             metrics.extend(calculate_metrics(entity.etf_id,prices,benchmark))
             if entity.listing_market == 'US':
-                holding_service.sync(entity); holdings_synced += 1
+                holding_result = holding_service.sync_with_status(entity)
+                if holding_result.fetched:
+                    holdings_synced += 1
         except Exception as exc: errors.append({'etf_id':entity.etf_id,'error':str(exc)})
     p=settings.normalized_dir/'metrics'/'latest.json'; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
     state={'run_date':end.isoformat(),'market':market,'processed':len(entities),'metric_rows':len(metrics),'holdings_synced':holdings_synced,'errors':errors}

@@ -10,7 +10,8 @@ from etf_engine.services.holding_service import HoldingService
 def sync(market: str = "all", active_only: bool = True) -> dict:
     entities = SeedRepository().entities()
     service = HoldingService()
-    synced_or_cached = 0
+    synced = 0
+    cached = 0
     failed = 0
 
     for entity in entities:
@@ -18,14 +19,18 @@ def sync(market: str = "all", active_only: bool = True) -> dict:
             continue
         if market != "all" and entity.listing_market != market:
             continue
-        rows = service.sync(entity)
-        if rows:
-            synced_or_cached += 1
+        result = service.sync_with_status(entity)
+        if result.fetched:
+            synced += 1
+        elif result.rows:
+            cached += 1
         else:
             failed += 1
 
     return {
-        "synced_or_cached": synced_or_cached,
+        "synced": synced,
+        "cached": cached,
+        "synced_or_cached": synced + cached,
         "failed": failed,
         "market": market,
     }
@@ -33,9 +38,7 @@ def sync(market: str = "all", active_only: bool = True) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--market", default="all", choices=("all", "TW", "US")
-    )
+    parser.add_argument("--market", default="all", choices=("all", "TW", "US"))
     args = parser.parse_args()
     print(json.dumps(sync(args.market), ensure_ascii=False, indent=2))
 

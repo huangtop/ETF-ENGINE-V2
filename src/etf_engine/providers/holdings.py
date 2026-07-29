@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import csv
 import json
-from datetime import date
 from typing import Any, Protocol
 
 import pandas as pd
@@ -11,11 +10,22 @@ from etf_engine.models import ETFEntity
 from etf_engine.settings import settings
 
 
+def optional_provider_value(value: Any) -> str | None:
+    if value is None:
+        return None
+    try:
+        if pd.isna(value):
+            return None
+    except (TypeError, ValueError):
+        pass
+    text = str(value).strip()
+    return text if text and text.lower() not in {"nan", "nat", "none"} else None
+
+
 class HoldingsProvider(Protocol):
     name: str
 
-    def fetch(self, entity: ETFEntity) -> list[dict[str, Any]]:
-        ...
+    def fetch(self, entity: ETFEntity) -> list[dict[str, Any]]: ...
 
 
 def normalize(etf_id: str, raw: Any, source: str) -> list[dict[str, Any]]:
@@ -38,9 +48,7 @@ def normalize(etf_id: str, raw: Any, source: str) -> list[dict[str, Any]]:
 
     result: list[dict[str, Any]] = []
     for rank, row in enumerate(records, 1):
-        normalized = {
-            str(key).lower().replace(" ", "_"): value for key, value in row.items()
-        }
+        normalized = {str(key).lower().replace(" ", "_"): value for key, value in row.items()}
         symbol = (
             normalized.get("holding_symbol")
             or normalized.get("symbol")
@@ -69,6 +77,10 @@ def normalize(etf_id: str, raw: Any, source: str) -> list[dict[str, Any]]:
         if not 0 <= parsed_weight <= 1:
             continue
 
+        provider_as_of = optional_provider_value(normalized.get("as_of"))
+        if provider_as_of is None:
+            provider_as_of = optional_provider_value(normalized.get("date"))
+
         result.append(
             {
                 "etf_id": etf_id,
@@ -80,20 +92,15 @@ def normalize(etf_id: str, raw: Any, source: str) -> list[dict[str, Any]]:
                     or normalized.get("證券名稱")
                 ),
                 "weight": round(parsed_weight, 8),
-                "as_of": str(
-                    normalized.get("as_of")
-                    or normalized.get("date")
-                    or date.today()
-                ),
+                # Never substitute our observation date for a provider's as-of.
+                "as_of": provider_as_of,
                 "source": source,
                 "rank": rank,
             }
         )
 
     deduplicated = {row["holding_symbol"]: row for row in result}
-    return sorted(
-        deduplicated.values(), key=lambda row: row["weight"], reverse=True
-    )
+    return sorted(deduplicated.values(), key=lambda row: row["weight"], reverse=True)
 
 
 class ManualProvider:
@@ -101,11 +108,7 @@ class ManualProvider:
 
     def fetch(self, entity: ETFEntity) -> list[dict[str, Any]]:
         for extension in ("json", "csv"):
-            path = (
-                settings.seed_dir
-                / "holdings_manual"
-                / f"{entity.etf_id}.{extension}"
-            )
+            path = settings.seed_dir / "holdings_manual" / f"{entity.etf_id}.{extension}"
             if not path.exists():
                 continue
             if extension == "json":

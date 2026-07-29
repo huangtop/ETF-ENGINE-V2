@@ -63,6 +63,17 @@ Windows PowerShell：
 - `data/public/markets/US.json`
 - `data/public/etf/<etf_id>.json`
 
+既有 `data/public/` 契約維持不變。每次 holdings provider 成功取得非空資料時，
+另於 `data/history/holdings/` 記錄歷史：
+
+- `manifest.json`：history schema、coverage 與更新統計。
+- `snapshot_index.json`：每檔 ETF 的 current、previous 與內容 snapshot 索引。
+- `observations.json`：每次成功檢查時間；內容相同時仍會新增 observation。
+- `snapshots/`：immutable holdings 內容，僅在內容 hash 尚未出現時新增。
+
+`observed_at` 是本系統成功觀察資料的時間，不代表 provider 的資料日期。
+若來源未提供可靠日期，`provider_generated_at` 與 `provider_as_of` 皆為 `null`。
+
 ## 重要設計
 
 - `etf_id` 是永久識別碼，例如 `TW-0050`、`US-SPY`。
