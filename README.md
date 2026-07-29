@@ -33,6 +33,19 @@ python -m etf_engine.cli validate
 python -m etf_engine.cli run --market all
 ```
 
+大量新增 ETF 第一次沒有行情 cache 時，可設定每次回補上限：
+
+```bash
+ETF_BOOTSTRAP_LIMIT=20 python -m etf_engine.cli run --market all
+```
+
+已有 `data/normalized/prices/<etf_id>.parquet` 的 ETF 仍會全部進行增量更新；
+上限只套用於尚無價格 cache 的 ETF。`0` 或未設定代表本機一次處理全部。
+GitHub Actions 固定每次回補 20 檔，並以 Actions cache 保存
+`data/normalized/prices` 與 `data/normalized/holdings`，隔日從
+`data/state/bootstrap.json` 的 round-robin 游標繼續。尚未回補的 ETF 仍會建立
+public JSON，並以 `bootstrap_status=pending` 標示。
+
 Windows PowerShell：
 
 ```powershell

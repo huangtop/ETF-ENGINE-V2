@@ -60,11 +60,14 @@ def build_public() -> None:
     holding_translations = load_holding_translations()
 
     metrics_path = settings.normalized_dir / "metrics" / "latest.json"
-    metrics = (
-        json.loads(metrics_path.read_text(encoding="utf-8"))
-        if metrics_path.exists()
-        else []
+    metrics = json.loads(metrics_path.read_text(encoding="utf-8")) if metrics_path.exists() else []
+    last_run_path = settings.state_dir / "last_run.json"
+    last_run = (
+        json.loads(last_run_path.read_text(encoding="utf-8")) if last_run_path.exists() else {}
     )
+    failed_price_ids = {
+        row.get("etf_id") for row in last_run.get("errors", []) if row.get("stage") == "prices"
+    }
 
     metric_map = {}
     for row in metrics:
@@ -97,15 +100,15 @@ def build_public() -> None:
         short_name_zh = translated.get("short_name_zh")
         display_name = name_zh or entity.get("name") or entity.get("ticker")
         display_short_name = (
-            short_name_zh
-            or name_zh
-            or entity.get("short_name")
-            or entity.get("ticker")
+            short_name_zh or name_zh or entity.get("short_name") or entity.get("ticker")
         )
 
         frame = price_repo.load(etf_id)
         latest_price = None
         trend = []
+        bootstrap_status = "ready" if not frame.empty else "pending"
+        if frame.empty and etf_id in failed_price_ids:
+            bootstrap_status = "failed"
 
         if not frame.empty:
             series = frame["adj_close"] if "adj_close" in frame else frame["close"]
@@ -129,8 +132,7 @@ def build_public() -> None:
                 ]
 
         holdings = [
-            localize_holding(row, holding_translations)
-            for row in holding_service.load(etf_id)
+            localize_holding(row, holding_translations) for row in holding_service.load(etf_id)
         ]
         holdings_map[etf_id] = holdings
 
@@ -179,6 +181,7 @@ def build_public() -> None:
             ),
             "classifications": class_map.get(etf_id, []),
             "metrics": metric_map.get(etf_id, {}),
+            "bootstrap_status": bootstrap_status,
             "latest_price": latest_price,
             "trend": trend,
             "top_holdings": holdings[:20],
@@ -197,8 +200,7 @@ def build_public() -> None:
     ai_ids = {
         row["etf_id"]
         for row in classifications
-        if row["dimension"] == "theme"
-        and row["code"] == "artificial_intelligence"
+        if row["dimension"] == "theme" and row["code"] == "artificial_intelligence"
     }
 
     overlap_index = []
@@ -217,9 +219,7 @@ def build_public() -> None:
             **result,
         }
 
-        overlap_index.append(
-            {key: value for key, value in row.items() if key != "shared_holdings"}
-        )
+        overlap_index.append({key: value for key, value in row.items() if key != "shared_holdings"})
 
         write_json(
             settings.public_dir / "overlap" / f"{left_id}__{right_id}.json",
@@ -229,6 +229,10 @@ def build_public() -> None:
     write_json(settings.public_dir / "overlap_index.json", overlap_index)
 
     generated = datetime.now(timezone.utc).isoformat()
+    bootstrap_counts = {
+        status: sum(item["bootstrap_status"] == status for item in payload)
+        for status in ("ready", "pending", "failed")
+    }
 
     write_json(settings.public_dir / "etfs.json", payload)
     write_json(settings.public_dir / "classifications.json", classifications)
@@ -237,11 +241,7 @@ def build_public() -> None:
     for market in ("TW", "US"):
         write_json(
             settings.public_dir / "markets" / f"{market}.json",
-            [
-                item
-                for item in payload
-                if item["listing_market"] == market
-            ],
+            [item for item in payload if item["listing_market"] == market],
         )
 
     write_json(
@@ -252,6 +252,7 @@ def build_public() -> None:
             "etf_count": len(payload),
             "holding_symbols": len(reverse_holdings),
             "overlap_pairs": len(overlap_index),
+            "bootstrap": bootstrap_counts,
             "translations": {
                 "locale": "zh-TW",
                 "etf_count": len(translations),

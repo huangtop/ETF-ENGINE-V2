@@ -1,46 +1,169 @@
+from __future__ import annotations
+
 import json
+import os
 from datetime import date, timedelta
+from pathlib import Path
+from typing import Any
+
+from etf_engine.models import ETFEntity
 from etf_engine.repository import SeedRepository
-from etf_engine.services.price_service import PriceService
-from etf_engine.services.metric_service import calculate_metrics
-from etf_engine.services.public_builder import build_public
 from etf_engine.services.holding_service import HoldingService
+from etf_engine.services.metric_service import calculate_metrics
+from etf_engine.services.price_service import PriceService
+from etf_engine.services.public_builder import build_public
 from etf_engine.settings import settings
 
-def run(market:str='all')->dict:
-    settings.ensure_dirs(); seed=SeedRepository(); entities=[e for e in seed.entities() if e.active and (market=='all' or e.listing_market==market)]
-    service=PriceService(); holding_service=HoldingService(); end=date.today(); start=end-timedelta(days=365*3+15); metrics=[]; errors=[]; holdings_synced=0; cache={}
-    def get(symbol: str):
-        if symbol in cache:
-            return cache[symbol]
-        target = next((e for e in seed.entities() if e.quote_symbol == symbol), None)
+
+def select_entities_for_run(
+    entities: list[ETFEntity],
+    cached_ids: set[str],
+    bootstrap_limit: int,
+    cursor: str | None,
+) -> tuple[list[ETFEntity], list[ETFEntity], str | None]:
+    """Run every cached entity plus a bounded, round-robin set without cache."""
+    cached = [entity for entity in entities if entity.etf_id in cached_ids]
+    missing = sorted(
+        (entity for entity in entities if entity.etf_id not in cached_ids),
+        key=lambda entity: entity.etf_id,
+    )
+    if bootstrap_limit <= 0 or bootstrap_limit >= len(missing):
+        selected_missing = missing
+    else:
+        after_cursor = [entity for entity in missing if not cursor or entity.etf_id > cursor]
+        through_cursor = [entity for entity in missing if cursor and entity.etf_id <= cursor]
+        selected_missing = (after_cursor + through_cursor)[:bootstrap_limit]
+    selected_ids = {entity.etf_id for entity in cached + selected_missing}
+    scheduled = [entity for entity in entities if entity.etf_id in selected_ids]
+    next_cursor = selected_missing[-1].etf_id if selected_missing else cursor
+    return scheduled, selected_missing, next_cursor
+
+
+def _read_json(path: Path, default: Any) -> Any:
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+
+
+def _write_json(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+def _configured_bootstrap_limit(explicit: int | None) -> int:
+    if explicit is not None:
+        return explicit
+    raw = os.getenv("ETF_BOOTSTRAP_LIMIT", "0")
+    try:
+        return max(0, int(raw))
+    except ValueError as exc:
+        raise ValueError("ETF_BOOTSTRAP_LIMIT must be a non-negative integer") from exc
+
+
+def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, Any]:
+    settings.ensure_dirs()
+    seed = SeedRepository()
+    all_entities = seed.entities()
+    entities = [
+        entity
+        for entity in all_entities
+        if entity.active and (market == "all" or entity.listing_market == market)
+    ]
+    limit = _configured_bootstrap_limit(bootstrap_limit)
+    bootstrap_path = settings.state_dir / "bootstrap.json"
+    bootstrap_state = _read_json(bootstrap_path, {})
+    cursor = bootstrap_state.get("cursor_by_market", {}).get(market)
+    cached_ids = {
+        entity.etf_id
+        for entity in entities
+        if (settings.normalized_dir / "prices" / f"{entity.etf_id}.parquet").exists()
+    }
+    scheduled, attempted_new, next_cursor = select_entities_for_run(
+        entities, cached_ids, limit, cursor
+    )
+
+    service = PriceService()
+    holding_service = HoldingService()
+    end = date.today()
+    start = end - timedelta(days=365 * 3 + 15)
+    metrics: list[dict[str, Any]] = []
+    errors: list[dict[str, str]] = []
+    holdings_synced = 0
+    benchmark_cache: dict[str, Any] = {}
+
+    def get_benchmark(symbol: str):
+        if symbol in benchmark_cache:
+            return benchmark_cache[symbol]
+        target = next(
+            (entity for entity in all_entities if entity.quote_symbol == symbol),
+            None,
+        )
         if target is None:
-            from etf_engine.models import ETFEntity
-            # 為基準指數創建臨時實體，使用有效的 etf_id 格式
-            market_prefix = 'TW' if '.TW' in symbol else 'US'
+            market_prefix = "TW" if ".TW" in symbol else "US"
             target = ETFEntity(
-                etf_id=f'{market_prefix}-BENCH',
-                ticker=symbol.split('.')[0],
+                etf_id=f"{market_prefix}-BENCH",
+                ticker=symbol.split(".")[0],
                 quote_symbol=symbol,
                 name=symbol,
                 listing_market=market_prefix,
-                listing_exchange='TWSE' if market_prefix == 'TW' else 'US',
-                currency='TWD' if market_prefix == 'TW' else 'USD',
-                benchmark_symbol=symbol
+                listing_exchange="TWSE" if market_prefix == "TW" else "US",
+                currency="TWD" if market_prefix == "TW" else "USD",
+                benchmark_symbol=symbol,
             )
-        cache[symbol] = service.sync(target, start, end)
-        return cache[symbol]
-    for entity in entities:
+        benchmark_cache[symbol] = service.sync(target, start, end)
+        return benchmark_cache[symbol]
+
+    for entity in scheduled:
         try:
-            prices=service.sync(entity,start,end); benchmark=get(entity.benchmark_symbol)
-            metrics.extend(calculate_metrics(entity.etf_id,prices,benchmark))
-        except Exception as exc: errors.append({'etf_id':entity.etf_id,'error':str(exc)})
+            prices = service.sync(entity, start, end)
+            benchmark = get_benchmark(entity.benchmark_symbol)
+            metrics.extend(calculate_metrics(entity.etf_id, prices, benchmark))
+        except Exception as exc:
+            errors.append({"etf_id": entity.etf_id, "stage": "prices", "error": str(exc)})
         try:
             holding_result = holding_service.sync_with_status(entity)
             if holding_result.fetched:
                 holdings_synced += 1
-        except Exception as exc: errors.append({'etf_id':entity.etf_id,'error':str(exc)})
-    p=settings.normalized_dir/'metrics'/'latest.json'; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
-    state={'run_date':end.isoformat(),'market':market,'processed':len(entities),'metric_rows':len(metrics),'holdings_synced':holdings_synced,'errors':errors}
-    (settings.state_dir/'last_run.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n",encoding='utf-8')
-    build_public(); return state
+        except Exception as exc:
+            errors.append({"etf_id": entity.etf_id, "stage": "holdings", "error": str(exc)})
+
+    metrics_path = settings.normalized_dir / "metrics" / "latest.json"
+    _write_json(metrics_path, metrics)
+
+    cached_after = {
+        entity.etf_id
+        for entity in entities
+        if (settings.normalized_dir / "prices" / f"{entity.etf_id}.parquet").exists()
+    }
+    cursor_by_market = dict(bootstrap_state.get("cursor_by_market", {}))
+    cursor_by_market[market] = next_cursor
+    bootstrap_payload = {
+        "updated_at": end.isoformat(),
+        "cursor_by_market": cursor_by_market,
+        "market": market,
+        "limit": limit,
+        "eligible": len(entities),
+        "cached_before": len(cached_ids),
+        "attempted_new": [entity.etf_id for entity in attempted_new],
+        "ready_after": len(cached_after),
+        "pending_after": len(entities) - len(cached_after),
+    }
+    _write_json(bootstrap_path, bootstrap_payload)
+
+    state = {
+        "run_date": end.isoformat(),
+        "market": market,
+        "eligible": len(entities),
+        "processed": len(scheduled),
+        "bootstrap_limit": limit,
+        "bootstrap_attempted": len(attempted_new),
+        "bootstrap_ready": len(cached_after),
+        "bootstrap_pending": len(entities) - len(cached_after),
+        "metric_rows": len(metrics),
+        "holdings_synced": holdings_synced,
+        "errors": errors,
+    }
+    _write_json(settings.state_dir / "last_run.json", state)
+    build_public()
+    return state
