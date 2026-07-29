@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 
 import pytest
 
+import etf_engine.services.holding_service as holding_service_module
 from etf_engine.models import ETFEntity
 from etf_engine.providers.holdings import normalize
 from etf_engine.services.holding_service import HoldingService
@@ -190,3 +191,25 @@ def test_success_records_history_and_updates_cache(tmp_path, monkeypatch):
     assert result.fetched is True
     assert json.loads(cache.read_text()) == fresh
     assert spy.calls[0][0] == ("US-TEST", fresh)
+
+
+def test_cache_replace_failure_preserves_last_known_good_and_skips_history(tmp_path, monkeypatch):
+    spy = HistorySpy()
+    old = holdings(0.1)
+    fresh = holdings(0.2)
+    service = HoldingService(providers=[Provider(result=fresh)], history=spy)
+    cache = tmp_path / "US-TEST.json"
+    cache.write_text(json.dumps(old), encoding="utf-8")
+    monkeypatch.setattr(service, "path", lambda etf_id: cache)
+
+    def fail_replace(source, destination):
+        raise OSError("simulated replace failure")
+
+    monkeypatch.setattr(holding_service_module.os, "replace", fail_replace)
+
+    with pytest.raises(OSError, match="replace failure"):
+        service.sync_with_status(entity())
+
+    assert json.loads(cache.read_text()) == old
+    assert spy.calls == []
+    assert list(tmp_path.glob("*.tmp")) == []

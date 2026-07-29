@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from uuid import uuid4
 
 from etf_engine.models import ETFEntity
 from etf_engine.providers.holdings import ManualProvider, YahooProvider
@@ -51,22 +53,30 @@ class HoldingService:
                 row.get("provider_generated_at") for row in rows if row.get("provider_generated_at")
             }
             provider_generated_at = generated_dates.pop() if len(generated_dates) == 1 else None
+            self._write_cache_atomic(entity.etf_id, rows)
             self.history.record(
                 entity.etf_id,
                 rows,
                 provider_generated_at=provider_generated_at,
                 provider_as_of=provider_as_of,
             )
-            path = self.path(entity.etf_id)
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(
-                json.dumps(rows, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
             return HoldingSyncResult(rows=rows, fetched=True, source=provider.name)
 
         # A failed refresh must leave both cache and history untouched.
         return HoldingSyncResult(rows=self.load(entity.etf_id), fetched=False)
+
+    def _write_cache_atomic(self, etf_id: str, rows: list[dict[str, Any]]) -> None:
+        path = self.path(etf_id)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        temporary = path.with_name(f".{path.name}.{uuid4().hex}.tmp")
+        try:
+            temporary.write_text(
+                json.dumps(rows, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
+                encoding="utf-8",
+            )
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)
 
 
 def overlap(left: list[dict[str, Any]], right: list[dict[str, Any]]) -> dict[str, Any]:
