@@ -45,6 +45,34 @@ def test_selects_all_cached_and_round_robin_missing():
     assert cursor == "US-B"
 
 
+def test_holdings_selection_keeps_core_daily_and_rotates_non_core():
+    entities = [
+        entity("US-SPY"),
+        entity("US-A"),
+        entity("US-B"),
+        entity("US-C"),
+    ]
+
+    selected, rotating, cursor = pipeline.select_holdings_for_run(
+        entities,
+        rotation_limit=1,
+        cursor="US-A",
+    )
+
+    assert [row.etf_id for row in selected] == ["US-SPY", "US-B"]
+    assert [row.etf_id for row in rotating] == ["US-B"]
+    assert cursor == "US-B"
+
+    selected, rotating, cursor = pipeline.select_holdings_for_run(
+        entities,
+        rotation_limit=1,
+        cursor=cursor,
+    )
+    assert [row.etf_id for row in selected] == ["US-SPY", "US-C"]
+    assert [row.etf_id for row in rotating] == ["US-C"]
+    assert cursor == "US-C"
+
+
 def test_merge_metrics_preserves_unprocessed_etfs_and_replaces_current_value():
     previous = [
         {"etf_id": "US-SPY", "metric_code": "total_return_1y", "value": 10},
@@ -162,7 +190,7 @@ def test_pipeline_bounds_uncached_entities_and_records_pending(tmp_path, monkeyp
 
     state = pipeline.run("US", bootstrap_limit=1)
 
-    assert holdings_attempted == ["US-A", "US-B"]
+    assert holdings_attempted == ["US-A", "US-B", "US-C"]
     assert state["eligible"] == 3
     assert state["processed"] == 2
     assert state["bootstrap_attempted"] == 1
@@ -406,6 +434,103 @@ def test_pipeline_stops_remaining_entities_after_repeated_provider_limits(
     assert state["provider_halted"]
     assert state["provider_halt_reason"] == "provider_rate_limit_circuit_open"
     assert state["skipped_after_provider_halt"] == ["US-C"]
+
+
+def test_price_rate_limit_does_not_block_independent_holdings_pipeline(
+    tmp_path, monkeypatch
+):
+    entities = [entity(f"US-{ticker}") for ticker in ("A", "B", "C")]
+
+    class Seed:
+        def entities(self):
+            return entities
+
+    class Prices:
+        def sync(self, _selected, _start, _end):
+            raise RuntimeError("HTTP 429 too many requests")
+
+    holdings_attempted = []
+
+    class Holdings:
+        def sync_with_status(self, selected):
+            holdings_attempted.append(selected.etf_id)
+            return HoldingSyncResult(rows=[], fetched=False)
+
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+
+    state = pipeline.run(
+        "US",
+        bootstrap_limit=0,
+        holdings_rotation_limit=2,
+        publish=False,
+    )
+
+    assert state["price_provider_halted"]
+    assert not state["holdings_provider_halted"]
+    assert holdings_attempted == ["US-A", "US-B"]
+
+
+def test_holdings_rate_limit_does_not_erase_successful_price_metrics(
+    tmp_path, monkeypatch
+):
+    entities = [entity(f"US-{ticker}") for ticker in ("A", "B", "C")]
+    prices = pd.DataFrame(
+        {"adj_close": [100.0, 101.0]},
+        index=pd.date_range("2026-07-28", periods=2),
+    )
+
+    class Seed:
+        def entities(self):
+            return entities
+
+    price_attempted = []
+
+    class Prices:
+        def sync(self, selected, _start, _end):
+            price_attempted.append(selected.etf_id)
+            return prices
+
+    class Holdings:
+        def sync_with_status(self, _selected):
+            return HoldingSyncResult(
+                rows=[], fetched=False, errors=("HTTP 429 too many requests",)
+            )
+
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+    monkeypatch.setattr(pipeline, "calculate_metrics", lambda *_args: [])
+
+    state = pipeline.run(
+        "US",
+        bootstrap_limit=0,
+        holdings_rotation_limit=3,
+        publish=False,
+    )
+
+    assert [etf_id for etf_id in price_attempted if etf_id != "US-BENCH"] == [
+        "US-A",
+        "US-B",
+        "US-C",
+    ]
+    assert not state["price_provider_halted"]
+    assert state["holdings_provider_halted"]
 
 
 def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
