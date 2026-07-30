@@ -33,7 +33,7 @@ class Repository:
 def test_audit_reports_readiness_history_volume_and_missing_cache():
     index = pd.bdate_range(end="2026-07-29", periods=252)
     ready = pd.DataFrame(
-        {"adj_close": range(252), "volume": range(252)},
+        {"adj_close": range(1, 253), "volume": range(252)},
         index=index,
     )
 
@@ -65,3 +65,23 @@ def test_audit_marks_stale_and_unreadable_cache_invalid():
     assert result["invalid"] == 2
     assert "stale_price_cache" in result["items"][0]["issues"]
     assert result["items"][1]["issues"] == ["unreadable_cache: broken"]
+
+
+def test_audit_rejects_future_dates_nonpositive_prices_and_negative_volume():
+    invalid = pd.DataFrame(
+        {"adj_close": [0.0], "volume": [-1]},
+        index=pd.to_datetime(["2026-07-31"]),
+    )
+
+    result = audit_price_caches(
+        [entity("US-BAD")],
+        repository=Repository({"US-BAD": invalid}),
+        as_of=date(2026, 7, 30),
+    )
+
+    assert result["invalid"] == 1
+    assert result["items"][0]["issues"] == [
+        "future_price_date",
+        "nonpositive_price",
+        "negative_volume",
+    ]

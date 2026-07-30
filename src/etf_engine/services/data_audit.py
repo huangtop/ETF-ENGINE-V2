@@ -62,12 +62,23 @@ def audit_price_caches(
 
         first_date = index.min().date()
         last_date = index.max().date()
+        if last_date > today:
+            issues.append("future_price_date")
         stale_days = (today - last_date).days
         stale_limit = 10 if entity.listing_market == "TW" else 7
         if stale_days > stale_limit:
             issues.append("stale_price_cache")
 
+        if price_column in frame:
+            numeric_prices = pd.to_numeric(frame[price_column], errors="coerce").dropna()
+            if (numeric_prices <= 0).any():
+                issues.append("nonpositive_price")
+
         volume_observations = int(frame["volume"].notna().sum()) if "volume" in frame else 0
+        if "volume" in frame:
+            numeric_volume = pd.to_numeric(frame["volume"], errors="coerce").dropna()
+            if (numeric_volume < 0).any():
+                issues.append("negative_volume")
         rows.append(
             {
                 "etf_id": entity.etf_id,
