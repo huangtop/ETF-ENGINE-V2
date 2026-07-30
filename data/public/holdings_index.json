@@ -4554,7 +4554,7 @@
       "ticker": "PSI",
       "name": "景順半導體 ETF",
       "name_en": "Invesco Semiconductors ETF",
-      "weight": 0.055687297
+      "weight": 0.0556873
     },
     {
       "holding_symbol": "MU",
@@ -5325,7 +5325,7 @@
       "ticker": "PSI",
       "name": "景順半導體 ETF",
       "name_en": "Invesco Semiconductors ETF",
-      "weight": 0.049833298
+      "weight": 0.0498333
     },
     {
       "holding_symbol": "AMD",
@@ -5390,7 +5390,7 @@
       "ticker": "QQQ",
       "name": "Invesco QQQ ETF",
       "name_en": "Invesco QQQ Trust",
-      "weight": 0.040950198
+      "weight": 0.0409502
     },
     {
       "holding_symbol": "AMD",
@@ -5522,7 +5522,7 @@
       "ticker": "QQQ",
       "name": "Invesco QQQ ETF",
       "name_en": "Invesco QQQ Trust",
-      "weight": 0.040149003
+      "weight": 0.040149
     },
     {
       "holding_symbol": "AMZN",
@@ -5732,7 +5732,7 @@
       "ticker": "PSI",
       "name": "景順半導體 ETF",
       "name_en": "Invesco Semiconductors ETF",
-      "weight": 0.058045402
+      "weight": 0.0580454
     },
     {
       "holding_symbol": "LRCX",
@@ -6334,7 +6334,7 @@
       "ticker": "QQQ",
       "name": "Invesco QQQ ETF",
       "name_en": "Invesco QQQ Trust",
-      "weight": 0.030188201
+      "weight": 0.0301882
     },
     {
       "holding_symbol": "GOOG",
@@ -11368,13 +11368,13 @@
       "weight": 0.0134171
     }
   ],
-  "006205": [
+  "006205.TW": [
     {
-      "holding_symbol": "006205",
+      "holding_symbol": "006205.TW",
       "holding_name_en": "Fubon SSE180 ETF",
       "holding_name_zh": null,
       "holding_display_name": "Fubon SSE180 ETF",
-      "holding_display_label": "(006205)Fubon SSE180 ETF",
+      "holding_display_label": "(006205.TW)Fubon SSE180 ETF",
       "holding_bilingual_name": "Fubon SSE180 ETF",
       "etf_id": "TW-00633L",
       "ticker": "00633L",
@@ -11411,13 +11411,13 @@
       "weight": 0.0372299
     }
   ],
-  "0061": [
+  "0061.TW": [
     {
-      "holding_symbol": "0061",
+      "holding_symbol": "0061.TW",
       "holding_name_en": "W.I.S.E. Yuanta/P-shares CSI 300 ETF",
       "holding_name_zh": null,
       "holding_display_name": "W.I.S.E. Yuanta/P-shares CSI 300 ETF",
-      "holding_display_label": "(0061)W.I.S.E. Yuanta/P-shares CSI 300 ETF",
+      "holding_display_label": "(0061.TW)W.I.S.E. Yuanta/P-shares CSI 300 ETF",
       "holding_bilingual_name": "W.I.S.E. Yuanta/P-shares CSI 300 ETF",
       "etf_id": "TW-00637L",
       "ticker": "00637L",
@@ -11568,13 +11568,13 @@
       "weight": 0.0206991
     }
   ],
-  "00645": [
+  "00645.TW": [
     {
-      "holding_symbol": "00645",
+      "holding_symbol": "00645.TW",
       "holding_name_en": "Fubon TOPIX ETF",
       "holding_name_zh": null,
       "holding_display_name": "Fubon TOPIX ETF",
-      "holding_display_label": "(00645)Fubon TOPIX ETF",
+      "holding_display_label": "(00645.TW)Fubon TOPIX ETF",
       "holding_bilingual_name": "Fubon TOPIX ETF",
       "etf_id": "TW-00640L",
       "ticker": "00640L",
@@ -14124,6 +14124,19 @@
       "holding_display_name": "安進",
       "holding_display_label": "(AMGN)安進",
       "holding_bilingual_name": "Amgen Inc（安進）",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0785603
+    },
+    {
+      "holding_symbol": "AMGN",
+      "holding_name_en": "Amgen Inc",
+      "holding_name_zh": "安進",
+      "holding_display_name": "安進",
+      "holding_display_label": "(AMGN)安進",
+      "holding_bilingual_name": "Amgen Inc（安進）",
       "etf_id": "US-SCHD",
       "ticker": "SCHD",
       "name": "Schwab 美國股利股票 ETF",
@@ -14410,6 +14423,167 @@
       "name": "金融類股精選 SPDR ETF",
       "name_en": "Financial Select Sector SPDR Fund",
       "weight": 0.0236856
+    }
+  ],
+  "VRTX": [
+    {
+      "holding_symbol": "VRTX",
+      "holding_name_en": "Vertex Pharmaceuticals Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Vertex Pharmaceuticals Inc",
+      "holding_display_label": "(VRTX)Vertex Pharmaceuticals Inc",
+      "holding_bilingual_name": "Vertex Pharmaceuticals Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0811079
+    }
+  ],
+  "GILD": [
+    {
+      "holding_symbol": "GILD",
+      "holding_name_en": "Gilead Sciences Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Gilead Sciences Inc",
+      "holding_display_label": "(GILD)Gilead Sciences Inc",
+      "holding_bilingual_name": "Gilead Sciences Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0686548
+    },
+    {
+      "holding_symbol": "GILD",
+      "holding_name_en": "Gilead Sciences Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Gilead Sciences Inc",
+      "holding_display_label": "(GILD)Gilead Sciences Inc",
+      "holding_bilingual_name": "Gilead Sciences Inc",
+      "etf_id": "US-XLV",
+      "ticker": "XLV",
+      "name": "醫療保健類股精選 SPDR ETF",
+      "name_en": "Health Care Select Sector SPDR Fund",
+      "weight": 0.027251698
+    }
+  ],
+  "REGN": [
+    {
+      "holding_symbol": "REGN",
+      "holding_name_en": "Regeneron Pharmaceuticals Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Regeneron Pharmaceuticals Inc",
+      "holding_display_label": "(REGN)Regeneron Pharmaceuticals Inc",
+      "holding_bilingual_name": "Regeneron Pharmaceuticals Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0447383
+    }
+  ],
+  "ALNY": [
+    {
+      "holding_symbol": "ALNY",
+      "holding_name_en": "Alnylam Pharmaceuticals Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Alnylam Pharmaceuticals Inc",
+      "holding_display_label": "(ALNY)Alnylam Pharmaceuticals Inc",
+      "holding_bilingual_name": "Alnylam Pharmaceuticals Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0279759
+    }
+  ],
+  "RVMD": [
+    {
+      "holding_symbol": "RVMD",
+      "holding_name_en": "Revolution Medicines Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "holding_display_name": "Revolution Medicines Inc Ordinary Shares",
+      "holding_display_label": "(RVMD)Revolution Medicines Inc Ordinary Shares",
+      "holding_bilingual_name": "Revolution Medicines Inc Ordinary Shares",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0277351
+    }
+  ],
+  "BIIB": [
+    {
+      "holding_symbol": "BIIB",
+      "holding_name_en": "Biogen Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Biogen Inc",
+      "holding_display_label": "(BIIB)Biogen Inc",
+      "holding_bilingual_name": "Biogen Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0222167
+    }
+  ],
+  "MRNA": [
+    {
+      "holding_symbol": "MRNA",
+      "holding_name_en": "Moderna Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Moderna Inc",
+      "holding_display_label": "(MRNA)Moderna Inc",
+      "holding_bilingual_name": "Moderna Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0193565
+    }
+  ],
+  "ILMN": [
+    {
+      "holding_symbol": "ILMN",
+      "holding_name_en": "Illumina Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Illumina Inc",
+      "holding_display_label": "(ILMN)Illumina Inc",
+      "holding_bilingual_name": "Illumina Inc",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0185369
+    },
+    {
+      "holding_symbol": "ILMN",
+      "holding_name_en": "Illumina Inc",
+      "holding_name_zh": null,
+      "holding_display_name": "Illumina Inc",
+      "holding_display_label": "(ILMN)Illumina Inc",
+      "holding_bilingual_name": "Illumina Inc",
+      "etf_id": "US-ROBT",
+      "ticker": "ROBT",
+      "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
+      "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
+      "weight": 0.0161414
+    }
+  ],
+  "ARGX": [
+    {
+      "holding_symbol": "ARGX",
+      "holding_name_en": "argenx SE ADR",
+      "holding_name_zh": null,
+      "holding_display_name": "argenx SE ADR",
+      "holding_display_label": "(ARGX)argenx SE ADR",
+      "holding_bilingual_name": "argenx SE ADR",
+      "etf_id": "TW-00678",
+      "ticker": "00678",
+      "name": "群益那斯達克生技",
+      "name_en": "群益那斯達克生技",
+      "weight": 0.0178005
     }
   ],
   "2412.TW": [
@@ -15652,7 +15826,7 @@
       "ticker": "SHOC",
       "name": "Strive 美國半導體 ETF",
       "name_en": "Strive U.S. Semiconductor ETF",
-      "weight": 0.051034298
+      "weight": 0.0510343
     },
     {
       "holding_symbol": "KLAC",
@@ -15929,7 +16103,7 @@
       "ticker": "SCHD",
       "name": "Schwab 美國股利股票 ETF",
       "name_en": "Schwab U.S. Dividend Equity ETF",
-      "weight": 0.037091002
+      "weight": 0.037091
     },
     {
       "holding_symbol": "TXN",
@@ -17934,7 +18108,7 @@
       "ticker": "ROBT",
       "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
       "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-      "weight": 0.017171001
+      "weight": 0.017171
     }
   ],
   "SPCX": [
@@ -21189,7 +21363,7 @@
       "ticker": "PAVE",
       "name": "Global X 美國基礎設施發展 ETF",
       "name_en": "Global X U.S. Infrastructure Development ETF",
-      "weight": 0.030843599
+      "weight": 0.0308436
     }
   ],
   "CSX": [
@@ -21204,7 +21378,7 @@
       "ticker": "PAVE",
       "name": "Global X 美國基礎設施發展 ETF",
       "name_en": "Global X U.S. Infrastructure Development ETF",
-      "weight": 0.034921803
+      "weight": 0.0349218
     },
     {
       "holding_symbol": "CSX",
@@ -21305,7 +21479,7 @@
       "ticker": "PAVE",
       "name": "Global X 美國基礎設施發展 ETF",
       "name_en": "Global X U.S. Infrastructure Development ETF",
-      "weight": 0.028582498
+      "weight": 0.0285825
     },
     {
       "holding_symbol": "NSC",
@@ -21421,7 +21595,7 @@
       "ticker": "ROBT",
       "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
       "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-      "weight": 0.015339499
+      "weight": 0.0153395
     }
   ],
   "MOG-A": [
@@ -21842,7 +22016,7 @@
       "ticker": "NLR",
       "name": "VanEck 鈾礦與核能 ETF",
       "name_en": "VanEck Uranium and Nuclear ETF",
-      "weight": 0.056177802
+      "weight": 0.0561778
     }
   ],
   "OKLO": [
@@ -21939,7 +22113,7 @@
       "ticker": "NLR",
       "name": "VanEck 鈾礦與核能 ETF",
       "name_en": "VanEck Uranium and Nuclear ETF",
-      "weight": 0.050220698
+      "weight": 0.0502207
     },
     {
       "holding_symbol": "UEC",
@@ -21995,7 +22169,7 @@
       "ticker": "NLR",
       "name": "VanEck 鈾礦與核能 ETF",
       "name_en": "VanEck Uranium and Nuclear ETF",
-      "weight": 0.048158497
+      "weight": 0.0481585
     }
   ],
   "ROK": [
@@ -22068,7 +22242,7 @@
       "ticker": "QTUM",
       "name": "Defiance 量子 ETF",
       "name_en": "Defiance Quantum ETF",
-      "weight": 0.024121001
+      "weight": 0.024121
     }
   ],
   "HQ": [
@@ -22113,7 +22287,7 @@
       "ticker": "QTUM",
       "name": "Defiance 量子 ETF",
       "name_en": "Defiance Quantum ETF",
-      "weight": 0.014951101
+      "weight": 0.0149511
     }
   ],
   "ONTO": [
@@ -22214,7 +22388,7 @@
       "ticker": "ROBO",
       "name": "ROBO Global 機器人與自動化指數 ETF",
       "name_en": "ROBO Global Robotics and Automation Index ETF",
-      "weight": 0.017288001
+      "weight": 0.017288
     }
   ],
   "6324.T": [
@@ -22262,21 +22436,6 @@
       "weight": 0.016424
     }
   ],
-  "ILMN": [
-    {
-      "holding_symbol": "ILMN",
-      "holding_name_en": "Illumina Inc",
-      "holding_name_zh": null,
-      "holding_display_name": "Illumina Inc",
-      "holding_display_label": "(ILMN)Illumina Inc",
-      "holding_bilingual_name": "Illumina Inc",
-      "etf_id": "US-ROBT",
-      "ticker": "ROBT",
-      "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
-      "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-      "weight": 0.0161414
-    }
-  ],
   "OII": [
     {
       "holding_symbol": "OII",
@@ -22289,7 +22448,7 @@
       "ticker": "ROBT",
       "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
       "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-      "weight": 0.015855901
+      "weight": 0.0158559
     }
   ],
   "UPST": [
@@ -22304,7 +22463,7 @@
       "ticker": "ROBT",
       "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
       "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-      "weight": 0.015685901
+      "weight": 0.0156859
     }
   ],
   "GNTX": [
@@ -22334,7 +22493,7 @@
       "ticker": "ROBT",
       "name": "First Trust Nasdaq 人工智慧與機器人 ETF",
       "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
-      "weight": 0.015423501
+      "weight": 0.0154235
     }
   ],
   "RXRX": [
@@ -23414,21 +23573,6 @@
       "name": "醫療保健類股精選 SPDR ETF",
       "name_en": "Health Care Select Sector SPDR Fund",
       "weight": 0.0323688
-    }
-  ],
-  "GILD": [
-    {
-      "holding_symbol": "GILD",
-      "holding_name_en": "Gilead Sciences Inc",
-      "holding_name_zh": null,
-      "holding_display_name": "Gilead Sciences Inc",
-      "holding_display_label": "(GILD)Gilead Sciences Inc",
-      "holding_bilingual_name": "Gilead Sciences Inc",
-      "etf_id": "US-XLV",
-      "ticker": "XLV",
-      "name": "醫療保健類股精選 SPDR ETF",
-      "name_en": "Health Care Select Sector SPDR Fund",
-      "weight": 0.027251698
     }
   ],
   "ALGM": [
