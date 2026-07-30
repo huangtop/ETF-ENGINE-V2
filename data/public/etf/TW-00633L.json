@@ -48,47 +48,47 @@
     }
   ],
   "metrics": {
-    "total_return_1y": {
-      "value": 24.6477,
+    "alpha": {
+      "value": -13.3445,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 24.6477,
+      "value": 19.8389,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 33.6482,
+      "value": 33.7399,
       "unit": "percent"
     },
-    "sharpe_ratio": {
-      "value": 0.6879,
+    "beta": {
+      "value": 0.5849,
       "unit": "ratio"
+    },
+    "data_years": {
+      "value": 2.9325,
+      "unit": "years"
     },
     "max_drawdown": {
       "value": -16.5468,
       "unit": "percent"
     },
-    "alpha": {
-      "value": -13.7949,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 0.5985,
+    "sharpe_ratio": {
+      "value": 0.5435,
       "unit": "ratio"
     },
-    "tracking_error": {
-      "value": 31.6204,
+    "total_return_1y": {
+      "value": 19.8389,
       "unit": "percent"
     },
-    "data_years": {
-      "value": 2.9246,
-      "unit": "years"
+    "tracking_error": {
+      "value": 31.9788,
+      "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 48.65,
+    "date": "2026-07-30",
+    "value": 47.6,
     "currency": "TWD"
   },
   "trend": [
@@ -3039,12 +3039,20 @@
     {
       "date": "2026-07-28",
       "value": 133.99
+    },
+    {
+      "date": "2026-07-29",
+      "value": 134.62
+    },
+    {
+      "date": "2026-07-30",
+      "value": 131.09
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00633L",
-      "holding_symbol": "006205.TW",
+      "holding_symbol": "006205",
       "holding_name": "Fubon SSE180 ETF",
       "weight": 0.0618958,
       "as_of": null,
@@ -3053,7 +3061,7 @@
       "holding_name_en": "Fubon SSE180 ETF",
       "holding_name_zh": null,
       "display_name": "Fubon SSE180 ETF",
-      "display_label": "(006205.TW)Fubon SSE180 ETF",
+      "display_label": "(006205)Fubon SSE180 ETF",
       "bilingual_name": "Fubon SSE180 ETF"
     }
   ],

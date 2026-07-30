@@ -44,47 +44,47 @@
     }
   ],
   "metrics": {
-    "total_return_1y": {
-      "value": 35.3425,
+    "alpha": {
+      "value": 9.4905,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 35.3425,
+      "value": 31.9694,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.6733,
+      "value": 16.8141,
       "unit": "percent"
     },
-    "sharpe_ratio": {
-      "value": 2.0297,
+    "beta": {
+      "value": 0.3042,
       "unit": "ratio"
+    },
+    "data_years": {
+      "value": 2.9286,
+      "unit": "years"
     },
     "max_drawdown": {
       "value": -6.9965,
       "unit": "percent"
     },
-    "alpha": {
-      "value": 11.8406,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 0.303,
+    "sharpe_ratio": {
+      "value": 1.8121,
       "unit": "ratio"
     },
-    "tracking_error": {
-      "value": 23.5901,
+    "total_return_1y": {
+      "value": 31.9694,
       "unit": "percent"
     },
-    "data_years": {
-      "value": 2.9246,
-      "unit": "years"
+    "tracking_error": {
+      "value": 23.6527,
+      "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-29",
-    "value": 24.7,
+    "date": "2026-07-30",
+    "value": 24.19,
     "currency": "TWD"
   },
   "trend": [
@@ -3035,12 +3035,16 @@
     {
       "date": "2026-07-29",
       "value": 136.09
+    },
+    {
+      "date": "2026-07-30",
+      "value": 133.28
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-0061",
-      "holding_symbol": "2827.HK",
+      "holding_symbol": "2827",
       "holding_name": "W.I.S.E. - CSI 300 China Tracker ETF",
       "weight": 0.94900614,
       "as_of": null,
@@ -3049,7 +3053,7 @@
       "holding_name_en": "W.I.S.E. - CSI 300 China Tracker ETF",
       "holding_name_zh": null,
       "display_name": "W.I.S.E. - CSI 300 China Tracker ETF",
-      "display_label": "(2827.HK)W.I.S.E. - CSI 300 China Tracker ETF",
+      "display_label": "(2827)W.I.S.E. - CSI 300 China Tracker ETF",
       "bilingual_name": "W.I.S.E. - CSI 300 China Tracker ETF"
     }
   ],

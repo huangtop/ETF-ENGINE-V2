@@ -44,8 +44,8 @@
     }
   ],
   "metrics": {
-    "total_return_1y": {
-      "value": 10.9536,
+    "alpha": {
+      "value": 2.009,
       "unit": "percent"
     },
     "annualized_return": {
@@ -56,34 +56,34 @@
       "value": 15.17,
       "unit": "percent"
     },
-    "sharpe_ratio": {
-      "value": 0.6232,
+    "beta": {
+      "value": 0.1438,
       "unit": "ratio"
+    },
+    "data_years": {
+      "value": 2.9246,
+      "unit": "years"
     },
     "max_drawdown": {
       "value": -9.2291,
       "unit": "percent"
     },
-    "alpha": {
-      "value": 1.1845,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 0.1466,
+    "sharpe_ratio": {
+      "value": 0.6232,
       "unit": "ratio"
     },
-    "tracking_error": {
-      "value": 26.8635,
+    "total_return_1y": {
+      "value": 10.9536,
       "unit": "percent"
     },
-    "data_years": {
-      "value": 2.9206,
-      "unit": "years"
+    "tracking_error": {
+      "value": 27.1251,
+      "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "value": 8.61,
     "currency": "TWD"
   },
@@ -3030,6 +3030,10 @@
     },
     {
       "date": "2026-07-28",
+      "value": 119.09
+    },
+    {
+      "date": "2026-07-29",
       "value": 119.09
     }
   ],

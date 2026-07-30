@@ -48,47 +48,47 @@
     }
   ],
   "metrics": {
-    "total_return_1y": {
-      "value": 90.6955,
+    "alpha": {
+      "value": 5.2279,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 90.6955,
+      "value": 88.4436,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 41.1956,
+      "value": 41.2002,
       "unit": "percent"
     },
-    "sharpe_ratio": {
-      "value": 2.1652,
+    "beta": {
+      "value": 1.0536,
       "unit": "ratio"
+    },
+    "data_years": {
+      "value": 2.9325,
+      "unit": "years"
     },
     "max_drawdown": {
       "value": -20.4,
       "unit": "percent"
     },
-    "alpha": {
-      "value": -1.0853,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 1.0724,
+    "sharpe_ratio": {
+      "value": 2.1103,
       "unit": "ratio"
     },
-    "tracking_error": {
-      "value": 30.1411,
+    "total_return_1y": {
+      "value": 88.4436,
       "unit": "percent"
     },
-    "data_years": {
-      "value": 2.9246,
-      "unit": "years"
+    "tracking_error": {
+      "value": 30.335,
+      "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 101.45,
+    "date": "2026-07-30",
+    "value": 101.1,
     "currency": "TWD"
   },
   "trend": [
@@ -3039,12 +3039,20 @@
     {
       "date": "2026-07-28",
       "value": 270.03
+    },
+    {
+      "date": "2026-07-29",
+      "value": 270.43
+    },
+    {
+      "date": "2026-07-30",
+      "value": 269.1
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00640L",
-      "holding_symbol": "00645.TW",
+      "holding_symbol": "00645",
       "holding_name": "Fubon TOPIX ETF",
       "weight": 0.1031393,
       "as_of": null,
@@ -3053,7 +3061,7 @@
       "holding_name_en": "Fubon TOPIX ETF",
       "holding_name_zh": null,
       "display_name": "Fubon TOPIX ETF",
-      "display_label": "(00645.TW)Fubon TOPIX ETF",
+      "display_label": "(00645)Fubon TOPIX ETF",
       "bilingual_name": "Fubon TOPIX ETF"
     }
   ],

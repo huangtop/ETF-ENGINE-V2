@@ -48,47 +48,47 @@
     }
   ],
   "metrics": {
-    "total_return_1y": {
-      "value": 30.5412,
+    "alpha": {
+      "value": -6.5792,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 30.5412,
+      "value": 25.1421,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 33.8577,
+      "value": 33.9955,
       "unit": "percent"
     },
-    "sharpe_ratio": {
-      "value": 0.8577,
+    "beta": {
+      "value": 0.5487,
       "unit": "ratio"
+    },
+    "data_years": {
+      "value": 2.9325,
+      "unit": "years"
     },
     "max_drawdown": {
       "value": -15.9843,
       "unit": "percent"
     },
-    "alpha": {
-      "value": -6.622,
-      "unit": "percent"
-    },
-    "beta": {
-      "value": 0.5634,
+    "sharpe_ratio": {
+      "value": 0.6954,
       "unit": "ratio"
     },
-    "tracking_error": {
-      "value": 32.6002,
+    "total_return_1y": {
+      "value": 25.1421,
       "unit": "percent"
     },
-    "data_years": {
-      "value": 2.9246,
-      "unit": "years"
+    "tracking_error": {
+      "value": 33.0358,
+      "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 20.26,
+    "date": "2026-07-30",
+    "value": 19.81,
     "currency": "TWD"
   },
   "trend": [
@@ -3039,12 +3039,20 @@
     {
       "date": "2026-07-28",
       "value": 141.18
+    },
+    {
+      "date": "2026-07-29",
+      "value": 142.44
+    },
+    {
+      "date": "2026-07-30",
+      "value": 138.05
     }
   ],
   "top_holdings": [
     {
       "etf_id": "TW-00637L",
-      "holding_symbol": "0061.TW",
+      "holding_symbol": "0061",
       "holding_name": "W.I.S.E. Yuanta/P-shares CSI 300 ETF",
       "weight": 0.0136391,
       "as_of": null,
@@ -3053,7 +3061,7 @@
       "holding_name_en": "W.I.S.E. Yuanta/P-shares CSI 300 ETF",
       "holding_name_zh": null,
       "display_name": "W.I.S.E. Yuanta/P-shares CSI 300 ETF",
-      "display_label": "(0061.TW)W.I.S.E. Yuanta/P-shares CSI 300 ETF",
+      "display_label": "(0061)W.I.S.E. Yuanta/P-shares CSI 300 ETF",
       "bilingual_name": "W.I.S.E. Yuanta/P-shares CSI 300 ETF"
     }
   ],
