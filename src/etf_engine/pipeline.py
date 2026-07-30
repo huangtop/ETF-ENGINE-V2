@@ -61,6 +61,54 @@ def _configured_bootstrap_limit(explicit: int | None) -> int:
         raise ValueError("ETF_BOOTSTRAP_LIMIT must be a non-negative integer") from exc
 
 
+def _merge_metrics(
+    previous: list[dict[str, Any]],
+    current: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Replace successful metric observations without dropping other ETFs."""
+    merged = {
+        (row["etf_id"], row["metric_code"]): row
+        for row in previous
+        if row.get("etf_id") and row.get("metric_code")
+    }
+    for row in current:
+        merged[(row["etf_id"], row["metric_code"])] = row
+    return [merged[key] for key in sorted(merged)]
+
+
+def _load_public_metrics(entities: list[ETFEntity]) -> list[dict[str, Any]]:
+    """Recover committed last-known-good metrics when runner cache is empty."""
+    entity_ids = {entity.etf_id for entity in entities}
+    indexed_rows = _read_json(settings.public_dir / "latest_metrics.json", [])
+    rows = [row for row in indexed_rows if row.get("etf_id") in entity_ids]
+    recovered_ids = {row.get("etf_id") for row in rows}
+    market_items = {
+        row["etf_id"]: row
+        for listing_market in ("TW", "US")
+        for row in _read_json(
+            settings.public_dir / "markets" / f"{listing_market}.json", []
+        )
+        if isinstance(row, dict) and row.get("etf_id") in entity_ids
+    }
+    for entity in entities:
+        if entity.etf_id in recovered_ids:
+            continue
+        path = settings.public_dir / "etf" / f"{entity.etf_id}.json"
+        payload = market_items.get(entity.etf_id) or _read_json(path, {})
+        for metric_code, metric in payload.get("metrics", {}).items():
+            if not isinstance(metric, dict) or metric.get("value") is None:
+                continue
+            rows.append(
+                {
+                    "etf_id": entity.etf_id,
+                    "metric_code": metric_code,
+                    "value": metric["value"],
+                    "unit": metric.get("unit", "ratio"),
+                }
+            )
+    return rows
+
+
 def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, Any]:
     settings.ensure_dirs()
     seed = SeedRepository()
@@ -73,21 +121,45 @@ def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, An
     limit = _configured_bootstrap_limit(bootstrap_limit)
     bootstrap_path = settings.state_dir / "bootstrap.json"
     bootstrap_state = _read_json(bootstrap_path, {})
-    cursor = bootstrap_state.get("cursor_by_market", {}).get(market)
+    cursor_by_market = dict(bootstrap_state.get("cursor_by_market", {}))
+    cursor = cursor_by_market.get(market)
     cached_ids = {
         entity.etf_id
         for entity in entities
         if (settings.normalized_dir / "prices" / f"{entity.etf_id}.parquet").exists()
     }
-    scheduled, attempted_new, next_cursor = select_entities_for_run(
-        entities, cached_ids, limit, cursor
-    )
+    next_cursors: dict[str, str | None] = {}
+    if market == "all" and limit > 0:
+        markets = sorted({entity.listing_market for entity in entities})
+        base, remainder = divmod(limit, len(markets))
+        scheduled_by_id: dict[str, ETFEntity] = {}
+        attempted_new = []
+        for index, listing_market in enumerate(markets):
+            quota = base + (1 if index < remainder else 0)
+            market_entities = [
+                entity for entity in entities if entity.listing_market == listing_market
+            ]
+            market_scheduled, market_attempted, next_cursor = select_entities_for_run(
+                market_entities,
+                cached_ids,
+                quota,
+                cursor_by_market.get(listing_market),
+            )
+            scheduled_by_id.update({entity.etf_id: entity for entity in market_scheduled})
+            attempted_new.extend(market_attempted)
+            next_cursors[listing_market] = next_cursor
+        scheduled = [entity for entity in entities if entity.etf_id in scheduled_by_id]
+    else:
+        scheduled, attempted_new, next_cursor = select_entities_for_run(
+            entities, cached_ids, limit, cursor
+        )
+        next_cursors[market] = next_cursor
 
     service = PriceService()
     holding_service = HoldingService()
     end = date.today()
     start = end - timedelta(days=365 * 3 + 15)
-    metrics: list[dict[str, Any]] = []
+    current_metrics: list[dict[str, Any]] = []
     errors: list[dict[str, str]] = []
     holdings_synced = 0
     benchmark_cache: dict[str, Any] = {}
@@ -118,7 +190,7 @@ def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, An
         try:
             prices = service.sync(entity, start, end)
             benchmark = get_benchmark(entity.benchmark_symbol)
-            metrics.extend(calculate_metrics(entity.etf_id, prices, benchmark))
+            current_metrics.extend(calculate_metrics(entity.etf_id, prices, benchmark))
         except Exception as exc:
             errors.append({"etf_id": entity.etf_id, "stage": "prices", "error": str(exc)})
         try:
@@ -129,6 +201,11 @@ def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, An
             errors.append({"etf_id": entity.etf_id, "stage": "holdings", "error": str(exc)})
 
     metrics_path = settings.normalized_dir / "metrics" / "latest.json"
+    last_known_metrics = _merge_metrics(
+        _load_public_metrics(entities),
+        _read_json(metrics_path, []),
+    )
+    metrics = _merge_metrics(last_known_metrics, current_metrics)
     _write_json(metrics_path, metrics)
 
     cached_after = {
@@ -136,8 +213,7 @@ def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, An
         for entity in entities
         if (settings.normalized_dir / "prices" / f"{entity.etf_id}.parquet").exists()
     }
-    cursor_by_market = dict(bootstrap_state.get("cursor_by_market", {}))
-    cursor_by_market[market] = next_cursor
+    cursor_by_market.update(next_cursors)
     bootstrap_payload = {
         "updated_at": end.isoformat(),
         "cursor_by_market": cursor_by_market,

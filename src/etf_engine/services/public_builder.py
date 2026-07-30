@@ -68,6 +68,30 @@ def build_public() -> None:
     failed_price_ids = {
         row.get("etf_id") for row in last_run.get("errors", []) if row.get("stage") == "prices"
     }
+    existing_index_path = settings.public_dir / "etfs.json"
+    existing_index = (
+        json.loads(existing_index_path.read_text(encoding="utf-8"))
+        if existing_index_path.exists()
+        else []
+    )
+    existing_market_items = [
+        row
+        for listing_market in ("TW", "US")
+        for row in (
+            json.loads(
+                (settings.public_dir / "markets" / f"{listing_market}.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            if (settings.public_dir / "markets" / f"{listing_market}.json").exists()
+            else []
+        )
+    ]
+    existing_by_id = {
+        row["etf_id"]: row
+        for row in existing_index + existing_market_items
+        if isinstance(row, dict) and row.get("etf_id")
+    }
 
     metric_map = {}
     for row in metrics:
@@ -93,6 +117,13 @@ def build_public() -> None:
 
     for entity in entities:
         etf_id = entity["etf_id"]
+        existing_path = settings.public_dir / "etf" / f"{etf_id}.json"
+        existing_file = (
+            json.loads(existing_path.read_text(encoding="utf-8"))
+            if existing_path.exists()
+            else {}
+        )
+        existing = existing_by_id.get(etf_id) or existing_file
         translated = translations.get(etf_id, {})
 
         # Translation is applied here, rather than overwriting the canonical English name.
@@ -130,10 +161,17 @@ def build_public() -> None:
                     }
                     for date, value in norm.items()
                 ]
+        elif existing.get("latest_price") or existing.get("trend") or existing.get("metrics"):
+            # A partial/bootstrap run must not erase the last-known-good public record.
+            latest_price = existing.get("latest_price")
+            trend = existing.get("trend", [])
+            bootstrap_status = "ready"
 
         holdings = [
             localize_holding(row, holding_translations) for row in holding_service.load(etf_id)
         ]
+        if not holdings and isinstance(existing.get("top_holdings"), list):
+            holdings = existing["top_holdings"]
         holdings_map[etf_id] = holdings
 
         for row in holdings:
@@ -180,7 +218,7 @@ def build_public() -> None:
                 else display_name
             ),
             "classifications": class_map.get(etf_id, []),
-            "metrics": metric_map.get(etf_id, {}),
+            "metrics": metric_map.get(etf_id) or existing.get("metrics", {}),
             "bootstrap_status": bootstrap_status,
             "latest_price": latest_price,
             "trend": trend,
@@ -234,9 +272,21 @@ def build_public() -> None:
         for status in ("ready", "pending", "failed")
     }
 
+    public_metrics = [
+        {
+            "etf_id": item["etf_id"],
+            "metric_code": metric_code,
+            "value": metric["value"],
+            "unit": metric.get("unit", "ratio"),
+        }
+        for item in payload
+        for metric_code, metric in item.get("metrics", {}).items()
+    ]
+    public_metrics.sort(key=lambda row: (row["etf_id"], row["metric_code"]))
+
     write_json(settings.public_dir / "etfs.json", payload)
     write_json(settings.public_dir / "classifications.json", classifications)
-    write_json(settings.public_dir / "latest_metrics.json", metrics)
+    write_json(settings.public_dir / "latest_metrics.json", public_metrics)
 
     for market in ("TW", "US"):
         write_json(

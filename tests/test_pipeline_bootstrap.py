@@ -9,17 +9,17 @@ from etf_engine.models import ETFEntity
 from etf_engine.services.holding_service import HoldingSyncResult
 
 
-def entity(etf_id: str) -> ETFEntity:
+def entity(etf_id: str, market: str = "US") -> ETFEntity:
     ticker = etf_id.split("-", 1)[1]
     return ETFEntity(
         etf_id=etf_id,
         ticker=ticker,
         quote_symbol=ticker,
         name=ticker,
-        listing_market="US",
-        listing_exchange="US",
-        currency="USD",
-        benchmark_symbol="SPY",
+        listing_market=market,
+        listing_exchange="TWSE" if market == "TW" else "US",
+        currency="TWD" if market == "TW" else "USD",
+        benchmark_symbol="0050.TW" if market == "TW" else "SPY",
     )
 
 
@@ -43,6 +43,57 @@ def test_selects_all_cached_and_round_robin_missing():
     )
     assert [row.etf_id for row in attempted] == ["US-B"]
     assert cursor == "US-B"
+
+
+def test_merge_metrics_preserves_unprocessed_etfs_and_replaces_current_value():
+    previous = [
+        {"etf_id": "US-SPY", "metric_code": "total_return_1y", "value": 10},
+        {"etf_id": "TW-0050", "metric_code": "total_return_1y", "value": 20},
+    ]
+    current = [
+        {"etf_id": "TW-0050", "metric_code": "total_return_1y", "value": 21}
+    ]
+
+    merged = pipeline._merge_metrics(previous, current)
+
+    assert merged == [
+        {"etf_id": "TW-0050", "metric_code": "total_return_1y", "value": 21},
+        {"etf_id": "US-SPY", "metric_code": "total_return_1y", "value": 10},
+    ]
+
+
+def test_load_public_metrics_recovers_last_known_good(tmp_path, monkeypatch):
+    selected = entity("US-SPY")
+    public_path = tmp_path / "public" / "markets" / "US.json"
+    public_path.parent.mkdir(parents=True)
+    public_path.write_text(
+        json.dumps(
+            [
+                {
+                    "etf_id": "US-SPY",
+                    "metrics": {
+                        "total_return_1y": {"value": 17.6, "unit": "percent"},
+                        "missing": {"value": None, "unit": "ratio"},
+                    },
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(
+        pipeline,
+        "settings",
+        SimpleNamespace(public_dir=tmp_path / "public"),
+    )
+
+    assert pipeline._load_public_metrics([selected]) == [
+        {
+            "etf_id": "US-SPY",
+            "metric_code": "total_return_1y",
+            "value": 17.6,
+            "unit": "percent",
+        }
+    ]
 
 
 def test_pipeline_bounds_uncached_entities_and_records_pending(tmp_path, monkeypatch):
@@ -74,6 +125,7 @@ def test_pipeline_bounds_uncached_entities_and_records_pending(tmp_path, monkeyp
     fake_settings = SimpleNamespace(
         normalized_dir=tmp_path / "normalized",
         state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
         ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
     )
     monkeypatch.setattr(pipeline, "settings", fake_settings)
@@ -91,6 +143,55 @@ def test_pipeline_bounds_uncached_entities_and_records_pending(tmp_path, monkeyp
     assert state["bootstrap_attempted"] == 1
     assert state["bootstrap_ready"] == 1
     assert state["bootstrap_pending"] == 2
+
+
+def test_all_market_bootstrap_splits_quota_between_tw_and_us(tmp_path, monkeypatch):
+    entities = [
+        entity("TW-A", "TW"),
+        entity("TW-B", "TW"),
+        entity("US-A"),
+        entity("US-B"),
+    ]
+
+    class Seed:
+        def entities(self):
+            return entities
+
+    prices = pd.DataFrame(
+        {"adj_close": [100.0, 101.0]},
+        index=pd.date_range("2026-07-28", periods=2),
+    )
+    attempted = []
+
+    class Prices:
+        def sync(self, selected, _start, _end):
+            attempted.append(selected.etf_id)
+            return prices
+
+    class Holdings:
+        def sync_with_status(self, _selected):
+            return HoldingSyncResult(rows=[], fetched=False)
+
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+    monkeypatch.setattr(pipeline, "calculate_metrics", lambda *_args: [])
+    monkeypatch.setattr(pipeline, "build_public", lambda: None)
+
+    state = pipeline.run("all", bootstrap_limit=2)
+
+    assert "TW-A" in attempted and "US-A" in attempted
+    assert "TW-B" not in attempted and "US-B" not in attempted
+    assert state["bootstrap_attempted"] == 2
+    bootstrap = json.loads((fake_settings.state_dir / "bootstrap.json").read_text())
+    assert bootstrap["cursor_by_market"] == {"TW": "TW-A", "US": "US-A"}
 
 
 def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
@@ -160,3 +261,77 @@ def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
         "US-FAILED": "failed",
     }
     assert manifest["bootstrap"] == {"ready": 1, "pending": 1, "failed": 1}
+
+
+def test_public_builder_preserves_last_known_good_when_cache_is_missing(
+    tmp_path, monkeypatch
+):
+    entities = [entity("US-SPY")]
+
+    class Seed:
+        def entities(self):
+            return entities
+
+        def classifications(self):
+            return []
+
+    class Prices:
+        def load(self, _etf_id):
+            return pd.DataFrame()
+
+    class Holdings:
+        def load(self, _etf_id):
+            return []
+
+    class Exporter:
+        def build(self):
+            return {}
+
+    fake_settings = SimpleNamespace(
+        seed_dir=tmp_path / "seed",
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+    )
+    (fake_settings.normalized_dir / "metrics").mkdir(parents=True)
+    fake_settings.state_dir.mkdir(parents=True)
+    existing_path = fake_settings.public_dir / "etf" / "US-SPY.json"
+    existing_path.parent.mkdir(parents=True)
+    existing_path.write_text(
+        json.dumps(
+            {
+                "metrics": {
+                    "total_return_1y": {"value": 17.6, "unit": "percent"}
+                },
+                "latest_price": {"date": "2026-07-28", "value": 740.86},
+                "trend": [{"date": "2026-07-28", "value": 100}],
+                "top_holdings": [
+                    {
+                        "holding_symbol": "NVDA",
+                        "holding_name_en": "NVIDIA Corp",
+                        "holding_name_zh": "輝達",
+                        "display_name": "輝達",
+                        "display_label": "(NVDA)輝達",
+                        "bilingual_name": "NVIDIA Corp（輝達）",
+                        "weight": 0.08,
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(public_builder, "settings", fake_settings)
+    monkeypatch.setattr(public_builder, "SeedRepository", Seed)
+    monkeypatch.setattr(public_builder, "PriceRepository", Prices)
+    monkeypatch.setattr(public_builder, "HoldingService", Holdings)
+    monkeypatch.setattr(public_builder, "HoldingsChangeExporter", Exporter)
+    monkeypatch.setattr(public_builder, "load_translations", lambda: {})
+    monkeypatch.setattr(public_builder, "load_holding_translations", lambda: {})
+
+    public_builder.build_public()
+
+    item = json.loads(existing_path.read_text())
+    assert item["bootstrap_status"] == "ready"
+    assert item["metrics"]["total_return_1y"]["value"] == 17.6
+    assert item["latest_price"]["value"] == 740.86
+    assert item["top_holdings"][0]["holding_symbol"] == "NVDA"

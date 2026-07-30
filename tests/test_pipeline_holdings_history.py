@@ -48,6 +48,7 @@ def test_pipeline_attempts_holdings_sync_for_tw_etfs_even_when_prices_fail(
     fake_settings = SimpleNamespace(
         normalized_dir=tmp_path / "normalized",
         state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
         ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
     )
     monkeypatch.setattr(pipeline, "settings", fake_settings)
