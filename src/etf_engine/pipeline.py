@@ -82,6 +82,15 @@ def _merge_metrics(
     return [merged[key] for key in sorted(merged)]
 
 
+def _replace_metrics_for_etfs(
+    previous: list[dict[str, Any]],
+    current: list[dict[str, Any]],
+    refreshed_etf_ids: set[str],
+) -> list[dict[str, Any]]:
+    retained = [row for row in previous if row.get("etf_id") not in refreshed_etf_ids]
+    return _merge_metrics(retained, current)
+
+
 def _load_public_metrics(entities: list[ETFEntity]) -> list[dict[str, Any]]:
     """Recover committed last-known-good metrics when runner cache is empty."""
     entity_ids = {entity.etf_id for entity in entities}
@@ -175,8 +184,10 @@ def run(
     end = date.today()
     start = end - timedelta(days=365 * 3 + 15)
     current_metrics: list[dict[str, Any]] = []
+    metrics_refreshed: set[str] = set()
     errors: list[dict[str, str]] = []
     holdings_synced = 0
+    holdings_updated: list[str] = []
     benchmark_cache: dict[str, Any] = {}
 
     def get_benchmark(symbol: str):
@@ -204,14 +215,30 @@ def run(
     for entity in scheduled:
         try:
             prices = service.sync(entity, start, end)
-            benchmark = get_benchmark(entity.benchmark_symbol)
-            current_metrics.extend(calculate_metrics(entity.etf_id, prices, benchmark))
         except Exception as exc:
             errors.append({"etf_id": entity.etf_id, "stage": "prices", "error": str(exc)})
+        else:
+            try:
+                benchmark = get_benchmark(entity.benchmark_symbol)
+            except Exception as exc:
+                errors.append(
+                    {"etf_id": entity.etf_id, "stage": "benchmark", "error": str(exc)}
+                )
+                benchmark = None
+            try:
+                current_metrics.extend(
+                    calculate_metrics(entity.etf_id, prices, benchmark)
+                )
+                metrics_refreshed.add(entity.etf_id)
+            except Exception as exc:
+                errors.append(
+                    {"etf_id": entity.etf_id, "stage": "metrics", "error": str(exc)}
+                )
         try:
             holding_result = holding_service.sync_with_status(entity)
             if holding_result.fetched:
                 holdings_synced += 1
+                holdings_updated.append(entity.etf_id)
         except Exception as exc:
             errors.append({"etf_id": entity.etf_id, "stage": "holdings", "error": str(exc)})
 
@@ -220,7 +247,11 @@ def run(
         _load_public_metrics(entities),
         _read_json(metrics_path, []),
     )
-    metrics = _merge_metrics(last_known_metrics, current_metrics)
+    metrics = _replace_metrics_for_etfs(
+        last_known_metrics,
+        current_metrics,
+        metrics_refreshed,
+    )
     _write_json(metrics_path, metrics)
 
     cached_after = {
@@ -253,6 +284,7 @@ def run(
         "bootstrap_pending": len(entities) - len(cached_after),
         "metric_rows": len(metrics),
         "holdings_synced": holdings_synced,
+        "holdings_updated": holdings_updated,
         "bootstrap_only": bootstrap_only,
         "published": publish,
         "errors": errors,

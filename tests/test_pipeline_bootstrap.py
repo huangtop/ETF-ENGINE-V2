@@ -62,6 +62,31 @@ def test_merge_metrics_preserves_unprocessed_etfs_and_replaces_current_value():
     ]
 
 
+def test_replace_metrics_removes_stale_codes_for_successfully_refreshed_etf():
+    previous = [
+        {"etf_id": "US-NEW", "metric_code": "total_return_1y", "value": 99},
+        {"etf_id": "US-SPY", "metric_code": "total_return_1y", "value": 10},
+    ]
+    current = [
+        {
+            "etf_id": "US-NEW",
+            "metric_code": "total_return_since_inception",
+            "value": 5,
+        }
+    ]
+
+    merged = pipeline._replace_metrics_for_etfs(previous, current, {"US-NEW"})
+
+    assert merged == [
+        {
+            "etf_id": "US-NEW",
+            "metric_code": "total_return_since_inception",
+            "value": 5,
+        },
+        {"etf_id": "US-SPY", "metric_code": "total_return_1y", "value": 10},
+    ]
+
+
 def test_load_public_metrics_recovers_last_known_good(tmp_path, monkeypatch):
     selected = entity("US-SPY")
     public_path = tmp_path / "public" / "markets" / "US.json"
@@ -247,6 +272,59 @@ def test_bootstrap_only_skips_cached_entities_and_does_not_publish(tmp_path, mon
     assert published == []
 
 
+def test_benchmark_failure_keeps_price_metrics_and_holdings_independent(
+    tmp_path, monkeypatch
+):
+    selected = entity("TW-TEST", "TW")
+
+    class Seed:
+        def entities(self):
+            return [selected]
+
+    prices = pd.DataFrame(
+        {"adj_close": [100.0, 101.0]},
+        index=pd.date_range("2026-07-28", periods=2),
+    )
+
+    class Prices:
+        def sync(self, target, _start, _end):
+            if target.etf_id == "TW-BENCH":
+                raise RuntimeError("benchmark unavailable")
+            return prices
+
+    holdings_attempted = []
+
+    class Holdings:
+        def sync_with_status(self, target):
+            holdings_attempted.append(target.etf_id)
+            return HoldingSyncResult(rows=[], fetched=False)
+
+    metric_calls = []
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+    monkeypatch.setattr(
+        pipeline,
+        "calculate_metrics",
+        lambda etf_id, _prices, benchmark: metric_calls.append((etf_id, benchmark)) or [],
+    )
+    monkeypatch.setattr(pipeline, "build_public", lambda: None)
+
+    state = pipeline.run("TW", bootstrap_limit=0, publish=False)
+
+    assert metric_calls == [("TW-TEST", None)]
+    assert holdings_attempted == ["TW-TEST"]
+    assert any(error["stage"] == "benchmark" for error in state["errors"])
+    assert not any(error["stage"] == "prices" for error in state["errors"])
+
+
 def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
     entities = [entity(f"US-{ticker}") for ticker in ("READY", "PENDING", "FAILED")]
 
@@ -394,3 +472,75 @@ def test_public_builder_preserves_last_known_good_when_cache_is_missing(
     assert item["metrics"]["total_return_1y"]["value"] == 17.6
     assert item["latest_price"]["value"] == 740.86
     assert item["top_holdings"][0]["holding_symbol"] == "NVDA"
+
+
+def test_public_builder_ignores_unconfirmed_holdings_cache(tmp_path, monkeypatch):
+    entities = [entity("US-SPY")]
+
+    class Seed:
+        def entities(self):
+            return entities
+
+        def classifications(self):
+            return []
+
+    class Prices:
+        def load(self, _etf_id):
+            return pd.DataFrame()
+
+    class Holdings:
+        def load(self, _etf_id):
+            return [
+                {
+                    "holding_symbol": "AMD",
+                    "holding_name": "Advanced Micro Devices Inc",
+                    "weight": 0.2,
+                    "as_of": None,
+                    "source": "yahoo",
+                }
+            ]
+
+    class Exporter:
+        def __init__(self, **_kwargs):
+            pass
+
+        def build(self):
+            return {}
+
+    fake_settings = SimpleNamespace(
+        seed_dir=tmp_path / "seed",
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+    )
+    fake_settings.state_dir.mkdir(parents=True)
+    existing = {
+        "etf_id": "US-SPY",
+        "top_holdings": [
+            {
+                "holding_symbol": "NVDA",
+                "holding_name_en": "NVIDIA Corp",
+                "holding_name_zh": "輝達",
+                "display_name": "輝達",
+                "display_label": "(NVDA)輝達",
+                "bilingual_name": "NVIDIA Corp（輝達）",
+                "weight": 0.1,
+                "source": "yahoo",
+            }
+        ],
+    }
+    existing_path = fake_settings.public_dir / "etf" / "US-SPY.json"
+    existing_path.parent.mkdir(parents=True)
+    existing_path.write_text(json.dumps(existing), encoding="utf-8")
+    monkeypatch.setattr(public_builder, "settings", fake_settings)
+    monkeypatch.setattr(public_builder, "SeedRepository", Seed)
+    monkeypatch.setattr(public_builder, "PriceRepository", Prices)
+    monkeypatch.setattr(public_builder, "HoldingService", Holdings)
+    monkeypatch.setattr(public_builder, "HoldingsChangeExporter", Exporter)
+    monkeypatch.setattr(public_builder, "load_translations", lambda: {})
+    monkeypatch.setattr(public_builder, "load_holding_translations", lambda: {})
+
+    public_builder.build_public()
+
+    result = json.loads(existing_path.read_text())
+    assert result["top_holdings"][0]["holding_symbol"] == "NVDA"

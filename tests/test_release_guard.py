@@ -135,6 +135,22 @@ def test_unchanged_holding_cannot_lose_provider_date(tmp_path):
     assert any("lost provider as_of" in error for error in validation.errors)
 
 
+def test_one_year_return_can_be_corrected_to_since_inception(tmp_path):
+    baseline = tmp_path / "public"
+    candidate = tmp_path / "candidate"
+    previous = item()
+    current = item()
+    current["metrics"] = {
+        "total_return_since_inception": {"value": 3.2, "unit": "percent"}
+    }
+    dataset(baseline, [previous])
+    dataset(candidate, [current])
+
+    validation = validate_candidate(baseline, candidate)
+
+    assert validation.passed
+
+
 def test_valid_candidate_can_replace_baseline(tmp_path):
     public = tmp_path / "public"
     candidate = tmp_path / "candidate"

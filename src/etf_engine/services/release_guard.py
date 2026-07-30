@@ -215,7 +215,11 @@ def validate_candidate(
         for metric_code, metric in previous_metrics.items():
             if not isinstance(metric, dict) or metric.get("value") is None:
                 continue
-            if not _has_metric(current, metric_code):
+            short_history_replacement = (
+                metric_code == "total_return_1y"
+                and _has_metric(current, "total_return_since_inception")
+            )
+            if not _has_metric(current, metric_code) and not short_history_replacement:
                 errors.append(f"{etf_id}: lost metric {metric_code}")
 
         if previous.get("latest_price") and not current.get("latest_price"):
@@ -224,6 +228,10 @@ def validate_candidate(
         current_price_date = str((current.get("latest_price") or {}).get("date") or "")
         if previous_price_date and current_price_date < previous_price_date:
             errors.append(f"{etf_id}: latest price date moved backward")
+        previous_liquidity_date = str((previous.get("liquidity") or {}).get("as_of") or "")
+        current_liquidity_date = str((current.get("liquidity") or {}).get("as_of") or "")
+        if previous_liquidity_date and current_liquidity_date < previous_liquidity_date:
+            errors.append(f"{etf_id}: liquidity date moved backward")
         if previous.get("trend") and not current.get("trend"):
             errors.append(f"{etf_id}: lost trend")
         if len(current.get("trend", [])) < len(previous.get("trend", [])):
@@ -280,7 +288,6 @@ def validate_candidate(
 
     for field in (
         "metrics_ready",
-        "one_year_ready",
         "latest_price_ready",
         "trend_ready",
         "etf_translations",
@@ -289,6 +296,19 @@ def validate_candidate(
             errors.append(
                 f"global {field} regressed: "
                 f"{baseline_counts[field]} -> {candidate_counts[field]}"
+            )
+    lost_one_year = baseline_counts["one_year_ready"] - candidate_counts["one_year_ready"]
+    if lost_one_year > 0:
+        baseline_short = sum(
+            _has_metric(item, "total_return_since_inception") for item in baseline.values()
+        )
+        candidate_short = sum(
+            _has_metric(item, "total_return_since_inception") for item in candidate.values()
+        )
+        if candidate_short - baseline_short < lost_one_year:
+            errors.append(
+                "global one_year_ready regressed without short-history replacement: "
+                f"{baseline_counts['one_year_ready']} -> {candidate_counts['one_year_ready']}"
             )
     if baseline_counts["holdings_rows"] and (
         candidate_counts["holdings_rows"] < baseline_counts["holdings_rows"] * 0.9

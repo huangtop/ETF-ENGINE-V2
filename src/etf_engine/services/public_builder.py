@@ -5,6 +5,8 @@ from itertools import combinations
 from pathlib import Path
 from uuid import uuid4
 
+import pandas as pd
+
 from etf_engine.repository import SeedRepository, PriceRepository
 from etf_engine.services.display_translations import (
     load_holding_translations,
@@ -59,12 +61,65 @@ def load_translations() -> dict[str, dict]:
     return result
 
 
+def load_research_profiles() -> dict[str, dict]:
+    path = settings.seed_dir / "research_profiles.json"
+    if not path.exists():
+        return {}
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        row["etf_id"]: {key: value for key, value in row.items() if key != "etf_id"}
+        for row in rows
+        if isinstance(row, dict) and row.get("etf_id")
+    }
+
+
+def _price_metadata(frame: pd.DataFrame, currency: str) -> tuple[dict, dict | None]:
+    price_column = "adj_close" if "adj_close" in frame else "close"
+    prices = frame[price_column].dropna()
+    history = {
+        "first_date": str(prices.index[0].date()),
+        "last_date": str(prices.index[-1].date()),
+        "observations": len(prices),
+        "one_year_eligible": len(prices) >= 252,
+        "status": "complete_1y" if len(prices) >= 252 else "insufficient_history",
+    }
+    if "volume" not in frame:
+        return history, None
+
+    volume = pd.to_numeric(frame["volume"], errors="coerce").dropna()
+    if volume.empty:
+        return history, None
+    recent_volume = volume.iloc[-20:]
+    aligned_prices = prices.reindex(recent_volume.index).dropna()
+    aligned_volume = recent_volume.reindex(aligned_prices.index)
+    average_volume = float(recent_volume.mean())
+    latest_volume = float(volume.iloc[-1])
+    average_dollar_volume = (
+        float((aligned_prices * aligned_volume).mean()) if len(aligned_prices) else None
+    )
+    return history, {
+        "as_of": str(volume.index[-1].date()),
+        "latest_volume": round(latest_volume, 4),
+        "average_volume_20d": round(average_volume, 4),
+        "average_dollar_volume_20d": (
+            round(average_dollar_volume, 4) if average_dollar_volume is not None else None
+        ),
+        "relative_volume_20d": (
+            round(latest_volume / average_volume, 4) if average_volume else None
+        ),
+        "currency": currency,
+        "volume_unit": "shares",
+        "observation_count": len(recent_volume),
+    }
+
+
 def _render_public(target_dir: Path, baseline_dir: Path) -> None:
     repo = SeedRepository()
     entities = [x.model_dump() for x in repo.entities()]
     classifications = [x.model_dump() for x in repo.classifications()]
     translations = load_translations()
     holding_translations = load_holding_translations()
+    research_profiles = load_research_profiles()
 
     metrics_path = settings.normalized_dir / "metrics" / "latest.json"
     metrics = json.loads(metrics_path.read_text(encoding="utf-8")) if metrics_path.exists() else []
@@ -75,6 +130,7 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
     failed_price_ids = {
         row.get("etf_id") for row in last_run.get("errors", []) if row.get("stage") == "prices"
     }
+    holdings_updated_ids = set(last_run.get("holdings_updated", []))
     existing_index_path = baseline_dir / "etfs.json"
     existing_index = (
         json.loads(existing_index_path.read_text(encoding="utf-8"))
@@ -144,6 +200,8 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
         frame = price_repo.load(etf_id)
         latest_price = None
         trend = []
+        price_history = existing.get("price_history")
+        liquidity = existing.get("liquidity")
         prefer_existing_metrics = False
         bootstrap_status = "ready" if not frame.empty else "pending"
         if frame.empty and etf_id in failed_price_ids:
@@ -183,15 +241,22 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
                         if isinstance(row, dict) and row.get("date")
                     }
                     trend = [trend_by_date[key] for key in sorted(trend_by_date)][-756:]
+                    price_history, liquidity = _price_metadata(frame, entity["currency"])
         elif existing.get("latest_price") or existing.get("trend") or existing.get("metrics"):
             # A partial/bootstrap run must not erase the last-known-good public record.
             latest_price = existing.get("latest_price")
             trend = existing.get("trend", [])
             bootstrap_status = "ready"
 
-        holdings = [
+        cached_holdings = [
             localize_holding(row, holding_translations) for row in holding_service.load(etf_id)
         ]
+        existing_holdings = existing.get("top_holdings", [])
+        holdings = (
+            cached_holdings
+            if etf_id in holdings_updated_ids or not existing_holdings
+            else existing_holdings
+        )
         if not holdings and isinstance(existing.get("top_holdings"), list):
             holdings = existing["top_holdings"]
         holdings_map[etf_id] = holdings
@@ -248,8 +313,18 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
             "bootstrap_status": bootstrap_status,
             "latest_price": latest_price,
             "trend": trend,
+            "price_history": price_history,
+            "liquidity": liquidity,
             "top_holdings": holdings[:20],
             "holdings_summary": holding_summary,
+            "research": research_profiles.get(
+                etf_id,
+                {
+                    "tier": "context",
+                    "nodes": [],
+                    "roles": [],
+                },
+            ),
         }
 
         payload.append(item)
