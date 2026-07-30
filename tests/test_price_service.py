@@ -88,6 +88,9 @@ def test_empty_or_failed_provider_preserves_existing_cache(provider):
 
     assert repo.saved is None
     pd.testing.assert_frame_equal(result, existing)
+    assert service.used_cached_fallback
+    if provider.error:
+        assert service.last_fetch_errors == ["test: limited"]
 
 
 def test_atomic_repository_failure_preserves_existing_file(tmp_path, monkeypatch):

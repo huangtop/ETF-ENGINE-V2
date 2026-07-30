@@ -12,6 +12,7 @@ from etf_engine.repository import SeedRepository
 from etf_engine.services.holding_service import HoldingService
 from etf_engine.services.metric_service import calculate_metrics
 from etf_engine.services.price_service import PriceService
+from etf_engine.services.provider_health import ProviderCircuitBreaker
 from etf_engine.services.public_builder import build_public
 from etf_engine.settings import settings
 
@@ -189,6 +190,8 @@ def run(
     holdings_synced = 0
     holdings_updated: list[str] = []
     benchmark_cache: dict[str, Any] = {}
+    provider_breaker = ProviderCircuitBreaker()
+    skipped_after_provider_halt: list[str] = []
 
     def get_benchmark(symbol: str):
         if symbol in benchmark_cache:
@@ -213,11 +216,25 @@ def run(
         return benchmark_cache[symbol]
 
     for entity in scheduled:
+        if provider_breaker.halted:
+            skipped_after_provider_halt.append(entity.etf_id)
+            continue
         try:
             prices = service.sync(entity, start, end)
         except Exception as exc:
+            provider_breaker.observe([str(exc)])
             errors.append({"etf_id": entity.etf_id, "stage": "prices", "error": str(exc)})
         else:
+            fetch_errors = getattr(service, "last_fetch_errors", [])
+            if getattr(service, "used_cached_fallback", False) and fetch_errors:
+                errors.append(
+                    {
+                        "etf_id": entity.etf_id,
+                        "stage": "prices_cached_fallback",
+                        "error": "; ".join(fetch_errors),
+                    }
+                )
+            provider_breaker.observe(fetch_errors)
             try:
                 benchmark = get_benchmark(entity.benchmark_symbol)
             except Exception as exc:
@@ -240,6 +257,7 @@ def run(
                 holdings_synced += 1
                 holdings_updated.append(entity.etf_id)
             elif holding_result.errors:
+                provider_breaker.observe(holding_result.errors)
                 errors.append(
                     {
                         "etf_id": entity.etf_id,
@@ -248,6 +266,7 @@ def run(
                     }
                 )
         except Exception as exc:
+            provider_breaker.observe([str(exc)])
             errors.append({"etf_id": entity.etf_id, "stage": "holdings", "error": str(exc)})
 
     metrics_path = settings.normalized_dir / "metrics" / "latest.json"
@@ -295,6 +314,9 @@ def run(
         "holdings_updated": holdings_updated,
         "bootstrap_only": bootstrap_only,
         "published": publish,
+        "provider_halted": provider_breaker.halted,
+        "provider_halt_reason": provider_breaker.halt_reason,
+        "skipped_after_provider_halt": skipped_after_provider_halt,
         "errors": errors,
     }
     _write_json(settings.state_dir / "last_run.json", state)

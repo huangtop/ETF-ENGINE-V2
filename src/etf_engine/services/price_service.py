@@ -14,8 +14,12 @@ class PriceService:
     def __init__(self, repo=None, providers=None):
         self.repo = repo or PriceRepository()
         self.providers = providers or [TWSEPriceProvider(), YahooPriceProvider()]
+        self.last_fetch_errors: list[str] = []
+        self.used_cached_fallback = False
 
     def sync(self, entity: ETFEntity, start: date, end: date) -> pd.DataFrame:
+        self.last_fetch_errors = []
+        self.used_cached_fallback = False
         existing = self.repo.load(entity.etf_id)
         fetch_start = start
         if not existing.empty:
@@ -34,9 +38,12 @@ class PriceService:
             except Exception as exc:
                 errors.append(f"{provider.name}: {exc}")
 
+        self.last_fetch_errors = errors
+
         if fresh.empty:
             if existing.empty:
                 raise RuntimeError("; ".join(errors) or "no provider data")
+            self.used_cached_fallback = True
             return existing.loc[str(start) : str(end)]
 
         combined = pd.concat([existing, fresh]).sort_index() if not existing.empty else fresh

@@ -369,6 +369,45 @@ def test_pipeline_reports_holdings_provider_errors(tmp_path, monkeypatch):
     )
 
 
+def test_pipeline_stops_remaining_entities_after_repeated_provider_limits(
+    tmp_path, monkeypatch
+):
+    entities = [entity(f"US-{ticker}") for ticker in ("A", "B", "C")]
+
+    class Seed:
+        def entities(self):
+            return entities
+
+    attempted = []
+
+    class Prices:
+        def sync(self, selected, _start, _end):
+            attempted.append(selected.etf_id)
+            raise RuntimeError("HTTP 429 too many requests")
+
+    class Holdings:
+        def sync_with_status(self, _selected):
+            return HoldingSyncResult(rows=[], fetched=False)
+
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+
+    state = pipeline.run("US", bootstrap_limit=0, publish=False)
+
+    assert attempted == ["US-A", "US-B"]
+    assert state["provider_halted"]
+    assert state["provider_halt_reason"] == "provider_rate_limit_circuit_open"
+    assert state["skipped_after_provider_halt"] == ["US-C"]
+
+
 def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
     entities = [entity(f"US-{ticker}") for ticker in ("READY", "PENDING", "FAILED")]
 
