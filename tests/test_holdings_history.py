@@ -213,3 +213,37 @@ def test_cache_replace_failure_preserves_last_known_good_and_skips_history(tmp_p
     assert json.loads(cache.read_text()) == old
     assert spy.calls == []
     assert list(tmp_path.glob("*.tmp")) == []
+
+
+def test_same_content_preserves_provider_metadata(tmp_path, monkeypatch):
+    old = holdings(0.1)
+    old[0]["holding_name"] = "NVIDIA Corp"
+    old[0]["as_of"] = "2026-07-19"
+    fresh = holdings(0.1)
+    fresh[0]["holding_name"] = None
+    fresh[0]["as_of"] = None
+    spy = HistorySpy()
+    service = HoldingService(providers=[Provider(result=fresh)], history=spy)
+    cache = tmp_path / "US-TEST.json"
+    cache.write_text(json.dumps(old), encoding="utf-8")
+    monkeypatch.setattr(service, "path", lambda _etf_id: cache)
+
+    result = service.sync_with_status(entity())
+
+    assert result.rows[0]["holding_name"] == "NVIDIA Corp"
+    assert result.rows[0]["as_of"] == "2026-07-19"
+
+
+def test_changed_weight_does_not_reuse_old_provider_date(tmp_path, monkeypatch):
+    old = holdings(0.1)
+    old[0]["as_of"] = "2026-07-19"
+    fresh = holdings(0.2)
+    fresh[0]["as_of"] = None
+    service = HoldingService(providers=[Provider(result=fresh)], history=HistorySpy())
+    cache = tmp_path / "US-TEST.json"
+    cache.write_text(json.dumps(old), encoding="utf-8")
+    monkeypatch.setattr(service, "path", lambda _etf_id: cache)
+
+    result = service.sync_with_status(entity())
+
+    assert result.rows[0]["as_of"] is None

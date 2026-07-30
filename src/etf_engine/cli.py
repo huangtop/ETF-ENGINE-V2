@@ -22,9 +22,21 @@ def validate():
 
 
 @app.command("run")
-def run(market: str = typer.Option("all", help="all, TW, or US")):
+def run(
+    market: str = typer.Option("all", help="all, TW, or US"),
+    bootstrap_only: bool = typer.Option(
+        False,
+        help="Process only ETFs without a local price cache",
+    ),
+    publish: bool = typer.Option(
+        True,
+        help="Build and publish validated public JSON after the run",
+    ),
+):
     result = run_pipeline(
-        market.upper() if market.lower() != "all" else "all"
+        market.upper() if market.lower() != "all" else "all",
+        bootstrap_only=bootstrap_only,
+        publish=publish,
     )
     typer.echo(json.dumps(result, ensure_ascii=False, indent=2))
 

@@ -194,6 +194,59 @@ def test_all_market_bootstrap_splits_quota_between_tw_and_us(tmp_path, monkeypat
     assert bootstrap["cursor_by_market"] == {"TW": "TW-A", "US": "US-A"}
 
 
+def test_bootstrap_only_skips_cached_entities_and_does_not_publish(tmp_path, monkeypatch):
+    entities = [entity("TW-CACHED", "TW"), entity("TW-MISSING", "TW")]
+    price_dir = tmp_path / "normalized" / "prices"
+    price_dir.mkdir(parents=True)
+    (price_dir / "TW-CACHED.parquet").touch()
+
+    class Seed:
+        def entities(self):
+            return entities
+
+    attempted = []
+
+    class Prices:
+        def sync(self, selected, _start, _end):
+            attempted.append(selected.etf_id)
+            return pd.DataFrame(
+                {"adj_close": [100.0, 101.0]},
+                index=pd.date_range("2026-07-28", periods=2),
+            )
+
+    class Holdings:
+        def sync_with_status(self, _selected):
+            return HoldingSyncResult(rows=[], fetched=False)
+
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    published = []
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+    monkeypatch.setattr(pipeline, "calculate_metrics", lambda *_args: [])
+    monkeypatch.setattr(pipeline, "build_public", lambda: published.append(True))
+
+    state = pipeline.run(
+        "TW",
+        bootstrap_limit=1,
+        bootstrap_only=True,
+        publish=False,
+    )
+
+    assert attempted[0] == "TW-MISSING"
+    assert "TW-CACHED" not in attempted
+    assert state["processed"] == 1
+    assert state["bootstrap_only"] is True
+    assert state["published"] is False
+    assert published == []
+
+
 def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
     entities = [entity(f"US-{ticker}") for ticker in ("READY", "PENDING", "FAILED")]
 
@@ -218,6 +271,9 @@ def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
             return []
 
     class Exporter:
+        def __init__(self, **_kwargs):
+            pass
+
         def build(self):
             return {}
 
@@ -284,6 +340,9 @@ def test_public_builder_preserves_last_known_good_when_cache_is_missing(
             return []
 
     class Exporter:
+        def __init__(self, **_kwargs):
+            pass
+
         def build(self):
             return {}
 

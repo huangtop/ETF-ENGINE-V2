@@ -1,7 +1,9 @@
 import json
+import shutil
 from datetime import datetime, timezone
 from itertools import combinations
 from pathlib import Path
+from uuid import uuid4
 
 from etf_engine.repository import SeedRepository, PriceRepository
 from etf_engine.services.display_translations import (
@@ -10,6 +12,11 @@ from etf_engine.services.display_translations import (
 )
 from etf_engine.services.holding_service import HoldingService, overlap
 from etf_engine.services.holdings_change_export import HoldingsChangeExporter
+from etf_engine.services.release_guard import (
+    ReleaseRejectedError,
+    promote_candidate,
+    validate_candidate,
+)
 from etf_engine.settings import settings
 
 
@@ -52,7 +59,7 @@ def load_translations() -> dict[str, dict]:
     return result
 
 
-def build_public() -> None:
+def _render_public(target_dir: Path, baseline_dir: Path) -> None:
     repo = SeedRepository()
     entities = [x.model_dump() for x in repo.entities()]
     classifications = [x.model_dump() for x in repo.classifications()]
@@ -68,7 +75,7 @@ def build_public() -> None:
     failed_price_ids = {
         row.get("etf_id") for row in last_run.get("errors", []) if row.get("stage") == "prices"
     }
-    existing_index_path = settings.public_dir / "etfs.json"
+    existing_index_path = baseline_dir / "etfs.json"
     existing_index = (
         json.loads(existing_index_path.read_text(encoding="utf-8"))
         if existing_index_path.exists()
@@ -79,11 +86,11 @@ def build_public() -> None:
         for listing_market in ("TW", "US")
         for row in (
             json.loads(
-                (settings.public_dir / "markets" / f"{listing_market}.json").read_text(
+                (baseline_dir / "markets" / f"{listing_market}.json").read_text(
                     encoding="utf-8"
                 )
             )
-            if (settings.public_dir / "markets" / f"{listing_market}.json").exists()
+            if (baseline_dir / "markets" / f"{listing_market}.json").exists()
             else []
         )
     ]
@@ -117,7 +124,7 @@ def build_public() -> None:
 
     for entity in entities:
         etf_id = entity["etf_id"]
-        existing_path = settings.public_dir / "etf" / f"{etf_id}.json"
+        existing_path = baseline_dir / "etf" / f"{etf_id}.json"
         existing_file = (
             json.loads(existing_path.read_text(encoding="utf-8"))
             if existing_path.exists()
@@ -137,6 +144,7 @@ def build_public() -> None:
         frame = price_repo.load(etf_id)
         latest_price = None
         trend = []
+        prefer_existing_metrics = False
         bootstrap_status = "ready" if not frame.empty else "pending"
         if frame.empty and etf_id in failed_price_ids:
             bootstrap_status = "failed"
@@ -146,7 +154,7 @@ def build_public() -> None:
             series = series.dropna()
 
             if len(series):
-                latest_price = {
+                fresh_latest_price = {
                     "date": str(series.index[-1].date()),
                     "value": round(float(series.iloc[-1]), 4),
                     "currency": entity["currency"],
@@ -154,13 +162,27 @@ def build_public() -> None:
 
                 sample = series.iloc[-756:]
                 norm = sample / sample.iloc[0] * 100
-                trend = [
+                fresh_trend = [
                     {
                         "date": str(date.date()),
                         "value": round(float(value), 2),
                     }
                     for date, value in norm.items()
                 ]
+                existing_latest_price = existing.get("latest_price") or {}
+                existing_latest_date = str(existing_latest_price.get("date") or "")
+                if existing_latest_date > fresh_latest_price["date"]:
+                    latest_price = existing_latest_price
+                    trend = existing.get("trend", [])
+                    prefer_existing_metrics = True
+                else:
+                    latest_price = fresh_latest_price
+                    trend_by_date = {
+                        row["date"]: row
+                        for row in existing.get("trend", []) + fresh_trend
+                        if isinstance(row, dict) and row.get("date")
+                    }
+                    trend = [trend_by_date[key] for key in sorted(trend_by_date)][-756:]
         elif existing.get("latest_price") or existing.get("trend") or existing.get("metrics"):
             # A partial/bootstrap run must not erase the last-known-good public record.
             latest_price = existing.get("latest_price")
@@ -218,7 +240,11 @@ def build_public() -> None:
                 else display_name
             ),
             "classifications": class_map.get(etf_id, []),
-            "metrics": metric_map.get(etf_id) or existing.get("metrics", {}),
+            "metrics": (
+                existing.get("metrics", {})
+                if prefer_existing_metrics
+                else metric_map.get(etf_id) or existing.get("metrics", {})
+            ),
             "bootstrap_status": bootstrap_status,
             "latest_price": latest_price,
             "trend": trend,
@@ -227,13 +253,13 @@ def build_public() -> None:
         }
 
         payload.append(item)
-        write_json(settings.public_dir / "etf" / f"{etf_id}.json", item)
+        write_json(target_dir / "etf" / f"{etf_id}.json", item)
 
     for symbol, rows in reverse_holdings.items():
         rows.sort(key=lambda x: x["weight"], reverse=True)
-        write_json(settings.public_dir / "holdings" / f"{symbol}.json", rows)
+        write_json(target_dir / "holdings" / f"{symbol}.json", rows)
 
-    write_json(settings.public_dir / "holdings_index.json", reverse_holdings)
+    write_json(target_dir / "holdings_index.json", reverse_holdings)
 
     ai_ids = {
         row["etf_id"]
@@ -260,11 +286,11 @@ def build_public() -> None:
         overlap_index.append({key: value for key, value in row.items() if key != "shared_holdings"})
 
         write_json(
-            settings.public_dir / "overlap" / f"{left_id}__{right_id}.json",
+            target_dir / "overlap" / f"{left_id}__{right_id}.json",
             row,
         )
 
-    write_json(settings.public_dir / "overlap_index.json", overlap_index)
+    write_json(target_dir / "overlap_index.json", overlap_index)
 
     generated = datetime.now(timezone.utc).isoformat()
     bootstrap_counts = {
@@ -284,18 +310,18 @@ def build_public() -> None:
     ]
     public_metrics.sort(key=lambda row: (row["etf_id"], row["metric_code"]))
 
-    write_json(settings.public_dir / "etfs.json", payload)
-    write_json(settings.public_dir / "classifications.json", classifications)
-    write_json(settings.public_dir / "latest_metrics.json", public_metrics)
+    write_json(target_dir / "etfs.json", payload)
+    write_json(target_dir / "classifications.json", classifications)
+    write_json(target_dir / "latest_metrics.json", public_metrics)
 
     for market in ("TW", "US"):
         write_json(
-            settings.public_dir / "markets" / f"{market}.json",
+            target_dir / "markets" / f"{market}.json",
             [item for item in payload if item["listing_market"] == market],
         )
 
     write_json(
-        settings.public_dir / "manifest.json",
+        target_dir / "manifest.json",
         {
             "schema_version": "2.2",
             "generated_at": generated,
@@ -315,7 +341,29 @@ def build_public() -> None:
             },
         },
     )
-    HoldingsChangeExporter().build()
+    HoldingsChangeExporter(public_dir=target_dir / "history" / "holdings").build()
+
+
+def build_public():
+    """Render, validate, and atomically publish a complete public dataset."""
+    public_dir = settings.public_dir
+    public_dir.parent.mkdir(parents=True, exist_ok=True)
+    candidate_dir = public_dir.with_name(f".{public_dir.name}-candidate-{uuid4().hex}")
+    try:
+        _render_public(candidate_dir, public_dir)
+        history_dir = (
+            settings.root / "data" / "history" / "holdings"
+            if hasattr(settings, "root")
+            else None
+        )
+        validation = validate_candidate(public_dir, candidate_dir, history_dir)
+        if not validation.passed:
+            raise ReleaseRejectedError(validation)
+        promote_candidate(public_dir, candidate_dir)
+        return validation
+    finally:
+        if candidate_dir.exists():
+            shutil.rmtree(candidate_dir)
 
 
 if __name__ == "__main__":

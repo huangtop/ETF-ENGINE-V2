@@ -5,6 +5,7 @@ import os
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
+from uuid import uuid4
 
 from etf_engine.models import ETFEntity
 from etf_engine.repository import SeedRepository
@@ -45,10 +46,15 @@ def _read_json(path: Path, default: Any) -> Any:
 
 def _write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
-        encoding="utf-8",
-    )
+    temporary = path.with_name(f".{path.name}.{uuid4().hex}.tmp")
+    try:
+        temporary.write_text(
+            json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
+            encoding="utf-8",
+        )
+        os.replace(temporary, path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def _configured_bootstrap_limit(explicit: int | None) -> int:
@@ -109,7 +115,13 @@ def _load_public_metrics(entities: list[ETFEntity]) -> list[dict[str, Any]]:
     return rows
 
 
-def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, Any]:
+def run(
+    market: str = "all",
+    bootstrap_limit: int | None = None,
+    *,
+    bootstrap_only: bool = False,
+    publish: bool = True,
+) -> dict[str, Any]:
     settings.ensure_dirs()
     seed = SeedRepository()
     all_entities = seed.entities()
@@ -154,6 +166,9 @@ def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, An
             entities, cached_ids, limit, cursor
         )
         next_cursors[market] = next_cursor
+
+    if bootstrap_only:
+        scheduled = attempted_new
 
     service = PriceService()
     holding_service = HoldingService()
@@ -238,8 +253,11 @@ def run(market: str = "all", bootstrap_limit: int | None = None) -> dict[str, An
         "bootstrap_pending": len(entities) - len(cached_after),
         "metric_rows": len(metrics),
         "holdings_synced": holdings_synced,
+        "bootstrap_only": bootstrap_only,
+        "published": publish,
         "errors": errors,
     }
     _write_json(settings.state_dir / "last_run.json", state)
-    build_public()
+    if publish:
+        build_public()
     return state
