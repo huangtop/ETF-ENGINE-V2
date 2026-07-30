@@ -52,8 +52,8 @@
     }
   ],
   "metrics": {
-    "alpha": {
-      "value": 0.0742,
+    "total_return_1y": {
+      "value": 17.6892,
       "unit": "percent"
     },
     "annualized_return": {
@@ -64,29 +64,29 @@
       "value": 12.7158,
       "unit": "percent"
     },
-    "beta": {
-      "value": 1.0,
+    "sharpe_ratio": {
+      "value": 1.2732,
       "unit": "ratio"
-    },
-    "data_years": {
-      "value": 3.0198,
-      "unit": "years"
     },
     "max_drawdown": {
       "value": -8.885,
       "unit": "percent"
     },
-    "sharpe_ratio": {
-      "value": 1.2732,
-      "unit": "ratio"
-    },
-    "total_return_1y": {
-      "value": 17.6892,
+    "alpha": {
+      "value": 0.0742,
       "unit": "percent"
+    },
+    "beta": {
+      "value": 1.0,
+      "unit": "ratio"
     },
     "tracking_error": {
       "value": 0.5211,
       "unit": "percent"
+    },
+    "data_years": {
+      "value": 3.0198,
+      "unit": "years"
     }
   },
   "bootstrap_status": "ready",
