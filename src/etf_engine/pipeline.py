@@ -239,6 +239,14 @@ def run(
             if holding_result.fetched:
                 holdings_synced += 1
                 holdings_updated.append(entity.etf_id)
+            elif holding_result.errors:
+                errors.append(
+                    {
+                        "etf_id": entity.etf_id,
+                        "stage": "holdings",
+                        "error": "; ".join(holding_result.errors),
+                    }
+                )
         except Exception as exc:
             errors.append({"etf_id": entity.etf_id, "stage": "holdings", "error": str(exc)})
 

@@ -175,6 +175,7 @@ def test_provider_failure_preserves_last_known_good_and_does_not_record(tmp_path
 
     assert result.fetched is False
     assert result.rows == holdings()
+    assert result.errors == ("yahoo: provider down",)
     assert spy.calls == []
     assert json.loads(cache.read_text()) == holdings()
 

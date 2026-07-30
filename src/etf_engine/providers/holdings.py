@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+import signal
 from typing import Any, Protocol
 
 import pandas as pd
@@ -122,10 +123,26 @@ class ManualProvider:
 
 class YahooProvider:
     name = "yahoo"
+    timeout_seconds = 30
 
     def fetch(self, entity: ETFEntity) -> list[dict[str, Any]]:
         import yfinance as yf
 
-        funds_data = getattr(yf.Ticker(entity.quote_symbol), "funds_data", None)
-        raw = getattr(funds_data, "top_holdings", None) if funds_data else None
-        return normalize(entity.etf_id, raw, self.name)
+        supports_alarm = hasattr(signal, "SIGALRM")
+        previous_handler = None
+        if supports_alarm:
+            previous_handler = signal.getsignal(signal.SIGALRM)
+
+            def timeout_handler(_signum, _frame):
+                raise TimeoutError("yahoo holdings timeout")
+
+            signal.signal(signal.SIGALRM, timeout_handler)
+            signal.alarm(self.timeout_seconds)
+        try:
+            funds_data = getattr(yf.Ticker(entity.quote_symbol), "funds_data", None)
+            raw = getattr(funds_data, "top_holdings", None) if funds_data else None
+            return normalize(entity.etf_id, raw, self.name)
+        finally:
+            if supports_alarm:
+                signal.alarm(0)
+                signal.signal(signal.SIGALRM, previous_handler)

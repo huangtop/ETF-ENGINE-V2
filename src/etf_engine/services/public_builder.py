@@ -115,8 +115,8 @@ def _price_metadata(frame: pd.DataFrame, currency: str) -> tuple[dict, dict | No
 
 def _render_public(target_dir: Path, baseline_dir: Path) -> None:
     repo = SeedRepository()
-    entities = [x.model_dump() for x in repo.entities()]
-    classifications = [x.model_dump() for x in repo.classifications()]
+    entities = [x.model_dump(mode="json") for x in repo.entities()]
+    classifications = [x.model_dump(mode="json") for x in repo.classifications()]
     translations = load_translations()
     holding_translations = load_holding_translations()
     research_profiles = load_research_profiles()

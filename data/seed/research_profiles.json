@@ -56,5 +56,17 @@
   {"etf_id":"US-IGN","tier":"primary","nodes":["networking"],"roles":["networking_equipment"]},
   {"etf_id":"US-SKYY","tier":"context","nodes":["cloud_computing"],"roles":["broad_cloud_alternative"]},
 
-  {"etf_id":"US-GLD","tier":"primary","nodes":["strategic_metals"],"roles":["gold_benchmark"],"product_type":"commodity_trust"}
+  {"etf_id":"US-GLD","tier":"primary","nodes":["strategic_metals"],"roles":["gold_benchmark"],"product_type":"commodity_trust"},
+  {"etf_id":"US-SLV","tier":"primary","nodes":["strategic_metals"],"roles":["silver_benchmark"],"product_type":"commodity_trust"},
+
+  {"etf_id":"US-XBI","tier":"primary","nodes":["biotechnology"],"roles":["equal_weight_biotech"]},
+  {"etf_id":"US-IBB","tier":"primary","nodes":["biotechnology"],"roles":["large_cap_biotech"]},
+  {"etf_id":"US-ARKG","tier":"primary","nodes":["biotechnology","genomics"],"roles":["active_genomics"]},
+
+  {"etf_id":"US-MUU","tier":"tactical","nodes":["memory"],"roles":["single_stock_leveraged"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"long","leverage_multiple":2,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-MUD","tier":"tactical","nodes":["memory"],"roles":["single_stock_inverse"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"inverse","leverage_multiple":-1,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-MULL","tier":"tactical","nodes":["memory"],"roles":["single_stock_leveraged_alternative"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"long","leverage_multiple":2,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-MUZ","tier":"tactical","nodes":["memory"],"roles":["single_stock_inverse"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"inverse","leverage_multiple":-2,"reset_frequency":"daily","research_status":"probation"},
+  {"etf_id":"US-SNXX","tier":"tactical","nodes":["memory","storage"],"roles":["single_stock_leveraged"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"SNDK","direction":"long","leverage_multiple":2,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-SNDQ","tier":"tactical","nodes":["memory","storage"],"roles":["single_stock_inverse"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"SNDK","direction":"inverse","leverage_multiple":-2,"reset_frequency":"daily","research_status":"eligible"}
 ]

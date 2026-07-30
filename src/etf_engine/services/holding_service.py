@@ -18,6 +18,7 @@ class HoldingSyncResult:
     rows: list[dict[str, Any]]
     fetched: bool
     source: str | None = None
+    errors: tuple[str, ...] = ()
 
 
 class HoldingService:
@@ -39,10 +40,12 @@ class HoldingService:
         return self.sync_with_status(entity).rows
 
     def sync_with_status(self, entity: ETFEntity) -> HoldingSyncResult:
+        errors = []
         for provider in self.providers:
             try:
                 rows = provider.fetch(entity)
-            except Exception:
+            except Exception as exc:
+                errors.append(f"{provider.name}: {exc}")
                 continue
             if not rows:
                 continue
@@ -65,7 +68,11 @@ class HoldingService:
             return HoldingSyncResult(rows=rows, fetched=True, source=provider.name)
 
         # A failed refresh must leave both cache and history untouched.
-        return HoldingSyncResult(rows=self.load(entity.etf_id), fetched=False)
+        return HoldingSyncResult(
+            rows=self.load(entity.etf_id),
+            fetched=False,
+            errors=tuple(errors),
+        )
 
     @staticmethod
     def _preserve_unchanged_metadata(

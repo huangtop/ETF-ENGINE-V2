@@ -325,6 +325,50 @@ def test_benchmark_failure_keeps_price_metrics_and_holdings_independent(
     assert not any(error["stage"] == "prices" for error in state["errors"])
 
 
+def test_pipeline_reports_holdings_provider_errors(tmp_path, monkeypatch):
+    selected = entity("US-TEST")
+
+    class Seed:
+        def entities(self):
+            return [selected]
+
+    prices = pd.DataFrame(
+        {"adj_close": [100.0, 101.0]},
+        index=pd.date_range("2026-07-28", periods=2),
+    )
+
+    class Prices:
+        def sync(self, _target, _start, _end):
+            return prices
+
+    class Holdings:
+        def sync_with_status(self, _target):
+            return HoldingSyncResult(
+                rows=[],
+                fetched=False,
+                errors=("yahoo: rate limited",),
+            )
+
+    fake_settings = SimpleNamespace(
+        normalized_dir=tmp_path / "normalized",
+        state_dir=tmp_path / "state",
+        public_dir=tmp_path / "public",
+        ensure_dirs=lambda: (tmp_path / "state").mkdir(parents=True),
+    )
+    monkeypatch.setattr(pipeline, "settings", fake_settings)
+    monkeypatch.setattr(pipeline, "SeedRepository", Seed)
+    monkeypatch.setattr(pipeline, "PriceService", Prices)
+    monkeypatch.setattr(pipeline, "HoldingService", Holdings)
+    monkeypatch.setattr(pipeline, "calculate_metrics", lambda *_args: [])
+
+    state = pipeline.run("US", bootstrap_limit=0, publish=False)
+
+    assert any(
+        error["stage"] == "holdings" and "rate limited" in error["error"]
+        for error in state["errors"]
+    )
+
+
 def test_public_builder_exposes_ready_pending_and_failed(tmp_path, monkeypatch):
     entities = [entity(f"US-{ticker}") for ticker in ("READY", "PENDING", "FAILED")]
 
