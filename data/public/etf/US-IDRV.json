@@ -3135,8 +3135,23 @@
       "value": 87.01
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 34900.0,
+    "average_volume_20d": 31015.0,
+    "average_dollar_volume_20d": 1117963.0999,
+    "relative_volume_20d": 1.1253,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-IDRV",

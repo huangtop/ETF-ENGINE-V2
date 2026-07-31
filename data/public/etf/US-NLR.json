@@ -3139,8 +3139,23 @@
       "value": 192.18
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 292500.0,
+    "average_volume_20d": 447520.0,
+    "average_dollar_volume_20d": 48981369.768,
+    "relative_volume_20d": 0.6536,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-NLR",

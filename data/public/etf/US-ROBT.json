@@ -71,11 +71,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -17.5946,
+      "value": -17.5944,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 8.3268,
+      "value": 8.327,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -99,7 +99,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 8.3268,
+      "value": 8.327,
       "unit": "percent"
     },
     "tracking_error": {
@@ -110,7 +110,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-30",
-    "value": 54.5009,
+    "value": 54.501,
     "currency": "USD"
   },
   "trend": [
@@ -3139,8 +3139,23 @@
       "value": 117.71
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 90800.0,
+    "average_volume_20d": 42005.0,
+    "average_dollar_volume_20d": 2298025.194,
+    "relative_volume_20d": 2.1616,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-ROBT",

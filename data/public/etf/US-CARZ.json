@@ -67,15 +67,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 16.8829,
+      "value": 16.8843,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 60.7672,
+      "value": 60.7697,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 31.9487,
+      "value": 31.949,
       "unit": "percent"
     },
     "beta": {
@@ -95,18 +95,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 60.7672,
+      "value": 60.7697,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 22.5432,
+      "value": 22.5435,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-30",
-    "value": 102.3884,
+    "value": 102.39,
     "currency": "USD"
   },
   "trend": [
@@ -3135,8 +3135,23 @@
       "value": 185.18
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 1500.0,
+    "average_volume_20d": 4945.0,
+    "average_dollar_volume_20d": 527069.4056,
+    "relative_volume_20d": 0.3033,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-CARZ",

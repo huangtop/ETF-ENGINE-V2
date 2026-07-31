@@ -1883,8 +1883,23 @@
       "value": 166.92
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2024-10-22",
+    "last_date": "2026-07-30",
+    "observations": 443,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 6043400.0,
+    "average_volume_20d": 3748315.0,
+    "average_dollar_volume_20d": 164921014.1775,
+    "relative_volume_20d": 1.6123,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-BAI",

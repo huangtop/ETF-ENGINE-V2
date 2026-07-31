@@ -51,7 +51,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 34.7342,
+      "value": 34.7957,
       "unit": "percent"
     },
     "annualized_return": {
@@ -63,11 +63,11 @@
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0894,
+      "value": 0.0895,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9246,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,13 +83,13 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 37.335,
+      "value": 37.3331,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-29",
+    "date": "2026-07-30",
     "value": 3.95,
     "currency": "TWD"
   },
@@ -3041,10 +3041,29 @@
     {
       "date": "2026-07-29",
       "value": 87.97
+    },
+    {
+      "date": "2026-07-30",
+      "value": 87.97
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 738,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 0.0,
+    "average_volume_20d": 4550.0,
+    "average_dollar_volume_20d": 19300.4996,
+    "relative_volume_20d": 0.0,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00643K",

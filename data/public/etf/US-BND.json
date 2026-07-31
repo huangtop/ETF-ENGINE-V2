@@ -3127,8 +3127,23 @@
       "value": 111.44
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 7744200.0,
+    "average_volume_20d": 7015210.0,
+    "average_dollar_volume_20d": 509841601.5486,
+    "relative_volume_20d": 1.1039,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [],
   "holdings_summary": {
     "holding_count": 0,

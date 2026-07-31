@@ -3031,8 +3031,23 @@
       "value": 44.77
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 733,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 34926028.0,
+    "average_volume_20d": 29691884.6,
+    "average_dollar_volume_20d": 1765354891.8225,
+    "relative_volume_20d": 1.1763,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-0052",

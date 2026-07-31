@@ -75,19 +75,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 3.4217,
+      "value": 3.4207,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 37.715,
+      "value": 37.7133,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 29.5093,
+      "value": 29.5092,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.8776,
+      "value": 1.8775,
       "unit": "ratio"
     },
     "data_years": {
@@ -103,18 +103,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 37.715,
+      "value": 37.7133,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.3005,
+      "value": 20.3003,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-30",
-    "value": 33.4144,
+    "value": 33.414,
     "currency": "USD"
   },
   "trend": [
@@ -3143,8 +3143,23 @@
       "value": 128.97
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 30600.0,
+    "average_volume_20d": 46425.0,
+    "average_dollar_volume_20d": 1641649.2122,
+    "relative_volume_20d": 0.6591,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-DRIV",

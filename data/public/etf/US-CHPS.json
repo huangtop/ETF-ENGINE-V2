@@ -71,11 +71,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 46.4584,
+      "value": 46.4587,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 126.1346,
+      "value": 126.1352,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -99,18 +99,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 126.1346,
+      "value": 126.1352,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 37.3177,
+      "value": 37.3178,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-07-30",
-    "value": 78.9158,
+    "value": 78.916,
     "currency": "USD"
   },
   "trend": [
@@ -3139,8 +3139,23 @@
       "value": 326.15
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 763,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 28300.0,
+    "average_volume_20d": 28640.0,
+    "average_dollar_volume_20d": 2439448.0562,
+    "relative_volume_20d": 0.9881,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-CHPS",

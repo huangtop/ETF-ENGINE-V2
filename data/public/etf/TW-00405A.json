@@ -54,12 +54,8 @@
       "value": -166.2489,
       "unit": "percent"
     },
-    "annualized_return": {
-      "value": -174.3,
-      "unit": "percent"
-    },
     "annualized_volatility": {
-      "value": 50.5035,
+      "value": 55.1938,
       "unit": "percent"
     },
     "beta": {
@@ -67,7 +63,7 @@
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.1905,
+      "value": 0.1944,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,11 +71,11 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -3.4809,
+      "value": null,
       "unit": "ratio"
     },
-    "total_return_1y": {
-      "value": -33.2,
+    "total_return_since_inception": {
+      "value": -26.9,
       "unit": "percent"
     },
     "tracking_error": {
@@ -89,8 +85,8 @@
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-30",
-    "value": 6.68,
+    "date": "2026-07-31",
+    "value": 7.31,
     "currency": "TWD"
   },
   "trend": [
@@ -285,10 +281,29 @@
     {
       "date": "2026-07-30",
       "value": 66.8
+    },
+    {
+      "date": "2026-07-31",
+      "value": 73.1
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2026-05-25",
+    "last_date": "2026-07-31",
+    "observations": 49,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-07-31",
+    "latest_volume": 131011300.0,
+    "average_volume_20d": 115936489.55,
+    "average_dollar_volume_20d": 922329390.8601,
+    "relative_volume_20d": 1.13,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00405A",

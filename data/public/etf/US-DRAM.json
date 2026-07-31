@@ -78,10 +78,6 @@
       "value": 56.2595,
       "unit": "percent"
     },
-    "annualized_return": {
-      "value": 272.1129,
-      "unit": "percent"
-    },
     "annualized_volatility": {
       "value": 101.8122,
       "unit": "percent"
@@ -99,10 +95,10 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.658,
+      "value": null,
       "unit": "ratio"
     },
-    "total_return_1y": {
+    "total_return_since_inception": {
       "value": 88.5447,
       "unit": "percent"
     },
@@ -447,8 +443,23 @@
       "value": 188.54
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2026-04-02",
+    "last_date": "2026-07-30",
+    "observations": 82,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 128253300.0,
+    "average_volume_20d": 81764765.0,
+    "average_dollar_volume_20d": 4566434472.4492,
+    "relative_volume_20d": 1.5686,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-DRAM",
