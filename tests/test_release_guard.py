@@ -139,9 +139,16 @@ def test_one_year_return_can_be_corrected_to_since_inception(tmp_path):
     baseline = tmp_path / "public"
     candidate = tmp_path / "candidate"
     previous = item()
+    previous["metrics"].update(
+        {
+            "annualized_return": {"value": 12.3, "unit": "percent"},
+            "sharpe_ratio": {"value": 0.8, "unit": "ratio"},
+        }
+    )
     current = item()
     current["metrics"] = {
-        "total_return_since_inception": {"value": 3.2, "unit": "percent"}
+        "total_return_since_inception": {"value": 3.2, "unit": "percent"},
+        "data_years": {"value": 0.4, "unit": "years"},
     }
     dataset(baseline, [previous])
     dataset(candidate, [current])
@@ -149,6 +156,28 @@ def test_one_year_return_can_be_corrected_to_since_inception(tmp_path):
     validation = validate_candidate(baseline, candidate)
 
     assert validation.passed
+
+
+def test_since_inception_does_not_hide_full_year_metric_loss(tmp_path):
+    baseline = tmp_path / "public"
+    candidate = tmp_path / "candidate"
+    previous = item()
+    previous["metrics"]["annualized_return"] = {
+        "value": 12.3,
+        "unit": "percent",
+    }
+    current = item()
+    current["metrics"] = {
+        "total_return_since_inception": {"value": 3.2, "unit": "percent"},
+        "data_years": {"value": 1.2, "unit": "years"},
+    }
+    dataset(baseline, [previous])
+    dataset(candidate, [current])
+
+    validation = validate_candidate(baseline, candidate)
+
+    assert not validation.passed
+    assert any("lost metric annualized_return" in error for error in validation.errors)
 
 
 def test_valid_candidate_can_replace_baseline(tmp_path):

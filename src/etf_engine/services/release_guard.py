@@ -47,6 +47,14 @@ def _has_metric(item: dict[str, Any], code: str) -> bool:
     return isinstance(metric, dict) and metric.get("value") is not None
 
 
+def _is_short_history_replacement(item: dict[str, Any]) -> bool:
+    """Recognize a valid correction from mislabeled 1y metrics to inception data."""
+    if not _has_metric(item, "total_return_since_inception"):
+        return False
+    data_years = item.get("metrics", {}).get("data_years", {}).get("value")
+    return isinstance(data_years, (int, float)) and 0 <= data_years < 1
+
+
 def _counts(items: dict[str, dict[str, Any]]) -> dict[str, int]:
     rows = list(items.values())
     holdings = [holding for row in rows for holding in row.get("top_holdings", [])]
@@ -216,8 +224,9 @@ def validate_candidate(
             if not isinstance(metric, dict) or metric.get("value") is None:
                 continue
             short_history_replacement = (
-                metric_code == "total_return_1y"
-                and _has_metric(current, "total_return_since_inception")
+                metric_code
+                in {"total_return_1y", "annualized_return", "sharpe_ratio"}
+                and _is_short_history_replacement(current)
             )
             if not _has_metric(current, metric_code) and not short_history_replacement:
                 errors.append(f"{etf_id}: lost metric {metric_code}")
@@ -300,10 +309,10 @@ def validate_candidate(
     lost_one_year = baseline_counts["one_year_ready"] - candidate_counts["one_year_ready"]
     if lost_one_year > 0:
         baseline_short = sum(
-            _has_metric(item, "total_return_since_inception") for item in baseline.values()
+            _is_short_history_replacement(item) for item in baseline.values()
         )
         candidate_short = sum(
-            _has_metric(item, "total_return_since_inception") for item in candidate.values()
+            _is_short_history_replacement(item) for item in candidate.values()
         )
         if candidate_short - baseline_short < lost_one_year:
             errors.append(
