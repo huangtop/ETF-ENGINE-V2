@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "兆豐龍頭等權重",
   "short_name_en": "兆豐龍頭等權重",
   "name_zh": null,
@@ -3041,6 +3047,8 @@
       "value": 128.0
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00921",
@@ -3177,5 +3185,10 @@
     "holding_count": 10,
     "top_10_weight": 0.36993,
     "top_3_weight": 0.137972
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

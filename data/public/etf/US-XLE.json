@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Energy Select Sector SPDR Fund",
   "short_name_en": "XLE",
   "name_zh": "能源類股精選 SPDR ETF",
@@ -3117,6 +3123,8 @@
       "value": 147.97
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-XLE",
@@ -3253,5 +3261,10 @@
     "holding_count": 10,
     "top_10_weight": 0.715654,
     "top_3_weight": 0.40494
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

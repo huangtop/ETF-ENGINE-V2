@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "富邦上証正2",
   "short_name_en": "富邦上証正2",
   "name_zh": null,
@@ -3049,10 +3055,12 @@
       "value": 131.09
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00633L",
-      "holding_symbol": "006205",
+      "holding_symbol": "006205.TW",
       "holding_name": "Fubon SSE180 ETF",
       "weight": 0.0618958,
       "as_of": null,
@@ -3061,7 +3069,7 @@
       "holding_name_en": "Fubon SSE180 ETF",
       "holding_name_zh": null,
       "display_name": "Fubon SSE180 ETF",
-      "display_label": "(006205)Fubon SSE180 ETF",
+      "display_label": "(006205.TW)Fubon SSE180 ETF",
       "bilingual_name": "Fubon SSE180 ETF"
     }
   ],
@@ -3069,5 +3077,10 @@
     "holding_count": 1,
     "top_10_weight": 0.061896,
     "top_3_weight": 0.061896
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

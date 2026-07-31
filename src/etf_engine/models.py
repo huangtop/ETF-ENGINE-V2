@@ -17,6 +17,12 @@ class ETFEntity(BaseModel):
     asset_class: str | None = None
     is_thematic: bool = False
     active: bool = True
+    product_status: str = "active"
+    management_style: str | None = None
+    inception_date: date | None = None
+    first_seen_at: date | None = None
+    last_seen_at: date | None = None
+    delisted_at: date | None = None
 
 
 class Classification(BaseModel):

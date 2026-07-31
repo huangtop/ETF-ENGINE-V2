@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "SPDR S&P Semiconductor ETF",
   "short_name_en": "XSD",
   "name_zh": "SPDR 標普半導體 ETF",
@@ -3137,6 +3143,8 @@
       "value": 214.16
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-XSD",
@@ -3273,5 +3281,14 @@
     "holding_count": 10,
     "top_10_weight": 0.290066,
     "top_3_weight": 0.101231
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "equal_weight"
+    ]
   }
 }

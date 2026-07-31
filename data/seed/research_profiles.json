@@ -1,0 +1,72 @@
+[
+  {"etf_id":"US-SPY","tier":"primary","nodes":["core_benchmark"],"roles":["sp500_benchmark"]},
+  {"etf_id":"US-QQQ","tier":"primary","nodes":["core_benchmark","artificial_intelligence"],"roles":["nasdaq100_benchmark"]},
+  {"etf_id":"US-IWM","tier":"primary","nodes":["core_benchmark"],"roles":["small_cap_benchmark"]},
+
+  {"etf_id":"US-SMH","tier":"primary","nodes":["semiconductors"],"roles":["concentrated_industry_leader"]},
+  {"etf_id":"US-SOXX","tier":"primary","nodes":["semiconductors"],"roles":["diversified_industry_leader"]},
+  {"etf_id":"US-XSD","tier":"primary","nodes":["semiconductors"],"roles":["equal_weight"]},
+  {"etf_id":"US-DRAM","tier":"primary","nodes":["semiconductors","memory"],"roles":["memory_specialist"]},
+  {"etf_id":"US-SOXL","tier":"tactical","nodes":["semiconductors"],"roles":["leveraged_whitelist"],"product_type":"leveraged_sector","direction":"long","leverage_multiple":3,"reset_frequency":"daily"},
+  {"etf_id":"US-USD","tier":"tactical","nodes":["semiconductors"],"roles":["leveraged_whitelist"],"product_type":"leveraged_sector","direction":"long","leverage_multiple":2,"reset_frequency":"daily"},
+  {"etf_id":"US-SOXQ","tier":"context","nodes":["semiconductors"],"roles":["low_cost_alternative"]},
+  {"etf_id":"US-CHPS","tier":"context","nodes":["semiconductors"],"roles":["active_management"]},
+  {"etf_id":"US-FTXL","tier":"context","nodes":["semiconductors"],"roles":["smart_beta"]},
+  {"etf_id":"US-PSI","tier":"context","nodes":["semiconductors"],"roles":["smart_beta"]},
+  {"etf_id":"US-SHOC","tier":"context","nodes":["semiconductors"],"roles":["alternative_weighting"]},
+
+  {"etf_id":"US-CHAT","tier":"primary","nodes":["artificial_intelligence"],"roles":["generative_ai"]},
+  {"etf_id":"US-IGV","tier":"primary","nodes":["artificial_intelligence","ai_software"],"roles":["software_layer"]},
+  {"etf_id":"US-THNQ","tier":"primary","nodes":["artificial_intelligence"],"roles":["ai_value_chain"]},
+  {"etf_id":"US-AIEQ","tier":"primary","nodes":["artificial_intelligence"],"roles":["active_management"]},
+  {"etf_id":"US-ARTY","tier":"primary","nodes":["artificial_intelligence","ai_infrastructure"],"roles":["ai_value_chain"]},
+  {"etf_id":"US-AIQ","tier":"context","nodes":["artificial_intelligence"],"roles":["broad_ai"]},
+  {"etf_id":"US-IGPT","tier":"context","nodes":["artificial_intelligence"],"roles":["next_generation_computing"]},
+  {"etf_id":"US-WTAI","tier":"context","nodes":["artificial_intelligence"],"roles":["broad_ai"]},
+
+  {"etf_id":"US-CIBR","tier":"primary","nodes":["cybersecurity"],"roles":["broad_industry_leader"]},
+  {"etf_id":"US-HACK","tier":"primary","nodes":["cybersecurity"],"roles":["mature_industry_benchmark"]},
+  {"etf_id":"US-IHAK","tier":"primary","nodes":["cybersecurity"],"roles":["global_alternative"]},
+  {"etf_id":"US-BUG","tier":"context","nodes":["cybersecurity"],"roles":["pure_play_alternative"]},
+
+  {"etf_id":"US-BOTZ","tier":"primary","nodes":["robotics"],"roles":["global_industry_leader"]},
+  {"etf_id":"US-ROBO","tier":"primary","nodes":["robotics"],"roles":["equal_weight_alternative"]},
+  {"etf_id":"US-ARKQ","tier":"primary","nodes":["robotics","autonomous_systems"],"roles":["active_management"]},
+  {"etf_id":"US-ROBT","tier":"context","nodes":["robotics"],"roles":["ai_robotics_alternative"]},
+
+  {"etf_id":"US-DRIV","tier":"primary","nodes":["autonomous_vehicles"],"roles":["broad_industry_leader"]},
+  {"etf_id":"US-IDRV","tier":"primary","nodes":["autonomous_vehicles"],"roles":["global_alternative"]},
+  {"etf_id":"US-KARS","tier":"primary","nodes":["autonomous_vehicles"],"roles":["electric_vehicle_specialist"]},
+  {"etf_id":"US-CARZ","tier":"context","nodes":["autonomous_vehicles"],"roles":["automotive_alternative"]},
+
+  {"etf_id":"US-ARKX","tier":"primary","nodes":["space"],"roles":["active_management"]},
+  {"etf_id":"US-UFO","tier":"primary","nodes":["space"],"roles":["satellite_specialist"]},
+  {"etf_id":"US-QTUM","tier":"primary","nodes":["quantum_computing"],"roles":["current_benchmark"]},
+
+  {"etf_id":"US-URA","tier":"primary","nodes":["nuclear_energy"],"roles":["uranium_industry_leader"]},
+  {"etf_id":"US-URNM","tier":"primary","nodes":["nuclear_energy"],"roles":["uranium_miners_specialist"]},
+  {"etf_id":"US-NLR","tier":"primary","nodes":["nuclear_energy"],"roles":["nuclear_value_chain"]},
+  {"etf_id":"US-GRID","tier":"primary","nodes":["power_grid","ai_infrastructure"],"roles":["grid_infrastructure"]},
+
+  {"etf_id":"US-CLOU","tier":"primary","nodes":["cloud_computing"],"roles":["cloud_pure_play"]},
+  {"etf_id":"US-WCLD","tier":"primary","nodes":["cloud_computing"],"roles":["equal_weight_cloud"]},
+  {"etf_id":"US-SRVR","tier":"primary","nodes":["data_centers"],"roles":["data_center_real_estate"]},
+  {"etf_id":"US-VPN","tier":"primary","nodes":["data_centers"],"roles":["digital_infrastructure"]},
+  {"etf_id":"US-FIVG","tier":"primary","nodes":["networking"],"roles":["connectivity_infrastructure"]},
+  {"etf_id":"US-IGN","tier":"primary","nodes":["networking"],"roles":["networking_equipment"]},
+  {"etf_id":"US-SKYY","tier":"context","nodes":["cloud_computing"],"roles":["broad_cloud_alternative"]},
+
+  {"etf_id":"US-GLD","tier":"primary","nodes":["strategic_metals"],"roles":["gold_benchmark"],"product_type":"commodity_trust"},
+  {"etf_id":"US-SLV","tier":"primary","nodes":["strategic_metals"],"roles":["silver_benchmark"],"product_type":"commodity_trust"},
+
+  {"etf_id":"US-XBI","tier":"primary","nodes":["biotechnology"],"roles":["equal_weight_biotech"]},
+  {"etf_id":"US-IBB","tier":"primary","nodes":["biotechnology"],"roles":["large_cap_biotech"]},
+  {"etf_id":"US-ARKG","tier":"primary","nodes":["biotechnology","genomics"],"roles":["active_genomics"]},
+
+  {"etf_id":"US-MUU","tier":"tactical","nodes":["memory"],"roles":["single_stock_leveraged"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"long","leverage_multiple":2,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-MUD","tier":"tactical","nodes":["memory"],"roles":["single_stock_inverse"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"inverse","leverage_multiple":-1,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-MULL","tier":"tactical","nodes":["memory"],"roles":["single_stock_leveraged_alternative"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"long","leverage_multiple":2,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-MUZ","tier":"tactical","nodes":["memory"],"roles":["single_stock_inverse"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"MU","direction":"inverse","leverage_multiple":-2,"reset_frequency":"daily","research_status":"probation"},
+  {"etf_id":"US-SNXX","tier":"tactical","nodes":["memory","storage"],"roles":["single_stock_leveraged"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"SNDK","direction":"long","leverage_multiple":2,"reset_frequency":"daily","research_status":"eligible"},
+  {"etf_id":"US-SNDQ","tier":"tactical","nodes":["memory","storage"],"roles":["single_stock_inverse"],"product_type":"single_stock_leveraged_etf","underlying_symbol":"SNDK","direction":"inverse","leverage_multiple":-2,"reset_frequency":"daily","research_status":"eligible"}
+]

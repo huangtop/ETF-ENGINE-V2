@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Roundhill Memory ETF",
   "short_name_en": "DRAM",
   "name_zh": "Roundhill 記憶體 ETF",
@@ -69,23 +75,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 37.8791,
+      "value": 56.2595,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 191.5306,
+      "value": 272.1129,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 98.4868,
+      "value": 101.8122,
       "unit": "percent"
     },
     "beta": {
-      "value": 4.5893,
+      "value": 4.8184,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3214,
+      "value": 0.3254,
       "unit": "years"
     },
     "max_drawdown": {
@@ -93,22 +99,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.9295,
+      "value": 2.658,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 61.5634,
+      "value": 88.5447,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 90.7206,
+      "value": 93.6478,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-29",
-    "value": 44.85,
+    "date": "2026-07-30",
+    "value": 52.34,
     "currency": "USD"
   },
   "trend": [
@@ -435,8 +441,14 @@
     {
       "date": "2026-07-29",
       "value": 161.56
+    },
+    {
+      "date": "2026-07-30",
+      "value": 188.54
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-DRAM",
@@ -513,5 +525,15 @@
     "holding_count": 5,
     "top_10_weight": 0.540088,
     "top_3_weight": 0.444385
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "semiconductors",
+      "memory"
+    ],
+    "roles": [
+      "memory_specialist"
+    ]
   }
 }

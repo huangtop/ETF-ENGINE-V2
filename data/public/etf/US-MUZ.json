@@ -1,0 +1,287 @@
+{
+  "etf_id": "US-MUZ",
+  "ticker": "MUZ",
+  "quote_symbol": "MUZ",
+  "name": "Defiance Daily Target 2X Short MU ETF",
+  "short_name": "MUZ",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "MU",
+  "benchmark_name": "Micron Technology",
+  "issuer": null,
+  "asset_class": "equity",
+  "is_thematic": true,
+  "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": "2026-06-09",
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Defiance Daily Target 2X Short MU ETF",
+  "short_name_en": "MUZ",
+  "name_zh": "Defiance 每日 MU 2倍做空 ETF",
+  "short_name_zh": null,
+  "display_name": "Defiance 每日 MU 2倍做空 ETF",
+  "display_short_name": "Defiance 每日 MU 2倍做空 ETF",
+  "display_label": "(MUZ)Defiance 每日 MU 2倍做空 ETF",
+  "bilingual_name": "Defiance Daily Target 2X Short MU ETF（Defiance 每日 MU 2倍做空 ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "single_stock_inverse"
+    },
+    {
+      "dimension": "strategy",
+      "code": "daily_inverse_2x"
+    },
+    {
+      "dimension": "theme",
+      "code": "memory"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -23.8847,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 242.4755,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": -2.0041,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.1429,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -59.6624,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -41.0577,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 363.2105,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-07-30",
+    "value": 12.26,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-06-09",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-10",
+      "value": 108.22
+    },
+    {
+      "date": "2026-06-11",
+      "value": 83.22
+    },
+    {
+      "date": "2026-06-12",
+      "value": 85.34
+    },
+    {
+      "date": "2026-06-15",
+      "value": 66.97
+    },
+    {
+      "date": "2026-06-16",
+      "value": 74.33
+    },
+    {
+      "date": "2026-06-17",
+      "value": 71.63
+    },
+    {
+      "date": "2026-06-18",
+      "value": 59.52
+    },
+    {
+      "date": "2026-06-22",
+      "value": 51.25
+    },
+    {
+      "date": "2026-06-23",
+      "value": 64.81
+    },
+    {
+      "date": "2026-06-24",
+      "value": 65.43
+    },
+    {
+      "date": "2026-06-25",
+      "value": 43.65
+    },
+    {
+      "date": "2026-06-26",
+      "value": 50.48
+    },
+    {
+      "date": "2026-06-29",
+      "value": 48.61
+    },
+    {
+      "date": "2026-06-30",
+      "value": 48.08
+    },
+    {
+      "date": "2026-07-01",
+      "value": 57.93
+    },
+    {
+      "date": "2026-07-02",
+      "value": 64.23
+    },
+    {
+      "date": "2026-07-06",
+      "value": 63.08
+    },
+    {
+      "date": "2026-07-07",
+      "value": 69.09
+    },
+    {
+      "date": "2026-07-08",
+      "value": 67.36
+    },
+    {
+      "date": "2026-07-09",
+      "value": 61.39
+    },
+    {
+      "date": "2026-07-10",
+      "value": 62.55
+    },
+    {
+      "date": "2026-07-13",
+      "value": 68.13
+    },
+    {
+      "date": "2026-07-14",
+      "value": 61.39
+    },
+    {
+      "date": "2026-07-15",
+      "value": 71.2
+    },
+    {
+      "date": "2026-07-16",
+      "value": 78.94
+    },
+    {
+      "date": "2026-07-17",
+      "value": 79.86
+    },
+    {
+      "date": "2026-07-20",
+      "value": 76.35
+    },
+    {
+      "date": "2026-07-21",
+      "value": 58.13
+    },
+    {
+      "date": "2026-07-22",
+      "value": 59.13
+    },
+    {
+      "date": "2026-07-23",
+      "value": 55.58
+    },
+    {
+      "date": "2026-07-24",
+      "value": 62.88
+    },
+    {
+      "date": "2026-07-27",
+      "value": 65.87
+    },
+    {
+      "date": "2026-07-28",
+      "value": 76.97
+    },
+    {
+      "date": "2026-07-29",
+      "value": 93.27
+    },
+    {
+      "date": "2026-07-30",
+      "value": 58.94
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-06-09",
+    "last_date": "2026-07-30",
+    "observations": 36,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 19061865.0,
+    "average_volume_20d": 13430643.25,
+    "average_dollar_volume_20d": 190611797.7363,
+    "relative_volume_20d": 1.4193,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-MUZ",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.0952997,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 1,
+    "top_10_weight": 0.0953,
+    "top_3_weight": 0.0953
+  },
+  "research": {
+    "tier": "tactical",
+    "nodes": [
+      "memory"
+    ],
+    "roles": [
+      "single_stock_inverse"
+    ],
+    "product_type": "single_stock_leveraged_etf",
+    "underlying_symbol": "MU",
+    "direction": "inverse",
+    "leverage_multiple": -2,
+    "reset_frequency": "daily",
+    "research_status": "probation"
+  }
+}

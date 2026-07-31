@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ProShares Ultra Semiconductors",
   "short_name_en": "USD",
   "name_zh": "ProShares 超級半導體 ETF",
@@ -3141,6 +3147,8 @@
       "value": 694.13
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-USD",
@@ -3199,5 +3207,18 @@
     "holding_count": 4,
     "top_10_weight": 0.442363,
     "top_3_weight": 0.414095
+  },
+  "research": {
+    "tier": "tactical",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "leveraged_whitelist"
+    ],
+    "product_type": "leveraged_sector",
+    "direction": "long",
+    "leverage_multiple": 2,
+    "reset_frequency": "daily"
   }
 }

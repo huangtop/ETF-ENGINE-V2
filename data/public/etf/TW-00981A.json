@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "主動統一台股增長",
   "short_name_en": "主動統一台股增長",
   "name_zh": null,
@@ -1265,6 +1271,8 @@
       "value": 286.72
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00981A",
@@ -1401,5 +1409,10 @@
     "holding_count": 10,
     "top_10_weight": 0.586186,
     "top_3_weight": 0.226463
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

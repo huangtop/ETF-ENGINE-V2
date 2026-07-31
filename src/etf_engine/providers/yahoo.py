@@ -23,7 +23,7 @@ class YahooPriceProvider(PriceProvider):
     def supports(self, entity: ETFEntity) -> bool:
         return True
     
-    @retry(stop=stop_after_attempt(5), wait=wait_exponential(min=3, max=30), reraise=True)
+    @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=3, max=15), reraise=True)
     def fetch(self, entity: ETFEntity, start: date, end: date) -> pd.DataFrame:
         # 隨機延遲 1-2 秒，避免規律性請求被識別為機器人
         time.sleep(random.uniform(1, 2))

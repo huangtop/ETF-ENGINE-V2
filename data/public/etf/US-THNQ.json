@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ROBO Global Artificial Intelligence ETF",
   "short_name_en": "THNQ",
   "name_zh": "ROBO Global 人工智慧 ETF",
@@ -3133,6 +3139,8 @@
       "value": 219.09
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-THNQ",
@@ -3269,5 +3277,14 @@
     "holding_count": 10,
     "top_10_weight": 0.251533,
     "top_3_weight": 0.08007
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "artificial_intelligence"
+    ],
+    "roles": [
+      "ai_value_chain"
+    ]
   }
 }

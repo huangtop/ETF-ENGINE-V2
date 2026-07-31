@@ -1,6 +1,10 @@
 import json
+import os
 from pathlib import Path
+from uuid import uuid4
+
 import pandas as pd
+
 from .models import ETFEntity, Classification
 from .settings import settings
 
@@ -19,5 +23,11 @@ class PriceRepository:
         p=self.path(etf_id)
         return pd.read_parquet(p) if p.exists() else pd.DataFrame()
     def save(self,etf_id:str,df:pd.DataFrame)->None:
-        p=self.path(etf_id); p.parent.mkdir(parents=True,exist_ok=True)
-        df.sort_index().to_parquet(p)
+        path = self.path(etf_id)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        temporary = path.with_name(f".{path.name}.{uuid4().hex}.tmp")
+        try:
+            df.sort_index().to_parquet(temporary)
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)

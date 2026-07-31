@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Sprott Uranium Miners ETF",
   "short_name_en": "URNM",
   "name_zh": "Sprott 鈾礦商 ETF",
@@ -3133,6 +3139,8 @@
       "value": 159.49
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-URNM",
@@ -3269,5 +3277,14 @@
     "holding_count": 10,
     "top_10_weight": 0.77196,
     "top_3_weight": 0.440495
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "nuclear_energy"
+    ],
+    "roles": [
+      "uranium_miners_specialist"
+    ]
   }
 }

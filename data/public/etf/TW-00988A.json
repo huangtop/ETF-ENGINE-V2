@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "主動統一全球創新",
   "short_name_en": "主動統一全球創新",
   "name_zh": null,
@@ -829,6 +835,8 @@
       "value": 169.2
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00988A",
@@ -965,5 +973,10 @@
     "holding_count": 10,
     "top_10_weight": 0.414493,
     "top_3_weight": 0.174684
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

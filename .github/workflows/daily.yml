@@ -33,7 +33,8 @@ jobs:
       - run: python -m etf_engine.cli validate
       - name: Run bounded ETF pipeline
         env:
-          ETF_BOOTSTRAP_LIMIT: "20"
+          ETF_BOOTSTRAP_LIMIT: "10"
+          ETF_HOLDINGS_ROTATION_LIMIT: "40"
         run: python -m etf_engine.cli run --market all
       - name: Save normalized ETF cache
         if: success()
