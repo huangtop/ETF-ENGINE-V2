@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "兆豐電子高息等權",
   "short_name_en": "兆豐電子高息等權",
   "name_zh": null,
@@ -2233,6 +2239,8 @@
       "value": 137.87
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00943",
@@ -2369,5 +2377,10 @@
     "holding_count": 10,
     "top_10_weight": 0.255709,
     "top_3_weight": 0.08733
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

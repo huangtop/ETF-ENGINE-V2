@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "富邦NASDAQ 反1",
   "short_name_en": "富邦NASDAQ 反1",
   "name_zh": null,
@@ -3049,10 +3055,32 @@
       "value": 56.08
     }
   ],
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 739,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 12003899.0,
+    "average_volume_20d": 6457884.6,
+    "average_dollar_volume_20d": 16277894.4956,
+    "relative_volume_20d": 1.8588,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [],
   "holdings_summary": {
     "holding_count": 0,
     "top_10_weight": 0,
     "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

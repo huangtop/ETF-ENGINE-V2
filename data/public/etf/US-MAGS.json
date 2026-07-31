@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Roundhill Magnificent Seven ETF",
   "short_name_en": "MAGS",
   "name_zh": "Roundhill 科技七巨頭 ETF",
@@ -3129,6 +3135,8 @@
       "value": 213.44
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-MAGS",
@@ -3163,5 +3171,10 @@
     "holding_count": 2,
     "top_10_weight": 0.162391,
     "top_3_weight": 0.162391
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

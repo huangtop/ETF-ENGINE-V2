@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "元大台灣價值高息",
   "short_name_en": "元大台灣價值高息",
   "name_zh": null,
@@ -2353,6 +2359,8 @@
       "value": 120.7
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00940",
@@ -2489,5 +2497,10 @@
     "holding_count": 10,
     "top_10_weight": 0.331468,
     "top_3_weight": 0.136957
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Strive U.S. Semiconductor ETF",
   "short_name_en": "SHOC",
   "name_zh": "Strive 美國半導體 ETF",
@@ -3133,6 +3139,8 @@
       "value": 289.78
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-SHOC",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.757092,
     "top_3_weight": 0.405884
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "alternative_weighting"
+    ]
   }
 }

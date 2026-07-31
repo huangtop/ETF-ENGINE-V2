@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Defiance Quantum ETF",
   "short_name_en": "QTUM",
   "name_zh": "Defiance 量子 ETF",
@@ -3133,6 +3139,8 @@
       "value": 279.4
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-QTUM",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.168551,
     "top_3_weight": 0.063604
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "quantum_computing"
+    ],
+    "roles": [
+      "current_benchmark"
+    ]
   }
 }

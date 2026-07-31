@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Global X Uranium ETF",
   "short_name_en": "URA",
   "name_zh": "Global X 鈾礦 ETF",
@@ -3133,6 +3139,8 @@
       "value": 203.71
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-URA",
@@ -3256,5 +3264,14 @@
     "holding_count": 9,
     "top_10_weight": 0.608098,
     "top_3_weight": 0.37221
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "nuclear_energy"
+    ],
+    "roles": [
+      "uranium_industry_leader"
+    ]
   }
 }

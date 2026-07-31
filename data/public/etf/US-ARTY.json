@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares Future AI & Tech ETF",
   "short_name_en": "ARTY",
   "name_zh": "iShares 未來 AI 與科技 ETF",
@@ -3129,6 +3135,8 @@
       "value": 196.8
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-ARTY",
@@ -3275,5 +3283,15 @@
     "holding_count": 10,
     "top_10_weight": 0.427434,
     "top_3_weight": 0.153563
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "artificial_intelligence",
+      "ai_infrastructure"
+    ],
+    "roles": [
+      "ai_value_chain"
+    ]
   }
 }

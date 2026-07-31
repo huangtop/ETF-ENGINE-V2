@@ -1,0 +1,401 @@
+{
+  "etf_id": "US-SNDQ",
+  "ticker": "SNDQ",
+  "quote_symbol": "SNDQ",
+  "name": "Tradr 2X Short SNDK Daily ETF",
+  "short_name": "SNDQ",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SNDK",
+  "benchmark_name": "Sandisk",
+  "issuer": null,
+  "asset_class": "equity",
+  "is_thematic": true,
+  "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": "2026-04-22",
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Tradr 2X Short SNDK Daily ETF",
+  "short_name_en": "SNDQ",
+  "name_zh": "Tradr 每日 SNDK 2倍做空 ETF",
+  "short_name_zh": null,
+  "display_name": "Tradr 每日 SNDK 2倍做空 ETF",
+  "display_short_name": "Tradr 每日 SNDK 2倍做空 ETF",
+  "display_label": "(SNDQ)Tradr 每日 SNDK 2倍做空 ETF",
+  "bilingual_name": "Tradr 2X Short SNDK Daily ETF（Tradr 每日 SNDK 2倍做空 ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "single_stock_inverse"
+    },
+    {
+      "dimension": "strategy",
+      "code": "daily_inverse_2x"
+    },
+    {
+      "dimension": "theme",
+      "code": "memory_storage"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -138.2752,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 273.4483,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": -0.4072,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.2698,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -92.8936,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -89.457,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 449.7789,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-07-30",
+    "value": 28.93,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-04-23",
+      "value": 100.0
+    },
+    {
+      "date": "2026-04-24",
+      "value": 87.54
+    },
+    {
+      "date": "2026-04-27",
+      "value": 73.43
+    },
+    {
+      "date": "2026-04-28",
+      "value": 82.25
+    },
+    {
+      "date": "2026-04-29",
+      "value": 72.38
+    },
+    {
+      "date": "2026-04-30",
+      "value": 68.22
+    },
+    {
+      "date": "2026-05-01",
+      "value": 56.63
+    },
+    {
+      "date": "2026-05-04",
+      "value": 50.29
+    },
+    {
+      "date": "2026-05-05",
+      "value": 38.3
+    },
+    {
+      "date": "2026-05-06",
+      "value": 38.05
+    },
+    {
+      "date": "2026-05-07",
+      "value": 41.8
+    },
+    {
+      "date": "2026-05-08",
+      "value": 27.95
+    },
+    {
+      "date": "2026-05-11",
+      "value": 28.46
+    },
+    {
+      "date": "2026-05-12",
+      "value": 32.0
+    },
+    {
+      "date": "2026-05-13",
+      "value": 32.22
+    },
+    {
+      "date": "2026-05-14",
+      "value": 34.99
+    },
+    {
+      "date": "2026-05-15",
+      "value": 33.86
+    },
+    {
+      "date": "2026-05-18",
+      "value": 37.35
+    },
+    {
+      "date": "2026-05-19",
+      "value": 34.62
+    },
+    {
+      "date": "2026-05-20",
+      "value": 34.07
+    },
+    {
+      "date": "2026-05-21",
+      "value": 26.75
+    },
+    {
+      "date": "2026-05-22",
+      "value": 29.01
+    },
+    {
+      "date": "2026-05-26",
+      "value": 24.71
+    },
+    {
+      "date": "2026-05-27",
+      "value": 24.64
+    },
+    {
+      "date": "2026-05-28",
+      "value": 23.03
+    },
+    {
+      "date": "2026-05-29",
+      "value": 21.54
+    },
+    {
+      "date": "2026-06-01",
+      "value": 19.9
+    },
+    {
+      "date": "2026-06-02",
+      "value": 20.92
+    },
+    {
+      "date": "2026-06-03",
+      "value": 18.08
+    },
+    {
+      "date": "2026-06-04",
+      "value": 19.53
+    },
+    {
+      "date": "2026-06-05",
+      "value": 24.02
+    },
+    {
+      "date": "2026-06-08",
+      "value": 21.47
+    },
+    {
+      "date": "2026-06-09",
+      "value": 21.25
+    },
+    {
+      "date": "2026-06-10",
+      "value": 21.43
+    },
+    {
+      "date": "2026-06-11",
+      "value": 15.27
+    },
+    {
+      "date": "2026-06-12",
+      "value": 13.59
+    },
+    {
+      "date": "2026-06-15",
+      "value": 11.84
+    },
+    {
+      "date": "2026-06-16",
+      "value": 13.19
+    },
+    {
+      "date": "2026-06-17",
+      "value": 13.59
+    },
+    {
+      "date": "2026-06-18",
+      "value": 10.42
+    },
+    {
+      "date": "2026-06-22",
+      "value": 9.58
+    },
+    {
+      "date": "2026-06-23",
+      "value": 12.24
+    },
+    {
+      "date": "2026-06-24",
+      "value": 12.83
+    },
+    {
+      "date": "2026-06-25",
+      "value": 7.22
+    },
+    {
+      "date": "2026-06-26",
+      "value": 8.71
+    },
+    {
+      "date": "2026-06-29",
+      "value": 9.04
+    },
+    {
+      "date": "2026-06-30",
+      "value": 7.11
+    },
+    {
+      "date": "2026-07-01",
+      "value": 8.56
+    },
+    {
+      "date": "2026-07-02",
+      "value": 10.97
+    },
+    {
+      "date": "2026-07-06",
+      "value": 11.01
+    },
+    {
+      "date": "2026-07-07",
+      "value": 12.61
+    },
+    {
+      "date": "2026-07-08",
+      "value": 10.79
+    },
+    {
+      "date": "2026-07-09",
+      "value": 9.29
+    },
+    {
+      "date": "2026-07-10",
+      "value": 8.67
+    },
+    {
+      "date": "2026-07-13",
+      "value": 10.9
+    },
+    {
+      "date": "2026-07-14",
+      "value": 9.77
+    },
+    {
+      "date": "2026-07-15",
+      "value": 11.41
+    },
+    {
+      "date": "2026-07-16",
+      "value": 14.25
+    },
+    {
+      "date": "2026-07-17",
+      "value": 15.27
+    },
+    {
+      "date": "2026-07-20",
+      "value": 14.58
+    },
+    {
+      "date": "2026-07-21",
+      "value": 10.42
+    },
+    {
+      "date": "2026-07-22",
+      "value": 10.25
+    },
+    {
+      "date": "2026-07-23",
+      "value": 10.12
+    },
+    {
+      "date": "2026-07-24",
+      "value": 12.35
+    },
+    {
+      "date": "2026-07-27",
+      "value": 15.03
+    },
+    {
+      "date": "2026-07-28",
+      "value": 19.39
+    },
+    {
+      "date": "2026-07-29",
+      "value": 22.15
+    },
+    {
+      "date": "2026-07-30",
+      "value": 10.54
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-04-23",
+    "last_date": "2026-07-30",
+    "observations": 68,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 34190617.0,
+    "average_volume_20d": 19940624.85,
+    "average_dollar_volume_20d": 706633637.226,
+    "relative_volume_20d": 1.7146,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  },
+  "research": {
+    "tier": "tactical",
+    "nodes": [
+      "memory",
+      "storage"
+    ],
+    "roles": [
+      "single_stock_inverse"
+    ],
+    "product_type": "single_stock_leveraged_etf",
+    "underlying_symbol": "SNDK",
+    "direction": "inverse",
+    "leverage_multiple": -2,
+    "reset_frequency": "daily",
+    "research_status": "eligible"
+  }
+}

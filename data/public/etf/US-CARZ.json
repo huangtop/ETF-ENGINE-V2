@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "First Trust Nasdaq Global Auto Index Fund",
   "short_name_en": "CARZ",
   "name_zh": "First Trust Nasdaq 全球汽車指數 ETF",
@@ -3129,6 +3135,8 @@
       "value": 185.18
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-CARZ",
@@ -3275,5 +3283,14 @@
     "holding_count": 10,
     "top_10_weight": 0.526845,
     "top_3_weight": 0.247562
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "autonomous_vehicles"
+    ],
+    "roles": [
+      "automotive_alternative"
+    ]
   }
 }

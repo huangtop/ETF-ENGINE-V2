@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "元大滬深300正2",
   "short_name_en": "元大滬深300正2",
   "name_zh": null,
@@ -3049,6 +3055,8 @@
       "value": 138.05
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00637L",
@@ -3069,5 +3077,10 @@
     "holding_count": 1,
     "top_10_weight": 0.013639,
     "top_3_weight": 0.013639
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

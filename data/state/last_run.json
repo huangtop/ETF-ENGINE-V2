@@ -1,19 +1,36 @@
 {
-  "run_date": "2026-07-30",
-  "market": "all",
-  "eligible": 459,
-  "processed": 126,
-  "bootstrap_limit": 20,
-  "bootstrap_attempted": 20,
-  "bootstrap_ready": 125,
-  "bootstrap_pending": 334,
-  "metric_rows": 1962,
-  "holdings_synced": 89,
-  "errors": [
-    {
-      "etf_id": "TW-00677U",
-      "stage": "prices",
-      "error": "no provider data"
-    }
-  ]
+  "run_date": "2026-07-31",
+  "market": "US",
+  "eligible": 88,
+  "processed": 4,
+  "bootstrap_limit": 4,
+  "bootstrap_attempted": 4,
+  "bootstrap_ready": 88,
+  "bootstrap_pending": 0,
+  "metric_rows": 1968,
+  "holdings_synced": 2,
+  "holdings_rotation_limit": 4,
+  "holdings_scheduled": 4,
+  "holdings_rotating": [
+    "US-ARKG",
+    "US-SNDQ",
+    "US-SNXX",
+    "US-XBI"
+  ],
+  "holdings_updated": [
+    "US-ARKG",
+    "US-XBI"
+  ],
+  "bootstrap_only": true,
+  "published": false,
+  "provider_halted": false,
+  "provider_halt_reason": null,
+  "price_provider_halted": false,
+  "price_provider_halt_reason": null,
+  "holdings_provider_halted": false,
+  "holdings_provider_halt_reason": null,
+  "prices_skipped_after_provider_halt": [],
+  "holdings_skipped_after_provider_halt": [],
+  "skipped_after_provider_halt": [],
+  "errors": []
 }

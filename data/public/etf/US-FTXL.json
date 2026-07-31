@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "First Trust Nasdaq Semiconductor ETF",
   "short_name_en": "FTXL",
   "name_zh": "首信納斯達克半導體 ETF",
@@ -3133,6 +3139,8 @@
       "value": 306.56
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-FTXL",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.675964,
     "top_3_weight": 0.334865
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "smart_beta"
+    ]
   }
 }

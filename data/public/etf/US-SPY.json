@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "SPDR S&P 500 ETF Trust",
   "short_name_en": "SPY",
   "name_zh": "SPDR S&P 500 ETF",
@@ -53,7 +59,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 0.0,
+      "value": 0,
       "unit": "percent"
     },
     "annualized_return": {
@@ -65,7 +71,7 @@
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0,
+      "value": 1,
       "unit": "ratio"
     },
     "data_years": {
@@ -85,7 +91,7 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 0.0,
+      "value": 0,
       "unit": "percent"
     }
   },
@@ -3121,6 +3127,23 @@
       "value": 169.01
     }
   ],
+  "price_history": {
+    "first_date": "2023-07-05",
+    "last_date": "2026-07-30",
+    "observations": 771,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 65907594.0,
+    "average_volume_20d": 47709519.7,
+    "average_dollar_volume_20d": 35533213797.1854,
+    "relative_volume_20d": 1.3814,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "US-SPY",
@@ -3267,5 +3290,14 @@
     "holding_count": 10,
     "top_10_weight": 0.363324,
     "top_3_weight": 0.183648
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "core_benchmark"
+    ],
+    "roles": [
+      "sp500_benchmark"
+    ]
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Invesco PHLX Semiconductor ETF",
   "short_name_en": "SOXQ",
   "name_zh": "景順 PHLX 半導體 ETF",
@@ -3133,6 +3139,8 @@
       "value": 304.78
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-SOXQ",
@@ -3269,5 +3277,14 @@
     "holding_count": 10,
     "top_10_weight": 0.614936,
     "top_3_weight": 0.266587
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "low_cost_alternative"
+    ]
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "主動元大AI新經濟",
   "short_name_en": "主動元大AI新經濟",
   "name_zh": null,
@@ -713,6 +719,8 @@
       "value": 161.0
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00990A",
@@ -849,5 +857,10 @@
     "holding_count": 10,
     "top_10_weight": 0.434982,
     "top_3_weight": 0.192484
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

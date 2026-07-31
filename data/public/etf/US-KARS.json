@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "KraneShares Electric Vehicles and Future Mobility ETF",
   "short_name_en": "KARS",
   "name_zh": "KraneShares 電動車與未來移動 ETF",
@@ -3137,6 +3143,8 @@
       "value": 89.72
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-KARS",
@@ -3283,5 +3291,14 @@
     "holding_count": 10,
     "top_10_weight": 0.388549,
     "top_3_weight": 0.150739
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "autonomous_vehicles"
+    ],
+    "roles": [
+      "electric_vehicle_specialist"
+    ]
   }
 }

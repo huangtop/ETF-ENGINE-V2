@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "元大電子",
   "short_name_en": "元大電子",
   "name_zh": null,
@@ -3045,6 +3051,8 @@
       "value": 294.44
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-0053",
@@ -3191,5 +3199,10 @@
     "holding_count": 10,
     "top_10_weight": 0.727209,
     "top_3_weight": 0.601367
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

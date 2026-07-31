@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "元大台灣50正2",
   "short_name_en": "元大台灣50正2",
   "name_zh": null,
@@ -3053,10 +3059,17 @@
       "value": 438.45
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [],
   "holdings_summary": {
     "holding_count": 0,
     "top_10_weight": 0,
     "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

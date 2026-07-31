@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "WisdomTree Cloud Computing Fund",
   "short_name_en": "WCLD",
   "name_zh": "WisdomTree 雲端運算 ETF",
@@ -3133,6 +3139,8 @@
       "value": 106.1
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-WCLD",
@@ -3269,5 +3277,14 @@
     "holding_count": 10,
     "top_10_weight": 0.26529,
     "top_3_weight": 0.095136
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "cloud_computing"
+    ],
+    "roles": [
+      "equal_weight_cloud"
+    ]
   }
 }

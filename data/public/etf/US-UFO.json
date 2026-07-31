@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Procure Space ETF",
   "short_name_en": "UFO",
   "name_zh": "Procure 太空 ETF",
@@ -3133,6 +3139,8 @@
       "value": 227.91
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-UFO",
@@ -3269,5 +3277,14 @@
     "holding_count": 10,
     "top_10_weight": 0.497582,
     "top_3_weight": 0.167237
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "space"
+    ],
+    "roles": [
+      "satellite_specialist"
+    ]
   }
 }

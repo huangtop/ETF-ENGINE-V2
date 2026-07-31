@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares U.S. Infrastructure ETF",
   "short_name_en": "IFRA",
   "name_zh": "iShares 美國基礎設施 ETF",
@@ -3129,6 +3135,8 @@
       "value": 158.47
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-IFRA",
@@ -3275,5 +3283,10 @@
     "holding_count": 10,
     "top_10_weight": 0.324176,
     "top_3_weight": 0.124377
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

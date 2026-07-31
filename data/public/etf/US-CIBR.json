@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "First Trust Nasdaq Cybersecurity ETF",
   "short_name_en": "CIBR",
   "name_zh": "First Trust Nasdaq 網路安全 ETF",
@@ -3133,6 +3139,8 @@
       "value": 195.87
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-CIBR",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.580381,
     "top_3_weight": 0.267489
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "cybersecurity"
+    ],
+    "roles": [
+      "broad_industry_leader"
+    ]
   }
 }

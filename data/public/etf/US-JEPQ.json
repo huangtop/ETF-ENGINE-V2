@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "JPMorgan Nasdaq Equity Premium Income ETF",
   "short_name_en": "JEPQ",
   "name_zh": "JPMorgan Nasdaq 股票溢價收益主動型 ETF",
@@ -3121,6 +3127,8 @@
       "value": 162.78
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-JEPQ",
@@ -3267,5 +3275,10 @@
     "holding_count": 10,
     "top_10_weight": 0.418586,
     "top_3_weight": 0.179272
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

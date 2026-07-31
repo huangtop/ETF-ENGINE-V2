@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ARK Innovation ETF",
   "short_name_en": "ARKK",
   "name_zh": "ARK 創新主動型 ETF",
@@ -3117,6 +3123,8 @@
       "value": 152.25
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-ARKK",
@@ -3263,5 +3271,10 @@
     "holding_count": 10,
     "top_10_weight": 0.495638,
     "top_3_weight": 0.207479
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares 7-10 Year Treasury Bond ETF",
   "short_name_en": "IEF",
   "name_zh": "iShares 7-10年期美國公債 ETF",
@@ -3121,10 +3127,17 @@
       "value": 107.85
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [],
   "holdings_summary": {
     "holding_count": 0,
     "top_10_weight": 0,
     "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

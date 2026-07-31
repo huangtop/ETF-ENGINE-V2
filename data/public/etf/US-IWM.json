@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares Russell 2000 ETF",
   "short_name_en": "IWM",
   "name_zh": "iShares 羅素 2000 ETF",
@@ -3117,6 +3123,8 @@
       "value": 154.29
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-IWM",
@@ -3263,5 +3271,14 @@
     "holding_count": 10,
     "top_10_weight": 0.034175,
     "top_3_weight": 0.010979
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "core_benchmark"
+    ],
+    "roles": [
+      "small_cap_benchmark"
+    ]
   }
 }

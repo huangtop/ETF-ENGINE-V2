@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Schwab U.S. Dividend Equity ETF",
   "short_name_en": "SCHD",
   "name_zh": "Schwab 美國股利股票 ETF",
@@ -3125,6 +3131,8 @@
       "value": 148.32
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-SCHD",
@@ -3271,5 +3279,10 @@
     "holding_count": 10,
     "top_10_weight": 0.41874,
     "top_3_weight": 0.134814
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

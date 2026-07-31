@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ARK Autonomous Technology & Robotics ETF",
   "short_name_en": "ARKQ",
   "name_zh": "ARK 自主科技與機器人主動型 ETF",
@@ -3137,6 +3143,8 @@
       "value": 199.88
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-ARKQ",
@@ -3283,5 +3291,15 @@
     "holding_count": 10,
     "top_10_weight": 0.560686,
     "top_3_weight": 0.255253
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "robotics",
+      "autonomous_systems"
+    ],
+    "roles": [
+      "active_management"
+    ]
   }
 }

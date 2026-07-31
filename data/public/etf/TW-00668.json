@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "國泰美國道瓊",
   "short_name_en": "國泰美國道瓊",
   "name_zh": null,
@@ -3041,6 +3047,23 @@
       "value": 157.56
     }
   ],
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 738,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 16340.0,
+    "average_volume_20d": 105841.4,
+    "average_dollar_volume_20d": 6541818.3675,
+    "relative_volume_20d": 0.1544,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00668",
@@ -3187,5 +3210,10 @@
     "holding_count": 10,
     "top_10_weight": 0.537706,
     "top_3_weight": 0.269993
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

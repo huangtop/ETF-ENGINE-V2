@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares Expanded Tech-Software Sector ETF",
   "short_name_en": "IGV",
   "name_zh": "iShares 擴展科技軟體類股 ETF",
@@ -3133,6 +3139,8 @@
       "value": 130.68
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-IGV",
@@ -3279,5 +3287,15 @@
     "holding_count": 10,
     "top_10_weight": 0.606596,
     "top_3_weight": 0.26148
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "artificial_intelligence",
+      "ai_software"
+    ],
+    "roles": [
+      "software_layer"
+    ]
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "JPMorgan Equity Premium Income ETF",
   "short_name_en": "JEPI",
   "name_zh": "JPMorgan 美國股票溢價收益主動型 ETF",
@@ -3125,6 +3131,8 @@
       "value": 129.72
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-JEPI",
@@ -3271,5 +3279,10 @@
     "holding_count": 10,
     "top_10_weight": 0.15947,
     "top_3_weight": 0.050818
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

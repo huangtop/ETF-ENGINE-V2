@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ARK Space Exploration & Innovation ETF",
   "short_name_en": "ARKX",
   "name_zh": "ARK 太空探索與創新主動型 ETF",
@@ -3133,6 +3139,8 @@
       "value": 199.93
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-ARKX",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.560068,
     "top_3_weight": 0.217461
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "space"
+    ],
+    "roles": [
+      "active_management"
+    ]
   }
 }

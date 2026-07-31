@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "First Trust Nasdaq Clean Edge Smart Grid Infrastructure ETF",
   "short_name_en": "GRID",
   "name_zh": "First Trust Nasdaq 清潔能源智慧電網基礎設施 ETF",
@@ -3137,6 +3143,8 @@
       "value": 171.41
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-GRID",
@@ -3283,5 +3291,15 @@
     "holding_count": 10,
     "top_10_weight": 0.584842,
     "top_3_weight": 0.249769
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "power_grid",
+      "ai_infrastructure"
+    ],
+    "roles": [
+      "grid_infrastructure"
+    ]
   }
 }

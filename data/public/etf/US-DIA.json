@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "SPDR Dow Jones Industrial Average ETF Trust",
   "short_name_en": "DIA",
   "name_zh": "SPDR 道瓊工業平均指數 ETF",
@@ -3121,6 +3127,8 @@
       "value": 154.18
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-DIA",
@@ -3267,5 +3275,10 @@
     "holding_count": 10,
     "top_10_weight": 0.561759,
     "top_3_weight": 0.282071
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Vanguard Total Stock Market ETF",
   "short_name_en": "VTI",
   "name_zh": "Vanguard 美國整體股票市場 ETF",
@@ -3121,6 +3127,8 @@
       "value": 168.21
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-VTI",
@@ -3257,5 +3265,10 @@
     "holding_count": 10,
     "top_10_weight": 0.318771,
     "top_3_weight": 0.159766
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

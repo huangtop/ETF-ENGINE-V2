@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "元大日經225",
   "short_name_en": "元大日經225",
   "name_zh": null,
@@ -3041,6 +3047,23 @@
       "value": 192.44
     }
   ],
+  "price_history": {
+    "first_date": "2023-07-17",
+    "last_date": "2026-07-30",
+    "observations": 738,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-07-30",
+    "latest_volume": 48878.0,
+    "average_volume_20d": 159203.0,
+    "average_dollar_volume_20d": 13595855.725,
+    "relative_volume_20d": 0.307,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00661",
@@ -3187,5 +3210,10 @@
     "holding_count": 10,
     "top_10_weight": 0.480569,
     "top_3_weight": 0.295324
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

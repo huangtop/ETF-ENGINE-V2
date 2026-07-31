@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ProShares Bitcoin Strategy ETF",
   "short_name_en": "BITO",
   "name_zh": "ProShares 比特幣策略 ETF",
@@ -3121,6 +3127,8 @@
       "value": 181.81
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-BITO",
@@ -3141,5 +3149,10 @@
     "holding_count": 1,
     "top_10_weight": 0.675268,
     "top_3_weight": 0.675268
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

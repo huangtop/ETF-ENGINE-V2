@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Global X U.S. Infrastructure Development ETF",
   "short_name_en": "PAVE",
   "name_zh": "Global X 美國基礎設施發展 ETF",
@@ -3133,6 +3139,8 @@
       "value": 178.21
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-PAVE",
@@ -3279,5 +3287,10 @@
     "holding_count": 10,
     "top_10_weight": 0.327486,
     "top_3_weight": 0.108827
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "ROBO Global Robotics and Automation Index ETF",
   "short_name_en": "ROBO",
   "name_zh": "ROBO Global 機器人與自動化指數 ETF",
@@ -3133,6 +3139,8 @@
       "value": 134.61
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-ROBO",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.178505,
     "top_3_weight": 0.059605
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "robotics"
+    ],
+    "roles": [
+      "equal_weight_alternative"
+    ]
   }
 }

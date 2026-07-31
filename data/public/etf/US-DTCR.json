@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Global X Data Center & Digital Infrastructure ETF",
   "short_name_en": "DTCR",
   "name_zh": "Global X 資料中心與數位基礎設施 ETF",
@@ -3137,6 +3143,8 @@
       "value": 209.08
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-DTCR",
@@ -3283,5 +3291,10 @@
     "holding_count": 10,
     "top_10_weight": 0.678259,
     "top_3_weight": 0.315816
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

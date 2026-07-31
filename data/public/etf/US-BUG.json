@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Global X Cybersecurity ETF",
   "short_name_en": "BUG",
   "name_zh": "Global X 網路安全 ETF",
@@ -3133,6 +3139,8 @@
       "value": 151.49
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-BUG",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.607821,
     "top_3_weight": 0.236132
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "cybersecurity"
+    ],
+    "roles": [
+      "pure_play_alternative"
+    ]
   }
 }

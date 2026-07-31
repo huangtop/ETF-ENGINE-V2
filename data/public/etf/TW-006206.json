@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "元大上證50",
   "short_name_en": "元大上證50",
   "name_zh": null,
@@ -3041,6 +3047,8 @@
       "value": 133.08
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-006206",
@@ -3187,5 +3195,10 @@
     "holding_count": 10,
     "top_10_weight": 0.507499,
     "top_3_weight": 0.199896
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

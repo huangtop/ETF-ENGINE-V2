@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "First Trust Nasdaq Artificial Intelligence and Robotics ETF",
   "short_name_en": "ROBT",
   "name_zh": "First Trust Nasdaq 人工智慧與機器人 ETF",
@@ -3133,6 +3139,8 @@
       "value": 117.71
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-ROBT",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.161092,
     "top_3_weight": 0.051706
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "robotics"
+    ],
+    "roles": [
+      "ai_robotics_alternative"
+    ]
   }
 }

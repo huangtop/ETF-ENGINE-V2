@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Roundhill Memory ETF",
   "short_name_en": "DRAM",
   "name_zh": "Roundhill 記憶體 ETF",
@@ -441,6 +447,8 @@
       "value": 188.54
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-DRAM",
@@ -517,5 +525,15 @@
     "holding_count": 5,
     "top_10_weight": 0.540088,
     "top_3_weight": 0.444385
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "semiconductors",
+      "memory"
+    ],
+    "roles": [
+      "memory_specialist"
+    ]
   }
 }

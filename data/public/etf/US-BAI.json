@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares A.I. Innovation and Tech Active ETF",
   "short_name_en": "BAI",
   "name_zh": "iShares AI 創新與科技主動 ETF",
@@ -1877,6 +1883,8 @@
       "value": 166.92
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-BAI",
@@ -2023,5 +2031,10 @@
     "holding_count": 10,
     "top_10_weight": 0.469678,
     "top_3_weight": 0.198081
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

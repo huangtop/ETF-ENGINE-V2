@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "First Trust Cloud Computing ETF",
   "short_name_en": "SKYY",
   "name_zh": "First Trust 雲端運算 ETF",
@@ -3133,6 +3139,8 @@
       "value": 176.01
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-SKYY",
@@ -3269,5 +3277,14 @@
     "holding_count": 10,
     "top_10_weight": 0.361767,
     "top_3_weight": 0.120106
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "cloud_computing"
+    ],
+    "roles": [
+      "broad_cloud_alternative"
+    ]
   }
 }

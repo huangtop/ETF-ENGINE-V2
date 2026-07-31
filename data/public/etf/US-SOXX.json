@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares Semiconductor ETF",
   "short_name_en": "SOXX",
   "name_zh": "iShares 費城半導體 ETF",
@@ -3137,6 +3143,8 @@
       "value": 294.54
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-SOXX",
@@ -3273,5 +3281,14 @@
     "holding_count": 10,
     "top_10_weight": 0.613017,
     "top_3_weight": 0.234458
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "diversified_industry_leader"
+    ]
   }
 }

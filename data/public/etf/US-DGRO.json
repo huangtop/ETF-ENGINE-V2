@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares Core Dividend Growth ETF",
   "short_name_en": "DGRO",
   "name_zh": "iShares Core 股利成長 ETF",
@@ -3125,6 +3131,8 @@
       "value": 157.25
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-DGRO",
@@ -3271,5 +3279,10 @@
     "holding_count": 10,
     "top_10_weight": 0.264532,
     "top_3_weight": 0.091993
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

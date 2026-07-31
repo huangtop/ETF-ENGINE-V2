@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "富邦深100",
   "short_name_en": "富邦深100",
   "name_zh": null,
@@ -3041,6 +3047,8 @@
       "value": 136.79
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "TW-00639",
@@ -3187,5 +3195,10 @@
     "holding_count": 10,
     "top_10_weight": 0.444452,
     "top_3_weight": 0.25419
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }

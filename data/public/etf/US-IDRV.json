@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "iShares Self-Driving EV and Tech ETF",
   "short_name_en": "IDRV",
   "name_zh": "iShares 自動駕駛電動車與科技 ETF",
@@ -3129,6 +3135,8 @@
       "value": 87.01
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-IDRV",
@@ -3275,5 +3283,14 @@
     "holding_count": 10,
     "top_10_weight": 0.39878,
     "top_3_weight": 0.136767
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "autonomous_vehicles"
+    ],
+    "roles": [
+      "global_alternative"
+    ]
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Xtrackers Semiconductor Select Equity ETF",
   "short_name_en": "CHPS",
   "name_zh": "Xtrackers 晶片精選股票 ETF",
@@ -3133,6 +3139,8 @@
       "value": 326.15
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-CHPS",
@@ -3279,5 +3287,14 @@
     "holding_count": 10,
     "top_10_weight": 0.520137,
     "top_3_weight": 0.205205
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "semiconductors"
+    ],
+    "roles": [
+      "active_management"
+    ]
   }
 }

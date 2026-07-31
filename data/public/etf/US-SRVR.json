@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Pacer Data & Infrastructure Real Estate ETF",
   "short_name_en": "SRVR",
   "name_zh": "Pacer 資料與基礎設施不動產 ETF",
@@ -3149,6 +3155,8 @@
       "value": 112.31
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-SRVR",
@@ -3285,5 +3293,14 @@
     "holding_count": 10,
     "top_10_weight": 0.685341,
     "top_3_weight": 0.448034
+  },
+  "research": {
+    "tier": "primary",
+    "nodes": [
+      "data_centers"
+    ],
+    "roles": [
+      "data_center_real_estate"
+    ]
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": "equity",
   "is_thematic": true,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Global X Artificial Intelligence & Technology ETF",
   "short_name_en": "AIQ",
   "name_zh": "Global X 人工智慧與科技 ETF",
@@ -3141,6 +3147,8 @@
       "value": 203.91
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-AIQ",
@@ -3287,5 +3295,14 @@
     "holding_count": 10,
     "top_10_weight": 0.466534,
     "top_3_weight": 0.207041
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [
+      "artificial_intelligence"
+    ],
+    "roles": [
+      "broad_ai"
+    ]
   }
 }

@@ -13,6 +13,12 @@
   "asset_class": null,
   "is_thematic": false,
   "active": true,
+  "product_status": "active",
+  "management_style": "passive",
+  "inception_date": null,
+  "first_seen_at": null,
+  "last_seen_at": null,
+  "delisted_at": null,
   "name_en": "Health Care Select Sector SPDR Fund",
   "short_name_en": "XLV",
   "name_zh": "醫療保健類股精選 SPDR ETF",
@@ -3117,6 +3123,8 @@
       "value": 129.38
     }
   ],
+  "price_history": null,
+  "liquidity": null,
   "top_holdings": [
     {
       "etf_id": "US-XLV",
@@ -3253,5 +3261,10 @@
     "holding_count": 10,
     "top_10_weight": 0.614509,
     "top_3_weight": 0.348294
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
   }
 }
