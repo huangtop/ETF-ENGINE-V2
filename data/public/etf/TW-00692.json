@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -1.8744,
+      "value": -2.2866,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 88.9034,
+      "value": 93.0339,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 27.2228,
+      "value": 27.327,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9493,
+      "value": 0.9483,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.2107,
+      "value": 3.3496,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 88.9034,
+      "value": 93.0339,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 4.5379,
+      "value": 4.5568,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-04",
-    "value": 86.65,
+    "date": "2026-08-05",
+    "value": 88.95,
     "currency": "TWD"
   },
   "trend": [
@@ -3065,21 +3065,25 @@
     {
       "date": "2026-08-04",
       "value": 267.36
+    },
+    {
+      "date": "2026-08-05",
+      "value": 274.45
     }
   ],
   "price_history": {
     "first_date": "2023-07-20",
-    "last_date": "2026-08-04",
-    "observations": 738,
+    "last_date": "2026-08-05",
+    "observations": 739,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-04",
-    "latest_volume": 1291965.0,
-    "average_volume_20d": 1796248.6,
-    "average_dollar_volume_20d": 155231960.6325,
-    "relative_volume_20d": 0.7193,
+    "as_of": "2026-08-05",
+    "latest_volume": 875108.0,
+    "average_volume_20d": 1796673.2,
+    "average_dollar_volume_20d": 155139736.4025,
+    "relative_volume_20d": 0.4871,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3089,9 +3093,10 @@
       "etf_id": "TW-00692",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.5934055,
-      "as_of": "2026-07-19",
+      "weight": 0.5624442,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
       "holding_name_zh": "台積電",
       "display_name": "台積電",
@@ -3100,11 +3105,26 @@
     },
     {
       "etf_id": "TW-00692",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.061235,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
+    },
+    {
+      "etf_id": "TW-00692",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.046568397,
-      "as_of": "2026-07-19",
+      "weight": 0.0455534,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "Delta Electronics Inc",
       "holding_name_zh": "台達電",
       "display_name": "台達電",
@@ -3115,9 +3135,10 @@
       "etf_id": "TW-00692",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0338657,
-      "as_of": "2026-07-19",
+      "weight": 0.0314678,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Hon Hai Precision Industry Co Ltd",
       "holding_name_zh": "鴻海",
       "display_name": "鴻海",
@@ -3126,24 +3147,12 @@
     },
     {
       "etf_id": "TW-00692",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.031006701,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "MediaTek Inc",
-      "holding_name_zh": "聯發科",
-      "display_name": "聯發科",
-      "display_label": "(2454.TW)聯發科",
-      "bilingual_name": "MediaTek Inc（聯發科）"
-    },
-    {
-      "etf_id": "TW-00692",
       "holding_symbol": "3711.TW",
       "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0188785,
-      "as_of": "2026-07-19",
+      "weight": 0.0271215,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "ASE Technology Holding Co Ltd",
       "holding_name_zh": "日月光投控",
       "display_name": "日月光投控",
@@ -3152,11 +3161,40 @@
     },
     {
       "etf_id": "TW-00692",
+      "holding_symbol": "2303.TW",
+      "holding_name": "United Microelectronics Corp",
+      "weight": 0.0185278,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "United Microelectronics Corp",
+      "holding_name_zh": "聯電",
+      "display_name": "聯電",
+      "display_label": "(2303.TW)聯電",
+      "bilingual_name": "United Microelectronics Corp（聯電）"
+    },
+    {
+      "etf_id": "TW-00692",
+      "holding_symbol": "2383.TW",
+      "holding_name": "Elite Material Co Ltd",
+      "weight": 0.0172485,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Elite Material Co Ltd",
+      "holding_name_zh": "台光電",
+      "display_name": "台光電",
+      "display_label": "(2383.TW)台光電",
+      "bilingual_name": "Elite Material Co Ltd（台光電）"
+    },
+    {
+      "etf_id": "TW-00692",
       "holding_symbol": "2881.TW",
       "holding_name": "Fubon Financial Holdings Co Ltd",
-      "weight": 0.0155643,
-      "as_of": "2026-07-19",
+      "weight": 0.0162191,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Fubon Financial Holdings Co Ltd",
       "holding_name_zh": "富邦金",
       "display_name": "富邦金",
@@ -3165,61 +3203,37 @@
     },
     {
       "etf_id": "TW-00692",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0138974,
-      "as_of": "2026-07-19",
+      "holding_symbol": "3037.TW",
+      "holding_name": "Unimicron Technology Corp",
+      "weight": 0.0150774,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Quanta Computer Inc",
-      "holding_name_zh": "廣達",
-      "display_name": "廣達",
-      "display_label": "(2382.TW)廣達",
-      "bilingual_name": "Quanta Computer Inc（廣達）"
-    },
-    {
-      "etf_id": "TW-00692",
-      "holding_symbol": "2412.TW",
-      "holding_name": "Chunghwa Telecom Co Ltd",
-      "weight": 0.013332601,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Chunghwa Telecom Co Ltd",
-      "holding_name_zh": "中華電",
-      "display_name": "中華電",
-      "display_label": "(2412.TW)中華電",
-      "bilingual_name": "Chunghwa Telecom Co Ltd（中華電）"
+      "rank": 9,
+      "holding_name_en": "Unimicron Technology Corp",
+      "holding_name_zh": "欣興",
+      "display_name": "欣興",
+      "display_label": "(3037.TW)欣興",
+      "bilingual_name": "Unimicron Technology Corp（欣興）"
     },
     {
       "etf_id": "TW-00692",
       "holding_symbol": "2882.TW",
       "holding_name": "Cathay Financial Holding Co Ltd",
-      "weight": 0.013325599,
-      "as_of": "2026-07-19",
+      "weight": 0.0128924,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 10,
       "holding_name_en": "Cathay Financial Holding Co Ltd",
       "holding_name_zh": "國泰金",
       "display_name": "國泰金",
       "display_label": "(2882.TW)國泰金",
       "bilingual_name": "Cathay Financial Holding Co Ltd（國泰金）"
-    },
-    {
-      "etf_id": "TW-00692",
-      "holding_symbol": "2891.TW",
-      "holding_name": "CTBC Financial Holding Co Ltd",
-      "weight": 0.0130435005,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "CTBC Financial Holding Co Ltd",
-      "holding_name_zh": "中信金",
-      "display_name": "中信金",
-      "display_label": "(2891.TW)中信金",
-      "bilingual_name": "CTBC Financial Holding Co Ltd（中信金）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.792888,
-    "top_3_weight": 0.67384
+    "top_10_weight": 0.807787,
+    "top_3_weight": 0.669233
   },
   "research": {
     "tier": "context",

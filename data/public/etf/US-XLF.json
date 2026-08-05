@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.2764,
+      "value": 0.1647,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 13.231,
+      "value": 13.9267,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.6703,
+      "value": 14.6638,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6263,
+      "value": 0.6254,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,29 +79,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.7996,
+      "value": 0.8474,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 13.231,
+      "value": 13.9267,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 13.159,
+      "value": 13.1657,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-04",
-    "value": 57.88,
+    "date": "2026-08-05",
+    "value": 58.0,
     "currency": "USD"
   },
   "trend": [
-    {
-      "date": "2023-07-31",
-      "value": 100.0
-    },
     {
       "date": "2023-08-01",
       "value": 100.0
@@ -3121,21 +3117,25 @@
     {
       "date": "2026-08-04",
       "value": 171.78
+    },
+    {
+      "date": "2026-08-05",
+      "value": 172.14
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-08-04",
-    "observations": 766,
+    "last_date": "2026-08-05",
+    "observations": 767,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-04",
-    "latest_volume": 31375993.0,
-    "average_volume_20d": 33793618.65,
-    "average_dollar_volume_20d": 1907353745.6819,
-    "relative_volume_20d": 0.9285,
+    "as_of": "2026-08-05",
+    "latest_volume": 33940726.0,
+    "average_volume_20d": 33408249.95,
+    "average_dollar_volume_20d": 1891312045.6899,
+    "relative_volume_20d": 1.0159,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20

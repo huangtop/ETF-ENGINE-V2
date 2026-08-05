@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -1.2671,
+      "value": -1.9032,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 102.1745,
+      "value": 106.5991,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 32.0277,
+      "value": 32.1188,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0539,
+      "value": 1.0518,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.1434,
+      "value": 3.2722,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 102.1745,
+      "value": 106.5991,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.7346,
+      "value": 11.74,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-04",
-    "value": 73.45,
+    "date": "2026-08-05",
+    "value": 75.45,
     "currency": "TWD"
   },
   "trend": [
@@ -3057,30 +3057,175 @@
     {
       "date": "2026-08-04",
       "value": 265.26
+    },
+    {
+      "date": "2026-08-05",
+      "value": 272.48
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-08-04",
-    "observations": 741,
+    "last_date": "2026-08-05",
+    "observations": 742,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-04",
-    "latest_volume": 308773.0,
-    "average_volume_20d": 686896.0,
-    "average_dollar_volume_20d": 50065505.7175,
-    "relative_volume_20d": 0.4495,
+    "as_of": "2026-08-05",
+    "latest_volume": 538765.0,
+    "average_volume_20d": 674673.95,
+    "average_dollar_volume_20d": 49016081.07,
+    "relative_volume_20d": 0.7986,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.2511132,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.1541369,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2308.TW",
+      "holding_name": "Delta Electronics Inc",
+      "weight": 0.098693,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Delta Electronics Inc",
+      "holding_name_zh": "台達電",
+      "display_name": "台達電",
+      "display_label": "(2308.TW)台達電",
+      "bilingual_name": "Delta Electronics Inc（台達電）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2327.TW",
+      "holding_name": "Yageo Corp",
+      "weight": 0.06445429,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Yageo Corp",
+      "holding_name_zh": "國巨",
+      "display_name": "國巨",
+      "display_label": "(2327.TW)國巨",
+      "bilingual_name": "Yageo Corp（國巨）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2303.TW",
+      "holding_name": "United Microelectronics Corp",
+      "weight": 0.057213,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "United Microelectronics Corp",
+      "holding_name_zh": "聯電",
+      "display_name": "聯電",
+      "display_label": "(2303.TW)聯電",
+      "bilingual_name": "United Microelectronics Corp（聯電）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2383.TW",
+      "holding_name": "Elite Material Co Ltd",
+      "weight": 0.0421502,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Elite Material Co Ltd",
+      "holding_name_zh": "台光電",
+      "display_name": "台光電",
+      "display_label": "(2383.TW)台光電",
+      "bilingual_name": "Elite Material Co Ltd（台光電）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2881.TW",
+      "holding_name": "Fubon Financial Holdings Co Ltd",
+      "weight": 0.0363019,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Fubon Financial Holdings Co Ltd",
+      "holding_name_zh": "富邦金",
+      "display_name": "富邦金",
+      "display_label": "(2881.TW)富邦金",
+      "bilingual_name": "Fubon Financial Holdings Co Ltd（富邦金）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2345.TW",
+      "holding_name": "Accton Technology Corp",
+      "weight": 0.0298823,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Accton Technology Corp",
+      "holding_name_zh": "智邦",
+      "display_name": "智邦",
+      "display_label": "(2345.TW)智邦",
+      "bilingual_name": "Accton Technology Corp（智邦）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "3017.TW",
+      "holding_name": "Asia Vital Components Co Ltd",
+      "weight": 0.0247766,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Asia Vital Components Co Ltd",
+      "holding_name_zh": "奇鋐",
+      "display_name": "奇鋐",
+      "display_label": "(3017.TW)奇鋐",
+      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
+    },
+    {
+      "etf_id": "TW-00690",
+      "holding_symbol": "2360.TW",
+      "holding_name": "Chroma Ate Inc",
+      "weight": 0.0246988,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Chroma Ate Inc",
+      "holding_name_zh": "致茂",
+      "display_name": "致茂",
+      "display_label": "(2360.TW)致茂",
+      "bilingual_name": "Chroma Ate Inc（致茂）"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.78342,
+    "top_3_weight": 0.503943
   },
   "research": {
     "tier": "context",
