@@ -63,11 +63,26 @@
   "trend": [],
   "price_history": null,
   "liquidity": null,
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "TW-00716R",
+      "holding_symbol": "BBQ9",
+      "holding_name": "Brent Crude Oil June19",
+      "weight": 0.98410004,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Brent Crude Oil June19",
+      "holding_name_zh": null,
+      "display_name": "Brent Crude Oil June19",
+      "display_label": "(BBQ9)Brent Crude Oil June19",
+      "bilingual_name": "Brent Crude Oil June19"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 1,
+    "top_10_weight": 0.9841,
+    "top_3_weight": 0.9841
   },
   "research": {
     "tier": "context",

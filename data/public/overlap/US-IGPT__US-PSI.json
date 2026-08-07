@@ -1,32 +1,32 @@
 {
   "left_etf_id": "US-IGPT",
   "right_etf_id": "US-PSI",
-  "overlap_ratio": 0.194636,
+  "overlap_ratio": 0.18418,
   "shared_holdings_count": 4,
   "shared_holdings": [
     {
       "holding_symbol": "MU",
-      "left_weight": 0.084842,
+      "left_weight": 0.073206,
       "right_weight": 0.055687,
       "overlap_weight": 0.055687
     },
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.087053,
+      "left_weight": 0.086358,
       "right_weight": 0.049833,
       "overlap_weight": 0.049833
     },
     {
-      "holding_symbol": "INTC",
-      "left_weight": 0.049155,
-      "right_weight": 0.048863,
-      "overlap_weight": 0.048863
-    },
-    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.071489,
+      "left_weight": 0.086809,
       "right_weight": 0.040253,
       "overlap_weight": 0.040253
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.038407,
+      "right_weight": 0.048863,
+      "overlap_weight": 0.038407
     }
   ]
 }

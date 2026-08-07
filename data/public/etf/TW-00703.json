@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -13.2119,
+      "value": -14.5954,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 3.0902,
+      "value": 1.4602,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 19.9146,
+      "value": 19.9311,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.24,
+      "value": 0.2406,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9206,
+      "value": 2.9246,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.0798,
+      "value": -0.002,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 3.0902,
+      "value": 1.4602,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.5965,
+      "value": 28.5958,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-05",
-    "value": 20.35,
+    "date": "2026-08-06",
+    "value": 20.15,
     "currency": "TWD"
   },
   "trend": [
@@ -3037,30 +3037,175 @@
     {
       "date": "2026-08-05",
       "value": 131.72
+    },
+    {
+      "date": "2026-08-06",
+      "value": 130.42
     }
   ],
   "price_history": {
     "first_date": "2023-07-24",
-    "last_date": "2026-08-05",
-    "observations": 736,
+    "last_date": "2026-08-06",
+    "observations": 737,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-05",
-    "latest_volume": 15161.0,
-    "average_volume_20d": 44454.9,
-    "average_dollar_volume_20d": 870193.825,
-    "relative_volume_20d": 0.341,
+    "as_of": "2026-08-06",
+    "latest_volume": 31880.0,
+    "average_volume_20d": 40889.3,
+    "average_dollar_volume_20d": 804435.313,
+    "relative_volume_20d": 0.7797,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "0700.HK",
+      "holding_name": "Tencent Holdings Ltd",
+      "weight": 0.1440487,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Tencent Holdings Ltd",
+      "holding_name_zh": null,
+      "display_name": "Tencent Holdings Ltd",
+      "display_label": "(0700.HK)Tencent Holdings Ltd",
+      "bilingual_name": "Tencent Holdings Ltd"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0841977,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
+      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "00939",
+      "holding_name": "China Construction Bank Corp Class H",
+      "weight": 0.0394769,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "China Construction Bank Corp Class H",
+      "holding_name_zh": null,
+      "display_name": "China Construction Bank Corp Class H",
+      "display_label": "(00939)China Construction Bank Corp Class H",
+      "bilingual_name": "China Construction Bank Corp Class H"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "01398",
+      "holding_name": "Industrial And Commercial Bank Of China Ltd Class H",
+      "weight": 0.0253713,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Industrial And Commercial Bank Of China Ltd Class H",
+      "holding_name_zh": null,
+      "display_name": "Industrial And Commercial Bank Of China Ltd Class H",
+      "display_label": "(01398)Industrial And Commercial Bank Of China Ltd Class H",
+      "bilingual_name": "Industrial And Commercial Bank Of China Ltd Class H"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "1810.HK",
+      "holding_name": "Xiaomi Corp Class B",
+      "weight": 0.0222211,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Xiaomi Corp Class B",
+      "holding_name_zh": null,
+      "display_name": "Xiaomi Corp Class B",
+      "display_label": "(1810.HK)Xiaomi Corp Class B",
+      "bilingual_name": "Xiaomi Corp Class B"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "9999.HK",
+      "holding_name": "NetEase Inc Ordinary Shares",
+      "weight": 0.0221305,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "NetEase Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "NetEase Inc Ordinary Shares",
+      "display_label": "(9999.HK)NetEase Inc Ordinary Shares",
+      "bilingual_name": "NetEase Inc Ordinary Shares"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "3690.HK",
+      "holding_name": "Meituan Class B",
+      "weight": 0.0211344,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Meituan Class B",
+      "holding_name_zh": null,
+      "display_name": "Meituan Class B",
+      "display_label": "(3690.HK)Meituan Class B",
+      "bilingual_name": "Meituan Class B"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "03988",
+      "holding_name": "Bank Of China Ltd Class H",
+      "weight": 0.0207688,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Bank Of China Ltd Class H",
+      "holding_name_zh": null,
+      "display_name": "Bank Of China Ltd Class H",
+      "display_label": "(03988)Bank Of China Ltd Class H",
+      "bilingual_name": "Bank Of China Ltd Class H"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "PDD",
+      "holding_name": "PDD Holdings Inc ADR",
+      "weight": 0.020618,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "PDD Holdings Inc ADR",
+      "holding_name_zh": null,
+      "display_name": "PDD Holdings Inc ADR",
+      "display_label": "(PDD)PDD Holdings Inc ADR",
+      "bilingual_name": "PDD Holdings Inc ADR"
+    },
+    {
+      "etf_id": "TW-00703",
+      "holding_symbol": "02318",
+      "holding_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
+      "weight": 0.0205072,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Ping An Insurance (Group) Co. of China Ltd Class H",
+      "holding_name_zh": null,
+      "display_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
+      "display_label": "(02318)Ping An Insurance (Group) Co. of China Ltd Class H",
+      "bilingual_name": "Ping An Insurance (Group) Co. of China Ltd Class H"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.420475,
+    "top_3_weight": 0.267723
   },
   "research": {
     "tier": "context",

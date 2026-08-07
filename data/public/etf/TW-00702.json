@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 17.6929,
+      "value": 17.3989,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 16.3753,
+      "value": 16.092,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 9.2731,
+      "value": 9.2768,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.0267,
+      "value": -0.0265,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9246,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -87,22 +87,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.6041,
+      "value": 1.573,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 16.3753,
+      "value": 16.092,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 30.6452,
+      "value": 30.6482,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-05",
-    "value": 25.3,
+    "date": "2026-08-06",
+    "value": 25.25,
     "currency": "TWD"
   },
   "trend": [
@@ -3077,21 +3077,25 @@
     {
       "date": "2026-08-05",
       "value": 118.78
+    },
+    {
+      "date": "2026-08-06",
+      "value": 118.54
     }
   ],
   "price_history": {
     "first_date": "2023-07-24",
-    "last_date": "2026-08-05",
-    "observations": 737,
+    "last_date": "2026-08-06",
+    "observations": 738,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-05",
-    "latest_volume": 112008.0,
-    "average_volume_20d": 95462.6,
-    "average_dollar_volume_20d": 2394299.667,
-    "relative_volume_20d": 1.1733,
+    "as_of": "2026-08-06",
+    "latest_volume": 4504.0,
+    "average_volume_20d": 94855.25,
+    "average_dollar_volume_20d": 2378947.4285,
+    "relative_volume_20d": 0.0475,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3099,76 +3103,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-00702",
-      "holding_symbol": "VZ",
-      "holding_name": "Verizon Communications Inc",
-      "weight": 0.034597598,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Verizon Communications Inc",
-      "holding_name_zh": null,
-      "display_name": "Verizon Communications Inc",
-      "display_label": "(VZ)Verizon Communications Inc",
-      "bilingual_name": "Verizon Communications Inc"
-    },
-    {
-      "etf_id": "TW-00702",
-      "holding_symbol": "MO",
-      "holding_name": "Altria Group Inc",
-      "weight": 0.0309148,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Altria Group Inc",
-      "holding_name_zh": null,
-      "display_name": "Altria Group Inc",
-      "display_label": "(MO)Altria Group Inc",
-      "bilingual_name": "Altria Group Inc"
-    },
-    {
-      "etf_id": "TW-00702",
-      "holding_symbol": "PFE",
-      "holding_name": "Pfizer Inc",
-      "weight": 0.0303131,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Pfizer Inc",
-      "holding_name_zh": null,
-      "display_name": "Pfizer Inc",
-      "display_label": "(PFE)Pfizer Inc",
-      "bilingual_name": "Pfizer Inc"
-    },
-    {
-      "etf_id": "TW-00702",
-      "holding_symbol": "OKE",
-      "holding_name": "ONEOK Inc",
-      "weight": 0.027032198,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "ONEOK Inc",
-      "holding_name_zh": null,
-      "display_name": "ONEOK Inc",
-      "display_label": "(OKE)ONEOK Inc",
-      "bilingual_name": "ONEOK Inc"
-    },
-    {
-      "etf_id": "TW-00702",
-      "holding_symbol": "KHC",
-      "holding_name": "The Kraft Heinz Co",
-      "weight": 0.0268142,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "The Kraft Heinz Co",
-      "holding_name_zh": null,
-      "display_name": "The Kraft Heinz Co",
-      "display_label": "(KHC)The Kraft Heinz Co",
-      "bilingual_name": "The Kraft Heinz Co"
-    },
-    {
-      "etf_id": "TW-00702",
       "holding_symbol": "DOC",
       "holding_name": "Healthpeak Properties Inc",
-      "weight": 0.0262504,
-      "as_of": "2026-07-19",
+      "weight": 0.0357918,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Healthpeak Properties Inc",
       "holding_name_zh": null,
       "display_name": "Healthpeak Properties Inc",
@@ -3177,37 +3117,96 @@
     },
     {
       "etf_id": "TW-00702",
-      "holding_symbol": "CAG",
-      "holding_name": "Conagra Brands Inc",
-      "weight": 0.025991298,
-      "as_of": "2026-07-19",
+      "holding_symbol": "MO",
+      "holding_name": "Altria Group Inc",
+      "weight": 0.0347697,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Conagra Brands Inc",
+      "rank": 2,
+      "holding_name_en": "Altria Group Inc",
       "holding_name_zh": null,
-      "display_name": "Conagra Brands Inc",
-      "display_label": "(CAG)Conagra Brands Inc",
-      "bilingual_name": "Conagra Brands Inc"
+      "display_name": "Altria Group Inc",
+      "display_label": "(MO)Altria Group Inc",
+      "bilingual_name": "Altria Group Inc"
     },
     {
       "etf_id": "TW-00702",
-      "holding_symbol": "VICI",
-      "holding_name": "VICI Properties Inc Ordinary Shares",
-      "weight": 0.0244459,
-      "as_of": "2026-07-19",
+      "holding_symbol": "VZ",
+      "holding_name": "Verizon Communications Inc",
+      "weight": 0.0301036,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "VICI Properties Inc Ordinary Shares",
+      "rank": 3,
+      "holding_name_en": "Verizon Communications Inc",
       "holding_name_zh": null,
-      "display_name": "VICI Properties Inc Ordinary Shares",
-      "display_label": "(VICI)VICI Properties Inc Ordinary Shares",
-      "bilingual_name": "VICI Properties Inc Ordinary Shares"
+      "display_name": "Verizon Communications Inc",
+      "display_label": "(VZ)Verizon Communications Inc",
+      "bilingual_name": "Verizon Communications Inc"
+    },
+    {
+      "etf_id": "TW-00702",
+      "holding_symbol": "BEN",
+      "holding_name": "Franklin Resources Inc",
+      "weight": 0.0294428,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Franklin Resources Inc",
+      "holding_name_zh": null,
+      "display_name": "Franklin Resources Inc",
+      "display_label": "(BEN)Franklin Resources Inc",
+      "bilingual_name": "Franklin Resources Inc"
+    },
+    {
+      "etf_id": "TW-00702",
+      "holding_symbol": "KHC",
+      "holding_name": "The Kraft Heinz Co",
+      "weight": 0.0291121,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "The Kraft Heinz Co",
+      "holding_name_zh": null,
+      "display_name": "The Kraft Heinz Co",
+      "display_label": "(KHC)The Kraft Heinz Co",
+      "bilingual_name": "The Kraft Heinz Co"
+    },
+    {
+      "etf_id": "TW-00702",
+      "holding_symbol": "OKE",
+      "holding_name": "ONEOK Inc",
+      "weight": 0.0268554,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "ONEOK Inc",
+      "holding_name_zh": null,
+      "display_name": "ONEOK Inc",
+      "display_label": "(OKE)ONEOK Inc",
+      "bilingual_name": "ONEOK Inc"
+    },
+    {
+      "etf_id": "TW-00702",
+      "holding_symbol": "PFE",
+      "holding_name": "Pfizer Inc",
+      "weight": 0.0268172,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Pfizer Inc",
+      "holding_name_zh": null,
+      "display_name": "Pfizer Inc",
+      "display_label": "(PFE)Pfizer Inc",
+      "bilingual_name": "Pfizer Inc"
     },
     {
       "etf_id": "TW-00702",
       "holding_symbol": "AMCR",
       "holding_name": "Amcor PLC Ordinary Shares",
-      "weight": 0.0233091,
-      "as_of": "2026-07-19",
+      "weight": 0.0262254,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Amcor PLC Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Amcor PLC Ordinary Shares",
@@ -3216,22 +3215,37 @@
     },
     {
       "etf_id": "TW-00702",
-      "holding_symbol": "O",
-      "holding_name": "Realty Income Corp",
-      "weight": 0.0229072,
-      "as_of": "2026-07-19",
+      "holding_symbol": "KIM",
+      "holding_name": "Kimco Realty Corp",
+      "weight": 0.0254467,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Realty Income Corp",
+      "rank": 9,
+      "holding_name_en": "Kimco Realty Corp",
       "holding_name_zh": null,
-      "display_name": "Realty Income Corp",
-      "display_label": "(O)Realty Income Corp",
-      "bilingual_name": "Realty Income Corp"
+      "display_name": "Kimco Realty Corp",
+      "display_label": "(KIM)Kimco Realty Corp",
+      "bilingual_name": "Kimco Realty Corp"
+    },
+    {
+      "etf_id": "TW-00702",
+      "holding_symbol": "VICI",
+      "holding_name": "VICI Properties Inc Ordinary Shares",
+      "weight": 0.0242885,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "VICI Properties Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "VICI Properties Inc Ordinary Shares",
+      "display_label": "(VICI)VICI Properties Inc Ordinary Shares",
+      "bilingual_name": "VICI Properties Inc Ordinary Shares"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.272576,
-    "top_3_weight": 0.095825
+    "top_10_weight": 0.288853,
+    "top_3_weight": 0.100665
   },
   "research": {
     "tier": "context",

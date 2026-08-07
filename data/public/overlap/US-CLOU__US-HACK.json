@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-CLOU",
   "right_etf_id": "US-HACK",
-  "overlap_ratio": 0.043327,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.080709,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NET",
       "left_weight": 0.043327,
-      "right_weight": 0.048413,
+      "right_weight": 0.053994,
       "overlap_weight": 0.043327
+    },
+    {
+      "holding_symbol": "QLYS",
+      "left_weight": 0.037382,
+      "right_weight": 0.042731,
+      "overlap_weight": 0.037382
     }
   ]
 }

@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-DRIV",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0.026675,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.05969,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "GOOGL",
-      "left_weight": 0.026675,
+      "left_weight": 0.03087,
       "right_weight": 0.036842,
-      "overlap_weight": 0.026675
+      "overlap_weight": 0.03087
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.02882,
+      "right_weight": 0.032486,
+      "overlap_weight": 0.02882
     }
   ]
 }
