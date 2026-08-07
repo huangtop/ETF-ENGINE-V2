@@ -1,7 +1,32 @@
 {
   "left_etf_id": "US-QTUM",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.059073,
+  "shared_holdings_count": 4,
+  "shared_holdings": [
+    {
+      "holding_symbol": "NET",
+      "left_weight": 0.015732,
+      "right_weight": 0.029433,
+      "overlap_weight": 0.015732
+    },
+    {
+      "holding_symbol": "NTNX",
+      "left_weight": 0.014719,
+      "right_weight": 0.042876,
+      "overlap_weight": 0.014719
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.014487,
+      "right_weight": 0.037747,
+      "overlap_weight": 0.014487
+    },
+    {
+      "holding_symbol": "AMZN",
+      "left_weight": 0.014135,
+      "right_weight": 0.032783,
+      "overlap_weight": 0.014135
+    }
+  ]
 }

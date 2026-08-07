@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-CLOU",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0.039481,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.058477,
+  "shared_holdings_count": 2,
   "shared_holdings": [
+    {
+      "holding_symbol": "NET",
+      "left_weight": 0.043327,
+      "right_weight": 0.029433,
+      "overlap_weight": 0.029433
+    },
     {
       "holding_symbol": "DOCN",
       "left_weight": 0.058947,
-      "right_weight": 0.039481,
-      "overlap_weight": 0.039481
+      "right_weight": 0.029044,
+      "overlap_weight": 0.029044
     }
   ]
 }

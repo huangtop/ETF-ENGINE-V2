@@ -1,7 +1,20 @@
 {
   "left_etf_id": "US-CLOU",
   "right_etf_id": "US-ROBT",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.034644,
+  "shared_holdings_count": 2,
+  "shared_holdings": [
+    {
+      "holding_symbol": "NET",
+      "left_weight": 0.043327,
+      "right_weight": 0.018017,
+      "overlap_weight": 0.018017
+    },
+    {
+      "holding_symbol": "WDAY",
+      "left_weight": 0.036215,
+      "right_weight": 0.016627,
+      "overlap_weight": 0.016627
+    }
+  ]
 }

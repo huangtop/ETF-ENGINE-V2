@@ -47,23 +47,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 295.3285,
+      "value": 223.611,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 2976.7745,
+      "value": 2774.984,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 162.0669,
+      "value": 162.0475,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.5145,
+      "value": 0.8916,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.8095,
+      "value": 1.8135,
       "unit": "years"
     },
     "max_drawdown": {
@@ -71,22 +71,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 18.3583,
+      "value": 17.1153,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 2976.7745,
+      "value": 2774.984,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 159.1866,
+      "value": 124.7591,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-06",
-    "value": 26.93,
+    "date": "2026-08-07",
+    "value": 26.62,
     "currency": "USD"
   },
   "trend": [
@@ -1913,21 +1913,25 @@
     {
       "date": "2026-08-06",
       "value": 2138.7
+    },
+    {
+      "date": "2026-08-07",
+      "value": 2114.08
     }
   ],
   "price_history": {
     "first_date": "2024-10-10",
-    "last_date": "2026-08-06",
-    "observations": 456,
+    "last_date": "2026-08-07",
+    "observations": 457,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-06",
-    "latest_volume": 41076329.0,
-    "average_volume_20d": 50533966.3,
-    "average_dollar_volume_20d": 1435994160.4206,
-    "relative_volume_20d": 0.8128,
+    "as_of": "2026-08-07",
+    "latest_volume": 35413121.0,
+    "average_volume_20d": 50736372.5,
+    "average_dollar_volume_20d": 1424032879.0977,
+    "relative_volume_20d": 0.698,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1937,7 +1941,7 @@
       "etf_id": "US-MUU",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.1664225,
+      "weight": 0.1230384,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1950,8 +1954,8 @@
   ],
   "holdings_summary": {
     "holding_count": 1,
-    "top_10_weight": 0.166423,
-    "top_3_weight": 0.166423
+    "top_10_weight": 0.123038,
+    "top_3_weight": 0.123038
   },
   "research": {
     "tier": "tactical",
