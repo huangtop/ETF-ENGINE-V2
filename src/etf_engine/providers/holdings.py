@@ -76,8 +76,9 @@ def normalize(etf_id: str, raw: Any, source: str) -> list[dict[str, Any]]:
             continue
 
         try:
-            parsed_weight = float(str(weight).replace("%", ""))
-            if parsed_weight > 1:
+            weight_text = str(weight).strip()
+            parsed_weight = float(weight_text.replace("%", ""))
+            if "%" in weight_text or parsed_weight > 1:
                 parsed_weight /= 100
         except (TypeError, ValueError):
             continue
@@ -133,6 +134,7 @@ class FuhwaProvider:
 
     name = "fuhwa"
     coverage = "full_portfolio"
+    authoritative = True
     endpoint = "https://www.fhtrust.com.tw/api/assetsExcel/{fund_id}/{date}"
     fund_ids = {"TW-00991A": "ETF23"}
     max_lookback_days = 10
@@ -181,10 +183,19 @@ class FuhwaProvider:
             if not rows:
                 errors.append(f"{requested_date.isoformat()}: empty official holdings")
                 continue
+            total_weight = sum(float(row["weight"]) for row in rows)
+            if not 0.5 <= total_weight <= 1.05:
+                errors.append(
+                    f"{requested_date.isoformat()}: implausible total weight {total_weight:.4f}"
+                )
+                continue
             return self._add_market_suffixes(rows)
 
         detail = "; ".join(errors[-3:]) or "no workbook in lookback window"
         raise RuntimeError(f"no valid official holdings workbook: {detail}")
+
+    def supports(self, entity: ETFEntity) -> bool:
+        return entity.etf_id in self.fund_ids
 
     @staticmethod
     def _parse_workbook(content: bytes) -> tuple[str, list[dict[str, Any]]]:
@@ -237,22 +248,22 @@ class FuhwaProvider:
         return ["".join(node.itertext()) for node in root.findall("x:si", namespace)]
 
     def _add_market_suffixes(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-        otc_symbols = self._otc_symbols()
+        listed_symbols = self._listed_symbols()
         for row in rows:
             symbol = row["holding_symbol"]
-            row["holding_symbol"] = f"{symbol}.{'TWO' if symbol in otc_symbols else 'TW'}"
+            row["holding_symbol"] = f"{symbol}.{'TW' if symbol in listed_symbols else 'TWO'}"
         return rows
 
-    def _otc_symbols(self) -> set[str]:
-        url = "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O"
+    def _listed_symbols(self) -> set[str]:
+        url = "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
         try:
             response = self.session.get(url, timeout=self.timeout_seconds)
             response.raise_for_status()
             payload = response.json()
         except (requests.RequestException, ValueError) as exc:
-            raise RuntimeError(f"official TPEx symbol lookup failed: {exc}") from exc
+            raise RuntimeError(f"official TWSE symbol lookup failed: {exc}") from exc
         return {
-            str(row.get("SecuritiesCompanyCode", "")).strip()
+            str(row.get("公司代號", "")).strip()
             for row in payload
             if isinstance(row, dict)
         }

@@ -113,7 +113,12 @@ def _price_metadata(frame: pd.DataFrame, currency: str) -> tuple[dict, dict | No
     }
 
 
-def _render_public(target_dir: Path, baseline_dir: Path) -> None:
+def _render_public(
+    target_dir: Path,
+    baseline_dir: Path,
+    holdings_updated_ids_override: set[str] | None = None,
+    preserve_existing_prices: bool = False,
+) -> None:
     repo = SeedRepository()
     entities = [x.model_dump(mode="json") for x in repo.entities()]
     classifications = [x.model_dump(mode="json") for x in repo.classifications()]
@@ -130,7 +135,11 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
     failed_price_ids = {
         row.get("etf_id") for row in last_run.get("errors", []) if row.get("stage") == "prices"
     }
-    holdings_updated_ids = set(last_run.get("holdings_updated", []))
+    holdings_updated_ids = (
+        holdings_updated_ids_override
+        if holdings_updated_ids_override is not None
+        else set(last_run.get("holdings_updated", []))
+    )
     existing_index_path = baseline_dir / "etfs.json"
     existing_index = (
         json.loads(existing_index_path.read_text(encoding="utf-8"))
@@ -197,7 +206,7 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
             short_name_zh or name_zh or entity.get("short_name") or entity.get("ticker")
         )
 
-        frame = price_repo.load(etf_id)
+        frame = pd.DataFrame() if preserve_existing_prices else price_repo.load(etf_id)
         latest_price = None
         trend = []
         price_history = existing.get("price_history")
@@ -419,13 +428,22 @@ def _render_public(target_dir: Path, baseline_dir: Path) -> None:
     HoldingsChangeExporter(public_dir=target_dir / "history" / "holdings").build()
 
 
-def build_public():
+def build_public(
+    *,
+    holdings_updated_ids_override: set[str] | None = None,
+    preserve_existing_prices: bool = False,
+):
     """Render, validate, and atomically publish a complete public dataset."""
     public_dir = settings.public_dir
     public_dir.parent.mkdir(parents=True, exist_ok=True)
     candidate_dir = public_dir.with_name(f".{public_dir.name}-candidate-{uuid4().hex}")
     try:
-        _render_public(candidate_dir, public_dir)
+        _render_public(
+            candidate_dir,
+            public_dir,
+            holdings_updated_ids_override,
+            preserve_existing_prices,
+        )
         history_dir = (
             settings.root / "data" / "history" / "holdings"
             if hasattr(settings, "root")

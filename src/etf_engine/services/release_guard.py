@@ -194,7 +194,25 @@ def _validate_holdings_history(
         )
         expected_hash = snapshot.get("content_sha256")
         actual_hash = _holdings_content_hash(etf_id, item["top_holdings"])
-        if expected_hash and actual_hash != expected_hash:
+        snapshot_holdings = snapshot.get("holdings", [])
+        snapshot_map = {
+            (str(row.get("holding_symbol") or "").strip().upper(), str(row.get("source") or "unknown")): round(
+                float(row.get("weight", -1)), 8
+            )
+            for row in snapshot_holdings
+            if isinstance(row, dict)
+        }
+        candidate_matches_snapshot = bool(snapshot_map) and all(
+            snapshot_map.get(
+                (
+                    str(row.get("holding_symbol") or "").strip().upper(),
+                    str(row.get("source") or "unknown"),
+                )
+            )
+            == round(float(row.get("weight", -2)), 8)
+            for row in item["top_holdings"]
+        )
+        if expected_hash and actual_hash != expected_hash and not candidate_matches_snapshot:
             errors.append(f"{etf_id}: holdings cache does not match history current snapshot")
     return errors
 

@@ -254,3 +254,39 @@ def test_rejects_holdings_cache_that_disagrees_with_history(tmp_path):
 
     assert not validation.passed
     assert any("does not match history" in error for error in validation.errors)
+
+
+def test_accepts_public_top_holdings_subset_of_full_portfolio_snapshot(tmp_path):
+    public = tmp_path / "public"
+    candidate = tmp_path / "candidate"
+    history = tmp_path / "history"
+    dataset(public, [item()])
+    changed = item()
+    changed["top_holdings"][0]["weight"] = 0.09
+    dataset(candidate, [changed])
+    full_holdings = [
+        {
+            "etf_id": "US-SPY",
+            "holding_symbol": "NVDA",
+            "weight": 0.09,
+            "source": "unknown",
+        },
+        {
+            "etf_id": "US-SPY",
+            "holding_symbol": "MSFT",
+            "weight": 0.07,
+            "source": "unknown",
+        },
+    ]
+    expected_hash = hashlib.sha256(
+        json.dumps(full_holdings, sort_keys=True, separators=(",", ":")).encode()
+    ).hexdigest()
+    write_json(history / "snapshot_index.json", {"etfs": {"US-SPY": {"current": "full"}}})
+    write_json(
+        history / "snapshots" / "full.json",
+        {"content_sha256": expected_hash, "holdings": full_holdings},
+    )
+
+    validation = validate_candidate(public, candidate, history)
+
+    assert validation.passed

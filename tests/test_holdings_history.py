@@ -112,6 +112,11 @@ def test_normalize_does_not_invent_provider_as_of():
     assert missing_date[0]["as_of"] is None
 
 
+def test_normalize_treats_sub_one_percent_string_as_percentage():
+    rows = normalize("TW-TEST", [{"symbol": "2885", "weight": "0.473%"}], "official")
+    assert rows[0]["weight"] == 0.00473
+
+
 def test_provider_as_of_is_distinct_from_observed_at(tmp_path):
     history = HoldingsHistoryService(
         tmp_path,
@@ -141,6 +146,14 @@ class Provider:
         if self.error:
             raise self.error
         return self.result
+
+
+class AuthoritativeProvider(Provider):
+    name = "official"
+    authoritative = True
+
+    def supports(self, entity):
+        return True
 
 
 class HistorySpy:
@@ -178,6 +191,27 @@ def test_provider_failure_preserves_last_known_good_and_does_not_record(tmp_path
     assert result.errors == ("yahoo: provider down",)
     assert spy.calls == []
     assert json.loads(cache.read_text()) == holdings()
+
+
+def test_authoritative_provider_failure_does_not_fall_back_or_replace_cache(
+    tmp_path, monkeypatch
+):
+    spy = HistorySpy()
+    fallback = Provider(result=holdings(0.9))
+    service = HoldingService(
+        providers=[AuthoritativeProvider(error=RuntimeError("official down")), fallback],
+        history=spy,
+    )
+    cache = tmp_path / "US-TEST.json"
+    cache.write_text(json.dumps(holdings()), encoding="utf-8")
+    monkeypatch.setattr(service, "path", lambda etf_id: cache)
+
+    result = service.sync_with_status(entity())
+
+    assert result.fetched is False
+    assert result.rows == holdings()
+    assert result.errors == ("official: official down",)
+    assert spy.calls == []
 
 
 def test_success_records_history_and_updates_cache(tmp_path, monkeypatch):

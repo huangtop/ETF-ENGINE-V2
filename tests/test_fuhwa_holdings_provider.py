@@ -87,7 +87,7 @@ def test_fetches_latest_available_official_workbook_and_normalizes_symbols():
         [
             Response(404),
             Response(content=workbook()),
-            Response(payload=[{"SecuritiesCompanyCode": "2331"}]),
+            Response(payload=[{"公司代號": "2330"}]),
         ]
     )
     provider = FuhwaProvider(session=session, today=lambda: date(2026, 8, 8))
@@ -107,6 +107,7 @@ def test_fetches_latest_available_official_workbook_and_normalizes_symbols():
         "rank": 1,
     }
     assert rows[1]["holding_symbol"] == "2331.TWO"
+    assert sum(row["weight"] for row in rows) < 1
 
 
 def test_rejects_workbook_whose_embedded_date_does_not_match_request():

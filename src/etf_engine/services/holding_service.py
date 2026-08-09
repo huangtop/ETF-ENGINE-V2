@@ -46,8 +46,13 @@ class HoldingService:
                 rows = provider.fetch(entity)
             except Exception as exc:
                 errors.append(f"{provider.name}: {exc}")
+                if getattr(provider, "authoritative", False) and provider.supports(entity):
+                    break
                 continue
             if not rows:
+                if getattr(provider, "authoritative", False) and provider.supports(entity):
+                    errors.append(f"{provider.name}: official holdings were empty")
+                    break
                 continue
 
             rows = self._preserve_unchanged_metadata(self.load(entity.etf_id), rows)
