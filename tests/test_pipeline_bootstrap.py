@@ -9,7 +9,11 @@ from etf_engine.models import ETFEntity
 from etf_engine.services.holding_service import HoldingSyncResult
 
 
-def entity(etf_id: str, market: str = "US") -> ETFEntity:
+def entity(
+    etf_id: str,
+    market: str = "US",
+    management_style: str | None = None,
+) -> ETFEntity:
     ticker = etf_id.split("-", 1)[1]
     return ETFEntity(
         etf_id=etf_id,
@@ -20,6 +24,7 @@ def entity(etf_id: str, market: str = "US") -> ETFEntity:
         listing_exchange="TWSE" if market == "TW" else "US",
         currency="TWD" if market == "TW" else "USD",
         benchmark_symbol="0050.TW" if market == "TW" else "SPY",
+        management_style=management_style,
     )
 
 
@@ -43,6 +48,26 @@ def test_selects_all_cached_and_round_robin_missing():
     )
     assert [row.etf_id for row in attempted] == ["US-B"]
     assert cursor == "US-B"
+
+
+def test_price_selection_always_includes_active_etf_without_cache():
+    entities = [
+        entity("TW-0050", "TW"),
+        entity("TW-00991A", "TW", management_style="active"),
+        entity("TW-00992", "TW"),
+    ]
+
+    scheduled, attempted, cursor = pipeline.select_entities_for_run(
+        entities,
+        set(),
+        bootstrap_limit=1,
+        cursor=None,
+        priority_ids={"TW-00991A"},
+    )
+
+    assert [row.etf_id for row in scheduled] == ["TW-0050", "TW-00991A"]
+    assert [row.etf_id for row in attempted] == ["TW-00991A", "TW-0050"]
+    assert cursor == "TW-0050"
 
 
 def test_holdings_selection_keeps_core_daily_and_rotates_non_core():
@@ -71,6 +96,25 @@ def test_holdings_selection_keeps_core_daily_and_rotates_non_core():
     assert [row.etf_id for row in selected] == ["US-SPY", "US-C"]
     assert [row.etf_id for row in rotating] == ["US-C"]
     assert cursor == "US-C"
+
+
+def test_holdings_selection_keeps_active_etfs_daily_outside_rotation():
+    entities = [
+        entity("TW-0050", "TW"),
+        entity("TW-00700", "TW"),
+        entity("TW-00991A", "TW", management_style="active"),
+        entity("TW-00992", "TW"),
+    ]
+
+    selected, rotating, cursor = pipeline.select_holdings_for_run(
+        entities,
+        rotation_limit=1,
+        cursor="TW-00700",
+    )
+
+    assert [row.etf_id for row in selected] == ["TW-0050", "TW-00991A", "TW-00992"]
+    assert [row.etf_id for row in rotating] == ["TW-00992"]
+    assert cursor == "TW-00992"
 
 
 def test_merge_metrics_preserves_unprocessed_etfs_and_replaces_current_value():

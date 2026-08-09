@@ -24,11 +24,25 @@ def select_entities_for_run(
     cached_ids: set[str],
     bootstrap_limit: int,
     cursor: str | None,
+    priority_ids: set[str] | None = None,
 ) -> tuple[list[ETFEntity], list[ETFEntity], str | None]:
-    """Run every cached entity plus a bounded, round-robin set without cache."""
+    """Run cached and priority entities plus a bounded missing-cache rotation."""
+    priority_ids = priority_ids or set()
     cached = [entity for entity in entities if entity.etf_id in cached_ids]
+    priority_missing = sorted(
+        (
+            entity
+            for entity in entities
+            if entity.etf_id in priority_ids and entity.etf_id not in cached_ids
+        ),
+        key=lambda entity: entity.etf_id,
+    )
     missing = sorted(
-        (entity for entity in entities if entity.etf_id not in cached_ids),
+        (
+            entity
+            for entity in entities
+            if entity.etf_id not in cached_ids and entity.etf_id not in priority_ids
+        ),
         key=lambda entity: entity.etf_id,
     )
     if bootstrap_limit <= 0 or bootstrap_limit >= len(missing):
@@ -37,10 +51,11 @@ def select_entities_for_run(
         after_cursor = [entity for entity in missing if not cursor or entity.etf_id > cursor]
         through_cursor = [entity for entity in missing if cursor and entity.etf_id <= cursor]
         selected_missing = (after_cursor + through_cursor)[:bootstrap_limit]
-    selected_ids = {entity.etf_id for entity in cached + selected_missing}
+    attempted = priority_missing + selected_missing
+    selected_ids = {entity.etf_id for entity in cached + attempted}
     scheduled = [entity for entity in entities if entity.etf_id in selected_ids]
     next_cursor = selected_missing[-1].etf_id if selected_missing else cursor
-    return scheduled, selected_missing, next_cursor
+    return scheduled, attempted, next_cursor
 
 
 def select_holdings_for_run(
@@ -51,6 +66,9 @@ def select_holdings_for_run(
 ) -> tuple[list[ETFEntity], list[ETFEntity], str | None]:
     """Select daily core holdings plus a bounded round-robin non-core group."""
     core_ids = core_ids or CORE_DAILY_HOLDINGS_IDS
+    core_ids = core_ids | {
+        entity.etf_id for entity in entities if entity.management_style == "active"
+    }
     core = [entity for entity in entities if entity.etf_id in core_ids]
     rotating = sorted(
         (entity for entity in entities if entity.etf_id not in core_ids),
@@ -195,6 +213,9 @@ def run(
         for entity in entities
         if (settings.normalized_dir / "prices" / f"{entity.etf_id}.parquet").exists()
     }
+    priority_price_ids = {
+        entity.etf_id for entity in entities if entity.management_style == "active"
+    }
     next_cursors: dict[str, str | None] = {}
     if market == "all" and limit > 0:
         markets = sorted({entity.listing_market for entity in entities})
@@ -211,6 +232,7 @@ def run(
                 cached_ids,
                 quota,
                 cursor_by_market.get(listing_market),
+                priority_price_ids,
             )
             scheduled_by_id.update({entity.etf_id: entity for entity in market_scheduled})
             attempted_new.extend(market_attempted)
@@ -218,7 +240,7 @@ def run(
         scheduled = [entity for entity in entities if entity.etf_id in scheduled_by_id]
     else:
         scheduled, attempted_new, next_cursor = select_entities_for_run(
-            entities, cached_ids, limit, cursor
+            entities, cached_ids, limit, cursor, priority_price_ids
         )
         next_cursors[market] = next_cursor
 
