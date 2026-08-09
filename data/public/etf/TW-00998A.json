@@ -59,23 +59,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 38.2456,
-      "unit": "percent"
-    },
-    "annualized_return": {
-      "value": 61.8744,
+      "value": 40.2275,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.1049,
+      "value": 16.9716,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.213,
+      "value": 0.2037,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3254,
+      "value": 0.3571,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.5296,
+      "value": null,
       "unit": "ratio"
     },
-    "total_return_1y": {
-      "value": 20.1337,
+    "total_return_since_inception": {
+      "value": 23.6129,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 31.2139,
+      "value": 33.6966,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 17.61,
+    "date": "2026-08-07",
+    "value": 18.12,
     "currency": "TWD"
   },
   "trend": [
@@ -429,15 +425,203 @@
     {
       "date": "2026-07-28",
       "value": 120.13
+    },
+    {
+      "date": "2026-07-29",
+      "value": 119.18
+    },
+    {
+      "date": "2026-07-30",
+      "value": 118.02
+    },
+    {
+      "date": "2026-07-31",
+      "value": 120.54
+    },
+    {
+      "date": "2026-08-03",
+      "value": 122.04
+    },
+    {
+      "date": "2026-08-04",
+      "value": 123.14
+    },
+    {
+      "date": "2026-08-05",
+      "value": 123.54
+    },
+    {
+      "date": "2026-08-06",
+      "value": 123.48
+    },
+    {
+      "date": "2026-08-07",
+      "value": 123.61
     }
   ],
-  "price_history": null,
-  "liquidity": null,
-  "top_holdings": [],
+  "price_history": {
+    "first_date": "2026-03-31",
+    "last_date": "2026-08-07",
+    "observations": 90,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-07",
+    "latest_volume": 1030000.0,
+    "average_volume_20d": 2794800.0,
+    "average_dollar_volume_20d": 49033974.5329,
+    "relative_volume_20d": 0.3685,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "NLY",
+      "holding_name": "Annaly Capital Management Inc",
+      "weight": 0.0475203,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Annaly Capital Management Inc",
+      "holding_name_zh": null,
+      "display_name": "Annaly Capital Management Inc",
+      "display_label": "(NLY)Annaly Capital Management Inc",
+      "bilingual_name": "Annaly Capital Management Inc"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "BMPS.MI",
+      "holding_name": "Banca Monte dei Paschi di Siena",
+      "weight": 0.0457676,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Banca Monte dei Paschi di Siena",
+      "holding_name_zh": null,
+      "display_name": "Banca Monte dei Paschi di Siena",
+      "display_label": "(BMPS.MI)Banca Monte dei Paschi di Siena",
+      "bilingual_name": "Banca Monte dei Paschi di Siena"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "UNI.MI",
+      "holding_name": "Unipol Assicurazioni SpA",
+      "weight": 0.0437044,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Unipol Assicurazioni SpA",
+      "holding_name_zh": null,
+      "display_name": "Unipol Assicurazioni SpA",
+      "display_label": "(UNI.MI)Unipol Assicurazioni SpA",
+      "bilingual_name": "Unipol Assicurazioni SpA"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "ABN.AS",
+      "holding_name": "ABN AMRO Bank NV",
+      "weight": 0.0391578,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "ABN AMRO Bank NV",
+      "holding_name_zh": null,
+      "display_name": "ABN AMRO Bank NV",
+      "display_label": "(ABN.AS)ABN AMRO Bank NV",
+      "bilingual_name": "ABN AMRO Bank NV"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "C",
+      "holding_name": "Citigroup Inc",
+      "weight": 0.0387976,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Citigroup Inc",
+      "holding_name_zh": null,
+      "display_name": "Citigroup Inc",
+      "display_label": "(C)Citigroup Inc",
+      "bilingual_name": "Citigroup Inc"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "HSBA.L",
+      "holding_name": "HSBC Holdings PLC",
+      "weight": 0.0384922,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "HSBC Holdings PLC",
+      "holding_name_zh": null,
+      "display_name": "HSBC Holdings PLC",
+      "display_label": "(HSBA.L)HSBC Holdings PLC",
+      "bilingual_name": "HSBC Holdings PLC"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "TPEIR.AT",
+      "holding_name": "Piraeus Bank SA",
+      "weight": 0.0382857,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Piraeus Bank SA",
+      "holding_name_zh": null,
+      "display_name": "Piraeus Bank SA",
+      "display_label": "(TPEIR.AT)Piraeus Bank SA",
+      "bilingual_name": "Piraeus Bank SA"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "MS",
+      "holding_name": "Morgan Stanley",
+      "weight": 0.0347682,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Morgan Stanley",
+      "holding_name_zh": null,
+      "display_name": "Morgan Stanley",
+      "display_label": "(MS)Morgan Stanley",
+      "bilingual_name": "Morgan Stanley"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "AMUN.PA",
+      "holding_name": "Amundi SA",
+      "weight": 0.0309455,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Amundi SA",
+      "holding_name_zh": null,
+      "display_name": "Amundi SA",
+      "display_label": "(AMUN.PA)Amundi SA",
+      "bilingual_name": "Amundi SA"
+    },
+    {
+      "etf_id": "TW-00998A",
+      "holding_symbol": "ETE.AT",
+      "holding_name": "National Bank of Greece SA",
+      "weight": 0.0301861,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "National Bank of Greece SA",
+      "holding_name_zh": null,
+      "display_name": "National Bank of Greece SA",
+      "display_label": "(ETE.AT)National Bank of Greece SA",
+      "bilingual_name": "National Bank of Greece SA"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.387625,
+    "top_3_weight": 0.136992
   },
   "research": {
     "tier": "context",

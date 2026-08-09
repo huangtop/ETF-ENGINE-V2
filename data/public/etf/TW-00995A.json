@@ -51,46 +51,42 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 11.492,
-      "unit": "percent"
-    },
-    "annualized_return": {
-      "value": 116.7469,
+      "value": 14.843,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 43.6282,
+      "value": 47.1837,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.1812,
+      "value": 1.1668,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.5079,
+      "value": 0.5437,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -19.659,
+      "value": -26.7981,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.6416,
+      "value": null,
       "unit": "ratio"
     },
-    "total_return_1y": {
-      "value": 59.3,
+    "total_return_since_inception": {
+      "value": 63.9,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 23.2871,
+      "value": 25.0552,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 15.93,
+    "date": "2026-08-07",
+    "value": 16.39,
     "currency": "TWD"
   },
   "trend": [
@@ -605,10 +601,61 @@
     {
       "date": "2026-07-27",
       "value": 159.3
+    },
+    {
+      "date": "2026-07-28",
+      "value": 147.3
+    },
+    {
+      "date": "2026-07-29",
+      "value": 137.4
+    },
+    {
+      "date": "2026-07-30",
+      "value": 137.7
+    },
+    {
+      "date": "2026-07-31",
+      "value": 151.2
+    },
+    {
+      "date": "2026-08-03",
+      "value": 157.9
+    },
+    {
+      "date": "2026-08-04",
+      "value": 160.2
+    },
+    {
+      "date": "2026-08-05",
+      "value": 166.2
+    },
+    {
+      "date": "2026-08-06",
+      "value": 168.4
+    },
+    {
+      "date": "2026-08-07",
+      "value": 163.9
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2026-01-13",
+    "last_date": "2026-08-07",
+    "observations": 137,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-07",
+    "latest_volume": 3581160.0,
+    "average_volume_20d": 7868259.5,
+    "average_dollar_volume_20d": 120601889.9664,
+    "relative_volume_20d": 0.4551,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00995A",
@@ -617,6 +664,7 @@
       "weight": 0.0912,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
       "holding_name_zh": "台積電",
       "display_name": "台積電",
@@ -630,6 +678,7 @@
       "weight": 0.0752,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Elite Material Co Ltd",
       "holding_name_zh": "台光電",
       "display_name": "台光電",
@@ -643,6 +692,7 @@
       "weight": 0.0631,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "MediaTek Inc",
       "holding_name_zh": "聯發科",
       "display_name": "聯發科",
@@ -656,6 +706,7 @@
       "weight": 0.0626,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Yageo Corp",
       "holding_name_zh": "國巨",
       "display_name": "國巨",
@@ -669,6 +720,7 @@
       "weight": 0.0538,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Accton Technology Corp",
       "holding_name_zh": "智邦",
       "display_name": "智邦",
@@ -682,6 +734,7 @@
       "weight": 0.045,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 6,
       "holding_name_en": "Unimicron Technology Corp",
       "holding_name_zh": "欣興",
       "display_name": "欣興",
@@ -695,6 +748,7 @@
       "weight": 0.0397,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "MPI Corp",
       "holding_name_zh": null,
       "display_name": "MPI Corp",
@@ -705,9 +759,10 @@
       "etf_id": "TW-00995A",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.038900003,
+      "weight": 0.0389,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Delta Electronics Inc",
       "holding_name_zh": "台達電",
       "display_name": "台達電",
@@ -718,9 +773,10 @@
       "etf_id": "TW-00995A",
       "holding_symbol": "3017.TW",
       "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.038900003,
+      "weight": 0.0389,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "Asia Vital Components Co Ltd",
       "holding_name_zh": "奇鋐",
       "display_name": "奇鋐",
@@ -734,6 +790,7 @@
       "weight": 0.0365,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 10,
       "holding_name_en": "Nan Ya Printed Circuit Board Corp",
       "holding_name_zh": null,
       "display_name": "Nan Ya Printed Circuit Board Corp",

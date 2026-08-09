@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-SHOC",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.089859,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.1286,
+  "shared_holdings_count": 3,
   "shared_holdings": [
-    {
-      "holding_symbol": "MU",
-      "left_weight": 0.119789,
-      "right_weight": 0.052291,
-      "overlap_weight": 0.052291
-    },
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.210751,
-      "right_weight": 0.037568,
-      "overlap_weight": 0.037568
+      "right_weight": 0.050213,
+      "overlap_weight": 0.050213
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.119789,
+      "right_weight": 0.045433,
+      "overlap_weight": 0.045433
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.11935,
+      "right_weight": 0.032954,
+      "overlap_weight": 0.032954
     }
   ]
 }

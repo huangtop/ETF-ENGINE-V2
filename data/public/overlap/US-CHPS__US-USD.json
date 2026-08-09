@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-CHPS",
   "right_etf_id": "US-USD",
-  "overlap_ratio": 0.028268,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.053995,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "MU",
       "left_weight": 0.072686,
-      "right_weight": 0.028268,
-      "overlap_weight": 0.028268
+      "right_weight": 0.029393,
+      "overlap_weight": 0.029393
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.065159,
+      "right_weight": 0.024602,
+      "overlap_weight": 0.024602
     }
   ]
 }

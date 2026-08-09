@@ -1,31 +1,37 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.152654,
-  "shared_holdings_count": 4,
+  "overlap_ratio": 0.181343,
+  "shared_holdings_count": 5,
   "shared_holdings": [
-    {
-      "holding_symbol": "MU",
-      "left_weight": 0.070533,
-      "right_weight": 0.052291,
-      "overlap_weight": 0.052291
-    },
     {
       "holding_symbol": "005930.KS",
       "left_weight": 0.05055,
-      "right_weight": 0.043694,
-      "overlap_weight": 0.043694
+      "right_weight": 0.050582,
+      "overlap_weight": 0.05055
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.070533,
+      "right_weight": 0.045433,
+      "overlap_weight": 0.045433
     },
     {
       "holding_symbol": "TSM",
       "left_weight": 0.035455,
-      "right_weight": 0.030378,
-      "overlap_weight": 0.030378
+      "right_weight": 0.030879,
+      "overlap_weight": 0.030879
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.02819,
+      "right_weight": 0.032954,
+      "overlap_weight": 0.02819
     },
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.026291,
-      "right_weight": 0.037568,
+      "right_weight": 0.050213,
       "overlap_weight": 0.026291
     }
   ]

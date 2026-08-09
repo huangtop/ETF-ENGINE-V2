@@ -55,46 +55,42 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -8.0728,
-      "unit": "percent"
-    },
-    "annualized_return": {
-      "value": 49.7368,
+      "value": -6.3041,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 24.7192,
+      "value": 25.8777,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.697,
+      "value": 0.6927,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.9048,
+      "value": 0.9405,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -10.1899,
+      "value": -15.3165,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.9514,
+      "value": null,
       "unit": "ratio"
     },
-    "total_return_1y": {
-      "value": 45,
+    "total_return_since_inception": {
+      "value": 48.1,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 18.1325,
+      "value": 18.5806,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 14.5,
+    "date": "2026-08-07",
+    "value": 14.81,
     "currency": "TWD"
   },
   "trend": [
@@ -1009,18 +1005,70 @@
     {
       "date": "2026-07-27",
       "value": 145.0
+    },
+    {
+      "date": "2026-07-28",
+      "value": 138.9
+    },
+    {
+      "date": "2026-07-29",
+      "value": 135.4
+    },
+    {
+      "date": "2026-07-30",
+      "value": 133.8
+    },
+    {
+      "date": "2026-07-31",
+      "value": 142.1
+    },
+    {
+      "date": "2026-08-03",
+      "value": 143.2
+    },
+    {
+      "date": "2026-08-04",
+      "value": 145.2
+    },
+    {
+      "date": "2026-08-05",
+      "value": 149.7
+    },
+    {
+      "date": "2026-08-06",
+      "value": 148.2
+    },
+    {
+      "date": "2026-08-07",
+      "value": 148.1
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2025-08-18",
+    "last_date": "2026-08-07",
+    "observations": 237,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-07",
+    "latest_volume": 201000.0,
+    "average_volume_20d": 523566.8,
+    "average_dollar_volume_20d": 7571427.4683,
+    "relative_volume_20d": 0.3839,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00986A",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.082107805,
-      "as_of": "2026-07-19",
+      "weight": 0.0806466,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
       "holding_name_zh": "台積電",
       "display_name": "台積電",
@@ -1029,24 +1077,26 @@
     },
     {
       "etf_id": "TW-00986A",
-      "holding_symbol": "LITE",
-      "holding_name": "Lumentum Holdings Inc",
-      "weight": 0.0776161,
-      "as_of": "2026-07-19",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0727149,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Lumentum Holdings Inc",
-      "holding_name_zh": null,
-      "display_name": "Lumentum Holdings Inc",
-      "display_label": "(LITE)Lumentum Holdings Inc",
-      "bilingual_name": "Lumentum Holdings Inc"
+      "rank": 2,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
     },
     {
       "etf_id": "TW-00986A",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0714588,
-      "as_of": "2026-07-19",
+      "weight": 0.0692697,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "Alphabet Inc Class A",
       "holding_name_zh": "Alphabet A類股",
       "display_name": "Alphabet A類股",
@@ -1057,9 +1107,10 @@
       "etf_id": "TW-00986A",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0674154,
-      "as_of": "2026-07-19",
+      "weight": 0.0552669,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "NVIDIA Corp",
       "holding_name_zh": "輝達",
       "display_name": "輝達",
@@ -1070,9 +1121,10 @@
       "etf_id": "TW-00986A",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0666583,
-      "as_of": "2026-07-19",
+      "weight": 0.054915,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Broadcom Inc",
       "holding_name_zh": "博通",
       "display_name": "博通",
@@ -1081,37 +1133,26 @@
     },
     {
       "etf_id": "TW-00986A",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.046640802,
-      "as_of": "2026-07-19",
+      "holding_symbol": "LRCX",
+      "holding_name": "Lam Research Corp",
+      "weight": 0.0424375,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "TW-00986A",
-      "holding_symbol": "TER",
-      "holding_name": "Teradyne Inc",
-      "weight": 0.0392745,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Teradyne Inc",
-      "holding_name_zh": "泰瑞達",
-      "display_name": "泰瑞達",
-      "display_label": "(TER)泰瑞達",
-      "bilingual_name": "Teradyne Inc（泰瑞達）"
+      "rank": 6,
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     },
     {
       "etf_id": "TW-00986A",
       "holding_symbol": "GEV",
       "holding_name": "GE Vernova Inc",
-      "weight": 0.036152698,
-      "as_of": "2026-07-19",
+      "weight": 0.0370053,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "GE Vernova Inc",
       "holding_name_zh": null,
       "display_name": "GE Vernova Inc",
@@ -1120,35 +1161,51 @@
     },
     {
       "etf_id": "TW-00986A",
-      "holding_symbol": "8306.T",
-      "holding_name": "Mitsubishi UFJ Financial Group Inc",
-      "weight": 0.0359552,
-      "as_of": "2026-07-19",
+      "holding_symbol": "IFX.DE",
+      "holding_name": "Infineon Technologies AG",
+      "weight": 0.0361009,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Mitsubishi UFJ Financial Group Inc",
+      "rank": 8,
+      "holding_name_en": "Infineon Technologies AG",
       "holding_name_zh": null,
-      "display_name": "Mitsubishi UFJ Financial Group Inc",
-      "display_label": "(8306.T)Mitsubishi UFJ Financial Group Inc",
-      "bilingual_name": "Mitsubishi UFJ Financial Group Inc"
+      "display_name": "Infineon Technologies AG",
+      "display_label": "(IFX.DE)Infineon Technologies AG",
+      "bilingual_name": "Infineon Technologies AG"
     },
     {
       "etf_id": "TW-00986A",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0345035,
-      "as_of": "2026-07-19",
+      "holding_symbol": "CRWD",
+      "holding_name": "CrowdStrike Holdings Inc Class A",
+      "weight": 0.0346874,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Amazon.com Inc",
-      "holding_name_zh": "亞馬遜",
-      "display_name": "亞馬遜",
-      "display_label": "(AMZN)亞馬遜",
-      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+      "rank": 9,
+      "holding_name_en": "CrowdStrike Holdings Inc Class A",
+      "holding_name_zh": "CrowdStrike",
+      "display_name": "CrowdStrike",
+      "display_label": "(CRWD)CrowdStrike",
+      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
+    },
+    {
+      "etf_id": "TW-00986A",
+      "holding_symbol": "LITE",
+      "holding_name": "Lumentum Holdings Inc",
+      "weight": 0.0332639,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Lumentum Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "Lumentum Holdings Inc",
+      "display_label": "(LITE)Lumentum Holdings Inc",
+      "bilingual_name": "Lumentum Holdings Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.557783,
-    "top_3_weight": 0.231183
+    "top_10_weight": 0.516308,
+    "top_3_weight": 0.222631
   },
   "research": {
     "tier": "context",

@@ -1,7 +1,20 @@
 {
   "left_etf_id": "US-CLOU",
   "right_etf_id": "US-THNQ",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.049505,
+  "shared_holdings_count": 2,
+  "shared_holdings": [
+    {
+      "holding_symbol": "DDOG",
+      "left_weight": 0.071155,
+      "right_weight": 0.025204,
+      "overlap_weight": 0.025204
+    },
+    {
+      "holding_symbol": "NET",
+      "left_weight": 0.043327,
+      "right_weight": 0.024301,
+      "overlap_weight": 0.024301
+    }
+  ]
 }

@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-ARKQ",
   "right_etf_id": "US-SOXQ",
-  "overlap_ratio": 0.035554,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.077266,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "AMD",
+      "left_weight": 0.058098,
+      "right_weight": 0.042231,
+      "overlap_weight": 0.042231
+    },
+    {
       "holding_symbol": "TSM",
-      "left_weight": 0.035554,
-      "right_weight": 0.041483,
-      "overlap_weight": 0.035554
+      "left_weight": 0.035035,
+      "right_weight": 0.044225,
+      "overlap_weight": 0.035035
     }
   ]
 }

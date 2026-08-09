@@ -51,46 +51,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 2.6145,
+      "value": 2.966,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 113.2054,
+      "value": 112.8164,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 33.5876,
+      "value": 36.8103,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0632,
+      "value": 1.0717,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.1706,
+      "value": 1.2063,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -17.3657,
+      "value": -27.3226,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.3258,
+      "value": 3.0241,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 113.2054,
+      "value": 112.8164,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.3154,
+      "value": 20.7277,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-27",
-    "value": 21.81,
+    "date": "2026-08-07",
+    "value": 22.39,
     "currency": "TWD"
   },
   "trend": [
@@ -1273,31 +1273,70 @@
     {
       "date": "2026-07-27",
       "value": 239.64
+    },
+    {
+      "date": "2026-07-28",
+      "value": 220.74
+    },
+    {
+      "date": "2026-07-29",
+      "value": 207.34
+    },
+    {
+      "date": "2026-07-30",
+      "value": 203.71
+    },
+    {
+      "date": "2026-07-31",
+      "value": 224.04
+    },
+    {
+      "date": "2026-08-03",
+      "value": 231.18
+    },
+    {
+      "date": "2026-08-04",
+      "value": 237.45
+    },
+    {
+      "date": "2026-08-05",
+      "value": 245.36
+    },
+    {
+      "date": "2026-08-06",
+      "value": 249.53
+    },
+    {
+      "date": "2026-08-07",
+      "value": 246.02
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2025-05-14",
+    "last_date": "2026-08-07",
+    "observations": 304,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-08-07",
+    "latest_volume": 30212048.0,
+    "average_volume_20d": 35442830.65,
+    "average_dollar_volume_20d": 754852790.5504,
+    "relative_volume_20d": 0.8524,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
-    {
-      "etf_id": "TW-00982A",
-      "holding_symbol": "2330.TW",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.085409604,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "holding_name_zh": "台積電",
-      "display_name": "台積電",
-      "display_label": "(2330.TW)台積電",
-      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
-    },
     {
       "etf_id": "TW-00982A",
       "holding_symbol": "5536.TWO",
       "holding_name": "Acter Group Corp Ltd",
-      "weight": 0.0778728,
-      "as_of": "2026-07-19",
+      "weight": 0.0904777,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Acter Group Corp Ltd",
       "holding_name_zh": null,
       "display_name": "Acter Group Corp Ltd",
@@ -1306,37 +1345,40 @@
     },
     {
       "etf_id": "TW-00982A",
-      "holding_symbol": "6669.TW",
-      "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.051554397,
-      "as_of": "2026-07-19",
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.0890428,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Wiwynn Corp Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Wiwynn Corp Ordinary Shares",
-      "display_label": "(6669.TW)Wiwynn Corp Ordinary Shares",
-      "bilingual_name": "Wiwynn Corp Ordinary Shares"
+      "rank": 2,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "TW-00982A",
-      "holding_symbol": "2360.TW",
-      "holding_name": "Chroma Ate Inc",
-      "weight": 0.0424478,
-      "as_of": "2026-07-19",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0687325,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Chroma Ate Inc",
-      "holding_name_zh": "致茂",
-      "display_name": "致茂",
-      "display_label": "(2360.TW)致茂",
-      "bilingual_name": "Chroma Ate Inc（致茂）"
+      "rank": 3,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
     },
     {
       "etf_id": "TW-00982A",
       "holding_symbol": "6139.TW",
       "holding_name": "L & K Engineering Co Ltd",
-      "weight": 0.040451597,
-      "as_of": "2026-07-19",
+      "weight": 0.0531732,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "L & K Engineering Co Ltd",
       "holding_name_zh": null,
       "display_name": "L & K Engineering Co Ltd",
@@ -1345,37 +1387,12 @@
     },
     {
       "etf_id": "TW-00982A",
-      "holding_symbol": "2383.TW",
-      "holding_name": "Elite Material Co Ltd",
-      "weight": 0.0402662,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Elite Material Co Ltd",
-      "holding_name_zh": "台光電",
-      "display_name": "台光電",
-      "display_label": "(2383.TW)台光電",
-      "bilingual_name": "Elite Material Co Ltd（台光電）"
-    },
-    {
-      "etf_id": "TW-00982A",
-      "holding_symbol": "3264.TWO",
-      "holding_name": "Ardentec Corp",
-      "weight": 0.0368454,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Ardentec Corp",
-      "holding_name_zh": null,
-      "display_name": "Ardentec Corp",
-      "display_label": "(3264.TWO)Ardentec Corp",
-      "bilingual_name": "Ardentec Corp"
-    },
-    {
-      "etf_id": "TW-00982A",
       "holding_symbol": "2345.TW",
       "holding_name": "Accton Technology Corp",
-      "weight": 0.0367923,
-      "as_of": "2026-07-19",
+      "weight": 0.0374451,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Accton Technology Corp",
       "holding_name_zh": "智邦",
       "display_name": "智邦",
@@ -1384,24 +1401,68 @@
     },
     {
       "etf_id": "TW-00982A",
-      "holding_symbol": "3017.TW",
-      "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.0362816,
-      "as_of": "2026-07-19",
+      "holding_symbol": "4958.TW",
+      "holding_name": "Zhen Ding Technology Holding Ltd",
+      "weight": 0.0372404,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Asia Vital Components Co Ltd",
-      "holding_name_zh": "奇鋐",
-      "display_name": "奇鋐",
-      "display_label": "(3017.TW)奇鋐",
-      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
+      "rank": 6,
+      "holding_name_en": "Zhen Ding Technology Holding Ltd",
+      "holding_name_zh": null,
+      "display_name": "Zhen Ding Technology Holding Ltd",
+      "display_label": "(4958.TW)Zhen Ding Technology Holding Ltd",
+      "bilingual_name": "Zhen Ding Technology Holding Ltd"
+    },
+    {
+      "etf_id": "TW-00982A",
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0351183,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": null,
+      "display_name": "MPI Corp",
+      "display_label": "(6223.TWO)MPI Corp",
+      "bilingual_name": "MPI Corp"
+    },
+    {
+      "etf_id": "TW-00982A",
+      "holding_symbol": "2360.TW",
+      "holding_name": "Chroma Ate Inc",
+      "weight": 0.0333911,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Chroma Ate Inc",
+      "holding_name_zh": "致茂",
+      "display_name": "致茂",
+      "display_label": "(2360.TW)致茂",
+      "bilingual_name": "Chroma Ate Inc（致茂）"
+    },
+    {
+      "etf_id": "TW-00982A",
+      "holding_symbol": "2383.TW",
+      "holding_name": "Elite Material Co Ltd",
+      "weight": 0.0332078,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Elite Material Co Ltd",
+      "holding_name_zh": "台光電",
+      "display_name": "台光電",
+      "display_label": "(2383.TW)台光電",
+      "bilingual_name": "Elite Material Co Ltd（台光電）"
     },
     {
       "etf_id": "TW-00982A",
       "holding_symbol": "3105.TWO",
       "holding_name": "Win Semiconductors Corp",
-      "weight": 0.0336508,
-      "as_of": "2026-07-19",
+      "weight": 0.0331514,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 10,
       "holding_name_en": "Win Semiconductors Corp",
       "holding_name_zh": null,
       "display_name": "Win Semiconductors Corp",
@@ -1411,8 +1472,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.481572,
-    "top_3_weight": 0.214837
+    "top_10_weight": 0.51098,
+    "top_3_weight": 0.248253
   },
   "research": {
     "tier": "context",

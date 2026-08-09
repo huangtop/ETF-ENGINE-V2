@@ -1,7 +1,26 @@
 {
   "left_etf_id": "US-SKYY",
   "right_etf_id": "US-THNQ",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.07137,
+  "shared_holdings_count": 3,
+  "shared_holdings": [
+    {
+      "holding_symbol": "AMZN",
+      "left_weight": 0.032783,
+      "right_weight": 0.024307,
+      "overlap_weight": 0.024307
+    },
+    {
+      "holding_symbol": "NET",
+      "left_weight": 0.029433,
+      "right_weight": 0.024301,
+      "overlap_weight": 0.024301
+    },
+    {
+      "holding_symbol": "ANET",
+      "left_weight": 0.040403,
+      "right_weight": 0.022762,
+      "overlap_weight": 0.022762
+    }
+  ]
 }

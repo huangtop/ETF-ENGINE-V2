@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-SMH",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.120237,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.159479,
+  "shared_holdings_count": 4,
   "shared_holdings": [
-    {
-      "holding_symbol": "MU",
-      "left_weight": 0.052472,
-      "right_weight": 0.052291,
-      "overlap_weight": 0.052291
-    },
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.208278,
-      "right_weight": 0.037568,
-      "overlap_weight": 0.037568
+      "right_weight": 0.050213,
+      "overlap_weight": 0.050213
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.052472,
+      "right_weight": 0.045433,
+      "overlap_weight": 0.045433
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.065958,
+      "right_weight": 0.032954,
+      "overlap_weight": 0.032954
     },
     {
       "holding_symbol": "TSM",
       "left_weight": 0.095744,
-      "right_weight": 0.030378,
-      "overlap_weight": 0.030378
+      "right_weight": 0.030879,
+      "overlap_weight": 0.030879
     }
   ]
 }
