@@ -1,11 +1,17 @@
 from __future__ import annotations
 
 import csv
+import io
 import json
+import re
 import signal
+import zipfile
+from datetime import date, timedelta
 from typing import Any, Protocol
+from xml.etree import ElementTree
 
 import pandas as pd
+import requests
 
 from etf_engine.models import ETFEntity
 from etf_engine.settings import settings
@@ -63,6 +69,7 @@ def normalize(etf_id: str, raw: Any, source: str) -> list[dict[str, Any]]:
             or normalized.get("holding_percent")
             or normalized.get("percent_assets")
             or normalized.get("權重")
+            or normalized.get("權重(%)")
             or normalized.get("持股權重")
         )
         if symbol is None or weight is None:
@@ -119,6 +126,136 @@ class ManualProvider:
                     raw = list(csv.DictReader(handle))
             return normalize(entity.etf_id, raw, self.name)
         return []
+
+
+class FuhwaProvider:
+    """Fetch full daily fund assets from Fuhwa's official Excel endpoint."""
+
+    name = "fuhwa"
+    coverage = "full_portfolio"
+    endpoint = "https://www.fhtrust.com.tw/api/assetsExcel/{fund_id}/{date}"
+    fund_ids = {"TW-00991A": "ETF23"}
+    max_lookback_days = 10
+    timeout_seconds = 30
+
+    def __init__(self, session: requests.Session | None = None, today=None):
+        self.session = session or requests.Session()
+        self.today = today or date.today
+
+    def fetch(self, entity: ETFEntity) -> list[dict[str, Any]]:
+        fund_id = self.fund_ids.get(entity.etf_id)
+        if fund_id is None:
+            return []
+
+        errors = []
+        for offset in range(self.max_lookback_days + 1):
+            requested_date = self.today() - timedelta(days=offset)
+            url = self.endpoint.format(
+                fund_id=fund_id,
+                date=requested_date.strftime("%Y%m%d"),
+            )
+            try:
+                response = self.session.get(url, timeout=self.timeout_seconds)
+            except requests.RequestException as exc:
+                raise RuntimeError(f"official holdings request failed: {exc}") from exc
+            if response.status_code in {400, 404}:
+                continue
+            try:
+                response.raise_for_status()
+            except requests.RequestException:
+                errors.append(f"{requested_date.isoformat()}: HTTP {response.status_code}")
+                continue
+
+            try:
+                provider_as_of, records = self._parse_workbook(response.content)
+            except (ValueError, KeyError, IndexError, zipfile.BadZipFile, ElementTree.ParseError) as exc:
+                errors.append(f"{requested_date.isoformat()}: {exc}")
+                continue
+            if provider_as_of != requested_date.isoformat():
+                errors.append(
+                    f"{requested_date.isoformat()}: workbook date is {provider_as_of}"
+                )
+                continue
+
+            rows = normalize(entity.etf_id, records, self.name)
+            if not rows:
+                errors.append(f"{requested_date.isoformat()}: empty official holdings")
+                continue
+            return self._add_market_suffixes(rows)
+
+        detail = "; ".join(errors[-3:]) or "no workbook in lookback window"
+        raise RuntimeError(f"no valid official holdings workbook: {detail}")
+
+    @staticmethod
+    def _parse_workbook(content: bytes) -> tuple[str, list[dict[str, Any]]]:
+        with zipfile.ZipFile(io.BytesIO(content)) as archive:
+            shared = FuhwaProvider._shared_strings(archive)
+            root = ElementTree.fromstring(archive.read("xl/worksheets/sheet1.xml"))
+
+        namespace = {"x": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+        rows = []
+        for row in root.findall(".//x:sheetData/x:row", namespace):
+            values = []
+            for cell in row.findall("x:c", namespace):
+                value = cell.findtext("x:v", default="", namespaces=namespace)
+                if cell.get("t") == "s" and value:
+                    value = shared[int(value)]
+                values.append(value)
+            rows.append(values)
+
+        flattened = [str(value).strip() for row in rows for value in row]
+        date_text = next((value for value in flattened if value.startswith("日期:")), "")
+        matched = re.search(r"(\d{4})/(\d{2})/(\d{2})", date_text)
+        if matched is None:
+            raise ValueError("workbook has no provider date")
+        provider_as_of = "-".join(matched.groups())
+
+        header_index = next(
+            (index for index, row in enumerate(rows) if "證券代號" in row and "權重(%)" in row),
+            None,
+        )
+        if header_index is None:
+            raise ValueError("workbook holdings header not found")
+        header = rows[header_index]
+        records = []
+        for values in rows[header_index + 1 :]:
+            padded = values + [""] * (len(header) - len(values))
+            record = dict(zip(header, padded, strict=False))
+            symbol = str(record.get("證券代號", "")).strip()
+            weight = str(record.get("權重(%)", "")).strip()
+            if re.fullmatch(r"\d{4,6}", symbol) and weight.endswith("%"):
+                record["as_of"] = provider_as_of
+                records.append(record)
+        if len(records) < 10:
+            raise ValueError(f"official holdings coverage too small: {len(records)}")
+        return provider_as_of, records
+
+    @staticmethod
+    def _shared_strings(archive: zipfile.ZipFile) -> list[str]:
+        namespace = {"x": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+        root = ElementTree.fromstring(archive.read("xl/sharedStrings.xml"))
+        return ["".join(node.itertext()) for node in root.findall("x:si", namespace)]
+
+    def _add_market_suffixes(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        otc_symbols = self._otc_symbols()
+        for row in rows:
+            symbol = row["holding_symbol"]
+            row["holding_symbol"] = f"{symbol}.{'TWO' if symbol in otc_symbols else 'TW'}"
+        return rows
+
+    def _otc_symbols(self) -> set[str]:
+        url = "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O"
+        try:
+            response = self.session.get(url, timeout=self.timeout_seconds)
+            response.raise_for_status()
+            payload = response.json()
+        except (requests.RequestException, ValueError) as exc:
+            raise RuntimeError(f"official TPEx symbol lookup failed: {exc}") from exc
+        return {
+            str(row.get("SecuritiesCompanyCode", "")).strip()
+            for row in payload
+            if isinstance(row, dict)
+        }
 
 
 class YahooProvider:

@@ -45,6 +45,7 @@ class HoldingsHistoryService:
         *,
         provider_generated_at: str | None = None,
         provider_as_of: str | None = None,
+        coverage: str = COVERAGE,
     ) -> dict[str, Any]:
         if not holdings:
             raise ValueError("cannot record an empty holdings snapshot")
@@ -88,7 +89,7 @@ class HoldingsHistoryService:
                 "provider_as_of_status": (
                     "available" if provider_as_of is not None else "unavailable"
                 ),
-                "coverage": COVERAGE,
+                "coverage": coverage,
                 "etf_id": etf_id,
                 "content_sha256": content_sha256,
                 "holdings": content,
@@ -113,7 +114,7 @@ class HoldingsHistoryService:
                 "provider_as_of_status": (
                     "available" if provider_as_of is not None else "unavailable"
                 ),
-                "coverage": COVERAGE,
+                "coverage": coverage,
             }
         )
         self._write_atomic(self.history_dir / "observations.json", observations)
@@ -136,7 +137,7 @@ class HoldingsHistoryService:
         manifest = {
             "schema_version": SCHEMA_VERSION,
             "history_type": "etf_holdings",
-            "coverage": COVERAGE,
+            "coverage": "provider_specific",
             "updated_at": observed_at,
             "observation_count": len(observations["observations"]),
             "snapshot_count": sum(len(item["snapshots"]) for item in index["etfs"].values()),

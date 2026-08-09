@@ -8,7 +8,7 @@ from typing import Any
 from uuid import uuid4
 
 from etf_engine.models import ETFEntity
-from etf_engine.providers.holdings import ManualProvider, YahooProvider
+from etf_engine.providers.holdings import FuhwaProvider, ManualProvider, YahooProvider
 from etf_engine.services.holdings_history import HoldingsHistoryService
 from etf_engine.settings import settings
 
@@ -32,7 +32,7 @@ class HoldingService:
         return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
 
     def __init__(self, providers=None, history: HoldingsHistoryService | None = None):
-        self.providers = providers or [ManualProvider(), YahooProvider()]
+        self.providers = providers or [ManualProvider(), FuhwaProvider(), YahooProvider()]
         self.history = history or HoldingsHistoryService()
 
     def sync(self, entity: ETFEntity) -> list[dict[str, Any]]:
@@ -64,6 +64,7 @@ class HoldingService:
                 rows,
                 provider_generated_at=provider_generated_at,
                 provider_as_of=provider_as_of,
+                coverage=getattr(provider, "coverage", "top_holdings_only"),
             )
             return HoldingSyncResult(rows=rows, fetched=True, source=provider.name)
 
