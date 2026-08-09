@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-ARTY",
   "right_etf_id": "US-DRIV",
-  "overlap_ratio": 0.031486,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.060306,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.043946,
+      "left_weight": 0.049524,
       "right_weight": 0.031486,
       "overlap_weight": 0.031486
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.033446,
+      "right_weight": 0.02882,
+      "overlap_weight": 0.02882
     }
   ]
 }

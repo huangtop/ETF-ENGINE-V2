@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-CHPS",
   "right_etf_id": "US-SOXL",
-  "overlap_ratio": 0.109575,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.147966,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.065159,
+      "left_weight": 0.072218,
       "right_weight": 0.057098,
       "overlap_weight": 0.057098
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.072686,
+      "left_weight": 0.073057,
       "right_weight": 0.052477,
       "overlap_weight": 0.052477
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.038391,
+      "right_weight": 0.053927,
+      "overlap_weight": 0.038391
     }
   ]
 }

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "US-BITO",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-08-09T17:06:43.334188Z-US-BITO-004067c7",
+    "etf_id": "US-BITO",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20260729-70bc0fa5a381",
+    "current_snapshot_id": "20260809-e07b2a95e4f7",
+    "previous_observed_at": "2026-07-29T06:38:31.883670Z",
+    "current_observed_at": "2026-08-09T17:06:43.334188Z",
+    "changes": [
+      {
+        "event_id": "71774c8cf61d5ed39e71a3da010b982ce7c5a2629538b2a28436d95cbe49d58c",
+        "etf_id": "US-BITO",
+        "holding_symbol": "IQMM",
+        "holding_name_en": "ProShares GENIUS Money Market ETF",
+        "holding_name_zh": "ProShares GENIUS貨幣市場主動型ETF",
+        "holding_display_name": "ProShares GENIUS貨幣市場主動型ETF",
+        "holding_display_label": "(IQMM)ProShares GENIUS貨幣市場主動型ETF",
+        "holding_bilingual_name": "ProShares GENIUS Money Market ETF（ProShares GENIUS貨幣市場主動型ETF）",
+        "previous_weight": 0.6752684,
+        "current_weight": 0.32020143,
+        "delta_weight": -0.35506697,
+        "change_type": "WEIGHT_DECREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20260729-70bc0fa5a381",
+        "current_snapshot_id": "20260809-e07b2a95e4f7",
+        "previous_observed_at": "2026-07-29T06:38:31.883670Z",
+        "current_observed_at": "2026-08-09T17:06:43.334188Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-08-09T17:06:43.334188Z-US-BITO-004067c7",
+      "etf_id": "US-BITO",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260729-70bc0fa5a381",
+      "current_snapshot_id": "20260809-e07b2a95e4f7",
+      "previous_observed_at": "2026-07-29T06:38:31.883670Z",
+      "current_observed_at": "2026-08-09T17:06:43.334188Z",
+      "changes": [
+        {
+          "event_id": "71774c8cf61d5ed39e71a3da010b982ce7c5a2629538b2a28436d95cbe49d58c",
+          "etf_id": "US-BITO",
+          "holding_symbol": "IQMM",
+          "holding_name_en": "ProShares GENIUS Money Market ETF",
+          "holding_name_zh": "ProShares GENIUS貨幣市場主動型ETF",
+          "holding_display_name": "ProShares GENIUS貨幣市場主動型ETF",
+          "holding_display_label": "(IQMM)ProShares GENIUS貨幣市場主動型ETF",
+          "holding_bilingual_name": "ProShares GENIUS Money Market ETF（ProShares GENIUS貨幣市場主動型ETF）",
+          "previous_weight": 0.6752684,
+          "current_weight": 0.32020143,
+          "delta_weight": -0.35506697,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260729-70bc0fa5a381",
+          "current_snapshot_id": "20260809-e07b2a95e4f7",
+          "previous_observed_at": "2026-07-29T06:38:31.883670Z",
+          "current_observed_at": "2026-08-09T17:06:43.334188Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

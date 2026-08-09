@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-DRAM",
   "right_etf_id": "US-IGPT",
-  "overlap_ratio": 0.071668,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.105495,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "000660.KS",
-      "left_weight": 0.158942,
+      "left_weight": 0.170922,
       "right_weight": 0.041211,
       "overlap_weight": 0.041211
     },
     {
-      "holding_symbol": "SNDK",
-      "left_weight": 0.052112,
-      "right_weight": 0.030457,
-      "overlap_weight": 0.030457
+      "holding_symbol": "STX",
+      "left_weight": 0.050529,
+      "right_weight": 0.032494,
+      "overlap_weight": 0.032494
+    },
+    {
+      "holding_symbol": "WDC",
+      "left_weight": 0.049791,
+      "right_weight": 0.03179,
+      "overlap_weight": 0.03179
     }
   ]
 }

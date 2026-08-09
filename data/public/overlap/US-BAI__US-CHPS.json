@@ -1,32 +1,38 @@
 {
   "left_etf_id": "US-BAI",
   "right_etf_id": "US-CHPS",
-  "overlap_ratio": 0.21543,
-  "shared_holdings_count": 4,
+  "overlap_ratio": 0.238242,
+  "shared_holdings_count": 5,
   "shared_holdings": [
-    {
-      "holding_symbol": "000660.KS",
-      "left_weight": 0.060122,
-      "right_weight": 0.067359,
-      "overlap_weight": 0.060122
-    },
     {
       "holding_symbol": "MU",
       "left_weight": 0.059324,
-      "right_weight": 0.072686,
+      "right_weight": 0.073057,
       "overlap_weight": 0.059324
     },
     {
       "holding_symbol": "AMD",
       "left_weight": 0.052022,
-      "right_weight": 0.065159,
+      "right_weight": 0.072218,
       "overlap_weight": 0.052022
+    },
+    {
+      "holding_symbol": "000660.KS",
+      "left_weight": 0.060122,
+      "right_weight": 0.048037,
+      "overlap_weight": 0.048037
     },
     {
       "holding_symbol": "LRCX",
       "left_weight": 0.043962,
-      "right_weight": 0.044406,
-      "overlap_weight": 0.043962
+      "right_weight": 0.040468,
+      "overlap_weight": 0.040468
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.052293,
+      "right_weight": 0.038391,
+      "overlap_weight": 0.038391
     }
   ]
 }
