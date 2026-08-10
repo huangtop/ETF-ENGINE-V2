@@ -52,10 +52,47 @@ def select_entities_for_run(
         through_cursor = [entity for entity in missing if cursor and entity.etf_id <= cursor]
         selected_missing = (after_cursor + through_cursor)[:bootstrap_limit]
     attempted = priority_missing + selected_missing
-    selected_ids = {entity.etf_id for entity in cached + attempted}
-    scheduled = [entity for entity in entities if entity.etf_id in selected_ids]
+    scheduled = cached + attempted
     next_cursor = selected_missing[-1].etf_id if selected_missing else cursor
     return scheduled, attempted, next_cursor
+
+
+def allocate_bootstrap_quotas(
+    entities: list[ETFEntity],
+    cached_ids: set[str],
+    bootstrap_limit: int,
+    priority_ids: set[str] | None = None,
+) -> dict[str, int]:
+    """Split a global limit fairly and reuse quota from completed markets."""
+    priority_ids = priority_ids or set()
+    markets = sorted({entity.listing_market for entity in entities})
+    if not markets or bootstrap_limit <= 0:
+        return {market: 0 for market in markets}
+    capacity = {
+        market: sum(
+            entity.listing_market == market
+            and entity.etf_id not in cached_ids
+            and entity.etf_id not in priority_ids
+            for entity in entities
+        )
+        for market in markets
+    }
+    base, remainder = divmod(bootstrap_limit, len(markets))
+    quotas = {
+        market: min(capacity[market], base + (index < remainder))
+        for index, market in enumerate(markets)
+    }
+    remaining = bootstrap_limit - sum(quotas.values())
+    while remaining:
+        eligible = [market for market in markets if quotas[market] < capacity[market]]
+        if not eligible:
+            break
+        for market in eligible:
+            if not remaining:
+                break
+            quotas[market] += 1
+            remaining -= 1
+    return quotas
 
 
 def select_holdings_for_run(
@@ -219,11 +256,13 @@ def run(
     next_cursors: dict[str, str | None] = {}
     if market == "all" and limit > 0:
         markets = sorted({entity.listing_market for entity in entities})
-        base, remainder = divmod(limit, len(markets))
+        quotas = allocate_bootstrap_quotas(
+            entities, cached_ids, limit, priority_price_ids
+        )
         scheduled_by_id: dict[str, ETFEntity] = {}
         attempted_new = []
-        for index, listing_market in enumerate(markets):
-            quota = base + (1 if index < remainder else 0)
+        for listing_market in markets:
+            quota = quotas[listing_market]
             market_entities = [
                 entity for entity in entities if entity.listing_market == listing_market
             ]
@@ -237,7 +276,12 @@ def run(
             scheduled_by_id.update({entity.etf_id: entity for entity in market_scheduled})
             attempted_new.extend(market_attempted)
             next_cursors[listing_market] = next_cursor
-        scheduled = [entity for entity in entities if entity.etf_id in scheduled_by_id]
+        cached_scheduled = [
+            entity
+            for entity in entities
+            if entity.etf_id in cached_ids and entity.etf_id in scheduled_by_id
+        ]
+        scheduled = cached_scheduled + attempted_new
     else:
         scheduled, attempted_new, next_cursor = select_entities_for_run(
             entities, cached_ids, limit, cursor, priority_price_ids

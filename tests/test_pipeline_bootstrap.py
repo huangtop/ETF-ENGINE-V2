@@ -65,9 +65,51 @@ def test_price_selection_always_includes_active_etf_without_cache():
         priority_ids={"TW-00991A"},
     )
 
-    assert [row.etf_id for row in scheduled] == ["TW-0050", "TW-00991A"]
+    assert [row.etf_id for row in scheduled] == ["TW-00991A", "TW-0050"]
     assert [row.etf_id for row in attempted] == ["TW-00991A", "TW-0050"]
     assert cursor == "TW-0050"
+
+
+def test_bootstrap_quota_reuses_capacity_from_completed_market():
+    entities = [
+        entity("US-A"),
+        entity("US-B"),
+        *[entity(f"TW-{index:04d}", "TW") for index in range(1, 41)],
+    ]
+
+    quotas = pipeline.allocate_bootstrap_quotas(
+        entities,
+        {"US-A", "US-B"},
+        bootstrap_limit=30,
+    )
+
+    assert quotas == {"TW": 30, "US": 0}
+
+
+def test_bootstrap_quota_stays_within_available_capacity():
+    entities = [entity("US-A"), entity("US-B"), entity("TW-0001", "TW")]
+
+    quotas = pipeline.allocate_bootstrap_quotas(
+        entities,
+        {"US-A"},
+        bootstrap_limit=30,
+    )
+
+    assert quotas == {"TW": 1, "US": 1}
+
+
+def test_price_selection_processes_cached_entities_before_bootstrap():
+    entities = [entity("US-NEW"), entity("US-CACHED")]
+
+    scheduled, attempted, _ = pipeline.select_entities_for_run(
+        entities,
+        {"US-CACHED"},
+        bootstrap_limit=1,
+        cursor=None,
+    )
+
+    assert [row.etf_id for row in attempted] == ["US-NEW"]
+    assert [row.etf_id for row in scheduled] == ["US-CACHED", "US-NEW"]
 
 
 def test_holdings_selection_keeps_core_daily_and_rotates_non_core():

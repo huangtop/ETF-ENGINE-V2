@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "20 22 * * 1-5"
+    - cron: "20 10 * * 1-5"
 permissions:
   contents: write
 concurrency:
@@ -33,7 +34,7 @@ jobs:
       - run: python -m etf_engine.cli validate
       - name: Run bounded ETF pipeline
         env:
-          ETF_BOOTSTRAP_LIMIT: "10"
+          ETF_BOOTSTRAP_LIMIT: "30"
           ETF_HOLDINGS_ROTATION_LIMIT: "40"
         run: python -m etf_engine.cli run --market all
       - name: Save normalized ETF cache
