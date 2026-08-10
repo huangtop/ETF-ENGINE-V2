@@ -70,6 +70,14 @@ def test_iqmm_uses_reviewed_taiwan_name():
     assert localized["display_label"] == "(IQMM)ProShares GENIUS貨幣市場主動型ETF"
 
 
+def test_default_translations_include_official_taiwan_security_names():
+    translations = load_holding_translations()
+
+    assert translations["5274.TWO"]["name_zh"] == "信驊"
+    assert translations["6669.TW"]["name_zh"] == "緯穎"
+    assert translations["8299.TWO"]["name_zh"] == "群聯"
+
+
 def test_all_active_us_etfs_have_taiwan_display_name():
     translations = load_translations()
     active_us = [

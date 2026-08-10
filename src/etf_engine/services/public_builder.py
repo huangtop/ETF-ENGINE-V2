@@ -260,7 +260,11 @@ def _render_public(
         cached_holdings = [
             localize_holding(row, holding_translations) for row in holding_service.load(etf_id)
         ]
-        existing_holdings = existing.get("top_holdings", [])
+        existing_holdings = [
+            localize_holding(row, holding_translations)
+            for row in existing.get("top_holdings", [])
+            if isinstance(row, dict) and row.get("holding_symbol")
+        ]
         holdings = (
             cached_holdings
             if etf_id in holdings_updated_ids or not existing_holdings
