@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -12.7287,
+      "value": -9.7284,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 48.1053,
+      "value": 57.56,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 26.2713,
+      "value": 27.3422,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7924,
+      "value": 0.765,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.5714,
+      "value": 1.6111,
       "unit": "years"
     },
     "expense_ratio": {
@@ -87,26 +87,26 @@
       "unit": "percent"
     },
     "max_drawdown": {
-      "value": -15.2015,
+      "value": -18.4371,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.774,
+      "value": 2.0503,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 48.1053,
+      "value": 57.56,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.892,
+      "value": 17.8466,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 14.07,
+    "date": "2026-08-11",
+    "value": 15.11,
     "currency": "TWD"
   },
   "trend": [
@@ -1693,96 +1693,74 @@
     {
       "date": "2026-07-28",
       "value": 140.98
+    },
+    {
+      "date": "2026-07-29",
+      "value": 137.98
+    },
+    {
+      "date": "2026-07-30",
+      "value": 133.87
+    },
+    {
+      "date": "2026-07-31",
+      "value": 142.28
+    },
+    {
+      "date": "2026-08-03",
+      "value": 144.49
+    },
+    {
+      "date": "2026-08-04",
+      "value": 146.89
+    },
+    {
+      "date": "2026-08-05",
+      "value": 150.7
+    },
+    {
+      "date": "2026-08-06",
+      "value": 150.5
+    },
+    {
+      "date": "2026-08-07",
+      "value": 149.6
+    },
+    {
+      "date": "2026-08-10",
+      "value": 152.4
+    },
+    {
+      "date": "2026-08-11",
+      "value": 151.4
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2024-12-06",
+    "last_date": "2026-08-11",
+    "observations": 406,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-08-11",
+    "latest_volume": 708776.0,
+    "average_volume_20d": 686321.25,
+    "average_dollar_volume_20d": 9953261.094,
+    "relative_volume_20d": 1.0327,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "2317.TW",
-      "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0678711,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
-      "holding_name_zh": "鴻海",
-      "display_name": "鴻海",
-      "display_label": "(2317.TW)鴻海",
-      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "3231.TW",
-      "holding_name": "Wistron Corp",
-      "weight": 0.058748104,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Wistron Corp",
-      "holding_name_zh": "緯創",
-      "display_name": "緯創",
-      "display_label": "(3231.TW)緯創",
-      "bilingual_name": "Wistron Corp（緯創）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "1590.TW",
-      "holding_name": "Airtac International Group",
-      "weight": 0.0510886,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Airtac International Group",
-      "holding_name_zh": "亞德客-KY",
-      "display_name": "亞德客-KY",
-      "display_label": "(1590.TW)亞德客-KY",
-      "bilingual_name": "Airtac International Group（亞德客-KY）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "1504.TW",
-      "holding_name": "Teco Electric & Machinery Co Ltd",
-      "weight": 0.050493304,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Teco Electric & Machinery Co Ltd",
-      "holding_name_zh": "東元",
-      "display_name": "東元",
-      "display_label": "(1504.TW)東元",
-      "bilingual_name": "Teco Electric & Machinery Co Ltd（東元）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "5536.TWO",
-      "holding_name": "Acter Group Corp Ltd",
-      "weight": 0.044246003,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Acter Group Corp Ltd",
-      "holding_name_zh": "聖暉*",
-      "display_name": "聖暉*",
-      "display_label": "(5536.TWO)聖暉*",
-      "bilingual_name": "Acter Group Corp Ltd（聖暉*）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0404268,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "holding_name_en": "Quanta Computer Inc",
-      "holding_name_zh": "廣達",
-      "display_name": "廣達",
-      "display_label": "(2382.TW)廣達",
-      "bilingual_name": "Quanta Computer Inc（廣達）"
-    },
     {
       "etf_id": "TW-00962",
       "holding_symbol": "2357.TW",
       "holding_name": "Asustek Computer Inc",
-      "weight": 0.0363155,
-      "as_of": "2026-07-19",
+      "weight": 0.0757233,
+      "as_of": null,
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Asustek Computer Inc",
       "holding_name_zh": "華碩",
       "display_name": "華碩",
@@ -1791,48 +1769,135 @@
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "3264.TWO",
-      "holding_name": "Ardentec Corp",
-      "weight": 0.036001302,
-      "as_of": "2026-07-19",
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.0563585,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Ardentec Corp",
-      "holding_name_zh": "欣銓",
-      "display_name": "欣銓",
-      "display_label": "(3264.TWO)欣銓",
-      "bilingual_name": "Ardentec Corp（欣銓）"
+      "rank": 2,
+      "holding_name_en": "Quanta Computer Inc",
+      "holding_name_zh": "廣達",
+      "display_name": "廣達",
+      "display_label": "(2382.TW)廣達",
+      "bilingual_name": "Quanta Computer Inc（廣達）"
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "6285.TW",
-      "holding_name": "WNC Corp",
-      "weight": 0.0359223,
-      "as_of": "2026-07-19",
+      "holding_symbol": "2356.TW",
+      "holding_name": "Inventec Corp",
+      "weight": 0.054803,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "WNC Corp",
-      "holding_name_zh": "啟碁",
-      "display_name": "啟碁",
-      "display_label": "(6285.TW)啟碁",
-      "bilingual_name": "WNC Corp（啟碁）"
+      "rank": 3,
+      "holding_name_en": "Inventec Corp",
+      "holding_name_zh": "英業達",
+      "display_name": "英業達",
+      "display_label": "(2356.TW)英業達",
+      "bilingual_name": "Inventec Corp（英業達）"
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "4904.TW",
-      "holding_name": "Far EasTone Telecommunications Co Ltd",
-      "weight": 0.034447897,
-      "as_of": "2026-07-19",
+      "holding_symbol": "2376.TW",
+      "holding_name": "Gigabyte Technology Co Ltd",
+      "weight": 0.0535192,
+      "as_of": null,
       "source": "yahoo",
-      "holding_name_en": "Far EasTone Telecommunications Co Ltd",
-      "holding_name_zh": "遠傳",
-      "display_name": "遠傳",
-      "display_label": "(4904.TW)遠傳",
-      "bilingual_name": "Far EasTone Telecommunications Co Ltd（遠傳）"
+      "rank": 4,
+      "holding_name_en": "Gigabyte Technology Co Ltd",
+      "holding_name_zh": "技嘉",
+      "display_name": "技嘉",
+      "display_label": "(2376.TW)技嘉",
+      "bilingual_name": "Gigabyte Technology Co Ltd（技嘉）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "3231.TW",
+      "holding_name": "Wistron Corp",
+      "weight": 0.0473921,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Wistron Corp",
+      "holding_name_zh": "緯創",
+      "display_name": "緯創",
+      "display_label": "(3231.TW)緯創",
+      "bilingual_name": "Wistron Corp（緯創）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "3034.TW",
+      "holding_name": "Novatek Microelectronics Corp",
+      "weight": 0.0422677,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Novatek Microelectronics Corp",
+      "holding_name_zh": "聯詠",
+      "display_name": "聯詠",
+      "display_label": "(3034.TW)聯詠",
+      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "5536.TWO",
+      "holding_name": "Acter Group Corp Ltd",
+      "weight": 0.0407666,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Acter Group Corp Ltd",
+      "holding_name_zh": "聖暉*",
+      "display_name": "聖暉*",
+      "display_label": "(5536.TWO)聖暉*",
+      "bilingual_name": "Acter Group Corp Ltd（聖暉*）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0366097,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "2395.TW",
+      "holding_name": "Advantech Co Ltd",
+      "weight": 0.0340864,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Advantech Co Ltd",
+      "holding_name_zh": "研華",
+      "display_name": "研華",
+      "display_label": "(2395.TW)研華",
+      "bilingual_name": "Advantech Co Ltd（研華）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "6669.TW",
+      "holding_name": "Wiwynn Corp Ordinary Shares",
+      "weight": 0.033802,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Wiwynn Corp Ordinary Shares",
+      "holding_name_zh": "緯穎",
+      "display_name": "緯穎",
+      "display_label": "(6669.TW)緯穎",
+      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.455561,
-    "top_3_weight": 0.177708
+    "top_10_weight": 0.475328,
+    "top_3_weight": 0.186885
   },
   "research": {
     "tier": "context",
