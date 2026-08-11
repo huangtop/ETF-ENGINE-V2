@@ -53,17 +53,599 @@
       "code": "broad_market"
     }
   ],
-  "metrics": {},
-  "bootstrap_status": "pending",
-  "latest_price": null,
-  "trend": [],
-  "price_history": null,
-  "liquidity": null,
-  "top_holdings": [],
+  "metrics": {
+    "alpha": {
+      "value": 35.612,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 24.5677,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.5241,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.3849,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -8.1452,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 37.2813,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 23.2049,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-08-11",
+    "value": 20.4,
+    "currency": "TWD"
+  },
+  "trend": [
+    {
+      "date": "2026-03-23",
+      "value": 100.0
+    },
+    {
+      "date": "2026-03-24",
+      "value": 101.01
+    },
+    {
+      "date": "2026-03-25",
+      "value": 101.14
+    },
+    {
+      "date": "2026-03-26",
+      "value": 100.27
+    },
+    {
+      "date": "2026-03-27",
+      "value": 98.45
+    },
+    {
+      "date": "2026-03-30",
+      "value": 95.96
+    },
+    {
+      "date": "2026-03-31",
+      "value": 95.36
+    },
+    {
+      "date": "2026-04-01",
+      "value": 98.59
+    },
+    {
+      "date": "2026-04-02",
+      "value": 98.32
+    },
+    {
+      "date": "2026-04-07",
+      "value": 99.93
+    },
+    {
+      "date": "2026-04-08",
+      "value": 102.83
+    },
+    {
+      "date": "2026-04-09",
+      "value": 103.1
+    },
+    {
+      "date": "2026-04-10",
+      "value": 104.44
+    },
+    {
+      "date": "2026-04-13",
+      "value": 103.57
+    },
+    {
+      "date": "2026-04-14",
+      "value": 106.66
+    },
+    {
+      "date": "2026-04-15",
+      "value": 108.68
+    },
+    {
+      "date": "2026-04-16",
+      "value": 111.37
+    },
+    {
+      "date": "2026-04-17",
+      "value": 111.71
+    },
+    {
+      "date": "2026-04-20",
+      "value": 112.85
+    },
+    {
+      "date": "2026-04-21",
+      "value": 113.32
+    },
+    {
+      "date": "2026-04-22",
+      "value": 113.59
+    },
+    {
+      "date": "2026-04-23",
+      "value": 114.6
+    },
+    {
+      "date": "2026-04-24",
+      "value": 114.54
+    },
+    {
+      "date": "2026-04-27",
+      "value": 116.82
+    },
+    {
+      "date": "2026-04-28",
+      "value": 117.77
+    },
+    {
+      "date": "2026-04-29",
+      "value": 116.89
+    },
+    {
+      "date": "2026-04-30",
+      "value": 117.43
+    },
+    {
+      "date": "2026-05-04",
+      "value": 119.92
+    },
+    {
+      "date": "2026-05-05",
+      "value": 119.38
+    },
+    {
+      "date": "2026-05-06",
+      "value": 122.01
+    },
+    {
+      "date": "2026-05-07",
+      "value": 122.88
+    },
+    {
+      "date": "2026-05-08",
+      "value": 123.96
+    },
+    {
+      "date": "2026-05-11",
+      "value": 127.66
+    },
+    {
+      "date": "2026-05-12",
+      "value": 127.59
+    },
+    {
+      "date": "2026-05-13",
+      "value": 127.19
+    },
+    {
+      "date": "2026-05-14",
+      "value": 128.13
+    },
+    {
+      "date": "2026-05-15",
+      "value": 128.13
+    },
+    {
+      "date": "2026-05-18",
+      "value": 127.12
+    },
+    {
+      "date": "2026-05-19",
+      "value": 126.04
+    },
+    {
+      "date": "2026-05-20",
+      "value": 125.84
+    },
+    {
+      "date": "2026-05-21",
+      "value": 128.13
+    },
+    {
+      "date": "2026-05-22",
+      "value": 128.73
+    },
+    {
+      "date": "2026-05-25",
+      "value": 130.01
+    },
+    {
+      "date": "2026-05-26",
+      "value": 129.61
+    },
+    {
+      "date": "2026-05-27",
+      "value": 130.96
+    },
+    {
+      "date": "2026-05-28",
+      "value": 130.08
+    },
+    {
+      "date": "2026-05-29",
+      "value": 132.84
+    },
+    {
+      "date": "2026-06-01",
+      "value": 134.86
+    },
+    {
+      "date": "2026-06-02",
+      "value": 135.87
+    },
+    {
+      "date": "2026-06-03",
+      "value": 137.15
+    },
+    {
+      "date": "2026-06-04",
+      "value": 135.6
+    },
+    {
+      "date": "2026-06-05",
+      "value": 134.05
+    },
+    {
+      "date": "2026-06-08",
+      "value": 127.73
+    },
+    {
+      "date": "2026-06-09",
+      "value": 130.48
+    },
+    {
+      "date": "2026-06-10",
+      "value": 126.72
+    },
+    {
+      "date": "2026-06-11",
+      "value": 125.98
+    },
+    {
+      "date": "2026-06-12",
+      "value": 129.81
+    },
+    {
+      "date": "2026-06-15",
+      "value": 132.84
+    },
+    {
+      "date": "2026-06-16",
+      "value": 134.79
+    },
+    {
+      "date": "2026-06-17",
+      "value": 133.11
+    },
+    {
+      "date": "2026-06-18",
+      "value": 132.97
+    },
+    {
+      "date": "2026-06-22",
+      "value": 134.99
+    },
+    {
+      "date": "2026-06-23",
+      "value": 132.71
+    },
+    {
+      "date": "2026-06-24",
+      "value": 131.76
+    },
+    {
+      "date": "2026-06-25",
+      "value": 133.18
+    },
+    {
+      "date": "2026-06-26",
+      "value": 129.27
+    },
+    {
+      "date": "2026-06-29",
+      "value": 130.89
+    },
+    {
+      "date": "2026-06-30",
+      "value": 133.38
+    },
+    {
+      "date": "2026-07-01",
+      "value": 134.93
+    },
+    {
+      "date": "2026-07-02",
+      "value": 134.19
+    },
+    {
+      "date": "2026-07-03",
+      "value": 132.84
+    },
+    {
+      "date": "2026-07-06",
+      "value": 133.11
+    },
+    {
+      "date": "2026-07-07",
+      "value": 132.23
+    },
+    {
+      "date": "2026-07-08",
+      "value": 131.9
+    },
+    {
+      "date": "2026-07-09",
+      "value": 133.71
+    },
+    {
+      "date": "2026-07-13",
+      "value": 133.78
+    },
+    {
+      "date": "2026-07-14",
+      "value": 134.12
+    },
+    {
+      "date": "2026-07-15",
+      "value": 136.54
+    },
+    {
+      "date": "2026-07-16",
+      "value": 136.54
+    },
+    {
+      "date": "2026-07-17",
+      "value": 132.03
+    },
+    {
+      "date": "2026-07-20",
+      "value": 132.17
+    },
+    {
+      "date": "2026-07-21",
+      "value": 133.85
+    },
+    {
+      "date": "2026-07-22",
+      "value": 134.59
+    },
+    {
+      "date": "2026-07-23",
+      "value": 133.92
+    },
+    {
+      "date": "2026-07-24",
+      "value": 132.03
+    },
+    {
+      "date": "2026-07-27",
+      "value": 132.84
+    },
+    {
+      "date": "2026-07-28",
+      "value": 129.14
+    },
+    {
+      "date": "2026-07-29",
+      "value": 128.26
+    },
+    {
+      "date": "2026-07-30",
+      "value": 126.72
+    },
+    {
+      "date": "2026-07-31",
+      "value": 131.9
+    },
+    {
+      "date": "2026-08-03",
+      "value": 132.57
+    },
+    {
+      "date": "2026-08-04",
+      "value": 134.66
+    },
+    {
+      "date": "2026-08-05",
+      "value": 138.22
+    },
+    {
+      "date": "2026-08-06",
+      "value": 136.74
+    },
+    {
+      "date": "2026-08-07",
+      "value": 137.08
+    },
+    {
+      "date": "2026-08-10",
+      "value": 138.16
+    },
+    {
+      "date": "2026-08-11",
+      "value": 137.28
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-03-23",
+    "last_date": "2026-08-11",
+    "observations": 97,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-11",
+    "latest_volume": 135390.0,
+    "average_volume_20d": 358456.4,
+    "average_dollar_volume_20d": 7117953.9815,
+    "relative_volume_20d": 0.3777,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.1229344,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.1202828,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.09631389,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0676993,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0627065,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.062248,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.057262,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.0544331,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.0416866,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
+    },
+    {
+      "etf_id": "TW-009818",
+      "holding_symbol": "INTC",
+      "holding_name": "Intel Corp",
+      "weight": 0.0308855,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Intel Corp",
+      "holding_name_zh": "英特爾",
+      "display_name": "英特爾",
+      "display_label": "(INTC)英特爾",
+      "bilingual_name": "Intel Corp（英特爾）"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.716452,
+    "top_3_weight": 0.339531
   },
   "research": {
     "tier": "context",

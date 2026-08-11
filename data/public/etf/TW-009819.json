@@ -49,17 +49,515 @@
       "code": "standard"
     }
   ],
-  "metrics": {},
-  "bootstrap_status": "pending",
-  "latest_price": null,
-  "trend": [],
-  "price_history": null,
-  "liquidity": null,
-  "top_holdings": [],
+  "metrics": {
+    "alpha": {
+      "value": -78.2447,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 38.9349,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.311,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.3016,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -23.6842,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -17.3046,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 45.5016,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-08-11",
+    "value": 10.37,
+    "currency": "TWD"
+  },
+  "trend": [
+    {
+      "date": "2026-04-23",
+      "value": 100.0
+    },
+    {
+      "date": "2026-04-24",
+      "value": 86.84
+    },
+    {
+      "date": "2026-04-27",
+      "value": 80.14
+    },
+    {
+      "date": "2026-04-28",
+      "value": 79.82
+    },
+    {
+      "date": "2026-04-29",
+      "value": 78.87
+    },
+    {
+      "date": "2026-04-30",
+      "value": 79.27
+    },
+    {
+      "date": "2026-05-04",
+      "value": 80.54
+    },
+    {
+      "date": "2026-05-05",
+      "value": 80.94
+    },
+    {
+      "date": "2026-05-06",
+      "value": 82.78
+    },
+    {
+      "date": "2026-05-07",
+      "value": 82.38
+    },
+    {
+      "date": "2026-05-08",
+      "value": 80.7
+    },
+    {
+      "date": "2026-05-11",
+      "value": 80.62
+    },
+    {
+      "date": "2026-05-12",
+      "value": 80.54
+    },
+    {
+      "date": "2026-05-13",
+      "value": 80.14
+    },
+    {
+      "date": "2026-05-14",
+      "value": 79.9
+    },
+    {
+      "date": "2026-05-15",
+      "value": 81.02
+    },
+    {
+      "date": "2026-05-18",
+      "value": 80.22
+    },
+    {
+      "date": "2026-05-19",
+      "value": 79.59
+    },
+    {
+      "date": "2026-05-20",
+      "value": 79.51
+    },
+    {
+      "date": "2026-05-21",
+      "value": 80.7
+    },
+    {
+      "date": "2026-05-22",
+      "value": 81.1
+    },
+    {
+      "date": "2026-05-25",
+      "value": 81.82
+    },
+    {
+      "date": "2026-05-26",
+      "value": 81.74
+    },
+    {
+      "date": "2026-05-27",
+      "value": 81.98
+    },
+    {
+      "date": "2026-05-28",
+      "value": 81.18
+    },
+    {
+      "date": "2026-05-29",
+      "value": 82.78
+    },
+    {
+      "date": "2026-06-01",
+      "value": 86.04
+    },
+    {
+      "date": "2026-06-02",
+      "value": 88.12
+    },
+    {
+      "date": "2026-06-03",
+      "value": 92.11
+    },
+    {
+      "date": "2026-06-04",
+      "value": 87.0
+    },
+    {
+      "date": "2026-06-05",
+      "value": 85.73
+    },
+    {
+      "date": "2026-06-08",
+      "value": 82.38
+    },
+    {
+      "date": "2026-06-09",
+      "value": 83.33
+    },
+    {
+      "date": "2026-06-10",
+      "value": 81.34
+    },
+    {
+      "date": "2026-06-11",
+      "value": 79.98
+    },
+    {
+      "date": "2026-06-12",
+      "value": 81.02
+    },
+    {
+      "date": "2026-06-15",
+      "value": 81.82
+    },
+    {
+      "date": "2026-06-16",
+      "value": 83.01
+    },
+    {
+      "date": "2026-06-17",
+      "value": 82.3
+    },
+    {
+      "date": "2026-06-18",
+      "value": 83.65
+    },
+    {
+      "date": "2026-06-22",
+      "value": 84.85
+    },
+    {
+      "date": "2026-06-23",
+      "value": 82.93
+    },
+    {
+      "date": "2026-06-24",
+      "value": 82.46
+    },
+    {
+      "date": "2026-06-25",
+      "value": 82.85
+    },
+    {
+      "date": "2026-06-26",
+      "value": 80.86
+    },
+    {
+      "date": "2026-06-29",
+      "value": 80.94
+    },
+    {
+      "date": "2026-06-30",
+      "value": 82.06
+    },
+    {
+      "date": "2026-07-01",
+      "value": 82.38
+    },
+    {
+      "date": "2026-07-02",
+      "value": 81.1
+    },
+    {
+      "date": "2026-07-03",
+      "value": 80.54
+    },
+    {
+      "date": "2026-07-06",
+      "value": 80.38
+    },
+    {
+      "date": "2026-07-07",
+      "value": 80.14
+    },
+    {
+      "date": "2026-07-08",
+      "value": 79.74
+    },
+    {
+      "date": "2026-07-09",
+      "value": 81.02
+    },
+    {
+      "date": "2026-07-13",
+      "value": 81.02
+    },
+    {
+      "date": "2026-07-14",
+      "value": 80.46
+    },
+    {
+      "date": "2026-07-15",
+      "value": 81.1
+    },
+    {
+      "date": "2026-07-16",
+      "value": 80.3
+    },
+    {
+      "date": "2026-07-17",
+      "value": 77.67
+    },
+    {
+      "date": "2026-07-20",
+      "value": 78.31
+    },
+    {
+      "date": "2026-07-21",
+      "value": 79.27
+    },
+    {
+      "date": "2026-07-22",
+      "value": 79.82
+    },
+    {
+      "date": "2026-07-23",
+      "value": 80.54
+    },
+    {
+      "date": "2026-07-24",
+      "value": 80.06
+    },
+    {
+      "date": "2026-07-27",
+      "value": 80.14
+    },
+    {
+      "date": "2026-07-28",
+      "value": 78.39
+    },
+    {
+      "date": "2026-07-29",
+      "value": 77.27
+    },
+    {
+      "date": "2026-07-30",
+      "value": 76.32
+    },
+    {
+      "date": "2026-07-31",
+      "value": 79.9
+    },
+    {
+      "date": "2026-08-03",
+      "value": 79.67
+    },
+    {
+      "date": "2026-08-04",
+      "value": 80.62
+    },
+    {
+      "date": "2026-08-05",
+      "value": 83.09
+    },
+    {
+      "date": "2026-08-06",
+      "value": 82.14
+    },
+    {
+      "date": "2026-08-07",
+      "value": 82.22
+    },
+    {
+      "date": "2026-08-10",
+      "value": 83.01
+    },
+    {
+      "date": "2026-08-11",
+      "value": 82.7
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-04-23",
+    "last_date": "2026-08-11",
+    "observations": 76,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-11",
+    "latest_volume": 2768646.0,
+    "average_volume_20d": 6775643.6,
+    "average_dollar_volume_20d": 68180542.107,
+    "relative_volume_20d": 0.4086,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.26229998,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "GEV",
+      "holding_name": "GE Vernova Inc",
+      "weight": 0.0933,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "GE Vernova Inc",
+      "holding_name_zh": null,
+      "display_name": "GE Vernova Inc",
+      "display_label": "(GEV)GE Vernova Inc",
+      "bilingual_name": "GE Vernova Inc"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "MRVL",
+      "holding_name": "Marvell Technology Inc",
+      "weight": 0.0765,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Marvell Technology Inc",
+      "holding_name_zh": "邁威爾科技",
+      "display_name": "邁威爾科技",
+      "display_label": "(MRVL)邁威爾科技",
+      "bilingual_name": "Marvell Technology Inc（邁威爾科技）"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "ORCL",
+      "holding_name": "Oracle Corp",
+      "weight": 0.0738,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Oracle Corp",
+      "holding_name_zh": null,
+      "display_name": "Oracle Corp",
+      "display_label": "(ORCL)Oracle Corp",
+      "bilingual_name": "Oracle Corp"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "NEE",
+      "holding_name": "NextEra Energy Inc",
+      "weight": 0.0537,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "NextEra Energy Inc",
+      "holding_name_zh": null,
+      "display_name": "NextEra Energy Inc",
+      "display_label": "(NEE)NextEra Energy Inc",
+      "bilingual_name": "NextEra Energy Inc"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "SO",
+      "holding_name": "Southern Co",
+      "weight": 0.0316,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Southern Co",
+      "holding_name_zh": null,
+      "display_name": "Southern Co",
+      "display_label": "(SO)Southern Co",
+      "bilingual_name": "Southern Co"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "EQIX",
+      "holding_name": "Equinix Inc",
+      "weight": 0.0301,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Equinix Inc",
+      "holding_name_zh": "Equinix",
+      "display_name": "Equinix",
+      "display_label": "(EQIX)Equinix",
+      "bilingual_name": "Equinix Inc（Equinix）"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "NOW",
+      "holding_name": "ServiceNow Inc",
+      "weight": 0.0297,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "ServiceNow Inc",
+      "holding_name_zh": null,
+      "display_name": "ServiceNow Inc",
+      "display_label": "(NOW)ServiceNow Inc",
+      "bilingual_name": "ServiceNow Inc"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "DUK",
+      "holding_name": "Duke Energy Corp",
+      "weight": 0.0288,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Duke Energy Corp",
+      "holding_name_zh": null,
+      "display_name": "Duke Energy Corp",
+      "display_label": "(DUK)Duke Energy Corp",
+      "bilingual_name": "Duke Energy Corp"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "CEG",
+      "holding_name": "Constellation Energy Corp",
+      "weight": 0.0247,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Constellation Energy Corp",
+      "holding_name_zh": null,
+      "display_name": "Constellation Energy Corp",
+      "display_label": "(CEG)Constellation Energy Corp",
+      "bilingual_name": "Constellation Energy Corp"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.7045,
+    "top_3_weight": 0.4321
   },
   "research": {
     "tier": "context",
