@@ -223,6 +223,13 @@ def _load_public_metrics(entities: list[ETFEntity]) -> list[dict[str, Any]]:
     return rows
 
 
+def _load_metric_overrides() -> list[dict[str, Any]]:
+    seed_dir = getattr(settings, "seed_dir", None)
+    if seed_dir is None:
+        return []
+    return _read_json(seed_dir / "metric_overrides.json", [])
+
+
 def run(
     market: str = "all",
     bootstrap_limit: int | None = None,
@@ -433,6 +440,12 @@ def run(
         last_known_metrics,
         current_metrics,
         metrics_refreshed,
+    )
+    # Static provider/prospectus metrics are not price-derived and must survive
+    # a successful price refresh for the same ETF.
+    metrics = _merge_metrics(
+        metrics,
+        _load_metric_overrides(),
     )
     _write_json(metrics_path, metrics)
 
