@@ -55,46 +55,50 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 2.3962,
+      "value": 6.8405,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 124.2371,
+      "value": 144.3966,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 34.8757,
+      "value": 37.1016,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.2087,
+      "value": 1.1858,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.631,
+      "value": 2.6667,
       "unit": "years"
     },
+    "expense_ratio": {
+      "value": 0.43,
+      "unit": "percent"
+    },
     "max_drawdown": {
-      "value": -21.028,
+      "value": -25.8255,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.5193,
+      "value": 3.8515,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 124.2371,
+      "value": 144.3966,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 15.3348,
+      "value": 16.2204,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 50.7,
+    "date": "2026-08-10",
+    "value": 56.7,
     "currency": "TWD"
   },
   "trend": [
@@ -2749,10 +2753,61 @@
     {
       "date": "2026-07-28",
       "value": 337.33
+    },
+    {
+      "date": "2026-07-29",
+      "value": 316.83
+    },
+    {
+      "date": "2026-07-30",
+      "value": 318.7
+    },
+    {
+      "date": "2026-07-31",
+      "value": 350.3
+    },
+    {
+      "date": "2026-08-03",
+      "value": 361.94
+    },
+    {
+      "date": "2026-08-04",
+      "value": 359.61
+    },
+    {
+      "date": "2026-08-05",
+      "value": 371.59
+    },
+    {
+      "date": "2026-08-06",
+      "value": 371.92
+    },
+    {
+      "date": "2026-08-07",
+      "value": 365.93
+    },
+    {
+      "date": "2026-08-10",
+      "value": 377.25
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2023-11-01",
+    "last_date": "2026-08-10",
+    "observations": 672,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-08-10",
+    "latest_volume": 13136412.0,
+    "average_volume_20d": 18149614.05,
+    "average_dollar_volume_20d": 967021755.2225,
+    "relative_volume_20d": 0.7238,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00935",

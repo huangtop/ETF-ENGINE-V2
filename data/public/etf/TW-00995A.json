@@ -55,7 +55,7 @@
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 47.0529,
+      "value": 46.8893,
       "unit": "percent"
     },
     "beta": {
@@ -63,8 +63,12 @@
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.5476,
+      "value": 0.5516,
       "unit": "years"
+    },
+    "expense_ratio": {
+      "value": 0.785,
+      "unit": "percent"
     },
     "max_drawdown": {
       "value": -26.7981,
@@ -75,7 +79,7 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 67.0,
+      "value": 66.6,
       "unit": "percent"
     },
     "tracking_error": {
@@ -85,8 +89,8 @@
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-10",
-    "value": 16.7,
+    "date": "2026-08-11",
+    "value": 16.66,
     "currency": "TWD"
   },
   "trend": [
@@ -641,21 +645,25 @@
     {
       "date": "2026-08-10",
       "value": 167.0
+    },
+    {
+      "date": "2026-08-11",
+      "value": 166.6
     }
   ],
   "price_history": {
     "first_date": "2026-01-13",
-    "last_date": "2026-08-10",
-    "observations": 138,
+    "last_date": "2026-08-11",
+    "observations": 139,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-08-10",
-    "latest_volume": 2694176.0,
-    "average_volume_20d": 7868259.3,
-    "average_dollar_volume_20d": 120556085.5458,
-    "relative_volume_20d": 0.3424,
+    "as_of": "2026-08-11",
+    "latest_volume": 1751514.0,
+    "average_volume_20d": 7384208.2,
+    "average_dollar_volume_20d": 112639998.5009,
+    "relative_volume_20d": 0.2372,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -761,31 +769,31 @@
     },
     {
       "etf_id": "TW-00995A",
-      "holding_symbol": "3017.TW",
-      "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.0389,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Asia Vital Components Co Ltd",
-      "holding_name_zh": "奇鋐",
-      "display_name": "奇鋐",
-      "display_label": "(3017.TW)奇鋐",
-      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
-    },
-    {
-      "etf_id": "TW-00995A",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
       "weight": 0.0389,
       "as_of": "2026-07-19",
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Delta Electronics Inc",
       "holding_name_zh": "台達電",
       "display_name": "台達電",
       "display_label": "(2308.TW)台達電",
       "bilingual_name": "Delta Electronics Inc（台達電）"
+    },
+    {
+      "etf_id": "TW-00995A",
+      "holding_symbol": "3017.TW",
+      "holding_name": "Asia Vital Components Co Ltd",
+      "weight": 0.0389,
+      "as_of": "2026-07-19",
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Asia Vital Components Co Ltd",
+      "holding_name_zh": "奇鋐",
+      "display_name": "奇鋐",
+      "display_label": "(3017.TW)奇鋐",
+      "bilingual_name": "Asia Vital Components Co Ltd（奇鋐）"
     },
     {
       "etf_id": "TW-00995A",

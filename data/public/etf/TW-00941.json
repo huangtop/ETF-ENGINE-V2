@@ -59,46 +59,50 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 7.6996,
+      "value": 11.3443,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 80.0725,
+      "value": 95.8732,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.219,
+      "value": 29.8453,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7889,
+      "value": 0.8005,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.2817,
+      "value": 2.3175,
       "unit": "years"
     },
+    "expense_ratio": {
+      "value": 0.9,
+      "unit": "percent"
+    },
     "max_drawdown": {
-      "value": -18.578,
+      "value": -22.2477,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.7844,
+      "value": 3.1621,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 80.0725,
+      "value": 95.8732,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.9094,
+      "value": 20.0713,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-07-28",
-    "value": 24.85,
+    "date": "2026-08-10",
+    "value": 26.58,
     "currency": "TWD"
   },
   "trend": [
@@ -2401,10 +2405,61 @@
     {
       "date": "2026-07-28",
       "value": 161.89
+    },
+    {
+      "date": "2026-07-29",
+      "value": 154.59
+    },
+    {
+      "date": "2026-07-30",
+      "value": 156.48
+    },
+    {
+      "date": "2026-07-31",
+      "value": 168.34
+    },
+    {
+      "date": "2026-08-03",
+      "value": 166.19
+    },
+    {
+      "date": "2026-08-04",
+      "value": 167.3
+    },
+    {
+      "date": "2026-08-05",
+      "value": 173.75
+    },
+    {
+      "date": "2026-08-06",
+      "value": 171.66
+    },
+    {
+      "date": "2026-08-07",
+      "value": 170.36
+    },
+    {
+      "date": "2026-08-10",
+      "value": 173.16
     }
   ],
-  "price_history": null,
-  "liquidity": null,
+  "price_history": {
+    "first_date": "2024-03-15",
+    "last_date": "2026-08-10",
+    "observations": 584,
+    "one_year_eligible": true,
+    "status": "complete_1y"
+  },
+  "liquidity": {
+    "as_of": "2026-08-10",
+    "latest_volume": 1505437.0,
+    "average_volume_20d": 3003767.55,
+    "average_dollar_volume_20d": 78045918.355,
+    "relative_volume_20d": 0.5012,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
   "top_holdings": [
     {
       "etf_id": "TW-00941",
@@ -2413,6 +2468,7 @@
       "weight": 0.1016,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 1,
       "holding_name_en": "Applied Materials Inc",
       "holding_name_zh": "應用材料",
       "display_name": "應用材料",
@@ -2426,6 +2482,7 @@
       "weight": 0.0935,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "KLA Corp",
       "holding_name_zh": "科磊",
       "display_name": "科磊",
@@ -2439,6 +2496,7 @@
       "weight": 0.09020001,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "Lam Research Corp",
       "holding_name_zh": "科林研發",
       "display_name": "科林研發",
@@ -2452,6 +2510,7 @@
       "weight": 0.0743,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "ASML Holding NV",
       "holding_name_zh": null,
       "display_name": "ASML Holding NV",
@@ -2465,6 +2524,7 @@
       "weight": 0.0625,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Tokyo Electron Ltd",
       "holding_name_zh": null,
       "display_name": "Tokyo Electron Ltd",
@@ -2478,6 +2538,7 @@
       "weight": 0.0586,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 6,
       "holding_name_en": "Linde PLC",
       "holding_name_zh": null,
       "display_name": "Linde PLC",
@@ -2491,6 +2552,7 @@
       "weight": 0.0556,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Air Products and Chemicals Inc",
       "holding_name_zh": null,
       "display_name": "Air Products and Chemicals Inc",
@@ -2501,9 +2563,10 @@
       "etf_id": "TW-00941",
       "holding_symbol": "4063.T",
       "holding_name": "Shin-Etsu Chemical Co Ltd",
-      "weight": 0.054899998,
+      "weight": 0.0549,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Shin-Etsu Chemical Co Ltd",
       "holding_name_zh": null,
       "display_name": "Shin-Etsu Chemical Co Ltd",
@@ -2517,6 +2580,7 @@
       "weight": 0.0548,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "Air Liquide SA",
       "holding_name_zh": null,
       "display_name": "Air Liquide SA",
@@ -2530,6 +2594,7 @@
       "weight": 0.0432,
       "as_of": "2026-07-19",
       "source": "yahoo",
+      "rank": 10,
       "holding_name_en": "Basf SE",
       "holding_name_zh": null,
       "display_name": "Basf SE",
