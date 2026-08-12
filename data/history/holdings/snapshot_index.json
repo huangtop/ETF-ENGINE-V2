@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-11T23:02:27.104750Z",
+  "updated_at": "2026-08-12T06:20:59.310295Z",
   "etfs": {
     "TW-00400A": {
       "current": "20260729-29f1f0bdcb1c",
@@ -87,14 +87,20 @@
       ]
     },
     "TW-00406A": {
-      "current": "20260729-2a6094f4e6d5",
-      "previous": null,
+      "current": "20260812-14394af581ea",
+      "previous": "20260729-2a6094f4e6d5",
       "snapshots": [
         {
           "snapshot_id": "20260729-2a6094f4e6d5",
           "observed_at": "2026-07-29T15:32:59.680825Z",
           "content_sha256": "2a6094f4e6d5e2d132c2577e4abc7a391bdf401452b0ed30891ac636fbe8e748",
           "path": "snapshots/20260729-2a6094f4e6d5.json"
+        },
+        {
+          "snapshot_id": "20260812-14394af581ea",
+          "observed_at": "2026-08-12T06:20:33.535942Z",
+          "content_sha256": "14394af581ea4bf07579f77addbc80d31bdadb52985bccdf794a66522b4e25a4",
+          "path": "snapshots/20260812-14394af581ea.json"
         }
       ]
     },
@@ -1203,14 +1209,20 @@
       ]
     },
     "TW-00983A": {
-      "current": "20260729-715b6459d9d2",
-      "previous": null,
+      "current": "20260812-88e3114d87d7",
+      "previous": "20260729-715b6459d9d2",
       "snapshots": [
         {
           "snapshot_id": "20260729-715b6459d9d2",
           "observed_at": "2026-07-29T07:39:48.497238Z",
           "content_sha256": "715b6459d9d22dd86343cc2f9d9ffb92e1ce1688ee086a48f36d1a957c9b4346",
           "path": "snapshots/20260729-715b6459d9d2.json"
+        },
+        {
+          "snapshot_id": "20260812-88e3114d87d7",
+          "observed_at": "2026-08-12T06:20:45.330866Z",
+          "content_sha256": "88e3114d87d7c591e4b0e67c2b25d50c8632f91bf8aa3cecb8ff809671b8c312",
+          "path": "snapshots/20260812-88e3114d87d7.json"
         }
       ]
     },
@@ -1389,14 +1401,20 @@
       ]
     },
     "TW-00995A": {
-      "current": "20260729-68900cccd73b",
-      "previous": null,
+      "current": "20260812-7e985e304103",
+      "previous": "20260729-68900cccd73b",
       "snapshots": [
         {
           "snapshot_id": "20260729-68900cccd73b",
           "observed_at": "2026-07-29T07:40:10.172223Z",
           "content_sha256": "68900cccd73bf160da0ff48fbd11e6baca6cbb5436eb6f4838632e850a48af87",
           "path": "snapshots/20260729-68900cccd73b.json"
+        },
+        {
+          "snapshot_id": "20260812-7e985e304103",
+          "observed_at": "2026-08-12T06:20:55.446859Z",
+          "content_sha256": "7e985e3041032311970060a623e063f7d69fbb8822fb8d0dae6f74b075d2ae3b",
+          "path": "snapshots/20260812-7e985e304103.json"
         }
       ]
     },
@@ -3009,14 +3027,20 @@
       ]
     },
     "TW-00985D": {
-      "current": "20260809-1a78e678ea81",
-      "previous": null,
+      "current": "20260812-4570dd99915d",
+      "previous": "20260809-1a78e678ea81",
       "snapshots": [
         {
           "snapshot_id": "20260809-1a78e678ea81",
           "observed_at": "2026-08-09T16:34:49.153474Z",
           "content_sha256": "1a78e678ea8141c4555c21d8fe3b578808cc8a6fe40e126aec0f9fb4ea2d19b8",
           "path": "snapshots/20260809-1a78e678ea81.json"
+        },
+        {
+          "snapshot_id": "20260812-4570dd99915d",
+          "observed_at": "2026-08-12T06:20:46.052656Z",
+          "content_sha256": "4570dd99915d02d4397ca90f3a0a45ab5399a681dd329dc2643386e292692871",
+          "path": "snapshots/20260812-4570dd99915d.json"
         }
       ]
     },
@@ -3869,6 +3893,30 @@
           "observed_at": "2026-08-11T23:02:16.956914Z",
           "content_sha256": "56eb366265aa17cf48dbb68035ab146b4e312801104b1ca0eba2063164fa8012",
           "path": "snapshots/20260811-56eb366265aa.json"
+        }
+      ]
+    },
+    "TW-009824": {
+      "current": "20260812-cb1babd2f071",
+      "previous": null,
+      "snapshots": [
+        {
+          "snapshot_id": "20260812-cb1babd2f071",
+          "observed_at": "2026-08-12T06:20:44.943584Z",
+          "content_sha256": "cb1babd2f071abb9dfd81ec750caec8e25d0d17c9a6ddccfd51a014d307fd554",
+          "path": "snapshots/20260812-cb1babd2f071.json"
+        }
+      ]
+    },
+    "TW-00982T": {
+      "current": "20260812-aab0ea74ba12",
+      "previous": null,
+      "snapshots": [
+        {
+          "snapshot_id": "20260812-aab0ea74ba12",
+          "observed_at": "2026-08-12T06:20:45.262293Z",
+          "content_sha256": "aab0ea74ba1244bb7adf2f7cbf898cba9811f54dad0d219340ef306c5419b2ab",
+          "path": "snapshots/20260812-aab0ea74ba12.json"
         }
       ]
     }
