@@ -49,17 +49,363 @@
       "code": "standard"
     }
   ],
-  "metrics": {},
-  "bootstrap_status": "pending",
-  "latest_price": null,
-  "trend": [],
-  "price_history": null,
-  "liquidity": null,
-  "top_holdings": [],
+  "metrics": {
+    "alpha": {
+      "value": 4.0093,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 52.1615,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.7611,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.1508,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -28.1232,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -1.3743,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 42.1257,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-08-11",
+    "value": 15.07,
+    "currency": "TWD"
+  },
+  "trend": [
+    {
+      "date": "2026-06-17",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-18",
+      "value": 101.83
+    },
+    {
+      "date": "2026-06-22",
+      "value": 112.63
+    },
+    {
+      "date": "2026-06-23",
+      "value": 102.75
+    },
+    {
+      "date": "2026-06-24",
+      "value": 98.36
+    },
+    {
+      "date": "2026-06-25",
+      "value": 95.62
+    },
+    {
+      "date": "2026-06-26",
+      "value": 93.13
+    },
+    {
+      "date": "2026-06-29",
+      "value": 93.19
+    },
+    {
+      "date": "2026-06-30",
+      "value": 93.0
+    },
+    {
+      "date": "2026-07-01",
+      "value": 93.0
+    },
+    {
+      "date": "2026-07-02",
+      "value": 93.06
+    },
+    {
+      "date": "2026-07-03",
+      "value": 94.31
+    },
+    {
+      "date": "2026-07-06",
+      "value": 93.91
+    },
+    {
+      "date": "2026-07-07",
+      "value": 92.34
+    },
+    {
+      "date": "2026-07-08",
+      "value": 90.05
+    },
+    {
+      "date": "2026-07-09",
+      "value": 87.37
+    },
+    {
+      "date": "2026-07-13",
+      "value": 87.3
+    },
+    {
+      "date": "2026-07-14",
+      "value": 85.6
+    },
+    {
+      "date": "2026-07-15",
+      "value": 87.63
+    },
+    {
+      "date": "2026-07-16",
+      "value": 85.93
+    },
+    {
+      "date": "2026-07-17",
+      "value": 81.87
+    },
+    {
+      "date": "2026-07-20",
+      "value": 82.33
+    },
+    {
+      "date": "2026-07-21",
+      "value": 82.53
+    },
+    {
+      "date": "2026-07-22",
+      "value": 84.75
+    },
+    {
+      "date": "2026-07-23",
+      "value": 86.98
+    },
+    {
+      "date": "2026-07-24",
+      "value": 84.88
+    },
+    {
+      "date": "2026-07-27",
+      "value": 84.69
+    },
+    {
+      "date": "2026-07-28",
+      "value": 83.25
+    },
+    {
+      "date": "2026-07-29",
+      "value": 81.68
+    },
+    {
+      "date": "2026-07-30",
+      "value": 80.96
+    },
+    {
+      "date": "2026-07-31",
+      "value": 85.21
+    },
+    {
+      "date": "2026-08-03",
+      "value": 84.1
+    },
+    {
+      "date": "2026-08-04",
+      "value": 86.32
+    },
+    {
+      "date": "2026-08-05",
+      "value": 89.73
+    },
+    {
+      "date": "2026-08-06",
+      "value": 92.41
+    },
+    {
+      "date": "2026-08-07",
+      "value": 93.85
+    },
+    {
+      "date": "2026-08-10",
+      "value": 97.58
+    },
+    {
+      "date": "2026-08-11",
+      "value": 98.63
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-06-17",
+    "last_date": "2026-08-11",
+    "observations": 38,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-11",
+    "latest_volume": 23322240.0,
+    "average_volume_20d": 9520765.0,
+    "average_dollar_volume_20d": 129554758.6465,
+    "relative_volume_20d": 2.4496,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "LYC.AX",
+      "holding_name": "Lynas Rare Earths Ltd",
+      "weight": 0.0691294,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Lynas Rare Earths Ltd",
+      "holding_name_zh": null,
+      "display_name": "Lynas Rare Earths Ltd",
+      "display_label": "(LYC.AX)Lynas Rare Earths Ltd",
+      "bilingual_name": "Lynas Rare Earths Ltd"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "600392.SS",
+      "holding_name": "Shenghe Resources Holding Co Ltd Class A",
+      "weight": 0.0653553,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Shenghe Resources Holding Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Shenghe Resources Holding Co Ltd Class A",
+      "display_label": "(600392.SS)Shenghe Resources Holding Co Ltd Class A",
+      "bilingual_name": "Shenghe Resources Holding Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "000831.SZ",
+      "holding_name": "China Rare Earth Resources & Technology Co Ltd Class A",
+      "weight": 0.060731,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "China Rare Earth Resources & Technology Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "China Rare Earth Resources & Technology Co Ltd Class A",
+      "display_label": "(000831.SZ)China Rare Earth Resources & Technology Co Ltd Class A",
+      "bilingual_name": "China Rare Earth Resources & Technology Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "600111.SS",
+      "holding_name": "China Northern Rare Earth (Group) High-Tech Co Ltd Class A",
+      "weight": 0.0552685,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "China Northern Rare Earth (Group) High-Tech Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "China Northern Rare Earth (Group) High-Tech Co Ltd Class A",
+      "display_label": "(600111.SS)China Northern Rare Earth (Group) High-Tech Co Ltd Class A",
+      "bilingual_name": "China Northern Rare Earth (Group) High-Tech Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "MP",
+      "holding_name": "MP Materials Corp Ordinary Shares - Class A",
+      "weight": 0.0552663,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "MP Materials Corp Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "MP Materials Corp Ordinary Shares - Class A",
+      "display_label": "(MP)MP Materials Corp Ordinary Shares - Class A",
+      "bilingual_name": "MP Materials Corp Ordinary Shares - Class A"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "KAP",
+      "holding_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "weight": 0.0485463,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "holding_name_zh": null,
+      "display_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "display_label": "(KAP)National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "bilingual_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "NEM",
+      "holding_name": "Newmont Corp",
+      "weight": 0.0482086,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Newmont Corp",
+      "holding_name_zh": null,
+      "display_name": "Newmont Corp",
+      "display_label": "(NEM)Newmont Corp",
+      "bilingual_name": "Newmont Corp"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "CCO.TO",
+      "holding_name": "Cameco Corp",
+      "weight": 0.0473559,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Cameco Corp",
+      "holding_name_zh": null,
+      "display_name": "Cameco Corp",
+      "display_label": "(CCO.TO)Cameco Corp",
+      "bilingual_name": "Cameco Corp"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "AEM.TO",
+      "holding_name": "Agnico Eagle Mines Ltd",
+      "weight": 0.0469945,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Agnico Eagle Mines Ltd",
+      "holding_name_zh": null,
+      "display_name": "Agnico Eagle Mines Ltd",
+      "display_label": "(AEM.TO)Agnico Eagle Mines Ltd",
+      "bilingual_name": "Agnico Eagle Mines Ltd"
+    },
+    {
+      "etf_id": "TW-009821",
+      "holding_symbol": "600259.SS",
+      "holding_name": "China Rare Earth Nonferrous Metals Co Ltd Class A",
+      "weight": 0.0432855,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "China Rare Earth Nonferrous Metals Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "China Rare Earth Nonferrous Metals Co Ltd Class A",
+      "display_label": "(600259.SS)China Rare Earth Nonferrous Metals Co Ltd Class A",
+      "bilingual_name": "China Rare Earth Nonferrous Metals Co Ltd Class A"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.540141,
+    "top_3_weight": 0.195216
   },
   "research": {
     "tier": "context",

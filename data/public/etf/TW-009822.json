@@ -49,17 +49,435 @@
       "code": "standard"
     }
   ],
-  "metrics": {},
-  "bootstrap_status": "pending",
-  "latest_price": null,
-  "trend": [],
-  "price_history": null,
-  "liquidity": null,
-  "top_holdings": [],
+  "metrics": {
+    "alpha": {
+      "value": -31.8759,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 26.5234,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.3973,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.2222,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -8.7912,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -5.3,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 32.4185,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-08-11",
+    "value": 9.47,
+    "currency": "TWD"
+  },
+  "trend": [
+    {
+      "date": "2026-05-25",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-26",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-27",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-28",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-29",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-01",
+      "value": 100.1
+    },
+    {
+      "date": "2026-06-02",
+      "value": 99.3
+    },
+    {
+      "date": "2026-06-03",
+      "value": 98.8
+    },
+    {
+      "date": "2026-06-04",
+      "value": 96.4
+    },
+    {
+      "date": "2026-06-05",
+      "value": 96.5
+    },
+    {
+      "date": "2026-06-08",
+      "value": 91.9
+    },
+    {
+      "date": "2026-06-09",
+      "value": 94.0
+    },
+    {
+      "date": "2026-06-10",
+      "value": 92.9
+    },
+    {
+      "date": "2026-06-11",
+      "value": 91.3
+    },
+    {
+      "date": "2026-06-12",
+      "value": 93.8
+    },
+    {
+      "date": "2026-06-15",
+      "value": 96.0
+    },
+    {
+      "date": "2026-06-16",
+      "value": 97.1
+    },
+    {
+      "date": "2026-06-17",
+      "value": 98.8
+    },
+    {
+      "date": "2026-06-18",
+      "value": 98.6
+    },
+    {
+      "date": "2026-06-22",
+      "value": 99.7
+    },
+    {
+      "date": "2026-06-23",
+      "value": 97.9
+    },
+    {
+      "date": "2026-06-24",
+      "value": 98.8
+    },
+    {
+      "date": "2026-06-25",
+      "value": 98.0
+    },
+    {
+      "date": "2026-06-26",
+      "value": 95.6
+    },
+    {
+      "date": "2026-06-29",
+      "value": 99.2
+    },
+    {
+      "date": "2026-06-30",
+      "value": 99.0
+    },
+    {
+      "date": "2026-07-01",
+      "value": 97.9
+    },
+    {
+      "date": "2026-07-02",
+      "value": 98.2
+    },
+    {
+      "date": "2026-07-03",
+      "value": 98.5
+    },
+    {
+      "date": "2026-07-06",
+      "value": 98.4
+    },
+    {
+      "date": "2026-07-07",
+      "value": 99.1
+    },
+    {
+      "date": "2026-07-08",
+      "value": 97.1
+    },
+    {
+      "date": "2026-07-09",
+      "value": 97.3
+    },
+    {
+      "date": "2026-07-10",
+      "value": 97.3
+    },
+    {
+      "date": "2026-07-13",
+      "value": 96.8
+    },
+    {
+      "date": "2026-07-14",
+      "value": 96.1
+    },
+    {
+      "date": "2026-07-15",
+      "value": 97.2
+    },
+    {
+      "date": "2026-07-16",
+      "value": 98.5
+    },
+    {
+      "date": "2026-07-17",
+      "value": 95.3
+    },
+    {
+      "date": "2026-07-20",
+      "value": 94.8
+    },
+    {
+      "date": "2026-07-21",
+      "value": 97.7
+    },
+    {
+      "date": "2026-07-22",
+      "value": 99.4
+    },
+    {
+      "date": "2026-07-23",
+      "value": 98.7
+    },
+    {
+      "date": "2026-07-24",
+      "value": 99.0
+    },
+    {
+      "date": "2026-07-27",
+      "value": 98.0
+    },
+    {
+      "date": "2026-07-28",
+      "value": 97.1
+    },
+    {
+      "date": "2026-07-29",
+      "value": 97.0
+    },
+    {
+      "date": "2026-07-30",
+      "value": 94.4
+    },
+    {
+      "date": "2026-07-31",
+      "value": 98.3
+    },
+    {
+      "date": "2026-08-03",
+      "value": 97.1
+    },
+    {
+      "date": "2026-08-04",
+      "value": 98.5
+    },
+    {
+      "date": "2026-08-05",
+      "value": 98.6
+    },
+    {
+      "date": "2026-08-06",
+      "value": 97.1
+    },
+    {
+      "date": "2026-08-07",
+      "value": 95.7
+    },
+    {
+      "date": "2026-08-10",
+      "value": 95.1
+    },
+    {
+      "date": "2026-08-11",
+      "value": 94.7
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-05-25",
+    "last_date": "2026-08-11",
+    "observations": 56,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-11",
+    "latest_volume": 679000.0,
+    "average_volume_20d": 627100.0,
+    "average_dollar_volume_20d": 6127878.432,
+    "relative_volume_20d": 1.0828,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "HOOD",
+      "holding_name": "Robinhood Markets Inc Class A",
+      "weight": 0.10031319,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Robinhood Markets Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Robinhood Markets Inc Class A",
+      "display_label": "(HOOD)Robinhood Markets Inc Class A",
+      "bilingual_name": "Robinhood Markets Inc Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "NU",
+      "holding_name": "Nu Holdings Ltd Ordinary Shares Class A",
+      "weight": 0.0791624,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Nu Holdings Ltd Ordinary Shares Class A",
+      "holding_name_zh": null,
+      "display_name": "Nu Holdings Ltd Ordinary Shares Class A",
+      "display_label": "(NU)Nu Holdings Ltd Ordinary Shares Class A",
+      "bilingual_name": "Nu Holdings Ltd Ordinary Shares Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "V",
+      "holding_name": "Visa Inc Class A",
+      "weight": 0.0786108,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Visa Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Visa Inc Class A",
+      "display_label": "(V)Visa Inc Class A",
+      "bilingual_name": "Visa Inc Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "MA",
+      "holding_name": "Mastercard Inc Class A",
+      "weight": 0.0781459,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Mastercard Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Mastercard Inc Class A",
+      "display_label": "(MA)Mastercard Inc Class A",
+      "bilingual_name": "Mastercard Inc Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "MELI",
+      "holding_name": "MercadoLibre Inc",
+      "weight": 0.0778797,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "MercadoLibre Inc",
+      "holding_name_zh": null,
+      "display_name": "MercadoLibre Inc",
+      "display_label": "(MELI)MercadoLibre Inc",
+      "bilingual_name": "MercadoLibre Inc"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "HUT",
+      "holding_name": "Hut 8 Corp",
+      "weight": 0.0453056,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Hut 8 Corp",
+      "holding_name_zh": null,
+      "display_name": "Hut 8 Corp",
+      "display_label": "(HUT)Hut 8 Corp",
+      "bilingual_name": "Hut 8 Corp"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "XYZ",
+      "holding_name": "Block Inc Class A",
+      "weight": 0.040623,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Block Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Block Inc Class A",
+      "display_label": "(XYZ)Block Inc Class A",
+      "bilingual_name": "Block Inc Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "SYF",
+      "holding_name": "Synchrony Financial",
+      "weight": 0.0399943,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Synchrony Financial",
+      "holding_name_zh": null,
+      "display_name": "Synchrony Financial",
+      "display_label": "(SYF)Synchrony Financial",
+      "bilingual_name": "Synchrony Financial"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "CIFR",
+      "holding_name": "Cipher Digital Inc",
+      "weight": 0.0395278,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Cipher Digital Inc",
+      "holding_name_zh": null,
+      "display_name": "Cipher Digital Inc",
+      "display_label": "(CIFR)Cipher Digital Inc",
+      "bilingual_name": "Cipher Digital Inc"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "RIOT",
+      "holding_name": "Riot Platforms Inc",
+      "weight": 0.039457,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Riot Platforms Inc",
+      "holding_name_zh": null,
+      "display_name": "Riot Platforms Inc",
+      "display_label": "(RIOT)Riot Platforms Inc",
+      "bilingual_name": "Riot Platforms Inc"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.61902,
+    "top_3_weight": 0.258086
   },
   "research": {
     "tier": "context",

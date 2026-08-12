@@ -49,17 +49,375 @@
       "code": "standard"
     }
   ],
-  "metrics": {},
-  "bootstrap_status": "pending",
-  "latest_price": null,
-  "trend": [],
-  "price_history": null,
-  "liquidity": null,
-  "top_holdings": [],
+  "metrics": {
+    "alpha": {
+      "value": 41.8647,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 11.0742,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.1618,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.1627,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -2.5887,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 6.7,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 35.8946,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-08-11",
+    "value": 10.67,
+    "currency": "TWD"
+  },
+  "trend": [
+    {
+      "date": "2026-06-15",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-16",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-17",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-18",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-22",
+      "value": 100.1
+    },
+    {
+      "date": "2026-06-23",
+      "value": 99.7
+    },
+    {
+      "date": "2026-06-24",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-25",
+      "value": 101.2
+    },
+    {
+      "date": "2026-06-26",
+      "value": 99.9
+    },
+    {
+      "date": "2026-06-29",
+      "value": 101.1
+    },
+    {
+      "date": "2026-06-30",
+      "value": 101.7
+    },
+    {
+      "date": "2026-07-01",
+      "value": 101.9
+    },
+    {
+      "date": "2026-07-02",
+      "value": 102.2
+    },
+    {
+      "date": "2026-07-03",
+      "value": 102.7
+    },
+    {
+      "date": "2026-07-06",
+      "value": 103.1
+    },
+    {
+      "date": "2026-07-07",
+      "value": 103.2
+    },
+    {
+      "date": "2026-07-08",
+      "value": 103.0
+    },
+    {
+      "date": "2026-07-09",
+      "value": 103.0
+    },
+    {
+      "date": "2026-07-10",
+      "value": 103.0
+    },
+    {
+      "date": "2026-07-13",
+      "value": 103.2
+    },
+    {
+      "date": "2026-07-14",
+      "value": 103.5
+    },
+    {
+      "date": "2026-07-15",
+      "value": 104.1
+    },
+    {
+      "date": "2026-07-16",
+      "value": 104.3
+    },
+    {
+      "date": "2026-07-17",
+      "value": 103.2
+    },
+    {
+      "date": "2026-07-20",
+      "value": 103.2
+    },
+    {
+      "date": "2026-07-21",
+      "value": 103.2
+    },
+    {
+      "date": "2026-07-22",
+      "value": 103.8
+    },
+    {
+      "date": "2026-07-23",
+      "value": 103.3
+    },
+    {
+      "date": "2026-07-24",
+      "value": 102.5
+    },
+    {
+      "date": "2026-07-27",
+      "value": 103.3
+    },
+    {
+      "date": "2026-07-28",
+      "value": 102.2
+    },
+    {
+      "date": "2026-07-29",
+      "value": 102.7
+    },
+    {
+      "date": "2026-07-30",
+      "value": 101.6
+    },
+    {
+      "date": "2026-07-31",
+      "value": 103.4
+    },
+    {
+      "date": "2026-08-03",
+      "value": 104.0
+    },
+    {
+      "date": "2026-08-04",
+      "value": 105.3
+    },
+    {
+      "date": "2026-08-05",
+      "value": 107.0
+    },
+    {
+      "date": "2026-08-06",
+      "value": 106.5
+    },
+    {
+      "date": "2026-08-07",
+      "value": 106.1
+    },
+    {
+      "date": "2026-08-10",
+      "value": 106.8
+    },
+    {
+      "date": "2026-08-11",
+      "value": 106.7
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-06-15",
+    "last_date": "2026-08-11",
+    "observations": 41,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-11",
+    "latest_volume": 3632000.0,
+    "average_volume_20d": 4320850.0,
+    "average_dollar_volume_20d": 44961977.1621,
+    "relative_volume_20d": 0.8406,
+    "currency": "TWD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.070419,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0617526,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0402643,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0338999,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0304476,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0259865,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0242666,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0189174,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.017973,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+    },
+    {
+      "etf_id": "TW-009823",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0172053,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.341132,
+    "top_3_weight": 0.172436
   },
   "research": {
     "tier": "context",
