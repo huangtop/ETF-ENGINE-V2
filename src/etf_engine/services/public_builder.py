@@ -1,4 +1,5 @@
 import json
+import hashlib
 import shutil
 from datetime import datetime, timezone
 from itertools import combinations
@@ -27,6 +28,99 @@ def write_json(path: Path, data):
     path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
         encoding="utf-8",
+    )
+
+
+def _market_summary(item: dict) -> dict:
+    """Return only fields required to search, filter, and rank a market."""
+    keys = (
+        "etf_id",
+        "ticker",
+        "quote_symbol",
+        "listing_market",
+        "currency",
+        "active",
+        "product_status",
+        "asset_class",
+        "management_style",
+        "name",
+        "name_en",
+        "name_zh",
+        "short_name",
+        "short_name_en",
+        "short_name_zh",
+        "display_name",
+        "display_short_name",
+        "display_label",
+        "bilingual_name",
+        "classifications",
+        "metrics",
+        "latest_price",
+        "bootstrap_status",
+    )
+    summary = {key: item.get(key) for key in keys}
+    metrics = dict(summary.get("metrics") or {})
+    trend = [
+        row
+        for row in item.get("trend", [])
+        if isinstance(row, dict) and row.get("date") and row.get("value") is not None
+    ]
+    if len(trend) >= 2:
+        latest = trend[-1]
+        latest_date = datetime.fromisoformat(str(latest["date"])).date()
+        candidates = [
+            row
+            for row in trend[:-1]
+            if (latest_date - datetime.fromisoformat(str(row["date"])).date()).days >= 26
+        ]
+        if candidates:
+            base = candidates[-1]
+            age = (latest_date - datetime.fromisoformat(str(base["date"])).date()).days
+            base_value = float(base["value"])
+            if age <= 40 and base_value:
+                metrics["total_return_1m"] = {
+                    "value": round((float(latest["value"]) / base_value - 1) * 100, 4),
+                    "unit": "percent",
+                }
+    summary["metrics"] = metrics
+    return summary
+
+
+def _file_descriptor(path: Path, root: Path) -> dict:
+    content = path.read_bytes()
+    return {
+        "path": path.relative_to(root).as_posix(),
+        "content_sha256": hashlib.sha256(content).hexdigest(),
+        "bytes": len(content),
+    }
+
+
+def _write_api_manifest(target_dir: Path, generated_at: str, payload: list[dict]) -> None:
+    summaries = {
+        market: _file_descriptor(target_dir / "summaries" / f"{market}.json", target_dir)
+        for market in ("TW", "US")
+    }
+    details = {
+        item["etf_id"]: _file_descriptor(
+            target_dir / "etf" / f"{item['etf_id']}.json", target_dir
+        )
+        for item in payload
+    }
+    history_files = {
+        path.stem: _file_descriptor(path, target_dir)
+        for path in sorted((target_dir / "history" / "holdings").glob("*.json"))
+        if path.stem not in {"manifest", "latest_changes"}
+    }
+    write_json(
+        target_dir / "api_manifest.json",
+        {
+            "schema_version": "1.0",
+            "generated_at": generated_at,
+            "cache_strategy": "content_sha256",
+            "market_summaries": summaries,
+            "etf_details": details,
+            "holdings_history": history_files,
+        },
     )
 
 
@@ -403,10 +497,18 @@ def _render_public(
     write_json(target_dir / "latest_metrics.json", public_metrics)
 
     for market in ("TW", "US"):
+        market_items = [item for item in payload if item["listing_market"] == market]
         write_json(
             target_dir / "markets" / f"{market}.json",
-            [item for item in payload if item["listing_market"] == market],
+            market_items,
         )
+        write_json(
+            target_dir / "summaries" / f"{market}.json",
+            [_market_summary(item) for item in market_items],
+        )
+
+    HoldingsChangeExporter(public_dir=target_dir / "history" / "holdings").build()
+    _write_api_manifest(target_dir, generated, payload)
 
     write_json(
         target_dir / "manifest.json",
@@ -427,9 +529,18 @@ def _render_public(
                 "TW": sum(x["listing_market"] == "TW" for x in payload),
                 "US": sum(x["listing_market"] == "US" for x in payload),
             },
+            "lightweight_api": {
+                "schema_version": "1.0",
+                "manifest": "api_manifest.json",
+                "market_summaries": {
+                    "TW": "summaries/TW.json",
+                    "US": "summaries/US.json",
+                },
+                "detail_template": "etf/{etf_id}.json",
+                "holdings_history_template": "history/holdings/{etf_id}.json",
+            },
         },
     )
-    HoldingsChangeExporter(public_dir=target_dir / "history" / "holdings").build()
 
 
 def build_public(

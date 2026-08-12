@@ -18,5 +18,15 @@
   "markets": {
     "TW": 377,
     "US": 88
+  },
+  "lightweight_api": {
+    "schema_version": "1.0",
+    "manifest": "api_manifest.json",
+    "market_summaries": {
+      "TW": "summaries/TW.json",
+      "US": "summaries/US.json"
+    },
+    "detail_template": "etf/{etf_id}.json",
+    "holdings_history_template": "history/holdings/{etf_id}.json"
   }
 }
