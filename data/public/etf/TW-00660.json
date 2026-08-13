@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -5.5875,
+      "value": -4.0882,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 21.599,
+      "value": 24.1451,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.8969,
+      "value": 16.7627,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3518,
+      "value": 0.3486,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9008,
+      "value": 2.9048,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.1895,
+      "value": 1.3509,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 21.599,
+      "value": 24.1451,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 22.963,
+      "value": 22.9746,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-12",
-    "value": 47.91,
+    "date": "2026-08-13",
+    "value": 47.92,
     "currency": "TWD"
   },
   "trend": [
@@ -3049,21 +3049,25 @@
     {
       "date": "2026-08-12",
       "value": 149.81
+    },
+    {
+      "date": "2026-08-13",
+      "value": 149.84
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-08-12",
-    "observations": 739,
+    "last_date": "2026-08-13",
+    "observations": 740,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-12",
-    "latest_volume": 5565.0,
-    "average_volume_20d": 12033.95,
-    "average_dollar_volume_20d": 563158.0085,
-    "relative_volume_20d": 0.4624,
+    "as_of": "2026-08-13",
+    "latest_volume": 3771.0,
+    "average_volume_20d": 12021.5,
+    "average_dollar_volume_20d": 562927.2245,
+    "relative_volume_20d": 0.3137,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3073,7 +3077,7 @@
       "etf_id": "TW-00660",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
-      "weight": 0.09689999,
+      "weight": 0.08207,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3087,7 +3091,7 @@
       "etf_id": "TW-00660",
       "holding_symbol": "SIE.DE",
       "holding_name": "Siemens AG",
-      "weight": 0.0434933,
+      "weight": 0.044449,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3101,7 +3105,7 @@
       "etf_id": "TW-00660",
       "holding_symbol": "SAN.MC",
       "holding_name": "Banco Santander SA",
-      "weight": 0.0374024,
+      "weight": 0.038758,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3113,12 +3117,26 @@
     },
     {
       "etf_id": "TW-00660",
-      "holding_symbol": "SU.PA",
-      "holding_name": "Schneider Electric SE",
-      "weight": 0.0347004,
+      "holding_symbol": "TTE.PA",
+      "holding_name": "TotalEnergies SE",
+      "weight": 0.037259,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
+      "holding_name_en": "TotalEnergies SE",
+      "holding_name_zh": null,
+      "display_name": "TotalEnergies SE",
+      "display_label": "(TTE.PA)TotalEnergies SE",
+      "bilingual_name": "TotalEnergies SE"
+    },
+    {
+      "etf_id": "TW-00660",
+      "holding_symbol": "SU.PA",
+      "holding_name": "Schneider Electric SE",
+      "weight": 0.035794,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Schneider Electric SE",
       "holding_name_zh": null,
       "display_name": "Schneider Electric SE",
@@ -3129,10 +3147,10 @@
       "etf_id": "TW-00660",
       "holding_symbol": "ALV.DE",
       "holding_name": "Allianz SE",
-      "weight": 0.0332085,
+      "weight": 0.035258,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Allianz SE",
       "holding_name_zh": null,
       "display_name": "Allianz SE",
@@ -3141,40 +3159,12 @@
     },
     {
       "etf_id": "TW-00660",
-      "holding_symbol": "TTE.PA",
-      "holding_name": "TotalEnergies SE",
-      "weight": 0.0326282,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "TotalEnergies SE",
-      "holding_name_zh": null,
-      "display_name": "TotalEnergies SE",
-      "display_label": "(TTE.PA)TotalEnergies SE",
-      "bilingual_name": "TotalEnergies SE"
-    },
-    {
-      "etf_id": "TW-00660",
-      "holding_symbol": "IBE.MC",
-      "holding_name": "Iberdrola SA",
-      "weight": 0.0289294,
+      "holding_symbol": "SAP.DE",
+      "holding_name": "SAP SE",
+      "weight": 0.034168,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Iberdrola SA",
-      "holding_name_zh": null,
-      "display_name": "Iberdrola SA",
-      "display_label": "(IBE.MC)Iberdrola SA",
-      "bilingual_name": "Iberdrola SA"
-    },
-    {
-      "etf_id": "TW-00660",
-      "holding_symbol": "SAP.DE",
-      "holding_name": "SAP SE",
-      "weight": 0.0285637,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "SAP SE",
       "holding_name_zh": null,
       "display_name": "SAP SE",
@@ -3183,37 +3173,37 @@
     },
     {
       "etf_id": "TW-00660",
-      "holding_symbol": "ENR.DE",
-      "holding_name": "Siemens Energy AG Ordinary Shares",
-      "weight": 0.0284111,
+      "holding_symbol": "BBVA.MC",
+      "holding_name": "Banco Bilbao Vizcaya Argentaria SA",
+      "weight": 0.029206,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Siemens Energy AG Ordinary Shares",
+      "rank": 8,
+      "holding_name_en": "Banco Bilbao Vizcaya Argentaria SA",
       "holding_name_zh": null,
-      "display_name": "Siemens Energy AG Ordinary Shares",
-      "display_label": "(ENR.DE)Siemens Energy AG Ordinary Shares",
-      "bilingual_name": "Siemens Energy AG Ordinary Shares"
+      "display_name": "Banco Bilbao Vizcaya Argentaria SA",
+      "display_label": "(BBVA.MC)Banco Bilbao Vizcaya Argentaria SA",
+      "bilingual_name": "Banco Bilbao Vizcaya Argentaria SA"
     },
     {
       "etf_id": "TW-00660",
-      "holding_symbol": "SAF.PA",
-      "holding_name": "Safran SA",
-      "weight": 0.026846,
+      "holding_symbol": "IBE.MC",
+      "holding_name": "Iberdrola SA",
+      "weight": 0.027806,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Safran SA",
+      "rank": 9,
+      "holding_name_en": "Iberdrola SA",
       "holding_name_zh": null,
-      "display_name": "Safran SA",
-      "display_label": "(SAF.PA)Safran SA",
-      "bilingual_name": "Safran SA"
+      "display_name": "Iberdrola SA",
+      "display_label": "(IBE.MC)Iberdrola SA",
+      "bilingual_name": "Iberdrola SA"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.391083,
-    "top_3_weight": 0.177796
+    "holding_count": 9,
+    "top_10_weight": 0.364768,
+    "top_3_weight": 0.165277
   },
   "research": {
     "tier": "context",
