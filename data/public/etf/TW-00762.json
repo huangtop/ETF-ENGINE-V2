@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -9.8631,
+      "value": -10.5738,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 60.5118,
+      "value": 57.5453,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 29.4384,
+      "value": 29.3104,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7874,
+      "value": 0.7844,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9365,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.0046,
+      "value": 1.9121,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 60.5118,
+      "value": 57.5453,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.0944,
+      "value": 20.04,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-14",
-    "value": 116.05,
+    "date": "2026-08-17",
+    "value": 117.45,
     "currency": "TWD"
   },
   "trend": [
@@ -3069,21 +3069,25 @@
     {
       "date": "2026-08-14",
       "value": 254.16
+    },
+    {
+      "date": "2026-08-17",
+      "value": 257.23
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-14",
-    "observations": 742,
+    "last_date": "2026-08-17",
+    "observations": 743,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-14",
-    "latest_volume": 132907.0,
-    "average_volume_20d": 208603.55,
-    "average_dollar_volume_20d": 22572235.935,
-    "relative_volume_20d": 0.6371,
+    "as_of": "2026-08-17",
+    "latest_volume": 216170.0,
+    "average_volume_20d": 203070.3,
+    "average_dollar_volume_20d": 22094761.185,
+    "relative_volume_20d": 1.0645,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3091,12 +3095,26 @@
   "top_holdings": [
     {
       "etf_id": "TW-00762",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.07409,
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.101078,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
+    },
+    {
+      "etf_id": "TW-00762",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.084511,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Alphabet Inc Class A",
       "holding_name_zh": "Alphabet A類股",
       "display_name": "Alphabet A類股",
@@ -3105,23 +3123,9 @@
     },
     {
       "etf_id": "TW-00762",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.073504,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
-    },
-    {
-      "etf_id": "TW-00762",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.072443,
+      "weight": 0.083192,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3133,68 +3137,40 @@
     },
     {
       "etf_id": "TW-00762",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.070884,
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.083148,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Microsoft Corp",
-      "holding_name_zh": "微軟",
-      "display_name": "微軟",
-      "display_label": "(MSFT)微軟",
-      "bilingual_name": "Microsoft Corp（微軟）"
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
     },
     {
       "etf_id": "TW-00762",
-      "holding_symbol": "000660.KS",
-      "holding_name": "SK Hynix Inc",
-      "weight": 0.051821,
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.048216,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "SK Hynix Inc",
-      "holding_name_zh": null,
-      "display_name": "SK Hynix Inc",
-      "display_label": "(000660.KS)SK Hynix Inc",
-      "bilingual_name": "SK Hynix Inc"
-    },
-    {
-      "etf_id": "TW-00762",
-      "holding_symbol": "SNDK",
-      "holding_name": "SanDisk Corp Ordinary Shares",
-      "weight": 0.050417,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "SanDisk Corp Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "SanDisk Corp Ordinary Shares",
-      "display_label": "(SNDK)SanDisk Corp Ordinary Shares",
-      "bilingual_name": "SanDisk Corp Ordinary Shares"
-    },
-    {
-      "etf_id": "TW-00762",
-      "holding_symbol": "INTC",
-      "holding_name": "Intel Corp",
-      "weight": 0.04981,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Intel Corp",
-      "holding_name_zh": "英特爾",
-      "display_name": "英特爾",
-      "display_label": "(INTC)英特爾",
-      "bilingual_name": "Intel Corp（英特爾）"
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
     },
     {
       "etf_id": "TW-00762",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.049621,
+      "weight": 0.046553,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 6,
       "holding_name_en": "Advanced Micro Devices Inc",
       "holding_name_zh": "超微半導體",
       "display_name": "超微半導體",
@@ -3203,9 +3179,37 @@
     },
     {
       "etf_id": "TW-00762",
+      "holding_symbol": "PLTR",
+      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "weight": 0.044834,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "holding_name_zh": "Palantir Technologies",
+      "display_name": "Palantir Technologies",
+      "display_label": "(PLTR)Palantir Technologies",
+      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
+    },
+    {
+      "etf_id": "TW-00762",
+      "holding_symbol": "000660.KS",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.041129,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "SK hynix Inc",
+      "holding_name_zh": null,
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KS)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
+    },
+    {
+      "etf_id": "TW-00762",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.04836,
+      "weight": 0.039469,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3214,26 +3218,12 @@
       "display_name": "美光科技",
       "display_label": "(MU)美光科技",
       "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "TW-00762",
-      "holding_symbol": "MRVL",
-      "holding_name": "Marvell Technology Inc",
-      "weight": 0.044276,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Marvell Technology Inc",
-      "holding_name_zh": "邁威爾科技",
-      "display_name": "邁威爾科技",
-      "display_label": "(MRVL)邁威爾科技",
-      "bilingual_name": "Marvell Technology Inc（邁威爾科技）"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.585226,
-    "top_3_weight": 0.220037
+    "holding_count": 9,
+    "top_10_weight": 0.57213,
+    "top_3_weight": 0.268781
   },
   "research": {
     "tier": "context",

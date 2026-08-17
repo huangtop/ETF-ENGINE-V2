@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -53.615,
+      "value": -51.1198,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -12.9423,
+      "value": -11.63,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 41.2172,
+      "value": 41.3093,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6127,
+      "value": 0.6102,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9365,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.3504,
+      "value": -0.3178,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -12.9423,
+      "value": -11.63,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 39.0246,
+      "value": 39.1754,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-14",
-    "value": 9.35,
+    "date": "2026-08-17",
+    "value": 9.65,
     "currency": "TWD"
   },
   "trend": [
@@ -3065,21 +3065,25 @@
     {
       "date": "2026-08-14",
       "value": 91.13
+    },
+    {
+      "date": "2026-08-17",
+      "value": 94.05
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-14",
-    "observations": 742,
+    "last_date": "2026-08-17",
+    "observations": 743,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-14",
-    "latest_volume": 15519235.0,
-    "average_volume_20d": 13323297.6,
-    "average_dollar_volume_20d": 128884807.5154,
-    "relative_volume_20d": 1.1648,
+    "as_of": "2026-08-17",
+    "latest_volume": 8829001.0,
+    "average_volume_20d": 12448985.9,
+    "average_dollar_volume_20d": 120618992.9648,
+    "relative_volume_20d": 0.7092,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3089,7 +3093,7 @@
       "etf_id": "TW-00753L",
       "holding_symbol": "00752.TW",
       "holding_name": "CTBC China 50",
-      "weight": 0.0796,
+      "weight": 0.08260001,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3102,8 +3106,8 @@
   ],
   "holdings_summary": {
     "holding_count": 1,
-    "top_10_weight": 0.0796,
-    "top_3_weight": 0.0796
+    "top_10_weight": 0.0826,
+    "top_3_weight": 0.0826
   },
   "research": {
     "tier": "context",

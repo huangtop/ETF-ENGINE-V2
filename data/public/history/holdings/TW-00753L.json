@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "TW-00753L",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-08-17T10:53:32.282171Z-TW-00753L-c2995401",
+    "etf_id": "TW-00753L",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20260809-1b04c498004c",
+    "current_snapshot_id": "20260817-d22ea62c6133",
+    "previous_observed_at": "2026-08-09T16:34:47.488862Z",
+    "current_observed_at": "2026-08-17T10:53:32.282171Z",
+    "changes": [
+      {
+        "event_id": "c72d49ae9f506fb9f1ab0da142772ada451c221a2e0ce3c6c3d070c5801df959",
+        "etf_id": "TW-00753L",
+        "holding_symbol": "00752.TW",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "00752.TW",
+        "holding_display_label": "(00752.TW)00752.TW",
+        "holding_bilingual_name": "00752.TW",
+        "previous_weight": 0.0796,
+        "current_weight": 0.08260001,
+        "delta_weight": 0.00300001,
+        "change_type": "WEIGHT_INCREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20260809-1b04c498004c",
+        "current_snapshot_id": "20260817-d22ea62c6133",
+        "previous_observed_at": "2026-08-09T16:34:47.488862Z",
+        "current_observed_at": "2026-08-17T10:53:32.282171Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-08-17T10:53:32.282171Z-TW-00753L-c2995401",
+      "etf_id": "TW-00753L",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260809-1b04c498004c",
+      "current_snapshot_id": "20260817-d22ea62c6133",
+      "previous_observed_at": "2026-08-09T16:34:47.488862Z",
+      "current_observed_at": "2026-08-17T10:53:32.282171Z",
+      "changes": [
+        {
+          "event_id": "c72d49ae9f506fb9f1ab0da142772ada451c221a2e0ce3c6c3d070c5801df959",
+          "etf_id": "TW-00753L",
+          "holding_symbol": "00752.TW",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "00752.TW",
+          "holding_display_label": "(00752.TW)00752.TW",
+          "holding_bilingual_name": "00752.TW",
+          "previous_weight": 0.0796,
+          "current_weight": 0.08260001,
+          "delta_weight": 0.00300001,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260809-1b04c498004c",
+          "current_snapshot_id": "20260817-d22ea62c6133",
+          "previous_observed_at": "2026-08-09T16:34:47.488862Z",
+          "current_observed_at": "2026-08-17T10:53:32.282171Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}
