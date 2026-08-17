@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-17T10:53:46.177887Z",
+  "updated_at": "2026-08-17T22:54:36.116507Z",
   "etfs": {
     "TW-00400A": {
       "current": "20260729-29f1f0bdcb1c",
@@ -3279,14 +3279,20 @@
       ]
     },
     "TW-00771": {
-      "current": "20260809-27c9218fcbb2",
-      "previous": null,
+      "current": "20260817-0a3cbe9b016e",
+      "previous": "20260809-27c9218fcbb2",
       "snapshots": [
         {
           "snapshot_id": "20260809-27c9218fcbb2",
           "observed_at": "2026-08-09T17:06:36.842852Z",
           "content_sha256": "27c9218fcbb242e04f54599d5556a6d04049ba641a9f1b64955b4bcb0bcaf4c9",
           "path": "snapshots/20260809-27c9218fcbb2.json"
+        },
+        {
+          "snapshot_id": "20260817-0a3cbe9b016e",
+          "observed_at": "2026-08-17T22:54:21.681544Z",
+          "content_sha256": "0a3cbe9b016e511d084b949508984aa27677052cb903fb9caae0fed40f334aa5",
+          "path": "snapshots/20260817-0a3cbe9b016e.json"
         }
       ]
     },
