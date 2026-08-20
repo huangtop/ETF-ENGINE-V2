@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 15.1698,
+      "value": 12.7464,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 145.1398,
+      "value": 130.2806,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 35.7624,
+      "value": 36.0048,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0563,
+      "value": 1.0692,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9286,
+      "value": 2.9365,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 4.0165,
+      "value": 3.5768,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 145.1398,
+      "value": 130.2806,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.5571,
+      "value": 19.4915,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-17",
-    "value": 92.05,
+    "date": "2026-08-20",
+    "value": 87.0,
     "currency": "TWD"
   },
   "trend": [
@@ -3065,21 +3065,33 @@
     {
       "date": "2026-08-17",
       "value": 297.42
+    },
+    {
+      "date": "2026-08-18",
+      "value": 293.7
+    },
+    {
+      "date": "2026-08-19",
+      "value": 284.17
+    },
+    {
+      "date": "2026-08-20",
+      "value": 281.1
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-17",
-    "observations": 743,
+    "last_date": "2026-08-20",
+    "observations": 746,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-17",
-    "latest_volume": 167009.0,
-    "average_volume_20d": 293732.65,
-    "average_dollar_volume_20d": 25177570.89,
-    "relative_volume_20d": 0.5686,
+    "as_of": "2026-08-20",
+    "latest_volume": 417606.0,
+    "average_volume_20d": 280853.15,
+    "average_dollar_volume_20d": 23905895.1475,
+    "relative_volume_20d": 1.4869,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20

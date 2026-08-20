@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -26.9426,
+      "value": -25.2146,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 8.0776,
+      "value": 8.8108,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 38.4041,
+      "value": 38.6665,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.545,
+      "value": 0.5525,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9286,
+      "value": 2.9325,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.1713,
+      "value": 0.1891,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 8.0776,
+      "value": 8.8108,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 37.5225,
+      "value": 37.6371,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-17",
-    "value": 17.26,
+    "date": "2026-08-20",
+    "value": 17.66,
     "currency": "TWD"
   },
   "trend": [
@@ -3101,21 +3101,29 @@
     {
       "date": "2026-08-17",
       "value": 140.1
+    },
+    {
+      "date": "2026-08-18",
+      "value": 137.5
+    },
+    {
+      "date": "2026-08-20",
+      "value": 143.34
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-08-17",
-    "observations": 751,
+    "last_date": "2026-08-20",
+    "observations": 753,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-17",
-    "latest_volume": 1832000.0,
-    "average_volume_20d": 3580230.5,
-    "average_dollar_volume_20d": 62176993.8936,
-    "relative_volume_20d": 0.5117,
+    "as_of": "2026-08-20",
+    "latest_volume": 2399769.0,
+    "average_volume_20d": 3380949.9,
+    "average_dollar_volume_20d": 58936162.5816,
+    "relative_volume_20d": 0.7098,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
