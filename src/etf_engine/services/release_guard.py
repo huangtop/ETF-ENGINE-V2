@@ -55,6 +55,17 @@ def _is_short_history_replacement(item: dict[str, Any]) -> bool:
     return isinstance(data_years, (int, float)) and 0 <= data_years < 1
 
 
+def _is_full_year_replacement(item: dict[str, Any]) -> bool:
+    """Recognize the normal transition from inception return to 1y metrics."""
+    if not all(
+        _has_metric(item, metric_code)
+        for metric_code in ("total_return_1y", "annualized_return")
+    ):
+        return False
+    data_years = item.get("metrics", {}).get("data_years", {}).get("value")
+    return isinstance(data_years, (int, float)) and data_years >= 1
+
+
 def _counts(items: dict[str, dict[str, Any]]) -> dict[str, int]:
     rows = list(items.values())
     holdings = [holding for row in rows for holding in row.get("top_holdings", [])]
@@ -246,7 +257,15 @@ def validate_candidate(
                 in {"total_return_1y", "annualized_return", "sharpe_ratio"}
                 and _is_short_history_replacement(current)
             )
-            if not _has_metric(current, metric_code) and not short_history_replacement:
+            full_year_replacement = (
+                metric_code == "total_return_since_inception"
+                and _is_full_year_replacement(current)
+            )
+            if (
+                not _has_metric(current, metric_code)
+                and not short_history_replacement
+                and not full_year_replacement
+            ):
                 errors.append(f"{etf_id}: lost metric {metric_code}")
 
         if previous.get("latest_price") and not current.get("latest_price"):

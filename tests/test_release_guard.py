@@ -180,6 +180,28 @@ def test_since_inception_does_not_hide_full_year_metric_loss(tmp_path):
     assert any("lost metric annualized_return" in error for error in validation.errors)
 
 
+def test_since_inception_can_transition_to_full_year_metrics(tmp_path):
+    baseline = tmp_path / "public"
+    candidate = tmp_path / "candidate"
+    previous = item()
+    previous["metrics"] = {
+        "total_return_since_inception": {"value": 19.4, "unit": "percent"},
+        "data_years": {"value": 0.996, "unit": "years"},
+    }
+    current = item()
+    current["metrics"] = {
+        "total_return_1y": {"value": 19.7, "unit": "percent"},
+        "annualized_return": {"value": 19.7, "unit": "percent"},
+        "data_years": {"value": 1.0, "unit": "years"},
+    }
+    dataset(baseline, [previous])
+    dataset(candidate, [current])
+
+    validation = validate_candidate(baseline, candidate)
+
+    assert validation.passed
+
+
 def test_valid_candidate_can_replace_baseline(tmp_path):
     public = tmp_path / "public"
     candidate = tmp_path / "candidate"
