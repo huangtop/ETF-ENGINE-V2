@@ -12,46 +12,46 @@
   "holdings_rotation_limit": 40,
   "holdings_scheduled": 89,
   "holdings_rotating": [
-    "TW-00877",
-    "TW-00878",
-    "TW-00881",
-    "TW-00882",
-    "TW-00884B",
-    "TW-00885",
-    "TW-00886",
-    "TW-00887",
-    "TW-00888",
-    "TW-00890B",
-    "TW-00891",
-    "TW-00892",
-    "TW-00893",
-    "TW-00894",
-    "TW-00895",
-    "TW-00896",
-    "TW-00897",
-    "TW-00898",
-    "TW-00899",
-    "TW-00900",
-    "US-CLOU",
-    "US-DGRO",
-    "US-DIA",
-    "US-DRAM",
-    "US-DRIV",
-    "US-DTCR",
-    "US-FIVG",
-    "US-FTXL",
-    "US-GLD",
-    "US-GRID",
-    "US-HACK",
-    "US-IBB",
-    "US-IDRV",
-    "US-IEF",
-    "US-IFRA",
-    "US-IGN",
-    "US-IGPT",
-    "US-IGV",
-    "US-IHAK",
-    "US-IVV"
+    "TW-00901",
+    "TW-00902",
+    "TW-00903",
+    "TW-00904",
+    "TW-00905",
+    "TW-00906",
+    "TW-00907",
+    "TW-00908",
+    "TW-00909",
+    "TW-00910",
+    "TW-00911",
+    "TW-00912",
+    "TW-00913",
+    "TW-00915",
+    "TW-00916",
+    "TW-00917",
+    "TW-00918",
+    "TW-00919",
+    "TW-00920",
+    "TW-00921",
+    "US-IWM",
+    "US-KARS",
+    "US-MAGS",
+    "US-MUD",
+    "US-MULL",
+    "US-MUU",
+    "US-MUZ",
+    "US-NLR",
+    "US-PAVE",
+    "US-PSI",
+    "US-QTUM",
+    "US-ROBO",
+    "US-ROBT",
+    "US-SCHD",
+    "US-SGOV",
+    "US-SHOC",
+    "US-SKYY",
+    "US-SLV",
+    "US-SMH",
+    "US-SNDQ"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -64,24 +64,25 @@
     "TW-00407A",
     "TW-0050",
     "TW-006208",
-    "TW-00877",
-    "TW-00878",
-    "TW-00881",
-    "TW-00882",
-    "TW-00885",
-    "TW-00886",
-    "TW-00887",
-    "TW-00888",
-    "TW-00891",
-    "TW-00892",
-    "TW-00893",
-    "TW-00894",
-    "TW-00895",
-    "TW-00896",
-    "TW-00897",
-    "TW-00898",
-    "TW-00899",
-    "TW-00900",
+    "TW-00901",
+    "TW-00902",
+    "TW-00903",
+    "TW-00904",
+    "TW-00905",
+    "TW-00907",
+    "TW-00908",
+    "TW-00909",
+    "TW-00910",
+    "TW-00911",
+    "TW-00912",
+    "TW-00913",
+    "TW-00915",
+    "TW-00916",
+    "TW-00917",
+    "TW-00918",
+    "TW-00919",
+    "TW-00920",
+    "TW-00921",
     "TW-00980A",
     "TW-00981A",
     "TW-00982A",
@@ -97,6 +98,7 @@
     "TW-00988A",
     "TW-00989A",
     "TW-00990A",
+    "TW-00991A",
     "TW-00992A",
     "TW-00993A",
     "TW-00994A",
@@ -111,28 +113,26 @@
     "US-ARKX",
     "US-BAI",
     "US-CHAT",
-    "US-CLOU",
-    "US-DGRO",
-    "US-DIA",
-    "US-DRAM",
-    "US-DRIV",
-    "US-DTCR",
-    "US-FIVG",
-    "US-FTXL",
-    "US-GRID",
-    "US-HACK",
-    "US-IDRV",
-    "US-IFRA",
-    "US-IGPT",
-    "US-IGV",
-    "US-IHAK",
-    "US-IVV",
+    "US-IWM",
     "US-JEPI",
     "US-JEPQ",
+    "US-KARS",
+    "US-MAGS",
+    "US-NLR",
+    "US-PAVE",
+    "US-PSI",
     "US-QQQ",
+    "US-QTUM",
+    "US-ROBO",
+    "US-ROBT",
+    "US-SCHD",
+    "US-SHOC",
+    "US-SKYY",
+    "US-SMH",
     "US-SPY",
-    "US-IBB",
-    "US-ARKG"
+    "US-ARKG",
+    "US-MUU",
+    "US-MUZ"
   ],
   "bootstrap_only": false,
   "published": true,
@@ -147,11 +147,6 @@
   "skipped_after_provider_halt": [],
   "errors": [
     {
-      "etf_id": "TW-00906",
-      "stage": "prices_cached_fallback",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260501&stockNo=00906"
-    },
-    {
       "etf_id": "TW-0054",
       "stage": "prices",
       "error": "no provider data"
@@ -159,22 +154,22 @@
     {
       "etf_id": "TW-0058",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20251001&stockNo=0058"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-0059",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=0059"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-0060",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=0060"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-00649",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=00649"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-00658L",
@@ -189,7 +184,7 @@
     {
       "etf_id": "TW-00667",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=00667"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-00672L",
@@ -239,7 +234,7 @@
     {
       "etf_id": "TW-00732",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=00732"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-00774B",
@@ -254,32 +249,27 @@
     {
       "etf_id": "TW-00776",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=00776"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-0080",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=0080"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-0081",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=0081"
+      "error": "no provider data"
     },
     {
       "etf_id": "TW-00866",
       "stage": "prices",
-      "error": "twse: 428 Client Error:  for url: https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20230801&stockNo=00866"
+      "error": "no provider data"
     },
     {
-      "etf_id": "TW-00991A",
+      "etf_id": "TW-00906",
       "stage": "holdings",
-      "error": "fuhwa: official holdings request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-    },
-    {
-      "etf_id": "US-IGN",
-      "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     }
   ]
 }
