@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -8.2518,
+      "value": -8.6554,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 90.9247,
+      "value": 91.8472,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 34.8089,
+      "value": 34.8099,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0924,
+      "value": 1.0923,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9325,
+      "value": 2.9365,
       "unit": "years"
     },
     "expense_ratio": {
@@ -91,22 +91,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.569,
+      "value": 2.5954,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 90.9247,
+      "value": 91.8472,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.0099,
+      "value": 16.0109,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-20",
-    "value": 33.45,
+    "date": "2026-08-21",
+    "value": 33.65,
     "currency": "TWD"
   },
   "trend": [
@@ -3125,21 +3125,25 @@
     {
       "date": "2026-08-20",
       "value": 244.88
+    },
+    {
+      "date": "2026-08-21",
+      "value": 246.34
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-20",
-    "observations": 745,
+    "last_date": "2026-08-21",
+    "observations": 746,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-20",
-    "latest_volume": 11326197.0,
-    "average_volume_20d": 24000110.25,
-    "average_dollar_volume_20d": 818966343.402,
-    "relative_volume_20d": 0.4719,
+    "as_of": "2026-08-21",
+    "latest_volume": 6987487.0,
+    "average_volume_20d": 23681347.2,
+    "average_dollar_volume_20d": 807945986.3135,
+    "relative_volume_20d": 0.2951,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3149,8 +3153,8 @@
       "etf_id": "TW-00891",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.3671,
-      "as_of": "2026-07-19",
+      "weight": 0.45580003,
+      "as_of": null,
       "source": "yahoo",
       "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
@@ -3163,8 +3167,8 @@
       "etf_id": "TW-00891",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.1555,
-      "as_of": "2026-07-19",
+      "weight": 0.1108,
+      "as_of": null,
       "source": "yahoo",
       "rank": 2,
       "holding_name_en": "MediaTek Inc",
@@ -3177,8 +3181,8 @@
       "etf_id": "TW-00891",
       "holding_symbol": "3711.TW",
       "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0566,
-      "as_of": "2026-07-19",
+      "weight": 0.0394,
+      "as_of": null,
       "source": "yahoo",
       "rank": 3,
       "holding_name_en": "ASE Technology Holding Co Ltd",
@@ -3189,12 +3193,26 @@
     },
     {
       "etf_id": "TW-00891",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.0537,
-      "as_of": "2026-07-19",
+      "holding_symbol": "5274.TWO",
+      "holding_name": "Aspeed Technology Inc",
+      "weight": 0.0332,
+      "as_of": null,
       "source": "yahoo",
       "rank": 4,
+      "holding_name_en": "Aspeed Technology Inc",
+      "holding_name_zh": "信驊",
+      "display_name": "信驊",
+      "display_label": "(5274.TWO)信驊",
+      "bilingual_name": "Aspeed Technology Inc（信驊）"
+    },
+    {
+      "etf_id": "TW-00891",
+      "holding_symbol": "2303.TW",
+      "holding_name": "United Microelectronics Corp",
+      "weight": 0.0297,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "United Microelectronics Corp",
       "holding_name_zh": "聯電",
       "display_name": "聯電",
@@ -3203,40 +3221,12 @@
     },
     {
       "etf_id": "TW-00891",
-      "holding_symbol": "2344.TW",
-      "holding_name": "Winbond Electronics Corp",
-      "weight": 0.0361,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Winbond Electronics Corp",
-      "holding_name_zh": "華邦電",
-      "display_name": "華邦電",
-      "display_label": "(2344.TW)華邦電",
-      "bilingual_name": "Winbond Electronics Corp（華邦電）"
-    },
-    {
-      "etf_id": "TW-00891",
-      "holding_symbol": "2408.TW",
-      "holding_name": "Nanya Technology Corp",
-      "weight": 0.0312,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Nanya Technology Corp",
-      "holding_name_zh": "南亞科",
-      "display_name": "南亞科",
-      "display_label": "(2408.TW)南亞科",
-      "bilingual_name": "Nanya Technology Corp（南亞科）"
-    },
-    {
-      "etf_id": "TW-00891",
       "holding_symbol": "6223.TWO",
       "holding_name": "MPI Corp",
-      "weight": 0.0256,
-      "as_of": "2026-07-19",
+      "weight": 0.027,
+      "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "MPI Corp",
       "holding_name_zh": "旺矽",
       "display_name": "旺矽",
@@ -3245,26 +3235,26 @@
     },
     {
       "etf_id": "TW-00891",
-      "holding_symbol": "3443.TW",
-      "holding_name": "Global Unichip Corp",
-      "weight": 0.0226,
-      "as_of": "2026-07-19",
+      "holding_symbol": "2344.TW",
+      "holding_name": "Winbond Electronics Corp",
+      "weight": 0.027,
+      "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Global Unichip Corp",
-      "holding_name_zh": "創意",
-      "display_name": "創意",
-      "display_label": "(3443.TW)創意",
-      "bilingual_name": "Global Unichip Corp（創意）"
+      "rank": 7,
+      "holding_name_en": "Winbond Electronics Corp",
+      "holding_name_zh": "華邦電",
+      "display_name": "華邦電",
+      "display_label": "(2344.TW)華邦電",
+      "bilingual_name": "Winbond Electronics Corp（華邦電）"
     },
     {
       "etf_id": "TW-00891",
       "holding_symbol": "2379.TW",
       "holding_name": "Realtek Semiconductor Corp",
-      "weight": 0.0222,
-      "as_of": "2026-07-19",
+      "weight": 0.0226,
+      "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Realtek Semiconductor Corp",
       "holding_name_zh": "瑞昱",
       "display_name": "瑞昱",
@@ -3273,23 +3263,37 @@
     },
     {
       "etf_id": "TW-00891",
-      "holding_symbol": "2449.TW",
-      "holding_name": "King Yuan Electronics Co Ltd",
-      "weight": 0.0212,
-      "as_of": "2026-07-19",
+      "holding_symbol": "3653.TW",
+      "holding_name": "Jentech Precision Industrial Co Ltd",
+      "weight": 0.0214,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Jentech Precision Industrial Co Ltd",
+      "holding_name_zh": "健策",
+      "display_name": "健策",
+      "display_label": "(3653.TW)健策",
+      "bilingual_name": "Jentech Precision Industrial Co Ltd（健策）"
+    },
+    {
+      "etf_id": "TW-00891",
+      "holding_symbol": "3443.TW",
+      "holding_name": "Global Unichip Corp",
+      "weight": 0.0207,
+      "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "King Yuan Electronics Co Ltd",
-      "holding_name_zh": "京元電子",
-      "display_name": "京元電子",
-      "display_label": "(2449.TW)京元電子",
-      "bilingual_name": "King Yuan Electronics Co Ltd（京元電子）"
+      "holding_name_en": "Global Unichip Corp",
+      "holding_name_zh": "創意",
+      "display_name": "創意",
+      "display_label": "(3443.TW)創意",
+      "bilingual_name": "Global Unichip Corp（創意）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7918,
-    "top_3_weight": 0.5792
+    "top_10_weight": 0.7876,
+    "top_3_weight": 0.606
   },
   "research": {
     "tier": "context",

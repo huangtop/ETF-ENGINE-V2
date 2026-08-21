@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -14.3749,
+      "value": -15.2453,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 57.8363,
+      "value": 57.5846,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 29.4357,
+      "value": 29.4359,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8892,
+      "value": 0.8889,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9325,
+      "value": 2.9365,
       "unit": "years"
     },
     "expense_ratio": {
@@ -91,22 +91,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.9139,
+      "value": 1.9053,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 57.8363,
+      "value": 57.5846,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 15.4537,
+      "value": 15.4642,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-20",
-    "value": 26.99,
+    "date": "2026-08-21",
+    "value": 27.01,
     "currency": "TWD"
   },
   "trend": [
@@ -3125,21 +3125,25 @@
     {
       "date": "2026-08-20",
       "value": 157.84
+    },
+    {
+      "date": "2026-08-21",
+      "value": 157.95
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-20",
-    "observations": 745,
+    "last_date": "2026-08-21",
+    "observations": 746,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-20",
-    "latest_volume": 1588586.0,
-    "average_volume_20d": 2791641.25,
-    "average_dollar_volume_20d": 73424270.9965,
-    "relative_volume_20d": 0.5691,
+    "as_of": "2026-08-21",
+    "latest_volume": 1027703.0,
+    "average_volume_20d": 2687574.05,
+    "average_dollar_volume_20d": 70689587.576,
+    "relative_volume_20d": 0.3824,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3149,8 +3153,8 @@
       "etf_id": "TW-00896",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.1152,
-      "as_of": "2026-07-19",
+      "weight": 0.1284,
+      "as_of": null,
       "source": "yahoo",
       "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
@@ -3163,8 +3167,8 @@
       "etf_id": "TW-00896",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0751,
-      "as_of": "2026-07-19",
+      "weight": 0.08310001,
+      "as_of": null,
       "source": "yahoo",
       "rank": 2,
       "holding_name_en": "Hon Hai Precision Industry Co Ltd",
@@ -3177,8 +3181,8 @@
       "etf_id": "TW-00896",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0725,
-      "as_of": "2026-07-19",
+      "weight": 0.0676,
+      "as_of": null,
       "source": "yahoo",
       "rank": 3,
       "holding_name_en": "Delta Electronics Inc",
@@ -3191,8 +3195,8 @@
       "etf_id": "TW-00896",
       "holding_symbol": "1303.TW",
       "holding_name": "Nan Ya Plastics Corp",
-      "weight": 0.0471,
-      "as_of": "2026-07-19",
+      "weight": 0.0497,
+      "as_of": null,
       "source": "yahoo",
       "rank": 4,
       "holding_name_en": "Nan Ya Plastics Corp",
@@ -3205,8 +3209,8 @@
       "etf_id": "TW-00896",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0461,
-      "as_of": "2026-07-19",
+      "weight": 0.0424,
+      "as_of": null,
       "source": "yahoo",
       "rank": 5,
       "holding_name_en": "MediaTek Inc",
@@ -3217,24 +3221,24 @@
     },
     {
       "etf_id": "TW-00896",
-      "holding_symbol": "6223.TWO",
-      "holding_name": "MPI Corp",
-      "weight": 0.0324,
-      "as_of": "2026-07-19",
+      "holding_symbol": "3231.TW",
+      "holding_name": "Wistron Corp",
+      "weight": 0.0388,
+      "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "MPI Corp",
-      "holding_name_zh": "旺矽",
-      "display_name": "旺矽",
-      "display_label": "(6223.TWO)旺矽",
-      "bilingual_name": "MPI Corp（旺矽）"
+      "holding_name_en": "Wistron Corp",
+      "holding_name_zh": "緯創",
+      "display_name": "緯創",
+      "display_label": "(3231.TW)緯創",
+      "bilingual_name": "Wistron Corp（緯創）"
     },
     {
       "etf_id": "TW-00896",
       "holding_symbol": "2301.TW",
       "holding_name": "Lite-On Technology Corp",
-      "weight": 0.0316,
-      "as_of": "2026-07-19",
+      "weight": 0.0328,
+      "as_of": null,
       "source": "yahoo",
       "rank": 7,
       "holding_name_en": "Lite-On Technology Corp",
@@ -3245,26 +3249,12 @@
     },
     {
       "etf_id": "TW-00896",
-      "holding_symbol": "3231.TW",
-      "holding_name": "Wistron Corp",
-      "weight": 0.0315,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Wistron Corp",
-      "holding_name_zh": "緯創",
-      "display_name": "緯創",
-      "display_label": "(3231.TW)緯創",
-      "bilingual_name": "Wistron Corp（緯創）"
-    },
-    {
-      "etf_id": "TW-00896",
       "holding_symbol": "2412.TW",
       "holding_name": "Chunghwa Telecom Co Ltd",
-      "weight": 0.0298,
-      "as_of": "2026-07-19",
+      "weight": 0.0326,
+      "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Chunghwa Telecom Co Ltd",
       "holding_name_zh": "中華電",
       "display_name": "中華電",
@@ -3273,23 +3263,37 @@
     },
     {
       "etf_id": "TW-00896",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.0288,
-      "as_of": "2026-07-19",
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0307,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": "旺矽",
+      "display_name": "旺矽",
+      "display_label": "(6223.TWO)旺矽",
+      "bilingual_name": "MPI Corp（旺矽）"
+    },
+    {
+      "etf_id": "TW-00896",
+      "holding_symbol": "3665.TW",
+      "holding_name": "Bizlink Holding Inc",
+      "weight": 0.0251,
+      "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "United Microelectronics Corp",
-      "holding_name_zh": "聯電",
-      "display_name": "聯電",
-      "display_label": "(2303.TW)聯電",
-      "bilingual_name": "United Microelectronics Corp（聯電）"
+      "holding_name_en": "Bizlink Holding Inc",
+      "holding_name_zh": "貿聯-KY",
+      "display_name": "貿聯-KY",
+      "display_label": "(3665.TW)貿聯-KY",
+      "bilingual_name": "Bizlink Holding Inc（貿聯-KY）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.5101,
-    "top_3_weight": 0.2628
+    "top_10_weight": 0.5312,
+    "top_3_weight": 0.2791
   },
   "research": {
     "tier": "context",

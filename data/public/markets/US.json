@@ -60,7 +60,7 @@
     ],
     "metrics": {
       "alpha": {
-        "value": -0.1399,
+        "value": -0.2228,
         "unit": "percent"
       },
       "annualized_return": {
@@ -68,11 +68,11 @@
         "unit": "percent"
       },
       "annualized_volatility": {
-        "value": 3.8521,
+        "value": 3.8197,
         "unit": "percent"
       },
       "beta": {
-        "value": 0.112,
+        "value": 0.1161,
         "unit": "ratio"
       },
       "data_years": {
@@ -84,7 +84,7 @@
         "unit": "percent"
       },
       "sharpe_ratio": {
-        "value": 0.135,
+        "value": 0.1361,
         "unit": "ratio"
       },
       "total_return_1y": {
@@ -92,7 +92,7 @@
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 11.9922,
+        "value": 11.9246,
         "unit": "percent"
       }
     },
@@ -3045,27 +3045,27 @@
       },
       {
         "date": "2026-07-23",
-        "value": 113.78
+        "value": 113.38
       },
       {
         "date": "2026-07-24",
-        "value": 113.92
+        "value": 113.52
       },
       {
         "date": "2026-07-27",
-        "value": 114.19
+        "value": 113.79
       },
       {
         "date": "2026-07-28",
-        "value": 114.45
+        "value": 114.06
       },
       {
         "date": "2026-07-29",
-        "value": 114.02
+        "value": 113.63
       },
       {
         "date": "2026-07-30",
-        "value": 114.1
+        "value": 113.71
       },
       {
         "date": "2026-07-31",
@@ -3137,9 +3137,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 5695752.0,
-      "average_volume_20d": 8672622.6,
-      "average_dollar_volume_20d": 845604195.3448,
+      "latest_volume": 5695800.0,
+      "average_volume_20d": 8672625.0,
+      "average_dollar_volume_20d": 844927042.0148,
       "relative_volume_20d": 0.6568,
       "currency": "USD",
       "volume_unit": "shares",
@@ -3241,11 +3241,11 @@
     ],
     "metrics": {
       "alpha": {
-        "value": -3.3675,
+        "value": -3.3668,
         "unit": "percent"
       },
       "annualized_return": {
-        "value": 16.0075,
+        "value": 16.0082,
         "unit": "percent"
       },
       "annualized_volatility": {
@@ -3269,18 +3269,18 @@
         "unit": "ratio"
       },
       "total_return_1y": {
-        "value": 16.0075,
+        "value": 16.0082,
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 3.737,
+        "value": 3.7371,
         "unit": "percent"
       }
     },
     "bootstrap_status": "ready",
     "latest_price": {
       "date": "2026-08-20",
-      "value": 50.3487,
+      "value": 50.349,
       "currency": "USD"
     },
     "trend": [
@@ -6318,10 +6318,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 6209.0,
-      "average_volume_20d": 3760.45,
-      "average_dollar_volume_20d": 189714.6951,
-      "relative_volume_20d": 1.6511,
+      "latest_volume": 6200.0,
+      "average_volume_20d": 3760.0,
+      "average_dollar_volume_20d": 189692.1305,
+      "relative_volume_20d": 1.6489,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -9641,9 +9641,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 599327.0,
-      "average_volume_20d": 1592655.75,
-      "average_dollar_volume_20d": 95697698.5671,
+      "latest_volume": 599400.0,
+      "average_volume_20d": 1592699.4,
+      "average_dollar_volume_20d": 95700448.2267,
       "relative_volume_20d": 0.3763,
       "currency": "USD",
       "volume_unit": "shares",
@@ -12940,9 +12940,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 6326979.0,
-      "average_volume_20d": 5143294.1,
-      "average_dollar_volume_20d": 397245585.934,
+      "latest_volume": 6327000.0,
+      "average_volume_20d": 5143480.15,
+      "average_dollar_volume_20d": 397261085.7171,
       "relative_volume_20d": 1.2301,
       "currency": "USD",
       "volume_unit": "shares",
@@ -12953,7 +12953,7 @@
         "etf_id": "US-ARKK",
         "holding_symbol": "TSLA",
         "holding_name": "Tesla Inc",
-        "weight": 0.0943007,
+        "weight": 0.09723759,
         "as_of": null,
         "source": "yahoo",
         "rank": 1,
@@ -12965,26 +12965,12 @@
       },
       {
         "etf_id": "US-ARKK",
-        "holding_symbol": "SPCX",
-        "holding_name": "Space Exploration Technologies Corp Class A",
-        "weight": 0.0492423,
+        "holding_symbol": "TEM",
+        "holding_name": "Tempus AI Inc Class A common stock",
+        "weight": 0.0488089,
         "as_of": null,
         "source": "yahoo",
         "rank": 2,
-        "holding_name_en": "Space Exploration Technologies Corp Class A",
-        "holding_name_zh": null,
-        "display_name": "Space Exploration Technologies Corp Class A",
-        "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
-        "bilingual_name": "Space Exploration Technologies Corp Class A"
-      },
-      {
-        "etf_id": "US-ARKK",
-        "holding_symbol": "TEM",
-        "holding_name": "Tempus AI Inc Class A common stock",
-        "weight": 0.0481532,
-        "as_of": null,
-        "source": "yahoo",
-        "rank": 3,
         "holding_name_en": "Tempus AI Inc Class A common stock",
         "holding_name_zh": null,
         "display_name": "Tempus AI Inc Class A common stock",
@@ -12993,9 +12979,23 @@
       },
       {
         "etf_id": "US-ARKK",
+        "holding_symbol": "SPCX",
+        "holding_name": "Space Exploration Technologies Corp Class A",
+        "weight": 0.0486707,
+        "as_of": null,
+        "source": "yahoo",
+        "rank": 3,
+        "holding_name_en": "Space Exploration Technologies Corp Class A",
+        "holding_name_zh": null,
+        "display_name": "Space Exploration Technologies Corp Class A",
+        "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+        "bilingual_name": "Space Exploration Technologies Corp Class A"
+      },
+      {
+        "etf_id": "US-ARKK",
         "holding_symbol": "CRSP",
         "holding_name": "CRISPR Therapeutics AG",
-        "weight": 0.0466295,
+        "weight": 0.0472737,
         "as_of": null,
         "source": "yahoo",
         "rank": 4,
@@ -13007,26 +13007,12 @@
       },
       {
         "etf_id": "US-ARKK",
-        "holding_symbol": "COIN",
-        "holding_name": "Coinbase Global Inc Ordinary Shares - Class A",
-        "weight": 0.0454835,
+        "holding_symbol": "SHOP",
+        "holding_name": "Shopify Inc Registered Shs -A- Subord Vtg",
+        "weight": 0.0434953,
         "as_of": null,
         "source": "yahoo",
         "rank": 5,
-        "holding_name_en": "Coinbase Global Inc Ordinary Shares - Class A",
-        "holding_name_zh": null,
-        "display_name": "Coinbase Global Inc Ordinary Shares - Class A",
-        "display_label": "(COIN)Coinbase Global Inc Ordinary Shares - Class A",
-        "bilingual_name": "Coinbase Global Inc Ordinary Shares - Class A"
-      },
-      {
-        "etf_id": "US-ARKK",
-        "holding_symbol": "SHOP",
-        "holding_name": "Shopify Inc Registered Shs -A- Subord Vtg",
-        "weight": 0.0454244,
-        "as_of": null,
-        "source": "yahoo",
-        "rank": 6,
         "holding_name_en": "Shopify Inc Registered Shs -A- Subord Vtg",
         "holding_name_zh": null,
         "display_name": "Shopify Inc Registered Shs -A- Subord Vtg",
@@ -13035,9 +13021,23 @@
       },
       {
         "etf_id": "US-ARKK",
+        "holding_symbol": "COIN",
+        "holding_name": "Coinbase Global Inc Ordinary Shares - Class A",
+        "weight": 0.0416161,
+        "as_of": null,
+        "source": "yahoo",
+        "rank": 6,
+        "holding_name_en": "Coinbase Global Inc Ordinary Shares - Class A",
+        "holding_name_zh": null,
+        "display_name": "Coinbase Global Inc Ordinary Shares - Class A",
+        "display_label": "(COIN)Coinbase Global Inc Ordinary Shares - Class A",
+        "bilingual_name": "Coinbase Global Inc Ordinary Shares - Class A"
+      },
+      {
+        "etf_id": "US-ARKK",
         "holding_symbol": "AMD",
         "holding_name": "Advanced Micro Devices Inc",
-        "weight": 0.0396284,
+        "weight": 0.0397815,
         "as_of": null,
         "source": "yahoo",
         "rank": 7,
@@ -13051,7 +13051,7 @@
         "etf_id": "US-ARKK",
         "holding_symbol": "CRCL",
         "holding_name": "Circle Internet Group Inc Ordinary Shares - Class A",
-        "weight": 0.0382095,
+        "weight": 0.0389751,
         "as_of": null,
         "source": "yahoo",
         "rank": 8,
@@ -13065,7 +13065,7 @@
         "etf_id": "US-ARKK",
         "holding_symbol": "HOOD",
         "holding_name": "Robinhood Markets Inc Class A",
-        "weight": 0.0354939,
+        "weight": 0.0363049,
         "as_of": null,
         "source": "yahoo",
         "rank": 9,
@@ -13077,23 +13077,23 @@
       },
       {
         "etf_id": "US-ARKK",
-        "holding_symbol": "TXG",
-        "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
-        "weight": 0.0343807,
+        "holding_symbol": "TWST",
+        "holding_name": "Twist Bioscience Corp",
+        "weight": 0.0330473,
         "as_of": null,
         "source": "yahoo",
         "rank": 10,
-        "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
+        "holding_name_en": "Twist Bioscience Corp",
         "holding_name_zh": null,
-        "display_name": "10x Genomics Inc Ordinary Shares - Class A",
-        "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
-        "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
+        "display_name": "Twist Bioscience Corp",
+        "display_label": "(TWST)Twist Bioscience Corp",
+        "bilingual_name": "Twist Bioscience Corp"
       }
     ],
     "holdings_summary": {
       "holding_count": 10,
-      "top_10_weight": 0.476946,
-      "top_3_weight": 0.191696
+      "top_10_weight": 0.475211,
+      "top_3_weight": 0.194717
     },
     "research": {
       "tier": "context",
@@ -16255,10 +16255,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 60709.0,
-      "average_volume_20d": 135155.45,
-      "average_dollar_volume_20d": 16315564.1267,
-      "relative_volume_20d": 0.4492,
+      "latest_volume": 61700.0,
+      "average_volume_20d": 135205.0,
+      "average_dollar_volume_20d": 16321692.4707,
+      "relative_volume_20d": 0.4563,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -16268,7 +16268,7 @@
         "etf_id": "US-ARKQ",
         "holding_symbol": "TSLA",
         "holding_name": "Tesla Inc",
-        "weight": 0.0977769,
+        "weight": 0.0975151,
         "as_of": null,
         "source": "yahoo",
         "rank": 1,
@@ -16280,23 +16280,23 @@
       },
       {
         "etf_id": "US-ARKQ",
-        "holding_symbol": "SPCX",
-        "holding_name": "Space Exploration Technologies Corp Class A",
-        "weight": 0.0640839,
+        "holding_symbol": "TER",
+        "holding_name": "Teradyne Inc",
+        "weight": 0.0663896,
         "as_of": null,
         "source": "yahoo",
         "rank": 2,
-        "holding_name_en": "Space Exploration Technologies Corp Class A",
-        "holding_name_zh": null,
-        "display_name": "Space Exploration Technologies Corp Class A",
-        "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
-        "bilingual_name": "Space Exploration Technologies Corp Class A"
+        "holding_name_en": "Teradyne Inc",
+        "holding_name_zh": "泰瑞達",
+        "display_name": "泰瑞達",
+        "display_label": "(TER)泰瑞達",
+        "bilingual_name": "Teradyne Inc（泰瑞達）"
       },
       {
         "etf_id": "US-ARKQ",
         "holding_symbol": "AMD",
         "holding_name": "Advanced Micro Devices Inc",
-        "weight": 0.0580978,
+        "weight": 0.0615664,
         "as_of": null,
         "source": "yahoo",
         "rank": 3,
@@ -16308,12 +16308,26 @@
       },
       {
         "etf_id": "US-ARKQ",
-        "holding_symbol": "KTOS",
-        "holding_name": "Kratos Defense & Security Solutions Inc",
-        "weight": 0.0571758,
+        "holding_symbol": "SPCX",
+        "holding_name": "Space Exploration Technologies Corp Class A",
+        "weight": 0.0589898,
         "as_of": null,
         "source": "yahoo",
         "rank": 4,
+        "holding_name_en": "Space Exploration Technologies Corp Class A",
+        "holding_name_zh": null,
+        "display_name": "Space Exploration Technologies Corp Class A",
+        "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+        "bilingual_name": "Space Exploration Technologies Corp Class A"
+      },
+      {
+        "etf_id": "US-ARKQ",
+        "holding_symbol": "KTOS",
+        "holding_name": "Kratos Defense & Security Solutions Inc",
+        "weight": 0.0580491,
+        "as_of": null,
+        "source": "yahoo",
+        "rank": 5,
         "holding_name_en": "Kratos Defense & Security Solutions Inc",
         "holding_name_zh": null,
         "display_name": "Kratos Defense & Security Solutions Inc",
@@ -16324,10 +16338,10 @@
         "etf_id": "US-ARKQ",
         "holding_symbol": "GOOG",
         "holding_name": "Alphabet Inc Class C",
-        "weight": 0.050716,
+        "weight": 0.0515018,
         "as_of": null,
         "source": "yahoo",
-        "rank": 5,
+        "rank": 6,
         "holding_name_en": "Alphabet Inc Class C",
         "holding_name_zh": "Alphabet C類股",
         "display_name": "Alphabet C類股",
@@ -16336,12 +16350,26 @@
       },
       {
         "etf_id": "US-ARKQ",
-        "holding_symbol": "PLTR",
-        "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-        "weight": 0.039499,
+        "holding_symbol": "AMZN",
+        "holding_name": "Amazon.com Inc",
+        "weight": 0.0379326,
         "as_of": null,
         "source": "yahoo",
-        "rank": 6,
+        "rank": 7,
+        "holding_name_en": "Amazon.com Inc",
+        "holding_name_zh": "亞馬遜",
+        "display_name": "亞馬遜",
+        "display_label": "(AMZN)亞馬遜",
+        "bilingual_name": "Amazon.com Inc（亞馬遜）"
+      },
+      {
+        "etf_id": "US-ARKQ",
+        "holding_symbol": "PLTR",
+        "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+        "weight": 0.03778,
+        "as_of": null,
+        "source": "yahoo",
+        "rank": 8,
         "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
         "holding_name_zh": "Palantir Technologies",
         "display_name": "Palantir Technologies",
@@ -16350,26 +16378,12 @@
       },
       {
         "etf_id": "US-ARKQ",
-        "holding_symbol": "DE",
-        "holding_name": "Deere & Co",
-        "weight": 0.0358777,
-        "as_of": null,
-        "source": "yahoo",
-        "rank": 7,
-        "holding_name_en": "Deere & Co",
-        "holding_name_zh": null,
-        "display_name": "Deere & Co",
-        "display_label": "(DE)Deere & Co",
-        "bilingual_name": "Deere & Co"
-      },
-      {
-        "etf_id": "US-ARKQ",
         "holding_symbol": "TSM",
         "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-        "weight": 0.0350353,
+        "weight": 0.0361386,
         "as_of": null,
         "source": "yahoo",
-        "rank": 8,
+        "rank": 9,
         "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
         "holding_name_zh": "台積電ADR",
         "display_name": "台積電ADR",
@@ -16378,23 +16392,23 @@
       },
       {
         "etf_id": "US-ARKQ",
-        "holding_symbol": "LHX",
-        "holding_name": "L3Harris Technologies Inc",
-        "weight": 0.0339518,
+        "holding_symbol": "RKLB",
+        "holding_name": "Rocket Lab Corp",
+        "weight": 0.0335922,
         "as_of": null,
         "source": "yahoo",
-        "rank": 9,
-        "holding_name_en": "L3Harris Technologies Inc",
+        "rank": 10,
+        "holding_name_en": "Rocket Lab Corp",
         "holding_name_zh": null,
-        "display_name": "L3Harris Technologies Inc",
-        "display_label": "(LHX)L3Harris Technologies Inc",
-        "bilingual_name": "L3Harris Technologies Inc"
+        "display_name": "Rocket Lab Corp",
+        "display_label": "(RKLB)Rocket Lab Corp",
+        "bilingual_name": "Rocket Lab Corp"
       }
     ],
     "holdings_summary": {
-      "holding_count": 9,
-      "top_10_weight": 0.472214,
-      "top_3_weight": 0.219959
+      "holding_count": 10,
+      "top_10_weight": 0.539455,
+      "top_3_weight": 0.225471
     },
     "research": {
       "tier": "primary",
@@ -19557,10 +19571,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 634236.0,
-      "average_volume_20d": 650425.25,
-      "average_dollar_volume_20d": 21271213.9154,
-      "relative_volume_20d": 0.9751,
+      "latest_volume": 634600.0,
+      "average_volume_20d": 650443.45,
+      "average_dollar_volume_20d": 21271813.0594,
+      "relative_volume_20d": 0.9756,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -22868,10 +22882,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 509627.0,
-      "average_volume_20d": 507091.35,
-      "average_dollar_volume_20d": 35925976.162,
-      "relative_volume_20d": 1.005,
+      "latest_volume": 509800.0,
+      "average_volume_20d": 507100.0,
+      "average_dollar_volume_20d": 35926615.6565,
+      "relative_volume_20d": 1.0053,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -24988,9 +25002,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 1583706.0,
-      "average_volume_20d": 3379075.3,
-      "average_dollar_volume_20d": 145686010.894,
+      "latest_volume": 1583700.0,
+      "average_volume_20d": 3379110.0,
+      "average_dollar_volume_20d": 145687545.591,
       "relative_volume_20d": 0.4687,
       "currency": "USD",
       "volume_unit": "shares",
@@ -28287,10 +28301,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 134844875.0,
-      "average_volume_20d": 90983973.75,
-      "average_dollar_volume_20d": 799519472.4666,
-      "relative_volume_20d": 1.4821,
+      "latest_volume": 134864500.0,
+      "average_volume_20d": 90988560.0,
+      "average_dollar_volume_20d": 799562444.7795,
+      "relative_volume_20d": 1.4822,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -31460,9 +31474,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 7094781.0,
-      "average_volume_20d": 7882034.05,
-      "average_dollar_volume_20d": 569792596.6164,
+      "latest_volume": 7094800.0,
+      "average_volume_20d": 7882075.0,
+      "average_dollar_volume_20d": 569795567.7393,
       "relative_volume_20d": 0.9001,
       "currency": "USD",
       "volume_unit": "shares",
@@ -34634,10 +34648,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 723628.0,
-      "average_volume_20d": 740667.75,
-      "average_dollar_volume_20d": 26635786.1379,
-      "relative_volume_20d": 0.977,
+      "latest_volume": 723700.0,
+      "average_volume_20d": 740671.35,
+      "average_dollar_volume_20d": 26635915.0539,
+      "relative_volume_20d": 0.9771,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -37949,9 +37963,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 935489.0,
-      "average_volume_20d": 1075010.25,
-      "average_dollar_volume_20d": 43660918.0475,
+      "latest_volume": 935500.0,
+      "average_volume_20d": 1075010.8,
+      "average_dollar_volume_20d": 43660940.119,
       "relative_volume_20d": 0.8702,
       "currency": "USD",
       "volume_unit": "shares",
@@ -38183,11 +38197,11 @@
     ],
     "metrics": {
       "alpha": {
-        "value": 13.7399,
+        "value": 13.7447,
         "unit": "percent"
       },
       "annualized_return": {
-        "value": 63.2204,
+        "value": 63.2275,
         "unit": "percent"
       },
       "annualized_volatility": {
@@ -38207,22 +38221,22 @@
         "unit": "percent"
       },
       "sharpe_ratio": {
-        "value": 1.9143,
+        "value": 1.9145,
         "unit": "ratio"
       },
       "total_return_1y": {
-        "value": 63.2204,
+        "value": 63.2275,
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 22.8873,
+        "value": 22.8874,
         "unit": "percent"
       }
     },
     "bootstrap_status": "ready",
     "latest_price": {
       "date": "2026-08-20",
-      "value": 105.9554,
+      "value": 105.96,
       "currency": "USD"
     },
     "trend": [
@@ -41248,7 +41262,7 @@
       },
       {
         "date": "2026-08-20",
-        "value": 209.48
+        "value": 209.49
       }
     ],
     "price_history": {
@@ -41260,10 +41274,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 823.0,
-      "average_volume_20d": 4326.15,
-      "average_dollar_volume_20d": 454963.5693,
-      "relative_volume_20d": 0.1902,
+      "latest_volume": 800.0,
+      "average_volume_20d": 4325.0,
+      "average_dollar_volume_20d": 454841.9046,
+      "relative_volume_20d": 0.185,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -44583,10 +44597,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 379732.0,
-      "average_volume_20d": 585320.05,
-      "average_dollar_volume_20d": 49275803.1409,
-      "relative_volume_20d": 0.6488,
+      "latest_volume": 379700.0,
+      "average_volume_20d": 585348.45,
+      "average_dollar_volume_20d": 49278295.7608,
+      "relative_volume_20d": 0.6487,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -44821,11 +44835,11 @@
     ],
     "metrics": {
       "alpha": {
-        "value": 46.6624,
+        "value": 46.6618,
         "unit": "percent"
       },
       "annualized_return": {
-        "value": 141.4507,
+        "value": 141.4495,
         "unit": "percent"
       },
       "annualized_volatility": {
@@ -44849,7 +44863,7 @@
         "unit": "ratio"
       },
       "total_return_1y": {
-        "value": 141.4507,
+        "value": 141.4495,
         "unit": "percent"
       },
       "tracking_error": {
@@ -44860,7 +44874,7 @@
     "bootstrap_status": "ready",
     "latest_price": {
       "date": "2026-08-20",
-      "value": 82.6384,
+      "value": 82.638,
       "currency": "USD"
     },
     "trend": [
@@ -47898,10 +47912,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 9297.0,
-      "average_volume_20d": 35309.2,
-      "average_dollar_volume_20d": 2909816.0605,
-      "relative_volume_20d": 0.2633,
+      "latest_volume": 9300.0,
+      "average_volume_20d": 35309.35,
+      "average_dollar_volume_20d": 2909828.2717,
+      "relative_volume_20d": 0.2634,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -51213,10 +51227,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 1681818.0,
-      "average_volume_20d": 1448609.4,
-      "average_dollar_volume_20d": 139261720.2673,
-      "relative_volume_20d": 1.161,
+      "latest_volume": 1681900.0,
+      "average_volume_20d": 1448808.5,
+      "average_dollar_volume_20d": 139280733.7125,
+      "relative_volume_20d": 1.1609,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -54528,9 +54542,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 211310.0,
-      "average_volume_20d": 568885.5,
-      "average_dollar_volume_20d": 15575795.8461,
+      "latest_volume": 211300.0,
+      "average_volume_20d": 568885.0,
+      "average_dollar_volume_20d": 15575782.0111,
       "relative_volume_20d": 0.3714,
       "currency": "USD",
       "volume_unit": "shares",
@@ -57835,9 +57849,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 1061112.0,
-      "average_volume_20d": 1283899.55,
-      "average_dollar_volume_20d": 101508177.8789,
+      "latest_volume": 1061100.0,
+      "average_volume_20d": 1283898.95,
+      "average_dollar_volume_20d": 101508130.3289,
       "relative_volume_20d": 0.8265,
       "currency": "USD",
       "volume_unit": "shares",
@@ -61134,10 +61148,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 2860706.0,
-      "average_volume_20d": 3725985.3,
-      "average_dollar_volume_20d": 1979072262.5981,
-      "relative_volume_20d": 0.7678,
+      "latest_volume": 2866100.0,
+      "average_volume_20d": 3726870.0,
+      "average_dollar_volume_20d": 1979543108.1097,
+      "relative_volume_20d": 0.769,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -61809,10 +61823,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 36601288.0,
-      "average_volume_20d": 66505909.4,
-      "average_dollar_volume_20d": 3489308915.337,
-      "relative_volume_20d": 0.5503,
+      "latest_volume": 36648300.0,
+      "average_volume_20d": 66522560.0,
+      "average_dollar_volume_20d": 3490232764.8806,
+      "relative_volume_20d": 0.5509,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -61982,11 +61996,11 @@
     ],
     "metrics": {
       "alpha": {
-        "value": -1.6225,
+        "value": -1.6219,
         "unit": "percent"
       },
       "annualized_return": {
-        "value": 36.967,
+        "value": 36.9678,
         "unit": "percent"
       },
       "annualized_volatility": {
@@ -62010,7 +62024,7 @@
         "unit": "ratio"
       },
       "total_return_1y": {
-        "value": 36.967,
+        "value": 36.9678,
         "unit": "percent"
       },
       "tracking_error": {
@@ -62021,7 +62035,7 @@
     "bootstrap_status": "ready",
     "latest_price": {
       "date": "2026-08-20",
-      "value": 34.4028,
+      "value": 34.403,
       "currency": "USD"
     },
     "trend": [
@@ -65059,10 +65073,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 19255.0,
-      "average_volume_20d": 50287.75,
-      "average_dollar_volume_20d": 1731502.9429,
-      "relative_volume_20d": 0.3829,
+      "latest_volume": 19300.0,
+      "average_volume_20d": 50290.0,
+      "average_dollar_volume_20d": 1731580.5406,
+      "relative_volume_20d": 0.3838,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -68378,10 +68392,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 576823.0,
-      "average_volume_20d": 845736.15,
-      "average_dollar_volume_20d": 23765876.6348,
-      "relative_volume_20d": 0.682,
+      "latest_volume": 576900.0,
+      "average_volume_20d": 845790.0,
+      "average_dollar_volume_20d": 23767403.2828,
+      "relative_volume_20d": 0.6821,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -75004,10 +75018,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 162277.0,
-      "average_volume_20d": 357129.45,
-      "average_dollar_volume_20d": 80059390.2125,
-      "relative_volume_20d": 0.4544,
+      "latest_volume": 162300.0,
+      "average_volume_20d": 357130.6,
+      "average_dollar_volume_20d": 80059652.6425,
+      "relative_volume_20d": 0.4545,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -78307,10 +78321,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 13835060.0,
-      "average_volume_20d": 9132018.0,
-      "average_dollar_volume_20d": 3601804837.0613,
-      "relative_volume_20d": 1.515,
+      "latest_volume": 13863500.0,
+      "average_volume_20d": 9133440.0,
+      "average_dollar_volume_20d": 3602395336.7952,
+      "relative_volume_20d": 1.5179,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -81486,10 +81500,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 637342.0,
-      "average_volume_20d": 734982.1,
-      "average_dollar_volume_20d": 134643712.1545,
-      "relative_volume_20d": 0.8672,
+      "latest_volume": 637300.0,
+      "average_volume_20d": 734980.0,
+      "average_dollar_volume_20d": 134643331.7185,
+      "relative_volume_20d": 0.8671,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -84802,10 +84816,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 302724.0,
-      "average_volume_20d": 247423.25,
-      "average_dollar_volume_20d": 28149894.5933,
-      "relative_volume_20d": 1.2235,
+      "latest_volume": 302700.0,
+      "average_volume_20d": 247422.05,
+      "average_dollar_volume_20d": 28149762.8693,
+      "relative_volume_20d": 1.2234,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -88113,10 +88127,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 29265.0,
-      "average_volume_20d": 29183.25,
-      "average_dollar_volume_20d": 1048036.684,
-      "relative_volume_20d": 1.0028,
+      "latest_volume": 29300.0,
+      "average_volume_20d": 29185.0,
+      "average_dollar_volume_20d": 1048101.3465,
+      "relative_volume_20d": 1.0039,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -91416,9 +91430,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 4956755.0,
-      "average_volume_20d": 8074403.25,
-      "average_dollar_volume_20d": 751284903.5112,
+      "latest_volume": 4956800.0,
+      "average_volume_20d": 8074495.5,
+      "average_dollar_volume_20d": 751293516.961,
       "relative_volume_20d": 0.6139,
       "currency": "USD",
       "volume_unit": "shares",
@@ -94582,10 +94596,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 495489.0,
-      "average_volume_20d": 545124.45,
-      "average_dollar_volume_20d": 33545222.2648,
-      "relative_volume_20d": 0.9089,
+      "latest_volume": 495500.0,
+      "average_volume_20d": 545125.0,
+      "average_dollar_volume_20d": 33545255.3968,
+      "relative_volume_20d": 0.909,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -101204,10 +101218,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 103751.0,
-      "average_volume_20d": 189142.55,
-      "average_dollar_volume_20d": 16840483.0113,
-      "relative_volume_20d": 0.5485,
+      "latest_volume": 103800.0,
+      "average_volume_20d": 189145.0,
+      "average_dollar_volume_20d": 16840707.7253,
+      "relative_volume_20d": 0.5488,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -101217,7 +101231,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "GOOGL",
         "holding_name": "Alphabet Inc Class A",
-        "weight": 0.088182,
+        "weight": 0.0881977,
         "as_of": null,
         "source": "yahoo",
         "rank": 1,
@@ -101231,7 +101245,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "NVDA",
         "holding_name": "NVIDIA Corp",
-        "weight": 0.08680859,
+        "weight": 0.0868234,
         "as_of": null,
         "source": "yahoo",
         "rank": 2,
@@ -101245,7 +101259,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "META",
         "holding_name": "Meta Platforms Inc Class A",
-        "weight": 0.0867605,
+        "weight": 0.0867739,
         "as_of": null,
         "source": "yahoo",
         "rank": 3,
@@ -101259,7 +101273,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "AMD",
         "holding_name": "Advanced Micro Devices Inc",
-        "weight": 0.0863575,
+        "weight": 0.0863715,
         "as_of": null,
         "source": "yahoo",
         "rank": 4,
@@ -101273,7 +101287,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "MU",
         "holding_name": "Micron Technology Inc",
-        "weight": 0.0732061,
+        "weight": 0.0732179,
         "as_of": null,
         "source": "yahoo",
         "rank": 5,
@@ -101287,7 +101301,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "000660.KS",
         "holding_name": "SK hynix Inc",
-        "weight": 0.0412106,
+        "weight": 0.0412228,
         "as_of": null,
         "source": "yahoo",
         "rank": 6,
@@ -101301,7 +101315,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "INTC",
         "holding_name": "Intel Corp",
-        "weight": 0.0384073,
+        "weight": 0.0384131,
         "as_of": null,
         "source": "yahoo",
         "rank": 7,
@@ -101315,7 +101329,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "STX",
         "holding_name": "Seagate Technology Holdings PLC",
-        "weight": 0.0324941,
+        "weight": 0.0324979,
         "as_of": null,
         "source": "yahoo",
         "rank": 8,
@@ -101329,7 +101343,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "WDC",
         "holding_name": "Western Digital Corp",
-        "weight": 0.0317901,
+        "weight": 0.0317921,
         "as_of": null,
         "source": "yahoo",
         "rank": 9,
@@ -101343,7 +101357,7 @@
         "etf_id": "US-IGPT",
         "holding_symbol": "SNDK",
         "holding_name": "SanDisk Corp Ordinary Shares",
-        "weight": 0.030457,
+        "weight": 0.0304577,
         "as_of": null,
         "source": "yahoo",
         "rank": 10,
@@ -101356,8 +101370,8 @@
     ],
     "holdings_summary": {
       "holding_count": 10,
-      "top_10_weight": 0.595674,
-      "top_3_weight": 0.261751
+      "top_10_weight": 0.595768,
+      "top_3_weight": 0.261795
     },
     "research": {
       "tier": "context",
@@ -104519,9 +104533,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 6631249.0,
-      "average_volume_20d": 13598432.45,
-      "average_dollar_volume_20d": 1335514519.3725,
+      "latest_volume": 6631400.0,
+      "average_volume_20d": 13598740.0,
+      "average_dollar_volume_20d": 1335546131.7923,
       "relative_volume_20d": 0.4876,
       "currency": "USD",
       "volume_unit": "shares",
@@ -107835,9 +107849,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 118401.0,
-      "average_volume_20d": 176660.05,
-      "average_dollar_volume_20d": 11249775.4374,
+      "latest_volume": 118400.0,
+      "average_volume_20d": 176660.0,
+      "average_dollar_volume_20d": 11249772.2854,
       "relative_volume_20d": 0.6702,
       "currency": "USD",
       "volume_unit": "shares",
@@ -111138,10 +111152,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 5581773.0,
-      "average_volume_20d": 4119603.65,
-      "average_dollar_volume_20d": 3147374996.2396,
-      "relative_volume_20d": 1.3549,
+      "latest_volume": 5583500.0,
+      "average_volume_20d": 4119740.0,
+      "average_dollar_volume_20d": 3147479806.7004,
+      "relative_volume_20d": 1.3553,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -114433,10 +114447,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 21550816.0,
-      "average_volume_20d": 19195245.8,
-      "average_dollar_volume_20d": 5704301987.2508,
-      "relative_volume_20d": 1.1227,
+      "latest_volume": 21596600.0,
+      "average_volume_20d": 19198985.0,
+      "average_dollar_volume_20d": 5705420907.4474,
+      "relative_volume_20d": 1.1249,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -117740,10 +117754,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 4280415.0,
-      "average_volume_20d": 4594035.75,
-      "average_dollar_volume_20d": 263713683.4145,
-      "relative_volume_20d": 0.9317,
+      "latest_volume": 4283100.0,
+      "average_volume_20d": 4595470.0,
+      "average_dollar_volume_20d": 263796780.3234,
+      "relative_volume_20d": 0.932,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -121039,10 +121053,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 4874858.0,
-      "average_volume_20d": 6814777.9,
-      "average_dollar_volume_20d": 398760752.3712,
-      "relative_volume_20d": 0.7153,
+      "latest_volume": 4878500.0,
+      "average_volume_20d": 6816065.0,
+      "average_dollar_volume_20d": 398837772.806,
+      "relative_volume_20d": 0.7157,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -124354,10 +124368,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 15640.0,
-      "average_volume_20d": 24052.0,
-      "average_dollar_volume_20d": 735211.9327,
-      "relative_volume_20d": 0.6503,
+      "latest_volume": 15600.0,
+      "average_volume_20d": 24050.0,
+      "average_dollar_volume_20d": 735150.9427,
+      "relative_volume_20d": 0.6486,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -127665,10 +127679,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 1794932.0,
-      "average_volume_20d": 3897551.6,
-      "average_dollar_volume_20d": 260587974.648,
-      "relative_volume_20d": 0.4605,
+      "latest_volume": 1797200.0,
+      "average_volume_20d": 3898080.0,
+      "average_dollar_volume_20d": 260623638.8755,
+      "relative_volume_20d": 0.461,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -130864,10 +130878,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 289435.0,
-      "average_volume_20d": 339265.6,
-      "average_dollar_volume_20d": 38400157.9102,
-      "relative_volume_20d": 0.8531,
+      "latest_volume": 289400.0,
+      "average_volume_20d": 339263.85,
+      "average_dollar_volume_20d": 38399957.4477,
+      "relative_volume_20d": 0.853,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -134179,10 +134193,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 1039309.0,
-      "average_volume_20d": 1516905.4,
-      "average_dollar_volume_20d": 86798168.3079,
-      "relative_volume_20d": 0.6852,
+      "latest_volume": 1039900.0,
+      "average_volume_20d": 1516934.95,
+      "average_dollar_volume_20d": 86799824.2899,
+      "relative_volume_20d": 0.6855,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -137490,10 +137504,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 291235.0,
-      "average_volume_20d": 497518.75,
-      "average_dollar_volume_20d": 70263543.3433,
-      "relative_volume_20d": 0.5854,
+      "latest_volume": 291600.0,
+      "average_volume_20d": 497607.0,
+      "average_dollar_volume_20d": 70275844.7282,
+      "relative_volume_20d": 0.586,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -140793,10 +140807,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 33271359.0,
-      "average_volume_20d": 39911742.95,
-      "average_dollar_volume_20d": 28074652351.1455,
-      "relative_volume_20d": 0.8336,
+      "latest_volume": 33306100.0,
+      "average_volume_20d": 39920890.0,
+      "average_dollar_volume_20d": 28081193425.0159,
+      "relative_volume_20d": 0.8343,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -141032,15 +141046,15 @@
     ],
     "metrics": {
       "alpha": {
-        "value": 13.5421,
+        "value": 13.5458,
         "unit": "percent"
       },
       "annualized_return": {
-        "value": 63.8225,
+        "value": 63.8279,
         "unit": "percent"
       },
       "annualized_volatility": {
-        "value": 32.5083,
+        "value": 32.5082,
         "unit": "percent"
       },
       "beta": {
@@ -141056,22 +141070,22 @@
         "unit": "percent"
       },
       "sharpe_ratio": {
-        "value": 1.9171,
+        "value": 1.9173,
         "unit": "ratio"
       },
       "total_return_1y": {
-        "value": 63.8225,
+        "value": 63.8279,
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 23.0273,
+        "value": 23.0274,
         "unit": "percent"
       }
     },
     "bootstrap_status": "ready",
     "latest_price": {
       "date": "2026-08-20",
-      "value": 149.195,
+      "value": 149.2,
       "currency": "USD"
     },
     "trend": [
@@ -144097,7 +144111,7 @@
       },
       {
         "date": "2026-08-20",
-        "value": 317.99
+        "value": 318.0
       }
     ],
     "price_history": {
@@ -144109,9 +144123,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 211279.0,
-      "average_volume_20d": 392788.7,
-      "average_dollar_volume_20d": 58107362.2966,
+      "latest_volume": 211300.0,
+      "average_volume_20d": 392789.75,
+      "average_dollar_volume_20d": 58107571.6668,
       "relative_volume_20d": 0.5379,
       "currency": "USD",
       "volume_unit": "shares",
@@ -147424,9 +147438,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 164765.0,
-      "average_volume_20d": 169948.25,
-      "average_dollar_volume_20d": 13936989.2025,
+      "latest_volume": 164800.0,
+      "average_volume_20d": 169980.0,
+      "average_dollar_volume_20d": 13939582.4475,
       "relative_volume_20d": 0.9695,
       "currency": "USD",
       "volume_unit": "shares",
@@ -150739,10 +150753,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 22286.0,
-      "average_volume_20d": 46144.3,
-      "average_dollar_volume_20d": 2641483.8954,
-      "relative_volume_20d": 0.483,
+      "latest_volume": 22300.0,
+      "average_volume_20d": 46145.0,
+      "average_dollar_volume_20d": 2641525.1604,
+      "relative_volume_20d": 0.4833,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -154046,10 +154060,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 21272757.0,
-      "average_volume_20d": 23994497.85,
-      "average_dollar_volume_20d": 815591426.0747,
-      "relative_volume_20d": 0.8866,
+      "latest_volume": 21296000.0,
+      "average_volume_20d": 24000740.0,
+      "average_dollar_volume_20d": 815810160.9621,
+      "relative_volume_20d": 0.8873,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -157345,10 +157359,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 19587194.0,
-      "average_volume_20d": 20042814.7,
-      "average_dollar_volume_20d": 2013608201.4029,
-      "relative_volume_20d": 0.9773,
+      "latest_volume": 19639200.0,
+      "average_volume_20d": 20052285.0,
+      "average_dollar_volume_20d": 2014560818.8452,
+      "relative_volume_20d": 0.9794,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -160515,10 +160529,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 2898.0,
-      "average_volume_20d": 11149.9,
-      "average_dollar_volume_20d": 1156773.4378,
-      "relative_volume_20d": 0.2599,
+      "latest_volume": 2900.0,
+      "average_volume_20d": 11150.0,
+      "average_dollar_volume_20d": 1156783.9148,
+      "relative_volume_20d": 0.2601,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -163830,10 +163844,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 210671.0,
-      "average_volume_20d": 308888.55,
-      "average_dollar_volume_20d": 47224821.7468,
-      "relative_volume_20d": 0.682,
+      "latest_volume": 210700.0,
+      "average_volume_20d": 308890.0,
+      "average_dollar_volume_20d": 47225052.8913,
+      "relative_volume_20d": 0.6821,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -167149,10 +167163,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 6221525.0,
-      "average_volume_20d": 11279011.25,
-      "average_dollar_volume_20d": 6252916834.6957,
-      "relative_volume_20d": 0.5516,
+      "latest_volume": 6225900.0,
+      "average_volume_20d": 11279230.0,
+      "average_dollar_volume_20d": 6253039914.3886,
+      "relative_volume_20d": 0.552,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -170472,10 +170486,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 49838765.0,
-      "average_volume_20d": 74912853.25,
-      "average_dollar_volume_20d": 9312094265.6162,
-      "relative_volume_20d": 0.6653,
+      "latest_volume": 50031100.0,
+      "average_volume_20d": 74922470.0,
+      "average_dollar_volume_20d": 9313269528.6249,
+      "relative_volume_20d": 0.6678,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -173707,9 +173721,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 676352.0,
-      "average_volume_20d": 1977332.6,
-      "average_dollar_volume_20d": 181895807.0681,
+      "latest_volume": 676400.0,
+      "average_volume_20d": 1977335.0,
+      "average_dollar_volume_20d": 181896030.0281,
       "relative_volume_20d": 0.3421,
       "currency": "USD",
       "volume_unit": "shares",
@@ -177026,10 +177040,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 6254030.0,
-      "average_volume_20d": 9840881.5,
-      "average_dollar_volume_20d": 5096634348.8988,
-      "relative_volume_20d": 0.6355,
+      "latest_volume": 6261700.0,
+      "average_volume_20d": 9841265.0,
+      "average_dollar_volume_20d": 5096834670.1144,
+      "relative_volume_20d": 0.6363,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -180329,10 +180343,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 45427032.0,
-      "average_volume_20d": 46473826.6,
-      "average_dollar_volume_20d": 35259553925.1087,
-      "relative_volume_20d": 0.9775,
+      "latest_volume": 45479200.0,
+      "average_volume_20d": 46476435.0,
+      "average_dollar_volume_20d": 35261543090.885,
+      "relative_volume_20d": 0.9785,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -183660,10 +183674,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 24653.0,
-      "average_volume_20d": 68027.65,
-      "average_dollar_volume_20d": 2141892.4432,
-      "relative_volume_20d": 0.3624,
+      "latest_volume": 24700.0,
+      "average_volume_20d": 68030.0,
+      "average_dollar_volume_20d": 2141966.8442,
+      "relative_volume_20d": 0.3631,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -186975,10 +186989,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 19569.0,
-      "average_volume_20d": 27838.45,
-      "average_dollar_volume_20d": 2465751.987,
-      "relative_volume_20d": 0.7029,
+      "latest_volume": 19600.0,
+      "average_volume_20d": 27840.0,
+      "average_dollar_volume_20d": 2465891.4405,
+      "relative_volume_20d": 0.704,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -190278,9 +190292,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 39547722.0,
-      "average_volume_20d": 35365526.1,
-      "average_dollar_volume_20d": 2917443591.9742,
+      "latest_volume": 39551100.0,
+      "average_volume_20d": 35365695.0,
+      "average_dollar_volume_20d": 2917457499.1996,
       "relative_volume_20d": 1.1183,
       "currency": "USD",
       "volume_unit": "shares",
@@ -193448,10 +193462,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 293546.0,
-      "average_volume_20d": 412287.3,
-      "average_dollar_volume_20d": 18862770.2876,
-      "relative_volume_20d": 0.712,
+      "latest_volume": 293600.0,
+      "average_volume_20d": 412290.0,
+      "average_dollar_volume_20d": 18862893.6506,
+      "relative_volume_20d": 0.7121,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -196763,9 +196777,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 3010253.0,
-      "average_volume_20d": 3101982.65,
-      "average_dollar_volume_20d": 131651578.5866,
+      "latest_volume": 3010300.0,
+      "average_volume_20d": 3101985.0,
+      "average_dollar_volume_20d": 131651681.6106,
       "relative_volume_20d": 0.9704,
       "currency": "USD",
       "volume_unit": "shares",
@@ -200064,10 +200078,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 497813.0,
-      "average_volume_20d": 385920.65,
-      "average_dollar_volume_20d": 20269840.8125,
-      "relative_volume_20d": 1.2899,
+      "latest_volume": 497900.0,
+      "average_volume_20d": 385955.0,
+      "average_dollar_volume_20d": 20271742.43,
+      "relative_volume_20d": 1.29,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -203387,10 +203401,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 396684.0,
-      "average_volume_20d": 736769.2,
-      "average_dollar_volume_20d": 61753736.4149,
-      "relative_volume_20d": 0.5384,
+      "latest_volume": 397000.0,
+      "average_volume_20d": 736785.0,
+      "average_dollar_volume_20d": 61755085.2609,
+      "relative_volume_20d": 0.5388,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -206616,9 +206630,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 13158593.0,
-      "average_volume_20d": 9678604.65,
-      "average_dollar_volume_20d": 695117294.244,
+      "latest_volume": 13158600.0,
+      "average_volume_20d": 9678605.0,
+      "average_dollar_volume_20d": 695117319.738,
       "relative_volume_20d": 1.3596,
       "currency": "USD",
       "volume_unit": "shares",
@@ -209915,10 +209929,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 926197.0,
-      "average_volume_20d": 950873.8,
-      "average_dollar_volume_20d": 231041333.9287,
-      "relative_volume_20d": 0.974,
+      "latest_volume": 926300.0,
+      "average_volume_20d": 950878.95,
+      "average_dollar_volume_20d": 231042581.4132,
+      "relative_volume_20d": 0.9742,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -213218,10 +213232,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 2264519.0,
-      "average_volume_20d": 3030475.95,
-      "average_dollar_volume_20d": 299460912.5292,
-      "relative_volume_20d": 0.7472,
+      "latest_volume": 2264600.0,
+      "average_volume_20d": 3030505.0,
+      "average_dollar_volume_20d": 299463777.1092,
+      "relative_volume_20d": 0.7473,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -216517,10 +216531,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 8434949.0,
-      "average_volume_20d": 5944412.45,
-      "average_dollar_volume_20d": 4151227274.6727,
-      "relative_volume_20d": 1.419,
+      "latest_volume": 8440700.0,
+      "average_volume_20d": 5944700.0,
+      "average_dollar_volume_20d": 4151428850.101,
+      "relative_volume_20d": 1.4199,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -223151,10 +223165,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 2070795.0,
-      "average_volume_20d": 2842414.75,
-      "average_dollar_volume_20d": 450256105.7469,
-      "relative_volume_20d": 0.7285,
+      "latest_volume": 2071400.0,
+      "average_volume_20d": 2842445.0,
+      "average_dollar_volume_20d": 450260943.6292,
+      "relative_volume_20d": 0.7287,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -226450,10 +226464,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 3423896.0,
-      "average_volume_20d": 3164154.8,
-      "average_dollar_volume_20d": 1188958026.6193,
-      "relative_volume_20d": 1.0821,
+      "latest_volume": 3425200.0,
+      "average_volume_20d": 3164220.0,
+      "average_dollar_volume_20d": 1188982579.6344,
+      "relative_volume_20d": 1.0825,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -229741,9 +229755,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 5536450.0,
-      "average_volume_20d": 6960698.8,
-      "average_dollar_volume_20d": 413560510.4659,
+      "latest_volume": 5536700.0,
+      "average_volume_20d": 6960736.3,
+      "average_dollar_volume_20d": 413562761.7159,
       "relative_volume_20d": 0.7954,
       "currency": "USD",
       "volume_unit": "shares",
@@ -233052,10 +233066,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 512798.0,
-      "average_volume_20d": 752169.9,
-      "average_dollar_volume_20d": 28292868.8351,
-      "relative_volume_20d": 0.6818,
+      "latest_volume": 512800.0,
+      "average_volume_20d": 752430.0,
+      "average_dollar_volume_20d": 28303408.0482,
+      "relative_volume_20d": 0.6815,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -236363,9 +236377,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 172918.0,
-      "average_volume_20d": 266500.9,
-      "average_dollar_volume_20d": 10699592.0944,
+      "latest_volume": 172900.0,
+      "average_volume_20d": 266500.0,
+      "average_dollar_volume_20d": 10699555.1134,
       "relative_volume_20d": 0.6488,
       "currency": "USD",
       "volume_unit": "shares",
@@ -239662,10 +239676,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 24285409.0,
-      "average_volume_20d": 27121645.45,
-      "average_dollar_volume_20d": 1625647762.9492,
-      "relative_volume_20d": 0.8954,
+      "latest_volume": 24288200.0,
+      "average_volume_20d": 27123125.0,
+      "average_dollar_volume_20d": 1625741856.4642,
+      "relative_volume_20d": 0.8955,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -242957,10 +242971,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 30681724.0,
-      "average_volume_20d": 30466381.2,
-      "average_dollar_volume_20d": 1749832668.7031,
-      "relative_volume_20d": 1.0071,
+      "latest_volume": 30696600.0,
+      "average_volume_20d": 30468290.0,
+      "average_dollar_volume_20d": 1749941992.3131,
+      "relative_volume_20d": 1.0075,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -246252,9 +246266,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 5010171.0,
-      "average_volume_20d": 8087583.55,
-      "average_dollar_volume_20d": 1461083707.7692,
+      "latest_volume": 5010700.0,
+      "average_volume_20d": 8087960.0,
+      "average_dollar_volume_20d": 1461152824.7642,
       "relative_volume_20d": 0.6195,
       "currency": "USD",
       "volume_unit": "shares",
@@ -249547,10 +249561,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 9671906.0,
-      "average_volume_20d": 9723910.3,
-      "average_dollar_volume_20d": 1618690811.2978,
-      "relative_volume_20d": 0.9947,
+      "latest_volume": 9672200.0,
+      "average_volume_20d": 9724485.0,
+      "average_dollar_volume_20d": 1618791726.2267,
+      "relative_volume_20d": 0.9946,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -252862,10 +252876,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 86774.0,
-      "average_volume_20d": 87953.7,
-      "average_dollar_volume_20d": 44789362.1683,
-      "relative_volume_20d": 0.9866,
+      "latest_volume": 86800.0,
+      "average_volume_20d": 87955.0,
+      "average_dollar_volume_20d": 44790007.9303,
+      "relative_volume_20d": 0.9869,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -256153,10 +256167,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 24051232.0,
-      "average_volume_20d": 15564976.6,
-      "average_dollar_volume_20d": 879862629.8226,
-      "relative_volume_20d": 1.5452,
+      "latest_volume": 24068800.0,
+      "average_volume_20d": 15565855.0,
+      "average_dollar_volume_20d": 879916791.9665,
+      "relative_volume_20d": 1.5463,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -259308,9 +259322,9 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 15021267.0,
-      "average_volume_20d": 8285073.35,
-      "average_dollar_volume_20d": 1291125301.4253,
+      "latest_volume": 15021900.0,
+      "average_volume_20d": 8285105.0,
+      "average_dollar_volume_20d": 1291130472.4024,
       "relative_volume_20d": 1.8131,
       "currency": "USD",
       "volume_unit": "shares",
@@ -262603,10 +262617,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 2782731.0,
-      "average_volume_20d": 1537131.55,
-      "average_dollar_volume_20d": 303532315.0704,
-      "relative_volume_20d": 1.8103,
+      "latest_volume": 2782800.0,
+      "average_volume_20d": 1537335.0,
+      "average_dollar_volume_20d": 303576434.4353,
+      "relative_volume_20d": 1.8101,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -265898,10 +265912,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 5156138.0,
-      "average_volume_20d": 2735732.15,
-      "average_dollar_volume_20d": 116879498.9053,
-      "relative_volume_20d": 1.8847,
+      "latest_volume": 5156200.0,
+      "average_volume_20d": 2737415.25,
+      "average_dollar_volume_20d": 116959832.9886,
+      "relative_volume_20d": 1.8836,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -265911,7 +265925,7 @@
         "etf_id": "US-ARKG",
         "holding_symbol": "TXG",
         "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
-        "weight": 0.0950625,
+        "weight": 0.0941268,
         "as_of": null,
         "source": "yahoo",
         "rank": 1,
@@ -265925,7 +265939,7 @@
         "etf_id": "US-ARKG",
         "holding_symbol": "TWST",
         "holding_name": "Twist Bioscience Corp",
-        "weight": 0.0745146,
+        "weight": 0.0774415,
         "as_of": null,
         "source": "yahoo",
         "rank": 2,
@@ -265937,26 +265951,12 @@
       },
       {
         "etf_id": "US-ARKG",
-        "holding_symbol": "CRSP",
-        "holding_name": "CRISPR Therapeutics AG",
-        "weight": 0.0644307,
+        "holding_symbol": "TEM",
+        "holding_name": "Tempus AI Inc Class A common stock",
+        "weight": 0.0657411,
         "as_of": null,
         "source": "yahoo",
         "rank": 3,
-        "holding_name_en": "CRISPR Therapeutics AG",
-        "holding_name_zh": null,
-        "display_name": "CRISPR Therapeutics AG",
-        "display_label": "(CRSP)CRISPR Therapeutics AG",
-        "bilingual_name": "CRISPR Therapeutics AG"
-      },
-      {
-        "etf_id": "US-ARKG",
-        "holding_symbol": "TEM",
-        "holding_name": "Tempus AI Inc Class A common stock",
-        "weight": 0.0641731,
-        "as_of": null,
-        "source": "yahoo",
-        "rank": 4,
         "holding_name_en": "Tempus AI Inc Class A common stock",
         "holding_name_zh": null,
         "display_name": "Tempus AI Inc Class A common stock",
@@ -265965,9 +265965,23 @@
       },
       {
         "etf_id": "US-ARKG",
+        "holding_symbol": "CRSP",
+        "holding_name": "CRISPR Therapeutics AG",
+        "weight": 0.0629738,
+        "as_of": null,
+        "source": "yahoo",
+        "rank": 4,
+        "holding_name_en": "CRISPR Therapeutics AG",
+        "holding_name_zh": null,
+        "display_name": "CRISPR Therapeutics AG",
+        "display_label": "(CRSP)CRISPR Therapeutics AG",
+        "bilingual_name": "CRISPR Therapeutics AG"
+      },
+      {
+        "etf_id": "US-ARKG",
         "holding_symbol": "PSNL",
         "holding_name": "Personalis Inc",
-        "weight": 0.052378,
+        "weight": 0.0548493,
         "as_of": null,
         "source": "yahoo",
         "rank": 5,
@@ -265979,26 +265993,12 @@
       },
       {
         "etf_id": "US-ARKG",
-        "holding_symbol": "LLY",
-        "holding_name": "Eli Lilly and Co",
-        "weight": 0.0509438,
+        "holding_symbol": "ABSI",
+        "holding_name": "Absci Corp",
+        "weight": 0.0514971,
         "as_of": null,
         "source": "yahoo",
         "rank": 6,
-        "holding_name_en": "Eli Lilly and Co",
-        "holding_name_zh": null,
-        "display_name": "Eli Lilly and Co",
-        "display_label": "(LLY)Eli Lilly and Co",
-        "bilingual_name": "Eli Lilly and Co"
-      },
-      {
-        "etf_id": "US-ARKG",
-        "holding_symbol": "ABSI",
-        "holding_name": "Absci Corp",
-        "weight": 0.0470723,
-        "as_of": null,
-        "source": "yahoo",
-        "rank": 7,
         "holding_name_en": "Absci Corp",
         "holding_name_zh": null,
         "display_name": "Absci Corp",
@@ -266007,9 +266007,23 @@
       },
       {
         "etf_id": "US-ARKG",
+        "holding_symbol": "GH",
+        "holding_name": "Guardant Health Inc",
+        "weight": 0.0475138,
+        "as_of": null,
+        "source": "yahoo",
+        "rank": 7,
+        "holding_name_en": "Guardant Health Inc",
+        "holding_name_zh": null,
+        "display_name": "Guardant Health Inc",
+        "display_label": "(GH)Guardant Health Inc",
+        "bilingual_name": "Guardant Health Inc"
+      },
+      {
+        "etf_id": "US-ARKG",
         "holding_symbol": "ILMN",
         "holding_name": "Illumina Inc",
-        "weight": 0.0464803,
+        "weight": 0.0474793,
         "as_of": null,
         "source": "yahoo",
         "rank": 8,
@@ -266021,37 +266035,37 @@
       },
       {
         "etf_id": "US-ARKG",
-        "holding_symbol": "GH",
-        "holding_name": "Guardant Health Inc",
-        "weight": 0.0435516,
+        "holding_symbol": "LLY",
+        "holding_name": "Eli Lilly and Co",
+        "weight": 0.0469379,
         "as_of": null,
         "source": "yahoo",
         "rank": 9,
-        "holding_name_en": "Guardant Health Inc",
+        "holding_name_en": "Eli Lilly and Co",
         "holding_name_zh": null,
-        "display_name": "Guardant Health Inc",
-        "display_label": "(GH)Guardant Health Inc",
-        "bilingual_name": "Guardant Health Inc"
+        "display_name": "Eli Lilly and Co",
+        "display_label": "(LLY)Eli Lilly and Co",
+        "bilingual_name": "Eli Lilly and Co"
       },
       {
         "etf_id": "US-ARKG",
-        "holding_symbol": "NTRA",
-        "holding_name": "Natera Inc",
-        "weight": 0.0404177,
+        "holding_symbol": "CDNA",
+        "holding_name": "CareDx Inc",
+        "weight": 0.0430722,
         "as_of": null,
         "source": "yahoo",
         "rank": 10,
-        "holding_name_en": "Natera Inc",
+        "holding_name_en": "CareDx Inc",
         "holding_name_zh": null,
-        "display_name": "Natera Inc",
-        "display_label": "(NTRA)Natera Inc",
-        "bilingual_name": "Natera Inc"
+        "display_name": "CareDx Inc",
+        "display_label": "(CDNA)CareDx Inc",
+        "bilingual_name": "CareDx Inc"
       }
     ],
     "holdings_summary": {
       "holding_count": 10,
-      "top_10_weight": 0.579025,
-      "top_3_weight": 0.234008
+      "top_10_weight": 0.591633,
+      "top_3_weight": 0.237309
     },
     "research": {
       "tier": "primary",
@@ -266113,7 +266127,7 @@
     ],
     "metrics": {
       "alpha": {
-        "value": 317.2207,
+        "value": 202.468,
         "unit": "percent"
       },
       "annualized_return": {
@@ -266125,7 +266139,7 @@
         "unit": "percent"
       },
       "beta": {
-        "value": 0.476,
+        "value": 1.0162,
         "unit": "ratio"
       },
       "data_years": {
@@ -266145,7 +266159,7 @@
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 166.2497,
+        "value": 117.8835,
         "unit": "percent"
       }
     },
@@ -268030,10 +268044,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 28322901.0,
-      "average_volume_20d": 46277650.05,
-      "average_dollar_volume_20d": 1255567297.3775,
-      "relative_volume_20d": 0.612,
+      "latest_volume": 28524600.0,
+      "average_volume_20d": 46309635.0,
+      "average_dollar_volume_20d": 1256544082.2504,
+      "relative_volume_20d": 0.616,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -268124,7 +268138,7 @@
     ],
     "metrics": {
       "alpha": {
-        "value": -251.8371,
+        "value": -195.8465,
         "unit": "percent"
       },
       "annualized_return": {
@@ -268136,7 +268150,7 @@
         "unit": "percent"
       },
       "beta": {
-        "value": -0.2305,
+        "value": -0.4937,
         "unit": "ratio"
       },
       "data_years": {
@@ -268156,7 +268170,7 @@
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 234.1791,
+        "value": 196.0882,
         "unit": "percent"
       }
     },
@@ -270017,10 +270031,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 7693700.0,
-      "average_volume_20d": 11847425.0,
-      "average_dollar_volume_20d": 139557873.4483,
-      "relative_volume_20d": 0.6494,
+      "latest_volume": 7696200.0,
+      "average_volume_20d": 11848165.0,
+      "average_dollar_volume_20d": 139565738.9481,
+      "relative_volume_20d": 0.6496,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -270096,7 +270110,7 @@
     ],
     "metrics": {
       "alpha": {
-        "value": 313.1861,
+        "value": 197.4572,
         "unit": "percent"
       },
       "annualized_return": {
@@ -270108,7 +270122,7 @@
         "unit": "percent"
       },
       "beta": {
-        "value": 0.4758,
+        "value": 1.0196,
         "unit": "ratio"
       },
       "data_years": {
@@ -270128,7 +270142,7 @@
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 167.1611,
+        "value": 118.7874,
         "unit": "percent"
       }
     },
@@ -271921,10 +271935,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 5953610.0,
-      "average_volume_20d": 8043800.5,
-      "average_dollar_volume_20d": 151687394.2632,
-      "relative_volume_20d": 0.7401,
+      "latest_volume": 5972100.0,
+      "average_volume_20d": 8047200.0,
+      "average_dollar_volume_20d": 151759515.0742,
+      "relative_volume_20d": 0.7421,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -272000,7 +272014,7 @@
     ],
     "metrics": {
       "alpha": {
-        "value": -69.6159,
+        "value": -82.3017,
         "unit": "percent"
       },
       "annualized_volatility": {
@@ -272008,7 +272022,7 @@
         "unit": "percent"
       },
       "beta": {
-        "value": -0.1942,
+        "value": -0.4545,
         "unit": "ratio"
       },
       "data_years": {
@@ -272028,7 +272042,7 @@
         "unit": "percent"
       },
       "tracking_error": {
-        "value": 457.7401,
+        "value": 346.3605,
         "unit": "percent"
       }
     },
@@ -272253,10 +272267,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 8677057.0,
-      "average_volume_20d": 12665352.85,
-      "average_dollar_volume_20d": 157737547.2544,
-      "relative_volume_20d": 0.6851,
+      "latest_volume": 8694400.0,
+      "average_volume_20d": 12666220.0,
+      "average_dollar_volume_20d": 157745394.9621,
+      "relative_volume_20d": 0.6864,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -272968,10 +272982,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 92394201.0,
-      "average_volume_20d": 130590540.05,
-      "average_dollar_volume_20d": 1532329322.6323,
-      "relative_volume_20d": 0.7075,
+      "latest_volume": 92567700.0,
+      "average_volume_20d": 130599215.0,
+      "average_dollar_volume_20d": 1532460661.3783,
+      "relative_volume_20d": 0.7088,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20
@@ -273429,10 +273443,10 @@
     },
     "liquidity": {
       "as_of": "2026-08-20",
-      "latest_volume": 28306188.0,
-      "average_volume_20d": 30378689.45,
-      "average_dollar_volume_20d": 732603813.0289,
-      "relative_volume_20d": 0.9318,
+      "latest_volume": 28356500.0,
+      "average_volume_20d": 30407815.05,
+      "average_dollar_volume_20d": 733052359.0431,
+      "relative_volume_20d": 0.9325,
       "currency": "USD",
       "volume_unit": "shares",
       "observation_count": 20

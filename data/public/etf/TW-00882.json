@@ -59,15 +59,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 0.9825,
+      "value": 0.5853,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 10.3221,
+      "value": 10.0073,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.9375,
+      "value": 14.9369,
       "unit": "percent"
     },
     "beta": {
@@ -75,7 +75,7 @@
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9325,
+      "value": 2.9365,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5906,
+      "value": 0.5696,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 10.3221,
+      "value": 10.0073,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.4167,
+      "value": 28.42,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-20",
-    "value": 15.07,
+    "date": "2026-08-21",
+    "value": 15.06,
     "currency": "TWD"
   },
   "trend": [
@@ -3081,21 +3081,25 @@
     {
       "date": "2026-08-20",
       "value": 131.85
+    },
+    {
+      "date": "2026-08-21",
+      "value": 131.76
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-20",
-    "observations": 745,
+    "last_date": "2026-08-21",
+    "observations": 746,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-20",
-    "latest_volume": 3980049.0,
-    "average_volume_20d": 6903128.5,
-    "average_dollar_volume_20d": 104961958.4895,
-    "relative_volume_20d": 0.5766,
+    "as_of": "2026-08-21",
+    "latest_volume": 2326043.0,
+    "average_volume_20d": 6820679.35,
+    "average_dollar_volume_20d": 103734186.8815,
+    "relative_volume_20d": 0.341,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3103,149 +3107,149 @@
   "top_holdings": [
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "0148.HK",
-      "holding_name": "Kingboard Holdings Ltd",
-      "weight": 0.056,
+      "holding_symbol": "3998.HK",
+      "holding_name": "Bosideng International Holdings Ltd",
+      "weight": 0.0419,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Kingboard Holdings Ltd",
+      "holding_name_en": "Bosideng International Holdings Ltd",
       "holding_name_zh": null,
-      "display_name": "Kingboard Holdings Ltd",
-      "display_label": "(0148.HK)Kingboard Holdings Ltd",
-      "bilingual_name": "Kingboard Holdings Ltd"
+      "display_name": "Bosideng International Holdings Ltd",
+      "display_label": "(3998.HK)Bosideng International Holdings Ltd",
+      "bilingual_name": "Bosideng International Holdings Ltd"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "00902",
-      "holding_name": "Huaneng Power International Inc Class H",
-      "weight": 0.0364,
+      "holding_symbol": "06690",
+      "holding_name": "Haier Smart Home Co Ltd Class H",
+      "weight": 0.0309,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Huaneng Power International Inc Class H",
+      "holding_name_en": "Haier Smart Home Co Ltd Class H",
       "holding_name_zh": null,
-      "display_name": "Huaneng Power International Inc Class H",
-      "display_label": "(00902)Huaneng Power International Inc Class H",
-      "bilingual_name": "Huaneng Power International Inc Class H"
+      "display_name": "Haier Smart Home Co Ltd Class H",
+      "display_label": "(06690)Haier Smart Home Co Ltd Class H",
+      "bilingual_name": "Haier Smart Home Co Ltd Class H"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "03328",
-      "holding_name": "Bank of Communications Co Ltd Class H",
-      "weight": 0.0307,
+      "holding_symbol": "3360.HK",
+      "holding_name": "Far East Horizon Ltd",
+      "weight": 0.0301,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Bank of Communications Co Ltd Class H",
+      "holding_name_en": "Far East Horizon Ltd",
       "holding_name_zh": null,
-      "display_name": "Bank of Communications Co Ltd Class H",
-      "display_label": "(03328)Bank of Communications Co Ltd Class H",
-      "bilingual_name": "Bank of Communications Co Ltd Class H"
+      "display_name": "Far East Horizon Ltd",
+      "display_label": "(3360.HK)Far East Horizon Ltd",
+      "bilingual_name": "Far East Horizon Ltd"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "2328.HK",
-      "holding_name": "PICC Property and Casualty Co Ltd Class H",
-      "weight": 0.0306,
+      "holding_symbol": "3311.HK",
+      "holding_name": "China State Construction International Holdings Ltd",
+      "weight": 0.0295,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "PICC Property and Casualty Co Ltd Class H",
+      "holding_name_en": "China State Construction International Holdings Ltd",
       "holding_name_zh": null,
-      "display_name": "PICC Property and Casualty Co Ltd Class H",
-      "display_label": "(2328.HK)PICC Property and Casualty Co Ltd Class H",
-      "bilingual_name": "PICC Property and Casualty Co Ltd Class H"
+      "display_name": "China State Construction International Holdings Ltd",
+      "display_label": "(3311.HK)China State Construction International Holdings Ltd",
+      "bilingual_name": "China State Construction International Holdings Ltd"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "01088",
-      "holding_name": "China Shenhua Energy Co Ltd Class H",
+      "holding_symbol": "1919.HK",
+      "holding_name": "COSCO SHIPPING Holdings Co Ltd Class H",
       "weight": 0.0292,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "China Shenhua Energy Co Ltd Class H",
+      "holding_name_en": "COSCO SHIPPING Holdings Co Ltd Class H",
       "holding_name_zh": null,
-      "display_name": "China Shenhua Energy Co Ltd Class H",
-      "display_label": "(01088)China Shenhua Energy Co Ltd Class H",
-      "bilingual_name": "China Shenhua Energy Co Ltd Class H"
+      "display_name": "COSCO SHIPPING Holdings Co Ltd Class H",
+      "display_label": "(1919.HK)COSCO SHIPPING Holdings Co Ltd Class H",
+      "bilingual_name": "COSCO SHIPPING Holdings Co Ltd Class H"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "00939",
-      "holding_name": "China Construction Bank Corp Class H",
-      "weight": 0.029,
+      "holding_symbol": "0220.HK",
+      "holding_name": "Uni-President China Holdings Ltd",
+      "weight": 0.0267,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "China Construction Bank Corp Class H",
+      "holding_name_en": "Uni-President China Holdings Ltd",
       "holding_name_zh": null,
-      "display_name": "China Construction Bank Corp Class H",
-      "display_label": "(00939)China Construction Bank Corp Class H",
-      "bilingual_name": "China Construction Bank Corp Class H"
+      "display_name": "Uni-President China Holdings Ltd",
+      "display_label": "(0220.HK)Uni-President China Holdings Ltd",
+      "bilingual_name": "Uni-President China Holdings Ltd"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "03988",
-      "holding_name": "Bank Of China Ltd Class H",
-      "weight": 0.0277,
+      "holding_symbol": "0322.HK",
+      "holding_name": "Tingyi (Cayman Islands) Holding Corp",
+      "weight": 0.0266,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Bank Of China Ltd Class H",
+      "holding_name_en": "Tingyi (Cayman Islands) Holding Corp",
       "holding_name_zh": null,
-      "display_name": "Bank Of China Ltd Class H",
-      "display_label": "(03988)Bank Of China Ltd Class H",
-      "bilingual_name": "Bank Of China Ltd Class H"
+      "display_name": "Tingyi (Cayman Islands) Holding Corp",
+      "display_label": "(0322.HK)Tingyi (Cayman Islands) Holding Corp",
+      "bilingual_name": "Tingyi (Cayman Islands) Holding Corp"
     },
     {
       "etf_id": "TW-00882",
-      "holding_symbol": "01336",
-      "holding_name": "New China Life Insurance Co Ltd Class H",
-      "weight": 0.0269,
+      "holding_symbol": "1908.HK",
+      "holding_name": "C&D International Investment Group Ltd",
+      "weight": 0.0263,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "New China Life Insurance Co Ltd Class H",
+      "holding_name_en": "C&D International Investment Group Ltd",
       "holding_name_zh": null,
-      "display_name": "New China Life Insurance Co Ltd Class H",
-      "display_label": "(01336)New China Life Insurance Co Ltd Class H",
-      "bilingual_name": "New China Life Insurance Co Ltd Class H"
-    },
-    {
-      "etf_id": "TW-00882",
-      "holding_symbol": "06818",
-      "holding_name": "China Everbright Bank Co Ltd Class H",
-      "weight": 0.0254,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "China Everbright Bank Co Ltd Class H",
-      "holding_name_zh": null,
-      "display_name": "China Everbright Bank Co Ltd Class H",
-      "display_label": "(06818)China Everbright Bank Co Ltd Class H",
-      "bilingual_name": "China Everbright Bank Co Ltd Class H"
+      "display_name": "C&D International Investment Group Ltd",
+      "display_label": "(1908.HK)C&D International Investment Group Ltd",
+      "bilingual_name": "C&D International Investment Group Ltd"
     },
     {
       "etf_id": "TW-00882",
       "holding_symbol": "0270.HK",
       "holding_name": "Guangdong Investment Ltd",
-      "weight": 0.0247,
+      "weight": 0.0248,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Guangdong Investment Ltd",
       "holding_name_zh": null,
       "display_name": "Guangdong Investment Ltd",
       "display_label": "(0270.HK)Guangdong Investment Ltd",
       "bilingual_name": "Guangdong Investment Ltd"
+    },
+    {
+      "etf_id": "TW-00882",
+      "holding_symbol": "1579.HK",
+      "holding_name": "Yihai International Holdings Ltd Shs Unitary 144A/Reg S",
+      "weight": 0.0247,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Yihai International Holdings Ltd Shs Unitary 144A/Reg S",
+      "holding_name_zh": null,
+      "display_name": "Yihai International Holdings Ltd Shs Unitary 144A/Reg S",
+      "display_label": "(1579.HK)Yihai International Holdings Ltd Shs Unitary 144A/Reg S",
+      "bilingual_name": "Yihai International Holdings Ltd Shs Unitary 144A/Reg S"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.3166,
-    "top_3_weight": 0.1231
+    "top_10_weight": 0.2907,
+    "top_3_weight": 0.1029
   },
   "research": {
     "tier": "context",

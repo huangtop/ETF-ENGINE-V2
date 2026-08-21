@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -5.438,
+      "value": -7.4818,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 105.0337,
+      "value": 102.7232,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 36.3235,
+      "value": 36.3299,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.1597,
+      "value": 1.159,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9325,
+      "value": 2.9365,
       "unit": "years"
     },
     "expense_ratio": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.8503,
+      "value": 2.7862,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 105.0337,
+      "value": 102.7232,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 15.9854,
+      "value": 16.0251,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-20",
-    "value": 45.62,
+    "date": "2026-08-21",
+    "value": 45.41,
     "currency": "TWD"
   },
   "trend": [
@@ -3113,21 +3113,25 @@
     {
       "date": "2026-08-20",
       "value": 310.55
+    },
+    {
+      "date": "2026-08-21",
+      "value": 309.12
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-20",
-    "observations": 745,
+    "last_date": "2026-08-21",
+    "observations": 746,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-20",
-    "latest_volume": 1154418.0,
-    "average_volume_20d": 1707936.25,
-    "average_dollar_volume_20d": 78397883.7995,
-    "relative_volume_20d": 0.6759,
+    "as_of": "2026-08-21",
+    "latest_volume": 532148.0,
+    "average_volume_20d": 1689843.75,
+    "average_dollar_volume_20d": 77585690.3535,
+    "relative_volume_20d": 0.3149,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3137,8 +3141,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.2757,
-      "as_of": "2026-07-19",
+      "weight": 0.31149998,
+      "as_of": null,
       "source": "yahoo",
       "rank": 1,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
@@ -3151,8 +3155,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.1099,
-      "as_of": "2026-07-19",
+      "weight": 0.1038,
+      "as_of": null,
       "source": "yahoo",
       "rank": 2,
       "holding_name_en": "MediaTek Inc",
@@ -3165,8 +3169,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.061,
-      "as_of": "2026-07-19",
+      "weight": 0.0575,
+      "as_of": null,
       "source": "yahoo",
       "rank": 3,
       "holding_name_en": "Delta Electronics Inc",
@@ -3179,8 +3183,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "3711.TW",
       "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0543,
-      "as_of": "2026-07-19",
+      "weight": 0.0497,
+      "as_of": null,
       "source": "yahoo",
       "rank": 4,
       "holding_name_en": "ASE Technology Holding Co Ltd",
@@ -3193,8 +3197,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "2383.TW",
       "holding_name": "Elite Material Co Ltd",
-      "weight": 0.0487,
-      "as_of": "2026-07-19",
+      "weight": 0.0474,
+      "as_of": null,
       "source": "yahoo",
       "rank": 5,
       "holding_name_en": "Elite Material Co Ltd",
@@ -3207,8 +3211,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "2345.TW",
       "holding_name": "Accton Technology Corp",
-      "weight": 0.0387,
-      "as_of": "2026-07-19",
+      "weight": 0.0369,
+      "as_of": null,
       "source": "yahoo",
       "rank": 6,
       "holding_name_en": "Accton Technology Corp",
@@ -3221,8 +3225,8 @@
       "etf_id": "TW-00894",
       "holding_symbol": "2360.TW",
       "holding_name": "Chroma Ate Inc",
-      "weight": 0.0309,
-      "as_of": "2026-07-19",
+      "weight": 0.0339,
+      "as_of": null,
       "source": "yahoo",
       "rank": 7,
       "holding_name_en": "Chroma Ate Inc",
@@ -3233,26 +3237,12 @@
     },
     {
       "etf_id": "TW-00894",
-      "holding_symbol": "6274.TWO",
-      "holding_name": "Taiwan Union Technology Corp",
-      "weight": 0.0297,
-      "as_of": "2026-07-19",
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Taiwan Union Technology Corp",
-      "holding_name_zh": "台燿",
-      "display_name": "台燿",
-      "display_label": "(6274.TWO)台燿",
-      "bilingual_name": "Taiwan Union Technology Corp（台燿）"
-    },
-    {
-      "etf_id": "TW-00894",
       "holding_symbol": "3017.TW",
       "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.0279,
-      "as_of": "2026-07-19",
+      "weight": 0.0289,
+      "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Asia Vital Components Co Ltd",
       "holding_name_zh": "奇鋐",
       "display_name": "奇鋐",
@@ -3261,10 +3251,24 @@
     },
     {
       "etf_id": "TW-00894",
+      "holding_symbol": "6669.TW",
+      "holding_name": "Wiwynn Corp Ordinary Shares",
+      "weight": 0.0265,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Wiwynn Corp Ordinary Shares",
+      "holding_name_zh": "緯穎",
+      "display_name": "緯穎",
+      "display_label": "(6669.TW)緯穎",
+      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
+    },
+    {
+      "etf_id": "TW-00894",
       "holding_symbol": "6223.TWO",
       "holding_name": "MPI Corp",
-      "weight": 0.0259,
-      "as_of": "2026-07-19",
+      "weight": 0.0256,
+      "as_of": null,
       "source": "yahoo",
       "rank": 10,
       "holding_name_en": "MPI Corp",
@@ -3276,8 +3280,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7027,
-    "top_3_weight": 0.4466
+    "top_10_weight": 0.7217,
+    "top_3_weight": 0.4728
   },
   "research": {
     "tier": "context",
