@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 12.2419,
+      "value": 14.4041,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 45.6338,
+      "value": 46.6667,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 24.5988,
+      "value": 24.6332,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3811,
+      "value": 0.3785,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.7941,
+      "value": 1.8336,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 45.6338,
+      "value": 46.6667,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.3286,
+      "value": 28.3952,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-08-24",
-    "value": 15.51,
+    "value": 15.62,
     "currency": "TWD"
   },
   "trend": [
@@ -2072,7 +2072,7 @@
     },
     {
       "date": "2026-08-24",
-      "value": 155.1
+      "value": 156.2
     }
   ],
   "price_history": {
@@ -2084,10 +2084,10 @@
   },
   "liquidity": {
     "as_of": "2026-08-24",
-    "latest_volume": 2664675.0,
-    "average_volume_20d": 5437083.75,
-    "average_dollar_volume_20d": 83205096.6651,
-    "relative_volume_20d": 0.4901,
+    "latest_volume": 3949909.0,
+    "average_volume_20d": 5501345.45,
+    "average_dollar_volume_20d": 84223520.0785,
+    "relative_volume_20d": 0.718,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2097,7 +2097,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "8001.T",
       "holding_name": "ITOCHU Corp",
-      "weight": 0.13939999,
+      "weight": 0.1408,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2111,7 +2111,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "8058.T",
       "holding_name": "Mitsubishi Corp",
-      "weight": 0.1247,
+      "weight": 0.1272,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -2123,26 +2123,12 @@
     },
     {
       "etf_id": "TW-00955",
-      "holding_symbol": "8031.T",
-      "holding_name": "Mitsui & Co Ltd",
-      "weight": 0.1235,
+      "holding_symbol": "8002.T",
+      "holding_name": "Marubeni Corp",
+      "weight": 0.1261,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Mitsui & Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Mitsui & Co Ltd",
-      "display_label": "(8031.T)Mitsui & Co Ltd",
-      "bilingual_name": "Mitsui & Co Ltd"
-    },
-    {
-      "etf_id": "TW-00955",
-      "holding_symbol": "8002.T",
-      "holding_name": "Marubeni Corp",
-      "weight": 0.1225,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Marubeni Corp",
       "holding_name_zh": null,
       "display_name": "Marubeni Corp",
@@ -2151,9 +2137,23 @@
     },
     {
       "etf_id": "TW-00955",
+      "holding_symbol": "8031.T",
+      "holding_name": "Mitsui & Co Ltd",
+      "weight": 0.1259,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Mitsui & Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Mitsui & Co Ltd",
+      "display_label": "(8031.T)Mitsui & Co Ltd",
+      "bilingual_name": "Mitsui & Co Ltd"
+    },
+    {
+      "etf_id": "TW-00955",
       "holding_symbol": "8053.T",
       "holding_name": "Sumitomo Corp",
-      "weight": 0.11189999,
+      "weight": 0.112,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -2167,7 +2167,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "8015.T",
       "holding_name": "Toyota Tsusho Corp",
-      "weight": 0.1004,
+      "weight": 0.10479999,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -2181,7 +2181,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "2801.T",
       "holding_name": "Kikkoman Corp",
-      "weight": 0.0305,
+      "weight": 0.028,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -2195,7 +2195,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "9962.T",
       "holding_name": "MISUMI Group Inc",
-      "weight": 0.0277,
+      "weight": 0.0249,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -2209,7 +2209,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "2768.T",
       "holding_name": "Sojitz Corp",
-      "weight": 0.0255,
+      "weight": 0.0246,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -2223,7 +2223,7 @@
       "etf_id": "TW-00955",
       "holding_symbol": "7459.T",
       "holding_name": "Medipal Holdings Corp",
-      "weight": 0.0126,
+      "weight": 0.0128,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -2236,8 +2236,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.8187,
-    "top_3_weight": 0.3876
+    "top_10_weight": 0.8271,
+    "top_3_weight": 0.3941
   },
   "research": {
     "tier": "context",
