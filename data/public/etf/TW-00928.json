@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 10.2916,
+      "value": 9.6022,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 119.341,
+      "value": 117.3031,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 40.6923,
+      "value": 40.6924,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0599,
+      "value": 1.0601,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9405,
+      "value": 2.9325,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.8959,
+      "value": 2.8458,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 119.341,
+      "value": 117.3031,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 27.4921,
+      "value": 27.5394,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-21",
-    "value": 31.7,
+    "date": "2026-08-24",
+    "value": 31.66,
     "currency": "TWD"
   },
   "trend": [
@@ -3081,21 +3081,25 @@
     {
       "date": "2026-08-21",
       "value": 254.62
+    },
+    {
+      "date": "2026-08-24",
+      "value": 254.3
     }
   ],
   "price_history": {
     "first_date": "2023-07-28",
-    "last_date": "2026-08-21",
-    "observations": 746,
+    "last_date": "2026-08-24",
+    "observations": 747,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-21",
-    "latest_volume": 428000.0,
-    "average_volume_20d": 1222100.0,
-    "average_dollar_volume_20d": 35803268.0543,
-    "relative_volume_20d": 0.3502,
+    "as_of": "2026-08-24",
+    "latest_volume": 393993.0,
+    "average_volume_20d": 1219499.65,
+    "average_dollar_volume_20d": 35761749.972,
+    "relative_volume_20d": 0.3231,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3105,7 +3109,7 @@
       "etf_id": "TW-00928",
       "holding_symbol": "6274.TWO",
       "holding_name": "Taiwan Union Technology Corp",
-      "weight": 0.1543,
+      "weight": 0.1306,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3119,7 +3123,7 @@
       "etf_id": "TW-00928",
       "holding_symbol": "8069.TWO",
       "holding_name": "E Ink Holdings Inc",
-      "weight": 0.0775,
+      "weight": 0.0882,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3131,40 +3135,12 @@
     },
     {
       "etf_id": "TW-00928",
-      "holding_symbol": "6223.TWO",
-      "holding_name": "MPI Corp",
-      "weight": 0.0625,
+      "holding_symbol": "5274.TWO",
+      "holding_name": "Aspeed Technology Inc",
+      "weight": 0.0739,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "MPI Corp",
-      "holding_name_zh": "旺矽",
-      "display_name": "旺矽",
-      "display_label": "(6223.TWO)旺矽",
-      "bilingual_name": "MPI Corp（旺矽）"
-    },
-    {
-      "etf_id": "TW-00928",
-      "holding_symbol": "8299.TWO",
-      "holding_name": "Phison Electronics Corp",
-      "weight": 0.0595,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Phison Electronics Corp",
-      "holding_name_zh": "群聯",
-      "display_name": "群聯",
-      "display_label": "(8299.TWO)群聯",
-      "bilingual_name": "Phison Electronics Corp（群聯）"
-    },
-    {
-      "etf_id": "TW-00928",
-      "holding_symbol": "5274.TWO",
-      "holding_name": "Aspeed Technology Inc",
-      "weight": 0.059,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Aspeed Technology Inc",
       "holding_name_zh": "信驊",
       "display_name": "信驊",
@@ -3173,12 +3149,26 @@
     },
     {
       "etf_id": "TW-00928",
-      "holding_symbol": "3081.TWO",
-      "holding_name": "LandMark Optoelectronics Corp",
-      "weight": 0.0584,
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0697,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": "旺矽",
+      "display_name": "旺矽",
+      "display_label": "(6223.TWO)旺矽",
+      "bilingual_name": "MPI Corp（旺矽）"
+    },
+    {
+      "etf_id": "TW-00928",
+      "holding_symbol": "3081.TWO",
+      "holding_name": "LandMark Optoelectronics Corp",
+      "weight": 0.0667,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "LandMark Optoelectronics Corp",
       "holding_name_zh": "聯亞",
       "display_name": "聯亞",
@@ -3187,26 +3177,26 @@
     },
     {
       "etf_id": "TW-00928",
-      "holding_symbol": "5536.TWO",
-      "holding_name": "Acter Group Corp Ltd",
-      "weight": 0.0554,
+      "holding_symbol": "8299.TWO",
+      "holding_name": "Phison Electronics Corp",
+      "weight": 0.0526,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Acter Group Corp Ltd",
-      "holding_name_zh": "聖暉*",
-      "display_name": "聖暉*",
-      "display_label": "(5536.TWO)聖暉*",
-      "bilingual_name": "Acter Group Corp Ltd（聖暉*）"
+      "rank": 6,
+      "holding_name_en": "Phison Electronics Corp",
+      "holding_name_zh": "群聯",
+      "display_name": "群聯",
+      "display_label": "(8299.TWO)群聯",
+      "bilingual_name": "Phison Electronics Corp（群聯）"
     },
     {
       "etf_id": "TW-00928",
       "holding_symbol": "5289.TWO",
       "holding_name": "InnoDisk Corp",
-      "weight": 0.0507,
+      "weight": 0.0523,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 7,
       "holding_name_en": "InnoDisk Corp",
       "holding_name_zh": null,
       "display_name": "InnoDisk Corp",
@@ -3215,37 +3205,51 @@
     },
     {
       "etf_id": "TW-00928",
-      "holding_symbol": "8358.TWO",
-      "holding_name": "Co-Tech Development Corp",
-      "weight": 0.0365,
+      "holding_symbol": "5536.TWO",
+      "holding_name": "Acter Group Corp Ltd",
+      "weight": 0.051,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Co-Tech Development Corp",
-      "holding_name_zh": null,
-      "display_name": "Co-Tech Development Corp",
-      "display_label": "(8358.TWO)Co-Tech Development Corp",
-      "bilingual_name": "Co-Tech Development Corp"
+      "rank": 8,
+      "holding_name_en": "Acter Group Corp Ltd",
+      "holding_name_zh": "聖暉*",
+      "display_name": "聖暉*",
+      "display_label": "(5536.TWO)聖暉*",
+      "bilingual_name": "Acter Group Corp Ltd（聖暉*）"
     },
     {
       "etf_id": "TW-00928",
       "holding_symbol": "6488.TWO",
       "holding_name": "GlobalWafers Co Ltd",
-      "weight": 0.035,
+      "weight": 0.0384,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "GlobalWafers Co Ltd",
       "holding_name_zh": "環球晶",
       "display_name": "環球晶",
       "display_label": "(6488.TWO)環球晶",
       "bilingual_name": "GlobalWafers Co Ltd（環球晶）"
+    },
+    {
+      "etf_id": "TW-00928",
+      "holding_symbol": "6121.TWO",
+      "holding_name": "Simplo Technology Co Ltd",
+      "weight": 0.0313,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Simplo Technology Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Simplo Technology Co Ltd",
+      "display_label": "(6121.TWO)Simplo Technology Co Ltd",
+      "bilingual_name": "Simplo Technology Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.6488,
-    "top_3_weight": 0.2943
+    "top_10_weight": 0.6547,
+    "top_3_weight": 0.2927
   },
   "research": {
     "tier": "context",
