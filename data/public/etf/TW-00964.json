@@ -59,7 +59,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 4.0814,
+      "value": 4.1461,
       "unit": "percent"
     },
     "annualized_return": {
@@ -67,11 +67,11 @@
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.4281,
+      "value": 18.3935,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4115,
+      "value": 0.4105,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,11 +79,11 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -9.0663,
+      "value": -9.8137,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.9504,
+      "value": 1.954,
       "unit": "ratio"
     },
     "total_return_1y": {
@@ -91,7 +91,7 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 21.9675,
+      "value": 21.9749,
       "unit": "percent"
     }
   },
@@ -1744,23 +1744,23 @@
     },
     {
       "date": "2026-07-27",
-      "value": 139.54
+      "value": 138.39
     },
     {
       "date": "2026-07-28",
-      "value": 135.84
+      "value": 134.72
     },
     {
       "date": "2026-07-29",
-      "value": 134.53
+      "value": 133.43
     },
     {
       "date": "2026-07-30",
-      "value": 134.93
+      "value": 133.83
     },
     {
       "date": "2026-07-31",
-      "value": 138.24
+      "value": 137.1
     },
     {
       "date": "2026-08-03",
@@ -1788,11 +1788,11 @@
     },
     {
       "date": "2026-08-11",
-      "value": 143.64
+      "value": 142.46
     },
     {
       "date": "2026-08-12",
-      "value": 143.94
+      "value": 142.76
     },
     {
       "date": "2026-08-13",
@@ -1804,7 +1804,7 @@
     },
     {
       "date": "2026-08-17",
-      "value": 146.15
+      "value": 144.94
     },
     {
       "date": "2026-08-18",
@@ -1836,10 +1836,10 @@
   },
   "liquidity": {
     "as_of": "2026-08-24",
-    "latest_volume": 1077881.0,
-    "average_volume_20d": 2003393.05,
-    "average_dollar_volume_20d": 28347019.2738,
-    "relative_volume_20d": 0.538,
+    "latest_volume": 1069800.0,
+    "average_volume_20d": 1997708.0,
+    "average_dollar_volume_20d": 28185079.4969,
+    "relative_volume_20d": 0.5355,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1849,7 +1849,7 @@
       "etf_id": "TW-00964",
       "holding_symbol": "3026.TW",
       "holding_name": "Holy Stone Enterprise Co Ltd",
-      "weight": 0.0622,
+      "weight": 0.032,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1861,54 +1861,12 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "3481.TW",
-      "holding_name": "Innolux Corp",
-      "weight": 0.0464,
+      "holding_symbol": "017800.KS",
+      "holding_name": "Hyundai Elevator Co Ltd",
+      "weight": 0.0314,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Innolux Corp",
-      "holding_name_zh": "群創",
-      "display_name": "群創",
-      "display_label": "(3481.TW)群創",
-      "bilingual_name": "Innolux Corp（群創）"
-    },
-    {
-      "etf_id": "TW-00964",
-      "holding_symbol": "2855.TW",
-      "holding_name": "President Securities Corp",
-      "weight": 0.0342,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "President Securities Corp",
-      "holding_name_zh": null,
-      "display_name": "President Securities Corp",
-      "display_label": "(2855.TW)President Securities Corp",
-      "bilingual_name": "President Securities Corp"
-    },
-    {
-      "etf_id": "TW-00964",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.031,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "United Microelectronics Corp",
-      "holding_name_zh": "聯電",
-      "display_name": "聯電",
-      "display_label": "(2303.TW)聯電",
-      "bilingual_name": "United Microelectronics Corp（聯電）"
-    },
-    {
-      "etf_id": "TW-00964",
-      "holding_symbol": "017800.KS",
-      "holding_name": "Hyundai Elevator Co Ltd",
-      "weight": 0.0301,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Hyundai Elevator Co Ltd",
       "holding_name_zh": null,
       "display_name": "Hyundai Elevator Co Ltd",
@@ -1917,12 +1875,26 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "2542.TW",
-      "holding_name": "Highwealth Construction Corp",
-      "weight": 0.0295,
+      "holding_symbol": "3481.TW",
+      "holding_name": "Innolux Corp",
+      "weight": 0.0305,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 3,
+      "holding_name_en": "Innolux Corp",
+      "holding_name_zh": "群創",
+      "display_name": "群創",
+      "display_label": "(3481.TW)群創",
+      "bilingual_name": "Innolux Corp（群創）"
+    },
+    {
+      "etf_id": "TW-00964",
+      "holding_symbol": "2542.TW",
+      "holding_name": "Highwealth Construction Corp",
+      "weight": 0.0298,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Highwealth Construction Corp",
       "holding_name_zh": null,
       "display_name": "Highwealth Construction Corp",
@@ -1931,26 +1903,26 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "3028.TW",
-      "holding_name": "Zenitron Corp",
-      "weight": 0.0269,
+      "holding_symbol": "2855.TW",
+      "holding_name": "President Securities Corp",
+      "weight": 0.0294,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Zenitron Corp",
+      "rank": 5,
+      "holding_name_en": "President Securities Corp",
       "holding_name_zh": null,
-      "display_name": "Zenitron Corp",
-      "display_label": "(3028.TW)Zenitron Corp",
-      "bilingual_name": "Zenitron Corp"
+      "display_name": "President Securities Corp",
+      "display_label": "(2855.TW)President Securities Corp",
+      "bilingual_name": "President Securities Corp"
     },
     {
       "etf_id": "TW-00964",
       "holding_symbol": "2357.TW",
       "holding_name": "Asustek Computer Inc",
-      "weight": 0.0249,
+      "weight": 0.0293,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 6,
       "holding_name_en": "Asustek Computer Inc",
       "holding_name_zh": "華碩",
       "display_name": "華碩",
@@ -1961,10 +1933,10 @@
       "etf_id": "TW-00964",
       "holding_symbol": "2510.HK",
       "holding_name": "TS Lines Ltd",
-      "weight": 0.0247,
+      "weight": 0.0289,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 7,
       "holding_name_en": "TS Lines Ltd",
       "holding_name_zh": null,
       "display_name": "TS Lines Ltd",
@@ -1973,23 +1945,51 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "1919.HK",
-      "holding_name": "COSCO SHIPPING Holdings Co Ltd Class H",
-      "weight": 0.0227,
+      "holding_symbol": "1308.HK",
+      "holding_name": "SITC International Holdings Co Ltd",
+      "weight": 0.0278,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 8,
+      "holding_name_en": "SITC International Holdings Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "SITC International Holdings Co Ltd",
+      "display_label": "(1308.HK)SITC International Holdings Co Ltd",
+      "bilingual_name": "SITC International Holdings Co Ltd"
+    },
+    {
+      "etf_id": "TW-00964",
+      "holding_symbol": "1919.HK",
+      "holding_name": "COSCO SHIPPING Holdings Co Ltd Class H",
+      "weight": 0.0277,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "COSCO SHIPPING Holdings Co Ltd Class H",
       "holding_name_zh": null,
       "display_name": "COSCO SHIPPING Holdings Co Ltd Class H",
       "display_label": "(1919.HK)COSCO SHIPPING Holdings Co Ltd Class H",
       "bilingual_name": "COSCO SHIPPING Holdings Co Ltd Class H"
+    },
+    {
+      "etf_id": "TW-00964",
+      "holding_symbol": "2603.TW",
+      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
+      "weight": 0.0232,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
+      "holding_name_zh": "長榮",
+      "display_name": "長榮",
+      "display_label": "(2603.TW)長榮",
+      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.3326,
-    "top_3_weight": 0.1428
+    "top_10_weight": 0.29,
+    "top_3_weight": 0.0939
   },
   "research": {
     "tier": "context",

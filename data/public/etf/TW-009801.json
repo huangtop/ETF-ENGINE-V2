@@ -51,7 +51,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -23.3286,
+      "value": -32.2836,
       "unit": "percent"
     },
     "annualized_return": {
@@ -59,11 +59,11 @@
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 29.4037,
+      "value": 33.7014,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.5003,
+      "value": 0.6428,
       "unit": "ratio"
     },
     "data_years": {
@@ -71,11 +71,11 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -14.5707,
+      "value": -17.3026,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.2424,
+      "value": 0.2115,
       "unit": "ratio"
     },
     "total_return_1y": {
@@ -83,7 +83,7 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 29.3954,
+      "value": 30.0854,
       "unit": "percent"
     }
   },
@@ -1516,19 +1516,19 @@
     },
     {
       "date": "2026-07-27",
-      "value": 123.8
+      "value": 113.95
     },
     {
       "date": "2026-07-28",
-      "value": 119.5
+      "value": 109.99
     },
     {
       "date": "2026-07-29",
-      "value": 118.5
+      "value": 109.07
     },
     {
       "date": "2026-07-30",
-      "value": 115.9
+      "value": 106.68
     },
     {
       "date": "2026-07-31",
@@ -1536,11 +1536,11 @@
     },
     {
       "date": "2026-08-03",
-      "value": 121.9
+      "value": 112.2
     },
     {
       "date": "2026-08-04",
-      "value": 123.5
+      "value": 113.68
     },
     {
       "date": "2026-08-05",
@@ -1548,7 +1548,7 @@
     },
     {
       "date": "2026-08-06",
-      "value": 125.9
+      "value": 115.88
     },
     {
       "date": "2026-08-07",
@@ -1568,11 +1568,11 @@
     },
     {
       "date": "2026-08-13",
-      "value": 125.6
+      "value": 115.61
     },
     {
       "date": "2026-08-14",
-      "value": 125.7
+      "value": 115.7
     },
     {
       "date": "2026-08-17",
@@ -1608,10 +1608,10 @@
   },
   "liquidity": {
     "as_of": "2026-08-24",
-    "latest_volume": 547152.0,
-    "average_volume_20d": 1263065.25,
-    "average_dollar_volume_20d": 15162385.0857,
-    "relative_volume_20d": 0.4332,
+    "latest_volume": 531836.0,
+    "average_volume_20d": 1256744.4,
+    "average_dollar_volume_20d": 14654394.7916,
+    "relative_volume_20d": 0.4232,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1619,26 +1619,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.155,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.1658,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "TW-009801",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.1471,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -1647,9 +1633,23 @@
     },
     {
       "etf_id": "TW-009801",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.16389999,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "TW-009801",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.0813,
+      "weight": 0.09770001,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1663,7 +1663,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0739,
+      "weight": 0.0776,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1675,26 +1675,12 @@
     },
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0701,
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0678,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "TW-009801",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0624,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Broadcom Inc",
       "holding_name_zh": "博通",
       "display_name": "博通",
@@ -1703,9 +1689,23 @@
     },
     {
       "etf_id": "TW-009801",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0527,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "TW-009801",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0508,
+      "weight": 0.0439,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1719,7 +1719,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0358,
+      "weight": 0.0373,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -1733,7 +1733,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "CSCO",
       "holding_name": "Cisco Systems Inc",
-      "weight": 0.0251,
+      "weight": 0.0261,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -1745,23 +1745,23 @@
     },
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "KLAC",
-      "holding_name": "KLA Corp",
-      "weight": 0.0213,
+      "holding_symbol": "GE",
+      "holding_name": "GE Aerospace",
+      "weight": 0.0214,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "KLA Corp",
-      "holding_name_zh": "科磊",
-      "display_name": "科磊",
-      "display_label": "(KLAC)科磊",
-      "bilingual_name": "KLA Corp（科磊）"
+      "holding_name_en": "GE Aerospace",
+      "holding_name_zh": null,
+      "display_name": "GE Aerospace",
+      "display_label": "(GE)GE Aerospace",
+      "bilingual_name": "GE Aerospace"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7228,
-    "top_3_weight": 0.3834
+    "top_10_weight": 0.7542,
+    "top_3_weight": 0.4274
   },
   "research": {
     "tier": "context",
