@@ -140,6 +140,10 @@ def test_holdings_selection_keeps_core_daily_and_rotates_non_core():
     assert cursor == "US-C"
 
 
+def test_lyte_is_explicitly_prioritized_for_daily_holdings():
+    assert "US-LYTE" in pipeline.CORE_DAILY_HOLDINGS_IDS
+
+
 def test_holdings_selection_keeps_active_etfs_daily_outside_rotation():
     entities = [
         entity("TW-0050", "TW"),

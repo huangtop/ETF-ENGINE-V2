@@ -16,7 +16,13 @@ from etf_engine.services.provider_health import ProviderCircuitBreaker
 from etf_engine.services.public_builder import build_public
 from etf_engine.settings import settings
 
-CORE_DAILY_HOLDINGS_IDS = {"TW-0050", "TW-006208", "US-SPY", "US-QQQ"}
+CORE_DAILY_HOLDINGS_IDS = {
+    "TW-0050",
+    "TW-006208",
+    "US-SPY",
+    "US-QQQ",
+    "US-LYTE",
+}
 
 
 def select_entities_for_run(
