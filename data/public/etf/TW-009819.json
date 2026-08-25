@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -84.7832,
+      "value": -86.1186,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 37.1096,
+      "value": 36.893,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3211,
+      "value": 0.3207,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3373,
+      "value": 0.3413,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -21.3716,
+      "value": -21.8501,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 43.0858,
+      "value": 42.8448,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-24",
-    "value": 9.86,
+    "date": "2026-08-25",
+    "value": 9.8,
     "currency": "TWD"
   },
   "trend": [
@@ -429,21 +429,25 @@
     {
       "date": "2026-08-24",
       "value": 78.63
+    },
+    {
+      "date": "2026-08-25",
+      "value": 78.15
     }
   ],
   "price_history": {
     "first_date": "2026-04-23",
-    "last_date": "2026-08-24",
-    "observations": 85,
+    "last_date": "2026-08-25",
+    "observations": 86,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-08-24",
-    "latest_volume": 6186479.0,
-    "average_volume_20d": 6351349.85,
-    "average_dollar_volume_20d": 64842862.2995,
-    "relative_volume_20d": 0.974,
+    "as_of": "2026-08-25",
+    "latest_volume": 3475404.0,
+    "average_volume_20d": 6288083.6,
+    "average_dollar_volume_20d": 64216182.0487,
+    "relative_volume_20d": 0.5527,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -453,7 +457,7 @@
       "etf_id": "TW-009819",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.26229998,
+      "weight": 0.2881,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -467,7 +471,7 @@
       "etf_id": "TW-009819",
       "holding_symbol": "GEV",
       "holding_name": "GE Vernova Inc",
-      "weight": 0.0933,
+      "weight": 0.08310001,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -479,26 +483,12 @@
     },
     {
       "etf_id": "TW-009819",
-      "holding_symbol": "MRVL",
-      "holding_name": "Marvell Technology Inc",
-      "weight": 0.0765,
+      "holding_symbol": "ORCL",
+      "holding_name": "Oracle Corp",
+      "weight": 0.0696,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Marvell Technology Inc",
-      "holding_name_zh": "邁威爾科技",
-      "display_name": "邁威爾科技",
-      "display_label": "(MRVL)邁威爾科技",
-      "bilingual_name": "Marvell Technology Inc（邁威爾科技）"
-    },
-    {
-      "etf_id": "TW-009819",
-      "holding_symbol": "ORCL",
-      "holding_name": "Oracle Corp",
-      "weight": 0.0738,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Oracle Corp",
       "holding_name_zh": null,
       "display_name": "Oracle Corp",
@@ -509,10 +499,10 @@
       "etf_id": "TW-009819",
       "holding_symbol": "NEE",
       "holding_name": "NextEra Energy Inc",
-      "weight": 0.0537,
+      "weight": 0.0568,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 4,
       "holding_name_en": "NextEra Energy Inc",
       "holding_name_zh": null,
       "display_name": "NextEra Energy Inc",
@@ -521,12 +511,40 @@
     },
     {
       "etf_id": "TW-009819",
-      "holding_symbol": "SO",
-      "holding_name": "Southern Co",
-      "weight": 0.0316,
+      "holding_symbol": "MRVL",
+      "holding_name": "Marvell Technology Inc",
+      "weight": 0.0512,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Marvell Technology Inc",
+      "holding_name_zh": "邁威爾科技",
+      "display_name": "邁威爾科技",
+      "display_label": "(MRVL)邁威爾科技",
+      "bilingual_name": "Marvell Technology Inc（邁威爾科技）"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "NOW",
+      "holding_name": "ServiceNow Inc",
+      "weight": 0.0357,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
+      "holding_name_en": "ServiceNow Inc",
+      "holding_name_zh": null,
+      "display_name": "ServiceNow Inc",
+      "display_label": "(NOW)ServiceNow Inc",
+      "bilingual_name": "ServiceNow Inc"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "SO",
+      "holding_name": "Southern Co",
+      "weight": 0.0334,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Southern Co",
       "holding_name_zh": null,
       "display_name": "Southern Co",
@@ -537,10 +555,10 @@
       "etf_id": "TW-009819",
       "holding_symbol": "EQIX",
       "holding_name": "Equinix Inc",
-      "weight": 0.0301,
+      "weight": 0.0312,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 8,
       "holding_name_en": "Equinix Inc",
       "holding_name_zh": "Equinix",
       "display_name": "Equinix",
@@ -549,23 +567,9 @@
     },
     {
       "etf_id": "TW-009819",
-      "holding_symbol": "NOW",
-      "holding_name": "ServiceNow Inc",
-      "weight": 0.0297,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "ServiceNow Inc",
-      "holding_name_zh": null,
-      "display_name": "ServiceNow Inc",
-      "display_label": "(NOW)ServiceNow Inc",
-      "bilingual_name": "ServiceNow Inc"
-    },
-    {
-      "etf_id": "TW-009819",
       "holding_symbol": "DUK",
       "holding_name": "Duke Energy Corp",
-      "weight": 0.0288,
+      "weight": 0.0307,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -579,7 +583,7 @@
       "etf_id": "TW-009819",
       "holding_symbol": "CEG",
       "holding_name": "Constellation Energy Corp",
-      "weight": 0.0247,
+      "weight": 0.028,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -592,8 +596,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7045,
-    "top_3_weight": 0.4321
+    "top_10_weight": 0.7078,
+    "top_3_weight": 0.4408
   },
   "research": {
     "tier": "context",
