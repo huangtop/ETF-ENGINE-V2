@@ -1,0 +1,145 @@
+{
+  "etf_id": "US-LYTE",
+  "ticker": "LYTE",
+  "quote_symbol": "LYTE",
+  "name": "Roundhill Photonics & Optics ETF",
+  "short_name": "LYTE",
+  "listing_market": "US",
+  "listing_exchange": "US",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Actively Managed Photonics and Optics Equity",
+  "issuer": "Roundhill Financial Inc.",
+  "asset_class": "equity",
+  "is_thematic": true,
+  "active": true,
+  "product_status": "active",
+  "management_style": "active",
+  "inception_date": "2026-08-06",
+  "first_seen_at": "2026-08-25",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Roundhill Photonics & Optics ETF",
+  "short_name_en": "LYTE",
+  "name_zh": "Roundhill 光子與光學 ETF",
+  "short_name_zh": null,
+  "display_name": "Roundhill 光子與光學 ETF",
+  "display_short_name": "Roundhill 光子與光學 ETF",
+  "display_label": "(LYTE)Roundhill 光子與光學 ETF",
+  "bilingual_name": "Roundhill Photonics & Optics ETF（Roundhill 光子與光學 ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "active"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "theme",
+      "code": "photonics_optics"
+    }
+  ],
+  "metrics": {},
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-08-24",
+    "value": 23.88,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-08-06",
+      "value": 100.0
+    },
+    {
+      "date": "2026-08-07",
+      "value": 104.06
+    },
+    {
+      "date": "2026-08-10",
+      "value": 95.22
+    },
+    {
+      "date": "2026-08-11",
+      "value": 97.4
+    },
+    {
+      "date": "2026-08-12",
+      "value": 106.16
+    },
+    {
+      "date": "2026-08-13",
+      "value": 103.24
+    },
+    {
+      "date": "2026-08-14",
+      "value": 106.2
+    },
+    {
+      "date": "2026-08-17",
+      "value": 112.43
+    },
+    {
+      "date": "2026-08-18",
+      "value": 103.12
+    },
+    {
+      "date": "2026-08-19",
+      "value": 97.87
+    },
+    {
+      "date": "2026-08-20",
+      "value": 99.64
+    },
+    {
+      "date": "2026-08-21",
+      "value": 100.71
+    },
+    {
+      "date": "2026-08-24",
+      "value": 94.24
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-08-06",
+    "last_date": "2026-08-24",
+    "observations": 13,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-08-24",
+    "latest_volume": 3423500.0,
+    "average_volume_20d": 3316223.0769,
+    "average_dollar_volume_20d": 86010729.3745,
+    "relative_volume_20d": 1.0323,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 13
+  },
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}
