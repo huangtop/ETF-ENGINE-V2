@@ -85,10 +85,16 @@ def classify_entity(entity: dict, rows: list, seen: set) -> None:
     else:
         if ticker == "VT":
             geography = "global"
-        elif ticker == "VEA":
+        elif ticker in {"VEA", "IEFA", "EFA", "SCHF"} or contains(
+            text, "developed ex us", "eafe"
+        ):
             geography = "developed_ex_us"
-        elif ticker == "VWO":
+        elif ticker in {"VWO", "IEMG"} or contains(text, "emerging market"):
             geography = "emerging_markets"
+        elif ticker in {"VXUS", "IXUS", "VEU"} or contains(
+            text, "ex-us", "ex us", "ex usa"
+        ):
+            geography = "global_ex_us"
         elif contains(text, "global"):
             geography = "global"
         else:
@@ -157,6 +163,7 @@ def classify_entity(entity: dict, rows: list, seen: set) -> None:
         "space": ("太空", "space"),
         "quantum_computing": ("量子", "quantum"),
         "infrastructure": ("基礎建設", "infrastructure"),
+        "photonics_optics": ("photonics", "optics", "optical"),
     }
     for code, terms in themes.items():
         if contains(text, *terms):
