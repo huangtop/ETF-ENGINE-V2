@@ -1571,7 +1571,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-0060",
@@ -1617,7 +1617,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-0061",
@@ -4315,7 +4315,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00650L",
@@ -5208,7 +5208,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00660",
@@ -5919,7 +5919,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00668",
@@ -6440,7 +6440,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00673R",
@@ -8220,7 +8220,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00692",
@@ -8828,7 +8828,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00699R",
@@ -8878,7 +8878,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00700",
@@ -9324,7 +9324,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00705R",
@@ -9378,7 +9378,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00706L",
@@ -10398,7 +10398,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00717",
@@ -11378,7 +11378,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00730",
@@ -11642,7 +11642,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00733",
@@ -14581,7 +14581,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00775B",
@@ -14718,7 +14718,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-00777B",
@@ -16331,7 +16331,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-0081",
@@ -16377,7 +16377,7 @@
     ],
     "metrics": {},
     "latest_price": null,
-    "bootstrap_status": "failed"
+    "bootstrap_status": "pending"
   },
   {
     "etf_id": "TW-008201",
@@ -23418,8 +23418,12 @@
         "unit": "ratio"
       },
       "data_years": {
-        "value": 1.8135,
+        "value": 1.754,
         "unit": "years"
+      },
+      "expense_ratio": {
+        "value": 0.68,
+        "unit": "percent"
       },
       "max_drawdown": {
         "value": -28.3551,
