@@ -143,56 +143,340 @@
     "etf_id": "US-PAVE",
     "name_zh": "Global X 美國基礎設施發展 ETF"
   },
-  {"etf_id":"US-AGG","name_zh":"iShares Core 美國綜合債券 ETF"},
-  {"etf_id":"US-ARKK","name_zh":"ARK 創新主動型 ETF"},
-  {"etf_id":"US-BITO","name_zh":"ProShares 比特幣策略 ETF"},
-  {"etf_id":"US-BND","name_zh":"Vanguard 美國整體債券市場 ETF"},
-  {"etf_id":"US-DGRO","name_zh":"iShares Core 股利成長 ETF"},
-  {"etf_id":"US-DIA","name_zh":"SPDR 道瓊工業平均指數 ETF"},
-  {"etf_id":"US-GLD","name_zh":"SPDR 黃金股份 ETF"},
-  {"etf_id":"US-IEF","name_zh":"iShares 7-10年期美國公債 ETF"},
-  {"etf_id":"US-IVV","name_zh":"iShares Core S&P 500 ETF"},
-  {"etf_id":"US-JEPI","name_zh":"JPMorgan 美國股票溢價收益主動型 ETF"},
-  {"etf_id":"US-JEPQ","name_zh":"JPMorgan Nasdaq 股票溢價收益主動型 ETF"},
-  {"etf_id":"US-QQQ","name_zh":"Invesco QQQ ETF"},
-  {"etf_id":"US-SGOV","name_zh":"iShares 0-3個月期美國公債 ETF"},
-  {"etf_id":"US-SPY","name_zh":"SPDR S&P 500 ETF"},
-  {"etf_id":"US-TLT","name_zh":"iShares 20年期以上美國公債 ETF"},
-  {"etf_id":"US-VIG","name_zh":"Vanguard 股利增長 ETF"},
-  {"etf_id":"US-VNQ","name_zh":"Vanguard 房地產 ETF"},
-  {"etf_id":"US-VOO","name_zh":"Vanguard S&P 500 ETF"},
-  {"etf_id":"US-VT","name_zh":"Vanguard 全球股票 ETF"},
-  {"etf_id":"US-VTI","name_zh":"Vanguard 美國整體股票市場 ETF"},
-  {"etf_id":"US-VWO","name_zh":"Vanguard FTSE 新興市場 ETF"},
-  {"etf_id":"US-XLF","name_zh":"金融類股精選 SPDR ETF"},
-  {"etf_id":"US-XLV","name_zh":"醫療保健類股精選 SPDR ETF"},
-  {"etf_id":"US-BOTZ","name_zh":"Global X 機器人與人工智慧 ETF"},
-  {"etf_id":"US-ROBT","name_zh":"First Trust Nasdaq 人工智慧與機器人 ETF"},
-  {"etf_id":"US-AIEQ","name_zh":"AI Powered Equity 主動型 ETF"},
-  {"etf_id":"US-ARKQ","name_zh":"ARK 自主科技與機器人主動型 ETF"},
-  {"etf_id":"US-SKYY","name_zh":"First Trust 雲端運算 ETF"},
-  {"etf_id":"US-CLOU","name_zh":"Global X 雲端運算 ETF"},
-  {"etf_id":"US-WCLD","name_zh":"WisdomTree 雲端運算 ETF"},
-  {"etf_id":"US-IGV","name_zh":"iShares 擴展科技軟體類股 ETF"},
-  {"etf_id":"US-BUG","name_zh":"Global X 網路安全 ETF"},
-  {"etf_id":"US-IHAK","name_zh":"iShares 網路安全與科技 ETF"},
-  {"etf_id":"US-SRVR","name_zh":"Pacer 資料與基礎設施不動產 ETF"},
-  {"etf_id":"US-IDRV","name_zh":"iShares 自動駕駛電動車與科技 ETF"},
-  {"etf_id":"US-KARS","name_zh":"KraneShares 電動車與未來移動 ETF"},
-  {"etf_id":"US-IFRA","name_zh":"iShares 美國基礎設施 ETF"},
-  {"etf_id":"US-NLR","name_zh":"VanEck 鈾礦與核能 ETF"},
-  {"etf_id":"US-URA","name_zh":"Global X 鈾礦 ETF"},
-  {"etf_id":"US-URNM","name_zh":"Sprott 鈾礦商 ETF"},
-  {"etf_id":"US-ARKX","name_zh":"ARK 太空探索與創新主動型 ETF"},
-  {"etf_id":"US-MAGS","name_zh":"Roundhill 科技七巨頭 ETF"},
-  {"etf_id":"US-SLV","name_zh":"iShares 白銀信託"},
-  {"etf_id":"US-XBI","name_zh":"SPDR S&P 生技 ETF"},
-  {"etf_id":"US-IBB","name_zh":"iShares 生技 ETF"},
-  {"etf_id":"US-ARKG","name_zh":"ARK 基因革命主動型 ETF"},
-  {"etf_id":"US-MUU","name_zh":"Direxion 每日 MU 2倍做多 ETF"},
-  {"etf_id":"US-MUD","name_zh":"Direxion 每日 MU 1倍反向 ETF"},
-  {"etf_id":"US-MULL","name_zh":"GraniteShares 每日 MU 2倍做多 ETF"},
-  {"etf_id":"US-MUZ","name_zh":"Defiance 每日 MU 2倍做空 ETF"},
-  {"etf_id":"US-SNXX","name_zh":"Tradr 每日 SNDK 2倍做多 ETF"},
-  {"etf_id":"US-SNDQ","name_zh":"Tradr 每日 SNDK 2倍做空 ETF"}
+  {
+    "etf_id": "US-AGG",
+    "name_zh": "iShares Core 美國綜合債券 ETF"
+  },
+  {
+    "etf_id": "US-ARKK",
+    "name_zh": "ARK 創新主動型 ETF"
+  },
+  {
+    "etf_id": "US-BITO",
+    "name_zh": "ProShares 比特幣策略 ETF"
+  },
+  {
+    "etf_id": "US-BND",
+    "name_zh": "Vanguard 美國整體債券市場 ETF"
+  },
+  {
+    "etf_id": "US-DGRO",
+    "name_zh": "iShares Core 股利成長 ETF"
+  },
+  {
+    "etf_id": "US-DIA",
+    "name_zh": "SPDR 道瓊工業平均指數 ETF"
+  },
+  {
+    "etf_id": "US-GLD",
+    "name_zh": "SPDR 黃金股份 ETF"
+  },
+  {
+    "etf_id": "US-IEF",
+    "name_zh": "iShares 7-10年期美國公債 ETF"
+  },
+  {
+    "etf_id": "US-IVV",
+    "name_zh": "iShares Core S&P 500 ETF"
+  },
+  {
+    "etf_id": "US-JEPI",
+    "name_zh": "JPMorgan 美國股票溢價收益主動型 ETF"
+  },
+  {
+    "etf_id": "US-JEPQ",
+    "name_zh": "JPMorgan Nasdaq 股票溢價收益主動型 ETF"
+  },
+  {
+    "etf_id": "US-QQQ",
+    "name_zh": "Invesco QQQ ETF"
+  },
+  {
+    "etf_id": "US-SGOV",
+    "name_zh": "iShares 0-3個月期美國公債 ETF"
+  },
+  {
+    "etf_id": "US-SPY",
+    "name_zh": "SPDR S&P 500 ETF"
+  },
+  {
+    "etf_id": "US-TLT",
+    "name_zh": "iShares 20年期以上美國公債 ETF"
+  },
+  {
+    "etf_id": "US-VIG",
+    "name_zh": "Vanguard 股利增長 ETF"
+  },
+  {
+    "etf_id": "US-VNQ",
+    "name_zh": "Vanguard 房地產 ETF"
+  },
+  {
+    "etf_id": "US-VOO",
+    "name_zh": "Vanguard S&P 500 ETF"
+  },
+  {
+    "etf_id": "US-VT",
+    "name_zh": "Vanguard 全球股票 ETF"
+  },
+  {
+    "etf_id": "US-VTI",
+    "name_zh": "Vanguard 美國整體股票市場 ETF"
+  },
+  {
+    "etf_id": "US-VWO",
+    "name_zh": "Vanguard FTSE 新興市場 ETF"
+  },
+  {
+    "etf_id": "US-XLF",
+    "name_zh": "金融類股精選 SPDR ETF"
+  },
+  {
+    "etf_id": "US-XLV",
+    "name_zh": "醫療保健類股精選 SPDR ETF"
+  },
+  {
+    "etf_id": "US-BOTZ",
+    "name_zh": "Global X 機器人與人工智慧 ETF"
+  },
+  {
+    "etf_id": "US-ROBT",
+    "name_zh": "First Trust Nasdaq 人工智慧與機器人 ETF"
+  },
+  {
+    "etf_id": "US-AIEQ",
+    "name_zh": "AI Powered Equity 主動型 ETF"
+  },
+  {
+    "etf_id": "US-ARKQ",
+    "name_zh": "ARK 自主科技與機器人主動型 ETF"
+  },
+  {
+    "etf_id": "US-SKYY",
+    "name_zh": "First Trust 雲端運算 ETF"
+  },
+  {
+    "etf_id": "US-CLOU",
+    "name_zh": "Global X 雲端運算 ETF"
+  },
+  {
+    "etf_id": "US-WCLD",
+    "name_zh": "WisdomTree 雲端運算 ETF"
+  },
+  {
+    "etf_id": "US-IGV",
+    "name_zh": "iShares 擴展科技軟體類股 ETF"
+  },
+  {
+    "etf_id": "US-BUG",
+    "name_zh": "Global X 網路安全 ETF"
+  },
+  {
+    "etf_id": "US-IHAK",
+    "name_zh": "iShares 網路安全與科技 ETF"
+  },
+  {
+    "etf_id": "US-SRVR",
+    "name_zh": "Pacer 資料與基礎設施不動產 ETF"
+  },
+  {
+    "etf_id": "US-IDRV",
+    "name_zh": "iShares 自動駕駛電動車與科技 ETF"
+  },
+  {
+    "etf_id": "US-KARS",
+    "name_zh": "KraneShares 電動車與未來移動 ETF"
+  },
+  {
+    "etf_id": "US-IFRA",
+    "name_zh": "iShares 美國基礎設施 ETF"
+  },
+  {
+    "etf_id": "US-NLR",
+    "name_zh": "VanEck 鈾礦與核能 ETF"
+  },
+  {
+    "etf_id": "US-URA",
+    "name_zh": "Global X 鈾礦 ETF"
+  },
+  {
+    "etf_id": "US-URNM",
+    "name_zh": "Sprott 鈾礦商 ETF"
+  },
+  {
+    "etf_id": "US-ARKX",
+    "name_zh": "ARK 太空探索與創新主動型 ETF"
+  },
+  {
+    "etf_id": "US-MAGS",
+    "name_zh": "Roundhill 科技七巨頭 ETF"
+  },
+  {
+    "etf_id": "US-SLV",
+    "name_zh": "iShares 白銀信託"
+  },
+  {
+    "etf_id": "US-XBI",
+    "name_zh": "SPDR S&P 生技 ETF"
+  },
+  {
+    "etf_id": "US-IBB",
+    "name_zh": "iShares 生技 ETF"
+  },
+  {
+    "etf_id": "US-ARKG",
+    "name_zh": "ARK 基因革命主動型 ETF"
+  },
+  {
+    "etf_id": "US-MUU",
+    "name_zh": "Direxion 每日 MU 2倍做多 ETF"
+  },
+  {
+    "etf_id": "US-MUD",
+    "name_zh": "Direxion 每日 MU 1倍反向 ETF"
+  },
+  {
+    "etf_id": "US-MULL",
+    "name_zh": "GraniteShares 每日 MU 2倍做多 ETF"
+  },
+  {
+    "etf_id": "US-MUZ",
+    "name_zh": "Defiance 每日 MU 2倍做空 ETF"
+  },
+  {
+    "etf_id": "US-SNXX",
+    "name_zh": "Tradr 每日 SNDK 2倍做多 ETF"
+  },
+  {
+    "etf_id": "US-SNDQ",
+    "name_zh": "Tradr 每日 SNDK 2倍做空 ETF"
+  },
+  {
+    "etf_id": "US-VXUS",
+    "name_zh": "Vanguard 全球（美國除外）股票 ETF"
+  },
+  {
+    "etf_id": "US-ITOT",
+    "name_zh": "iShares 核心標普美國全市場股票 ETF"
+  },
+  {
+    "etf_id": "US-QQQM",
+    "name_zh": "景順 NASDAQ 100 ETF"
+  },
+  {
+    "etf_id": "US-RSP",
+    "name_zh": "景順標普 500 等權重 ETF"
+  },
+  {
+    "etf_id": "US-VUG",
+    "name_zh": "Vanguard 美國大型成長股 ETF"
+  },
+  {
+    "etf_id": "US-VTV",
+    "name_zh": "Vanguard 美國大型價值股 ETF"
+  },
+  {
+    "etf_id": "US-IWF",
+    "name_zh": "iShares 羅素 1000 成長股 ETF"
+  },
+  {
+    "etf_id": "US-IWD",
+    "name_zh": "iShares 羅素 1000 價值股 ETF"
+  },
+  {
+    "etf_id": "US-SCHG",
+    "name_zh": "Schwab 美國大型成長股 ETF"
+  },
+  {
+    "etf_id": "US-VO",
+    "name_zh": "Vanguard 美國中型股 ETF"
+  },
+  {
+    "etf_id": "US-VB",
+    "name_zh": "Vanguard 美國小型股 ETF"
+  },
+  {
+    "etf_id": "US-IJH",
+    "name_zh": "iShares 核心標普中型股 ETF"
+  },
+  {
+    "etf_id": "US-IJR",
+    "name_zh": "iShares 核心標普小型股 ETF"
+  },
+  {
+    "etf_id": "US-IEFA",
+    "name_zh": "iShares 核心 MSCI EAFE ETF"
+  },
+  {
+    "etf_id": "US-IEMG",
+    "name_zh": "iShares 核心 MSCI 新興市場 ETF"
+  },
+  {
+    "etf_id": "US-EFA",
+    "name_zh": "iShares MSCI EAFE ETF"
+  },
+  {
+    "etf_id": "US-IXUS",
+    "name_zh": "iShares 核心 MSCI 全球（美國除外）股票 ETF"
+  },
+  {
+    "etf_id": "US-SCHF",
+    "name_zh": "Schwab 國際股票 ETF"
+  },
+  {
+    "etf_id": "US-BNDX",
+    "name_zh": "Vanguard 全球（美國除外）債券 ETF"
+  },
+  {
+    "etf_id": "US-VCIT",
+    "name_zh": "Vanguard 美國中期公司債券 ETF"
+  },
+  {
+    "etf_id": "US-VGT",
+    "name_zh": "Vanguard 美國資訊科技 ETF"
+  },
+  {
+    "etf_id": "US-IAU",
+    "name_zh": "iShares 黃金信託"
+  },
+  {
+    "etf_id": "US-VYM",
+    "name_zh": "Vanguard 美國高股息 ETF"
+  },
+  {
+    "etf_id": "US-SPYM",
+    "name_zh": "State Street SPDR 投資組合標普 500 ETF"
+  },
+  {
+    "etf_id": "US-SPLG",
+    "name_zh": "SPDR 投資組合標普 500 ETF"
+  },
+  {
+    "etf_id": "US-SCHX",
+    "name_zh": "Schwab 美國大型股 ETF"
+  },
+  {
+    "etf_id": "US-VV",
+    "name_zh": "Vanguard 美國大型股 ETF"
+  },
+  {
+    "etf_id": "US-VEU",
+    "name_zh": "Vanguard 富時全球（美國除外）ETF"
+  },
+  {
+    "etf_id": "US-VXF",
+    "name_zh": "Vanguard 美國延伸市場 ETF"
+  },
+  {
+    "etf_id": "US-VBR",
+    "name_zh": "Vanguard 美國小型價值股 ETF"
+  },
+  {
+    "etf_id": "US-IVW",
+    "name_zh": "iShares 標普 500 成長股 ETF"
+  },
+  {
+    "etf_id": "US-LYTE",
+    "name_zh": "Roundhill 光子與光學 ETF"
+  }
 ]

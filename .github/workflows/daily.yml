@@ -31,6 +31,10 @@ jobs:
           key: etf-normalized-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             etf-normalized-${{ runner.os }}-
+      - name: Discover and enroll newly listed US ETFs
+        run: |
+          python -m etf_engine.cli sync-us-entities --apply-new
+          python -m etf_engine.cli build-classifications
       - run: python -m etf_engine.cli validate
       - name: Run bounded ETF pipeline
         env:
@@ -49,7 +53,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/public data/history/holdings data/normalized/metrics data/state
+          git add data/public data/history/holdings data/normalized/metrics data/seed data/state
           if git diff --cached --quiet; then
             echo "No data changes"
           else

@@ -90,7 +90,16 @@ def test_research_profiles_reference_existing_us_universe():
         "US-XLV",
         "US-XSD",
     }
-    assert len(us_ids) == 88
+    requested_expansion = {
+        "US-VXUS", "US-ITOT", "US-QQQM", "US-RSP", "US-VUG", "US-VTV",
+        "US-IWF", "US-IWD", "US-SCHG", "US-VO", "US-VB", "US-IJH",
+        "US-IJR", "US-IEFA", "US-IEMG", "US-EFA", "US-IXUS", "US-SCHF",
+        "US-BNDX", "US-VCIT", "US-VGT", "US-IAU", "US-VYM", "US-SPYM",
+        "US-SPLG", "US-SCHX", "US-VV", "US-VEU", "US-VXF", "US-VBR",
+        "US-IVW", "US-LYTE",
+    }
+    assert original_ids <= us_ids
+    assert requested_expansion <= us_ids
     assert original_ids <= us_ids
     assert len({row["etf_id"] for row in profiles}) == len(profiles)
     assert {row["etf_id"] for row in profiles} <= us_ids
