@@ -41,7 +41,6 @@ def test_research_profiles_reference_existing_us_universe():
         "US-IDRV",
         "US-IEF",
         "US-IFRA",
-        "US-IGN",
         "US-IGPT",
         "US-IGV",
         "US-IHAK",

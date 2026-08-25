@@ -495,6 +495,13 @@ def _render_public(
     write_json(target_dir / "etfs.json", payload)
     write_json(target_dir / "classifications.json", classifications)
     write_json(target_dir / "latest_metrics.json", public_metrics)
+    retired_entities_path = settings.seed_dir / "retired_entities.json"
+    write_json(
+        target_dir / "retired_entities.json",
+        json.loads(retired_entities_path.read_text(encoding="utf-8"))
+        if retired_entities_path.exists()
+        else [],
+    )
 
     for market in ("TW", "US"):
         market_items = [item for item in payload if item["listing_market"] == market]

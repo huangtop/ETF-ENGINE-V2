@@ -235,15 +235,33 @@ def validate_candidate(
 ) -> ReleaseValidation:
     baseline = _items_by_id(baseline_dir)
     candidate = _items_by_id(candidate_dir)
-    baseline_counts = _counts(baseline)
     candidate_counts = _counts(candidate)
     errors = _validate_internal_consistency(candidate_dir, candidate)
     errors.extend(_validate_holdings_history(baseline, candidate, history_dir))
+    approved_removals: set[str] = set()
 
     if baseline and set(candidate) != set(baseline):
         removed = sorted(set(baseline) - set(candidate))
-        if removed:
-            errors.append(f"ETF identities removed without lifecycle transition: {removed[:5]}")
+        retirement_rows = _read_json(candidate_dir / "retired_entities.json", [])
+        approved_removals = {
+            row.get("etf_id")
+            for row in retirement_rows
+            if isinstance(row, dict)
+            and row.get("reason") == "delisted"
+            and row.get("removed_from_universe_at")
+        }
+        unapproved = sorted(set(removed) - approved_removals)
+        if unapproved:
+            errors.append(
+                f"ETF identities removed without lifecycle transition: {unapproved[:5]}"
+            )
+
+    retained_baseline = {
+        etf_id: item
+        for etf_id, item in baseline.items()
+        if etf_id not in approved_removals
+    }
+    baseline_counts = _counts(retained_baseline)
 
     for etf_id in sorted(set(baseline) & set(candidate)):
         previous = baseline[etf_id]

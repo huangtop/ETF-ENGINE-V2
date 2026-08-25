@@ -119,6 +119,39 @@ def test_rejects_cross_file_inconsistency(tmp_path):
     assert "latest_metrics.json does not match ETF metrics" in validation.errors
 
 
+def test_allows_explicitly_recorded_delisted_entity_removal(tmp_path):
+    baseline = tmp_path / "public"
+    candidate = tmp_path / "candidate"
+    dataset(baseline, [item(), item("US-IGN")])
+    dataset(candidate, [item()])
+    write_json(
+        candidate / "retired_entities.json",
+        [
+            {
+                "etf_id": "US-IGN",
+                "reason": "delisted",
+                "removed_from_universe_at": "2026-08-25",
+            }
+        ],
+    )
+
+    validation = validate_candidate(baseline, candidate)
+
+    assert validation.passed
+
+
+def test_rejects_entity_removal_without_delisted_record(tmp_path):
+    baseline = tmp_path / "public"
+    candidate = tmp_path / "candidate"
+    dataset(baseline, [item(), item("US-IGN")])
+    dataset(candidate, [item()])
+
+    validation = validate_candidate(baseline, candidate)
+
+    assert not validation.passed
+    assert any("US-IGN" in error for error in validation.errors)
+
+
 def test_unchanged_holding_cannot_lose_provider_date(tmp_path):
     baseline = tmp_path / "public"
     candidate = tmp_path / "candidate"
