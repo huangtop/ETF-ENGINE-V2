@@ -8,6 +8,7 @@ from etf_engine.services.data_audit import audit_price_caches
 from etf_engine.services.public_builder import build_public
 from etf_engine.services.sync_holdings import sync as sync_holdings
 from etf_engine.services.sync_tw_entities import sync as sync_tw_entities
+from etf_engine.services.sync_us_entities import sync as sync_us_entities
 from etf_engine.validation import validate as validate_seed
 from etf_engine.repository import SeedRepository
 
@@ -52,6 +53,17 @@ def public():
 @app.command("sync-tw-entities")
 def sync_tw(minimum_tw_count: int = 200):
     result = sync_tw_entities(minimum_tw_count=minimum_tw_count)
+    typer.echo(json.dumps(result, ensure_ascii=False, indent=2))
+
+
+@app.command("sync-us-entities")
+def sync_us(
+    apply_new: bool = typer.Option(
+        False,
+        help="Automatically enroll ETFs first seen after the previous official snapshot",
+    ),
+):
+    result = sync_us_entities(apply_new=apply_new)
     typer.echo(json.dumps(result, ensure_ascii=False, indent=2))
 
 
