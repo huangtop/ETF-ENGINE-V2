@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -5.6617,
+      "value": -6.9519,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 0.5688,
+      "value": -0.681,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.3135,
+      "value": 13.3511,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0968,
+      "value": 0.0971,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9325,
+      "value": 2.9365,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.0699,
+      "value": -0.1634,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 0.5688,
+      "value": -0.681,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.8499,
+      "value": 28.8585,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-26",
-    "value": 8.84,
+    "date": "2026-08-27",
+    "value": 8.75,
     "currency": "TWD"
   },
   "trend": [
@@ -3109,21 +3109,25 @@
     {
       "date": "2026-08-26",
       "value": 85.83
+    },
+    {
+      "date": "2026-08-27",
+      "value": 84.95
     }
   ],
   "price_history": {
     "first_date": "2023-07-24",
-    "last_date": "2026-08-26",
-    "observations": 753,
+    "last_date": "2026-08-27",
+    "observations": 754,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-26",
-    "latest_volume": 20739884.0,
-    "average_volume_20d": 13759762.65,
-    "average_dollar_volume_20d": 121823006.716,
-    "relative_volume_20d": 1.5073,
+    "as_of": "2026-08-27",
+    "latest_volume": 64204248.0,
+    "average_volume_20d": 16031017.75,
+    "average_dollar_volume_20d": 141555645.246,
+    "relative_volume_20d": 4.005,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3229,7 +3233,7 @@
     },
     {
       "etf_id": "TW-00712",
-      "holding_symbol": "TWO",
+      "holding_symbol": "2H2.DE",
       "holding_name": "Two Harbors Investment Corp",
       "weight": 0.0248003,
       "as_of": null,
@@ -3238,7 +3242,7 @@
       "holding_name_en": "Two Harbors Investment Corp",
       "holding_name_zh": null,
       "display_name": "Two Harbors Investment Corp",
-      "display_label": "(TWO)Two Harbors Investment Corp",
+      "display_label": "(2H2.DE)Two Harbors Investment Corp",
       "bilingual_name": "Two Harbors Investment Corp"
     },
     {

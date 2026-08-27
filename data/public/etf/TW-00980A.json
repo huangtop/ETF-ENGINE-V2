@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 4.4977,
+      "value": 4.1947,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 105.1723,
+      "value": 104.9935,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 33.6651,
+      "value": 33.2019,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0017,
+      "value": 1.0005,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.3175,
+      "value": 1.3214,
       "unit": "years"
     },
     "expense_ratio": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.0795,
+      "value": 3.1171,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 105.1723,
+      "value": 104.9935,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 17.9903,
+      "value": 17.1602,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-26",
-    "value": 24.52,
+    "date": "2026-08-27",
+    "value": 24.71,
     "currency": "TWD"
   },
   "trend": [
@@ -1372,15 +1372,15 @@
     },
     {
       "date": "2026-08-07",
-      "value": 251.46
+      "value": 245.2
     },
     {
       "date": "2026-08-10",
-      "value": 257.01
+      "value": 250.61
     },
     {
       "date": "2026-08-11",
-      "value": 259.14
+      "value": 252.69
     },
     {
       "date": "2026-08-12",
@@ -1396,7 +1396,7 @@
     },
     {
       "date": "2026-08-17",
-      "value": 273.33
+      "value": 266.52
     },
     {
       "date": "2026-08-18",
@@ -1425,21 +1425,25 @@
     {
       "date": "2026-08-26",
       "value": 261.59
+    },
+    {
+      "date": "2026-08-27",
+      "value": 263.62
     }
   ],
   "price_history": {
     "first_date": "2025-04-22",
-    "last_date": "2026-08-26",
-    "observations": 332,
+    "last_date": "2026-08-27",
+    "observations": 333,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-26",
-    "latest_volume": 10232634.0,
-    "average_volume_20d": 18269104.1,
-    "average_dollar_volume_20d": 418461670.2432,
-    "relative_volume_20d": 0.5601,
+    "as_of": "2026-08-27",
+    "latest_volume": 6767423.0,
+    "average_volume_20d": 16896858.15,
+    "average_dollar_volume_20d": 392334691.362,
+    "relative_volume_20d": 0.4005,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1449,8 +1453,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "2330.TW",
       "holding_name": "台灣積體電路製造",
-      "weight": 0.0897,
-      "as_of": "2026-08-26",
+      "weight": 0.0894,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 1,
       "holding_name_en": "台灣積體電路製造",
@@ -1463,8 +1467,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "2059.TW",
       "holding_name": "川湖科技",
-      "weight": 0.0572,
-      "as_of": "2026-08-26",
+      "weight": 0.0565,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 2,
       "holding_name_en": "川湖科技",
@@ -1477,8 +1481,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "2454.TW",
       "holding_name": "聯發科技",
-      "weight": 0.0484,
-      "as_of": "2026-08-26",
+      "weight": 0.0474,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 3,
       "holding_name_en": "聯發科技",
@@ -1489,26 +1493,12 @@
     },
     {
       "etf_id": "TW-00980A",
-      "holding_symbol": "2383.TW",
-      "holding_name": "台光電子材料",
-      "weight": 0.0395,
-      "as_of": "2026-08-26",
-      "source": "nomura",
-      "rank": 4,
-      "holding_name_en": "台光電子材料",
-      "holding_name_zh": "台光電",
-      "display_name": "台光電",
-      "display_label": "(2383.TW)台光電",
-      "bilingual_name": "台光電子材料（台光電）"
-    },
-    {
-      "etf_id": "TW-00980A",
       "holding_symbol": "3081.TWO",
       "holding_name": "聯亞光電工業",
-      "weight": 0.0367,
-      "as_of": "2026-08-26",
+      "weight": 0.038,
+      "as_of": "2026-08-27",
       "source": "nomura",
-      "rank": 5,
+      "rank": 4,
       "holding_name_en": "聯亞光電工業",
       "holding_name_zh": "聯亞",
       "display_name": "聯亞",
@@ -1517,10 +1507,24 @@
     },
     {
       "etf_id": "TW-00980A",
+      "holding_symbol": "2383.TW",
+      "holding_name": "台光電子材料",
+      "weight": 0.0369,
+      "as_of": "2026-08-27",
+      "source": "nomura",
+      "rank": 5,
+      "holding_name_en": "台光電子材料",
+      "holding_name_zh": "台光電",
+      "display_name": "台光電",
+      "display_label": "(2383.TW)台光電",
+      "bilingual_name": "台光電子材料（台光電）"
+    },
+    {
+      "etf_id": "TW-00980A",
       "holding_symbol": "2308.TW",
       "holding_name": "台達電子工業",
-      "weight": 0.0349,
-      "as_of": "2026-08-26",
+      "weight": 0.0352,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 6,
       "holding_name_en": "台達電子工業",
@@ -1533,8 +1537,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "3037.TW",
       "holding_name": "欣興電子",
-      "weight": 0.0322,
-      "as_of": "2026-08-26",
+      "weight": 0.0327,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 7,
       "holding_name_en": "欣興電子",
@@ -1547,8 +1551,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "2408.TW",
       "holding_name": "南亞科技",
-      "weight": 0.0279,
-      "as_of": "2026-08-26",
+      "weight": 0.0292,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 8,
       "holding_name_en": "南亞科技",
@@ -1561,8 +1565,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "1303.TW",
       "holding_name": "南亞塑膠工業",
-      "weight": 0.0247,
-      "as_of": "2026-08-26",
+      "weight": 0.0271,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 9,
       "holding_name_en": "南亞塑膠工業",
@@ -1575,8 +1579,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "2317.TW",
       "holding_name": "鴻海精密工業",
-      "weight": 0.0233,
-      "as_of": "2026-08-26",
+      "weight": 0.0239,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 10,
       "holding_name_en": "鴻海精密工業",
@@ -1590,7 +1594,7 @@
       "holding_symbol": "7769.TW",
       "holding_name": "鴻勁精密",
       "weight": 0.0228,
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 11,
       "holding_name_en": "鴻勁精密",
@@ -1603,8 +1607,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "3017.TW",
       "holding_name": "奇鋐科技",
-      "weight": 0.0208,
-      "as_of": "2026-08-26",
+      "weight": 0.0221,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 12,
       "holding_name_en": "奇鋐科技",
@@ -1615,26 +1619,12 @@
     },
     {
       "etf_id": "TW-00980A",
-      "holding_symbol": "8299.TWO",
-      "holding_name": "群聯電子",
-      "weight": 0.0206,
-      "as_of": "2026-08-26",
-      "source": "nomura",
-      "rank": 13,
-      "holding_name_en": "群聯電子",
-      "holding_name_zh": "群聯",
-      "display_name": "群聯",
-      "display_label": "(8299.TWO)群聯",
-      "bilingual_name": "群聯電子（群聯）"
-    },
-    {
-      "etf_id": "TW-00980A",
       "holding_symbol": "2344.TW",
       "holding_name": "華邦電子",
-      "weight": 0.0205,
-      "as_of": "2026-08-26",
+      "weight": 0.021,
+      "as_of": "2026-08-27",
       "source": "nomura",
-      "rank": 14,
+      "rank": 13,
       "holding_name_en": "華邦電子",
       "holding_name_zh": "華邦電",
       "display_name": "華邦電",
@@ -1643,10 +1633,24 @@
     },
     {
       "etf_id": "TW-00980A",
+      "holding_symbol": "8299.TWO",
+      "holding_name": "群聯電子",
+      "weight": 0.0209,
+      "as_of": "2026-08-27",
+      "source": "nomura",
+      "rank": 14,
+      "holding_name_en": "群聯電子",
+      "holding_name_zh": "群聯",
+      "display_name": "群聯",
+      "display_label": "(8299.TWO)群聯",
+      "bilingual_name": "群聯電子（群聯）"
+    },
+    {
+      "etf_id": "TW-00980A",
       "holding_symbol": "2368.TW",
       "holding_name": "金像電子（股）公司",
-      "weight": 0.0202,
-      "as_of": "2026-08-26",
+      "weight": 0.0199,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 15,
       "holding_name_en": "金像電子（股）公司",
@@ -1659,8 +1663,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "3653.TW",
       "holding_name": "健策精密工業",
-      "weight": 0.0195,
-      "as_of": "2026-08-26",
+      "weight": 0.0192,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 16,
       "holding_name_en": "健策精密工業",
@@ -1673,8 +1677,8 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "6223.TWO",
       "holding_name": "旺矽科技",
-      "weight": 0.0179,
-      "as_of": "2026-08-26",
+      "weight": 0.0181,
+      "as_of": "2026-08-27",
       "source": "nomura",
       "rank": 17,
       "holding_name_en": "旺矽科技",
@@ -1685,26 +1689,12 @@
     },
     {
       "etf_id": "TW-00980A",
-      "holding_symbol": "3443.TW",
-      "holding_name": "創意電子",
-      "weight": 0.0178,
-      "as_of": "2026-08-26",
-      "source": "nomura",
-      "rank": 18,
-      "holding_name_en": "創意電子",
-      "holding_name_zh": "創意",
-      "display_name": "創意",
-      "display_label": "(3443.TW)創意",
-      "bilingual_name": "創意電子（創意）"
-    },
-    {
-      "etf_id": "TW-00980A",
       "holding_symbol": "2345.TW",
       "holding_name": "智邦科技",
-      "weight": 0.0176,
-      "as_of": "2026-08-26",
+      "weight": 0.0179,
+      "as_of": "2026-08-27",
       "source": "nomura",
-      "rank": 19,
+      "rank": 18,
       "holding_name_en": "智邦科技",
       "holding_name_zh": "智邦",
       "display_name": "智邦",
@@ -1715,21 +1705,35 @@
       "etf_id": "TW-00980A",
       "holding_symbol": "6669.TW",
       "holding_name": "緯穎科技服務",
-      "weight": 0.0174,
-      "as_of": "2026-08-26",
+      "weight": 0.0175,
+      "as_of": "2026-08-27",
       "source": "nomura",
-      "rank": 20,
+      "rank": 19,
       "holding_name_en": "緯穎科技服務",
       "holding_name_zh": "緯穎",
       "display_name": "緯穎",
       "display_label": "(6669.TW)緯穎",
       "bilingual_name": "緯穎科技服務（緯穎）"
+    },
+    {
+      "etf_id": "TW-00980A",
+      "holding_symbol": "3443.TW",
+      "holding_name": "創意電子",
+      "weight": 0.0172,
+      "as_of": "2026-08-27",
+      "source": "nomura",
+      "rank": 20,
+      "holding_name_en": "創意電子",
+      "holding_name_zh": "創意",
+      "display_name": "創意",
+      "display_label": "(3443.TW)創意",
+      "bilingual_name": "創意電子（創意）"
     }
   ],
   "holdings_summary": {
     "holding_count": 50,
-    "top_10_weight": 0.4145,
-    "top_3_weight": 0.1953
+    "top_10_weight": 0.4163,
+    "top_3_weight": 0.1933
   },
   "research": {
     "tier": "context",
