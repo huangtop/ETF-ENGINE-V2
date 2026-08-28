@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-27T14:14:40.249416Z",
+  "updated_at": "2026-08-28T01:25:19.286540Z",
   "etfs": {
     "TW-00400A": {
       "current": "20260729-29f1f0bdcb1c",
@@ -3021,8 +3021,8 @@
       ]
     },
     "US-URA": {
-      "current": "20260809-97646fc0bd84",
-      "previous": "20260729-e4379c92fab2",
+      "current": "20260828-6ee01c837ba7",
+      "previous": "20260809-97646fc0bd84",
       "snapshots": [
         {
           "snapshot_id": "20260729-e4379c92fab2",
@@ -3035,6 +3035,12 @@
           "observed_at": "2026-08-09T16:34:51.345001Z",
           "content_sha256": "97646fc0bd84c4fc7e359fae0246d9a7b8fd5c1f9c963bb84224c9012a3a597f",
           "path": "snapshots/20260809-97646fc0bd84.json"
+        },
+        {
+          "snapshot_id": "20260828-6ee01c837ba7",
+          "observed_at": "2026-08-28T01:25:18.562841Z",
+          "content_sha256": "6ee01c837ba7d75c2cb26945b076b19ef6c6293ffbae98f24a55fd137bb12ba4",
+          "path": "snapshots/20260828-6ee01c837ba7.json"
         }
       ]
     },
@@ -3489,14 +3495,20 @@
       ]
     },
     "TW-00735": {
-      "current": "20260807-90ac495bd653",
-      "previous": null,
+      "current": "20260828-8f92987fa3c8",
+      "previous": "20260807-90ac495bd653",
       "snapshots": [
         {
           "snapshot_id": "20260807-90ac495bd653",
           "observed_at": "2026-08-07T22:39:09.239397Z",
           "content_sha256": "90ac495bd6537933a66d6f757dc05ad7e30248c217750d763b45c4f1337b1662",
           "path": "snapshots/20260807-90ac495bd653.json"
+        },
+        {
+          "snapshot_id": "20260828-8f92987fa3c8",
+          "observed_at": "2026-08-28T01:25:03.653286Z",
+          "content_sha256": "8f92987fa3c8617d3fad810e43e3154e34b0881eda1e0903d3e1958525b52deb",
+          "path": "snapshots/20260828-8f92987fa3c8.json"
         }
       ]
     },
