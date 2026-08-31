@@ -91,7 +91,7 @@
       "unit": "ratio"
     },
     "data_years": {
-      "value": 3.0317,
+      "value": 3.0198,
       "unit": "years"
     },
     "max_drawdown": {
@@ -3152,10 +3152,10 @@
   },
   "liquidity": {
     "as_of": "2026-08-28",
-    "latest_volume": 47504.0,
-    "average_volume_20d": 105875.2,
-    "average_dollar_volume_20d": 13247507.7887,
-    "relative_volume_20d": 0.4487,
+    "latest_volume": 47500.0,
+    "average_volume_20d": 105875.0,
+    "average_dollar_volume_20d": 13247483.3247,
+    "relative_volume_20d": 0.4486,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3205,12 +3205,26 @@
     },
     {
       "etf_id": "US-ARKQ",
+      "holding_symbol": "SPCX",
+      "holding_name": "Space Exploration Technologies Corp Class A",
+      "weight": 0.0589898,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Space Exploration Technologies Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Space Exploration Technologies Corp Class A",
+      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+      "bilingual_name": "Space Exploration Technologies Corp Class A"
+    },
+    {
+      "etf_id": "US-ARKQ",
       "holding_symbol": "KTOS",
       "holding_name": "Kratos Defense & Security Solutions Inc",
       "weight": 0.0580491,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "Kratos Defense & Security Solutions Inc",
       "holding_name_zh": null,
       "display_name": "Kratos Defense & Security Solutions Inc",
@@ -3224,7 +3238,7 @@
       "weight": 0.0515018,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Alphabet Inc Class C",
       "holding_name_zh": "Alphabet C類股",
       "display_name": "Alphabet C類股",
@@ -3238,7 +3252,7 @@
       "weight": 0.0379326,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 7,
       "holding_name_en": "Amazon.com Inc",
       "holding_name_zh": "亞馬遜",
       "display_name": "亞馬遜",
@@ -3252,7 +3266,7 @@
       "weight": 0.03778,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 8,
       "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
       "holding_name_zh": "Palantir Technologies",
       "display_name": "Palantir Technologies",
@@ -3266,7 +3280,7 @@
       "weight": 0.0361386,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
       "holding_name_zh": "台積電ADR",
       "display_name": "台積電ADR",
@@ -3280,7 +3294,7 @@
       "weight": 0.0335922,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "Rocket Lab Corp",
       "holding_name_zh": null,
       "display_name": "Rocket Lab Corp",
@@ -3289,8 +3303,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.480465,
+    "holding_count": 10,
+    "top_10_weight": 0.539455,
     "top_3_weight": 0.225471
   },
   "research": {
