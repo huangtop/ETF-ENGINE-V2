@@ -59,19 +59,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -12.8615,
+      "value": -13.7422,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 49.0634,
+      "value": 50.2261,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 25.4644,
+      "value": 25.4777,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7661,
+      "value": 0.7652,
       "unit": "ratio"
     },
     "data_years": {
@@ -87,29 +87,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.8678,
+      "value": 1.9125,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 49.0634,
+      "value": 50.2261,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 14.7533,
+      "value": 14.7752,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-08-31",
-    "value": 49.34,
+    "date": "2026-09-01",
+    "value": 49.83,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-07-21",
-      "value": 98.05
-    },
     {
       "date": "2023-07-24",
       "value": 97.59
@@ -3129,21 +3125,25 @@
     {
       "date": "2026-08-31",
       "value": 250.2
+    },
+    {
+      "date": "2026-09-01",
+      "value": 252.69
     }
   ],
   "price_history": {
     "first_date": "2023-07-27",
-    "last_date": "2026-08-31",
-    "observations": 752,
+    "last_date": "2026-09-01",
+    "observations": 753,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-08-31",
-    "latest_volume": 112095.0,
-    "average_volume_20d": 324335.8,
-    "average_dollar_volume_20d": 16251182.2315,
-    "relative_volume_20d": 0.3456,
+    "as_of": "2026-09-01",
+    "latest_volume": 146748.0,
+    "average_volume_20d": 282102.4,
+    "average_dollar_volume_20d": 14175442.9735,
+    "relative_volume_20d": 0.5202,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3263,7 +3263,7 @@
     },
     {
       "etf_id": "TW-00895",
-      "holding_symbol": "402340.KS",
+      "holding_symbol": "402340.KQ",
       "holding_name": "SK Square",
       "weight": 0.0255604,
       "as_of": null,
@@ -3272,7 +3272,7 @@
       "holding_name_en": "SK Square",
       "holding_name_zh": null,
       "display_name": "SK Square",
-      "display_label": "(402340.KS)SK Square",
+      "display_label": "(402340.KQ)SK Square",
       "bilingual_name": "SK Square"
     },
     {
