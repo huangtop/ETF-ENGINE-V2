@@ -63,19 +63,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.41,
+      "value": -1.2971,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 111.975,
+      "value": 113.5623,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 36.8293,
+      "value": 36.7801,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0937,
+      "value": 1.0963,
       "unit": "ratio"
     },
     "data_years": {
@@ -91,29 +91,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.9997,
+      "value": 3.0468,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 111.975,
+      "value": 113.5623,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.7961,
+      "value": 19.7957,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-01",
-    "value": 37.35,
+    "date": "2026-09-02",
+    "value": 36.69,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-07-24",
-      "value": 96.71
-    },
     {
       "date": "2023-07-25",
       "value": 97.23
@@ -3133,21 +3129,25 @@
     {
       "date": "2026-09-01",
       "value": 245.24
+    },
+    {
+      "date": "2026-09-02",
+      "value": 240.91
     }
   ],
   "price_history": {
     "first_date": "2023-07-28",
-    "last_date": "2026-09-01",
-    "observations": 752,
+    "last_date": "2026-09-02",
+    "observations": 753,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-01",
-    "latest_volume": 35882681.0,
-    "average_volume_20d": 12569351.6,
-    "average_dollar_volume_20d": 456428354.1092,
-    "relative_volume_20d": 2.8548,
+    "as_of": "2026-09-02",
+    "latest_volume": 18821196.0,
+    "average_volume_20d": 12654143.25,
+    "average_dollar_volume_20d": 460137878.407,
+    "relative_volume_20d": 1.4874,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20

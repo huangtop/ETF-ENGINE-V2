@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 10.2971,
+      "value": 9.9223,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 3.7157,
+      "value": 3.715,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.045,
+      "value": -0.0443,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.9643,
+      "value": 0.9683,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -2.0902,
+      "value": -2.2829,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 6.4969,
+      "value": 6.2873,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 30.2895,
+      "value": 30.2717,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-01",
-    "value": 10.16,
+    "date": "2026-09-02",
+    "value": 10.14,
     "currency": "TWD"
   },
   "trend": [
@@ -1065,21 +1065,25 @@
     {
       "date": "2026-09-01",
       "value": 106.5
+    },
+    {
+      "date": "2026-09-02",
+      "value": 106.29
     }
   ],
   "price_history": {
     "first_date": "2025-09-02",
-    "last_date": "2026-09-01",
-    "observations": 243,
+    "last_date": "2026-09-02",
+    "observations": 244,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-09-01",
-    "latest_volume": 9216411.0,
-    "average_volume_20d": 6766327.35,
-    "average_dollar_volume_20d": 69344389.7073,
-    "relative_volume_20d": 1.3621,
+    "as_of": "2026-09-02",
+    "latest_volume": 6111827.0,
+    "average_volume_20d": 6741005.35,
+    "average_dollar_volume_20d": 69018132.8025,
+    "relative_volume_20d": 0.9067,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
