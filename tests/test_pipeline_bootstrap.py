@@ -50,7 +50,18 @@ def test_selects_all_cached_and_round_robin_missing():
     assert cursor == "US-B"
 
 
-def test_price_selection_always_includes_active_etf_without_cache():
+def test_priority_policy_includes_all_us_and_only_active_tw_etfs():
+    assert pipeline.is_priority_etf(entity("US-SPY"))
+    assert pipeline.is_priority_etf(
+        entity("US-ACTIVE", management_style="active")
+    )
+    assert pipeline.is_priority_etf(
+        entity("TW-00991A", "TW", management_style="active")
+    )
+    assert not pipeline.is_priority_etf(entity("TW-0050", "TW"))
+
+
+def test_price_selection_always_includes_priority_etf_without_cache():
     entities = [
         entity("TW-0050", "TW"),
         entity("TW-00991A", "TW", management_style="active"),
@@ -114,30 +125,30 @@ def test_price_selection_processes_cached_entities_before_bootstrap():
 
 def test_holdings_selection_keeps_core_daily_and_rotates_non_core():
     entities = [
-        entity("US-SPY"),
-        entity("US-A"),
-        entity("US-B"),
-        entity("US-C"),
+        entity("TW-0050", "TW"),
+        entity("TW-A", "TW"),
+        entity("TW-B", "TW"),
+        entity("TW-C", "TW"),
     ]
 
     selected, rotating, cursor = pipeline.select_holdings_for_run(
         entities,
         rotation_limit=1,
-        cursor="US-A",
+        cursor="TW-A",
     )
 
-    assert [row.etf_id for row in selected] == ["US-SPY", "US-B"]
-    assert [row.etf_id for row in rotating] == ["US-B"]
-    assert cursor == "US-B"
+    assert [row.etf_id for row in selected] == ["TW-0050", "TW-B"]
+    assert [row.etf_id for row in rotating] == ["TW-B"]
+    assert cursor == "TW-B"
 
     selected, rotating, cursor = pipeline.select_holdings_for_run(
         entities,
         rotation_limit=1,
         cursor=cursor,
     )
-    assert [row.etf_id for row in selected] == ["US-SPY", "US-C"]
-    assert [row.etf_id for row in rotating] == ["US-C"]
-    assert cursor == "US-C"
+    assert [row.etf_id for row in selected] == ["TW-0050", "TW-C"]
+    assert [row.etf_id for row in rotating] == ["TW-C"]
+    assert cursor == "TW-C"
 
 
 def test_lyte_is_explicitly_prioritized_for_daily_holdings():
@@ -161,6 +172,20 @@ def test_holdings_selection_keeps_active_etfs_daily_outside_rotation():
     assert [row.etf_id for row in selected] == ["TW-0050", "TW-00991A", "TW-00992"]
     assert [row.etf_id for row in rotating] == ["TW-00992"]
     assert cursor == "TW-00992"
+
+
+def test_holdings_selection_keeps_all_us_etfs_daily_outside_rotation():
+    entities = [entity("US-A"), entity("US-B"), entity("US-C")]
+
+    selected, rotating, cursor = pipeline.select_holdings_for_run(
+        entities,
+        rotation_limit=1,
+        cursor=None,
+    )
+
+    assert [row.etf_id for row in selected] == ["US-A", "US-B", "US-C"]
+    assert rotating == []
+    assert cursor is None
 
 
 def test_merge_metrics_preserves_unprocessed_etfs_and_replaces_current_value():
@@ -282,8 +307,8 @@ def test_pipeline_bounds_uncached_entities_and_records_pending(tmp_path, monkeyp
 
     assert holdings_attempted == ["US-A", "US-B", "US-C"]
     assert state["eligible"] == 3
-    assert state["processed"] == 2
-    assert state["bootstrap_attempted"] == 1
+    assert state["processed"] == 3
+    assert state["bootstrap_attempted"] == 2
     assert state["bootstrap_ready"] == 1
     assert state["bootstrap_pending"] == 2
 
@@ -331,10 +356,10 @@ def test_all_market_bootstrap_splits_quota_between_tw_and_us(tmp_path, monkeypat
     state = pipeline.run("all", bootstrap_limit=2)
 
     assert "TW-A" in attempted and "US-A" in attempted
-    assert "TW-B" not in attempted and "US-B" not in attempted
-    assert state["bootstrap_attempted"] == 2
+    assert "TW-B" in attempted and "US-B" in attempted
+    assert state["bootstrap_attempted"] == 4
     bootstrap = json.loads((fake_settings.state_dir / "bootstrap.json").read_text())
-    assert bootstrap["cursor_by_market"] == {"TW": "TW-A", "US": "US-A"}
+    assert bootstrap["cursor_by_market"] == {"TW": "TW-B", "US": None}
 
 
 def test_bootstrap_only_skips_cached_entities_and_does_not_publish(tmp_path, monkeypatch):
@@ -566,7 +591,7 @@ def test_price_rate_limit_does_not_block_independent_holdings_pipeline(
 
     assert state["price_provider_halted"]
     assert not state["holdings_provider_halted"]
-    assert holdings_attempted == ["US-A", "US-B"]
+    assert holdings_attempted == ["US-A", "US-B", "US-C"]
 
 
 def test_holdings_rate_limit_does_not_erase_successful_price_metrics(

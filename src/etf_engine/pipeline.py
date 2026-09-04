@@ -25,6 +25,13 @@ CORE_DAILY_HOLDINGS_IDS = {
 }
 
 
+def is_priority_etf(entity: ETFEntity) -> bool:
+    """Prioritize every US ETF and Taiwan actively managed ETFs."""
+    return entity.listing_market == "US" or (
+        entity.listing_market == "TW" and entity.management_style == "active"
+    )
+
+
 def select_entities_for_run(
     entities: list[ETFEntity],
     cached_ids: set[str],
@@ -107,10 +114,10 @@ def select_holdings_for_run(
     cursor: str | None,
     core_ids: set[str] | None = None,
 ) -> tuple[list[ETFEntity], list[ETFEntity], str | None]:
-    """Select daily core holdings plus a bounded round-robin non-core group."""
+    """Select priority holdings plus a bounded round-robin non-priority group."""
     core_ids = core_ids or CORE_DAILY_HOLDINGS_IDS
     core_ids = core_ids | {
-        entity.etf_id for entity in entities if entity.management_style == "active"
+        entity.etf_id for entity in entities if is_priority_etf(entity)
     }
     core = [entity for entity in entities if entity.etf_id in core_ids]
     rotating = sorted(
@@ -263,9 +270,7 @@ def run(
         for entity in entities
         if (settings.normalized_dir / "prices" / f"{entity.etf_id}.parquet").exists()
     }
-    priority_price_ids = {
-        entity.etf_id for entity in entities if entity.management_style == "active"
-    }
+    priority_price_ids = {entity.etf_id for entity in entities if is_priority_etf(entity)}
     next_cursors: dict[str, str | None] = {}
     if market == "all" and limit > 0:
         markets = sorted({entity.listing_market for entity in entities})
