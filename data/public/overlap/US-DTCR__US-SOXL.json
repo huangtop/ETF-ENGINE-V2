@@ -1,7 +1,20 @@
 {
   "left_etf_id": "US-DTCR",
   "right_etf_id": "US-SOXL",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.080221,
+  "shared_holdings_count": 2,
+  "shared_holdings": [
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.043062,
+      "right_weight": 0.052477,
+      "overlap_weight": 0.043062
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.037159,
+      "right_weight": 0.057098,
+      "overlap_weight": 0.037159
+    }
+  ]
 }

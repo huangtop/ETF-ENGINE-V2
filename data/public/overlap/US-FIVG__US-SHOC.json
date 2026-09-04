@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-FIVG",
   "right_etf_id": "US-SHOC",
-  "overlap_ratio": 0.15885,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.18415,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.066001,
-      "right_weight": 0.225569,
+      "right_weight": 0.210751,
       "overlap_weight": 0.066001
     },
     {
       "holding_symbol": "AVGO",
       "left_weight": 0.056358,
-      "right_weight": 0.110509,
+      "right_weight": 0.11935,
       "overlap_weight": 0.056358
     },
     {
       "holding_symbol": "AMD",
       "left_weight": 0.036491,
-      "right_weight": 0.048059,
+      "right_weight": 0.049916,
       "overlap_weight": 0.036491
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.0253,
+      "right_weight": 0.035577,
+      "overlap_weight": 0.0253
     }
   ]
 }

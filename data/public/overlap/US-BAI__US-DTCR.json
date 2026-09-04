@@ -1,7 +1,26 @@
 {
   "left_etf_id": "US-BAI",
   "right_etf_id": "US-DTCR",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.122318,
+  "shared_holdings_count": 3,
+  "shared_holdings": [
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.059324,
+      "right_weight": 0.043062,
+      "overlap_weight": 0.043062
+    },
+    {
+      "holding_symbol": "000660.KQ",
+      "left_weight": 0.060122,
+      "right_weight": 0.042097,
+      "overlap_weight": 0.042097
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.052022,
+      "right_weight": 0.037159,
+      "overlap_weight": 0.037159
+    }
+  ]
 }

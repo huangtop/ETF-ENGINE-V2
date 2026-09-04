@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-CARZ",
   "right_etf_id": "US-SHOC",
-  "overlap_ratio": 0.1353,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.166943,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.050507,
-      "right_weight": 0.225569,
-      "overlap_weight": 0.050507
-    },
-    {
-      "holding_symbol": "MU",
-      "left_weight": 0.044853,
-      "right_weight": 0.135727,
-      "overlap_weight": 0.044853
+      "left_weight": 0.046253,
+      "right_weight": 0.210751,
+      "overlap_weight": 0.046253
     },
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.03994,
-      "right_weight": 0.048059,
-      "overlap_weight": 0.03994
+      "left_weight": 0.042694,
+      "right_weight": 0.049916,
+      "overlap_weight": 0.042694
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.042419,
+      "right_weight": 0.119789,
+      "overlap_weight": 0.042419
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.038939,
+      "right_weight": 0.035577,
+      "overlap_weight": 0.035577
     }
   ]
 }

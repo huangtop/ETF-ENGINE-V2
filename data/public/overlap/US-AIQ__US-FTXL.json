@@ -1,14 +1,32 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-FTXL",
-  "overlap_ratio": 0.028842,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.176303,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.069434,
-      "overlap_weight": 0.028842
+      "holding_symbol": "MU",
+      "left_weight": 0.055848,
+      "right_weight": 0.120266,
+      "overlap_weight": 0.055848
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.050646,
+      "right_weight": 0.068731,
+      "overlap_weight": 0.050646
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.03754,
+      "right_weight": 0.113301,
+      "overlap_weight": 0.03754
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.032269,
+      "right_weight": 0.068832,
+      "overlap_weight": 0.032269
     }
   ]
 }

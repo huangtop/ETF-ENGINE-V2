@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-ROBO",
   "right_etf_id": "US-THNQ",
-  "overlap_ratio": 0.016945,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.03361,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "IOT",
       "left_weight": 0.016945,
-      "right_weight": 0.023238,
+      "right_weight": 0.022839,
       "overlap_weight": 0.016945
+    },
+    {
+      "holding_symbol": "AMBA",
+      "left_weight": 0.016665,
+      "right_weight": 0.029185,
+      "overlap_weight": 0.016665
     }
   ]
 }

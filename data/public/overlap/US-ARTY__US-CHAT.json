@@ -1,20 +1,38 @@
 {
   "left_etf_id": "US-ARTY",
   "right_etf_id": "US-CHAT",
-  "overlap_ratio": 0.082675,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.186586,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.049117,
-      "right_weight": 0.072395,
-      "overlap_weight": 0.049117
+      "left_weight": 0.049524,
+      "right_weight": 0.064268,
+      "overlap_weight": 0.049524
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.049486,
+      "right_weight": 0.043104,
+      "overlap_weight": 0.043104
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.048518,
+      "right_weight": 0.033947,
+      "overlap_weight": 0.033947
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.045586,
-      "right_weight": 0.033558,
-      "overlap_weight": 0.033558
+      "left_weight": 0.043397,
+      "right_weight": 0.032226,
+      "overlap_weight": 0.032226
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.033446,
+      "right_weight": 0.027785,
+      "overlap_weight": 0.027785
     }
   ]
 }

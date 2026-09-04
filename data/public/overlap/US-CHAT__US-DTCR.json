@@ -1,7 +1,26 @@
 {
   "left_etf_id": "US-CHAT",
   "right_etf_id": "US-DTCR",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.107984,
+  "shared_holdings_count": 3,
+  "shared_holdings": [
+    {
+      "holding_symbol": "000660.KQ",
+      "left_weight": 0.041811,
+      "right_weight": 0.042097,
+      "overlap_weight": 0.041811
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.033947,
+      "right_weight": 0.037159,
+      "overlap_weight": 0.033947
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.032226,
+      "right_weight": 0.043062,
+      "overlap_weight": 0.032226
+    }
+  ]
 }

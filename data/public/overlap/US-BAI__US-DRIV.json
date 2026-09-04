@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-BAI",
   "right_etf_id": "US-DRIV",
-  "overlap_ratio": 0.031384,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.062356,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.053437,
-      "right_weight": 0.031384,
-      "overlap_weight": 0.031384
+      "left_weight": 0.049825,
+      "right_weight": 0.031486,
+      "overlap_weight": 0.031486
+    },
+    {
+      "holding_symbol": "GOOGL",
+      "left_weight": 0.0372,
+      "right_weight": 0.03087,
+      "overlap_weight": 0.03087
     }
   ]
 }

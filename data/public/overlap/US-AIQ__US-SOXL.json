@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-SOXL",
-  "overlap_ratio": 0.028842,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.135392,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.058843,
-      "overlap_weight": 0.028842
+      "holding_symbol": "MU",
+      "left_weight": 0.055848,
+      "right_weight": 0.052477,
+      "overlap_weight": 0.052477
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.050646,
+      "right_weight": 0.057098,
+      "overlap_weight": 0.050646
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.032269,
+      "right_weight": 0.053927,
+      "overlap_weight": 0.032269
     }
   ]
 }

@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-IGPT",
   "right_etf_id": "US-SHOC",
-  "overlap_ratio": 0.218774,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.256208,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.090176,
-      "right_weight": 0.225569,
+      "right_weight": 0.210751,
       "overlap_weight": 0.090176
     },
     {
       "holding_symbol": "MU",
       "left_weight": 0.080539,
-      "right_weight": 0.135727,
+      "right_weight": 0.119789,
       "overlap_weight": 0.080539
     },
     {
       "holding_symbol": "AMD",
       "left_weight": 0.080647,
-      "right_weight": 0.048059,
-      "overlap_weight": 0.048059
+      "right_weight": 0.049916,
+      "overlap_weight": 0.049916
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.036024,
+      "right_weight": 0.035577,
+      "overlap_weight": 0.035577
     }
   ]
 }

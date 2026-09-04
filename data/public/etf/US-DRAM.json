@@ -552,10 +552,10 @@
   },
   "liquidity": {
     "as_of": "2026-09-03",
-    "latest_volume": 22219330.0,
-    "average_volume_20d": 38804031.5,
-    "average_dollar_volume_20d": 2157551271.2734,
-    "relative_volume_20d": 0.5726,
+    "latest_volume": 22252800.0,
+    "average_volume_20d": 38805705.0,
+    "average_dollar_volume_20d": 2157644970.5412,
+    "relative_volume_20d": 0.5734,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -565,7 +565,7 @@
       "etf_id": "US-DRAM",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.1943899,
+      "weight": 0.195515,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -579,7 +579,7 @@
       "etf_id": "US-DRAM",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.1675058,
+      "weight": 0.1709224,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -593,7 +593,7 @@
       "etf_id": "US-DRAM",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.1229377,
+      "weight": 0.1466261,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -607,7 +607,7 @@
       "etf_id": "US-DRAM",
       "holding_symbol": "STX",
       "holding_name": "Seagate Technology Holdings PLC",
-      "weight": 0.0454747,
+      "weight": 0.0505287,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -616,12 +616,26 @@
       "display_name": "Seagate Technology Holdings PLC",
       "display_label": "(STX)Seagate Technology Holdings PLC",
       "bilingual_name": "Seagate Technology Holdings PLC"
+    },
+    {
+      "etf_id": "US-DRAM",
+      "holding_symbol": "WDC",
+      "holding_name": "Western Digital Corp",
+      "weight": 0.0497908,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Western Digital Corp",
+      "holding_name_zh": null,
+      "display_name": "Western Digital Corp",
+      "display_label": "(WDC)Western Digital Corp",
+      "bilingual_name": "Western Digital Corp"
     }
   ],
   "holdings_summary": {
-    "holding_count": 4,
-    "top_10_weight": 0.530308,
-    "top_3_weight": 0.484833
+    "holding_count": 5,
+    "top_10_weight": 0.613383,
+    "top_3_weight": 0.513064
   },
   "research": {
     "tier": "primary",

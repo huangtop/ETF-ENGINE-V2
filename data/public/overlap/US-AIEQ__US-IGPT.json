@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-AIEQ",
   "right_etf_id": "US-IGPT",
-  "overlap_ratio": 0.024676,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.098708,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.024676,
+      "left_weight": 0.070701,
       "right_weight": 0.090176,
-      "overlap_weight": 0.024676
+      "overlap_weight": 0.070701
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.028007,
+      "right_weight": 0.084268,
+      "overlap_weight": 0.028007
     }
   ]
 }

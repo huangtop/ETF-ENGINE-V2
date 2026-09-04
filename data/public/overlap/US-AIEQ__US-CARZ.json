@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-AIEQ",
   "right_etf_id": "US-CARZ",
-  "overlap_ratio": 0.024676,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.133987,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "AAPL",
+      "left_weight": 0.057132,
+      "right_weight": 0.050708,
+      "overlap_weight": 0.050708
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.024676,
-      "right_weight": 0.050507,
-      "overlap_weight": 0.024676
+      "left_weight": 0.070701,
+      "right_weight": 0.046253,
+      "overlap_weight": 0.046253
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.037026,
+      "right_weight": 0.056439,
+      "overlap_weight": 0.037026
     }
   ]
 }

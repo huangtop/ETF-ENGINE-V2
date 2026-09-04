@@ -67,19 +67,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 12.8335,
+      "value": 12.8359,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 60.8987,
+      "value": 60.9031,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 32.2329,
+      "value": 32.233,
       "unit": "percent"
     },
     "beta": {
-      "value": 2.0604,
+      "value": 2.0605,
       "unit": "ratio"
     },
     "data_years": {
@@ -91,11 +91,11 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.8428,
+      "value": 1.8429,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 60.8987,
+      "value": 60.9031,
       "unit": "percent"
     },
     "tracking_error": {
@@ -106,7 +106,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-09-03",
-    "value": 105.6971,
+    "value": 105.7,
     "currency": "USD"
   },
   "trend": [
@@ -3144,10 +3144,10 @@
   },
   "liquidity": {
     "as_of": "2026-09-03",
-    "latest_volume": 870.0,
-    "average_volume_20d": 3228.5,
-    "average_dollar_volume_20d": 344927.9771,
-    "relative_volume_20d": 0.2695,
+    "latest_volume": 900.0,
+    "average_volume_20d": 3230.0,
+    "average_dollar_volume_20d": 345086.6533,
+    "relative_volume_20d": 0.2786,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3157,7 +3157,7 @@
       "etf_id": "US-CARZ",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0612254,
+      "weight": 0.0564387,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3169,40 +3169,12 @@
     },
     {
       "etf_id": "US-CARZ",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0505065,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0507076,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-CARZ",
-      "holding_symbol": "005930.KQ",
-      "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0477401,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Samsung Electronics Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd",
-      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
-      "bilingual_name": "Samsung Electronics Co Ltd"
-    },
-    {
-      "etf_id": "US-CARZ",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.0464829,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -3211,40 +3183,26 @@
     },
     {
       "etf_id": "US-CARZ",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0448533,
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.046253,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "US-CARZ",
-      "holding_symbol": "TSM",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.0440926,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "holding_name_zh": "台積電ADR",
-      "display_name": "台積電ADR",
-      "display_label": "(TSM)台積電ADR",
-      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
+      "rank": 3,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
     },
     {
       "etf_id": "US-CARZ",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0438586,
+      "weight": 0.0447033,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 4,
       "holding_name_en": "Alphabet Inc Class A",
       "holding_name_zh": "Alphabet A類股",
       "display_name": "Alphabet A類股",
@@ -3253,26 +3211,40 @@
     },
     {
       "etf_id": "US-CARZ",
-      "holding_symbol": "TSLA",
-      "holding_name": "Tesla Inc",
-      "weight": 0.0419866,
+      "holding_symbol": "TSM",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "weight": 0.0443865,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Tesla Inc",
-      "holding_name_zh": "特斯拉",
-      "display_name": "特斯拉",
-      "display_label": "(TSLA)特斯拉",
-      "bilingual_name": "Tesla Inc（特斯拉）"
+      "rank": 5,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "holding_name_zh": "台積電ADR",
+      "display_name": "台積電ADR",
+      "display_label": "(TSM)台積電ADR",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
+    },
+    {
+      "etf_id": "US-CARZ",
+      "holding_symbol": "005930.KQ",
+      "holding_name": "Samsung Electronics Co Ltd",
+      "weight": 0.0429232,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Samsung Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd",
+      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
+      "bilingual_name": "Samsung Electronics Co Ltd"
     },
     {
       "etf_id": "US-CARZ",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0399399,
+      "weight": 0.0426937,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 7,
       "holding_name_en": "Advanced Micro Devices Inc",
       "holding_name_zh": "超微半導體",
       "display_name": "超微半導體",
@@ -3281,23 +3253,51 @@
     },
     {
       "etf_id": "US-CARZ",
-      "holding_symbol": "INTC",
-      "holding_name": "Intel Corp",
-      "weight": 0.0368952,
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0424195,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 8,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "US-CARZ",
+      "holding_symbol": "INTC",
+      "holding_name": "Intel Corp",
+      "weight": 0.0389393,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "Intel Corp",
       "holding_name_zh": "英特爾",
       "display_name": "英特爾",
       "display_label": "(INTC)英特爾",
       "bilingual_name": "Intel Corp（英特爾）"
+    },
+    {
+      "etf_id": "US-CARZ",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0365341,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.457581,
-    "top_3_weight": 0.159472
+    "top_10_weight": 0.445999,
+    "top_3_weight": 0.153399
   },
   "research": {
     "tier": "context",
