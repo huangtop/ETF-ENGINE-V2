@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-DRIV",
   "right_etf_id": "US-KARS",
-  "overlap_ratio": 0.021237,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.045203,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
-      "holding_symbol": "STMPA.PA",
-      "left_weight": 0.021237,
-      "right_weight": 0.04136,
-      "overlap_weight": 0.021237
+      "holding_symbol": "TSLA",
+      "left_weight": 0.028251,
+      "right_weight": 0.041436,
+      "overlap_weight": 0.028251
+    },
+    {
+      "holding_symbol": "006400.KQ",
+      "left_weight": 0.016952,
+      "right_weight": 0.047515,
+      "overlap_weight": 0.016952
     }
   ]
 }

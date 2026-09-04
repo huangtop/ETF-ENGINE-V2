@@ -36,7 +36,7 @@
     "ticker": "ARKQ",
     "name": "ARK 自主科技與機器人主動型 ETF",
     "name_en": "ARK Autonomous Technology & Robotics ETF",
-    "weight": 0.0975151
+    "weight": 0.1081684
   },
   {
     "holding_symbol": "TSLA",
@@ -49,7 +49,7 @@
     "ticker": "ARKK",
     "name": "ARK 創新主動型 ETF",
     "name_en": "ARK Innovation ETF",
-    "weight": 0.09723759
+    "weight": 0.09575929
   },
   {
     "holding_symbol": "TSLA",
@@ -97,24 +97,11 @@
     "holding_display_name": "特斯拉",
     "holding_display_label": "(TSLA)特斯拉",
     "holding_bilingual_name": "Tesla Inc（特斯拉）",
-    "etf_id": "TW-00971",
-    "ticker": "00971",
-    "name": "野村美國研發龍頭",
-    "name_en": "野村美國研發龍頭",
-    "weight": 0.0370819
-  },
-  {
-    "holding_symbol": "TSLA",
-    "holding_name_en": "Tesla Inc",
-    "holding_name_zh": "特斯拉",
-    "holding_display_name": "特斯拉",
-    "holding_display_label": "(TSLA)特斯拉",
-    "holding_bilingual_name": "Tesla Inc（特斯拉）",
     "etf_id": "US-IDRV",
     "ticker": "IDRV",
     "name": "iShares 自動駕駛電動車與科技 ETF",
     "name_en": "iShares Self-Driving EV and Tech ETF",
-    "weight": 0.0367077
+    "weight": 0.0423652
   },
   {
     "holding_symbol": "TSLA",
@@ -127,7 +114,7 @@
     "ticker": "CARZ",
     "name": "First Trust Nasdaq 全球汽車指數 ETF",
     "name_en": "First Trust Nasdaq Global Auto Index Fund",
-    "weight": 0.0365341
+    "weight": 0.0419866
   },
   {
     "holding_symbol": "TSLA",
@@ -140,7 +127,20 @@
     "ticker": "KARS",
     "name": "KraneShares 電動車與未來移動 ETF",
     "name_en": "KraneShares Electric Vehicles and Future Mobility ETF",
-    "weight": 0.0364449
+    "weight": 0.0414363
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "TW-00971",
+    "ticker": "00971",
+    "name": "野村美國研發龍頭",
+    "name_en": "野村美國研發龍頭",
+    "weight": 0.0370819
   },
   {
     "holding_symbol": "TSLA",
@@ -175,6 +175,19 @@
     "holding_display_name": "特斯拉",
     "holding_display_label": "(TSLA)特斯拉",
     "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-IWF",
+    "ticker": "IWF",
+    "name": "iShares 羅素 1000 成長股 ETF",
+    "name_en": "iShares Russell 1000 Growth ETF",
+    "weight": 0.0322468
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
     "etf_id": "TW-009811",
     "ticker": "009811",
     "name": "統一美國50ETF基金",
@@ -188,11 +201,50 @@
     "holding_display_name": "特斯拉",
     "holding_display_label": "(TSLA)特斯拉",
     "holding_bilingual_name": "Tesla Inc（特斯拉）",
-    "etf_id": "US-IWF",
-    "ticker": "IWF",
-    "name": "iShares 羅素 1000 成長股 ETF",
-    "name_en": "iShares Russell 1000 Growth ETF",
-    "weight": 0.0282872
+    "etf_id": "US-AIQ",
+    "ticker": "AIQ",
+    "name": "Global X 人工智慧與科技 ETF",
+    "name_en": "Global X Artificial Intelligence & Technology ETF",
+    "weight": 0.0313908
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-QQQ",
+    "ticker": "QQQ",
+    "name": "Invesco QQQ ETF",
+    "name_en": "Invesco QQQ Trust",
+    "weight": 0.0292646
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-QQQM",
+    "ticker": "QQQM",
+    "name": "景順 NASDAQ 100 ETF",
+    "name_en": "Invesco NASDAQ 100 ETF",
+    "weight": 0.0292486
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-DRIV",
+    "ticker": "DRIV",
+    "name": "Global X 自動駕駛與電動車 ETF",
+    "name_en": "Global X Autonomous & Electric Vehicles ETF",
+    "weight": 0.0282507
   },
   {
     "holding_symbol": "TSLA",
@@ -240,6 +292,19 @@
     "holding_display_name": "特斯拉",
     "holding_display_label": "(TSLA)特斯拉",
     "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-JEPQ",
+    "ticker": "JEPQ",
+    "name": "JPMorgan Nasdaq 股票溢價收益主動型 ETF",
+    "name_en": "JPMorgan Nasdaq Equity Premium Income ETF",
+    "weight": 0.0209081
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
     "etf_id": "US-SPLG",
     "ticker": "SPLG",
     "name": "SPDR 投資組合標普 500 ETF",
@@ -271,5 +336,57 @@
     "name": "群益 S&P500",
     "name_en": "群益 S&P500",
     "weight": 0.0172053
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-SPY",
+    "ticker": "SPY",
+    "name": "SPDR S&P 500 ETF",
+    "name_en": "SPDR S&P 500 ETF Trust",
+    "weight": 0.0156492
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-IVV",
+    "ticker": "IVV",
+    "name": "iShares Core S&P 500 ETF",
+    "name_en": "iShares Core S&P 500 ETF",
+    "weight": 0.0156292
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-SCHX",
+    "ticker": "SCHX",
+    "name": "Schwab 美國大型股 ETF",
+    "name_en": "Schwab U.S. Large-Cap ETF",
+    "weight": 0.0140716
+  },
+  {
+    "holding_symbol": "TSLA",
+    "holding_name_en": "Tesla Inc",
+    "holding_name_zh": "特斯拉",
+    "holding_display_name": "特斯拉",
+    "holding_display_label": "(TSLA)特斯拉",
+    "holding_bilingual_name": "Tesla Inc（特斯拉）",
+    "etf_id": "US-ITOT",
+    "ticker": "ITOT",
+    "name": "iShares 核心標普美國全市場股票 ETF",
+    "name_en": "iShares Core S&P Total U.S. Stock Market ETF",
+    "weight": 0.0139084
   }
 ]

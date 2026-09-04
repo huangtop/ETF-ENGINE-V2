@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-ARKQ",
   "right_etf_id": "US-ARTY",
-  "overlap_ratio": 0.048518,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.123802,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.04937,
+      "right_weight": 0.049117,
+      "overlap_weight": 0.049117
+    },
+    {
       "holding_symbol": "AMD",
-      "left_weight": 0.061566,
-      "right_weight": 0.048518,
-      "overlap_weight": 0.048518
+      "left_weight": 0.039202,
+      "right_weight": 0.043254,
+      "overlap_weight": 0.039202
+    },
+    {
+      "holding_symbol": "PLTR",
+      "left_weight": 0.048206,
+      "right_weight": 0.035483,
+      "overlap_weight": 0.035483
     }
   ]
 }

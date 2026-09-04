@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-BAI",
   "right_etf_id": "US-XSD",
-  "overlap_ratio": 0.083517,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.116106,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.053437,
+      "right_weight": 0.030422,
+      "overlap_weight": 0.030422
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.063745,
+      "right_weight": 0.029602,
+      "overlap_weight": 0.029602
+    },
+    {
       "holding_symbol": "AMD",
-      "left_weight": 0.052022,
-      "right_weight": 0.028428,
-      "overlap_weight": 0.028428
+      "left_weight": 0.04753,
+      "right_weight": 0.028666,
+      "overlap_weight": 0.028666
     },
     {
       "holding_symbol": "AVGO",
-      "left_weight": 0.052293,
-      "right_weight": 0.028144,
-      "overlap_weight": 0.028144
-    },
-    {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.049825,
-      "right_weight": 0.026945,
-      "overlap_weight": 0.026945
+      "left_weight": 0.048379,
+      "right_weight": 0.027416,
+      "overlap_weight": 0.027416
     }
   ]
 }

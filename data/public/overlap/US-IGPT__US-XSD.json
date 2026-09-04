@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-IGPT",
   "right_etf_id": "US-XSD",
-  "overlap_ratio": 0.055373,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.08869,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "AMD",
-      "left_weight": 0.086372,
-      "right_weight": 0.028428,
-      "overlap_weight": 0.028428
+      "holding_symbol": "NVDA",
+      "left_weight": 0.090176,
+      "right_weight": 0.030422,
+      "overlap_weight": 0.030422
     },
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.086823,
-      "right_weight": 0.026945,
-      "overlap_weight": 0.026945
+      "holding_symbol": "MU",
+      "left_weight": 0.080539,
+      "right_weight": 0.029602,
+      "overlap_weight": 0.029602
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.080647,
+      "right_weight": 0.028666,
+      "overlap_weight": 0.028666
     }
   ]
 }

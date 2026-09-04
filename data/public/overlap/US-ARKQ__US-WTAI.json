@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-ARKQ",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.068812,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.115574,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.04937,
+      "right_weight": 0.052547,
+      "overlap_weight": 0.04937
+    },
+    {
       "holding_symbol": "AMZN",
-      "left_weight": 0.037933,
-      "right_weight": 0.045911,
-      "overlap_weight": 0.037933
+      "left_weight": 0.035768,
+      "right_weight": 0.043243,
+      "overlap_weight": 0.035768
     },
     {
       "holding_symbol": "TSM",
-      "left_weight": 0.036139,
-      "right_weight": 0.030879,
-      "overlap_weight": 0.030879
+      "left_weight": 0.034833,
+      "right_weight": 0.030436,
+      "overlap_weight": 0.030436
     }
   ]
 }

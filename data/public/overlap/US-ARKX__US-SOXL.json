@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-ARKX",
   "right_etf_id": "US-SOXL",
-  "overlap_ratio": 0.0459,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.085112,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.043063,
+      "right_weight": 0.058843,
+      "overlap_weight": 0.043063
+    },
+    {
       "holding_symbol": "AMD",
-      "left_weight": 0.0459,
+      "left_weight": 0.042049,
       "right_weight": 0.057098,
-      "overlap_weight": 0.0459
+      "overlap_weight": 0.042049
     }
   ]
 }

@@ -1,24 +1,30 @@
 {
   "left_etf_id": "US-CHPS",
   "right_etf_id": "US-FIVG",
-  "overlap_ratio": 0.100182,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.162374,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.053529,
+      "right_weight": 0.066001,
+      "overlap_weight": 0.053529
+    },
+    {
       "holding_symbol": "AVGO",
-      "left_weight": 0.038391,
+      "left_weight": 0.047054,
       "right_weight": 0.056358,
-      "overlap_weight": 0.038391
+      "overlap_weight": 0.047054
     },
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.072218,
+      "left_weight": 0.044954,
       "right_weight": 0.036491,
       "overlap_weight": 0.036491
     },
     {
       "holding_symbol": "INTC",
-      "left_weight": 0.051786,
+      "left_weight": 0.040099,
       "right_weight": 0.0253,
       "overlap_weight": 0.0253
     }

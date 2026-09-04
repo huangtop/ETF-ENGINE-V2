@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-IGV",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.033346,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.066641,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "PANW",
-      "left_weight": 0.096634,
-      "right_weight": 0.033346,
-      "overlap_weight": 0.033346
+      "left_weight": 0.097155,
+      "right_weight": 0.036529,
+      "overlap_weight": 0.036529
+    },
+    {
+      "holding_symbol": "ORCL",
+      "left_weight": 0.053262,
+      "right_weight": 0.030112,
+      "overlap_weight": 0.030112
     }
   ]
 }

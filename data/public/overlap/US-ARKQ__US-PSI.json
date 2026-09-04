@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-ARKQ",
   "right_etf_id": "US-PSI",
-  "overlap_ratio": 0.056166,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.088572,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.04937,
+      "right_weight": 0.063216,
+      "overlap_weight": 0.04937
+    },
+    {
       "holding_symbol": "AMD",
-      "left_weight": 0.061566,
-      "right_weight": 0.056166,
-      "overlap_weight": 0.056166
+      "left_weight": 0.039202,
+      "right_weight": 0.057469,
+      "overlap_weight": 0.039202
     }
   ]
 }

@@ -103,11 +103,26 @@
     "volume_unit": "shares",
     "observation_count": 7
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-CAPA",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.76363677,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 1,
+    "top_10_weight": 0.763637,
+    "top_3_weight": 0.763637
   },
   "research": {
     "tier": "context",

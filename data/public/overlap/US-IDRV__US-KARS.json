@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-IDRV",
   "right_etf_id": "US-KARS",
-  "overlap_ratio": 0.071765,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.12479,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "006400.KQ",
+      "left_weight": 0.051487,
+      "right_weight": 0.047515,
+      "overlap_weight": 0.047515
+    },
+    {
       "holding_symbol": "TSLA",
-      "left_weight": 0.036708,
-      "right_weight": 0.036445,
-      "overlap_weight": 0.036445
+      "left_weight": 0.042365,
+      "right_weight": 0.041436,
+      "overlap_weight": 0.041436
     },
     {
       "holding_symbol": "RIVN",
-      "left_weight": 0.042925,
-      "right_weight": 0.03532,
-      "overlap_weight": 0.03532
+      "left_weight": 0.044221,
+      "right_weight": 0.035839,
+      "overlap_weight": 0.035839
     }
   ]
 }

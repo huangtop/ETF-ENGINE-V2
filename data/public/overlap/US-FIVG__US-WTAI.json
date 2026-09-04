@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-FIVG",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.083167,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.113402,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.066001,
-      "right_weight": 0.050213,
-      "overlap_weight": 0.050213
+      "right_weight": 0.052547,
+      "overlap_weight": 0.052547
     },
     {
       "holding_symbol": "AVGO",
       "left_weight": 0.056358,
-      "right_weight": 0.032954,
-      "overlap_weight": 0.032954
+      "right_weight": 0.030743,
+      "overlap_weight": 0.030743
+    },
+    {
+      "holding_symbol": "ORCL",
+      "left_weight": 0.047151,
+      "right_weight": 0.030112,
+      "overlap_weight": 0.030112
     }
   ]
 }

@@ -1,32 +1,38 @@
 {
   "left_etf_id": "US-CARZ",
   "right_etf_id": "US-DRIV",
-  "overlap_ratio": 0.130115,
-  "shared_holdings_count": 4,
+  "overlap_ratio": 0.152543,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
-      "holding_symbol": "INTC",
-      "left_weight": 0.038939,
-      "right_weight": 0.049081,
-      "overlap_weight": 0.038939
+      "holding_symbol": "MSFT",
+      "left_weight": 0.061225,
+      "right_weight": 0.038828,
+      "overlap_weight": 0.038828
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.046253,
-      "right_weight": 0.031486,
-      "overlap_weight": 0.031486
+      "left_weight": 0.050507,
+      "right_weight": 0.031384,
+      "overlap_weight": 0.031384
+    },
+    {
+      "holding_symbol": "TSLA",
+      "left_weight": 0.041987,
+      "right_weight": 0.028251,
+      "overlap_weight": 0.028251
     },
     {
       "holding_symbol": "GOOGL",
-      "left_weight": 0.044703,
-      "right_weight": 0.03087,
-      "overlap_weight": 0.03087
+      "left_weight": 0.043859,
+      "right_weight": 0.027741,
+      "overlap_weight": 0.027741
     },
     {
-      "holding_symbol": "MSFT",
-      "left_weight": 0.056439,
-      "right_weight": 0.02882,
-      "overlap_weight": 0.02882
+      "holding_symbol": "INTC",
+      "left_weight": 0.036895,
+      "right_weight": 0.026339,
+      "overlap_weight": 0.026339
     }
   ]
 }
