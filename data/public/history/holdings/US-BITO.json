@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "etf_id": "US-BITO",
   "coverage": "top_holdings_only",
-  "transition_count": 3,
+  "transition_count": 4,
   "latest_transition": {
-    "transition_id": "2026-09-04T10:44:44.634775Z-US-BITO-c03c12be",
+    "transition_id": "2026-09-07T10:49:21.676484Z-US-BITO-a7ef5d29",
     "etf_id": "US-BITO",
     "coverage": "top_holdings_only",
-    "previous_snapshot_id": "20260904-d32b955ffab1",
-    "current_snapshot_id": "20260809-e07b2a95e4f7",
-    "previous_observed_at": "2026-09-04T08:10:07.085760Z",
-    "current_observed_at": "2026-09-04T10:44:44.634775Z",
+    "previous_snapshot_id": "20260809-e07b2a95e4f7",
+    "current_snapshot_id": "20260904-d32b955ffab1",
+    "previous_observed_at": "2026-09-04T10:44:44.634775Z",
+    "current_observed_at": "2026-09-07T10:49:21.676484Z",
     "changes": [
       {
-        "event_id": "7018a38831869cae75049c22fbdfdd72233ffff6a1ae475c6abedb401dce6532",
+        "event_id": "8db524ca363876ee12380219d0dacdb7309ba3b53c543cd617dde2ed2ac2bf1e",
         "etf_id": "US-BITO",
         "holding_symbol": "IQMM",
         "holding_name_en": "ProShares GENIUS Money Market ETF",
@@ -21,16 +21,16 @@
         "holding_display_name": "ProShares GENIUS貨幣市場主動型ETF",
         "holding_display_label": "(IQMM)ProShares GENIUS貨幣市場主動型ETF",
         "holding_bilingual_name": "ProShares GENIUS Money Market ETF（ProShares GENIUS貨幣市場主動型ETF）",
-        "previous_weight": 0.6790757,
-        "current_weight": 0.32020143,
-        "delta_weight": -0.35887427,
-        "change_type": "WEIGHT_DECREASED",
+        "previous_weight": 0.32020143,
+        "current_weight": 0.6790757,
+        "delta_weight": 0.35887427,
+        "change_type": "WEIGHT_INCREASED",
         "previous_source": "yahoo",
         "current_source": "yahoo",
-        "previous_snapshot_id": "20260904-d32b955ffab1",
-        "current_snapshot_id": "20260809-e07b2a95e4f7",
-        "previous_observed_at": "2026-09-04T08:10:07.085760Z",
-        "current_observed_at": "2026-09-04T10:44:44.634775Z",
+        "previous_snapshot_id": "20260809-e07b2a95e4f7",
+        "current_snapshot_id": "20260904-d32b955ffab1",
+        "previous_observed_at": "2026-09-04T10:44:44.634775Z",
+        "current_observed_at": "2026-09-07T10:49:21.676484Z",
         "coverage": "top_holdings_only"
       }
     ]
@@ -128,6 +128,38 @@
           "current_snapshot_id": "20260809-e07b2a95e4f7",
           "previous_observed_at": "2026-09-04T08:10:07.085760Z",
           "current_observed_at": "2026-09-04T10:44:44.634775Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    },
+    {
+      "transition_id": "2026-09-07T10:49:21.676484Z-US-BITO-a7ef5d29",
+      "etf_id": "US-BITO",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260809-e07b2a95e4f7",
+      "current_snapshot_id": "20260904-d32b955ffab1",
+      "previous_observed_at": "2026-09-04T10:44:44.634775Z",
+      "current_observed_at": "2026-09-07T10:49:21.676484Z",
+      "changes": [
+        {
+          "event_id": "8db524ca363876ee12380219d0dacdb7309ba3b53c543cd617dde2ed2ac2bf1e",
+          "etf_id": "US-BITO",
+          "holding_symbol": "IQMM",
+          "holding_name_en": "ProShares GENIUS Money Market ETF",
+          "holding_name_zh": "ProShares GENIUS貨幣市場主動型ETF",
+          "holding_display_name": "ProShares GENIUS貨幣市場主動型ETF",
+          "holding_display_label": "(IQMM)ProShares GENIUS貨幣市場主動型ETF",
+          "holding_bilingual_name": "ProShares GENIUS Money Market ETF（ProShares GENIUS貨幣市場主動型ETF）",
+          "previous_weight": 0.32020143,
+          "current_weight": 0.6790757,
+          "delta_weight": 0.35887427,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260809-e07b2a95e4f7",
+          "current_snapshot_id": "20260904-d32b955ffab1",
+          "previous_observed_at": "2026-09-04T10:44:44.634775Z",
+          "current_observed_at": "2026-09-07T10:49:21.676484Z",
           "coverage": "top_holdings_only"
         }
       ]

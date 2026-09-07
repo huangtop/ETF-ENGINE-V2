@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-ARKX",
-  "overlap_ratio": 0.077165,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.092302,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "AMD",
-      "left_weight": 0.050646,
-      "right_weight": 0.0459,
-      "overlap_weight": 0.0459
+      "holding_symbol": "SPCX",
+      "left_weight": 0.03314,
+      "right_weight": 0.101588,
+      "overlap_weight": 0.03314
     },
     {
       "holding_symbol": "AMZN",
-      "left_weight": 0.031265,
-      "right_weight": 0.04218,
-      "overlap_weight": 0.031265
+      "left_weight": 0.03032,
+      "right_weight": 0.045964,
+      "overlap_weight": 0.03032
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.028842,
+      "right_weight": 0.043063,
+      "overlap_weight": 0.028842
     }
   ]
 }

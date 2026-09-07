@@ -1,14 +1,32 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-DRIV",
-  "overlap_ratio": 0.03754,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.121082,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
-      "holding_symbol": "INTC",
-      "left_weight": 0.03754,
-      "right_weight": 0.049081,
-      "overlap_weight": 0.03754
+      "holding_symbol": "MSFT",
+      "left_weight": 0.036248,
+      "right_weight": 0.038828,
+      "overlap_weight": 0.036248
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.028842,
+      "right_weight": 0.031384,
+      "overlap_weight": 0.028842
+    },
+    {
+      "holding_symbol": "TSLA",
+      "left_weight": 0.031391,
+      "right_weight": 0.028251,
+      "overlap_weight": 0.028251
+    },
+    {
+      "holding_symbol": "GOOGL",
+      "left_weight": 0.029127,
+      "right_weight": 0.027741,
+      "overlap_weight": 0.027741
     }
   ]
 }

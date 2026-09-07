@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0.031265,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.094778,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.036248,
+      "right_weight": 0.035972,
+      "overlap_weight": 0.035972
+    },
+    {
       "holding_symbol": "AMZN",
-      "left_weight": 0.031265,
-      "right_weight": 0.032783,
-      "overlap_weight": 0.031265
+      "left_weight": 0.03032,
+      "right_weight": 0.030644,
+      "overlap_weight": 0.03032
+    },
+    {
+      "holding_symbol": "GOOGL",
+      "left_weight": 0.029127,
+      "right_weight": 0.028486,
+      "overlap_weight": 0.028486
     }
   ]
 }
