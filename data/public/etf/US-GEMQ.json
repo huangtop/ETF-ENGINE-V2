@@ -1,0 +1,97 @@
+{
+  "etf_id": "US-GEMQ",
+  "ticker": "GEMQ",
+  "quote_symbol": "GEMQ",
+  "name": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+  "short_name": "GEMQ",
+  "listing_market": "US",
+  "listing_exchange": "Nasdaq",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-09-11",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+  "short_name_en": "GEMQ",
+  "name_zh": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+  "short_name_zh": null,
+  "display_name": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+  "display_short_name": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+  "display_label": "(GEMQ)Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+  "bilingual_name": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF（Goldman Sachs Data Enhanced Emerging Markets Equity ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "emerging_markets"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "strategy",
+      "code": "gold"
+    }
+  ],
+  "metrics": {},
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-09-11",
+    "value": 24.5629,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-09-11",
+      "value": 100.0
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-09-11",
+    "last_date": "2026-09-11",
+    "observations": 1,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-09-11",
+    "latest_volume": 0.0,
+    "average_volume_20d": 0.0,
+    "average_dollar_volume_20d": 0.0,
+    "relative_volume_20d": null,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 1
+  },
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}
