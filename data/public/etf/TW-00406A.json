@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -24.1775,
+      "value": -24.9293,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 40.9936,
+      "value": 40.8197,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0252,
+      "value": 1.0261,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.2857,
+      "value": 0.2897,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -4.0,
+      "value": -5.6,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.5543,
+      "value": 20.4122,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-10",
-    "value": 9.6,
+    "date": "2026-09-11",
+    "value": 9.44,
     "currency": "TWD"
   },
   "trend": [
@@ -381,21 +381,25 @@
     {
       "date": "2026-09-10",
       "value": 96.0
+    },
+    {
+      "date": "2026-09-11",
+      "value": 94.4
     }
   ],
   "price_history": {
     "first_date": "2026-06-02",
-    "last_date": "2026-09-10",
-    "observations": 72,
+    "last_date": "2026-09-11",
+    "observations": 73,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-09-10",
-    "latest_volume": 140920683.0,
-    "average_volume_20d": 181003301.9,
-    "average_dollar_volume_20d": 1725011941.6502,
-    "relative_volume_20d": 0.7786,
+    "as_of": "2026-09-11",
+    "latest_volume": 275164527.0,
+    "average_volume_20d": 192309575.3,
+    "average_dollar_volume_20d": 1831241746.9675,
+    "relative_volume_20d": 1.4308,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -405,7 +409,7 @@
       "etf_id": "TW-00406A",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0974,
+      "weight": 0.0834,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -419,7 +423,7 @@
       "etf_id": "TW-00406A",
       "holding_symbol": "2383.TW",
       "holding_name": "Elite Material Co Ltd",
-      "weight": 0.0685,
+      "weight": 0.0567,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -433,7 +437,7 @@
       "etf_id": "TW-00406A",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0525,
+      "weight": 0.0443,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -447,7 +451,7 @@
       "etf_id": "TW-00406A",
       "holding_symbol": "3017.TW",
       "holding_name": "Asia Vital Components Co Ltd",
-      "weight": 0.0454,
+      "weight": 0.0395,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -459,40 +463,12 @@
     },
     {
       "etf_id": "TW-00406A",
-      "holding_symbol": "6223.TWO",
-      "holding_name": "MPI Corp",
-      "weight": 0.0449,
+      "holding_symbol": "3037.TW",
+      "holding_name": "Unimicron Technology Corp",
+      "weight": 0.0363,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "MPI Corp",
-      "holding_name_zh": "旺矽",
-      "display_name": "旺矽",
-      "display_label": "(6223.TWO)旺矽",
-      "bilingual_name": "MPI Corp（旺矽）"
-    },
-    {
-      "etf_id": "TW-00406A",
-      "holding_symbol": "2345.TW",
-      "holding_name": "Accton Technology Corp",
-      "weight": 0.0424,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Accton Technology Corp",
-      "holding_name_zh": "智邦",
-      "display_name": "智邦",
-      "display_label": "(2345.TW)智邦",
-      "bilingual_name": "Accton Technology Corp（智邦）"
-    },
-    {
-      "etf_id": "TW-00406A",
-      "holding_symbol": "3037.TW",
-      "holding_name": "Unimicron Technology Corp",
-      "weight": 0.0405,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Unimicron Technology Corp",
       "holding_name_zh": "欣興",
       "display_name": "欣興",
@@ -501,23 +477,51 @@
     },
     {
       "etf_id": "TW-00406A",
-      "holding_symbol": "6669.TW",
-      "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.0295,
+      "holding_symbol": "2059.TW",
+      "holding_name": "King Slide Works Co Ltd",
+      "weight": 0.0361,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "King Slide Works Co Ltd",
+      "holding_name_zh": "川湖",
+      "display_name": "川湖",
+      "display_label": "(2059.TW)川湖",
+      "bilingual_name": "King Slide Works Co Ltd（川湖）"
+    },
+    {
+      "etf_id": "TW-00406A",
+      "holding_symbol": "2345.TW",
+      "holding_name": "Accton Technology Corp",
+      "weight": 0.0343,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Accton Technology Corp",
+      "holding_name_zh": "智邦",
+      "display_name": "智邦",
+      "display_label": "(2345.TW)智邦",
+      "bilingual_name": "Accton Technology Corp（智邦）"
+    },
+    {
+      "etf_id": "TW-00406A",
+      "holding_symbol": "6223.TWO",
+      "holding_name": "MPI Corp",
+      "weight": 0.0333,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Wiwynn Corp Ordinary Shares",
-      "holding_name_zh": "緯穎",
-      "display_name": "緯穎",
-      "display_label": "(6669.TW)緯穎",
-      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
+      "holding_name_en": "MPI Corp",
+      "holding_name_zh": "旺矽",
+      "display_name": "旺矽",
+      "display_label": "(6223.TWO)旺矽",
+      "bilingual_name": "MPI Corp（旺矽）"
     }
   ],
   "holdings_summary": {
     "holding_count": 8,
-    "top_10_weight": 0.4211,
-    "top_3_weight": 0.2184
+    "top_10_weight": 0.3639,
+    "top_3_weight": 0.1844
   },
   "research": {
     "tier": "context",

@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -42.0448,
+      "value": -41.9846,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 5.9948,
+      "value": 5.7743,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 31.0473,
+      "value": 31.0529,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6769,
+      "value": 0.6767,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.2302,
+      "value": 1.2341,
       "unit": "years"
     },
     "expense_ratio": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.1448,
+      "value": 0.1376,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 5.9948,
+      "value": 5.7743,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 26.1013,
+      "value": 26.1053,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-10",
-    "value": 12.2,
+    "date": "2026-09-11",
+    "value": 12.09,
     "currency": "TWD"
   },
   "trend": [
@@ -1337,21 +1337,25 @@
     {
       "date": "2026-09-10",
       "value": 122.0
+    },
+    {
+      "date": "2026-09-11",
+      "value": 120.9
     }
   ],
   "price_history": {
     "first_date": "2025-06-10",
-    "last_date": "2026-09-10",
-    "observations": 310,
+    "last_date": "2026-09-11",
+    "observations": 311,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-10",
-    "latest_volume": 500964.0,
-    "average_volume_20d": 1409431.8,
-    "average_dollar_volume_20d": 17524062.884,
-    "relative_volume_20d": 0.3554,
+    "as_of": "2026-09-11",
+    "latest_volume": 1595281.0,
+    "average_volume_20d": 1456852.6,
+    "average_dollar_volume_20d": 18094618.7199,
+    "relative_volume_20d": 1.095,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1361,7 +1365,7 @@
       "etf_id": "TW-00983A",
       "holding_symbol": "TSLA",
       "holding_name": "Tesla Inc",
-      "weight": 0.0764,
+      "weight": 0.0946,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1375,7 +1379,7 @@
       "etf_id": "TW-00983A",
       "holding_symbol": "SHOP",
       "holding_name": "Shopify Inc Registered Shs -A- Subord Vtg",
-      "weight": 0.0624,
+      "weight": 0.0655,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1387,40 +1391,54 @@
     },
     {
       "etf_id": "TW-00983A",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0603,
+      "holding_symbol": "TEM",
+      "holding_name": "Tempus AI Inc Class A common stock",
+      "weight": 0.0554,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
+      "holding_name_en": "Tempus AI Inc Class A common stock",
+      "holding_name_zh": null,
+      "display_name": "Tempus AI Inc Class A common stock",
+      "display_label": "(TEM)Tempus AI Inc Class A common stock",
+      "bilingual_name": "Tempus AI Inc Class A common stock"
     },
     {
       "etf_id": "TW-00983A",
-      "holding_symbol": "TXG",
-      "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
-      "weight": 0.0594,
+      "holding_symbol": "SPCX",
+      "holding_name": "Space Exploration Technologies Corp Class A",
+      "weight": 0.0497,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
+      "holding_name_en": "Space Exploration Technologies Corp Class A",
       "holding_name_zh": null,
-      "display_name": "10x Genomics Inc Ordinary Shares - Class A",
-      "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
-      "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
+      "display_name": "Space Exploration Technologies Corp Class A",
+      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+      "bilingual_name": "Space Exploration Technologies Corp Class A"
+    },
+    {
+      "etf_id": "TW-00983A",
+      "holding_symbol": "CRCL",
+      "holding_name": "Circle Internet Group Inc Ordinary Shares - Class A",
+      "weight": 0.0494,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Circle Internet Group Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "Circle Internet Group Inc Ordinary Shares - Class A",
+      "display_label": "(CRCL)Circle Internet Group Inc Ordinary Shares - Class A",
+      "bilingual_name": "Circle Internet Group Inc Ordinary Shares - Class A"
     },
     {
       "etf_id": "TW-00983A",
       "holding_symbol": "TWST",
       "holding_name": "Twist Bioscience Corp",
-      "weight": 0.0428,
+      "weight": 0.0484,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Twist Bioscience Corp",
       "holding_name_zh": null,
       "display_name": "Twist Bioscience Corp",
@@ -1429,54 +1447,12 @@
     },
     {
       "etf_id": "TW-00983A",
-      "holding_symbol": "ILMN",
-      "holding_name": "Illumina Inc",
-      "weight": 0.0416,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Illumina Inc",
-      "holding_name_zh": null,
-      "display_name": "Illumina Inc",
-      "display_label": "(ILMN)Illumina Inc",
-      "bilingual_name": "Illumina Inc"
-    },
-    {
-      "etf_id": "TW-00983A",
-      "holding_symbol": "CRSP",
-      "holding_name": "CRISPR Therapeutics AG",
-      "weight": 0.0403,
+      "holding_symbol": "HOOD",
+      "holding_name": "Robinhood Markets Inc Class A",
+      "weight": 0.0428,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "CRISPR Therapeutics AG",
-      "holding_name_zh": null,
-      "display_name": "CRISPR Therapeutics AG",
-      "display_label": "(CRSP)CRISPR Therapeutics AG",
-      "bilingual_name": "CRISPR Therapeutics AG"
-    },
-    {
-      "etf_id": "TW-00983A",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0375,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Amazon.com Inc",
-      "holding_name_zh": "亞馬遜",
-      "display_name": "亞馬遜",
-      "display_label": "(AMZN)亞馬遜",
-      "bilingual_name": "Amazon.com Inc（亞馬遜）"
-    },
-    {
-      "etf_id": "TW-00983A",
-      "holding_symbol": "HOOD",
-      "holding_name": "Robinhood Markets Inc Class A",
-      "weight": 0.0369,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Robinhood Markets Inc Class A",
       "holding_name_zh": null,
       "display_name": "Robinhood Markets Inc Class A",
@@ -1485,23 +1461,51 @@
     },
     {
       "etf_id": "TW-00983A",
-      "holding_symbol": "TSM",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.036,
+      "holding_symbol": "TXG",
+      "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
+      "weight": 0.0427,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "10x Genomics Inc Ordinary Shares - Class A",
+      "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
+      "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
+    },
+    {
+      "etf_id": "TW-00983A",
+      "holding_symbol": "CRSP",
+      "holding_name": "CRISPR Therapeutics AG",
+      "weight": 0.0424,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "CRISPR Therapeutics AG",
+      "holding_name_zh": null,
+      "display_name": "CRISPR Therapeutics AG",
+      "display_label": "(CRSP)CRISPR Therapeutics AG",
+      "bilingual_name": "CRISPR Therapeutics AG"
+    },
+    {
+      "etf_id": "TW-00983A",
+      "holding_symbol": "COIN",
+      "holding_name": "Coinbase Global Inc Ordinary Shares - Class A",
+      "weight": 0.0398,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "holding_name_zh": "台積電ADR",
-      "display_name": "台積電ADR",
-      "display_label": "(TSM)台積電ADR",
-      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
+      "holding_name_en": "Coinbase Global Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "Coinbase Global Inc Ordinary Shares - Class A",
+      "display_label": "(COIN)Coinbase Global Inc Ordinary Shares - Class A",
+      "bilingual_name": "Coinbase Global Inc Ordinary Shares - Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.4936,
-    "top_3_weight": 0.1991
+    "top_10_weight": 0.5307,
+    "top_3_weight": 0.2155
   },
   "research": {
     "tier": "context",

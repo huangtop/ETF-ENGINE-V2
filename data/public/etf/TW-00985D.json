@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.7255,
+      "value": -5.3736,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 6.6712,
+      "value": 6.6568,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0134,
+      "value": 0.0142,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.4762,
+      "value": 0.4802,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -5.8023,
+      "value": -6.0933,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -1.7503,
+      "value": -2.0539,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 34.1666,
+      "value": 34.081,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-10",
-    "value": 9.71,
+    "date": "2026-09-11",
+    "value": 9.68,
     "currency": "TWD"
   },
   "trend": [
@@ -569,21 +569,25 @@
     {
       "date": "2026-09-10",
       "value": 98.25
+    },
+    {
+      "date": "2026-09-11",
+      "value": 97.95
     }
   ],
   "price_history": {
     "first_date": "2026-03-23",
-    "last_date": "2026-09-10",
-    "observations": 120,
+    "last_date": "2026-09-11",
+    "observations": 121,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-09-10",
-    "latest_volume": 618000.0,
-    "average_volume_20d": 1216550.0,
-    "average_dollar_volume_20d": 11942551.8255,
-    "relative_volume_20d": 0.508,
+    "as_of": "2026-09-11",
+    "latest_volume": 1597344.0,
+    "average_volume_20d": 1170967.2,
+    "average_dollar_volume_20d": 11471389.6901,
+    "relative_volume_20d": 1.3641,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -593,7 +597,7 @@
       "etf_id": "TW-00985D",
       "holding_symbol": "TLTW",
       "holding_name": "iShares 20+ Year Trs Bd Buywrt Stgy ETF",
-      "weight": 0.1972905,
+      "weight": 0.19767709,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -606,8 +610,8 @@
   ],
   "holdings_summary": {
     "holding_count": 1,
-    "top_10_weight": 0.197291,
-    "top_3_weight": 0.197291
+    "top_10_weight": 0.197677,
+    "top_3_weight": 0.197677
   },
   "research": {
     "tier": "context",
