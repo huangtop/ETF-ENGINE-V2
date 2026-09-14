@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 14.6488,
+      "value": 14.5895,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 22.0767,
+      "value": 22.0355,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 10.1412,
+      "value": 10.1409,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0774,
+      "value": 0.0775,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.7659,
+      "value": 1.7698,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.029,
+      "value": 2.025,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 22.0767,
+      "value": 22.0355,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.0548,
+      "value": 28.044,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-11",
-    "value": 13.05,
+    "date": "2026-09-14",
+    "value": 13.07,
     "currency": "TWD"
   },
   "trend": [
@@ -1881,21 +1881,25 @@
     {
       "date": "2026-09-11",
       "value": 130.76
+    },
+    {
+      "date": "2026-09-14",
+      "value": 130.96
     }
   ],
   "price_history": {
     "first_date": "2024-11-14",
-    "last_date": "2026-09-11",
-    "observations": 445,
+    "last_date": "2026-09-14",
+    "observations": 446,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-11",
-    "latest_volume": 1175826.0,
-    "average_volume_20d": 1188787.65,
-    "average_dollar_volume_20d": 15597321.344,
-    "relative_volume_20d": 0.9891,
+    "as_of": "2026-09-14",
+    "latest_volume": 1117372.0,
+    "average_volume_20d": 1163096.2,
+    "average_dollar_volume_20d": 15248484.4845,
+    "relative_volume_20d": 0.9607,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1905,7 +1909,7 @@
       "etf_id": "TW-00963",
       "holding_symbol": "OBDC",
       "holding_name": "Blue Owl Capital Corp Ordinary Shares",
-      "weight": 0.0296,
+      "weight": 0.0316,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1917,26 +1921,12 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "ARE",
-      "holding_name": "Alexandria Real Estate Equities Inc",
-      "weight": 0.0276,
+      "holding_symbol": "EDEN.PA",
+      "holding_name": "Edenred SE",
+      "weight": 0.0282,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Alexandria Real Estate Equities Inc",
-      "holding_name_zh": null,
-      "display_name": "Alexandria Real Estate Equities Inc",
-      "display_label": "(ARE)Alexandria Real Estate Equities Inc",
-      "bilingual_name": "Alexandria Real Estate Equities Inc"
-    },
-    {
-      "etf_id": "TW-00963",
-      "holding_symbol": "EDEN.PA",
-      "holding_name": "Edenred SE",
-      "weight": 0.0266,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Edenred SE",
       "holding_name_zh": null,
       "display_name": "Edenred SE",
@@ -1945,12 +1935,40 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "DOC",
-      "holding_name": "Healthpeak Properties Inc",
-      "weight": 0.0262,
+      "holding_symbol": "ARE",
+      "holding_name": "Alexandria Real Estate Equities Inc",
+      "weight": 0.0275,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Alexandria Real Estate Equities Inc",
+      "holding_name_zh": null,
+      "display_name": "Alexandria Real Estate Equities Inc",
+      "display_label": "(ARE)Alexandria Real Estate Equities Inc",
+      "bilingual_name": "Alexandria Real Estate Equities Inc"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "SDLF.L",
+      "holding_name": "Standard Life PLC",
+      "weight": 0.0255,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
+      "holding_name_en": "Standard Life PLC",
+      "holding_name_zh": null,
+      "display_name": "Standard Life PLC",
+      "display_label": "(SDLF.L)Standard Life PLC",
+      "bilingual_name": "Standard Life PLC"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "DOC",
+      "holding_name": "Healthpeak Properties Inc",
+      "weight": 0.025,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Healthpeak Properties Inc",
       "holding_name_zh": null,
       "display_name": "Healthpeak Properties Inc",
@@ -1959,23 +1977,9 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "ABEV",
-      "holding_name": "Ambev SA ADR",
-      "weight": 0.026,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Ambev SA ADR",
-      "holding_name_zh": null,
-      "display_name": "Ambev SA ADR",
-      "display_label": "(ABEV)Ambev SA ADR",
-      "bilingual_name": "Ambev SA ADR"
-    },
-    {
-      "etf_id": "TW-00963",
       "holding_symbol": "STWD",
       "holding_name": "Starwood Property Trust Inc",
-      "weight": 0.0255,
+      "weight": 0.025,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1987,26 +1991,12 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "ITUB",
-      "holding_name": "Itau Unibanco Holding SA ADR",
-      "weight": 0.025,
+      "holding_symbol": "LGEN.L",
+      "holding_name": "Legal & General Group PLC",
+      "weight": 0.0246,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Itau Unibanco Holding SA ADR",
-      "holding_name_zh": null,
-      "display_name": "Itau Unibanco Holding SA ADR",
-      "display_label": "(ITUB)Itau Unibanco Holding SA ADR",
-      "bilingual_name": "Itau Unibanco Holding SA ADR"
-    },
-    {
-      "etf_id": "TW-00963",
-      "holding_symbol": "LGEN.L",
-      "holding_name": "Legal & General Group PLC",
-      "weight": 0.025,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Legal & General Group PLC",
       "holding_name_zh": null,
       "display_name": "Legal & General Group PLC",
@@ -2015,37 +2005,51 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "SDLF.L",
-      "holding_name": "Standard Life PLC",
-      "weight": 0.0248,
+      "holding_symbol": "ABEV",
+      "holding_name": "Ambev SA ADR",
+      "weight": 0.0239,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Standard Life PLC",
+      "rank": 8,
+      "holding_name_en": "Ambev SA ADR",
       "holding_name_zh": null,
-      "display_name": "Standard Life PLC",
-      "display_label": "(SDLF.L)Standard Life PLC",
-      "bilingual_name": "Standard Life PLC"
+      "display_name": "Ambev SA ADR",
+      "display_label": "(ABEV)Ambev SA ADR",
+      "bilingual_name": "Ambev SA ADR"
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "MNG.L",
-      "holding_name": "M&G PLC Ordinary Shares",
-      "weight": 0.0231,
+      "holding_symbol": "ABDN.L",
+      "holding_name": "Aberdeen Group PLC",
+      "weight": 0.0233,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Aberdeen Group PLC",
+      "holding_name_zh": null,
+      "display_name": "Aberdeen Group PLC",
+      "display_label": "(ABDN.L)Aberdeen Group PLC",
+      "bilingual_name": "Aberdeen Group PLC"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "SOBO.TO",
+      "holding_name": "South Bow Corp",
+      "weight": 0.0233,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "M&G PLC Ordinary Shares",
+      "holding_name_en": "South Bow Corp",
       "holding_name_zh": null,
-      "display_name": "M&G PLC Ordinary Shares",
-      "display_label": "(MNG.L)M&G PLC Ordinary Shares",
-      "bilingual_name": "M&G PLC Ordinary Shares"
+      "display_name": "South Bow Corp",
+      "display_label": "(SOBO.TO)South Bow Corp",
+      "bilingual_name": "South Bow Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.2594,
-    "top_3_weight": 0.0838
+    "top_10_weight": 0.2579,
+    "top_3_weight": 0.0873
   },
   "research": {
     "tier": "context",

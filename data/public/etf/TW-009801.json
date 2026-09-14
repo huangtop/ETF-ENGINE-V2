@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -27.4222,
+      "value": -26.2605,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 6.8269,
+      "value": 8.0661,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 27.1451,
+      "value": 27.1227,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4947,
+      "value": 0.4932,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.5476,
+      "value": 1.5516,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.1962,
+      "value": 0.2421,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 6.8269,
+      "value": 8.0661,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 27.3018,
+      "value": 27.3234,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-11",
-    "value": 11.11,
+    "date": "2026-09-14",
+    "value": 11.12,
     "currency": "TWD"
   },
   "trend": [
@@ -1653,21 +1653,25 @@
     {
       "date": "2026-09-11",
       "value": 111.1
+    },
+    {
+      "date": "2026-09-14",
+      "value": 111.2
     }
   ],
   "price_history": {
     "first_date": "2025-02-11",
-    "last_date": "2026-09-11",
-    "observations": 390,
+    "last_date": "2026-09-14",
+    "observations": 391,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-11",
-    "latest_volume": 340547.0,
-    "average_volume_20d": 825390.55,
-    "average_dollar_volume_20d": 9443494.7632,
-    "relative_volume_20d": 0.4126,
+    "as_of": "2026-09-14",
+    "latest_volume": 883875.0,
+    "average_volume_20d": 722641.9,
+    "average_dollar_volume_20d": 8086939.349,
+    "relative_volume_20d": 1.2231,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1675,26 +1679,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.1658,
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.1759,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Apple Inc",
-      "holding_name_zh": "蘋果",
-      "display_name": "蘋果",
-      "display_label": "(AAPL)蘋果",
-      "bilingual_name": "Apple Inc（蘋果）"
-    },
-    {
-      "etf_id": "TW-009801",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.16389999,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "NVIDIA Corp",
       "holding_name_zh": "輝達",
       "display_name": "輝達",
@@ -1703,9 +1693,23 @@
     },
     {
       "etf_id": "TW-009801",
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.1659,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
+    },
+    {
+      "etf_id": "TW-009801",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.09770001,
+      "weight": 0.0913,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1719,7 +1723,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0776,
+      "weight": 0.0723,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1733,7 +1737,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0678,
+      "weight": 0.063,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1747,7 +1751,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.0527,
+      "weight": 0.06,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1761,7 +1765,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0439,
+      "weight": 0.0424,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1775,7 +1779,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0373,
+      "weight": 0.0375,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -1789,7 +1793,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "CSCO",
       "holding_name": "Cisco Systems Inc",
-      "weight": 0.0261,
+      "weight": 0.0243,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -1801,23 +1805,23 @@
     },
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "GE",
-      "holding_name": "GE Aerospace",
-      "weight": 0.0214,
+      "holding_symbol": "PLTR",
+      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "weight": 0.022,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "GE Aerospace",
-      "holding_name_zh": null,
-      "display_name": "GE Aerospace",
-      "display_label": "(GE)GE Aerospace",
-      "bilingual_name": "GE Aerospace"
+      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "holding_name_zh": "Palantir Technologies",
+      "display_name": "Palantir Technologies",
+      "display_label": "(PLTR)Palantir Technologies",
+      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7542,
-    "top_3_weight": 0.4274
+    "top_10_weight": 0.7546,
+    "top_3_weight": 0.4331
   },
   "research": {
     "tier": "context",

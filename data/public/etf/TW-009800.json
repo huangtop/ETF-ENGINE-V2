@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -9.1425,
+      "value": -8.4245,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 27.4627,
+      "value": 28.4137,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.7889,
+      "value": 17.7624,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4603,
+      "value": 0.4593,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.5476,
+      "value": 1.5516,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.4595,
+      "value": 1.5152,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 27.4627,
+      "value": 28.4137,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.5135,
+      "value": 19.5278,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-11",
-    "value": 12.81,
+    "date": "2026-09-14",
+    "value": 12.79,
     "currency": "TWD"
   },
   "trend": [
@@ -1653,21 +1653,25 @@
     {
       "date": "2026-09-11",
       "value": 128.36
+    },
+    {
+      "date": "2026-09-14",
+      "value": 128.16
     }
   ],
   "price_history": {
     "first_date": "2025-02-11",
-    "last_date": "2026-09-11",
-    "observations": 390,
+    "last_date": "2026-09-14",
+    "observations": 391,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-11",
-    "latest_volume": 1284833.0,
-    "average_volume_20d": 1024392.0,
-    "average_dollar_volume_20d": 13275801.0551,
-    "relative_volume_20d": 1.2542,
+    "as_of": "2026-09-14",
+    "latest_volume": 1408659.0,
+    "average_volume_20d": 1055924.0,
+    "average_dollar_volume_20d": 13657553.0805,
+    "relative_volume_20d": 1.3341,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1677,7 +1681,7 @@
       "etf_id": "TW-009800",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0794,
+      "weight": 0.0841,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1691,7 +1695,7 @@
       "etf_id": "TW-009800",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
-      "weight": 0.0743,
+      "weight": 0.0734,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1705,7 +1709,7 @@
       "etf_id": "TW-009800",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0566,
+      "weight": 0.0595,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1717,26 +1721,12 @@
     },
     {
       "etf_id": "TW-009800",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0479,
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0471,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Amazon.com Inc",
-      "holding_name_zh": "亞馬遜",
-      "display_name": "亞馬遜",
-      "display_label": "(AMZN)亞馬遜",
-      "bilingual_name": "Amazon.com Inc（亞馬遜）"
-    },
-    {
-      "etf_id": "TW-009800",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.042,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Micron Technology Inc",
       "holding_name_zh": "美光科技",
       "display_name": "美光科技",
@@ -1745,9 +1735,23 @@
     },
     {
       "etf_id": "TW-009800",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0441,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "TW-009800",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0351,
+      "weight": 0.0334,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1761,7 +1765,7 @@
       "etf_id": "TW-009800",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.034,
+      "weight": 0.0312,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1773,12 +1777,26 @@
     },
     {
       "etf_id": "TW-009800",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0319,
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.029,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
+    },
+    {
+      "etf_id": "TW-009800",
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0289,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "Alphabet Inc Class C",
       "holding_name_zh": "Alphabet C類股",
       "display_name": "Alphabet C類股",
@@ -1789,35 +1807,21 @@
       "etf_id": "TW-009800",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0302,
+      "weight": 0.0277,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "Broadcom Inc",
       "holding_name_zh": "博通",
       "display_name": "博通",
       "display_label": "(AVGO)博通",
       "bilingual_name": "Broadcom Inc（博通）"
-    },
-    {
-      "etf_id": "TW-009800",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.027,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
     "top_10_weight": 0.4584,
-    "top_3_weight": 0.2103
+    "top_3_weight": 0.217
   },
   "research": {
     "tier": "context",

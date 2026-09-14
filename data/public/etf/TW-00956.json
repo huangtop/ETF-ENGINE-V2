@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 7.908,
+      "value": 9.2544,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 29.8565,
+      "value": 31.5186,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.4879,
+      "value": 18.5381,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2629,
+      "value": 0.2614,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9921,
+      "value": 1.996,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.5338,
+      "value": 1.6193,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 29.8565,
+      "value": 31.5186,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 26.9391,
+      "value": 27.0141,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-11",
-    "value": 13.57,
+    "date": "2026-09-14",
+    "value": 13.77,
     "currency": "TWD"
   },
   "trend": [
@@ -2109,21 +2109,25 @@
     {
       "date": "2026-09-11",
       "value": 136.79
+    },
+    {
+      "date": "2026-09-14",
+      "value": 138.81
     }
   ],
   "price_history": {
     "first_date": "2024-08-20",
-    "last_date": "2026-09-11",
-    "observations": 502,
+    "last_date": "2026-09-14",
+    "observations": 503,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-11",
-    "latest_volume": 208918.0,
-    "average_volume_20d": 201880.35,
-    "average_dollar_volume_20d": 2707189.001,
-    "relative_volume_20d": 1.0349,
+    "as_of": "2026-09-14",
+    "latest_volume": 146932.0,
+    "average_volume_20d": 204825.35,
+    "average_dollar_volume_20d": 2750030.483,
+    "relative_volume_20d": 0.7174,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2133,7 +2137,7 @@
       "etf_id": "TW-00956",
       "holding_symbol": "7267.T",
       "holding_name": "Honda Motor Co Ltd",
-      "weight": 0.0471,
+      "weight": 0.0476,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2147,7 +2151,7 @@
       "etf_id": "TW-00956",
       "holding_symbol": "9107.T",
       "holding_name": "Kawasaki Kisen Kaisha Ltd",
-      "weight": 0.0376,
+      "weight": 0.0422,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -2161,7 +2165,7 @@
       "etf_id": "TW-00956",
       "holding_symbol": "8604.T",
       "holding_name": "Nomura Holdings Inc",
-      "weight": 0.0373,
+      "weight": 0.0385,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -2173,26 +2177,12 @@
     },
     {
       "etf_id": "TW-00956",
-      "holding_symbol": "8750.T",
-      "holding_name": "Daiichi Life Group Inc",
-      "weight": 0.036,
+      "holding_symbol": "5401.T",
+      "holding_name": "Nippon Steel Corp",
+      "weight": 0.0335,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Daiichi Life Group Inc",
-      "holding_name_zh": null,
-      "display_name": "Daiichi Life Group Inc",
-      "display_label": "(8750.T)Daiichi Life Group Inc",
-      "bilingual_name": "Daiichi Life Group Inc"
-    },
-    {
-      "etf_id": "TW-00956",
-      "holding_symbol": "5401.T",
-      "holding_name": "Nippon Steel Corp",
-      "weight": 0.0339,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Nippon Steel Corp",
       "holding_name_zh": null,
       "display_name": "Nippon Steel Corp",
@@ -2201,12 +2191,40 @@
     },
     {
       "etf_id": "TW-00956",
-      "holding_symbol": "8725.T",
-      "holding_name": "MS&AD Insurance Group Holdings Inc",
-      "weight": 0.0318,
+      "holding_symbol": "8750.T",
+      "holding_name": "Daiichi Life Group Inc",
+      "weight": 0.0332,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Daiichi Life Group Inc",
+      "holding_name_zh": null,
+      "display_name": "Daiichi Life Group Inc",
+      "display_label": "(8750.T)Daiichi Life Group Inc",
+      "bilingual_name": "Daiichi Life Group Inc"
+    },
+    {
+      "etf_id": "TW-00956",
+      "holding_symbol": "9101.T",
+      "holding_name": "Nippon Yusen Kabushiki Kaisha",
+      "weight": 0.0331,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
+      "holding_name_en": "Nippon Yusen Kabushiki Kaisha",
+      "holding_name_zh": null,
+      "display_name": "Nippon Yusen Kabushiki Kaisha",
+      "display_label": "(9101.T)Nippon Yusen Kabushiki Kaisha",
+      "bilingual_name": "Nippon Yusen Kabushiki Kaisha"
+    },
+    {
+      "etf_id": "TW-00956",
+      "holding_symbol": "8725.T",
+      "holding_name": "MS&AD Insurance Group Holdings Inc",
+      "weight": 0.0315,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "MS&AD Insurance Group Holdings Inc",
       "holding_name_zh": null,
       "display_name": "MS&AD Insurance Group Holdings Inc",
@@ -2217,10 +2235,10 @@
       "etf_id": "TW-00956",
       "holding_symbol": "8316.T",
       "holding_name": "Sumitomo Mitsui Financial Group Inc",
-      "weight": 0.0317,
+      "weight": 0.0309,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 8,
       "holding_name_en": "Sumitomo Mitsui Financial Group Inc",
       "holding_name_zh": null,
       "display_name": "Sumitomo Mitsui Financial Group Inc",
@@ -2229,51 +2247,37 @@
     },
     {
       "etf_id": "TW-00956",
-      "holding_symbol": "2914.T",
-      "holding_name": "Japan Tobacco Inc",
-      "weight": 0.0316,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Japan Tobacco Inc",
-      "holding_name_zh": null,
-      "display_name": "Japan Tobacco Inc",
-      "display_label": "(2914.T)Japan Tobacco Inc",
-      "bilingual_name": "Japan Tobacco Inc"
-    },
-    {
-      "etf_id": "TW-00956",
-      "holding_symbol": "9101.T",
-      "holding_name": "Nippon Yusen Kabushiki Kaisha",
-      "weight": 0.0301,
+      "holding_symbol": "4502.T",
+      "holding_name": "Takeda Pharmaceutical Co Ltd",
+      "weight": 0.0302,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Nippon Yusen Kabushiki Kaisha",
-      "holding_name_zh": null,
-      "display_name": "Nippon Yusen Kabushiki Kaisha",
-      "display_label": "(9101.T)Nippon Yusen Kabushiki Kaisha",
-      "bilingual_name": "Nippon Yusen Kabushiki Kaisha"
-    },
-    {
-      "etf_id": "TW-00956",
-      "holding_symbol": "4502.T",
-      "holding_name": "Takeda Pharmaceutical Co Ltd",
-      "weight": 0.0299,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
       "holding_name_en": "Takeda Pharmaceutical Co Ltd",
       "holding_name_zh": null,
       "display_name": "Takeda Pharmaceutical Co Ltd",
       "display_label": "(4502.T)Takeda Pharmaceutical Co Ltd",
       "bilingual_name": "Takeda Pharmaceutical Co Ltd"
+    },
+    {
+      "etf_id": "TW-00956",
+      "holding_symbol": "9434.T",
+      "holding_name": "SoftBank Corp",
+      "weight": 0.0301,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "SoftBank Corp",
+      "holding_name_zh": null,
+      "display_name": "SoftBank Corp",
+      "display_label": "(9434.T)SoftBank Corp",
+      "bilingual_name": "SoftBank Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.347,
-    "top_3_weight": 0.122
+    "top_10_weight": 0.3508,
+    "top_3_weight": 0.1283
   },
   "research": {
     "tier": "context",

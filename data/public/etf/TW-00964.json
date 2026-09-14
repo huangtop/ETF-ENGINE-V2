@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 2.7142,
+      "value": 3.9661,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 37.9759,
+      "value": 39.6632,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.261,
+      "value": 18.2427,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4104,
+      "value": 0.4089,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.7659,
+      "value": 1.7698,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.9975,
+      "value": 2.092,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 37.9759,
+      "value": 39.6632,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 21.8746,
+      "value": 21.9152,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-11",
-    "value": 14.86,
+    "date": "2026-09-14",
+    "value": 14.93,
     "currency": "TWD"
   },
   "trend": [
@@ -1881,21 +1881,25 @@
     {
       "date": "2026-09-11",
       "value": 148.75
+    },
+    {
+      "date": "2026-09-14",
+      "value": 149.45
     }
   ],
   "price_history": {
     "first_date": "2024-11-14",
-    "last_date": "2026-09-11",
-    "observations": 445,
+    "last_date": "2026-09-14",
+    "observations": 446,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-11",
-    "latest_volume": 1799182.0,
-    "average_volume_20d": 1540067.35,
-    "average_dollar_volume_20d": 22796345.0345,
-    "relative_volume_20d": 1.1682,
+    "as_of": "2026-09-14",
+    "latest_volume": 1527241.0,
+    "average_volume_20d": 1474213.45,
+    "average_dollar_volume_20d": 21860077.571,
+    "relative_volume_20d": 1.036,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1903,26 +1907,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "3026.TW",
-      "holding_name": "Holy Stone Enterprise Co Ltd",
-      "weight": 0.032,
+      "holding_symbol": "017800.KQ",
+      "holding_name": "Hyundai Elevator Co Ltd",
+      "weight": 0.0446,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Holy Stone Enterprise Co Ltd",
-      "holding_name_zh": "禾伸堂",
-      "display_name": "禾伸堂",
-      "display_label": "(3026.TW)禾伸堂",
-      "bilingual_name": "Holy Stone Enterprise Co Ltd（禾伸堂）"
-    },
-    {
-      "etf_id": "TW-00964",
-      "holding_symbol": "017800.KQ",
-      "holding_name": "Hyundai Elevator Co Ltd",
-      "weight": 0.0314,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Hyundai Elevator Co Ltd",
       "holding_name_zh": null,
       "display_name": "Hyundai Elevator Co Ltd",
@@ -1931,26 +1921,26 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "3481.TW",
-      "holding_name": "Innolux Corp",
-      "weight": 0.0305,
+      "holding_symbol": "2489.TW",
+      "holding_name": "Amtran Technology Co Ltd",
+      "weight": 0.0318,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Innolux Corp",
-      "holding_name_zh": "群創",
-      "display_name": "群創",
-      "display_label": "(3481.TW)群創",
-      "bilingual_name": "Innolux Corp（群創）"
+      "rank": 2,
+      "holding_name_en": "Amtran Technology Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Amtran Technology Co Ltd",
+      "display_label": "(2489.TW)Amtran Technology Co Ltd",
+      "bilingual_name": "Amtran Technology Co Ltd"
     },
     {
       "etf_id": "TW-00964",
       "holding_symbol": "2542.TW",
       "holding_name": "Highwealth Construction Corp",
-      "weight": 0.0298,
+      "weight": 0.0268,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "Highwealth Construction Corp",
       "holding_name_zh": null,
       "display_name": "Highwealth Construction Corp",
@@ -1959,9 +1949,23 @@
     },
     {
       "etf_id": "TW-00964",
+      "holding_symbol": "4716.T",
+      "holding_name": "Oracle Corp Japan",
+      "weight": 0.0257,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Oracle Corp Japan",
+      "holding_name_zh": null,
+      "display_name": "Oracle Corp Japan",
+      "display_label": "(4716.T)Oracle Corp Japan",
+      "bilingual_name": "Oracle Corp Japan"
+    },
+    {
+      "etf_id": "TW-00964",
       "holding_symbol": "2855.TW",
       "holding_name": "President Securities Corp",
-      "weight": 0.0294,
+      "weight": 0.0257,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1973,40 +1977,26 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "2357.TW",
-      "holding_name": "Asustek Computer Inc",
-      "weight": 0.0293,
+      "holding_symbol": "0148.HK",
+      "holding_name": "Kingboard Holdings Ltd",
+      "weight": 0.0257,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Asustek Computer Inc",
-      "holding_name_zh": "華碩",
-      "display_name": "華碩",
-      "display_label": "(2357.TW)華碩",
-      "bilingual_name": "Asustek Computer Inc（華碩）"
-    },
-    {
-      "etf_id": "TW-00964",
-      "holding_symbol": "2510.HK",
-      "holding_name": "TS Lines Ltd",
-      "weight": 0.0289,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "TS Lines Ltd",
+      "holding_name_en": "Kingboard Holdings Ltd",
       "holding_name_zh": null,
-      "display_name": "TS Lines Ltd",
-      "display_label": "(2510.HK)TS Lines Ltd",
-      "bilingual_name": "TS Lines Ltd"
+      "display_name": "Kingboard Holdings Ltd",
+      "display_label": "(0148.HK)Kingboard Holdings Ltd",
+      "bilingual_name": "Kingboard Holdings Ltd"
     },
     {
       "etf_id": "TW-00964",
       "holding_symbol": "1308.HK",
       "holding_name": "SITC International Holdings Co Ltd",
-      "weight": 0.0278,
+      "weight": 0.0248,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 7,
       "holding_name_en": "SITC International Holdings Co Ltd",
       "holding_name_zh": null,
       "display_name": "SITC International Holdings Co Ltd",
@@ -2017,10 +2007,10 @@
       "etf_id": "TW-00964",
       "holding_symbol": "1919.HK",
       "holding_name": "COSCO SHIPPING Holdings Co Ltd Class H",
-      "weight": 0.0277,
+      "weight": 0.0246,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "COSCO SHIPPING Holdings Co Ltd Class H",
       "holding_name_zh": null,
       "display_name": "COSCO SHIPPING Holdings Co Ltd Class H",
@@ -2031,21 +2021,35 @@
       "etf_id": "TW-00964",
       "holding_symbol": "2603.TW",
       "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
-      "weight": 0.0232,
+      "weight": 0.0245,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
       "holding_name_zh": "長榮",
       "display_name": "長榮",
       "display_label": "(2603.TW)長榮",
       "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
+    },
+    {
+      "etf_id": "TW-00964",
+      "holding_symbol": "2357.TW",
+      "holding_name": "Asustek Computer Inc",
+      "weight": 0.0239,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Asustek Computer Inc",
+      "holding_name_zh": "華碩",
+      "display_name": "華碩",
+      "display_label": "(2357.TW)華碩",
+      "bilingual_name": "Asustek Computer Inc（華碩）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.29,
-    "top_3_weight": 0.0939
+    "top_10_weight": 0.2781,
+    "top_3_weight": 0.1032
   },
   "research": {
     "tier": "context",
