@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -35.6581,
+      "value": -35.2896,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 24.2995,
+      "value": 24.1808,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.5078,
+      "value": 0.5076,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3968,
+      "value": 0.4008,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -3.1031,
+      "value": -3.4034,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 23.9163,
+      "value": 23.8116,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-14",
-    "value": 9.68,
+    "date": "2026-09-15",
+    "value": 9.65,
     "currency": "TWD"
   },
   "trend": [
@@ -493,21 +493,25 @@
     {
       "date": "2026-09-14",
       "value": 96.9
+    },
+    {
+      "date": "2026-09-15",
+      "value": 96.6
     }
   ],
   "price_history": {
     "first_date": "2026-04-23",
-    "last_date": "2026-09-14",
-    "observations": 100,
+    "last_date": "2026-09-15",
+    "observations": 101,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-09-14",
-    "latest_volume": 1956295.0,
-    "average_volume_20d": 5158954.2,
-    "average_dollar_volume_20d": 50571780.3108,
-    "relative_volume_20d": 0.3792,
+    "as_of": "2026-09-15",
+    "latest_volume": 2132451.0,
+    "average_volume_20d": 4856287.6,
+    "average_dollar_volume_20d": 47472306.3844,
+    "relative_volume_20d": 0.4391,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -517,7 +521,7 @@
       "etf_id": "TW-009820",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.146838,
+      "weight": 0.154708,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -529,26 +533,12 @@
     },
     {
       "etf_id": "TW-009820",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.134565,
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.126925,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Broadcom Inc",
-      "holding_name_zh": "博通",
-      "display_name": "博通",
-      "display_label": "(AVGO)博通",
-      "bilingual_name": "Broadcom Inc（博通）"
-    },
-    {
-      "etf_id": "TW-009820",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.128869,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Meta Platforms Inc Class A",
       "holding_name_zh": "Meta Platforms",
       "display_name": "Meta Platforms",
@@ -557,9 +547,23 @@
     },
     {
       "etf_id": "TW-009820",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.122642,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "TW-009820",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.100769,
+      "weight": 0.112455,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -573,7 +577,7 @@
       "etf_id": "TW-009820",
       "holding_symbol": "ASML",
       "holding_name": "ASML Holding NV ADR",
-      "weight": 0.093387,
+      "weight": 0.091912,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -587,7 +591,7 @@
       "etf_id": "TW-009820",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.08429401,
+      "weight": 0.079833,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -601,7 +605,7 @@
       "etf_id": "TW-009820",
       "holding_symbol": "PLTR",
       "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.030995,
+      "weight": 0.044971,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -615,7 +619,7 @@
       "etf_id": "TW-009820",
       "holding_symbol": "PANW",
       "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.029666,
+      "weight": 0.032729,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -627,23 +631,23 @@
     },
     {
       "etf_id": "TW-009820",
-      "holding_symbol": "CRWD",
-      "holding_name": "CrowdStrike Holdings Inc Class A",
-      "weight": 0.021318,
+      "holding_symbol": "SHOP",
+      "holding_name": "Shopify Inc Registered Shs -A- Subord Vtg",
+      "weight": 0.024758,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "CrowdStrike Holdings Inc Class A",
-      "holding_name_zh": "CrowdStrike",
-      "display_name": "CrowdStrike",
-      "display_label": "(CRWD)CrowdStrike",
-      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
+      "holding_name_en": "Shopify Inc Registered Shs -A- Subord Vtg",
+      "holding_name_zh": null,
+      "display_name": "Shopify Inc Registered Shs -A- Subord Vtg",
+      "display_label": "(SHOP)Shopify Inc Registered Shs -A- Subord Vtg",
+      "bilingual_name": "Shopify Inc Registered Shs -A- Subord Vtg"
     }
   ],
   "holdings_summary": {
     "holding_count": 9,
-    "top_10_weight": 0.770701,
-    "top_3_weight": 0.410272
+    "top_10_weight": 0.790933,
+    "top_3_weight": 0.404275
   },
   "research": {
     "tier": "context",

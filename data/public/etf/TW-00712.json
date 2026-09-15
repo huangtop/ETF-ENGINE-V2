@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -16.3359,
+      "value": -15.9822,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -8.8719,
+      "value": -8.5998,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.295,
+      "value": 13.2843,
       "unit": "percent"
     },
     "beta": {
@@ -75,33 +75,29 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -15.0153,
+      "value": -15.3218,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.7801,
+      "value": -0.7603,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -8.8719,
+      "value": -8.5998,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.6934,
+      "value": 28.6986,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-14",
-    "value": 8.32,
+    "date": "2026-09-15",
+    "value": 8.29,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-08-08",
-      "value": 100.0
-    },
     {
       "date": "2023-08-09",
       "value": 100.0
@@ -3121,21 +3117,25 @@
     {
       "date": "2026-09-14",
       "value": 80.78
+    },
+    {
+      "date": "2026-09-15",
+      "value": 80.49
     }
   ],
   "price_history": {
     "first_date": "2023-07-24",
-    "last_date": "2026-09-14",
-    "observations": 766,
+    "last_date": "2026-09-15",
+    "observations": 767,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-14",
-    "latest_volume": 75779311.0,
-    "average_volume_20d": 40642424.65,
-    "average_dollar_volume_20d": 349415902.317,
-    "relative_volume_20d": 1.8645,
+    "as_of": "2026-09-15",
+    "latest_volume": 59203742.0,
+    "average_volume_20d": 43036402.0,
+    "average_dollar_volume_20d": 368956221.2835,
+    "relative_volume_20d": 1.3757,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
