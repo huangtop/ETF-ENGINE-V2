@@ -50,11 +50,35 @@
     }
   ],
   "metrics": {},
-  "bootstrap_status": "failed",
-  "latest_price": null,
-  "trend": [],
-  "price_history": null,
-  "liquidity": null,
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-09-15",
+    "value": 24.8815,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-09-15",
+      "value": 100.0
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-09-15",
+    "last_date": "2026-09-15",
+    "observations": 1,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-09-15",
+    "latest_volume": 39718.0,
+    "average_volume_20d": 39718.0,
+    "average_dollar_volume_20d": 988243.4267,
+    "relative_volume_20d": 1.0,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 1
+  },
   "top_holdings": [],
   "holdings_summary": {
     "holding_count": 0,

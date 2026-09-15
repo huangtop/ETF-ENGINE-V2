@@ -5,33 +5,33 @@
   "processed": 483,
   "bootstrap_limit": 30,
   "bootstrap_attempted": 6,
-  "bootstrap_ready": 477,
-  "bootstrap_pending": 6,
+  "bootstrap_ready": 483,
+  "bootstrap_pending": 0,
   "metric_rows": 4266,
-  "holdings_synced": 150,
+  "holdings_synced": 155,
   "holdings_rotation_limit": 40,
   "holdings_scheduled": 190,
   "holdings_rotating": [
-    "TW-00981T",
-    "TW-009820",
-    "TW-009821",
-    "TW-009822",
-    "TW-009823",
-    "TW-009824",
-    "TW-009825",
-    "TW-00982B",
-    "TW-00982T",
-    "TW-00983B",
-    "TW-00984B",
-    "TW-00985B",
-    "TW-00986B",
-    "TW-00987B",
-    "TW-00988B",
-    "TW-00989B",
-    "TW-00990B",
-    "TW-0051",
-    "TW-0052",
-    "TW-0053"
+    "TW-0055",
+    "TW-0056",
+    "TW-0057",
+    "TW-0061",
+    "TW-006201",
+    "TW-006203",
+    "TW-006204",
+    "TW-006205",
+    "TW-006206",
+    "TW-006207",
+    "TW-00625K",
+    "TW-00631L",
+    "TW-00632R",
+    "TW-00633L",
+    "TW-00634R",
+    "TW-00635U",
+    "TW-00636",
+    "TW-00636K",
+    "TW-00637L",
+    "TW-00638R"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -43,21 +43,26 @@
     "TW-00406A",
     "TW-00407A",
     "TW-0050",
-    "TW-0051",
-    "TW-0052",
-    "TW-0053",
+    "TW-0055",
+    "TW-0056",
+    "TW-0057",
+    "TW-0061",
+    "TW-006201",
+    "TW-006203",
+    "TW-006204",
+    "TW-006205",
+    "TW-006206",
+    "TW-006207",
     "TW-006208",
+    "TW-00625K",
+    "TW-00633L",
+    "TW-00636",
+    "TW-00636K",
+    "TW-00637L",
     "TW-00980A",
     "TW-00981A",
-    "TW-00981T",
-    "TW-009820",
-    "TW-009821",
-    "TW-009822",
-    "TW-009823",
-    "TW-009824",
     "TW-00982A",
     "TW-00982D",
-    "TW-00982T",
     "TW-00983A",
     "TW-00983D",
     "TW-00984A",
@@ -198,36 +203,6 @@
   "skipped_after_provider_halt": [],
   "errors": [
     {
-      "etf_id": "US-AT",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "US-EMSE",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "US-KCHP",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "US-QQSE",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "US-QSE",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
-      "etf_id": "US-SCSE",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
       "etf_id": "US-SPYM",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
@@ -250,22 +225,22 @@
     {
       "etf_id": "US-AT",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     },
     {
       "etf_id": "US-EMSE",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     },
     {
       "etf_id": "US-KCHP",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     },
     {
       "etf_id": "US-QQSE",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     },
     {
       "etf_id": "US-QSE",
@@ -275,7 +250,7 @@
     {
       "etf_id": "US-SCSE",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     }
   ]
 }
