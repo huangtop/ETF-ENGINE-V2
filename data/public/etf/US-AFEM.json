@@ -52,8 +52,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-15",
-    "value": 96.37,
+    "date": "2026-09-16",
+    "value": 96.4701,
     "currency": "USD"
   },
   "trend": [
@@ -80,30 +80,175 @@
     {
       "date": "2026-09-15",
       "value": 96.66
+    },
+    {
+      "date": "2026-09-16",
+      "value": 96.76
     }
   ],
   "price_history": {
     "first_date": "2026-09-08",
-    "last_date": "2026-09-15",
-    "observations": 6,
+    "last_date": "2026-09-16",
+    "observations": 7,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-09-15",
-    "latest_volume": 6400.0,
-    "average_volume_20d": 2800.0,
-    "average_dollar_volume_20d": 274698.3346,
-    "relative_volume_20d": 2.2857,
+    "as_of": "2026-09-16",
+    "latest_volume": 2408.0,
+    "average_volume_20d": 2744.0,
+    "average_dollar_volume_20d": 268641.4299,
+    "relative_volume_20d": 0.8776,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 6
+    "observation_count": 7
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.1026349,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.064273,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "3037.TW",
+      "holding_name": "Unimicron Technology Corp",
+      "weight": 0.0385036,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Unimicron Technology Corp",
+      "holding_name_zh": "欣興",
+      "display_name": "欣興",
+      "display_label": "(3037.TW)欣興",
+      "bilingual_name": "Unimicron Technology Corp（欣興）"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "MCHI",
+      "holding_name": "iShares MSCI China ETF",
+      "weight": 0.0309608,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "iShares MSCI China ETF",
+      "holding_name_zh": null,
+      "display_name": "iShares MSCI China ETF",
+      "display_label": "(MCHI)iShares MSCI China ETF",
+      "bilingual_name": "iShares MSCI China ETF"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "0700.HK",
+      "holding_name": "Tencent Holdings Ltd",
+      "weight": 0.030339,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Tencent Holdings Ltd",
+      "holding_name_zh": null,
+      "display_name": "Tencent Holdings Ltd",
+      "display_label": "(0700.HK)Tencent Holdings Ltd",
+      "bilingual_name": "Tencent Holdings Ltd"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "000270.KQ",
+      "holding_name": "Kia Corp",
+      "weight": 0.0255906,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Kia Corp",
+      "holding_name_zh": null,
+      "display_name": "Kia Corp",
+      "display_label": "(000270.KQ)Kia Corp",
+      "bilingual_name": "Kia Corp"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "3443.TW",
+      "holding_name": "Global Unichip Corp",
+      "weight": 0.0245116,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Global Unichip Corp",
+      "holding_name_zh": "創意",
+      "display_name": "創意",
+      "display_label": "(3443.TW)創意",
+      "bilingual_name": "Global Unichip Corp（創意）"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "3653.TW",
+      "holding_name": "Jentech Precision Industrial Co Ltd",
+      "weight": 0.0238088,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Jentech Precision Industrial Co Ltd",
+      "holding_name_zh": "健策",
+      "display_name": "健策",
+      "display_label": "(3653.TW)健策",
+      "bilingual_name": "Jentech Precision Industrial Co Ltd（健策）"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "01398",
+      "holding_name": "Industrial And Commercial Bank Of China Ltd Class H",
+      "weight": 0.02146,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Industrial And Commercial Bank Of China Ltd Class H",
+      "holding_name_zh": null,
+      "display_name": "Industrial And Commercial Bank Of China Ltd Class H",
+      "display_label": "(01398)Industrial And Commercial Bank Of China Ltd Class H",
+      "bilingual_name": "Industrial And Commercial Bank Of China Ltd Class H"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "ICT.XPHS",
+      "holding_name": "International Container Terminal Services Inc",
+      "weight": 0.0211457,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "International Container Terminal Services Inc",
+      "holding_name_zh": null,
+      "display_name": "International Container Terminal Services Inc",
+      "display_label": "(ICT.XPHS)International Container Terminal Services Inc",
+      "bilingual_name": "International Container Terminal Services Inc"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.383228,
+    "top_3_weight": 0.205411
   },
   "research": {
     "tier": "context",
