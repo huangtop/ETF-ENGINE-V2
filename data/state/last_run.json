@@ -5,33 +5,33 @@
   "processed": 485,
   "bootstrap_limit": 30,
   "bootstrap_attempted": 1,
-  "bootstrap_ready": 484,
-  "bootstrap_pending": 1,
+  "bootstrap_ready": 485,
+  "bootstrap_pending": 0,
   "metric_rows": 4274,
-  "holdings_synced": 147,
+  "holdings_synced": 146,
   "holdings_rotation_limit": 40,
   "holdings_scheduled": 192,
   "holdings_rotating": [
-    "TW-00683L",
-    "TW-00684R",
-    "TW-00685L",
-    "TW-00686R",
-    "TW-00687B",
-    "TW-00687C",
-    "TW-00688L",
-    "TW-00689R",
-    "TW-00690",
-    "TW-00692",
-    "TW-00693U",
-    "TW-00694B",
-    "TW-00695B",
-    "TW-00696B",
-    "TW-00697B",
-    "TW-00700",
-    "TW-00701",
-    "TW-00702",
-    "TW-00703",
-    "TW-00706L"
+    "TW-00707R",
+    "TW-00708L",
+    "TW-00709",
+    "TW-00710B",
+    "TW-00711B",
+    "TW-00712",
+    "TW-00713",
+    "TW-00714",
+    "TW-00715L",
+    "TW-00717",
+    "TW-00719B",
+    "TW-00720B",
+    "TW-00722B",
+    "TW-00723B",
+    "TW-00724B",
+    "TW-00725B",
+    "TW-00726B",
+    "TW-00727B",
+    "TW-00728",
+    "TW-00730"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -44,12 +44,13 @@
     "TW-00407A",
     "TW-0050",
     "TW-006208",
-    "TW-00690",
-    "TW-00692",
-    "TW-00700",
-    "TW-00701",
-    "TW-00702",
-    "TW-00703",
+    "TW-00709",
+    "TW-00712",
+    "TW-00713",
+    "TW-00714",
+    "TW-00717",
+    "TW-00728",
+    "TW-00730",
     "TW-00980A",
     "TW-00981A",
     "TW-00982A",
@@ -178,9 +179,7 @@
     "US-IVW",
     "US-LYTE",
     "US-CAPA",
-    "US-TGRZ",
-    "US-PRAM",
-    "US-AFEM"
+    "US-PRAM"
   ],
   "bootstrap_only": false,
   "published": true,
@@ -195,12 +194,17 @@
   "skipped_after_provider_halt": [],
   "errors": [
     {
-      "etf_id": "US-HUMM",
-      "stage": "prices",
-      "error": "no provider data"
+      "etf_id": "US-SPYM",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
     },
     {
-      "etf_id": "US-SPYM",
+      "etf_id": "US-TGRZ",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-AFEM",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
     },
@@ -242,7 +246,7 @@
     {
       "etf_id": "US-HUMM",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     }
   ]
 }
