@@ -1,64 +1,83 @@
 {
-  "run_date": "2026-09-21",
+  "run_date": "2026-09-22",
   "market": "all",
-  "eligible": 487,
-  "processed": 487,
+  "eligible": 488,
+  "processed": 488,
   "bootstrap_limit": 30,
-  "bootstrap_attempted": 2,
+  "bootstrap_attempted": 1,
   "bootstrap_ready": 487,
-  "bootstrap_pending": 0,
-  "metric_rows": 4274,
-  "holdings_synced": 137,
+  "bootstrap_pending": 1,
+  "metric_rows": 4282,
+  "holdings_synced": 159,
   "holdings_rotation_limit": 40,
-  "holdings_scheduled": 194,
+  "holdings_scheduled": 195,
   "holdings_rotating": [
-    "TW-00848B",
-    "TW-00849B",
-    "TW-00850",
-    "TW-00851",
-    "TW-00852L",
-    "TW-00853B",
-    "TW-00856B",
-    "TW-00857B",
-    "TW-00858",
-    "TW-00859B",
-    "TW-00860B",
-    "TW-00861",
-    "TW-00862B",
-    "TW-00863B",
-    "TW-00864B",
-    "TW-00865B",
-    "TW-00867B",
-    "TW-00870B",
-    "TW-00875",
-    "TW-00876"
+    "TW-00877",
+    "TW-00878",
+    "TW-00881",
+    "TW-00882",
+    "TW-00884B",
+    "TW-00885",
+    "TW-00886",
+    "TW-00887",
+    "TW-00888",
+    "TW-00890B",
+    "TW-00891",
+    "TW-00892",
+    "TW-00893",
+    "TW-00894",
+    "TW-00895",
+    "TW-00896",
+    "TW-00897",
+    "TW-00898",
+    "TW-00899",
+    "TW-00900"
   ],
   "holdings_updated": [
     "TW-00400A",
     "TW-00401A",
     "TW-00402A",
+    "TW-00403A",
     "TW-00404A",
     "TW-00405A",
     "TW-00406A",
     "TW-00407A",
     "TW-0050",
     "TW-006208",
-    "TW-00850",
-    "TW-00851",
-    "TW-00858",
-    "TW-00861",
-    "TW-00876",
+    "TW-00877",
+    "TW-00878",
+    "TW-00881",
+    "TW-00882",
+    "TW-00885",
+    "TW-00886",
+    "TW-00887",
+    "TW-00888",
+    "TW-00891",
+    "TW-00892",
+    "TW-00893",
+    "TW-00894",
+    "TW-00895",
+    "TW-00896",
+    "TW-00897",
+    "TW-00898",
+    "TW-00899",
+    "TW-00900",
+    "TW-00980A",
+    "TW-00981A",
     "TW-00982A",
     "TW-00982D",
     "TW-00983A",
     "TW-00983D",
     "TW-00984A",
+    "TW-00985A",
     "TW-00985D",
     "TW-00986A",
     "TW-00986D",
     "TW-00987A",
+    "TW-00988A",
     "TW-00989A",
     "TW-00990A",
+    "TW-00991A",
     "TW-00992A",
     "TW-00993A",
     "TW-00994A",
@@ -66,6 +85,7 @@
     "TW-00996A",
     "TW-00997A",
     "TW-00998A",
+    "TW-00999A",
     "US-AGG",
     "US-AIEQ",
     "US-AIQ",
@@ -170,7 +190,9 @@
     "US-IVW",
     "US-LYTE",
     "US-CAPA",
-    "US-PRAM"
+    "US-TGRZ",
+    "US-PRAM",
+    "US-AFEM"
   ],
   "bootstrap_only": false,
   "published": true,
@@ -185,62 +207,12 @@
   "skipped_after_provider_halt": [],
   "errors": [
     {
-      "etf_id": "TW-00925",
-      "stage": "prices_cached_fallback",
-      "error": "twse: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00403A",
-      "stage": "holdings",
-      "error": "uni_president: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00980A",
-      "stage": "holdings",
-      "error": "nomura: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00981A",
-      "stage": "holdings",
-      "error": "uni_president: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00985A",
-      "stage": "holdings",
-      "error": "nomura: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00988A",
-      "stage": "holdings",
-      "error": "uni_president: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00991A",
-      "stage": "holdings",
-      "error": "fuhwa: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "etf_id": "TW-00999A",
-      "stage": "holdings",
-      "error": "nomura: official TWSE symbol lookup failed: Expecting value: line 1 column 1 (char 0)"
+      "etf_id": "US-GCPU",
+      "stage": "prices",
+      "error": "no provider data"
     },
     {
       "etf_id": "US-SPYM",
-      "stage": "holdings",
-      "error": "yahoo: No Fund data found."
-    },
-    {
-      "etf_id": "US-TGRZ",
-      "stage": "holdings",
-      "error": "yahoo: No Fund data found."
-    },
-    {
-      "etf_id": "US-AIMG",
-      "stage": "holdings",
-      "error": "yahoo: No Fund data found."
-    },
-    {
-      "etf_id": "US-AFEM",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
     },
@@ -270,11 +242,6 @@
       "error": "yahoo: No Fund data found."
     },
     {
-      "etf_id": "US-AICH",
-      "stage": "holdings",
-      "error": "yahoo: No Fund data found."
-    },
-    {
       "etf_id": "US-HUMM",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
@@ -286,6 +253,11 @@
     },
     {
       "etf_id": "US-QQBF",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-GCPU",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
     }
