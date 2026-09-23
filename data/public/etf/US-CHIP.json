@@ -1,11 +1,11 @@
 {
-  "etf_id": "US-HUMM",
-  "ticker": "HUMM",
-  "quote_symbol": "HUMM",
-  "name": "800VDC AI Datacenter Ecosystem ETF",
-  "short_name": "HUMM",
+  "etf_id": "US-CHIP",
+  "ticker": "CHIP",
+  "quote_symbol": "CHIP",
+  "name": "REX AI Chipmaking ETF",
+  "short_name": "CHIP",
   "listing_market": "US",
-  "listing_exchange": "NYSE Arca",
+  "listing_exchange": "Nasdaq",
   "currency": "USD",
   "benchmark_symbol": "SPY",
   "benchmark_name": "Pending research",
@@ -16,17 +16,17 @@
   "product_status": "active",
   "management_style": null,
   "inception_date": null,
-  "first_seen_at": "2026-09-17",
+  "first_seen_at": "2026-09-23",
   "last_seen_at": null,
   "delisted_at": null,
-  "name_en": "800VDC AI Datacenter Ecosystem ETF",
-  "short_name_en": "HUMM",
-  "name_zh": "800VDC AI Datacenter Ecosystem ETF",
+  "name_en": "REX AI Chipmaking ETF",
+  "short_name_en": "CHIP",
+  "name_zh": "REX AI Chipmaking ETF",
   "short_name_zh": null,
-  "display_name": "800VDC AI Datacenter Ecosystem ETF",
-  "display_short_name": "800VDC AI Datacenter Ecosystem ETF",
-  "display_label": "(HUMM)800VDC AI Datacenter Ecosystem ETF",
-  "bilingual_name": "800VDC AI Datacenter Ecosystem ETF（800VDC AI Datacenter Ecosystem ETF）",
+  "display_name": "REX AI Chipmaking ETF",
+  "display_short_name": "REX AI Chipmaking ETF",
+  "display_label": "(CHIP)REX AI Chipmaking ETF",
+  "bilingual_name": "REX AI Chipmaking ETF（REX AI Chipmaking ETF）",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -53,47 +53,31 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-09-23",
-    "value": 27.0487,
+    "value": 25.0698,
     "currency": "USD"
   },
   "trend": [
     {
-      "date": "2026-09-17",
-      "value": 100.0
-    },
-    {
-      "date": "2026-09-18",
-      "value": 101.68
-    },
-    {
-      "date": "2026-09-21",
-      "value": 104.21
-    },
-    {
-      "date": "2026-09-22",
-      "value": 106.81
-    },
-    {
       "date": "2026-09-23",
-      "value": 105.49
+      "value": 100.0
     }
   ],
   "price_history": {
-    "first_date": "2026-09-17",
+    "first_date": "2026-09-23",
     "last_date": "2026-09-23",
-    "observations": 5,
+    "observations": 1,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
     "as_of": "2026-09-23",
-    "latest_volume": 623.0,
-    "average_volume_20d": 16488.2,
-    "average_dollar_volume_20d": 423980.3365,
-    "relative_volume_20d": 0.0378,
+    "latest_volume": 22394.0,
+    "average_volume_20d": 22394.0,
+    "average_dollar_volume_20d": 561413.0883,
+    "relative_volume_20d": 1.0,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 5
+    "observation_count": 1
   },
   "top_holdings": [],
   "holdings_summary": {
