@@ -53,11 +53,44 @@
       "code": "photonics_optics"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "alpha": {
+      "value": null,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 57.9909,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.0794,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -12.5815,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -0.8939,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": null,
+      "unit": "percent"
+    }
+  },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-23",
-    "value": 25.92,
+    "date": "2026-09-24",
+    "value": 25.5,
     "currency": "USD"
   },
   "trend": [
@@ -136,24 +169,28 @@
     {
       "date": "2026-09-23",
       "value": 100.74
+    },
+    {
+      "date": "2026-09-24",
+      "value": 99.11
     }
   ],
   "price_history": {
     "first_date": "2026-08-27",
-    "last_date": "2026-09-23",
-    "observations": 19,
+    "last_date": "2026-09-24",
+    "observations": 20,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-09-23",
-    "latest_volume": 11100.0,
-    "average_volume_20d": 40235.7368,
-    "average_dollar_volume_20d": 1001653.6731,
-    "relative_volume_20d": 0.2759,
+    "as_of": "2026-09-24",
+    "latest_volume": 18244.0,
+    "average_volume_20d": 39136.15,
+    "average_dollar_volume_20d": 974832.0895,
+    "relative_volume_20d": 0.4662,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 19
+    "observation_count": 20
   },
   "top_holdings": [
     {
