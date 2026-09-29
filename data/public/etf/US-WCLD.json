@@ -71,23 +71,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 2.6731,
+      "value": 2.7088,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 11.2194,
+      "value": 10.7658,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 38.7849,
+      "value": 38.7843,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9489,
+      "value": 0.9487,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 3.0198,
+      "value": 3.0238,
       "unit": "years"
     },
     "max_drawdown": {
@@ -95,29 +95,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.2506,
+      "value": 0.2389,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 11.2194,
+      "value": 10.7658,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 36.7775,
+      "value": 36.7776,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-09-28",
-    "value": 39.95,
+    "date": "2026-09-29",
+    "value": 39.92,
     "currency": "USD"
   },
   "trend": [
-    {
-      "date": "2023-09-22",
-      "value": 100.0
-    },
     {
       "date": "2023-09-25",
       "value": 100.0
@@ -3137,21 +3133,25 @@
     {
       "date": "2026-09-28",
       "value": 136.35
+    },
+    {
+      "date": "2026-09-29",
+      "value": 136.25
     }
   ],
   "price_history": {
     "first_date": "2023-07-24",
-    "last_date": "2026-09-28",
-    "observations": 799,
+    "last_date": "2026-09-29",
+    "observations": 800,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-09-28",
-    "latest_volume": 827000.0,
-    "average_volume_20d": 669810.0,
-    "average_dollar_volume_20d": 27172341.9045,
-    "relative_volume_20d": 1.2347,
+    "as_of": "2026-09-29",
+    "latest_volume": 526355.0,
+    "average_volume_20d": 670487.75,
+    "average_dollar_volume_20d": 27116580.3972,
+    "relative_volume_20d": 0.785,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
