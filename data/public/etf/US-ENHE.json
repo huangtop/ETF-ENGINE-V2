@@ -1,9 +1,9 @@
 {
-  "etf_id": "US-HWMV",
-  "ticker": "HWMV",
-  "quote_symbol": "HWMV",
-  "name": "Hotchkis & Wiley Mid-Cap Value Fund",
-  "short_name": "HWMV",
+  "etf_id": "US-ENHE",
+  "ticker": "ENHE",
+  "quote_symbol": "ENHE",
+  "name": "iShares Enhanced Emerging Markets Active ETF",
+  "short_name": "ENHE",
   "listing_market": "US",
   "listing_exchange": "Nasdaq",
   "currency": "USD",
@@ -16,17 +16,17 @@
   "product_status": "active",
   "management_style": null,
   "inception_date": null,
-  "first_seen_at": "2026-09-24",
+  "first_seen_at": "2026-09-30",
   "last_seen_at": null,
   "delisted_at": null,
-  "name_en": "Hotchkis & Wiley Mid-Cap Value Fund",
-  "short_name_en": "HWMV",
-  "name_zh": "Hotchkis & Wiley Mid-Cap Value Fund",
+  "name_en": "iShares Enhanced Emerging Markets Active ETF",
+  "short_name_en": "ENHE",
+  "name_zh": "iShares Enhanced Emerging Markets Active ETF",
   "short_name_zh": null,
-  "display_name": "Hotchkis & Wiley Mid-Cap Value Fund",
-  "display_short_name": "Hotchkis & Wiley Mid-Cap Value Fund",
-  "display_label": "(HWMV)Hotchkis & Wiley Mid-Cap Value Fund",
-  "bilingual_name": "Hotchkis & Wiley Mid-Cap Value Fund（Hotchkis & Wiley Mid-Cap Value Fund）",
+  "display_name": "iShares Enhanced Emerging Markets Active ETF",
+  "display_short_name": "iShares Enhanced Emerging Markets Active ETF",
+  "display_label": "(ENHE)iShares Enhanced Emerging Markets Active ETF",
+  "bilingual_name": "iShares Enhanced Emerging Markets Active ETF（iShares Enhanced Emerging Markets Active ETF）",
   "classifications": [
     {
       "dimension": "asset_class",
@@ -34,7 +34,7 @@
     },
     {
       "dimension": "geography",
-      "code": "united_states"
+      "code": "emerging_markets"
     },
     {
       "dimension": "listing_market",
@@ -47,57 +47,37 @@
     {
       "dimension": "product_structure",
       "code": "standard"
-    },
-    {
-      "dimension": "strategy",
-      "code": "value"
     }
   ],
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-09-30",
-    "value": 24.2777,
+    "value": 24.1425,
     "currency": "USD"
   },
   "trend": [
     {
-      "date": "2026-09-24",
-      "value": 100.0
-    },
-    {
-      "date": "2026-09-25",
-      "value": 100.16
-    },
-    {
-      "date": "2026-09-28",
-      "value": 98.95
-    },
-    {
-      "date": "2026-09-29",
-      "value": 98.51
-    },
-    {
       "date": "2026-09-30",
-      "value": 97.66
+      "value": 100.0
     }
   ],
   "price_history": {
-    "first_date": "2026-09-24",
+    "first_date": "2026-09-30",
     "last_date": "2026-09-30",
-    "observations": 5,
+    "observations": 1,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
     "as_of": "2026-09-30",
-    "latest_volume": 11.0,
-    "average_volume_20d": 702.2,
-    "average_dollar_volume_20d": 17368.6113,
-    "relative_volume_20d": 0.0157,
+    "latest_volume": 258.0,
+    "average_volume_20d": 258.0,
+    "average_dollar_volume_20d": 6228.765,
+    "relative_volume_20d": 1.0,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 5
+    "observation_count": 1
   },
   "top_holdings": [],
   "holdings_summary": {
