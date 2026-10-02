@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 3.1862,
+      "value": 4.1787,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 103.7245,
+      "value": 103.2381,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 32.974,
+      "value": 32.9661,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.999,
+      "value": 0.998,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.4127,
+      "value": 1.4167,
       "unit": "years"
     },
     "expense_ratio": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.1002,
+      "value": 3.0861,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 103.7245,
+      "value": 103.2381,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.7867,
+      "value": 16.8345,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-01",
-    "value": 25.55,
+    "date": "2026-10-02",
+    "value": 25.87,
     "currency": "TWD"
   },
   "trend": [
@@ -1521,21 +1521,25 @@
     {
       "date": "2026-10-01",
       "value": 272.58
+    },
+    {
+      "date": "2026-10-02",
+      "value": 276.0
     }
   ],
   "price_history": {
     "first_date": "2025-04-22",
-    "last_date": "2026-10-01",
-    "observations": 356,
+    "last_date": "2026-10-02",
+    "observations": 357,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-01",
-    "latest_volume": 9033292.0,
-    "average_volume_20d": 7031939.05,
-    "average_dollar_volume_20d": 174971987.722,
-    "relative_volume_20d": 1.2846,
+    "as_of": "2026-10-02",
+    "latest_volume": 11442476.0,
+    "average_volume_20d": 7355609.85,
+    "average_dollar_volume_20d": 183618649.9844,
+    "relative_volume_20d": 1.5556,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1823,7 +1827,7 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 50,
+    "holding_count": 20,
     "top_10_weight": 0.4253,
     "top_3_weight": 0.1955
   },
