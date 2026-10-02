@@ -63,46 +63,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -251.0205,
+      "value": -247.5993,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -99.1086,
+      "value": -99.0827,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 120.4721,
+      "value": 120.5151,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.1177,
+      "value": -0.1196,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9405,
+      "value": 1.9444,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -99.1086,
+      "value": -99.1049,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.8351,
+      "value": -0.8346,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -99.1086,
+      "value": -99.0827,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 281.6698,
+      "value": 282.6276,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-01",
-    "value": 8.82,
+    "date": "2026-10-02",
+    "value": 9.0,
     "currency": "USD"
   },
   "trend": [
@@ -2061,21 +2061,25 @@
     {
       "date": "2026-10-01",
       "value": 0.41
+    },
+    {
+      "date": "2026-10-02",
+      "value": 0.42
     }
   ],
   "price_history": {
     "first_date": "2024-10-18",
-    "last_date": "2026-10-01",
-    "observations": 489,
+    "last_date": "2026-10-02",
+    "observations": 490,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-01",
-    "latest_volume": 12343200.0,
-    "average_volume_20d": 6343400.0,
-    "average_dollar_volume_20d": 60271981.1868,
-    "relative_volume_20d": 1.9458,
+    "as_of": "2026-10-02",
+    "latest_volume": 7009108.0,
+    "average_volume_20d": 6412120.4,
+    "average_dollar_volume_20d": 60536329.2741,
+    "relative_volume_20d": 1.0931,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
