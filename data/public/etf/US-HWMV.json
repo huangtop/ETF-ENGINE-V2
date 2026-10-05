@@ -57,7 +57,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-10-02",
-    "value": 24.5366,
+    "value": 24.54,
     "currency": "USD"
   },
   "trend": [
@@ -87,7 +87,7 @@
     },
     {
       "date": "2026-10-02",
-      "value": 98.7
+      "value": 98.71
     }
   ],
   "price_history": {
@@ -99,19 +99,160 @@
   },
   "liquidity": {
     "as_of": "2026-10-02",
-    "latest_volume": 6.0,
-    "average_volume_20d": 529.4286,
-    "average_dollar_volume_20d": 13085.8887,
-    "relative_volume_20d": 0.0113,
+    "latest_volume": 100.0,
+    "average_volume_20d": 542.8571,
+    "average_dollar_volume_20d": 13415.4288,
+    "relative_volume_20d": 0.1842,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 7
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "WDAY",
+      "holding_name": "Workday Inc Class A",
+      "weight": 0.0484765,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Workday Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Workday Inc Class A",
+      "display_label": "(WDAY)Workday Inc Class A",
+      "bilingual_name": "Workday Inc Class A"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "AIG",
+      "holding_name": "American International Group Inc",
+      "weight": 0.0414975,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "American International Group Inc",
+      "holding_name_zh": null,
+      "display_name": "American International Group Inc",
+      "display_label": "(AIG)American International Group Inc",
+      "bilingual_name": "American International Group Inc"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "KOS",
+      "holding_name": "Kosmos Energy Ltd",
+      "weight": 0.0412319,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Kosmos Energy Ltd",
+      "holding_name_zh": null,
+      "display_name": "Kosmos Energy Ltd",
+      "display_label": "(KOS)Kosmos Energy Ltd",
+      "bilingual_name": "Kosmos Energy Ltd"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "APA",
+      "holding_name": "APA Corp",
+      "weight": 0.0399469,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "APA Corp",
+      "holding_name_zh": null,
+      "display_name": "APA Corp",
+      "display_label": "(APA)APA Corp",
+      "bilingual_name": "APA Corp"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "SLM",
+      "holding_name": "SLM Corp",
+      "weight": 0.0307489,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "SLM Corp",
+      "holding_name_zh": null,
+      "display_name": "SLM Corp",
+      "display_label": "(SLM)SLM Corp",
+      "bilingual_name": "SLM Corp"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "FLR",
+      "holding_name": "Fluor Corp",
+      "weight": 0.0295962,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Fluor Corp",
+      "holding_name_zh": null,
+      "display_name": "Fluor Corp",
+      "display_label": "(FLR)Fluor Corp",
+      "bilingual_name": "Fluor Corp"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "CRGY",
+      "holding_name": "Crescent Energy Co Class A",
+      "weight": 0.0277178,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Crescent Energy Co Class A",
+      "holding_name_zh": null,
+      "display_name": "Crescent Energy Co Class A",
+      "display_label": "(CRGY)Crescent Energy Co Class A",
+      "bilingual_name": "Crescent Energy Co Class A"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "UHS",
+      "holding_name": "Universal Health Services Inc Class B",
+      "weight": 0.0244963,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Universal Health Services Inc Class B",
+      "holding_name_zh": null,
+      "display_name": "Universal Health Services Inc Class B",
+      "display_label": "(UHS)Universal Health Services Inc Class B",
+      "bilingual_name": "Universal Health Services Inc Class B"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "WPP",
+      "holding_name": "WPP PLC ADR",
+      "weight": 0.0244929,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "WPP PLC ADR",
+      "holding_name_zh": null,
+      "display_name": "WPP PLC ADR",
+      "display_label": "(WPP)WPP PLC ADR",
+      "bilingual_name": "WPP PLC ADR"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "CNC",
+      "holding_name": "Centene Corp",
+      "weight": 0.0240569,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Centene Corp",
+      "holding_name_zh": null,
+      "display_name": "Centene Corp",
+      "display_label": "(CNC)Centene Corp",
+      "bilingual_name": "Centene Corp"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.332262,
+    "top_3_weight": 0.131206
   },
   "research": {
     "tier": "context",
