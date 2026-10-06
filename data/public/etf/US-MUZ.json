@@ -63,19 +63,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -117.7076,
+      "value": -116.3091,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 176.4015,
+      "value": 175.4244,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.1356,
+      "value": -0.0791,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3254,
+      "value": 0.3294,
       "unit": "years"
     },
     "max_drawdown": {
@@ -87,18 +87,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -67.0673,
+      "value": -66.1058,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 386.8813,
+      "value": 436.0547,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-05",
-    "value": 6.85,
+    "date": "2026-10-06",
+    "value": 7.05,
     "currency": "USD"
   },
   "trend": [
@@ -429,21 +429,25 @@
     {
       "date": "2026-10-05",
       "value": 32.93
+    },
+    {
+      "date": "2026-10-06",
+      "value": 33.89
     }
   ],
   "price_history": {
     "first_date": "2026-06-09",
-    "last_date": "2026-10-05",
-    "observations": 82,
+    "last_date": "2026-10-06",
+    "observations": 83,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-05",
-    "latest_volume": 5441400.0,
-    "average_volume_20d": 10032425.0,
-    "average_dollar_volume_20d": 73776389.7465,
-    "relative_volume_20d": 0.5424,
+    "as_of": "2026-10-06",
+    "latest_volume": 6733019.0,
+    "average_volume_20d": 10005110.95,
+    "average_dollar_volume_20d": 73165266.0776,
+    "relative_volume_20d": 0.673,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -453,7 +457,7 @@
       "etf_id": "US-MUZ",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.0061073,
+      "weight": 0.0990609,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -466,8 +470,8 @@
   ],
   "holdings_summary": {
     "holding_count": 1,
-    "top_10_weight": 0.006107,
-    "top_3_weight": 0.006107
+    "top_10_weight": 0.099061,
+    "top_3_weight": 0.099061
   },
   "research": {
     "tier": "tactical",

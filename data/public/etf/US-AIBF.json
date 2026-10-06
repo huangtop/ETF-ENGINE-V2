@@ -52,8 +52,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-05",
-    "value": 24.93,
+    "date": "2026-10-06",
+    "value": 25.1418,
     "currency": "USD"
   },
   "trend": [
@@ -92,30 +92,175 @@
     {
       "date": "2026-10-05",
       "value": 99.36
+    },
+    {
+      "date": "2026-10-06",
+      "value": 100.21
     }
   ],
   "price_history": {
     "first_date": "2026-09-23",
-    "last_date": "2026-10-05",
-    "observations": 9,
+    "last_date": "2026-10-06",
+    "observations": 10,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-05",
-    "latest_volume": 17500.0,
-    "average_volume_20d": 18100.0,
-    "average_dollar_volume_20d": 450055.2211,
-    "relative_volume_20d": 0.9669,
+    "as_of": "2026-10-06",
+    "latest_volume": 10686.0,
+    "average_volume_20d": 17358.6,
+    "average_dollar_volume_20d": 431916.2264,
+    "relative_volume_20d": 0.6156,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 9
+    "observation_count": 10
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "WMT",
+      "holding_name": "Walmart Inc",
+      "weight": 0.0392435,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Walmart Inc",
+      "holding_name_zh": null,
+      "display_name": "Walmart Inc",
+      "display_label": "(WMT)Walmart Inc",
+      "bilingual_name": "Walmart Inc"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "COST",
+      "holding_name": "Costco Wholesale Corp",
+      "weight": 0.0386098,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Costco Wholesale Corp",
+      "holding_name_zh": null,
+      "display_name": "Costco Wholesale Corp",
+      "display_label": "(COST)Costco Wholesale Corp",
+      "bilingual_name": "Costco Wholesale Corp"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "ABBV",
+      "holding_name": "AbbVie Inc",
+      "weight": 0.038043,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "AbbVie Inc",
+      "holding_name_zh": "艾伯維",
+      "display_name": "艾伯維",
+      "display_label": "(ABBV)艾伯維",
+      "bilingual_name": "AbbVie Inc（艾伯維）"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "LLY",
+      "holding_name": "Eli Lilly and Co",
+      "weight": 0.0375468,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Eli Lilly and Co",
+      "holding_name_zh": null,
+      "display_name": "Eli Lilly and Co",
+      "display_label": "(LLY)Eli Lilly and Co",
+      "bilingual_name": "Eli Lilly and Co"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "JNJ",
+      "holding_name": "Johnson & Johnson",
+      "weight": 0.0359249,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Johnson & Johnson",
+      "holding_name_zh": null,
+      "display_name": "Johnson & Johnson",
+      "display_label": "(JNJ)Johnson & Johnson",
+      "bilingual_name": "Johnson & Johnson"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "PANW",
+      "holding_name": "Palo Alto Networks Inc",
+      "weight": 0.0342693,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Palo Alto Networks Inc",
+      "holding_name_zh": "Palo Alto Networks",
+      "display_name": "Palo Alto Networks",
+      "display_label": "(PANW)Palo Alto Networks",
+      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "KO",
+      "holding_name": "Coca-Cola Co",
+      "weight": 0.0312965,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Coca-Cola Co",
+      "holding_name_zh": null,
+      "display_name": "Coca-Cola Co",
+      "display_label": "(KO)Coca-Cola Co",
+      "bilingual_name": "Coca-Cola Co"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "PG",
+      "holding_name": "Procter & Gamble Co",
+      "weight": 0.0309584,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Procter & Gamble Co",
+      "holding_name_zh": null,
+      "display_name": "Procter & Gamble Co",
+      "display_label": "(PG)Procter & Gamble Co",
+      "bilingual_name": "Procter & Gamble Co"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "GE",
+      "holding_name": "GE Aerospace",
+      "weight": 0.0297732,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "GE Aerospace",
+      "holding_name_zh": null,
+      "display_name": "GE Aerospace",
+      "display_label": "(GE)GE Aerospace",
+      "bilingual_name": "GE Aerospace"
+    },
+    {
+      "etf_id": "US-AIBF",
+      "holding_symbol": "MRK",
+      "holding_name": "Merck & Co Inc",
+      "weight": 0.0291562,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Merck & Co Inc",
+      "holding_name_zh": null,
+      "display_name": "Merck & Co Inc",
+      "display_label": "(MRK)Merck & Co Inc",
+      "bilingual_name": "Merck & Co Inc"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.344822,
+    "top_3_weight": 0.115896
   },
   "research": {
     "tier": "context",

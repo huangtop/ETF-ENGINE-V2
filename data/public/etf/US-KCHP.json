@@ -56,8 +56,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-05",
-    "value": 28.98,
+    "date": "2026-10-06",
+    "value": 28.6896,
     "currency": "USD"
   },
   "trend": [
@@ -120,30 +120,175 @@
     {
       "date": "2026-10-05",
       "value": 122.07
+    },
+    {
+      "date": "2026-10-06",
+      "value": 120.85
     }
   ],
   "price_history": {
     "first_date": "2026-09-15",
-    "last_date": "2026-10-05",
-    "observations": 15,
+    "last_date": "2026-10-06",
+    "observations": 16,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-05",
-    "latest_volume": 2900.0,
-    "average_volume_20d": 6260.0,
-    "average_dollar_volume_20d": 162689.4008,
-    "relative_volume_20d": 0.4633,
+    "as_of": "2026-10-06",
+    "latest_volume": 1185.0,
+    "average_volume_20d": 5942.8125,
+    "average_dollar_volume_20d": 154646.1367,
+    "relative_volume_20d": 0.1994,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 15
+    "observation_count": 16
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "005930.KQ",
+      "holding_name": "Samsung Electronics Co Ltd",
+      "weight": 0.1926516,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Samsung Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd",
+      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
+      "bilingual_name": "Samsung Electronics Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "000660.KQ",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.1556394,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "SK hynix Inc",
+      "holding_name_zh": null,
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KQ)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "036930.KQ",
+      "holding_name": "Jusung Engineering Co Ltd",
+      "weight": 0.0573049,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Jusung Engineering Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Jusung Engineering Co Ltd",
+      "display_label": "(036930.KQ)Jusung Engineering Co Ltd",
+      "bilingual_name": "Jusung Engineering Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "007660.KQ",
+      "holding_name": "Isupetasys Co Ltd",
+      "weight": 0.0532706,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Isupetasys Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Isupetasys Co Ltd",
+      "display_label": "(007660.KQ)Isupetasys Co Ltd",
+      "bilingual_name": "Isupetasys Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "042700.KQ",
+      "holding_name": "HANMI Semiconductor Co Ltd",
+      "weight": 0.0498739,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "HANMI Semiconductor Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "HANMI Semiconductor Co Ltd",
+      "display_label": "(042700.KQ)HANMI Semiconductor Co Ltd",
+      "bilingual_name": "HANMI Semiconductor Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "039030.KQ",
+      "holding_name": "EO Technics Co Ltd",
+      "weight": 0.0427218,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "EO Technics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "EO Technics Co Ltd",
+      "display_label": "(039030.KQ)EO Technics Co Ltd",
+      "bilingual_name": "EO Technics Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "353200.KQ",
+      "holding_name": "Daeduck Electronics Ordinary Shares",
+      "weight": 0.0413666,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Daeduck Electronics Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Daeduck Electronics Ordinary Shares",
+      "display_label": "(353200.KQ)Daeduck Electronics Ordinary Shares",
+      "bilingual_name": "Daeduck Electronics Ordinary Shares"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "222800.KQ",
+      "holding_name": "Simmtech Co Ltd",
+      "weight": 0.040338,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Simmtech Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Simmtech Co Ltd",
+      "display_label": "(222800.KQ)Simmtech Co Ltd",
+      "bilingual_name": "Simmtech Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "000990.KQ",
+      "holding_name": "DB HiTek Co Ltd",
+      "weight": 0.0396536,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "DB HiTek Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "DB HiTek Co Ltd",
+      "display_label": "(000990.KQ)DB HiTek Co Ltd",
+      "bilingual_name": "DB HiTek Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "009150.KQ",
+      "holding_name": "Samsung Electro-Mechanics Co Ltd",
+      "weight": 0.0372915,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Samsung Electro-Mechanics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electro-Mechanics Co Ltd",
+      "display_label": "(009150.KQ)Samsung Electro-Mechanics Co Ltd",
+      "bilingual_name": "Samsung Electro-Mechanics Co Ltd"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.710112,
+    "top_3_weight": 0.405596
   },
   "research": {
     "tier": "context",
