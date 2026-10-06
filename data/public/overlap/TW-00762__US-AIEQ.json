@@ -1,14 +1,26 @@
 {
   "left_etf_id": "TW-00762",
   "right_etf_id": "US-AIEQ",
-  "overlap_ratio": 0.024676,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.114241,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
       "left_weight": 0.085885,
-      "right_weight": 0.024676,
-      "overlap_weight": 0.024676
+      "right_weight": 0.046017,
+      "overlap_weight": 0.046017
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.103573,
+      "right_weight": 0.034683,
+      "overlap_weight": 0.034683
+    },
+    {
+      "holding_symbol": "GOOGL",
+      "left_weight": 0.075594,
+      "right_weight": 0.033541,
+      "overlap_weight": 0.033541
     }
   ]
 }

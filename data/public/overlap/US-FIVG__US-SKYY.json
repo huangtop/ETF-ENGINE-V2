@@ -1,13 +1,19 @@
 {
   "left_etf_id": "US-FIVG",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0.02623,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.058228,
+  "shared_holdings_count": 2,
   "shared_holdings": [
+    {
+      "holding_symbol": "ORCL",
+      "left_weight": 0.047151,
+      "right_weight": 0.031998,
+      "overlap_weight": 0.031998
+    },
     {
       "holding_symbol": "ANET",
       "left_weight": 0.02623,
-      "right_weight": 0.039178,
+      "right_weight": 0.036156,
       "overlap_weight": 0.02623
     }
   ]

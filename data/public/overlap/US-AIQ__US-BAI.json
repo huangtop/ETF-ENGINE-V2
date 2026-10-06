@@ -1,20 +1,38 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-BAI",
-  "overlap_ratio": 0.058096,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.152332,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
+      "holding_symbol": "INTC",
+      "left_weight": 0.032282,
+      "right_weight": 0.031906,
+      "overlap_weight": 0.031906
+    },
+    {
       "holding_symbol": "SPCX",
-      "left_weight": 0.03314,
-      "right_weight": 0.029254,
-      "overlap_weight": 0.029254
+      "left_weight": 0.034339,
+      "right_weight": 0.030928,
+      "overlap_weight": 0.030928
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.030511,
+      "right_weight": 0.054357,
+      "overlap_weight": 0.030511
+    },
+    {
+      "holding_symbol": "TSM",
+      "left_weight": 0.029542,
+      "right_weight": 0.046937,
+      "overlap_weight": 0.029542
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.053437,
-      "overlap_weight": 0.028842
+      "left_weight": 0.029445,
+      "right_weight": 0.052663,
+      "overlap_weight": 0.029445
     }
   ]
 }

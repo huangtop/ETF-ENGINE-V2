@@ -1,26 +1,38 @@
 {
   "left_etf_id": "US-IGPT",
   "right_etf_id": "US-SOXQ",
-  "overlap_ratio": 0.211653,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.290256,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.090176,
-      "right_weight": 0.140785,
-      "overlap_weight": 0.090176
+      "holding_symbol": "MU",
+      "left_weight": 0.081474,
+      "right_weight": 0.081276,
+      "overlap_weight": 0.081276
     },
     {
-      "holding_symbol": "MU",
-      "left_weight": 0.080539,
-      "right_weight": 0.08864,
-      "overlap_weight": 0.080539
+      "holding_symbol": "NVDA",
+      "left_weight": 0.078186,
+      "right_weight": 0.113527,
+      "overlap_weight": 0.078186
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.050395,
+      "right_weight": 0.049139,
+      "overlap_weight": 0.049139
     },
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.080647,
-      "right_weight": 0.040938,
-      "overlap_weight": 0.040938
+      "left_weight": 0.090814,
+      "right_weight": 0.047548,
+      "overlap_weight": 0.047548
+    },
+    {
+      "holding_symbol": "MRVL",
+      "left_weight": 0.034107,
+      "right_weight": 0.045668,
+      "overlap_weight": 0.034107
     }
   ]
 }

@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-CHAT",
   "right_etf_id": "US-DRIV",
-  "overlap_ratio": 0.059125,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.100727,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.037638,
+      "right_weight": 0.040884,
+      "overlap_weight": 0.037638
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.072395,
-      "right_weight": 0.031384,
-      "overlap_weight": 0.031384
+      "left_weight": 0.069248,
+      "right_weight": 0.033803,
+      "overlap_weight": 0.033803
     },
     {
       "holding_symbol": "GOOGL",
-      "left_weight": 0.055589,
-      "right_weight": 0.027741,
-      "overlap_weight": 0.027741
+      "left_weight": 0.054534,
+      "right_weight": 0.029286,
+      "overlap_weight": 0.029286
     }
   ]
 }

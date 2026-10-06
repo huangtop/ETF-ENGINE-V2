@@ -1,44 +1,32 @@
 {
   "left_etf_id": "US-CHPS",
   "right_etf_id": "US-SMH",
-  "overlap_ratio": 0.282206,
-  "shared_holdings_count": 6,
+  "overlap_ratio": 0.198482,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
+      "holding_symbol": "AMD",
+      "left_weight": 0.052742,
+      "right_weight": 0.05541,
+      "overlap_weight": 0.052742
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.053529,
-      "right_weight": 0.226254,
-      "overlap_weight": 0.053529
+      "left_weight": 0.049926,
+      "right_weight": 0.193104,
+      "overlap_weight": 0.049926
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.049929,
-      "right_weight": 0.054504,
-      "overlap_weight": 0.049929
+      "left_weight": 0.050042,
+      "right_weight": 0.049249,
+      "overlap_weight": 0.049249
     },
     {
-      "holding_symbol": "AVGO",
-      "left_weight": 0.047054,
-      "right_weight": 0.061077,
-      "overlap_weight": 0.047054
-    },
-    {
-      "holding_symbol": "AMD",
-      "left_weight": 0.044954,
-      "right_weight": 0.053628,
-      "overlap_weight": 0.044954
-    },
-    {
-      "holding_symbol": "LRCX",
-      "left_weight": 0.044716,
-      "right_weight": 0.04399,
-      "overlap_weight": 0.04399
-    },
-    {
-      "holding_symbol": "TXN",
-      "left_weight": 0.04275,
-      "right_weight": 0.043012,
-      "overlap_weight": 0.04275
+      "holding_symbol": "INTC",
+      "left_weight": 0.048671,
+      "right_weight": 0.046565,
+      "overlap_weight": 0.046565
     }
   ]
 }

@@ -1,7 +1,20 @@
 {
   "left_etf_id": "US-ARTY",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.061719,
+  "shared_holdings_count": 2,
+  "shared_holdings": [
+    {
+      "holding_symbol": "ORCL",
+      "left_weight": 0.037637,
+      "right_weight": 0.031998,
+      "overlap_weight": 0.031998
+    },
+    {
+      "holding_symbol": "CRWV",
+      "left_weight": 0.042363,
+      "right_weight": 0.029721,
+      "overlap_weight": 0.029721
+    }
+  ]
 }

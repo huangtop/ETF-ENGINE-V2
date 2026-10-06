@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-ARTY",
   "right_etf_id": "US-THNQ",
-  "overlap_ratio": 0.023955,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.070408,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "AMD",
+      "left_weight": 0.055966,
+      "right_weight": 0.024325,
+      "overlap_weight": 0.024325
+    },
+    {
       "holding_symbol": "3443.TW",
-      "left_weight": 0.039574,
-      "right_weight": 0.023955,
-      "overlap_weight": 0.023955
+      "left_weight": 0.038168,
+      "right_weight": 0.023879,
+      "overlap_weight": 0.023879
+    },
+    {
+      "holding_symbol": "MRVL",
+      "left_weight": 0.051415,
+      "right_weight": 0.022204,
+      "overlap_weight": 0.022204
     }
   ]
 }

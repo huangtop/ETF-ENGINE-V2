@@ -53,7 +53,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-10-05",
-    "value": 25.385,
+    "value": 25.39,
     "currency": "USD"
   },
   "trend": [
@@ -111,7 +111,7 @@
     },
     {
       "date": "2026-10-05",
-      "value": 98.43
+      "value": 98.45
     }
   ],
   "price_history": {
@@ -123,19 +123,104 @@
   },
   "liquidity": {
     "as_of": "2026-10-05",
-    "latest_volume": 1979.0,
-    "average_volume_20d": 7605.6429,
-    "average_dollar_volume_20d": 202141.1379,
-    "relative_volume_20d": 0.2602,
+    "latest_volume": 2000.0,
+    "average_volume_20d": 7607.1429,
+    "average_dollar_volume_20d": 202179.9296,
+    "relative_volume_20d": 0.2629,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 14
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.1081977,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "688041.SS",
+      "holding_name": "Hygon Information Technology Co Ltd Class A",
+      "weight": 0.06489649,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Hygon Information Technology Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Hygon Information Technology Co Ltd Class A",
+      "display_label": "(688041.SS)Hygon Information Technology Co Ltd Class A",
+      "bilingual_name": "Hygon Information Technology Co Ltd Class A"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "300308.SZ",
+      "holding_name": "Zhongji Innolight Co Ltd Class A",
+      "weight": 0.06425749,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Zhongji Innolight Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Zhongji Innolight Co Ltd Class A",
+      "display_label": "(300308.SZ)Zhongji Innolight Co Ltd Class A",
+      "bilingual_name": "Zhongji Innolight Co Ltd Class A"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "688008.SS",
+      "holding_name": "Montage Technology Co Ltd Class A",
+      "weight": 0.0619087,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Montage Technology Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Montage Technology Co Ltd Class A",
+      "display_label": "(688008.SS)Montage Technology Co Ltd Class A",
+      "bilingual_name": "Montage Technology Co Ltd Class A"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "300502.SZ",
+      "holding_name": "Eoptolink Technology Inc Ltd Class A",
+      "weight": 0.0556538,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Eoptolink Technology Inc Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Eoptolink Technology Inc Ltd Class A",
+      "display_label": "(300502.SZ)Eoptolink Technology Inc Ltd Class A",
+      "bilingual_name": "Eoptolink Technology Inc Ltd Class A"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "2513.HK",
+      "holding_name": "Z.AI Co Ltd Ordinary Shares - Class H",
+      "weight": 0.0522455,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Z.AI Co Ltd Ordinary Shares - Class H",
+      "holding_name_zh": null,
+      "display_name": "Z.AI Co Ltd Ordinary Shares - Class H",
+      "display_label": "(2513.HK)Z.AI Co Ltd Ordinary Shares - Class H",
+      "bilingual_name": "Z.AI Co Ltd Ordinary Shares - Class H"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 6,
+    "top_10_weight": 0.40716,
+    "top_3_weight": 0.237352
   },
   "research": {
     "tier": "context",

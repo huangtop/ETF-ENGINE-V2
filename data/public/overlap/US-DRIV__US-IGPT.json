@@ -1,26 +1,26 @@
 {
   "left_etf_id": "US-DRIV",
   "right_etf_id": "US-IGPT",
-  "overlap_ratio": 0.085464,
+  "overlap_ratio": 0.099978,
   "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "INTC",
+      "left_weight": 0.036889,
+      "right_weight": 0.050395,
+      "overlap_weight": 0.036889
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.031384,
-      "right_weight": 0.090176,
-      "overlap_weight": 0.031384
+      "left_weight": 0.033803,
+      "right_weight": 0.078186,
+      "overlap_weight": 0.033803
     },
     {
       "holding_symbol": "GOOGL",
-      "left_weight": 0.027741,
-      "right_weight": 0.079382,
-      "overlap_weight": 0.027741
-    },
-    {
-      "holding_symbol": "INTC",
-      "left_weight": 0.026339,
-      "right_weight": 0.036024,
-      "overlap_weight": 0.026339
+      "left_weight": 0.029286,
+      "right_weight": 0.07733,
+      "overlap_weight": 0.029286
     }
   ]
 }

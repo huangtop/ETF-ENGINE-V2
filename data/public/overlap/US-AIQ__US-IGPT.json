@@ -1,20 +1,32 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-IGPT",
-  "overlap_ratio": 0.057969,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.124433,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
-      "holding_symbol": "GOOGL",
-      "left_weight": 0.029127,
-      "right_weight": 0.079382,
-      "overlap_weight": 0.029127
+      "holding_symbol": "INTC",
+      "left_weight": 0.032282,
+      "right_weight": 0.050395,
+      "overlap_weight": 0.032282
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.032195,
+      "right_weight": 0.084132,
+      "overlap_weight": 0.032195
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.030511,
+      "right_weight": 0.090814,
+      "overlap_weight": 0.030511
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.090176,
-      "overlap_weight": 0.028842
+      "left_weight": 0.029445,
+      "right_weight": 0.078186,
+      "overlap_weight": 0.029445
     }
   ]
 }

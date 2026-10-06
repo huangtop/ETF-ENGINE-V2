@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-BAI",
   "right_etf_id": "US-IGPT",
-  "overlap_ratio": 0.164712,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.20476,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
       "holding_symbol": "MU",
-      "left_weight": 0.063745,
-      "right_weight": 0.080539,
-      "overlap_weight": 0.063745
-    },
-    {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.053437,
-      "right_weight": 0.090176,
-      "overlap_weight": 0.053437
+      "left_weight": 0.065834,
+      "right_weight": 0.081474,
+      "overlap_weight": 0.065834
     },
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.04753,
-      "right_weight": 0.080647,
-      "overlap_weight": 0.04753
+      "left_weight": 0.054357,
+      "right_weight": 0.090814,
+      "overlap_weight": 0.054357
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.052663,
+      "right_weight": 0.078186,
+      "overlap_weight": 0.052663
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.031906,
+      "right_weight": 0.050395,
+      "overlap_weight": 0.031906
     }
   ]
 }

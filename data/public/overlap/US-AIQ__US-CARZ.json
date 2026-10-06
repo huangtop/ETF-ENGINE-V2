@@ -1,38 +1,44 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-CARZ",
-  "overlap_ratio": 0.153752,
-  "shared_holdings_count": 5,
+  "overlap_ratio": 0.187824,
+  "shared_holdings_count": 6,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.036248,
-      "right_weight": 0.061225,
-      "overlap_weight": 0.036248
+      "left_weight": 0.03617,
+      "right_weight": 0.06071,
+      "overlap_weight": 0.03617
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.032282,
+      "right_weight": 0.048603,
+      "overlap_weight": 0.032282
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.030511,
+      "right_weight": 0.050907,
+      "overlap_weight": 0.030511
     },
     {
       "holding_symbol": "TSLA",
-      "left_weight": 0.031391,
-      "right_weight": 0.041987,
-      "overlap_weight": 0.031391
+      "left_weight": 0.029874,
+      "right_weight": 0.039707,
+      "overlap_weight": 0.029874
     },
     {
-      "holding_symbol": "GOOGL",
-      "left_weight": 0.029127,
-      "right_weight": 0.043859,
-      "overlap_weight": 0.029127
+      "holding_symbol": "TSM",
+      "left_weight": 0.029542,
+      "right_weight": 0.047499,
+      "overlap_weight": 0.029542
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.050507,
-      "overlap_weight": 0.028842
-    },
-    {
-      "holding_symbol": "005930.KQ",
-      "left_weight": 0.028144,
-      "right_weight": 0.04774,
-      "overlap_weight": 0.028144
+      "left_weight": 0.029445,
+      "right_weight": 0.051239,
+      "overlap_weight": 0.029445
     }
   ]
 }

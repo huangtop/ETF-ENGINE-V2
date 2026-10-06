@@ -1,7 +1,26 @@
 {
   "left_etf_id": "US-MAGS",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.132336,
+  "shared_holdings_count": 3,
+  "shared_holdings": [
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.057869,
+      "right_weight": 0.050686,
+      "overlap_weight": 0.050686
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.065214,
+      "right_weight": 0.042976,
+      "overlap_weight": 0.042976
+    },
+    {
+      "holding_symbol": "AMZN",
+      "left_weight": 0.052762,
+      "right_weight": 0.038674,
+      "overlap_weight": 0.038674
+    }
+  ]
 }

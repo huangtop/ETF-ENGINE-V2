@@ -57,7 +57,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-10-05",
-    "value": 25.9964,
+    "value": 26.0,
     "currency": "USD"
   },
   "trend": [
@@ -119,7 +119,7 @@
     },
     {
       "date": "2026-10-05",
-      "value": 104.07
+      "value": 104.08
     }
   ],
   "price_history": {
@@ -131,19 +131,34 @@
   },
   "liquidity": {
     "as_of": "2026-10-05",
-    "latest_volume": 161.0,
-    "average_volume_20d": 2964.0667,
-    "average_dollar_volume_20d": 74284.9603,
-    "relative_volume_20d": 0.0543,
+    "latest_volume": 200.0,
+    "average_volume_20d": 2966.6667,
+    "average_dollar_volume_20d": 74352.5989,
+    "relative_volume_20d": 0.0674,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 15
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-QSE",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.0102308,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 1,
+    "top_10_weight": 0.010231,
+    "top_3_weight": 0.010231
   },
   "research": {
     "tier": "context",

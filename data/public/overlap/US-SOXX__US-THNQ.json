@@ -1,7 +1,20 @@
 {
   "left_etf_id": "US-SOXX",
   "right_etf_id": "US-THNQ",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.046529,
+  "shared_holdings_count": 2,
+  "shared_holdings": [
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.092801,
+      "right_weight": 0.024325,
+      "overlap_weight": 0.024325
+    },
+    {
+      "holding_symbol": "MRVL",
+      "left_weight": 0.044567,
+      "right_weight": 0.022204,
+      "overlap_weight": 0.022204
+    }
+  ]
 }

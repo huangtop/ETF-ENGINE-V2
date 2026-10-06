@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-XSD",
-  "overlap_ratio": 0.028842,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.053261,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.030422,
-      "overlap_weight": 0.028842
+      "holding_symbol": "AMD",
+      "left_weight": 0.030511,
+      "right_weight": 0.02712,
+      "overlap_weight": 0.02712
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.032282,
+      "right_weight": 0.026141,
+      "overlap_weight": 0.026141
     }
   ]
 }

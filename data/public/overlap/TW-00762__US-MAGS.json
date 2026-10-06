@@ -1,14 +1,26 @@
 {
   "left_etf_id": "TW-00762",
   "right_etf_id": "US-MAGS",
-  "overlap_ratio": 0.068626,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.192906,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
       "left_weight": 0.103573,
-      "right_weight": 0.068626,
-      "overlap_weight": 0.068626
+      "right_weight": 0.069823,
+      "overlap_weight": 0.069823
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.080244,
+      "right_weight": 0.065214,
+      "overlap_weight": 0.065214
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.085885,
+      "right_weight": 0.057869,
+      "overlap_weight": 0.057869
     }
   ]
 }

@@ -59,7 +59,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.4717,
+      "value": -0.6089,
       "unit": "percent"
     },
     "annualized_return": {
@@ -67,15 +67,15 @@
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.8523,
+      "value": 14.8145,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.014,
+      "value": 1.022,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,7 +83,7 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.9876,
+      "value": 0.9901,
       "unit": "ratio"
     },
     "total_return_1y": {
@@ -91,7 +91,7 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 6.7926,
+      "value": 6.5031,
       "unit": "percent"
     }
   },
@@ -3068,7 +3068,7 @@
     },
     {
       "date": "2026-09-15",
-      "value": 170.32
+      "value": 168.75
     },
     {
       "date": "2026-09-16",
@@ -3080,7 +3080,7 @@
     },
     {
       "date": "2026-09-18",
-      "value": 173.67
+      "value": 172.06
     },
     {
       "date": "2026-09-21",
@@ -3136,10 +3136,10 @@
   },
   "liquidity": {
     "as_of": "2026-10-05",
-    "latest_volume": 8081625.0,
-    "average_volume_20d": 5688276.25,
-    "average_dollar_volume_20d": 342073622.4149,
-    "relative_volume_20d": 1.4208,
+    "latest_volume": 8112200.0,
+    "average_volume_20d": 5690735.0,
+    "average_dollar_volume_20d": 341983734.7255,
+    "relative_volume_20d": 1.4255,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3149,7 +3149,7 @@
       "etf_id": "US-JEPQ",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0729175,
+      "weight": 0.0735526,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3163,7 +3163,7 @@
       "etf_id": "US-JEPQ",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
-      "weight": 0.0631159,
+      "weight": 0.0640072,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3177,7 +3177,7 @@
       "etf_id": "US-JEPQ",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0527187,
+      "weight": 0.0518964,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3189,26 +3189,12 @@
     },
     {
       "etf_id": "US-JEPQ",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0475989,
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0494294,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Alphabet Inc Class C",
-      "holding_name_zh": "Alphabet C類股",
-      "display_name": "Alphabet C類股",
-      "display_label": "(GOOG)Alphabet C類股",
-      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
-    },
-    {
-      "etf_id": "US-JEPQ",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.045853,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Micron Technology Inc",
       "holding_name_zh": "美光科技",
       "display_name": "美光科技",
@@ -3217,26 +3203,26 @@
     },
     {
       "etf_id": "US-JEPQ",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0397972,
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0471463,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Amazon.com Inc",
-      "holding_name_zh": "亞馬遜",
-      "display_name": "亞馬遜",
-      "display_label": "(AMZN)亞馬遜",
-      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+      "rank": 5,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0309596,
+      "weight": 0.0393679,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Advanced Micro Devices Inc",
       "holding_name_zh": "超微半導體",
       "display_name": "超微半導體",
@@ -3245,9 +3231,23 @@
     },
     {
       "etf_id": "US-JEPQ",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0371807,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "US-JEPQ",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0239112,
+      "weight": 0.0296397,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -3259,23 +3259,23 @@
     },
     {
       "etf_id": "US-JEPQ",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0209092,
+      "holding_symbol": "LRCX",
+      "holding_name": "Lam Research Corp",
+      "weight": 0.0210861,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Broadcom Inc",
-      "holding_name_zh": "博通",
-      "display_name": "博通",
-      "display_label": "(AVGO)博通",
-      "bilingual_name": "Broadcom Inc（博通）"
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     },
     {
       "etf_id": "US-JEPQ",
       "holding_symbol": "TSLA",
       "holding_name": "Tesla Inc",
-      "weight": 0.0209081,
+      "weight": 0.0200385,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -3288,8 +3288,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.418689,
-    "top_3_weight": 0.188752
+    "top_10_weight": 0.433345,
+    "top_3_weight": 0.189456
   },
   "research": {
     "tier": "context",

@@ -1,26 +1,20 @@
 {
   "left_etf_id": "US-IFRA",
   "right_etf_id": "US-PAVE",
-  "overlap_ratio": 0.09032,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.061745,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "PWR",
+      "left_weight": 0.039394,
+      "right_weight": 0.032325,
+      "overlap_weight": 0.032325
+    },
+    {
       "holding_symbol": "UNP",
-      "left_weight": 0.04605,
-      "right_weight": 0.031108,
-      "overlap_weight": 0.031108
-    },
-    {
-      "holding_symbol": "CSX",
-      "left_weight": 0.035448,
-      "right_weight": 0.030113,
-      "overlap_weight": 0.030113
-    },
-    {
-      "holding_symbol": "NSC",
-      "left_weight": 0.029099,
-      "right_weight": 0.030962,
-      "overlap_weight": 0.029099
+      "left_weight": 0.040291,
+      "right_weight": 0.02942,
+      "overlap_weight": 0.02942
     }
   ]
 }

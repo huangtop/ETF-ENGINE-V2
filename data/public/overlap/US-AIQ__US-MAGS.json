@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-MAGS",
-  "overlap_ratio": 0.036248,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.09781,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.036248,
-      "right_weight": 0.068626,
-      "overlap_weight": 0.036248
+      "left_weight": 0.03617,
+      "right_weight": 0.069823,
+      "overlap_weight": 0.03617
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.032195,
+      "right_weight": 0.065214,
+      "overlap_weight": 0.032195
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.029445,
+      "right_weight": 0.057869,
+      "overlap_weight": 0.029445
     }
   ]
 }

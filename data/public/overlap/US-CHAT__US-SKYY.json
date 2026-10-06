@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-CHAT",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0.05835,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.103066,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "AMZN",
-      "left_weight": 0.029864,
-      "right_weight": 0.030644,
-      "overlap_weight": 0.029864
+      "holding_symbol": "GOOGL",
+      "left_weight": 0.054534,
+      "right_weight": 0.035237,
+      "overlap_weight": 0.035237
     },
     {
-      "holding_symbol": "GOOGL",
-      "left_weight": 0.055589,
-      "right_weight": 0.028486,
-      "overlap_weight": 0.028486
+      "holding_symbol": "MSFT",
+      "left_weight": 0.037638,
+      "right_weight": 0.035137,
+      "overlap_weight": 0.035137
+    },
+    {
+      "holding_symbol": "AMZN",
+      "left_weight": 0.032692,
+      "right_weight": 0.033332,
+      "overlap_weight": 0.032692
     }
   ]
 }

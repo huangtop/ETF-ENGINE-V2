@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-DRIV",
   "right_etf_id": "US-MAGS",
-  "overlap_ratio": 0.038828,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.074687,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.038828,
-      "right_weight": 0.068626,
-      "overlap_weight": 0.038828
+      "left_weight": 0.040884,
+      "right_weight": 0.069823,
+      "overlap_weight": 0.040884
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.033803,
+      "right_weight": 0.057869,
+      "overlap_weight": 0.033803
     }
   ]
 }

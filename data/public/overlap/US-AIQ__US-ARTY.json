@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-ARTY",
-  "overlap_ratio": 0.064325,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.090739,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "PLTR",
-      "left_weight": 0.041197,
-      "right_weight": 0.035483,
-      "overlap_weight": 0.035483
+      "holding_symbol": "ORCL",
+      "left_weight": 0.030783,
+      "right_weight": 0.037637,
+      "overlap_weight": 0.030783
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.030511,
+      "right_weight": 0.055966,
+      "overlap_weight": 0.030511
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.049117,
-      "overlap_weight": 0.028842
+      "left_weight": 0.029445,
+      "right_weight": 0.04471,
+      "overlap_weight": 0.029445
     }
   ]
 }

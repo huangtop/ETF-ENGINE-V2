@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-THNQ",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.027806,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.045443,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "META",
+      "left_weight": 0.023048,
+      "right_weight": 0.042976,
+      "overlap_weight": 0.023048
+    },
+    {
       "holding_symbol": "PANW",
-      "left_weight": 0.027806,
-      "right_weight": 0.036529,
-      "overlap_weight": 0.027806
+      "left_weight": 0.022395,
+      "right_weight": 0.03542,
+      "overlap_weight": 0.022395
     }
   ]
 }

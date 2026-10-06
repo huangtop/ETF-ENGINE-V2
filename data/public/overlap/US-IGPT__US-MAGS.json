@@ -1,7 +1,20 @@
 {
   "left_etf_id": "US-IGPT",
   "right_etf_id": "US-MAGS",
-  "overlap_ratio": 0,
-  "shared_holdings_count": 0,
-  "shared_holdings": []
+  "overlap_ratio": 0.123083,
+  "shared_holdings_count": 2,
+  "shared_holdings": [
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.084132,
+      "right_weight": 0.065214,
+      "overlap_weight": 0.065214
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.078186,
+      "right_weight": 0.057869,
+      "overlap_weight": 0.057869
+    }
+  ]
 }

@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-DRIV",
   "right_etf_id": "US-USD",
-  "overlap_ratio": 0.031384,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.055284,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.031384,
-      "right_weight": 0.20015,
-      "overlap_weight": 0.031384
+      "left_weight": 0.033803,
+      "right_weight": 0.198724,
+      "overlap_weight": 0.033803
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.036889,
+      "right_weight": 0.021481,
+      "overlap_weight": 0.021481
     }
   ]
 }

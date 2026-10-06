@@ -1,14 +1,32 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-SOXQ",
-  "overlap_ratio": 0.028842,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.12178,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
+      "holding_symbol": "INTC",
+      "left_weight": 0.032282,
+      "right_weight": 0.049139,
+      "overlap_weight": 0.032282
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.030511,
+      "right_weight": 0.047548,
+      "overlap_weight": 0.030511
+    },
+    {
+      "holding_symbol": "TSM",
+      "left_weight": 0.029542,
+      "right_weight": 0.040184,
+      "overlap_weight": 0.029542
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.028842,
-      "right_weight": 0.140785,
-      "overlap_weight": 0.028842
+      "left_weight": 0.029445,
+      "right_weight": 0.113527,
+      "overlap_weight": 0.029445
     }
   ]
 }
