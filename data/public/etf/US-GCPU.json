@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.5414,
+      "value": -31.0869,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 61.9998,
+      "value": 62.1099,
       "unit": "percent"
     },
     "beta": {
-      "value": 3.4255,
+      "value": 3.5103,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.123,
+      "value": 0.127,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -11.6046,
+      "value": -13.8577,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 5.3685,
+      "value": 1.2289,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 57.2652,
+      "value": 57.3677,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-06",
-    "value": 35.172,
+    "date": "2026-10-07",
+    "value": 33.7902,
     "currency": "USD"
   },
   "trend": [
@@ -213,30 +213,175 @@
     {
       "date": "2026-10-06",
       "value": 105.37
+    },
+    {
+      "date": "2026-10-07",
+      "value": 101.23
     }
   ],
   "price_history": {
     "first_date": "2026-08-24",
-    "last_date": "2026-10-06",
-    "observations": 31,
+    "last_date": "2026-10-07",
+    "observations": 32,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-06",
-    "latest_volume": 2900.0,
-    "average_volume_20d": 5380.0,
-    "average_dollar_volume_20d": 196498.2413,
-    "relative_volume_20d": 0.539,
+    "as_of": "2026-10-07",
+    "latest_volume": 1280.0,
+    "average_volume_20d": 5384.0,
+    "average_dollar_volume_20d": 196493.9742,
+    "relative_volume_20d": 0.2377,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "CRWV",
+      "holding_name": "CoreWeave Inc Ordinary Shares - Class A",
+      "weight": 0.0882836,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "CoreWeave Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "CoreWeave Inc Ordinary Shares - Class A",
+      "display_label": "(CRWV)CoreWeave Inc Ordinary Shares - Class A",
+      "bilingual_name": "CoreWeave Inc Ordinary Shares - Class A"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "NBIS",
+      "holding_name": "Nebius Group NV Shs Class-A-",
+      "weight": 0.08758701,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Nebius Group NV Shs Class-A-",
+      "holding_name_zh": null,
+      "display_name": "Nebius Group NV Shs Class-A-",
+      "display_label": "(NBIS)Nebius Group NV Shs Class-A-",
+      "bilingual_name": "Nebius Group NV Shs Class-A-"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "DOCN",
+      "holding_name": "DigitalOcean Holdings Inc",
+      "weight": 0.0811913,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "DigitalOcean Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "DigitalOcean Holdings Inc",
+      "display_label": "(DOCN)DigitalOcean Holdings Inc",
+      "bilingual_name": "DigitalOcean Holdings Inc"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "HUT",
+      "holding_name": "Hut 8 Corp",
+      "weight": 0.0765931,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Hut 8 Corp",
+      "holding_name_zh": null,
+      "display_name": "Hut 8 Corp",
+      "display_label": "(HUT)Hut 8 Corp",
+      "bilingual_name": "Hut 8 Corp"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "IREN",
+      "holding_name": "IREN Ltd",
+      "weight": 0.0761044,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "IREN Ltd",
+      "holding_name_zh": null,
+      "display_name": "IREN Ltd",
+      "display_label": "(IREN)IREN Ltd",
+      "bilingual_name": "IREN Ltd"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "HPE",
+      "holding_name": "Hewlett Packard Enterprise Co",
+      "weight": 0.0476588,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Hewlett Packard Enterprise Co",
+      "holding_name_zh": null,
+      "display_name": "Hewlett Packard Enterprise Co",
+      "display_label": "(HPE)Hewlett Packard Enterprise Co",
+      "bilingual_name": "Hewlett Packard Enterprise Co"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "GLXY",
+      "holding_name": "Galaxy Digital Inc Ordinary Shares - Class A",
+      "weight": 0.0464697,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Galaxy Digital Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "Galaxy Digital Inc Ordinary Shares - Class A",
+      "display_label": "(GLXY)Galaxy Digital Inc Ordinary Shares - Class A",
+      "bilingual_name": "Galaxy Digital Inc Ordinary Shares - Class A"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "MARA",
+      "holding_name": "MARA Holdings Inc",
+      "weight": 0.0443177,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "MARA Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "MARA Holdings Inc",
+      "display_label": "(MARA)MARA Holdings Inc",
+      "bilingual_name": "MARA Holdings Inc"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "8473.T",
+      "holding_name": "SBI Holdings Inc",
+      "weight": 0.0439943,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "SBI Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "SBI Holdings Inc",
+      "display_label": "(8473.T)SBI Holdings Inc",
+      "bilingual_name": "SBI Holdings Inc"
+    },
+    {
+      "etf_id": "US-GCPU",
+      "holding_symbol": "CLSK",
+      "holding_name": "Cleanspark Inc",
+      "weight": 0.0439275,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Cleanspark Inc",
+      "holding_name_zh": null,
+      "display_name": "Cleanspark Inc",
+      "display_label": "(CLSK)Cleanspark Inc",
+      "bilingual_name": "Cleanspark Inc"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.636127,
+    "top_3_weight": 0.257062
   },
   "research": {
     "tier": "context",
