@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -11.7192,
+      "value": -11.6737,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -6.9357,
+      "value": -6.9444,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 6.5498,
+      "value": 6.5499,
       "unit": "percent"
     },
     "beta": {
@@ -71,7 +71,7 @@
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9246,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,29 +79,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -1.2879,
+      "value": -1.2892,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -6.9357,
+      "value": -6.9444,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 27.4552,
+      "value": 27.4773,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-07",
-    "value": 14.76,
+    "date": "2026-10-08",
+    "value": 14.74,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-08-29",
-      "value": 100.0
-    },
     {
       "date": "2023-08-30",
       "value": 100.0
@@ -3121,21 +3117,25 @@
     {
       "date": "2026-10-07",
       "value": 93.65
+    },
+    {
+      "date": "2026-10-08",
+      "value": 93.53
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-10-07",
-    "observations": 786,
+    "last_date": "2026-10-08",
+    "observations": 787,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-07",
-    "latest_volume": 130000.0,
-    "average_volume_20d": 49500.0,
-    "average_dollar_volume_20d": 742326.5049,
-    "relative_volume_20d": 2.6263,
+    "as_of": "2026-10-08",
+    "latest_volume": 62000.0,
+    "average_volume_20d": 50050.0,
+    "average_dollar_volume_20d": 749082.003,
+    "relative_volume_20d": 1.2388,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
