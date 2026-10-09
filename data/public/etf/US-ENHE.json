@@ -52,8 +52,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-07",
-    "value": 24.42,
+    "date": "2026-10-08",
+    "value": 23.936,
     "currency": "USD"
   },
   "trend": [
@@ -79,31 +79,176 @@
     },
     {
       "date": "2026-10-07",
-      "value": 101.15
+      "value": 102.35
+    },
+    {
+      "date": "2026-10-08",
+      "value": 99.14
     }
   ],
   "price_history": {
     "first_date": "2026-09-30",
-    "last_date": "2026-10-07",
-    "observations": 6,
+    "last_date": "2026-10-08",
+    "observations": 7,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-07",
-    "latest_volume": 16.0,
-    "average_volume_20d": 64.1667,
-    "average_dollar_volume_20d": 1560.3714,
-    "relative_volume_20d": 0.2494,
+    "as_of": "2026-10-08",
+    "latest_volume": 11.0,
+    "average_volume_20d": 54.2857,
+    "average_dollar_volume_20d": 1319.2578,
+    "relative_volume_20d": 0.2026,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 6
+    "observation_count": 7
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.1609072,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "005930.KQ",
+      "holding_name": "Samsung Electronics Co Ltd",
+      "weight": 0.104672,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Samsung Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd",
+      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
+      "bilingual_name": "Samsung Electronics Co Ltd"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "000660.KQ",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.0718098,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "SK hynix Inc",
+      "holding_name_zh": null,
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KQ)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "0700.HK",
+      "holding_name": "Tencent Holdings Ltd",
+      "weight": 0.03403,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Tencent Holdings Ltd",
+      "holding_name_zh": null,
+      "display_name": "Tencent Holdings Ltd",
+      "display_label": "(0700.HK)Tencent Holdings Ltd",
+      "bilingual_name": "Tencent Holdings Ltd"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0196389,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
+      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "PETR4",
+      "holding_name": "Petroleo Brasileiro SA Petrobras",
+      "weight": 0.0136773,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Petroleo Brasileiro SA Petrobras",
+      "holding_name_zh": null,
+      "display_name": "Petroleo Brasileiro SA Petrobras",
+      "display_label": "(PETR4)Petroleo Brasileiro SA Petrobras",
+      "bilingual_name": "Petroleo Brasileiro SA Petrobras"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "NU",
+      "holding_name": "Nu Holdings Ltd Ordinary Shares Class A",
+      "weight": 0.0122359,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Nu Holdings Ltd Ordinary Shares Class A",
+      "holding_name_zh": null,
+      "display_name": "Nu Holdings Ltd Ordinary Shares Class A",
+      "display_label": "(NU)Nu Holdings Ltd Ordinary Shares Class A",
+      "bilingual_name": "Nu Holdings Ltd Ordinary Shares Class A"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "00939",
+      "holding_name": "China Construction Bank Corp Class H",
+      "weight": 0.0116303,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "China Construction Bank Corp Class H",
+      "holding_name_zh": null,
+      "display_name": "China Construction Bank Corp Class H",
+      "display_label": "(00939)China Construction Bank Corp Class H",
+      "bilingual_name": "China Construction Bank Corp Class H"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "02318",
+      "holding_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
+      "weight": 0.0104123,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Ping An Insurance (Group) Co. of China Ltd Class H",
+      "holding_name_zh": null,
+      "display_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
+      "display_label": "(02318)Ping An Insurance (Group) Co. of China Ltd Class H",
+      "bilingual_name": "Ping An Insurance (Group) Co. of China Ltd Class H"
+    },
+    {
+      "etf_id": "US-ENHE",
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0081589,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.447173,
+    "top_3_weight": 0.337389
   },
   "research": {
     "tier": "context",

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-08T10:49:54.240285Z",
+  "updated_at": "2026-10-09T02:31:45.842558Z",
   "etfs": {
     "TW-00400A": {
       "current": "20260729-29f1f0bdcb1c",
@@ -7941,14 +7941,20 @@
       ]
     },
     "US-MSML": {
-      "current": "20261006-2eac51ec9f80",
-      "previous": null,
+      "current": "20261009-86a2b2293f96",
+      "previous": "20261006-2eac51ec9f80",
       "snapshots": [
         {
           "snapshot_id": "20261006-2eac51ec9f80",
           "observed_at": "2026-10-06T22:47:56.487822Z",
           "content_sha256": "2eac51ec9f80479fb060d83da8d995aeefef6cfa6f202e777daf342eb182c73b",
           "path": "snapshots/20261006-2eac51ec9f80.json"
+        },
+        {
+          "snapshot_id": "20261009-86a2b2293f96",
+          "observed_at": "2026-10-09T02:31:45.842558Z",
+          "content_sha256": "86a2b2293f96146740816898a5eb8dbecbbefb4347b62a7b7f20d615707df651",
+          "path": "snapshots/20261009-86a2b2293f96.json"
         }
       ]
     },
@@ -7961,6 +7967,18 @@
           "observed_at": "2026-10-07T22:47:52.638825Z",
           "content_sha256": "ae5c4f017fadc3f9dd8bd7d2fb959d48888dc620d557be047ddbbb7dd94ada15",
           "path": "snapshots/20261007-ae5c4f017fad.json"
+        }
+      ]
+    },
+    "US-ENHE": {
+      "current": "20261009-b9ba884a763a",
+      "previous": null,
+      "snapshots": [
+        {
+          "snapshot_id": "20261009-b9ba884a763a",
+          "observed_at": "2026-10-09T02:31:45.591380Z",
+          "content_sha256": "b9ba884a763a337f401b21ba225240a2aa3a6e341ddd819836e89c129bb8969e",
+          "path": "snapshots/20261009-b9ba884a763a.json"
         }
       ]
     }

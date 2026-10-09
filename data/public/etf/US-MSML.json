@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -69.7398,
+      "value": -60.6033,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 11.1941,
+      "value": 10.9748,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8516,
+      "value": 0.8097,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.0873,
+      "value": 0.0913,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -4.2818,
+      "value": -4.1815,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 7.1876,
+      "value": 7.54,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-07",
-    "value": 71.4,
+    "date": "2026-10-08",
+    "value": 71.4748,
     "currency": "USD"
   },
   "trend": [
@@ -177,21 +177,25 @@
     {
       "date": "2026-10-07",
       "value": 95.72
+    },
+    {
+      "date": "2026-10-08",
+      "value": 95.82
     }
   ],
   "price_history": {
     "first_date": "2026-09-08",
-    "last_date": "2026-10-07",
-    "observations": 22,
+    "last_date": "2026-10-08",
+    "observations": 23,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-07",
-    "latest_volume": 7500.0,
-    "average_volume_20d": 5185.0,
-    "average_dollar_volume_20d": 374788.8407,
-    "relative_volume_20d": 1.4465,
+    "as_of": "2026-10-08",
+    "latest_volume": 12202.0,
+    "average_volume_20d": 5605.1,
+    "average_dollar_volume_20d": 404525.7235,
+    "relative_volume_20d": 2.1769,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -199,26 +203,12 @@
   "top_holdings": [
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "TEAM",
-      "holding_name": "Atlassian Corp Class A",
-      "weight": 0.0048502,
+      "holding_symbol": "OKTA",
+      "holding_name": "Okta Inc Class A",
+      "weight": 0.0058465,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Atlassian Corp Class A",
-      "holding_name_zh": null,
-      "display_name": "Atlassian Corp Class A",
-      "display_label": "(TEAM)Atlassian Corp Class A",
-      "bilingual_name": "Atlassian Corp Class A"
-    },
-    {
-      "etf_id": "US-MSML",
-      "holding_symbol": "OKTA",
-      "holding_name": "Okta Inc Class A",
-      "weight": 0.0045872,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Okta Inc Class A",
       "holding_name_zh": null,
       "display_name": "Okta Inc Class A",
@@ -227,23 +217,37 @@
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "XTSLA",
-      "holding_name": "BlackRock Cash Funds Treasury SL Agency",
-      "weight": 0.0040229,
+      "holding_symbol": "TEAM",
+      "holding_name": "Atlassian Corp Class A",
+      "weight": 0.0047208,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Atlassian Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Atlassian Corp Class A",
+      "display_label": "(TEAM)Atlassian Corp Class A",
+      "bilingual_name": "Atlassian Corp Class A"
+    },
+    {
+      "etf_id": "US-MSML",
+      "holding_symbol": "GH",
+      "holding_name": "Guardant Health Inc",
+      "weight": 0.0037985,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "BlackRock Cash Funds Treasury SL Agency",
+      "holding_name_en": "Guardant Health Inc",
       "holding_name_zh": null,
-      "display_name": "BlackRock Cash Funds Treasury SL Agency",
-      "display_label": "(XTSLA)BlackRock Cash Funds Treasury SL Agency",
-      "bilingual_name": "BlackRock Cash Funds Treasury SL Agency"
+      "display_name": "Guardant Health Inc",
+      "display_label": "(GH)Guardant Health Inc",
+      "bilingual_name": "Guardant Health Inc"
     },
     {
       "etf_id": "US-MSML",
       "holding_symbol": "ROKU",
       "holding_name": "Roku Inc Class A",
-      "weight": 0.0032258,
+      "weight": 0.0032978,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -255,26 +259,12 @@
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "GH",
-      "holding_name": "Guardant Health Inc",
-      "weight": 0.0032047,
+      "holding_symbol": "NTNX",
+      "holding_name": "Nutanix Inc Class A",
+      "weight": 0.0031189,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Guardant Health Inc",
-      "holding_name_zh": null,
-      "display_name": "Guardant Health Inc",
-      "display_label": "(GH)Guardant Health Inc",
-      "bilingual_name": "Guardant Health Inc"
-    },
-    {
-      "etf_id": "US-MSML",
-      "holding_symbol": "NTNX",
-      "holding_name": "Nutanix Inc Class A",
-      "weight": 0.0028838,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Nutanix Inc Class A",
       "holding_name_zh": null,
       "display_name": "Nutanix Inc Class A",
@@ -285,10 +275,10 @@
       "etf_id": "US-MSML",
       "holding_symbol": "ZBRA",
       "holding_name": "Zebra Technologies Corp Ordinary Shares - Class A",
-      "weight": 0.0026858,
+      "weight": 0.0029969,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Zebra Technologies Corp Ordinary Shares - Class A",
       "holding_name_zh": null,
       "display_name": "Zebra Technologies Corp Ordinary Shares - Class A",
@@ -297,51 +287,65 @@
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "JLL",
-      "holding_name": "Jones Lang LaSalle Inc",
-      "weight": 0.0026641,
+      "holding_symbol": "RBRK",
+      "holding_name": "Rubrik Inc Class A Shares",
+      "weight": 0.0028916,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Rubrik Inc Class A Shares",
+      "holding_name_zh": null,
+      "display_name": "Rubrik Inc Class A Shares",
+      "display_label": "(RBRK)Rubrik Inc Class A Shares",
+      "bilingual_name": "Rubrik Inc Class A Shares"
+    },
+    {
+      "etf_id": "US-MSML",
+      "holding_symbol": "BBY",
+      "holding_name": "Best Buy Co Inc",
+      "weight": 0.0028721,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Jones Lang LaSalle Inc",
+      "holding_name_en": "Best Buy Co Inc",
       "holding_name_zh": null,
-      "display_name": "Jones Lang LaSalle Inc",
-      "display_label": "(JLL)Jones Lang LaSalle Inc",
-      "bilingual_name": "Jones Lang LaSalle Inc"
+      "display_name": "Best Buy Co Inc",
+      "display_label": "(BBY)Best Buy Co Inc",
+      "bilingual_name": "Best Buy Co Inc"
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "GEN",
-      "holding_name": "Gen Digital Inc",
-      "weight": 0.0026612,
+      "holding_symbol": "RVTY",
+      "holding_name": "Revvity Inc",
+      "weight": 0.0028475,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Gen Digital Inc",
+      "holding_name_en": "Revvity Inc",
       "holding_name_zh": null,
-      "display_name": "Gen Digital Inc",
-      "display_label": "(GEN)Gen Digital Inc",
-      "bilingual_name": "Gen Digital Inc"
+      "display_name": "Revvity Inc",
+      "display_label": "(RVTY)Revvity Inc",
+      "bilingual_name": "Revvity Inc"
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "GWRE",
-      "holding_name": "Guidewire Software Inc",
-      "weight": 0.0026146,
+      "holding_symbol": "DT",
+      "holding_name": "Dynatrace Inc Ordinary Shares",
+      "weight": 0.0028028,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Guidewire Software Inc",
+      "holding_name_en": "Dynatrace Inc Ordinary Shares",
       "holding_name_zh": null,
-      "display_name": "Guidewire Software Inc",
-      "display_label": "(GWRE)Guidewire Software Inc",
-      "bilingual_name": "Guidewire Software Inc"
+      "display_name": "Dynatrace Inc Ordinary Shares",
+      "display_label": "(DT)Dynatrace Inc Ordinary Shares",
+      "bilingual_name": "Dynatrace Inc Ordinary Shares"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.0334,
-    "top_3_weight": 0.01346
+    "top_10_weight": 0.035193,
+    "top_3_weight": 0.014366
   },
   "research": {
     "tier": "context",
