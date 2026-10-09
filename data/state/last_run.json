@@ -1,37 +1,37 @@
 {
   "run_date": "2026-10-09",
   "market": "all",
-  "eligible": 499,
-  "processed": 499,
+  "eligible": 502,
+  "processed": 502,
   "bootstrap_limit": 30,
-  "bootstrap_attempted": 0,
-  "bootstrap_ready": 499,
+  "bootstrap_attempted": 3,
+  "bootstrap_ready": 502,
   "bootstrap_pending": 0,
-  "metric_rows": 4341,
-  "holdings_synced": 161,
+  "metric_rows": 4349,
+  "holdings_synced": 162,
   "holdings_rotation_limit": 40,
-  "holdings_scheduled": 206,
+  "holdings_scheduled": 209,
   "holdings_rotating": [
-    "TW-00676R",
-    "TW-00678",
-    "TW-00679B",
-    "TW-00680L",
-    "TW-00681R",
-    "TW-00682U",
-    "TW-00683L",
-    "TW-00684R",
-    "TW-00685L",
-    "TW-00686R",
-    "TW-00687B",
-    "TW-00687C",
-    "TW-00688L",
-    "TW-00689R",
-    "TW-00690",
-    "TW-00692",
-    "TW-00693U",
-    "TW-00694B",
-    "TW-00695B",
-    "TW-00696B"
+    "TW-00697B",
+    "TW-00700",
+    "TW-00701",
+    "TW-00702",
+    "TW-00703",
+    "TW-00706L",
+    "TW-00707R",
+    "TW-00708L",
+    "TW-00709",
+    "TW-00710B",
+    "TW-00711B",
+    "TW-00712",
+    "TW-00713",
+    "TW-00714",
+    "TW-00715L",
+    "TW-00717",
+    "TW-00719B",
+    "TW-00720B",
+    "TW-00722B",
+    "TW-00723B"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -44,9 +44,15 @@
     "TW-00407A",
     "TW-0050",
     "TW-006208",
-    "TW-00678",
-    "TW-00690",
-    "TW-00692",
+    "TW-00700",
+    "TW-00701",
+    "TW-00702",
+    "TW-00703",
+    "TW-00709",
+    "TW-00712",
+    "TW-00713",
+    "TW-00714",
+    "TW-00717",
     "TW-00980A",
     "TW-00981A",
     "TW-00982A",
@@ -173,11 +179,9 @@
     "US-IVW",
     "US-LYTE",
     "US-CAPA",
-    "US-TGRZ",
     "US-PRAM",
     "US-AIMG",
     "US-GEMQ",
-    "US-AFEM",
     "US-DMXU",
     "US-AT",
     "US-EMSE",
@@ -185,15 +189,12 @@
     "US-QQSE",
     "US-QSE",
     "US-SCSE",
-    "US-AICH",
     "US-HUMM",
     "US-GCPU",
-    "US-QQQB",
     "US-AIBF",
     "US-NECK",
     "US-CHIP",
     "US-HWMV",
-    "US-ENHE",
     "US-MSML"
   ],
   "bootstrap_only": false,
@@ -224,7 +225,32 @@
       "error": "yahoo: HTTP Error 404: "
     },
     {
+      "etf_id": "US-TGRZ",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-AFEM",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-AICH",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-QQQB",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
       "etf_id": "US-VOOB",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-ENHE",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
     },
@@ -235,6 +261,21 @@
     },
     {
       "etf_id": "US-CPU",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-OPTO",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-VGTX",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-XXSP",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
     }

@@ -53,11 +53,44 @@
       "code": "robotics"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "alpha": {
+      "value": null,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 21.5441,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.0794,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -5.7471,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 0.0996,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": null,
+      "unit": "percent"
+    }
+  },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-08",
-    "value": 19.68,
+    "date": "2026-10-09",
+    "value": 19.9999,
     "currency": "USD"
   },
   "trend": [
@@ -136,24 +169,28 @@
     {
       "date": "2026-10-08",
       "value": 98.5
+    },
+    {
+      "date": "2026-10-09",
+      "value": 100.1
     }
   ],
   "price_history": {
     "first_date": "2026-09-14",
-    "last_date": "2026-10-08",
-    "observations": 19,
+    "last_date": "2026-10-09",
+    "observations": 20,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-08",
-    "latest_volume": 7700.0,
-    "average_volume_20d": 7127.6316,
-    "average_dollar_volume_20d": 145198.5975,
-    "relative_volume_20d": 1.0803,
+    "as_of": "2026-10-09",
+    "latest_volume": 815.0,
+    "average_volume_20d": 6812.0,
+    "average_dollar_volume_20d": 138753.6636,
+    "relative_volume_20d": 0.1196,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 19
+    "observation_count": 20
   },
   "top_holdings": [
     {
