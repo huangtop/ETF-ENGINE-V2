@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "etf_id": "TW-00985D",
   "coverage": "top_holdings_only",
-  "transition_count": 2,
+  "transition_count": 3,
   "latest_transition": {
-    "transition_id": "2026-09-11T10:43:56.349473Z-TW-00985D-f940127e",
+    "transition_id": "2026-10-10T02:02:35.256635Z-TW-00985D-4cb2332c",
     "etf_id": "TW-00985D",
     "coverage": "top_holdings_only",
-    "previous_snapshot_id": "20260812-4570dd99915d",
-    "current_snapshot_id": "20260911-59c074be2b1b",
-    "previous_observed_at": "2026-08-12T06:20:46.052656Z",
-    "current_observed_at": "2026-09-11T10:43:56.349473Z",
+    "previous_snapshot_id": "20260911-59c074be2b1b",
+    "current_snapshot_id": "20261010-2937d3fa7540",
+    "previous_observed_at": "2026-09-11T10:43:56.349473Z",
+    "current_observed_at": "2026-10-10T02:02:35.256635Z",
     "changes": [
       {
-        "event_id": "381a70088f8aea44710ae7fab024f6671bcd3c058831070b5cbe7fd6e5235715",
+        "event_id": "f071d1db60969022f283c99bf6da2444df8268344b70a2130b6298d9430b9607",
         "etf_id": "TW-00985D",
         "holding_symbol": "TLTW",
         "holding_name_en": null,
@@ -21,16 +21,16 @@
         "holding_display_name": "TLTW",
         "holding_display_label": "(TLTW)TLTW",
         "holding_bilingual_name": "TLTW",
-        "previous_weight": 0.1972905,
-        "current_weight": 0.19767709,
-        "delta_weight": 0.00038659,
-        "change_type": "WEIGHT_INCREASED",
+        "previous_weight": 0.19767709,
+        "current_weight": 0.19748199,
+        "delta_weight": -0.0001951,
+        "change_type": "WEIGHT_DECREASED",
         "previous_source": "yahoo",
         "current_source": "yahoo",
-        "previous_snapshot_id": "20260812-4570dd99915d",
-        "current_snapshot_id": "20260911-59c074be2b1b",
-        "previous_observed_at": "2026-08-12T06:20:46.052656Z",
-        "current_observed_at": "2026-09-11T10:43:56.349473Z",
+        "previous_snapshot_id": "20260911-59c074be2b1b",
+        "current_snapshot_id": "20261010-2937d3fa7540",
+        "previous_observed_at": "2026-09-11T10:43:56.349473Z",
+        "current_observed_at": "2026-10-10T02:02:35.256635Z",
         "coverage": "top_holdings_only"
       }
     ]
@@ -96,6 +96,38 @@
           "current_snapshot_id": "20260911-59c074be2b1b",
           "previous_observed_at": "2026-08-12T06:20:46.052656Z",
           "current_observed_at": "2026-09-11T10:43:56.349473Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    },
+    {
+      "transition_id": "2026-10-10T02:02:35.256635Z-TW-00985D-4cb2332c",
+      "etf_id": "TW-00985D",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260911-59c074be2b1b",
+      "current_snapshot_id": "20261010-2937d3fa7540",
+      "previous_observed_at": "2026-09-11T10:43:56.349473Z",
+      "current_observed_at": "2026-10-10T02:02:35.256635Z",
+      "changes": [
+        {
+          "event_id": "f071d1db60969022f283c99bf6da2444df8268344b70a2130b6298d9430b9607",
+          "etf_id": "TW-00985D",
+          "holding_symbol": "TLTW",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "TLTW",
+          "holding_display_label": "(TLTW)TLTW",
+          "holding_bilingual_name": "TLTW",
+          "previous_weight": 0.19767709,
+          "current_weight": 0.19748199,
+          "delta_weight": -0.0001951,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260911-59c074be2b1b",
+          "current_snapshot_id": "20261010-2937d3fa7540",
+          "previous_observed_at": "2026-09-11T10:43:56.349473Z",
+          "current_observed_at": "2026-10-10T02:02:35.256635Z",
           "coverage": "top_holdings_only"
         }
       ]
