@@ -1,20 +1,26 @@
 {
   "left_etf_id": "TW-00762",
   "right_etf_id": "US-PSI",
-  "overlap_ratio": 0.086364,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.152413,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.043203,
+      "left_weight": 0.051119,
       "right_weight": 0.05688,
-      "overlap_weight": 0.043203
+      "overlap_weight": 0.051119
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.043161,
+      "left_weight": 0.081518,
       "right_weight": 0.050864,
-      "overlap_weight": 0.043161
+      "overlap_weight": 0.050864
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.05043,
+      "right_weight": 0.061231,
+      "overlap_weight": 0.05043
     }
   ]
 }

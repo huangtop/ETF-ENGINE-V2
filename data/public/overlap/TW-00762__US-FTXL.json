@@ -1,32 +1,38 @@
 {
   "left_etf_id": "TW-00762",
   "right_etf_id": "US-FTXL",
-  "overlap_ratio": 0.201568,
-  "shared_holdings_count": 4,
+  "overlap_ratio": 0.286798,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
+      "holding_symbol": "MU",
+      "left_weight": 0.081518,
+      "right_weight": 0.077484,
+      "overlap_weight": 0.077484
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.085885,
+      "left_weight": 0.07824,
       "right_weight": 0.072146,
       "overlap_weight": 0.072146
     },
     {
+      "holding_symbol": "INTC",
+      "left_weight": 0.05043,
+      "right_weight": 0.093682,
+      "overlap_weight": 0.05043
+    },
+    {
       "holding_symbol": "AMD",
-      "left_weight": 0.043203,
+      "left_weight": 0.051119,
       "right_weight": 0.045321,
-      "overlap_weight": 0.043203
+      "overlap_weight": 0.045321
     },
     {
-      "holding_symbol": "MU",
-      "left_weight": 0.043161,
-      "right_weight": 0.077484,
-      "overlap_weight": 0.043161
-    },
-    {
-      "holding_symbol": "AVGO",
-      "left_weight": 0.043058,
-      "right_weight": 0.066139,
-      "overlap_weight": 0.043058
+      "holding_symbol": "MRVL",
+      "left_weight": 0.041417,
+      "right_weight": 0.04353,
+      "overlap_weight": 0.041417
     }
   ]
 }

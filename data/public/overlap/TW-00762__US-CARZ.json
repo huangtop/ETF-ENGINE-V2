@@ -1,38 +1,44 @@
 {
   "left_etf_id": "TW-00762",
   "right_etf_id": "US-CARZ",
-  "overlap_ratio": 0.241926,
-  "shared_holdings_count": 5,
+  "overlap_ratio": 0.303862,
+  "shared_holdings_count": 6,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.103573,
+      "left_weight": 0.077916,
       "right_weight": 0.06071,
       "overlap_weight": 0.06071
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.085885,
+      "left_weight": 0.07824,
       "right_weight": 0.051239,
       "overlap_weight": 0.051239
     },
     {
-      "holding_symbol": "GOOGL",
-      "left_weight": 0.075594,
-      "right_weight": 0.043613,
-      "overlap_weight": 0.043613
-    },
-    {
       "holding_symbol": "AMD",
-      "left_weight": 0.043203,
+      "left_weight": 0.051119,
       "right_weight": 0.050907,
-      "overlap_weight": 0.043203
+      "overlap_weight": 0.050907
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.043161,
+      "left_weight": 0.081518,
       "right_weight": 0.04887,
-      "overlap_weight": 0.043161
+      "overlap_weight": 0.04887
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.05043,
+      "right_weight": 0.048603,
+      "overlap_weight": 0.048603
+    },
+    {
+      "holding_symbol": "GOOGL",
+      "left_weight": 0.043533,
+      "right_weight": 0.043613,
+      "overlap_weight": 0.043533
     }
   ]
 }

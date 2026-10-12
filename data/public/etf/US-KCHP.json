@@ -53,11 +53,44 @@
       "code": "semiconductors"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "alpha": {
+      "value": null,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 58.742,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.0794,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -9.6963,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 10.2359,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": null,
+      "unit": "percent"
+    }
+  },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-09",
-    "value": 27.83,
+    "date": "2026-10-12",
+    "value": 26.17,
     "currency": "USD"
   },
   "trend": [
@@ -136,24 +169,28 @@
     {
       "date": "2026-10-09",
       "value": 117.23
+    },
+    {
+      "date": "2026-10-12",
+      "value": 110.24
     }
   ],
   "price_history": {
     "first_date": "2026-09-15",
-    "last_date": "2026-10-09",
-    "observations": 19,
+    "last_date": "2026-10-12",
+    "observations": 20,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-09",
-    "latest_volume": 11096.0,
-    "average_volume_20d": 6641.8947,
-    "average_dollar_volume_20d": 175705.8256,
-    "relative_volume_20d": 1.6706,
+    "as_of": "2026-10-12",
+    "latest_volume": 11538.0,
+    "average_volume_20d": 6886.9,
+    "average_dollar_volume_20d": 182023.5734,
+    "relative_volume_20d": 1.6754,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 19
+    "observation_count": 20
   },
   "top_holdings": [
     {

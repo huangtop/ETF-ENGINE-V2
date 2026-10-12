@@ -1,32 +1,38 @@
 {
   "left_etf_id": "TW-00762",
   "right_etf_id": "US-CHPS",
-  "overlap_ratio": 0.176618,
-  "shared_holdings_count": 4,
+  "overlap_ratio": 0.241175,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
+      "holding_symbol": "AMD",
+      "left_weight": 0.051119,
+      "right_weight": 0.052742,
+      "overlap_weight": 0.051119
+    },
+    {
+      "holding_symbol": "MU",
+      "left_weight": 0.081518,
+      "right_weight": 0.050042,
+      "overlap_weight": 0.050042
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.085885,
+      "left_weight": 0.07824,
       "right_weight": 0.049926,
       "overlap_weight": 0.049926
     },
     {
-      "holding_symbol": "AMD",
-      "left_weight": 0.043203,
-      "right_weight": 0.052742,
-      "overlap_weight": 0.043203
+      "holding_symbol": "INTC",
+      "left_weight": 0.05043,
+      "right_weight": 0.048671,
+      "overlap_weight": 0.048671
     },
     {
-      "holding_symbol": "MU",
-      "left_weight": 0.043161,
-      "right_weight": 0.050042,
-      "overlap_weight": 0.043161
-    },
-    {
-      "holding_symbol": "000660.KQ",
-      "left_weight": 0.040328,
-      "right_weight": 0.042386,
-      "overlap_weight": 0.040328
+      "holding_symbol": "MRVL",
+      "left_weight": 0.041417,
+      "right_weight": 0.042367,
+      "overlap_weight": 0.041417
     }
   ]
 }
