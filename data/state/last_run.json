@@ -7,31 +7,31 @@
   "bootstrap_attempted": 0,
   "bootstrap_ready": 502,
   "bootstrap_pending": 0,
-  "metric_rows": 4389,
-  "holdings_synced": 160,
+  "metric_rows": 4397,
+  "holdings_synced": 156,
   "holdings_rotation_limit": 40,
   "holdings_scheduled": 209,
   "holdings_rotating": [
-    "TW-00778B",
-    "TW-00779B",
-    "TW-00780B",
-    "TW-00781B",
-    "TW-00782B",
-    "TW-00783",
-    "TW-00785B",
-    "TW-00786B",
-    "TW-00787B",
-    "TW-00788B",
-    "TW-00789B",
-    "TW-00791B",
-    "TW-00792B",
-    "TW-00793B",
-    "TW-00795B",
-    "TW-00799B",
-    "TW-00830",
-    "TW-00834B",
-    "TW-00836B",
-    "TW-00840B"
+    "TW-00841B",
+    "TW-00842B",
+    "TW-00844B",
+    "TW-00845B",
+    "TW-00846B",
+    "TW-00847B",
+    "TW-00848B",
+    "TW-00849B",
+    "TW-00850",
+    "TW-00851",
+    "TW-00852L",
+    "TW-00853B",
+    "TW-00856B",
+    "TW-00857B",
+    "TW-00858",
+    "TW-00859B",
+    "TW-00860B",
+    "TW-00861",
+    "TW-00862B",
+    "TW-00863B"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -44,8 +44,10 @@
     "TW-00407A",
     "TW-0050",
     "TW-006208",
-    "TW-00783",
-    "TW-00830",
+    "TW-00850",
+    "TW-00851",
+    "TW-00858",
+    "TW-00861",
     "TW-00980A",
     "TW-00981A",
     "TW-00982A",
@@ -174,7 +176,6 @@
     "US-CAPA",
     "US-TGRZ",
     "US-PRAM",
-    "US-AIMG",
     "US-GEMQ",
     "US-AFEM",
     "US-DMXU",
@@ -184,15 +185,10 @@
     "US-QQSE",
     "US-QSE",
     "US-SCSE",
-    "US-AICH",
     "US-HUMM",
     "US-GCPU",
-    "US-QQQB",
     "US-AIBF",
     "US-NECK",
-    "US-CHIP",
-    "US-HWMV",
-    "US-ENHE",
     "US-MSML"
   ],
   "bootstrap_only": false,
@@ -223,7 +219,37 @@
       "error": "yahoo: HTTP Error 404: "
     },
     {
+      "etf_id": "US-AIMG",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-AICH",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-QQQB",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
       "etf_id": "US-VOOB",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-CHIP",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-HWMV",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-ENHE",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
     },

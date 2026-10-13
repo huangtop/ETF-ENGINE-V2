@@ -63,46 +63,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -231.2076,
+      "value": -230.2785,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -99.0115,
+      "value": -98.8902,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 120.4653,
+      "value": 120.5333,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.1774,
+      "value": -0.1231,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9683,
+      "value": 1.9722,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -99.1049,
+      "value": -99.0744,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.8344,
+      "value": -0.8329,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -99.0115,
+      "value": -98.8902,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 248.7989,
+      "value": 278.7872,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-12",
-    "value": 9.74,
+    "date": "2026-10-13",
+    "value": 10.26,
     "currency": "USD"
   },
   "trend": [
@@ -2089,21 +2089,25 @@
     {
       "date": "2026-10-12",
       "value": 0.45
+    },
+    {
+      "date": "2026-10-13",
+      "value": 0.47
     }
   ],
   "price_history": {
     "first_date": "2024-10-18",
-    "last_date": "2026-10-12",
-    "observations": 496,
+    "last_date": "2026-10-13",
+    "observations": 497,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-12",
-    "latest_volume": 5515600.0,
-    "average_volume_20d": 6359960.0,
-    "average_dollar_volume_20d": 58661815.9881,
-    "relative_volume_20d": 0.8672,
+    "as_of": "2026-10-13",
+    "latest_volume": 5019051.0,
+    "average_volume_20d": 6413937.55,
+    "average_dollar_volume_20d": 59163869.2319,
+    "relative_volume_20d": 0.7825,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
