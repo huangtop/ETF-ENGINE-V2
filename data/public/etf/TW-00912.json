@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -3.6318,
+      "value": -4.3298,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 78.6739,
+      "value": 81.134,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.5266,
+      "value": 28.4807,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9401,
+      "value": 0.9403,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9167,
+      "value": 2.9206,
       "unit": "years"
     },
     "expense_ratio": {
@@ -83,29 +83,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.7053,
+      "value": 2.7961,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 78.6739,
+      "value": 81.134,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 9.6536,
+      "value": 9.6641,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-13",
-    "value": 36.11,
+    "date": "2026-10-14",
+    "value": 36.1,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-08-31",
-      "value": 100.0
-    },
     {
       "date": "2023-09-01",
       "value": 100.0
@@ -3125,21 +3121,25 @@
     {
       "date": "2026-10-13",
       "value": 243.66
+    },
+    {
+      "date": "2026-10-14",
+      "value": 243.59
     }
   ],
   "price_history": {
     "first_date": "2023-07-28",
-    "last_date": "2026-10-13",
-    "observations": 779,
+    "last_date": "2026-10-14",
+    "observations": 780,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-13",
-    "latest_volume": 3494087.0,
-    "average_volume_20d": 947241.55,
-    "average_dollar_volume_20d": 34626099.752,
-    "relative_volume_20d": 3.6887,
+    "as_of": "2026-10-14",
+    "latest_volume": 1704154.0,
+    "average_volume_20d": 1023082.8,
+    "average_dollar_volume_20d": 37374646.63,
+    "relative_volume_20d": 1.6657,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3149,7 +3149,7 @@
       "etf_id": "TW-00912",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.39560002,
+      "weight": 0.3946,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3163,7 +3163,7 @@
       "etf_id": "TW-00912",
       "holding_symbol": "2059.TW",
       "holding_name": "King Slide Works Co Ltd",
-      "weight": 0.0601,
+      "weight": 0.0494,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3177,7 +3177,7 @@
       "etf_id": "TW-00912",
       "holding_symbol": "2408.TW",
       "holding_name": "Nanya Technology Corp",
-      "weight": 0.0481,
+      "weight": 0.0444,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3189,26 +3189,12 @@
     },
     {
       "etf_id": "TW-00912",
-      "holding_symbol": "2887.TW",
-      "holding_name": "TS Financial Holding Co Ltd",
-      "weight": 0.0347,
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0367,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "TS Financial Holding Co Ltd",
-      "holding_name_zh": "台新新光金",
-      "display_name": "台新新光金",
-      "display_label": "(2887.TW)台新新光金",
-      "bilingual_name": "TS Financial Holding Co Ltd（台新新光金）"
-    },
-    {
-      "etf_id": "TW-00912",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.0303,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "MediaTek Inc",
       "holding_name_zh": "聯發科",
       "display_name": "聯發科",
@@ -3217,9 +3203,23 @@
     },
     {
       "etf_id": "TW-00912",
+      "holding_symbol": "2887.TW",
+      "holding_name": "TS Financial Holding Co Ltd",
+      "weight": 0.0365,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "TS Financial Holding Co Ltd",
+      "holding_name_zh": "台新新光金",
+      "display_name": "台新新光金",
+      "display_label": "(2887.TW)台新新光金",
+      "bilingual_name": "TS Financial Holding Co Ltd（台新新光金）"
+    },
+    {
+      "etf_id": "TW-00912",
       "holding_symbol": "5274.TWO",
       "holding_name": "Aspeed Technology Inc",
-      "weight": 0.0278,
+      "weight": 0.0314,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3233,7 +3233,7 @@
       "etf_id": "TW-00912",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0277,
+      "weight": 0.0275,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3245,26 +3245,12 @@
     },
     {
       "etf_id": "TW-00912",
-      "holding_symbol": "8299.TWO",
-      "holding_name": "Phison Electronics Corp",
-      "weight": 0.0264,
+      "holding_symbol": "2890.TW",
+      "holding_name": "SinoPac Financial Holdings Co Ltd",
+      "weight": 0.0266,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Phison Electronics Corp",
-      "holding_name_zh": "群聯",
-      "display_name": "群聯",
-      "display_label": "(8299.TWO)群聯",
-      "bilingual_name": "Phison Electronics Corp（群聯）"
-    },
-    {
-      "etf_id": "TW-00912",
-      "holding_symbol": "2890.TW",
-      "holding_name": "SinoPac Financial Holdings Co Ltd",
-      "weight": 0.0256,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "SinoPac Financial Holdings Co Ltd",
       "holding_name_zh": "永豐金",
       "display_name": "永豐金",
@@ -3273,9 +3259,23 @@
     },
     {
       "etf_id": "TW-00912",
+      "holding_symbol": "8299.TWO",
+      "holding_name": "Phison Electronics Corp",
+      "weight": 0.0262,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Phison Electronics Corp",
+      "holding_name_zh": "群聯",
+      "display_name": "群聯",
+      "display_label": "(8299.TWO)群聯",
+      "bilingual_name": "Phison Electronics Corp（群聯）"
+    },
+    {
+      "etf_id": "TW-00912",
       "holding_symbol": "2344.TW",
       "holding_name": "Winbond Electronics Corp",
-      "weight": 0.0251,
+      "weight": 0.0239,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -3288,8 +3288,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7014,
-    "top_3_weight": 0.5038
+    "top_10_weight": 0.6972,
+    "top_3_weight": 0.4884
   },
   "research": {
     "tier": "context",
