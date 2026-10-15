@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -1.0626,
+      "value": -2.1317,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 71.5984,
+      "value": 63.5179,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 30.286,
+      "value": 30.4799,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8275,
+      "value": 0.8288,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.4921,
+      "value": 2.496,
       "unit": "years"
     },
     "expense_ratio": {
@@ -87,22 +87,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.3145,
+      "value": 2.0347,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 71.5984,
+      "value": 63.5179,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.5819,
+      "value": 19.5782,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-14",
-    "value": 25.98,
+    "date": "2026-10-15",
+    "value": 25.1,
     "currency": "TWD"
   },
   "trend": [
@@ -2617,21 +2617,25 @@
     {
       "date": "2026-10-14",
       "value": 169.25
+    },
+    {
+      "date": "2026-10-15",
+      "value": 163.52
     }
   ],
   "price_history": {
     "first_date": "2024-03-15",
-    "last_date": "2026-10-14",
-    "observations": 628,
+    "last_date": "2026-10-15",
+    "observations": 629,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-14",
-    "latest_volume": 1642403.0,
-    "average_volume_20d": 1460460.85,
-    "average_dollar_volume_20d": 37828092.3855,
-    "relative_volume_20d": 1.1246,
+    "as_of": "2026-10-15",
+    "latest_volume": 1272903.0,
+    "average_volume_20d": 1489302.7,
+    "average_dollar_volume_20d": 38574992.9985,
+    "relative_volume_20d": 0.8547,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2639,40 +2643,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-00941",
-      "holding_symbol": "APD",
-      "holding_name": "Air Products and Chemicals Inc",
-      "weight": 0.0749,
+      "holding_symbol": "LRCX",
+      "holding_name": "Lam Research Corp",
+      "weight": 0.0727,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Air Products and Chemicals Inc",
-      "holding_name_zh": null,
-      "display_name": "Air Products and Chemicals Inc",
-      "display_label": "(APD)Air Products and Chemicals Inc",
-      "bilingual_name": "Air Products and Chemicals Inc"
-    },
-    {
-      "etf_id": "TW-00941",
-      "holding_symbol": "AI.PA",
-      "holding_name": "Air Liquide SA",
-      "weight": 0.0697,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Air Liquide SA",
-      "holding_name_zh": null,
-      "display_name": "Air Liquide SA",
-      "display_label": "(AI.PA)Air Liquide SA",
-      "bilingual_name": "Air Liquide SA"
-    },
-    {
-      "etf_id": "TW-00941",
-      "holding_symbol": "LRCX",
-      "holding_name": "Lam Research Corp",
-      "weight": 0.0692,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Lam Research Corp",
       "holding_name_zh": "科林研發",
       "display_name": "科林研發",
@@ -2683,10 +2659,10 @@
       "etf_id": "TW-00941",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
-      "weight": 0.0687,
+      "weight": 0.0715,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 2,
       "holding_name_en": "ASML Holding NV",
       "holding_name_zh": null,
       "display_name": "ASML Holding NV",
@@ -2695,40 +2671,12 @@
     },
     {
       "etf_id": "TW-00941",
-      "holding_symbol": "LIN",
-      "holding_name": "Linde PLC",
-      "weight": 0.0684,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Linde PLC",
-      "holding_name_zh": null,
-      "display_name": "Linde PLC",
-      "display_label": "(LIN)Linde PLC",
-      "bilingual_name": "Linde PLC"
-    },
-    {
-      "etf_id": "TW-00941",
-      "holding_symbol": "BAS.DE",
-      "holding_name": "Basf SE",
-      "weight": 0.0664,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Basf SE",
-      "holding_name_zh": null,
-      "display_name": "Basf SE",
-      "display_label": "(BAS.DE)Basf SE",
-      "bilingual_name": "Basf SE"
-    },
-    {
-      "etf_id": "TW-00941",
       "holding_symbol": "AMAT",
       "holding_name": "Applied Materials Inc",
-      "weight": 0.0623,
+      "weight": 0.0672,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 3,
       "holding_name_en": "Applied Materials Inc",
       "holding_name_zh": "應用材料",
       "display_name": "應用材料",
@@ -2737,26 +2685,54 @@
     },
     {
       "etf_id": "TW-00941",
-      "holding_symbol": "4063.T",
-      "holding_name": "Shin-Etsu Chemical Co Ltd",
-      "weight": 0.0613,
+      "holding_symbol": "AI.PA",
+      "holding_name": "Air Liquide SA",
+      "weight": 0.06659999,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Shin-Etsu Chemical Co Ltd",
+      "rank": 4,
+      "holding_name_en": "Air Liquide SA",
       "holding_name_zh": null,
-      "display_name": "Shin-Etsu Chemical Co Ltd",
-      "display_label": "(4063.T)Shin-Etsu Chemical Co Ltd",
-      "bilingual_name": "Shin-Etsu Chemical Co Ltd"
+      "display_name": "Air Liquide SA",
+      "display_label": "(AI.PA)Air Liquide SA",
+      "bilingual_name": "Air Liquide SA"
+    },
+    {
+      "etf_id": "TW-00941",
+      "holding_symbol": "APD",
+      "holding_name": "Air Products and Chemicals Inc",
+      "weight": 0.0653,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Air Products and Chemicals Inc",
+      "holding_name_zh": null,
+      "display_name": "Air Products and Chemicals Inc",
+      "display_label": "(APD)Air Products and Chemicals Inc",
+      "bilingual_name": "Air Products and Chemicals Inc"
+    },
+    {
+      "etf_id": "TW-00941",
+      "holding_symbol": "LIN",
+      "holding_name": "Linde PLC",
+      "weight": 0.0642,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Linde PLC",
+      "holding_name_zh": null,
+      "display_name": "Linde PLC",
+      "display_label": "(LIN)Linde PLC",
+      "bilingual_name": "Linde PLC"
     },
     {
       "etf_id": "TW-00941",
       "holding_symbol": "KLAC",
       "holding_name": "KLA Corp",
-      "weight": 0.0593,
+      "weight": 0.0638,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 7,
       "holding_name_en": "KLA Corp",
       "holding_name_zh": "科磊",
       "display_name": "科磊",
@@ -2765,9 +2741,37 @@
     },
     {
       "etf_id": "TW-00941",
+      "holding_symbol": "BAS.DE",
+      "holding_name": "Basf SE",
+      "weight": 0.0595,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Basf SE",
+      "holding_name_zh": null,
+      "display_name": "Basf SE",
+      "display_label": "(BAS.DE)Basf SE",
+      "bilingual_name": "Basf SE"
+    },
+    {
+      "etf_id": "TW-00941",
+      "holding_symbol": "4063.T",
+      "holding_name": "Shin-Etsu Chemical Co Ltd",
+      "weight": 0.0595,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Shin-Etsu Chemical Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Shin-Etsu Chemical Co Ltd",
+      "display_label": "(4063.T)Shin-Etsu Chemical Co Ltd",
+      "bilingual_name": "Shin-Etsu Chemical Co Ltd"
+    },
+    {
+      "etf_id": "TW-00941",
       "holding_symbol": "8035.T",
       "holding_name": "Tokyo Electron Ltd",
-      "weight": 0.056,
+      "weight": 0.0576,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -2780,8 +2784,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.6562,
-    "top_3_weight": 0.2138
+    "top_10_weight": 0.6479,
+    "top_3_weight": 0.2114
   },
   "research": {
     "tier": "context",
