@@ -56,8 +56,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-13",
-    "value": 25.09,
+    "date": "2026-10-14",
+    "value": 25.0709,
     "currency": "USD"
   },
   "trend": [
@@ -124,30 +124,49 @@
     {
       "date": "2026-10-13",
       "value": 100.32
+    },
+    {
+      "date": "2026-10-14",
+      "value": 100.24
     }
   ],
   "price_history": {
     "first_date": "2026-09-22",
-    "last_date": "2026-10-13",
-    "observations": 16,
+    "last_date": "2026-10-14",
+    "observations": 17,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-13",
-    "latest_volume": 100.0,
-    "average_volume_20d": 950.0,
-    "average_dollar_volume_20d": 23807.3754,
-    "relative_volume_20d": 0.1053,
+    "as_of": "2026-10-14",
+    "latest_volume": 58.0,
+    "average_volume_20d": 897.5294,
+    "average_dollar_volume_20d": 22492.4776,
+    "relative_volume_20d": 0.0646,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 16
+    "observation_count": 17
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-VOOB",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.0031673,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 1,
+    "top_10_weight": 0.003167,
+    "top_3_weight": 0.003167
   },
   "research": {
     "tier": "context",
