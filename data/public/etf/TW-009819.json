@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -68.2533,
+      "value": -66.2206,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 32.8645,
+      "value": 32.7532,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3505,
+      "value": 0.3502,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.4762,
+      "value": 0.4802,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -22.807,
+      "value": -22.2488,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 37.3706,
+      "value": 37.2439,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-15",
-    "value": 9.68,
+    "date": "2026-10-16",
+    "value": 9.75,
     "currency": "TWD"
   },
   "trend": [
@@ -569,21 +569,25 @@
     {
       "date": "2026-10-15",
       "value": 77.19
+    },
+    {
+      "date": "2026-10-16",
+      "value": 77.75
     }
   ],
   "price_history": {
     "first_date": "2026-04-23",
-    "last_date": "2026-10-15",
-    "observations": 120,
+    "last_date": "2026-10-16",
+    "observations": 121,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-15",
-    "latest_volume": 7402848.0,
-    "average_volume_20d": 4138887.35,
-    "average_dollar_volume_20d": 40575574.378,
-    "relative_volume_20d": 1.7886,
+    "as_of": "2026-10-16",
+    "latest_volume": 2668839.0,
+    "average_volume_20d": 3914161.35,
+    "average_dollar_volume_20d": 38488364.5835,
+    "relative_volume_20d": 0.6818,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -593,7 +597,7 @@
       "etf_id": "TW-009819",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.2742,
+      "weight": 0.2649,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -605,26 +609,12 @@
     },
     {
       "etf_id": "TW-009819",
-      "holding_symbol": "ORCL",
-      "holding_name": "Oracle Corp",
-      "weight": 0.08,
+      "holding_symbol": "GEV",
+      "holding_name": "GE Vernova Inc",
+      "weight": 0.08149999,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Oracle Corp",
-      "holding_name_zh": null,
-      "display_name": "Oracle Corp",
-      "display_label": "(ORCL)Oracle Corp",
-      "bilingual_name": "Oracle Corp"
-    },
-    {
-      "etf_id": "TW-009819",
-      "holding_symbol": "GEV",
-      "holding_name": "GE Vernova Inc",
-      "weight": 0.0758,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "GE Vernova Inc",
       "holding_name_zh": null,
       "display_name": "GE Vernova Inc",
@@ -633,9 +623,23 @@
     },
     {
       "etf_id": "TW-009819",
+      "holding_symbol": "ORCL",
+      "holding_name": "Oracle Corp",
+      "weight": 0.0751,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Oracle Corp",
+      "holding_name_zh": null,
+      "display_name": "Oracle Corp",
+      "display_label": "(ORCL)Oracle Corp",
+      "bilingual_name": "Oracle Corp"
+    },
+    {
+      "etf_id": "TW-009819",
       "holding_symbol": "MRVL",
       "holding_name": "Marvell Technology Inc",
-      "weight": 0.0578,
+      "weight": 0.0735,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -649,7 +653,7 @@
       "etf_id": "TW-009819",
       "holding_symbol": "NEE",
       "holding_name": "NextEra Energy Inc",
-      "weight": 0.0535,
+      "weight": 0.0502,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -663,7 +667,7 @@
       "etf_id": "TW-009819",
       "holding_symbol": "NOW",
       "holding_name": "ServiceNow Inc",
-      "weight": 0.0473,
+      "weight": 0.0436,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -675,12 +679,26 @@
     },
     {
       "etf_id": "TW-009819",
-      "holding_symbol": "EQIX",
-      "holding_name": "Equinix Inc",
-      "weight": 0.0319,
+      "holding_symbol": "NET",
+      "holding_name": "Cloudflare Inc",
+      "weight": 0.0347,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
+      "holding_name_en": "Cloudflare Inc",
+      "holding_name_zh": null,
+      "display_name": "Cloudflare Inc",
+      "display_label": "(NET)Cloudflare Inc",
+      "bilingual_name": "Cloudflare Inc"
+    },
+    {
+      "etf_id": "TW-009819",
+      "holding_symbol": "EQIX",
+      "holding_name": "Equinix Inc",
+      "weight": 0.0317,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Equinix Inc",
       "holding_name_zh": "Equinix",
       "display_name": "Equinix",
@@ -691,10 +709,10 @@
       "etf_id": "TW-009819",
       "holding_symbol": "SO",
       "holding_name": "Southern Co",
-      "weight": 0.0309,
+      "weight": 0.0296,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Southern Co",
       "holding_name_zh": null,
       "display_name": "Southern Co",
@@ -703,37 +721,23 @@
     },
     {
       "etf_id": "TW-009819",
-      "holding_symbol": "NET",
-      "holding_name": "Cloudflare Inc",
-      "weight": 0.0301,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Cloudflare Inc",
-      "holding_name_zh": null,
-      "display_name": "Cloudflare Inc",
-      "display_label": "(NET)Cloudflare Inc",
-      "bilingual_name": "Cloudflare Inc"
-    },
-    {
-      "etf_id": "TW-009819",
-      "holding_symbol": "CEG",
-      "holding_name": "Constellation Energy Corp",
-      "weight": 0.0291,
+      "holding_symbol": "DUK",
+      "holding_name": "Duke Energy Corp",
+      "weight": 0.0282,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Constellation Energy Corp",
+      "holding_name_en": "Duke Energy Corp",
       "holding_name_zh": null,
-      "display_name": "Constellation Energy Corp",
-      "display_label": "(CEG)Constellation Energy Corp",
-      "bilingual_name": "Constellation Energy Corp"
+      "display_name": "Duke Energy Corp",
+      "display_label": "(DUK)Duke Energy Corp",
+      "bilingual_name": "Duke Energy Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7106,
-    "top_3_weight": 0.43
+    "top_10_weight": 0.713,
+    "top_3_weight": 0.4215
   },
   "research": {
     "tier": "context",

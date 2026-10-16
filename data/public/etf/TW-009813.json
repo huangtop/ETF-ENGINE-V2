@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.7044,
+      "value": 0.456,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.8549,
+      "value": 13.8677,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2808,
+      "value": 0.2806,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.9524,
+      "value": 0.9563,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 16.0359,
+      "value": 17.3307,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 23.7249,
+      "value": 23.7073,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-15",
-    "value": 11.65,
+    "date": "2026-10-16",
+    "value": 11.78,
     "currency": "TWD"
   },
   "trend": [
@@ -1049,21 +1049,25 @@
     {
       "date": "2026-10-15",
       "value": 116.04
+    },
+    {
+      "date": "2026-10-16",
+      "value": 117.33
     }
   ],
   "price_history": {
     "first_date": "2025-10-20",
-    "last_date": "2026-10-15",
-    "observations": 240,
+    "last_date": "2026-10-16",
+    "observations": 241,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-15",
-    "latest_volume": 2827684.0,
-    "average_volume_20d": 1880730.15,
-    "average_dollar_volume_20d": 21741143.9625,
-    "relative_volume_20d": 1.5035,
+    "as_of": "2026-10-16",
+    "latest_volume": 641256.0,
+    "average_volume_20d": 1768783.0,
+    "average_dollar_volume_20d": 20504492.207,
+    "relative_volume_20d": 0.3625,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1073,7 +1077,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.1287763,
+      "weight": 0.1303998,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1087,7 +1091,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
-      "weight": 0.1120687,
+      "weight": 0.1146715,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1101,7 +1105,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.09074879,
+      "weight": 0.0898611,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1115,7 +1119,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.061237,
+      "weight": 0.0577005,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1129,7 +1133,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0479186,
+      "weight": 0.0476379,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1143,7 +1147,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0422273,
+      "weight": 0.0394218,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1157,7 +1161,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "GOOG",
       "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0381762,
+      "weight": 0.0382131,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1171,7 +1175,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0302668,
+      "weight": 0.037731,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -1185,7 +1189,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.0260376,
+      "weight": 0.0283864,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -1199,7 +1203,7 @@
       "etf_id": "TW-009813",
       "holding_symbol": "TSLA",
       "holding_name": "Tesla Inc",
-      "weight": 0.0249449,
+      "weight": 0.0235938,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -1212,8 +1216,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.602402,
-    "top_3_weight": 0.331594
+    "top_10_weight": 0.607617,
+    "top_3_weight": 0.334932
   },
   "research": {
     "tier": "context",
