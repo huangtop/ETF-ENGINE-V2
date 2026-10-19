@@ -51,7 +51,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -18.6491,
+      "value": -18.3295,
       "unit": "percent"
     },
     "annualized_return": {
@@ -63,11 +63,11 @@
       "unit": "percent"
     },
     "beta": {
-      "value": 0.1209,
+      "value": 0.121,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9167,
+      "value": 2.9206,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,21 +83,17 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 33.9168,
+      "value": 33.8968,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-16",
+    "date": "2026-10-19",
     "value": 3.37,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-09-05",
-      "value": 100.0
-    },
     {
       "date": "2023-09-06",
       "value": 100.0
@@ -3117,21 +3113,25 @@
     {
       "date": "2026-10-16",
       "value": 75.06
+    },
+    {
+      "date": "2026-10-19",
+      "value": 75.06
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-10-16",
-    "observations": 791,
+    "last_date": "2026-10-19",
+    "observations": 792,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-16",
-    "latest_volume": 5000.0,
-    "average_volume_20d": 7600.0,
-    "average_dollar_volume_20d": 27161.9999,
-    "relative_volume_20d": 0.6579,
+    "as_of": "2026-10-19",
+    "latest_volume": 0.0,
+    "average_volume_20d": 7100.0,
+    "average_dollar_volume_20d": 25276.9999,
+    "relative_volume_20d": 0.0,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "TW-00643K",
       "holding_symbol": "002371.SZ",
       "holding_name": "NAURA Technology Group Co Ltd Class A",
-      "weight": 0.071255,
+      "weight": 0.0586358,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "TW-00643K",
       "holding_symbol": "002475.SZ",
       "holding_name": "Luxshare Precision Industry Co Ltd Class A",
-      "weight": 0.0665542,
+      "weight": 0.0552356,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3167,12 +3167,26 @@
     },
     {
       "etf_id": "TW-00643K",
-      "holding_symbol": "002384.SZ",
-      "holding_name": "Suzhou Dongshan Precision Manufacturing Co Ltd Class A",
-      "weight": 0.0645964,
+      "holding_symbol": "002594.SZ",
+      "holding_name": "BYD Co Ltd Class A",
+      "weight": 0.0499812,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
+      "holding_name_en": "BYD Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "BYD Co Ltd Class A",
+      "display_label": "(002594.SZ)BYD Co Ltd Class A",
+      "bilingual_name": "BYD Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-00643K",
+      "holding_symbol": "002384.SZ",
+      "holding_name": "Suzhou Dongshan Precision Manufacturing Co Ltd Class A",
+      "weight": 0.0499414,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Suzhou Dongshan Precision Manufacturing Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Suzhou Dongshan Precision Manufacturing Co Ltd Class A",
@@ -3183,10 +3197,10 @@
       "etf_id": "TW-00643K",
       "holding_symbol": "002463.SZ",
       "holding_name": "Wus Printed Circuit (Kunshan) Co Ltd Class A",
-      "weight": 0.0418031,
+      "weight": 0.0372028,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "Wus Printed Circuit (Kunshan) Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Wus Printed Circuit (Kunshan) Co Ltd Class A",
@@ -3195,51 +3209,37 @@
     },
     {
       "etf_id": "TW-00643K",
-      "holding_symbol": "002594.SZ",
-      "holding_name": "BYD Co Ltd Class A",
-      "weight": 0.041186,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "BYD Co Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "BYD Co Ltd Class A",
-      "display_label": "(002594.SZ)BYD Co Ltd Class A",
-      "bilingual_name": "BYD Co Ltd Class A"
-    },
-    {
-      "etf_id": "TW-00643K",
-      "holding_symbol": "002281.SZ",
-      "holding_name": "Accelink Technologies Co Ltd Class A",
-      "weight": 0.0273364,
+      "holding_symbol": "002142.SZ",
+      "holding_name": "Bank Of Ningbo Co Ltd Class A",
+      "weight": 0.0285113,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Accelink Technologies Co Ltd Class A",
+      "holding_name_en": "Bank Of Ningbo Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "Accelink Technologies Co Ltd Class A",
-      "display_label": "(002281.SZ)Accelink Technologies Co Ltd Class A",
-      "bilingual_name": "Accelink Technologies Co Ltd Class A"
+      "display_name": "Bank Of Ningbo Co Ltd Class A",
+      "display_label": "(002142.SZ)Bank Of Ningbo Co Ltd Class A",
+      "bilingual_name": "Bank Of Ningbo Co Ltd Class A"
     },
     {
       "etf_id": "TW-00643K",
-      "holding_symbol": "002008.SZ",
-      "holding_name": "Han's Laser Technology Industry Group Co Ltd Class A",
-      "weight": 0.0250966,
+      "holding_symbol": "002714.SZ",
+      "holding_name": "Muyuan Foods Group Co Ltd Class A",
+      "weight": 0.0247871,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Han's Laser Technology Industry Group Co Ltd Class A",
+      "holding_name_en": "Muyuan Foods Group Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "Han's Laser Technology Industry Group Co Ltd Class A",
-      "display_label": "(002008.SZ)Han's Laser Technology Industry Group Co Ltd Class A",
-      "bilingual_name": "Han's Laser Technology Industry Group Co Ltd Class A"
+      "display_name": "Muyuan Foods Group Co Ltd Class A",
+      "display_label": "(002714.SZ)Muyuan Foods Group Co Ltd Class A",
+      "bilingual_name": "Muyuan Foods Group Co Ltd Class A"
     },
     {
       "etf_id": "TW-00643K",
       "holding_symbol": "002916.SZ",
       "holding_name": "Shennan Circuits Co Ltd Class A",
-      "weight": 0.0243585,
+      "weight": 0.0217196,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -3251,37 +3251,37 @@
     },
     {
       "etf_id": "TW-00643K",
-      "holding_symbol": "002028.SZ",
-      "holding_name": "Sieyuan Electric Co Ltd Class A",
-      "weight": 0.0210353,
+      "holding_symbol": "002281.SZ",
+      "holding_name": "Accelink Technologies Co Ltd Class A",
+      "weight": 0.0189855,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Sieyuan Electric Co Ltd Class A",
+      "holding_name_en": "Accelink Technologies Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "Sieyuan Electric Co Ltd Class A",
-      "display_label": "(002028.SZ)Sieyuan Electric Co Ltd Class A",
-      "bilingual_name": "Sieyuan Electric Co Ltd Class A"
+      "display_name": "Accelink Technologies Co Ltd Class A",
+      "display_label": "(002281.SZ)Accelink Technologies Co Ltd Class A",
+      "bilingual_name": "Accelink Technologies Co Ltd Class A"
     },
     {
       "etf_id": "TW-00643K",
-      "holding_symbol": "002142.SZ",
-      "holding_name": "Bank Of Ningbo Co Ltd Class A",
-      "weight": 0.0207307,
+      "holding_symbol": "002602.SZ",
+      "holding_name": "Zhejiang Century Huatong Group Co Ltd Class A",
+      "weight": 0.0186711,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Bank Of Ningbo Co Ltd Class A",
+      "holding_name_en": "Zhejiang Century Huatong Group Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "Bank Of Ningbo Co Ltd Class A",
-      "display_label": "(002142.SZ)Bank Of Ningbo Co Ltd Class A",
-      "bilingual_name": "Bank Of Ningbo Co Ltd Class A"
+      "display_name": "Zhejiang Century Huatong Group Co Ltd Class A",
+      "display_label": "(002602.SZ)Zhejiang Century Huatong Group Co Ltd Class A",
+      "bilingual_name": "Zhejiang Century Huatong Group Co Ltd Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.403952,
-    "top_3_weight": 0.202406
+    "top_10_weight": 0.363671,
+    "top_3_weight": 0.163853
   },
   "research": {
     "tier": "context",

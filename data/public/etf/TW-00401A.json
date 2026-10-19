@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -2.9857,
+      "value": -2.886,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 31.0411,
+      "value": 31.006,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8285,
+      "value": 0.8271,
       "unit": "ratio"
     },
     "data_years": {
@@ -87,7 +87,7 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.8011,
+      "value": 16.8222,
       "unit": "percent"
     }
   },
@@ -604,7 +604,7 @@
     },
     {
       "date": "2026-10-01",
-      "value": 142.6
+      "value": 141.3
     },
     {
       "date": "2026-10-02",
@@ -660,10 +660,10 @@
   },
   "liquidity": {
     "as_of": "2026-10-19",
-    "latest_volume": 5398223.0,
-    "average_volume_20d": 6968929.35,
-    "average_dollar_volume_20d": 98599058.7659,
-    "relative_volume_20d": 0.7746,
+    "latest_volume": 5344500.0,
+    "average_volume_20d": 6966243.2,
+    "average_dollar_volume_20d": 98532134.6211,
+    "relative_volume_20d": 0.7672,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -673,7 +673,7 @@
       "etf_id": "TW-00401A",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0886268,
+      "weight": 0.2009122,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -687,7 +687,7 @@
       "etf_id": "TW-00401A",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0670878,
+      "weight": 0.0670266,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -699,54 +699,12 @@
     },
     {
       "etf_id": "TW-00401A",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.043856,
+      "holding_symbol": "3711.TW",
+      "holding_name": "ASE Technology Holding Co Ltd",
+      "weight": 0.0255467,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Delta Electronics Inc",
-      "holding_name_zh": "台達電",
-      "display_name": "台達電",
-      "display_label": "(2308.TW)台達電",
-      "bilingual_name": "Delta Electronics Inc（台達電）"
-    },
-    {
-      "etf_id": "TW-00401A",
-      "holding_symbol": "4958.TW",
-      "holding_name": "Zhen Ding Technology Holding Ltd",
-      "weight": 0.0283377,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Zhen Ding Technology Holding Ltd",
-      "holding_name_zh": "臻鼎-KY",
-      "display_name": "臻鼎-KY",
-      "display_label": "(4958.TW)臻鼎-KY",
-      "bilingual_name": "Zhen Ding Technology Holding Ltd（臻鼎-KY）"
-    },
-    {
-      "etf_id": "TW-00401A",
-      "holding_symbol": "7769.TW",
-      "holding_name": "Hon Precision Inc",
-      "weight": 0.0275293,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Hon Precision Inc",
-      "holding_name_zh": "鴻勁",
-      "display_name": "鴻勁",
-      "display_label": "(7769.TW)鴻勁",
-      "bilingual_name": "Hon Precision Inc（鴻勁）"
-    },
-    {
-      "etf_id": "TW-00401A",
-      "holding_symbol": "3711.TW",
-      "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0258334,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "ASE Technology Holding Co Ltd",
       "holding_name_zh": "日月光投控",
       "display_name": "日月光投控",
@@ -755,37 +713,79 @@
     },
     {
       "etf_id": "TW-00401A",
-      "holding_symbol": "2891.TW",
-      "holding_name": "CTBC Financial Holding Co Ltd",
-      "weight": 0.0242542,
+      "holding_symbol": "2308.TW",
+      "holding_name": "Delta Electronics Inc",
+      "weight": 0.0254326,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "CTBC Financial Holding Co Ltd",
-      "holding_name_zh": "中信金",
-      "display_name": "中信金",
-      "display_label": "(2891.TW)中信金",
-      "bilingual_name": "CTBC Financial Holding Co Ltd（中信金）"
+      "rank": 4,
+      "holding_name_en": "Delta Electronics Inc",
+      "holding_name_zh": "台達電",
+      "display_name": "台達電",
+      "display_label": "(2308.TW)台達電",
+      "bilingual_name": "Delta Electronics Inc（台達電）"
     },
     {
       "etf_id": "TW-00401A",
-      "holding_symbol": "6223.TWO",
-      "holding_name": "MPI Corp",
-      "weight": 0.0240615,
+      "holding_symbol": "2303.TW",
+      "holding_name": "United Microelectronics Corp",
+      "weight": 0.0251195,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "United Microelectronics Corp",
+      "holding_name_zh": "聯電",
+      "display_name": "聯電",
+      "display_label": "(2303.TW)聯電",
+      "bilingual_name": "United Microelectronics Corp（聯電）"
+    },
+    {
+      "etf_id": "TW-00401A",
+      "holding_symbol": "3037.TW",
+      "holding_name": "Unimicron Technology Corp",
+      "weight": 0.0234054,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Unimicron Technology Corp",
+      "holding_name_zh": "欣興",
+      "display_name": "欣興",
+      "display_label": "(3037.TW)欣興",
+      "bilingual_name": "Unimicron Technology Corp（欣興）"
+    },
+    {
+      "etf_id": "TW-00401A",
+      "holding_symbol": "2455.TW",
+      "holding_name": "Visual Photonics Epitaxy Co Ltd",
+      "weight": 0.022734,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Visual Photonics Epitaxy Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Visual Photonics Epitaxy Co Ltd",
+      "display_label": "(2455.TW)Visual Photonics Epitaxy Co Ltd",
+      "bilingual_name": "Visual Photonics Epitaxy Co Ltd"
+    },
+    {
+      "etf_id": "TW-00401A",
+      "holding_symbol": "3008.TW",
+      "holding_name": "Largan Precision Co Ltd",
+      "weight": 0.0209766,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "MPI Corp",
-      "holding_name_zh": "旺矽",
-      "display_name": "旺矽",
-      "display_label": "(6223.TWO)旺矽",
-      "bilingual_name": "MPI Corp（旺矽）"
+      "holding_name_en": "Largan Precision Co Ltd",
+      "holding_name_zh": "大立光",
+      "display_name": "大立光",
+      "display_label": "(3008.TW)大立光",
+      "bilingual_name": "Largan Precision Co Ltd（大立光）"
     },
     {
       "etf_id": "TW-00401A",
       "holding_symbol": "2382.TW",
       "holding_name": "Quanta Computer Inc",
-      "weight": 0.023599,
+      "weight": 0.0209169,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -797,23 +797,23 @@
     },
     {
       "etf_id": "TW-00401A",
-      "holding_symbol": "2383.TW",
-      "holding_name": "Elite Material Co Ltd",
-      "weight": 0.0230978,
+      "holding_symbol": "5274.TWO",
+      "holding_name": "Aspeed Technology Inc",
+      "weight": 0.020017,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Elite Material Co Ltd",
-      "holding_name_zh": "台光電",
-      "display_name": "台光電",
-      "display_label": "(2383.TW)台光電",
-      "bilingual_name": "Elite Material Co Ltd（台光電）"
+      "holding_name_en": "Aspeed Technology Inc",
+      "holding_name_zh": "信驊",
+      "display_name": "信驊",
+      "display_label": "(5274.TWO)信驊",
+      "bilingual_name": "Aspeed Technology Inc（信驊）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.376283,
-    "top_3_weight": 0.199571
+    "top_10_weight": 0.452088,
+    "top_3_weight": 0.293486
   },
   "research": {
     "tier": "context",

@@ -1,14 +1,32 @@
 {
   "left_etf_id": "TW-00990A",
   "right_etf_id": "US-AIQ",
-  "overlap_ratio": 0.030511,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.121817,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
+      "holding_symbol": "META",
+      "left_weight": 0.044914,
+      "right_weight": 0.032195,
+      "overlap_weight": 0.032195
+    },
+    {
       "holding_symbol": "AMD",
-      "left_weight": 0.049759,
+      "left_weight": 0.042146,
       "right_weight": 0.030511,
       "overlap_weight": 0.030511
+    },
+    {
+      "holding_symbol": "PLTR",
+      "left_weight": 0.029666,
+      "right_weight": 0.040806,
+      "overlap_weight": 0.029666
+    },
+    {
+      "holding_symbol": "NVDA",
+      "left_weight": 0.040099,
+      "right_weight": 0.029445,
+      "overlap_weight": 0.029445
     }
   ]
 }
