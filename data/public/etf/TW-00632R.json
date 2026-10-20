@@ -59,19 +59,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 5.4138,
+      "value": 5.3508,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -45.6219,
+      "value": -43.7536,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.9277,
+      "value": 28.8888,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.9853,
+      "value": -0.9871,
       "unit": "ratio"
     },
     "data_years": {
@@ -83,29 +83,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -1.629,
+      "value": -1.5665,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -45.6219,
+      "value": -43.7536,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 57.5015,
+      "value": 57.3738,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-19",
-    "value": 9.75,
+    "date": "2026-10-20",
+    "value": 9.86,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-09-07",
-      "value": 100.0
-    },
     {
       "date": "2023-09-08",
       "value": 100.0
@@ -3125,21 +3121,25 @@
     {
       "date": "2026-10-19",
       "value": 200.62
+    },
+    {
+      "date": "2026-10-20",
+      "value": 202.88
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-10-19",
-    "observations": 793,
+    "last_date": "2026-10-20",
+    "observations": 794,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-19",
-    "latest_volume": 122282092.0,
-    "average_volume_20d": 104564709.6,
-    "average_dollar_volume_20d": 992786354.2281,
-    "relative_volume_20d": 1.1694,
+    "as_of": "2026-10-20",
+    "latest_volume": 104214469.0,
+    "average_volume_20d": 103176244.2,
+    "average_dollar_volume_20d": 979228066.3651,
+    "relative_volume_20d": 1.0101,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
