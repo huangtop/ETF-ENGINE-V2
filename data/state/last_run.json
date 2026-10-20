@@ -5,33 +5,33 @@
   "processed": 510,
   "bootstrap_limit": 30,
   "bootstrap_attempted": 1,
-  "bootstrap_ready": 509,
-  "bootstrap_pending": 1,
-  "metric_rows": 4439,
-  "holdings_synced": 163,
+  "bootstrap_ready": 510,
+  "bootstrap_pending": 0,
+  "metric_rows": 4463,
+  "holdings_synced": 165,
   "holdings_rotation_limit": 40,
   "holdings_scheduled": 217,
   "holdings_rotating": [
-    "TW-00662",
-    "TW-00663L",
-    "TW-00664R",
-    "TW-00665L",
-    "TW-00666R",
-    "TW-00668",
-    "TW-00668K",
-    "TW-00669R",
-    "TW-00670L",
-    "TW-00671R",
-    "TW-00673R",
-    "TW-00674R",
-    "TW-00675L",
-    "TW-00676R",
-    "TW-00678",
-    "TW-00679B",
-    "TW-00680L",
-    "TW-00681R",
-    "TW-00682U",
-    "TW-00683L"
+    "TW-00684R",
+    "TW-00685L",
+    "TW-00686R",
+    "TW-00687B",
+    "TW-00687C",
+    "TW-00688L",
+    "TW-00689R",
+    "TW-00690",
+    "TW-00692",
+    "TW-00693U",
+    "TW-00694B",
+    "TW-00695B",
+    "TW-00696B",
+    "TW-00697B",
+    "TW-00700",
+    "TW-00701",
+    "TW-00702",
+    "TW-00703",
+    "TW-00706L",
+    "TW-00707R"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -45,10 +45,12 @@
     "TW-00408A",
     "TW-0050",
     "TW-006208",
-    "TW-00662",
-    "TW-00668",
-    "TW-00668K",
-    "TW-00678",
+    "TW-00690",
+    "TW-00692",
+    "TW-00700",
+    "TW-00701",
+    "TW-00702",
+    "TW-00703",
     "TW-00980A",
     "TW-00981A",
     "TW-00982A",
@@ -211,11 +213,6 @@
   "skipped_after_provider_halt": [],
   "errors": [
     {
-      "etf_id": "US-AIBN",
-      "stage": "prices",
-      "error": "no provider data"
-    },
-    {
       "etf_id": "US-FIVG",
       "stage": "holdings",
       "error": "yahoo: HTTP Error 404: "
@@ -233,7 +230,7 @@
     {
       "etf_id": "US-AIBN",
       "stage": "holdings",
-      "error": "yahoo: HTTP Error 404: "
+      "error": "yahoo: No Fund data found."
     }
   ]
 }
