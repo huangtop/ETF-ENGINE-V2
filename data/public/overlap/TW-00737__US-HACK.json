@@ -1,14 +1,20 @@
 {
   "left_etf_id": "TW-00737",
   "right_etf_id": "US-HACK",
-  "overlap_ratio": 0.017499,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.0345,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "NET",
+      "left_weight": 0.017805,
+      "right_weight": 0.055784,
+      "overlap_weight": 0.017805
+    },
+    {
       "holding_symbol": "PANW",
-      "left_weight": 0.017499,
+      "left_weight": 0.016695,
       "right_weight": 0.058865,
-      "overlap_weight": 0.017499
+      "overlap_weight": 0.016695
     }
   ]
 }
