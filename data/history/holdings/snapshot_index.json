@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-27T10:50:02.983099Z",
+  "updated_at": "2026-10-27T22:41:09.211751Z",
   "etfs": {
     "TW-00400A": {
       "current": "20261019-123ff3889e38",
@@ -2283,8 +2283,8 @@
       ]
     },
     "TW-00981A": {
-      "current": "20261022-c35c2ecab800",
-      "previous": "20261021-89051a271a32",
+      "current": "20261027-604b8d209375",
+      "previous": "20261022-c35c2ecab800",
       "snapshots": [
         {
           "snapshot_id": "20260729-be7c2b135414",
@@ -2585,6 +2585,12 @@
           "observed_at": "2026-10-22T10:47:49.494069Z",
           "content_sha256": "c35c2ecab8004b78b307eb8c8d4dc678014cd3c692d5268e2741c5d9b4d99cbd",
           "path": "snapshots/20261022-c35c2ecab800.json"
+        },
+        {
+          "snapshot_id": "20261027-604b8d209375",
+          "observed_at": "2026-10-27T22:40:29.924452Z",
+          "content_sha256": "604b8d209375f19f4950f042eb934d853da1aa0de7dd4d1172fafa44d6a9ed1b",
+          "path": "snapshots/20261027-604b8d209375.json"
         }
       ]
     },
@@ -7941,14 +7947,20 @@
       ]
     },
     "TW-00971": {
-      "current": "20260811-fcf249fcdb57",
-      "previous": null,
+      "current": "20261027-9003e370ecac",
+      "previous": "20260811-fcf249fcdb57",
       "snapshots": [
         {
           "snapshot_id": "20260811-fcf249fcdb57",
           "observed_at": "2026-08-11T11:02:16.776374Z",
           "content_sha256": "fcf249fcdb5794fbe9a33fee8f63dc0643e26d4ef24478f404f19a9fc3f53c10",
           "path": "snapshots/20260811-fcf249fcdb57.json"
+        },
+        {
+          "snapshot_id": "20261027-9003e370ecac",
+          "observed_at": "2026-10-27T22:40:21.957523Z",
+          "content_sha256": "9003e370ecac63f747f8a1e301cd134eb5e09ba6d0a5bc0131ba8dc841d80a66",
+          "path": "snapshots/20261027-9003e370ecac.json"
         }
       ]
     },
@@ -8025,98 +8037,146 @@
       ]
     },
     "TW-009802": {
-      "current": "20260811-d9dcc70a7aac",
-      "previous": null,
+      "current": "20261027-3fd1cd768483",
+      "previous": "20260811-d9dcc70a7aac",
       "snapshots": [
         {
           "snapshot_id": "20260811-d9dcc70a7aac",
           "observed_at": "2026-08-11T11:02:17.052441Z",
           "content_sha256": "d9dcc70a7aacdb0dcb4568f591bb0c1e5d887157135f0e561006f8a1f897943d",
           "path": "snapshots/20260811-d9dcc70a7aac.json"
+        },
+        {
+          "snapshot_id": "20261027-3fd1cd768483",
+          "observed_at": "2026-10-27T22:40:22.845494Z",
+          "content_sha256": "3fd1cd7684832cab34b74bb408791b2d318c21be07c3236cd7627cd3408127e3",
+          "path": "snapshots/20261027-3fd1cd768483.json"
         }
       ]
     },
     "TW-009803": {
-      "current": "20260811-d60e18a504a6",
-      "previous": null,
+      "current": "20261027-27893307a21c",
+      "previous": "20260811-d60e18a504a6",
       "snapshots": [
         {
           "snapshot_id": "20260811-d60e18a504a6",
           "observed_at": "2026-08-11T11:02:17.120444Z",
           "content_sha256": "d60e18a504a6167b62901dbd4a2a1bd974f0a6cdf4399a3b0dd0765fcd769b13",
           "path": "snapshots/20260811-d60e18a504a6.json"
+        },
+        {
+          "snapshot_id": "20261027-27893307a21c",
+          "observed_at": "2026-10-27T22:40:23.062983Z",
+          "content_sha256": "27893307a21c4a96c454cdd17070a5eb40acbc4a991447929a8772aba7cf63da",
+          "path": "snapshots/20261027-27893307a21c.json"
         }
       ]
     },
     "TW-009804": {
-      "current": "20260811-bf62ccb16bd0",
-      "previous": null,
+      "current": "20261027-48576ac18c78",
+      "previous": "20260811-bf62ccb16bd0",
       "snapshots": [
         {
           "snapshot_id": "20260811-bf62ccb16bd0",
           "observed_at": "2026-08-11T11:02:17.188632Z",
           "content_sha256": "bf62ccb16bd00333c2e3ad8bdce0e51c02b2c0af7d3437eda07fdb785a7b8c40",
           "path": "snapshots/20260811-bf62ccb16bd0.json"
+        },
+        {
+          "snapshot_id": "20261027-48576ac18c78",
+          "observed_at": "2026-10-27T22:40:23.282441Z",
+          "content_sha256": "48576ac18c78d4d8532b0995e7ac73b7b6834427d8280886de9de134c0aceb5b",
+          "path": "snapshots/20261027-48576ac18c78.json"
         }
       ]
     },
     "TW-009805": {
-      "current": "20260811-255d099b94df",
-      "previous": null,
+      "current": "20261027-960561a181cb",
+      "previous": "20260811-255d099b94df",
       "snapshots": [
         {
           "snapshot_id": "20260811-255d099b94df",
           "observed_at": "2026-08-11T11:02:17.255181Z",
           "content_sha256": "255d099b94df863ba3efb57c24ae4b5a1f4114c7a2b7989542e2ab72925de7d1",
           "path": "snapshots/20260811-255d099b94df.json"
+        },
+        {
+          "snapshot_id": "20261027-960561a181cb",
+          "observed_at": "2026-10-27T22:40:23.498054Z",
+          "content_sha256": "960561a181cb12debda92af25155c675bb7790635c428baa5f6025ea8bd95a5d",
+          "path": "snapshots/20261027-960561a181cb.json"
         }
       ]
     },
     "TW-009806": {
-      "current": "20260811-0225d621da81",
-      "previous": null,
+      "current": "20261027-cff9afd2b803",
+      "previous": "20260811-0225d621da81",
       "snapshots": [
         {
           "snapshot_id": "20260811-0225d621da81",
           "observed_at": "2026-08-11T11:02:17.322094Z",
           "content_sha256": "0225d621da816b746a7c861949b325bf0799eaf67cd1cf1595a461ad46f20a8f",
           "path": "snapshots/20260811-0225d621da81.json"
+        },
+        {
+          "snapshot_id": "20261027-cff9afd2b803",
+          "observed_at": "2026-10-27T22:40:23.715289Z",
+          "content_sha256": "cff9afd2b803b9e280f1692822d289adb1a621abc40b3eaaa34dda4c1163f83a",
+          "path": "snapshots/20261027-cff9afd2b803.json"
         }
       ]
     },
     "TW-009807": {
-      "current": "20260811-a35f6de63548",
-      "previous": null,
+      "current": "20261027-e217e305fa91",
+      "previous": "20260811-a35f6de63548",
       "snapshots": [
         {
           "snapshot_id": "20260811-a35f6de63548",
           "observed_at": "2026-08-11T11:02:17.387844Z",
           "content_sha256": "a35f6de635488915d661cdb0846742d2db7446adb73032e3578ee48a07091860",
           "path": "snapshots/20260811-a35f6de63548.json"
+        },
+        {
+          "snapshot_id": "20261027-e217e305fa91",
+          "observed_at": "2026-10-27T22:40:23.928442Z",
+          "content_sha256": "e217e305fa9194a96701a30f4af503fd11d8e01cb7489646b404939830ea8da7",
+          "path": "snapshots/20261027-e217e305fa91.json"
         }
       ]
     },
     "TW-009808": {
-      "current": "20260811-8ca89d94c51a",
-      "previous": null,
+      "current": "20261027-133fb41611b6",
+      "previous": "20260811-8ca89d94c51a",
       "snapshots": [
         {
           "snapshot_id": "20260811-8ca89d94c51a",
           "observed_at": "2026-08-11T23:02:11.319858Z",
           "content_sha256": "8ca89d94c51a5518588408f10895f8912f016302e701f9c56377f15126f0c8a7",
           "path": "snapshots/20260811-8ca89d94c51a.json"
+        },
+        {
+          "snapshot_id": "20261027-133fb41611b6",
+          "observed_at": "2026-10-27T22:40:24.160380Z",
+          "content_sha256": "133fb41611b6b5e7d07d0a816d6e97de9b7069a1a92af694b7c59a88a9643838",
+          "path": "snapshots/20261027-133fb41611b6.json"
         }
       ]
     },
     "TW-009809": {
-      "current": "20260811-35544294456b",
-      "previous": null,
+      "current": "20261027-5dbe9035c4d2",
+      "previous": "20260811-35544294456b",
       "snapshots": [
         {
           "snapshot_id": "20260811-35544294456b",
           "observed_at": "2026-08-11T23:02:11.395928Z",
           "content_sha256": "35544294456bfc82bebdf501ce2429d00f37d4cfe1fc1d67fb5684a6c6c96689",
           "path": "snapshots/20260811-35544294456b.json"
+        },
+        {
+          "snapshot_id": "20261027-5dbe9035c4d2",
+          "observed_at": "2026-10-27T22:40:24.404815Z",
+          "content_sha256": "5dbe9035c4d2b0b3910607e0e630149cff8ff28bc7cf9db41358792189351501",
+          "path": "snapshots/20261027-5dbe9035c4d2.json"
         }
       ]
     },
