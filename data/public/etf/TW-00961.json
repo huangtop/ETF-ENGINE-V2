@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 15.2942,
+      "value": 16.6606,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 42.6004,
+      "value": 43.9746,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.2809,
+      "value": 18.2986,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3658,
+      "value": 0.3653,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9524,
+      "value": 1.9563,
       "unit": "years"
     },
     "expense_ratio": {
@@ -87,22 +87,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.2483,
+      "value": 2.3212,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 42.6004,
+      "value": 43.9746,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 23.5607,
+      "value": 23.5896,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
-    "value": 13.49,
+    "date": "2026-10-27",
+    "value": 13.62,
     "currency": "TWD"
   },
   "trend": [
@@ -2073,21 +2073,25 @@
     {
       "date": "2026-10-22",
       "value": 134.9
+    },
+    {
+      "date": "2026-10-27",
+      "value": 136.2
     }
   ],
   "price_history": {
     "first_date": "2024-10-15",
-    "last_date": "2026-10-22",
-    "observations": 492,
+    "last_date": "2026-10-27",
+    "observations": 493,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 12780449.0,
-    "average_volume_20d": 30444647.35,
-    "average_dollar_volume_20d": 404581587.454,
-    "relative_volume_20d": 0.4198,
+    "as_of": "2026-10-27",
+    "latest_volume": 12521004.0,
+    "average_volume_20d": 29260057.3,
+    "average_dollar_volume_20d": 389099301.463,
+    "relative_volume_20d": 0.4279,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2095,26 +2099,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2542.TW",
-      "holding_name": "Highwealth Construction Corp",
-      "weight": 0.0872737,
+      "holding_symbol": "2357.TW",
+      "holding_name": "Asustek Computer Inc",
+      "weight": 0.1077997,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Highwealth Construction Corp",
-      "holding_name_zh": null,
-      "display_name": "Highwealth Construction Corp",
-      "display_label": "(2542.TW)Highwealth Construction Corp",
-      "bilingual_name": "Highwealth Construction Corp"
-    },
-    {
-      "etf_id": "TW-00961",
-      "holding_symbol": "2357.TW",
-      "holding_name": "Asustek Computer Inc",
-      "weight": 0.0807052,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Asustek Computer Inc",
       "holding_name_zh": "華碩",
       "display_name": "華碩",
@@ -2123,12 +2113,40 @@
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0768351,
+      "holding_symbol": "2542.TW",
+      "holding_name": "Highwealth Construction Corp",
+      "weight": 0.0761594,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Highwealth Construction Corp",
+      "holding_name_zh": null,
+      "display_name": "Highwealth Construction Corp",
+      "display_label": "(2542.TW)Highwealth Construction Corp",
+      "bilingual_name": "Highwealth Construction Corp"
+    },
+    {
+      "etf_id": "TW-00961",
+      "holding_symbol": "2884.TW",
+      "holding_name": "E. Sun Financial Holding Co Ltd",
+      "weight": 0.0683371,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
+      "holding_name_en": "E. Sun Financial Holding Co Ltd",
+      "holding_name_zh": "玉山金",
+      "display_name": "玉山金",
+      "display_label": "(2884.TW)玉山金",
+      "bilingual_name": "E. Sun Financial Holding Co Ltd（玉山金）"
+    },
+    {
+      "etf_id": "TW-00961",
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.0676646,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Quanta Computer Inc",
       "holding_name_zh": "廣達",
       "display_name": "廣達",
@@ -2137,12 +2155,26 @@
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "2347.TW",
-      "holding_name": "Synnex Technology International Corp",
-      "weight": 0.0614653,
+      "holding_symbol": "3231.TW",
+      "holding_name": "Wistron Corp",
+      "weight": 0.0632196,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
+      "holding_name_en": "Wistron Corp",
+      "holding_name_zh": "緯創",
+      "display_name": "緯創",
+      "display_label": "(3231.TW)緯創",
+      "bilingual_name": "Wistron Corp（緯創）"
+    },
+    {
+      "etf_id": "TW-00961",
+      "holding_symbol": "2347.TW",
+      "holding_name": "Synnex Technology International Corp",
+      "weight": 0.0622258,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
       "holding_name_en": "Synnex Technology International Corp",
       "holding_name_zh": "聯強",
       "display_name": "聯強",
@@ -2151,12 +2183,26 @@
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "3293.TWO",
-      "holding_name": "International Games System Co Ltd",
-      "weight": 0.0603119,
+      "holding_symbol": "5876.TW",
+      "holding_name": "The Shanghai Commercial and Savings Bank",
+      "weight": 0.060773,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 7,
+      "holding_name_en": "The Shanghai Commercial and Savings Bank",
+      "holding_name_zh": "上海商銀",
+      "display_name": "上海商銀",
+      "display_label": "(5876.TW)上海商銀",
+      "bilingual_name": "The Shanghai Commercial and Savings Bank（上海商銀）"
+    },
+    {
+      "etf_id": "TW-00961",
+      "holding_symbol": "3293.TWO",
+      "holding_name": "International Games System Co Ltd",
+      "weight": 0.058535,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "International Games System Co Ltd",
       "holding_name_zh": "鈊象",
       "display_name": "鈊象",
@@ -2167,10 +2213,10 @@
       "etf_id": "TW-00961",
       "holding_symbol": "2886.TW",
       "holding_name": "Mega Financial Holding Co Ltd",
-      "weight": 0.0558877,
+      "weight": 0.0579225,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 9,
       "holding_name_en": "Mega Financial Holding Co Ltd",
       "holding_name_zh": "兆豐金",
       "display_name": "兆豐金",
@@ -2179,51 +2225,9 @@
     },
     {
       "etf_id": "TW-00961",
-      "holding_symbol": "3231.TW",
-      "holding_name": "Wistron Corp",
-      "weight": 0.0558733,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Wistron Corp",
-      "holding_name_zh": "緯創",
-      "display_name": "緯創",
-      "display_label": "(3231.TW)緯創",
-      "bilingual_name": "Wistron Corp（緯創）"
-    },
-    {
-      "etf_id": "TW-00961",
-      "holding_symbol": "2884.TW",
-      "holding_name": "E. Sun Financial Holding Co Ltd",
-      "weight": 0.0540063,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "E. Sun Financial Holding Co Ltd",
-      "holding_name_zh": "玉山金",
-      "display_name": "玉山金",
-      "display_label": "(2884.TW)玉山金",
-      "bilingual_name": "E. Sun Financial Holding Co Ltd（玉山金）"
-    },
-    {
-      "etf_id": "TW-00961",
-      "holding_symbol": "5876.TW",
-      "holding_name": "The Shanghai Commercial and Savings Bank",
-      "weight": 0.053789,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "The Shanghai Commercial and Savings Bank",
-      "holding_name_zh": "上海商銀",
-      "display_name": "上海商銀",
-      "display_label": "(5876.TW)上海商銀",
-      "bilingual_name": "The Shanghai Commercial and Savings Bank（上海商銀）"
-    },
-    {
-      "etf_id": "TW-00961",
       "holding_symbol": "2633.TW",
       "holding_name": "Taiwan High Speed Rail Corp",
-      "weight": 0.0513201,
+      "weight": 0.048278,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -2236,8 +2240,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.637468,
-    "top_3_weight": 0.244814
+    "top_10_weight": 0.670915,
+    "top_3_weight": 0.252296
   },
   "research": {
     "tier": "context",

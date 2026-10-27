@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -33.6849,
+      "value": -32.5287,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 46.9194,
+      "value": 46.5028,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 50.8407,
+      "value": 50.841,
       "unit": "percent"
     },
     "beta": {
@@ -71,7 +71,7 @@
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.1627,
+      "value": 2.1667,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,21 +79,21 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.8934,
+      "value": 0.8852,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 46.9194,
+      "value": 46.5028,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 32.841,
+      "value": 32.8398,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
+    "date": "2026-10-27",
     "value": 15.5,
     "currency": "TWD"
   },
@@ -2277,21 +2277,25 @@
     {
       "date": "2026-10-22",
       "value": 168.85
+    },
+    {
+      "date": "2026-10-27",
+      "value": 168.85
     }
   ],
   "price_history": {
     "first_date": "2024-07-26",
-    "last_date": "2026-10-22",
-    "observations": 545,
+    "last_date": "2026-10-27",
+    "observations": 546,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 5658063.0,
-    "average_volume_20d": 3022726.0,
-    "average_dollar_volume_20d": 53437954.719,
-    "relative_volume_20d": 1.8718,
+    "as_of": "2026-10-27",
+    "latest_volume": 1546425.0,
+    "average_volume_20d": 3014609.35,
+    "average_dollar_volume_20d": 53158358.424,
+    "relative_volume_20d": 0.513,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2299,12 +2303,26 @@
   "top_holdings": [
     {
       "etf_id": "TW-00951",
-      "holding_symbol": "8035.T",
-      "holding_name": "Tokyo Electron Ltd",
-      "weight": 0.17734091,
+      "holding_symbol": "285A.T",
+      "holding_name": "Kioxia Holdings Corp Ordinary Shares",
+      "weight": 0.1562758,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Kioxia Holdings Corp Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Kioxia Holdings Corp Ordinary Shares",
+      "display_label": "(285A.T)Kioxia Holdings Corp Ordinary Shares",
+      "bilingual_name": "Kioxia Holdings Corp Ordinary Shares"
+    },
+    {
+      "etf_id": "TW-00951",
+      "holding_symbol": "8035.T",
+      "holding_name": "Tokyo Electron Ltd",
+      "weight": 0.1463054,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Tokyo Electron Ltd",
       "holding_name_zh": null,
       "display_name": "Tokyo Electron Ltd",
@@ -2315,10 +2333,10 @@
       "etf_id": "TW-00951",
       "holding_symbol": "6857.T",
       "holding_name": "Advantest Corp",
-      "weight": 0.1202518,
+      "weight": 0.1451351,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
+      "rank": 3,
       "holding_name_en": "Advantest Corp",
       "holding_name_zh": null,
       "display_name": "Advantest Corp",
@@ -2327,23 +2345,9 @@
     },
     {
       "etf_id": "TW-00951",
-      "holding_symbol": "6146.T",
-      "holding_name": "Disco Corp",
-      "weight": 0.1161028,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Disco Corp",
-      "holding_name_zh": null,
-      "display_name": "Disco Corp",
-      "display_label": "(6146.T)Disco Corp",
-      "bilingual_name": "Disco Corp"
-    },
-    {
-      "etf_id": "TW-00951",
       "holding_symbol": "6723.T",
       "holding_name": "Renesas Electronics Corp",
-      "weight": 0.1050089,
+      "weight": 0.073165,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -2355,40 +2359,12 @@
     },
     {
       "etf_id": "TW-00951",
-      "holding_symbol": "7735.T",
-      "holding_name": "Screen Holdings Co Ltd",
-      "weight": 0.0701627,
+      "holding_symbol": "6920.T",
+      "holding_name": "Lasertec Corp",
+      "weight": 0.0692156,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Screen Holdings Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Screen Holdings Co Ltd",
-      "display_label": "(7735.T)Screen Holdings Co Ltd",
-      "bilingual_name": "Screen Holdings Co Ltd"
-    },
-    {
-      "etf_id": "TW-00951",
-      "holding_symbol": "6525.T",
-      "holding_name": "Kokusai Electric Corp",
-      "weight": 0.0590233,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Kokusai Electric Corp",
-      "holding_name_zh": null,
-      "display_name": "Kokusai Electric Corp",
-      "display_label": "(6525.T)Kokusai Electric Corp",
-      "bilingual_name": "Kokusai Electric Corp"
-    },
-    {
-      "etf_id": "TW-00951",
-      "holding_symbol": "6920.T",
-      "holding_name": "Lasertec Corp",
-      "weight": 0.0547544,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Lasertec Corp",
       "holding_name_zh": null,
       "display_name": "Lasertec Corp",
@@ -2397,12 +2373,54 @@
     },
     {
       "etf_id": "TW-00951",
-      "holding_symbol": "6963.T",
-      "holding_name": "Rohm Co Ltd",
-      "weight": 0.0520842,
+      "holding_symbol": "7735.T",
+      "holding_name": "Screen Holdings Co Ltd",
+      "weight": 0.0641932,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Screen Holdings Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Screen Holdings Co Ltd",
+      "display_label": "(7735.T)Screen Holdings Co Ltd",
+      "bilingual_name": "Screen Holdings Co Ltd"
+    },
+    {
+      "etf_id": "TW-00951",
+      "holding_symbol": "6146.T",
+      "holding_name": "Disco Corp",
+      "weight": 0.0626185,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Disco Corp",
+      "holding_name_zh": null,
+      "display_name": "Disco Corp",
+      "display_label": "(6146.T)Disco Corp",
+      "bilingual_name": "Disco Corp"
+    },
+    {
+      "etf_id": "TW-00951",
+      "holding_symbol": "6525.T",
+      "holding_name": "Kokusai Electric Corp",
+      "weight": 0.0531027,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
+      "holding_name_en": "Kokusai Electric Corp",
+      "holding_name_zh": null,
+      "display_name": "Kokusai Electric Corp",
+      "display_label": "(6525.T)Kokusai Electric Corp",
+      "bilingual_name": "Kokusai Electric Corp"
+    },
+    {
+      "etf_id": "TW-00951",
+      "holding_symbol": "6963.T",
+      "holding_name": "Rohm Co Ltd",
+      "weight": 0.040709,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "Rohm Co Ltd",
       "holding_name_zh": null,
       "display_name": "Rohm Co Ltd",
@@ -2413,35 +2431,21 @@
       "etf_id": "TW-00951",
       "holding_symbol": "3436.T",
       "holding_name": "SUMCO Corp",
-      "weight": 0.0391081,
+      "weight": 0.0273952,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "SUMCO Corp",
       "holding_name_zh": null,
       "display_name": "SUMCO Corp",
       "display_label": "(3436.T)SUMCO Corp",
       "bilingual_name": "SUMCO Corp"
-    },
-    {
-      "etf_id": "TW-00951",
-      "holding_symbol": "7729.T",
-      "holding_name": "Tokyo Seimitsu Co Ltd",
-      "weight": 0.0231308,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Tokyo Seimitsu Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Tokyo Seimitsu Co Ltd",
-      "display_label": "(7729.T)Tokyo Seimitsu Co Ltd",
-      "bilingual_name": "Tokyo Seimitsu Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.816968,
-    "top_3_weight": 0.413696
+    "top_10_weight": 0.838116,
+    "top_3_weight": 0.447716
   },
   "research": {
     "tier": "context",

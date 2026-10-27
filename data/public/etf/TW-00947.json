@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 8.8697,
+      "value": 9.2717,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 110.3704,
+      "value": 108.3942,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 47.5957,
+      "value": 47.5823,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.2826,
+      "value": 1.2817,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.2817,
+      "value": 2.2857,
       "unit": "years"
     },
     "expense_ratio": {
@@ -91,22 +91,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.2874,
+      "value": 2.2465,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 110.3704,
+      "value": 108.3942,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 31.2654,
+      "value": 31.2667,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
-    "value": 34.08,
+    "date": "2026-10-27",
+    "value": 34.26,
     "currency": "TWD"
   },
   "trend": [
@@ -2409,21 +2409,25 @@
     {
       "date": "2026-10-22",
       "value": 224.65
+    },
+    {
+      "date": "2026-10-27",
+      "value": 225.84
     }
   ],
   "price_history": {
     "first_date": "2024-06-12",
-    "last_date": "2026-10-22",
-    "observations": 575,
+    "last_date": "2026-10-27",
+    "observations": 576,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 8569105.0,
-    "average_volume_20d": 12763021.65,
-    "average_dollar_volume_20d": 494375462.902,
-    "relative_volume_20d": 0.6714,
+    "as_of": "2026-10-27",
+    "latest_volume": 7861849.0,
+    "average_volume_20d": 12410892.9,
+    "average_dollar_volume_20d": 477638995.003,
+    "relative_volume_20d": 0.6335,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2431,12 +2435,40 @@
   "top_holdings": [
     {
       "etf_id": "TW-00947",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.1216405,
+      "holding_symbol": "3443.TW",
+      "holding_name": "Global Unichip Corp",
+      "weight": 0.1041774,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Global Unichip Corp",
+      "holding_name_zh": "創意",
+      "display_name": "創意",
+      "display_label": "(3443.TW)創意",
+      "bilingual_name": "Global Unichip Corp（創意）"
+    },
+    {
+      "etf_id": "TW-00947",
+      "holding_symbol": "2408.TW",
+      "holding_name": "Nanya Technology Corp",
+      "weight": 0.0984361,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Nanya Technology Corp",
+      "holding_name_zh": "南亞科",
+      "display_name": "南亞科",
+      "display_label": "(2408.TW)南亞科",
+      "bilingual_name": "Nanya Technology Corp（南亞科）"
+    },
+    {
+      "etf_id": "TW-00947",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.094128,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "MediaTek Inc",
       "holding_name_zh": "聯發科",
       "display_name": "聯發科",
@@ -2447,10 +2479,10 @@
       "etf_id": "TW-00947",
       "holding_symbol": "2344.TW",
       "holding_name": "Winbond Electronics Corp",
-      "weight": 0.11417341,
+      "weight": 0.08950619,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
+      "rank": 4,
       "holding_name_en": "Winbond Electronics Corp",
       "holding_name_zh": "華邦電",
       "display_name": "華邦電",
@@ -2459,54 +2491,12 @@
     },
     {
       "etf_id": "TW-00947",
-      "holding_symbol": "2408.TW",
-      "holding_name": "Nanya Technology Corp",
-      "weight": 0.11352029,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Nanya Technology Corp",
-      "holding_name_zh": "南亞科",
-      "display_name": "南亞科",
-      "display_label": "(2408.TW)南亞科",
-      "bilingual_name": "Nanya Technology Corp（南亞科）"
-    },
-    {
-      "etf_id": "TW-00947",
-      "holding_symbol": "8299.TWO",
-      "holding_name": "Phison Electronics Corp",
-      "weight": 0.0778467,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Phison Electronics Corp",
-      "holding_name_zh": "群聯",
-      "display_name": "群聯",
-      "display_label": "(8299.TWO)群聯",
-      "bilingual_name": "Phison Electronics Corp（群聯）"
-    },
-    {
-      "etf_id": "TW-00947",
-      "holding_symbol": "3443.TW",
-      "holding_name": "Global Unichip Corp",
-      "weight": 0.075393,
+      "holding_symbol": "2308.TW",
+      "holding_name": "Delta Electronics Inc",
+      "weight": 0.0788922,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Global Unichip Corp",
-      "holding_name_zh": "創意",
-      "display_name": "創意",
-      "display_label": "(3443.TW)創意",
-      "bilingual_name": "Global Unichip Corp（創意）"
-    },
-    {
-      "etf_id": "TW-00947",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0673488,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Delta Electronics Inc",
       "holding_name_zh": "台達電",
       "display_name": "台達電",
@@ -2515,9 +2505,23 @@
     },
     {
       "etf_id": "TW-00947",
+      "holding_symbol": "8299.TWO",
+      "holding_name": "Phison Electronics Corp",
+      "weight": 0.0652522,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Phison Electronics Corp",
+      "holding_name_zh": "群聯",
+      "display_name": "群聯",
+      "display_label": "(8299.TWO)群聯",
+      "bilingual_name": "Phison Electronics Corp（群聯）"
+    },
+    {
+      "etf_id": "TW-00947",
       "holding_symbol": "3661.TW",
       "holding_name": "Alchip Technologies Ltd",
-      "weight": 0.0539397,
+      "weight": 0.0539897,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -2531,7 +2535,7 @@
       "etf_id": "TW-00947",
       "holding_symbol": "5274.TWO",
       "holding_name": "Aspeed Technology Inc",
-      "weight": 0.0516488,
+      "weight": 0.0529927,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -2545,7 +2549,7 @@
       "etf_id": "TW-00947",
       "holding_symbol": "2337.TW",
       "holding_name": "Macronix International Co Ltd",
-      "weight": 0.0516407,
+      "weight": 0.0386167,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -2557,23 +2561,23 @@
     },
     {
       "etf_id": "TW-00947",
-      "holding_symbol": "6415.TW",
-      "holding_name": "Silergy Corp",
-      "weight": 0.0364843,
+      "holding_symbol": "2379.TW",
+      "holding_name": "Realtek Semiconductor Corp",
+      "weight": 0.0362842,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Silergy Corp",
-      "holding_name_zh": "矽力*-KY",
-      "display_name": "矽力*-KY",
-      "display_label": "(6415.TW)矽力*-KY",
-      "bilingual_name": "Silergy Corp（矽力*-KY）"
+      "holding_name_en": "Realtek Semiconductor Corp",
+      "holding_name_zh": "瑞昱",
+      "display_name": "瑞昱",
+      "display_label": "(2379.TW)瑞昱",
+      "bilingual_name": "Realtek Semiconductor Corp（瑞昱）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.763636,
-    "top_3_weight": 0.349334
+    "top_10_weight": 0.712275,
+    "top_3_weight": 0.296741
   },
   "research": {
     "tier": "context",

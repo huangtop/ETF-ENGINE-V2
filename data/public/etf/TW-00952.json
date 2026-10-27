@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -5.8057,
+      "value": -5.3266,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 53.6181,
+      "value": 52.9514,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 31.556,
+      "value": 31.5556,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8954,
+      "value": 0.8953,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.0476,
+      "value": 2.0516,
       "unit": "years"
     },
     "expense_ratio": {
@@ -79,21 +79,21 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.6516,
+      "value": 1.6305,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 53.6181,
+      "value": 52.9514,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 18.5778,
+      "value": 18.579,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
+    "date": "2026-10-27",
     "value": 17.62,
     "currency": "TWD"
   },
@@ -2161,21 +2161,25 @@
     {
       "date": "2026-10-22",
       "value": 181.28
+    },
+    {
+      "date": "2026-10-27",
+      "value": 181.28
     }
   ],
   "price_history": {
     "first_date": "2024-09-05",
-    "last_date": "2026-10-22",
-    "observations": 516,
+    "last_date": "2026-10-27",
+    "observations": 517,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 1381488.0,
-    "average_volume_20d": 2030276.6,
-    "average_dollar_volume_20d": 37022582.729,
-    "relative_volume_20d": 0.6804,
+    "as_of": "2026-10-27",
+    "latest_volume": 798767.0,
+    "average_volume_20d": 1994297.45,
+    "average_dollar_volume_20d": 36338524.556,
+    "relative_volume_20d": 0.4005,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2185,7 +2189,7 @@
       "etf_id": "TW-00952",
       "holding_symbol": "2303.TW",
       "holding_name": "United Microelectronics Corp",
-      "weight": 0.0686897,
+      "weight": 0.0653987,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2197,40 +2201,12 @@
     },
     {
       "etf_id": "TW-00952",
-      "holding_symbol": "5347.TWO",
-      "holding_name": "Vanguard International Semiconductor Corp",
-      "weight": 0.0478728,
+      "holding_symbol": "2301.TW",
+      "holding_name": "Lite-On Technology Corp",
+      "weight": 0.0549254,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Vanguard International Semiconductor Corp",
-      "holding_name_zh": "世界",
-      "display_name": "世界",
-      "display_label": "(5347.TWO)世界",
-      "bilingual_name": "Vanguard International Semiconductor Corp（世界）"
-    },
-    {
-      "etf_id": "TW-00952",
-      "holding_symbol": "2356.TW",
-      "holding_name": "Inventec Corp",
-      "weight": 0.0468278,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Inventec Corp",
-      "holding_name_zh": "英業達",
-      "display_name": "英業達",
-      "display_label": "(2356.TW)英業達",
-      "bilingual_name": "Inventec Corp（英業達）"
-    },
-    {
-      "etf_id": "TW-00952",
-      "holding_symbol": "2301.TW",
-      "holding_name": "Lite-On Technology Corp",
-      "weight": 0.0431559,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Lite-On Technology Corp",
       "holding_name_zh": "光寶科",
       "display_name": "光寶科",
@@ -2239,40 +2215,12 @@
     },
     {
       "etf_id": "TW-00952",
-      "holding_symbol": "2376.TW",
-      "holding_name": "Gigabyte Technology Co Ltd",
-      "weight": 0.0406522,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Gigabyte Technology Co Ltd",
-      "holding_name_zh": "技嘉",
-      "display_name": "技嘉",
-      "display_label": "(2376.TW)技嘉",
-      "bilingual_name": "Gigabyte Technology Co Ltd（技嘉）"
-    },
-    {
-      "etf_id": "TW-00952",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0379917,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Quanta Computer Inc",
-      "holding_name_zh": "廣達",
-      "display_name": "廣達",
-      "display_label": "(2382.TW)廣達",
-      "bilingual_name": "Quanta Computer Inc（廣達）"
-    },
-    {
-      "etf_id": "TW-00952",
       "holding_symbol": "3231.TW",
       "holding_name": "Wistron Corp",
-      "weight": 0.037357,
+      "weight": 0.0443092,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 3,
       "holding_name_en": "Wistron Corp",
       "holding_name_zh": "緯創",
       "display_name": "緯創",
@@ -2281,9 +2229,65 @@
     },
     {
       "etf_id": "TW-00952",
+      "holding_symbol": "2376.TW",
+      "holding_name": "Gigabyte Technology Co Ltd",
+      "weight": 0.0427732,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Gigabyte Technology Co Ltd",
+      "holding_name_zh": "技嘉",
+      "display_name": "技嘉",
+      "display_label": "(2376.TW)技嘉",
+      "bilingual_name": "Gigabyte Technology Co Ltd（技嘉）"
+    },
+    {
+      "etf_id": "TW-00952",
+      "holding_symbol": "2356.TW",
+      "holding_name": "Inventec Corp",
+      "weight": 0.0423985,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Inventec Corp",
+      "holding_name_zh": "英業達",
+      "display_name": "英業達",
+      "display_label": "(2356.TW)英業達",
+      "bilingual_name": "Inventec Corp（英業達）"
+    },
+    {
+      "etf_id": "TW-00952",
+      "holding_symbol": "6669.TW",
+      "holding_name": "Wiwynn Corp Ordinary Shares",
+      "weight": 0.042385,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Wiwynn Corp Ordinary Shares",
+      "holding_name_zh": "緯穎",
+      "display_name": "緯穎",
+      "display_label": "(6669.TW)緯穎",
+      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
+    },
+    {
+      "etf_id": "TW-00952",
+      "holding_symbol": "5347.TWO",
+      "holding_name": "Vanguard International Semiconductor Corp",
+      "weight": 0.0406898,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Vanguard International Semiconductor Corp",
+      "holding_name_zh": "世界",
+      "display_name": "世界",
+      "display_label": "(5347.TWO)世界",
+      "bilingual_name": "Vanguard International Semiconductor Corp（世界）"
+    },
+    {
+      "etf_id": "TW-00952",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0370499,
+      "weight": 0.0375086,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -2297,7 +2301,7 @@
       "etf_id": "TW-00952",
       "holding_symbol": "4938.TW",
       "holding_name": "Pegatron Corp",
-      "weight": 0.0328568,
+      "weight": 0.0356483,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -2309,23 +2313,23 @@
     },
     {
       "etf_id": "TW-00952",
-      "holding_symbol": "6669.TW",
-      "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.0315613,
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.0353286,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Wiwynn Corp Ordinary Shares",
-      "holding_name_zh": "緯穎",
-      "display_name": "緯穎",
-      "display_label": "(6669.TW)緯穎",
-      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
+      "holding_name_en": "Quanta Computer Inc",
+      "holding_name_zh": "廣達",
+      "display_name": "廣達",
+      "display_label": "(2382.TW)廣達",
+      "bilingual_name": "Quanta Computer Inc（廣達）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.424015,
-    "top_3_weight": 0.16339
+    "top_10_weight": 0.441365,
+    "top_3_weight": 0.164633
   },
   "research": {
     "tier": "context",

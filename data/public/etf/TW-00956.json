@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 12.631,
+      "value": 13.5191,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 29.9424,
+      "value": 30.7915,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.8281,
+      "value": 18.8155,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2566,
+      "value": 0.257,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.0952,
+      "value": 2.0992,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.5106,
+      "value": 1.5568,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 29.9424,
+      "value": 30.7915,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 27.4783,
+      "value": 27.4566,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
-    "value": 13.54,
+    "date": "2026-10-27",
+    "value": 13.55,
     "currency": "TWD"
   },
   "trend": [
@@ -2213,21 +2213,25 @@
     {
       "date": "2026-10-22",
       "value": 136.49
+    },
+    {
+      "date": "2026-10-27",
+      "value": 136.59
     }
   ],
   "price_history": {
     "first_date": "2024-08-20",
-    "last_date": "2026-10-22",
-    "observations": 528,
+    "last_date": "2026-10-27",
+    "observations": 529,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 76443.0,
-    "average_volume_20d": 219024.7,
-    "average_dollar_volume_20d": 2946388.428,
-    "relative_volume_20d": 0.349,
+    "as_of": "2026-10-27",
+    "latest_volume": 121324.0,
+    "average_volume_20d": 220640.85,
+    "average_dollar_volume_20d": 2967619.753,
+    "relative_volume_20d": 0.5499,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2333,31 +2337,31 @@
     },
     {
       "etf_id": "TW-00956",
-      "holding_symbol": "8725.T",
-      "holding_name": "MS&AD Insurance Group Holdings Inc",
-      "weight": 0.0313,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "MS&AD Insurance Group Holdings Inc",
-      "holding_name_zh": null,
-      "display_name": "MS&AD Insurance Group Holdings Inc",
-      "display_label": "(8725.T)MS&AD Insurance Group Holdings Inc",
-      "bilingual_name": "MS&AD Insurance Group Holdings Inc"
-    },
-    {
-      "etf_id": "TW-00956",
       "holding_symbol": "8316.T",
       "holding_name": "Sumitomo Mitsui Financial Group Inc",
       "weight": 0.0313,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Sumitomo Mitsui Financial Group Inc",
       "holding_name_zh": null,
       "display_name": "Sumitomo Mitsui Financial Group Inc",
       "display_label": "(8316.T)Sumitomo Mitsui Financial Group Inc",
       "bilingual_name": "Sumitomo Mitsui Financial Group Inc"
+    },
+    {
+      "etf_id": "TW-00956",
+      "holding_symbol": "8725.T",
+      "holding_name": "MS&AD Insurance Group Holdings Inc",
+      "weight": 0.0313,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "MS&AD Insurance Group Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "MS&AD Insurance Group Holdings Inc",
+      "display_label": "(8725.T)MS&AD Insurance Group Holdings Inc",
+      "bilingual_name": "MS&AD Insurance Group Holdings Inc"
     },
     {
       "etf_id": "TW-00956",

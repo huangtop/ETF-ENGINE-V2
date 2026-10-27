@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -14.6341,
+      "value": -12.5097,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 30.8877,
+      "value": 32.6364,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.0353,
+      "value": 28.0438,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7573,
+      "value": 0.757,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.8056,
+      "value": 1.8095,
       "unit": "years"
     },
     "expense_ratio": {
@@ -91,22 +91,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.0482,
+      "value": 1.1103,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 30.8877,
+      "value": 32.6364,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.0412,
+      "value": 19.0644,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
-    "value": 14.45,
+    "date": "2026-10-27",
+    "value": 14.59,
     "currency": "TWD"
   },
   "trend": [
@@ -1929,21 +1929,25 @@
     {
       "date": "2026-10-22",
       "value": 144.79
+    },
+    {
+      "date": "2026-10-27",
+      "value": 146.19
     }
   ],
   "price_history": {
     "first_date": "2024-12-06",
-    "last_date": "2026-10-22",
-    "observations": 455,
+    "last_date": "2026-10-27",
+    "observations": 456,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 3915932.0,
-    "average_volume_20d": 7679573.15,
-    "average_dollar_volume_20d": 115610958.739,
-    "relative_volume_20d": 0.5099,
+    "as_of": "2026-10-27",
+    "latest_volume": 2587033.0,
+    "average_volume_20d": 7615829.85,
+    "average_dollar_volume_20d": 114588258.416,
+    "relative_volume_20d": 0.3397,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1953,7 +1957,7 @@
       "etf_id": "TW-00962",
       "holding_symbol": "2357.TW",
       "holding_name": "Asustek Computer Inc",
-      "weight": 0.0757233,
+      "weight": 0.0973083,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1965,40 +1969,12 @@
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0563585,
+      "holding_symbol": "2376.TW",
+      "holding_name": "Gigabyte Technology Co Ltd",
+      "weight": 0.0524578,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Quanta Computer Inc",
-      "holding_name_zh": "廣達",
-      "display_name": "廣達",
-      "display_label": "(2382.TW)廣達",
-      "bilingual_name": "Quanta Computer Inc（廣達）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "2356.TW",
-      "holding_name": "Inventec Corp",
-      "weight": 0.054803,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Inventec Corp",
-      "holding_name_zh": "英業達",
-      "display_name": "英業達",
-      "display_label": "(2356.TW)英業達",
-      "bilingual_name": "Inventec Corp（英業達）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "2376.TW",
-      "holding_name": "Gigabyte Technology Co Ltd",
-      "weight": 0.0535192,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Gigabyte Technology Co Ltd",
       "holding_name_zh": "技嘉",
       "display_name": "技嘉",
@@ -2007,12 +1983,26 @@
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "3231.TW",
-      "holding_name": "Wistron Corp",
-      "weight": 0.0473921,
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.050166,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 3,
+      "holding_name_en": "Quanta Computer Inc",
+      "holding_name_zh": "廣達",
+      "display_name": "廣達",
+      "display_label": "(2382.TW)廣達",
+      "bilingual_name": "Quanta Computer Inc（廣達）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "3231.TW",
+      "holding_name": "Wistron Corp",
+      "weight": 0.0491347,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Wistron Corp",
       "holding_name_zh": "緯創",
       "display_name": "緯創",
@@ -2021,54 +2011,40 @@
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "3034.TW",
-      "holding_name": "Novatek Microelectronics Corp",
-      "weight": 0.0422677,
+      "holding_symbol": "2356.TW",
+      "holding_name": "Inventec Corp",
+      "weight": 0.047293,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Inventec Corp",
+      "holding_name_zh": "英業達",
+      "display_name": "英業達",
+      "display_label": "(2356.TW)英業達",
+      "bilingual_name": "Inventec Corp（英業達）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "6669.TW",
+      "holding_name": "Wiwynn Corp Ordinary Shares",
+      "weight": 0.0464003,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Novatek Microelectronics Corp",
-      "holding_name_zh": "聯詠",
-      "display_name": "聯詠",
-      "display_label": "(3034.TW)聯詠",
-      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "5536.TWO",
-      "holding_name": "Acter Group Corp Ltd",
-      "weight": 0.0407666,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Acter Group Corp Ltd",
-      "holding_name_zh": "聖暉*",
-      "display_name": "聖暉*",
-      "display_label": "(5536.TWO)聖暉*",
-      "bilingual_name": "Acter Group Corp Ltd（聖暉*）"
-    },
-    {
-      "etf_id": "TW-00962",
-      "holding_symbol": "2317.TW",
-      "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0366097,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
-      "holding_name_zh": "鴻海",
-      "display_name": "鴻海",
-      "display_label": "(2317.TW)鴻海",
-      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+      "holding_name_en": "Wiwynn Corp Ordinary Shares",
+      "holding_name_zh": "緯穎",
+      "display_name": "緯穎",
+      "display_label": "(6669.TW)緯穎",
+      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
     },
     {
       "etf_id": "TW-00962",
       "holding_symbol": "2395.TW",
       "holding_name": "Advantech Co Ltd",
-      "weight": 0.0340864,
+      "weight": 0.0429179,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 7,
       "holding_name_en": "Advantech Co Ltd",
       "holding_name_zh": "研華",
       "display_name": "研華",
@@ -2077,23 +2053,51 @@
     },
     {
       "etf_id": "TW-00962",
-      "holding_symbol": "6669.TW",
-      "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.033802,
+      "holding_symbol": "3034.TW",
+      "holding_name": "Novatek Microelectronics Corp",
+      "weight": 0.038349,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Novatek Microelectronics Corp",
+      "holding_name_zh": "聯詠",
+      "display_name": "聯詠",
+      "display_label": "(3034.TW)聯詠",
+      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0365065,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+    },
+    {
+      "etf_id": "TW-00962",
+      "holding_symbol": "2377.TW",
+      "holding_name": "Micro-Star International Co Ltd",
+      "weight": 0.0337614,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Wiwynn Corp Ordinary Shares",
-      "holding_name_zh": "緯穎",
-      "display_name": "緯穎",
-      "display_label": "(6669.TW)緯穎",
-      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
+      "holding_name_en": "Micro-Star International Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Micro-Star International Co Ltd",
+      "display_label": "(2377.TW)Micro-Star International Co Ltd",
+      "bilingual_name": "Micro-Star International Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.475328,
-    "top_3_weight": 0.186885
+    "top_10_weight": 0.494295,
+    "top_3_weight": 0.199932
   },
   "research": {
     "tier": "context",

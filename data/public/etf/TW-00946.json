@@ -63,23 +63,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 8.1625,
+      "value": 9.4776,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 51.272,
+      "value": 52.1781,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 24.539,
+      "value": 24.5689,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.605,
+      "value": 0.6035,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.373,
+      "value": 2.377,
       "unit": "years"
     },
     "expense_ratio": {
@@ -91,22 +91,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.0283,
+      "value": 2.0627,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 51.272,
+      "value": 52.1781,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.7195,
+      "value": 20.8148,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
-    "value": 15.46,
+    "date": "2026-10-27",
+    "value": 15.72,
     "currency": "TWD"
   },
   "trend": [
@@ -2501,21 +2501,25 @@
     {
       "date": "2026-10-22",
       "value": 154.6
+    },
+    {
+      "date": "2026-10-27",
+      "value": 157.2
     }
   ],
   "price_history": {
     "first_date": "2024-05-09",
-    "last_date": "2026-10-22",
-    "observations": 598,
+    "last_date": "2026-10-27",
+    "observations": 599,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 1635240.0,
-    "average_volume_20d": 1689171.25,
-    "average_dollar_volume_20d": 26160206.23,
-    "relative_volume_20d": 0.9681,
+    "as_of": "2026-10-27",
+    "latest_volume": 2139107.0,
+    "average_volume_20d": 1655120.65,
+    "average_dollar_volume_20d": 25682743.2375,
+    "relative_volume_20d": 1.2924,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2523,12 +2527,26 @@
   "top_holdings": [
     {
       "etf_id": "TW-00946",
-      "holding_symbol": "2379.TW",
-      "holding_name": "Realtek Semiconductor Corp",
-      "weight": 0.1090219,
+      "holding_symbol": "2357.TW",
+      "holding_name": "Asustek Computer Inc",
+      "weight": 0.1111676,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Asustek Computer Inc",
+      "holding_name_zh": "華碩",
+      "display_name": "華碩",
+      "display_label": "(2357.TW)華碩",
+      "bilingual_name": "Asustek Computer Inc（華碩）"
+    },
+    {
+      "etf_id": "TW-00946",
+      "holding_symbol": "2379.TW",
+      "holding_name": "Realtek Semiconductor Corp",
+      "weight": 0.1049576,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Realtek Semiconductor Corp",
       "holding_name_zh": "瑞昱",
       "display_name": "瑞昱",
@@ -2537,12 +2555,26 @@
     },
     {
       "etf_id": "TW-00946",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0866689,
+      "holding_symbol": "3034.TW",
+      "holding_name": "Novatek Microelectronics Corp",
+      "weight": 0.0865116,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
+      "rank": 3,
+      "holding_name_en": "Novatek Microelectronics Corp",
+      "holding_name_zh": "聯詠",
+      "display_name": "聯詠",
+      "display_label": "(3034.TW)聯詠",
+      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
+    },
+    {
+      "etf_id": "TW-00946",
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.0816646,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Quanta Computer Inc",
       "holding_name_zh": "廣達",
       "display_name": "廣達",
@@ -2553,10 +2585,10 @@
       "etf_id": "TW-00946",
       "holding_symbol": "6409.TW",
       "holding_name": "Voltronic Power Technology Corp",
-      "weight": 0.0832482,
+      "weight": 0.0697677,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 5,
       "holding_name_en": "Voltronic Power Technology Corp",
       "holding_name_zh": null,
       "display_name": "Voltronic Power Technology Corp",
@@ -2565,54 +2597,12 @@
     },
     {
       "etf_id": "TW-00946",
-      "holding_symbol": "3034.TW",
-      "holding_name": "Novatek Microelectronics Corp",
-      "weight": 0.0829022,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Novatek Microelectronics Corp",
-      "holding_name_zh": "聯詠",
-      "display_name": "聯詠",
-      "display_label": "(3034.TW)聯詠",
-      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
-    },
-    {
-      "etf_id": "TW-00946",
-      "holding_symbol": "2357.TW",
-      "holding_name": "Asustek Computer Inc",
-      "weight": 0.0790789,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Asustek Computer Inc",
-      "holding_name_zh": "華碩",
-      "display_name": "華碩",
-      "display_label": "(2357.TW)華碩",
-      "bilingual_name": "Asustek Computer Inc（華碩）"
-    },
-    {
-      "etf_id": "TW-00946",
-      "holding_symbol": "8112.TW",
-      "holding_name": "Supreme Electronics Co Ltd",
-      "weight": 0.0578915,
+      "holding_symbol": "4938.TW",
+      "holding_name": "Pegatron Corp",
+      "weight": 0.0629013,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Supreme Electronics Co Ltd",
-      "holding_name_zh": "至上",
-      "display_name": "至上",
-      "display_label": "(8112.TW)至上",
-      "bilingual_name": "Supreme Electronics Co Ltd（至上）"
-    },
-    {
-      "etf_id": "TW-00946",
-      "holding_symbol": "4938.TW",
-      "holding_name": "Pegatron Corp",
-      "weight": 0.0569732,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Pegatron Corp",
       "holding_name_zh": "和碩",
       "display_name": "和碩",
@@ -2621,9 +2611,23 @@
     },
     {
       "etf_id": "TW-00946",
+      "holding_symbol": "8112.TW",
+      "holding_name": "Supreme Electronics Co Ltd",
+      "weight": 0.0527741,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Supreme Electronics Co Ltd",
+      "holding_name_zh": "至上",
+      "display_name": "至上",
+      "display_label": "(8112.TW)至上",
+      "bilingual_name": "Supreme Electronics Co Ltd（至上）"
+    },
+    {
+      "etf_id": "TW-00946",
       "holding_symbol": "2474.TW",
       "holding_name": "Catcher Technology Co Ltd",
-      "weight": 0.0488507,
+      "weight": 0.0504126,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -2637,7 +2641,7 @@
       "etf_id": "TW-00946",
       "holding_symbol": "2347.TW",
       "holding_name": "Synnex Technology International Corp",
-      "weight": 0.0327187,
+      "weight": 0.0350759,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -2649,23 +2653,23 @@
     },
     {
       "etf_id": "TW-00946",
-      "holding_symbol": "2458.TW",
-      "holding_name": "Elan Microelectronics Corp",
-      "weight": 0.0290802,
+      "holding_symbol": "2385.TW",
+      "holding_name": "Chicony Electronics Co Ltd",
+      "weight": 0.0286151,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Elan Microelectronics Corp",
-      "holding_name_zh": null,
-      "display_name": "Elan Microelectronics Corp",
-      "display_label": "(2458.TW)Elan Microelectronics Corp",
-      "bilingual_name": "Elan Microelectronics Corp"
+      "holding_name_en": "Chicony Electronics Co Ltd",
+      "holding_name_zh": "群光",
+      "display_name": "群光",
+      "display_label": "(2385.TW)群光",
+      "bilingual_name": "Chicony Electronics Co Ltd（群光）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.666434,
-    "top_3_weight": 0.278939
+    "top_10_weight": 0.683848,
+    "top_3_weight": 0.302637
   },
   "research": {
     "tier": "context",

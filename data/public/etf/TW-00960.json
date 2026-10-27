@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 52.7411,
+      "value": 55.1188,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 70.8241,
+      "value": 74.7573,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 20.721,
+      "value": 20.757,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0532,
+      "value": 0.0528,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.0079,
+      "value": 2.0119,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 3.3456,
+      "value": 3.5293,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 70.8241,
+      "value": 74.7573,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 34.1265,
+      "value": 34.159,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-22",
-    "value": 23.01,
+    "date": "2026-10-27",
+    "value": 23.4,
     "currency": "TWD"
   },
   "trend": [
@@ -2117,21 +2117,25 @@
     {
       "date": "2026-10-22",
       "value": 152.38
+    },
+    {
+      "date": "2026-10-27",
+      "value": 154.97
     }
   ],
   "price_history": {
     "first_date": "2024-09-20",
-    "last_date": "2026-10-22",
-    "observations": 506,
+    "last_date": "2026-10-27",
+    "observations": 507,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-22",
-    "latest_volume": 758234.0,
-    "average_volume_20d": 528701.2,
-    "average_dollar_volume_20d": 12137257.0715,
-    "relative_volume_20d": 1.4341,
+    "as_of": "2026-10-27",
+    "latest_volume": 373774.0,
+    "average_volume_20d": 520424.75,
+    "average_dollar_volume_20d": 11964620.9585,
+    "relative_volume_20d": 0.7182,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2139,12 +2143,26 @@
   "top_holdings": [
     {
       "etf_id": "TW-00960",
-      "holding_symbol": "9104.T",
-      "holding_name": "Mitsui O.S.K. Lines Ltd",
-      "weight": 0.076021,
+      "holding_symbol": "MAERSK-B.CO",
+      "holding_name": "A P Moller Maersk AS Class B",
+      "weight": 0.0891469,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "A P Moller Maersk AS Class B",
+      "holding_name_zh": null,
+      "display_name": "A P Moller Maersk AS Class B",
+      "display_label": "(MAERSK-B.CO)A P Moller Maersk AS Class B",
+      "bilingual_name": "A P Moller Maersk AS Class B"
+    },
+    {
+      "etf_id": "TW-00960",
+      "holding_symbol": "9104.T",
+      "holding_name": "Mitsui O.S.K. Lines Ltd",
+      "weight": 0.0811354,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Mitsui O.S.K. Lines Ltd",
       "holding_name_zh": null,
       "display_name": "Mitsui O.S.K. Lines Ltd",
@@ -2153,23 +2171,9 @@
     },
     {
       "etf_id": "TW-00960",
-      "holding_symbol": "2603.TW",
-      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
-      "weight": 0.0727636,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
-      "holding_name_zh": "長榮",
-      "display_name": "長榮",
-      "display_label": "(2603.TW)長榮",
-      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
-    },
-    {
-      "etf_id": "TW-00960",
       "holding_symbol": "9101.T",
       "holding_name": "Nippon Yusen Kabushiki Kaisha",
-      "weight": 0.07256859,
+      "weight": 0.0795961,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -2181,40 +2185,26 @@
     },
     {
       "etf_id": "TW-00960",
-      "holding_symbol": "MAERSK-B.CO",
-      "holding_name": "A P Moller Maersk AS Class B",
-      "weight": 0.0706836,
+      "holding_symbol": "2603.TW",
+      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
+      "weight": 0.079112,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "A P Moller Maersk AS Class B",
-      "holding_name_zh": null,
-      "display_name": "A P Moller Maersk AS Class B",
-      "display_label": "(MAERSK-B.CO)A P Moller Maersk AS Class B",
-      "bilingual_name": "A P Moller Maersk AS Class B"
-    },
-    {
-      "etf_id": "TW-00960",
-      "holding_symbol": "MATX",
-      "holding_name": "Matson Inc",
-      "weight": 0.0568928,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Matson Inc",
-      "holding_name_zh": null,
-      "display_name": "Matson Inc",
-      "display_label": "(MATX)Matson Inc",
-      "bilingual_name": "Matson Inc"
+      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
+      "holding_name_zh": "長榮",
+      "display_name": "長榮",
+      "display_label": "(2603.TW)長榮",
+      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
     },
     {
       "etf_id": "TW-00960",
       "holding_symbol": "9107.T",
       "holding_name": "Kawasaki Kisen Kaisha Ltd",
-      "weight": 0.0543355,
+      "weight": 0.0566498,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Kawasaki Kisen Kaisha Ltd",
       "holding_name_zh": null,
       "display_name": "Kawasaki Kisen Kaisha Ltd",
@@ -2225,10 +2215,10 @@
       "etf_id": "TW-00960",
       "holding_symbol": "FRO",
       "holding_name": "Frontline PLC",
-      "weight": 0.0486386,
+      "weight": 0.0510734,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Frontline PLC",
       "holding_name_zh": null,
       "display_name": "Frontline PLC",
@@ -2237,26 +2227,26 @@
     },
     {
       "etf_id": "TW-00960",
-      "holding_symbol": "2609.TW",
-      "holding_name": "Yang Ming Marine Transport Corp",
-      "weight": 0.0374137,
+      "holding_symbol": "MATX",
+      "holding_name": "Matson Inc",
+      "weight": 0.0469419,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Yang Ming Marine Transport Corp",
-      "holding_name_zh": "陽明",
-      "display_name": "陽明",
-      "display_label": "(2609.TW)陽明",
-      "bilingual_name": "Yang Ming Marine Transport Corp（陽明）"
+      "rank": 7,
+      "holding_name_en": "Matson Inc",
+      "holding_name_zh": null,
+      "display_name": "Matson Inc",
+      "display_label": "(MATX)Matson Inc",
+      "bilingual_name": "Matson Inc"
     },
     {
       "etf_id": "TW-00960",
       "holding_symbol": "2615.TW",
       "holding_name": "Wan Hai Lines Ltd",
-      "weight": 0.0373066,
+      "weight": 0.0388884,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Wan Hai Lines Ltd",
       "holding_name_zh": null,
       "display_name": "Wan Hai Lines Ltd",
@@ -2267,21 +2257,35 @@
       "etf_id": "TW-00960",
       "holding_symbol": "INSW",
       "holding_name": "International Seaways Inc",
-      "weight": 0.0362976,
+      "weight": 0.0330699,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "International Seaways Inc",
       "holding_name_zh": null,
       "display_name": "International Seaways Inc",
       "display_label": "(INSW)International Seaways Inc",
       "bilingual_name": "International Seaways Inc"
+    },
+    {
+      "etf_id": "TW-00960",
+      "holding_symbol": "2609.TW",
+      "holding_name": "Yang Ming Marine Transport Corp",
+      "weight": 0.031678,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Yang Ming Marine Transport Corp",
+      "holding_name_zh": "陽明",
+      "display_name": "陽明",
+      "display_label": "(2609.TW)陽明",
+      "bilingual_name": "Yang Ming Marine Transport Corp（陽明）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.562922,
-    "top_3_weight": 0.221353
+    "top_10_weight": 0.587292,
+    "top_3_weight": 0.249878
   },
   "research": {
     "tier": "context",
