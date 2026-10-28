@@ -937,9 +937,9 @@
   "liquidity": {
     "as_of": "2026-10-28",
     "latest_volume": 77095.0,
-    "average_volume_20d": 147863.35,
-    "average_dollar_volume_20d": 2262212.4455,
-    "relative_volume_20d": 0.5214,
+    "average_volume_20d": 147730.0,
+    "average_dollar_volume_20d": 2260288.205,
+    "relative_volume_20d": 0.5219,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -949,7 +949,7 @@
       "etf_id": "TW-00982T",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.12943539,
+      "weight": 0.2125351,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -963,7 +963,7 @@
       "etf_id": "TW-00982T",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.105185,
+      "weight": 0.19564739,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -977,7 +977,7 @@
       "etf_id": "TW-00982T",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0500958,
+      "weight": 0.0794791,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -986,12 +986,54 @@
       "display_name": "鴻海",
       "display_label": "(2317.TW)鴻海",
       "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+    },
+    {
+      "etf_id": "TW-00982T",
+      "holding_symbol": "2303.TW",
+      "holding_name": "United Microelectronics Corp",
+      "weight": 0.0463563,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "United Microelectronics Corp",
+      "holding_name_zh": "聯電",
+      "display_name": "聯電",
+      "display_label": "(2303.TW)聯電",
+      "bilingual_name": "United Microelectronics Corp（聯電）"
+    },
+    {
+      "etf_id": "TW-00982T",
+      "holding_symbol": "2327.TW",
+      "holding_name": "Yageo Corp",
+      "weight": 0.0275269,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Yageo Corp",
+      "holding_name_zh": "國巨",
+      "display_name": "國巨",
+      "display_label": "(2327.TW)國巨",
+      "bilingual_name": "Yageo Corp（國巨）"
+    },
+    {
+      "etf_id": "TW-00982T",
+      "holding_symbol": "3026.TW",
+      "holding_name": "Holy Stone Enterprise Co Ltd",
+      "weight": 0.0229528,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Holy Stone Enterprise Co Ltd",
+      "holding_name_zh": "禾伸堂",
+      "display_name": "禾伸堂",
+      "display_label": "(3026.TW)禾伸堂",
+      "bilingual_name": "Holy Stone Enterprise Co Ltd（禾伸堂）"
     }
   ],
   "holdings_summary": {
-    "holding_count": 3,
-    "top_10_weight": 0.284716,
-    "top_3_weight": 0.284716
+    "holding_count": 6,
+    "top_10_weight": 0.584498,
+    "top_3_weight": 0.487662
   },
   "research": {
     "tier": "context",

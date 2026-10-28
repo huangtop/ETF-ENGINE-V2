@@ -49,11 +49,44 @@
       "code": "standard"
     }
   ],
-  "metrics": {},
+  "metrics": {
+    "alpha": {
+      "value": null,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 5.8229,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.0794,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -1.5313,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -0.0212,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": null,
+      "unit": "percent"
+    }
+  },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-27",
-    "value": 49.7,
+    "date": "2026-10-28",
+    "value": 49.658,
     "currency": "USD"
   },
   "trend": [
@@ -91,7 +124,7 @@
     },
     {
       "date": "2026-10-13",
-      "value": 101.53
+      "value": 100.98
     },
     {
       "date": "2026-10-14",
@@ -119,37 +152,41 @@
     },
     {
       "date": "2026-10-22",
-      "value": 101.19
+      "value": 100.64
     },
     {
       "date": "2026-10-23",
-      "value": 101.13
+      "value": 100.58
     },
     {
       "date": "2026-10-26",
-      "value": 100.37
+      "value": 99.82
     },
     {
       "date": "2026-10-27",
       "value": 100.06
+    },
+    {
+      "date": "2026-10-28",
+      "value": 99.98
     }
   ],
   "price_history": {
     "first_date": "2026-10-01",
-    "last_date": "2026-10-27",
-    "observations": 19,
+    "last_date": "2026-10-28",
+    "observations": 20,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-27",
-    "latest_volume": 100.0,
-    "average_volume_20d": 426.3158,
-    "average_dollar_volume_20d": 21353.3759,
-    "relative_volume_20d": 0.2346,
+    "as_of": "2026-10-28",
+    "latest_volume": 15.0,
+    "average_volume_20d": 405.75,
+    "average_dollar_volume_20d": 20275.0646,
+    "relative_volume_20d": 0.037,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 19
+    "observation_count": 20
   },
   "top_holdings": [],
   "holdings_summary": {
