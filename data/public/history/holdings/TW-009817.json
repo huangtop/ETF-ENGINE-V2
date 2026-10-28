@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "TW-009817",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-10-28T10:42:30.172747Z-TW-009817-4f06c0b4",
+    "etf_id": "TW-009817",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20260811-02afc2e6f2ce",
+    "current_snapshot_id": "20261028-6bb9861df4e7",
+    "previous_observed_at": "2026-08-11T23:02:15.842612Z",
+    "current_observed_at": "2026-10-28T10:42:30.172747Z",
+    "changes": [
+      {
+        "event_id": "fd859798407418af7149099394b4827b4e8ddf49375e04c3bf3834a57040b616",
+        "etf_id": "TW-009817",
+        "holding_symbol": "1488",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "1488",
+        "holding_display_label": "(1488)1488",
+        "holding_bilingual_name": "1488",
+        "previous_weight": 0.98802966,
+        "current_weight": 0.98122513,
+        "delta_weight": -0.00680453,
+        "change_type": "WEIGHT_DECREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20260811-02afc2e6f2ce",
+        "current_snapshot_id": "20261028-6bb9861df4e7",
+        "previous_observed_at": "2026-08-11T23:02:15.842612Z",
+        "current_observed_at": "2026-10-28T10:42:30.172747Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-10-28T10:42:30.172747Z-TW-009817-4f06c0b4",
+      "etf_id": "TW-009817",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260811-02afc2e6f2ce",
+      "current_snapshot_id": "20261028-6bb9861df4e7",
+      "previous_observed_at": "2026-08-11T23:02:15.842612Z",
+      "current_observed_at": "2026-10-28T10:42:30.172747Z",
+      "changes": [
+        {
+          "event_id": "fd859798407418af7149099394b4827b4e8ddf49375e04c3bf3834a57040b616",
+          "etf_id": "TW-009817",
+          "holding_symbol": "1488",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "1488",
+          "holding_display_label": "(1488)1488",
+          "holding_bilingual_name": "1488",
+          "previous_weight": 0.98802966,
+          "current_weight": 0.98122513,
+          "delta_weight": -0.00680453,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260811-02afc2e6f2ce",
+          "current_snapshot_id": "20261028-6bb9861df4e7",
+          "previous_observed_at": "2026-08-11T23:02:15.842612Z",
+          "current_observed_at": "2026-10-28T10:42:30.172747Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

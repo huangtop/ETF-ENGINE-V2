@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "TW-009812",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-10-28T10:42:29.174325Z-TW-009812-bde21fd5",
+    "etf_id": "TW-009812",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20260811-3495234cef5c",
+    "current_snapshot_id": "20261028-4538c2fa56d2",
+    "previous_observed_at": "2026-08-11T23:02:15.465599Z",
+    "current_observed_at": "2026-10-28T10:42:29.174325Z",
+    "changes": [
+      {
+        "event_id": "5db8244e41db8c9f6b5cf652820b5a5e84dee005af22d246b3a07b4a57b56fb1",
+        "etf_id": "TW-009812",
+        "holding_symbol": "1306.T",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "1306.T",
+        "holding_display_label": "(1306.T)1306.T",
+        "holding_bilingual_name": "1306.T",
+        "previous_weight": 0.9715127,
+        "current_weight": 0.97072446,
+        "delta_weight": -0.00078824,
+        "change_type": "WEIGHT_DECREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20260811-3495234cef5c",
+        "current_snapshot_id": "20261028-4538c2fa56d2",
+        "previous_observed_at": "2026-08-11T23:02:15.465599Z",
+        "current_observed_at": "2026-10-28T10:42:29.174325Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-10-28T10:42:29.174325Z-TW-009812-bde21fd5",
+      "etf_id": "TW-009812",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260811-3495234cef5c",
+      "current_snapshot_id": "20261028-4538c2fa56d2",
+      "previous_observed_at": "2026-08-11T23:02:15.465599Z",
+      "current_observed_at": "2026-10-28T10:42:29.174325Z",
+      "changes": [
+        {
+          "event_id": "5db8244e41db8c9f6b5cf652820b5a5e84dee005af22d246b3a07b4a57b56fb1",
+          "etf_id": "TW-009812",
+          "holding_symbol": "1306.T",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "1306.T",
+          "holding_display_label": "(1306.T)1306.T",
+          "holding_bilingual_name": "1306.T",
+          "previous_weight": 0.9715127,
+          "current_weight": 0.97072446,
+          "delta_weight": -0.00078824,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260811-3495234cef5c",
+          "current_snapshot_id": "20261028-4538c2fa56d2",
+          "previous_observed_at": "2026-08-11T23:02:15.465599Z",
+          "current_observed_at": "2026-10-28T10:42:29.174325Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

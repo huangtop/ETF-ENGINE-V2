@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 9.6352,
+      "value": 9.3367,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 32.1649,
+      "value": 32.1172,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.982,
+      "value": 0.9815,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.6865,
+      "value": 0.6905,
       "unit": "years"
     },
     "expense_ratio": {
@@ -83,18 +83,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 54.8199,
+      "value": 57.4489,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 6.6528,
+      "value": 6.6408,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-27",
-    "value": 15.9,
+    "date": "2026-10-28",
+    "value": 16.17,
     "currency": "TWD"
   },
   "trend": [
@@ -789,21 +789,25 @@
     {
       "date": "2026-10-27",
       "value": 154.82
+    },
+    {
+      "date": "2026-10-28",
+      "value": 157.45
     }
   ],
   "price_history": {
     "first_date": "2026-02-03",
-    "last_date": "2026-10-27",
-    "observations": 173,
+    "last_date": "2026-10-28",
+    "observations": 174,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-27",
-    "latest_volume": 123602203.0,
-    "average_volume_20d": 135021743.0,
-    "average_dollar_volume_20d": 2217265274.767,
-    "relative_volume_20d": 0.9154,
+    "as_of": "2026-10-28",
+    "latest_volume": 91519002.0,
+    "average_volume_20d": 135527571.3,
+    "average_dollar_volume_20d": 2223694366.004,
+    "relative_volume_20d": 0.6753,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -813,7 +817,7 @@
       "etf_id": "TW-009816",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.402641,
+      "weight": 0.40636298,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -827,7 +831,7 @@
       "etf_id": "TW-009816",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0870238,
+      "weight": 0.0648283,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -841,7 +845,7 @@
       "etf_id": "TW-009816",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0559199,
+      "weight": 0.0350266,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -853,12 +857,26 @@
     },
     {
       "etf_id": "TW-009816",
-      "holding_symbol": "2317.TW",
-      "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0416034,
+      "holding_symbol": "2887.TW",
+      "holding_name": "TS Financial Holding Co Ltd",
+      "weight": 0.0293831,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
+      "holding_name_en": "TS Financial Holding Co Ltd",
+      "holding_name_zh": "台新新光金",
+      "display_name": "台新新光金",
+      "display_label": "(2887.TW)台新新光金",
+      "bilingual_name": "TS Financial Holding Co Ltd（台新新光金）"
+    },
+    {
+      "etf_id": "TW-009816",
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0273029,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Hon Hai Precision Industry Co Ltd",
       "holding_name_zh": "鴻海",
       "display_name": "鴻海",
@@ -867,12 +885,40 @@
     },
     {
       "etf_id": "TW-009816",
-      "holding_symbol": "3711.TW",
-      "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0305529,
+      "holding_symbol": "2885.TW",
+      "holding_name": "Yuanta Financial Holdings Co Ltd",
+      "weight": 0.0259113,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
+      "holding_name_en": "Yuanta Financial Holdings Co Ltd",
+      "holding_name_zh": "元大金",
+      "display_name": "元大金",
+      "display_label": "(2885.TW)元大金",
+      "bilingual_name": "Yuanta Financial Holdings Co Ltd（元大金）"
+    },
+    {
+      "etf_id": "TW-009816",
+      "holding_symbol": "2412.TW",
+      "holding_name": "Chunghwa Telecom Co Ltd",
+      "weight": 0.020662,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Chunghwa Telecom Co Ltd",
+      "holding_name_zh": "中華電",
+      "display_name": "中華電",
+      "display_label": "(2412.TW)中華電",
+      "bilingual_name": "Chunghwa Telecom Co Ltd（中華電）"
+    },
+    {
+      "etf_id": "TW-009816",
+      "holding_symbol": "3711.TW",
+      "holding_name": "ASE Technology Holding Co Ltd",
+      "weight": 0.0205378,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "ASE Technology Holding Co Ltd",
       "holding_name_zh": "日月光投控",
       "display_name": "日月光投控",
@@ -881,79 +927,37 @@
     },
     {
       "etf_id": "TW-009816",
-      "holding_symbol": "3037.TW",
-      "holding_name": "Unimicron Technology Corp",
-      "weight": 0.0258753,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Unimicron Technology Corp",
-      "holding_name_zh": "欣興",
-      "display_name": "欣興",
-      "display_label": "(3037.TW)欣興",
-      "bilingual_name": "Unimicron Technology Corp（欣興）"
-    },
-    {
-      "etf_id": "TW-009816",
-      "holding_symbol": "2345.TW",
-      "holding_name": "Accton Technology Corp",
-      "weight": 0.0233701,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Accton Technology Corp",
-      "holding_name_zh": "智邦",
-      "display_name": "智邦",
-      "display_label": "(2345.TW)智邦",
-      "bilingual_name": "Accton Technology Corp（智邦）"
-    },
-    {
-      "etf_id": "TW-009816",
-      "holding_symbol": "2327.TW",
-      "holding_name": "Yageo Corp",
-      "weight": 0.0205224,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Yageo Corp",
-      "holding_name_zh": "國巨",
-      "display_name": "國巨",
-      "display_label": "(2327.TW)國巨",
-      "bilingual_name": "Yageo Corp（國巨）"
-    },
-    {
-      "etf_id": "TW-009816",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.0180862,
+      "holding_symbol": "2884.TW",
+      "holding_name": "E. Sun Financial Holding Co Ltd",
+      "weight": 0.0204905,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "United Microelectronics Corp",
-      "holding_name_zh": "聯電",
-      "display_name": "聯電",
-      "display_label": "(2303.TW)聯電",
-      "bilingual_name": "United Microelectronics Corp（聯電）"
+      "holding_name_en": "E. Sun Financial Holding Co Ltd",
+      "holding_name_zh": "玉山金",
+      "display_name": "玉山金",
+      "display_label": "(2884.TW)玉山金",
+      "bilingual_name": "E. Sun Financial Holding Co Ltd（玉山金）"
     },
     {
       "etf_id": "TW-009816",
-      "holding_symbol": "2885.TW",
-      "holding_name": "Yuanta Financial Holdings Co Ltd",
-      "weight": 0.017405,
+      "holding_symbol": "2883.TW",
+      "holding_name": "KGI Financial Holding Co Ltd",
+      "weight": 0.0188,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Yuanta Financial Holdings Co Ltd",
-      "holding_name_zh": "元大金",
-      "display_name": "元大金",
-      "display_label": "(2885.TW)元大金",
-      "bilingual_name": "Yuanta Financial Holdings Co Ltd（元大金）"
+      "holding_name_en": "KGI Financial Holding Co Ltd",
+      "holding_name_zh": "凱基金",
+      "display_name": "凱基金",
+      "display_label": "(2883.TW)凱基金",
+      "bilingual_name": "KGI Financial Holding Co Ltd（凱基金）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.723,
-    "top_3_weight": 0.545585
+    "top_10_weight": 0.669305,
+    "top_3_weight": 0.506218
   },
   "research": {
     "tier": "context",

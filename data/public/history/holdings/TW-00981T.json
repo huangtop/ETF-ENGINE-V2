@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "TW-00981T",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-10-28T10:42:31.596725Z-TW-00981T-1d6bedf2",
+    "etf_id": "TW-00981T",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20260811-f174908cfa54",
+    "current_snapshot_id": "20261028-62b047cfa907",
+    "previous_observed_at": "2026-08-11T23:02:16.633863Z",
+    "current_observed_at": "2026-10-28T10:42:31.596725Z",
+    "changes": [
+      {
+        "event_id": "a86e502db36341229960f47496836672726a6c89bd18b5ced153649d32fd5a27",
+        "etf_id": "TW-00981T",
+        "holding_symbol": "2330.TW",
+        "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+        "holding_name_zh": "台積電",
+        "holding_display_name": "台積電",
+        "holding_display_label": "(2330.TW)台積電",
+        "holding_bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）",
+        "previous_weight": 0.16939801,
+        "current_weight": 0.1747573,
+        "delta_weight": 0.00535929,
+        "change_type": "WEIGHT_INCREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20260811-f174908cfa54",
+        "current_snapshot_id": "20261028-62b047cfa907",
+        "previous_observed_at": "2026-08-11T23:02:16.633863Z",
+        "current_observed_at": "2026-10-28T10:42:31.596725Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-10-28T10:42:31.596725Z-TW-00981T-1d6bedf2",
+      "etf_id": "TW-00981T",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260811-f174908cfa54",
+      "current_snapshot_id": "20261028-62b047cfa907",
+      "previous_observed_at": "2026-08-11T23:02:16.633863Z",
+      "current_observed_at": "2026-10-28T10:42:31.596725Z",
+      "changes": [
+        {
+          "event_id": "a86e502db36341229960f47496836672726a6c89bd18b5ced153649d32fd5a27",
+          "etf_id": "TW-00981T",
+          "holding_symbol": "2330.TW",
+          "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "holding_name_zh": "台積電",
+          "holding_display_name": "台積電",
+          "holding_display_label": "(2330.TW)台積電",
+          "holding_bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）",
+          "previous_weight": 0.16939801,
+          "current_weight": 0.1747573,
+          "delta_weight": 0.00535929,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260811-f174908cfa54",
+          "current_snapshot_id": "20261028-62b047cfa907",
+          "previous_observed_at": "2026-08-11T23:02:16.633863Z",
+          "current_observed_at": "2026-10-28T10:42:31.596725Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

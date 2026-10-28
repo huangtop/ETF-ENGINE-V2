@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -21.5685,
+      "value": -22.8068,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.0796,
+      "value": 13.081,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0564,
+      "value": 0.0542,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.6746,
+      "value": 0.6786,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -11.8593,
+      "value": -12.6633,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 33.099,
+      "value": 33.1422,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-27",
-    "value": 8.77,
+    "date": "2026-10-28",
+    "value": 8.69,
     "currency": "TWD"
   },
   "trend": [
@@ -773,21 +773,25 @@
     {
       "date": "2026-10-27",
       "value": 88.14
+    },
+    {
+      "date": "2026-10-28",
+      "value": 87.34
     }
   ],
   "price_history": {
     "first_date": "2026-02-06",
-    "last_date": "2026-10-27",
-    "observations": 170,
+    "last_date": "2026-10-28",
+    "observations": 171,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-27",
-    "latest_volume": 1380657.0,
-    "average_volume_20d": 1003327.75,
-    "average_dollar_volume_20d": 8659746.2315,
-    "relative_volume_20d": 1.3761,
+    "as_of": "2026-10-28",
+    "latest_volume": 932918.0,
+    "average_volume_20d": 963061.5,
+    "average_dollar_volume_20d": 8294188.332,
+    "relative_volume_20d": 0.9687,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -797,7 +801,7 @@
       "etf_id": "TW-009817",
       "holding_symbol": "1488",
       "holding_name": "iFreeETF Tokyo Stock Exchange REIT Idx",
-      "weight": 0.98802966,
+      "weight": 0.98122513,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -810,8 +814,8 @@
   ],
   "holdings_summary": {
     "holding_count": 1,
-    "top_10_weight": 0.98803,
-    "top_3_weight": 0.98803
+    "top_10_weight": 0.981225,
+    "top_3_weight": 0.981225
   },
   "research": {
     "tier": "context",

@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 1.3715,
+      "value": 4.028,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 19.6946,
+      "value": 19.8383,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.5027,
+      "value": 0.5081,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3294,
+      "value": 0.3333,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 0.295,
+      "value": 2.1632,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.5658,
+      "value": 19.4465,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-27",
-    "value": 10.2,
+    "date": "2026-10-28",
+    "value": 10.39,
     "currency": "TWD"
   },
   "trend": [
@@ -421,21 +421,25 @@
     {
       "date": "2026-10-27",
       "value": 100.29
+    },
+    {
+      "date": "2026-10-28",
+      "value": 102.16
     }
   ],
   "price_history": {
     "first_date": "2026-06-25",
-    "last_date": "2026-10-27",
-    "observations": 83,
+    "last_date": "2026-10-28",
+    "observations": 84,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-27",
-    "latest_volume": 1886943.0,
-    "average_volume_20d": 3403265.55,
-    "average_dollar_volume_20d": 36043625.6275,
-    "relative_volume_20d": 0.5545,
+    "as_of": "2026-10-28",
+    "latest_volume": 2371328.0,
+    "average_volume_20d": 3124498.95,
+    "average_dollar_volume_20d": 33059827.3935,
+    "relative_volume_20d": 0.7589,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -443,26 +447,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-009824",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.1890647,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.1981463,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "TW-009824",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.1853776,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -471,9 +461,23 @@
     },
     {
       "etf_id": "TW-009824",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.19518909,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "TW-009824",
       "holding_symbol": "MU",
       "holding_name": "Micron Technology Inc",
-      "weight": 0.09359589,
+      "weight": 0.0803738,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -485,54 +489,12 @@
     },
     {
       "etf_id": "TW-009824",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0843835,
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0657529,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Broadcom Inc",
-      "holding_name_zh": "博通",
-      "display_name": "博通",
-      "display_label": "(AVGO)博通",
-      "bilingual_name": "Broadcom Inc（博通）"
-    },
-    {
-      "etf_id": "TW-009824",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.071964,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
-    },
-    {
-      "etf_id": "TW-009824",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0442729,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
-    },
-    {
-      "etf_id": "TW-009824",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.0420786,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Microsoft Corp",
       "holding_name_zh": "微軟",
       "display_name": "微軟",
@@ -541,26 +503,26 @@
     },
     {
       "etf_id": "TW-009824",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0283369,
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0649654,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+      "rank": 5,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
     },
     {
       "etf_id": "TW-009824",
       "holding_symbol": "LRCX",
       "holding_name": "Lam Research Corp",
-      "weight": 0.0261619,
+      "weight": 0.0341748,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 6,
       "holding_name_en": "Lam Research Corp",
       "holding_name_zh": "科林研發",
       "display_name": "科林研發",
@@ -569,23 +531,65 @@
     },
     {
       "etf_id": "TW-009824",
-      "holding_symbol": "SNDK",
-      "holding_name": "SanDisk Corp Ordinary Shares",
-      "weight": 0.0246299,
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.033279,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "TW-009824",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0308966,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "TW-009824",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.0287525,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
+    },
+    {
+      "etf_id": "TW-009824",
+      "holding_symbol": "PLTR",
+      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "weight": 0.0278081,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "SanDisk Corp Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "SanDisk Corp Ordinary Shares",
-      "display_label": "(SNDK)SanDisk Corp Ordinary Shares",
-      "bilingual_name": "SanDisk Corp Ordinary Shares"
+      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "holding_name_zh": "Palantir Technologies",
+      "display_name": "Palantir Technologies",
+      "display_label": "(PLTR)Palantir Technologies",
+      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.789866,
-    "top_3_weight": 0.468038
+    "top_10_weight": 0.759338,
+    "top_3_weight": 0.473709
   },
   "research": {
     "tier": "context",

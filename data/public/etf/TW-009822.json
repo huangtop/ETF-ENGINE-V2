@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -41.7611,
+      "value": -43.6681,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 27.2664,
+      "value": 27.1374,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.457,
+      "value": 0.4533,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.4246,
+      "value": 0.4286,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -14.7117,
+      "value": -14.8111,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -14.2,
+      "value": -14.3,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 29.0528,
+      "value": 29.0521,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-27",
-    "value": 8.58,
+    "date": "2026-10-28",
+    "value": 8.57,
     "currency": "TWD"
   },
   "trend": [
@@ -517,21 +517,25 @@
     {
       "date": "2026-10-27",
       "value": 85.8
+    },
+    {
+      "date": "2026-10-28",
+      "value": 85.7
     }
   ],
   "price_history": {
     "first_date": "2026-05-25",
-    "last_date": "2026-10-27",
-    "observations": 107,
+    "last_date": "2026-10-28",
+    "observations": 108,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-10-27",
-    "latest_volume": 343000.0,
-    "average_volume_20d": 413800.0,
-    "average_dollar_volume_20d": 3821489.5303,
-    "relative_volume_20d": 0.8289,
+    "as_of": "2026-10-28",
+    "latest_volume": 191014.0,
+    "average_volume_20d": 411850.7,
+    "average_dollar_volume_20d": 3789719.0251,
+    "relative_volume_20d": 0.4638,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -541,7 +545,7 @@
       "etf_id": "TW-009822",
       "holding_symbol": "HOOD",
       "holding_name": "Robinhood Markets Inc Class A",
-      "weight": 0.10031319,
+      "weight": 0.09492251,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -553,26 +557,12 @@
     },
     {
       "etf_id": "TW-009822",
-      "holding_symbol": "NU",
-      "holding_name": "Nu Holdings Ltd Ordinary Shares Class A",
-      "weight": 0.0791624,
+      "holding_symbol": "V",
+      "holding_name": "Visa Inc Class A",
+      "weight": 0.0794217,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Nu Holdings Ltd Ordinary Shares Class A",
-      "holding_name_zh": null,
-      "display_name": "Nu Holdings Ltd Ordinary Shares Class A",
-      "display_label": "(NU)Nu Holdings Ltd Ordinary Shares Class A",
-      "bilingual_name": "Nu Holdings Ltd Ordinary Shares Class A"
-    },
-    {
-      "etf_id": "TW-009822",
-      "holding_symbol": "V",
-      "holding_name": "Visa Inc Class A",
-      "weight": 0.0786108,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Visa Inc Class A",
       "holding_name_zh": null,
       "display_name": "Visa Inc Class A",
@@ -583,10 +573,10 @@
       "etf_id": "TW-009822",
       "holding_symbol": "MA",
       "holding_name": "Mastercard Inc Class A",
-      "weight": 0.0781459,
+      "weight": 0.0776631,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "Mastercard Inc Class A",
       "holding_name_zh": null,
       "display_name": "Mastercard Inc Class A",
@@ -597,10 +587,10 @@
       "etf_id": "TW-009822",
       "holding_symbol": "MELI",
       "holding_name": "MercadoLibre Inc",
-      "weight": 0.0778797,
+      "weight": 0.0731776,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 4,
       "holding_name_en": "MercadoLibre Inc",
       "holding_name_zh": null,
       "display_name": "MercadoLibre Inc",
@@ -609,12 +599,40 @@
     },
     {
       "etf_id": "TW-009822",
-      "holding_symbol": "HUT",
-      "holding_name": "Hut 8 Corp",
-      "weight": 0.0453056,
+      "holding_symbol": "NU",
+      "holding_name": "Nu Holdings Ltd Ordinary Shares Class A",
+      "weight": 0.0700207,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Nu Holdings Ltd Ordinary Shares Class A",
+      "holding_name_zh": null,
+      "display_name": "Nu Holdings Ltd Ordinary Shares Class A",
+      "display_label": "(NU)Nu Holdings Ltd Ordinary Shares Class A",
+      "bilingual_name": "Nu Holdings Ltd Ordinary Shares Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "COIN",
+      "holding_name": "Coinbase Global Inc Ordinary Shares - Class A",
+      "weight": 0.0470091,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
+      "holding_name_en": "Coinbase Global Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "Coinbase Global Inc Ordinary Shares - Class A",
+      "display_label": "(COIN)Coinbase Global Inc Ordinary Shares - Class A",
+      "bilingual_name": "Coinbase Global Inc Ordinary Shares - Class A"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "HUT",
+      "holding_name": "Hut 8 Corp",
+      "weight": 0.0422844,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Hut 8 Corp",
       "holding_name_zh": null,
       "display_name": "Hut 8 Corp",
@@ -623,65 +641,51 @@
     },
     {
       "etf_id": "TW-009822",
-      "holding_symbol": "XYZ",
-      "holding_name": "Block Inc Class A",
-      "weight": 0.040623,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Block Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "Block Inc Class A",
-      "display_label": "(XYZ)Block Inc Class A",
-      "bilingual_name": "Block Inc Class A"
-    },
-    {
-      "etf_id": "TW-009822",
-      "holding_symbol": "SYF",
-      "holding_name": "Synchrony Financial",
-      "weight": 0.0399943,
+      "holding_symbol": "CRCL",
+      "holding_name": "Circle Internet Group Inc Ordinary Shares - Class A",
+      "weight": 0.0422411,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Synchrony Financial",
+      "holding_name_en": "Circle Internet Group Inc Ordinary Shares - Class A",
       "holding_name_zh": null,
-      "display_name": "Synchrony Financial",
-      "display_label": "(SYF)Synchrony Financial",
-      "bilingual_name": "Synchrony Financial"
-    },
-    {
-      "etf_id": "TW-009822",
-      "holding_symbol": "CIFR",
-      "holding_name": "Cipher Digital Inc",
-      "weight": 0.0395278,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Cipher Digital Inc",
-      "holding_name_zh": null,
-      "display_name": "Cipher Digital Inc",
-      "display_label": "(CIFR)Cipher Digital Inc",
-      "bilingual_name": "Cipher Digital Inc"
+      "display_name": "Circle Internet Group Inc Ordinary Shares - Class A",
+      "display_label": "(CRCL)Circle Internet Group Inc Ordinary Shares - Class A",
+      "bilingual_name": "Circle Internet Group Inc Ordinary Shares - Class A"
     },
     {
       "etf_id": "TW-009822",
       "holding_symbol": "RIOT",
       "holding_name": "Riot Platforms Inc",
-      "weight": 0.039457,
+      "weight": 0.0393787,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Riot Platforms Inc",
       "holding_name_zh": null,
       "display_name": "Riot Platforms Inc",
       "display_label": "(RIOT)Riot Platforms Inc",
       "bilingual_name": "Riot Platforms Inc"
+    },
+    {
+      "etf_id": "TW-009822",
+      "holding_symbol": "XYZ",
+      "holding_name": "Block Inc Class A",
+      "weight": 0.0367083,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Block Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Block Inc Class A",
+      "display_label": "(XYZ)Block Inc Class A",
+      "bilingual_name": "Block Inc Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.61902,
-    "top_3_weight": 0.258086
+    "top_10_weight": 0.602827,
+    "top_3_weight": 0.252007
   },
   "research": {
     "tier": "context",

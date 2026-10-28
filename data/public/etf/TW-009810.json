@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 8.563,
+      "value": 9.2832,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 25.0,
+      "value": 26.7327,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 12.7925,
+      "value": 12.7628,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2478,
+      "value": 0.2468,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.2341,
+      "value": 1.2381,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.837,
+      "value": 1.977,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 25.0,
+      "value": 26.7327,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 24.0563,
+      "value": 24.0887,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-27",
-    "value": 21.65,
+    "date": "2026-10-28",
+    "value": 21.76,
     "currency": "TWD"
   },
   "trend": [
@@ -1337,21 +1337,25 @@
     {
       "date": "2026-10-27",
       "value": 143.38
+    },
+    {
+      "date": "2026-10-28",
+      "value": 144.11
     }
   ],
   "price_history": {
     "first_date": "2025-07-16",
-    "last_date": "2026-10-27",
-    "observations": 311,
+    "last_date": "2026-10-28",
+    "observations": 312,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-27",
-    "latest_volume": 40983.0,
-    "average_volume_20d": 172288.4,
-    "average_dollar_volume_20d": 3707853.4075,
-    "relative_volume_20d": 0.2379,
+    "as_of": "2026-10-28",
+    "latest_volume": 237614.0,
+    "average_volume_20d": 177807.95,
+    "average_dollar_volume_20d": 3829485.4915,
+    "relative_volume_20d": 1.3364,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1361,7 +1365,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.1198688,
+      "weight": 0.130074,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1375,7 +1379,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
-      "weight": 0.10510761,
+      "weight": 0.1143945,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1389,7 +1393,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0685265,
+      "weight": 0.0896503,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1403,7 +1407,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.0577102,
+      "weight": 0.057561,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1417,7 +1421,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0518194,
+      "weight": 0.0475187,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1431,7 +1435,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0442338,
+      "weight": 0.0393367,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1445,7 +1449,7 @@
       "etf_id": "TW-009810",
       "holding_symbol": "GOOG",
       "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0413165,
+      "weight": 0.0381131,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1457,26 +1461,12 @@
     },
     {
       "etf_id": "TW-009810",
-      "holding_symbol": "005930.KQ",
-      "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0264723,
+      "holding_symbol": "LLY",
+      "holding_name": "Eli Lilly and Co",
+      "weight": 0.021811,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Samsung Electronics Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd",
-      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
-      "bilingual_name": "Samsung Electronics Co Ltd"
-    },
-    {
-      "etf_id": "TW-009810",
-      "holding_symbol": "LLY",
-      "holding_name": "Eli Lilly and Co",
-      "weight": 0.0234576,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Eli Lilly and Co",
       "holding_name_zh": null,
       "display_name": "Eli Lilly and Co",
@@ -1485,9 +1475,23 @@
     },
     {
       "etf_id": "TW-009810",
+      "holding_symbol": "005930.KQ",
+      "holding_name": "Samsung Electronics Co Ltd",
+      "weight": 0.0215992,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Samsung Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd",
+      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
+      "bilingual_name": "Samsung Electronics Co Ltd"
+    },
+    {
+      "etf_id": "TW-009810",
       "holding_symbol": "JPM",
       "holding_name": "JPMorgan Chase & Co",
-      "weight": 0.0216961,
+      "weight": 0.0206927,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -1500,8 +1504,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.560209,
-    "top_3_weight": 0.293503
+    "top_10_weight": 0.580751,
+    "top_3_weight": 0.334119
   },
   "research": {
     "tier": "context",
