@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "etf_id": "TW-00640L",
   "coverage": "top_holdings_only",
-  "transition_count": 3,
+  "transition_count": 4,
   "latest_transition": {
-    "transition_id": "2026-07-31T22:45:29.512997Z-TW-00640L-0a8d9f5f",
+    "transition_id": "2026-10-29T10:43:50.709427Z-TW-00640L-5a15185e",
     "etf_id": "TW-00640L",
     "coverage": "top_holdings_only",
     "previous_snapshot_id": "20260729-ceff61e03a39",
-    "current_snapshot_id": "20260729-ceff61e03a39",
-    "previous_observed_at": "2026-07-30T22:42:44.736778Z",
-    "current_observed_at": "2026-07-31T22:45:29.512997Z",
+    "current_snapshot_id": "20261029-df70fb943a80",
+    "previous_observed_at": "2026-07-31T22:45:29.512997Z",
+    "current_observed_at": "2026-10-29T10:43:50.709427Z",
     "changes": [
       {
-        "event_id": "67db8f42dc50e36dc3767e73be4b807a09b5856a50ac619dd109bbbba7da2955",
+        "event_id": "12ce8df89865ba978090875f6b45e46414b7d7b5ee9886f62a734a591c4150f6",
         "etf_id": "TW-00640L",
         "holding_symbol": "00645.TW",
         "holding_name_en": null,
@@ -22,15 +22,15 @@
         "holding_display_label": "(00645.TW)00645.TW",
         "holding_bilingual_name": "00645.TW",
         "previous_weight": 0.1031393,
-        "current_weight": 0.1031393,
-        "delta_weight": 0.0,
-        "change_type": "UNCHANGED",
+        "current_weight": 0.1073036,
+        "delta_weight": 0.0041643,
+        "change_type": "WEIGHT_INCREASED",
         "previous_source": "yahoo",
         "current_source": "yahoo",
         "previous_snapshot_id": "20260729-ceff61e03a39",
-        "current_snapshot_id": "20260729-ceff61e03a39",
-        "previous_observed_at": "2026-07-30T22:42:44.736778Z",
-        "current_observed_at": "2026-07-31T22:45:29.512997Z",
+        "current_snapshot_id": "20261029-df70fb943a80",
+        "previous_observed_at": "2026-07-31T22:45:29.512997Z",
+        "current_observed_at": "2026-10-29T10:43:50.709427Z",
         "coverage": "top_holdings_only"
       }
     ]
@@ -170,6 +170,38 @@
           "current_snapshot_id": "20260729-ceff61e03a39",
           "previous_observed_at": "2026-07-30T22:42:44.736778Z",
           "current_observed_at": "2026-07-31T22:45:29.512997Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    },
+    {
+      "transition_id": "2026-10-29T10:43:50.709427Z-TW-00640L-5a15185e",
+      "etf_id": "TW-00640L",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260729-ceff61e03a39",
+      "current_snapshot_id": "20261029-df70fb943a80",
+      "previous_observed_at": "2026-07-31T22:45:29.512997Z",
+      "current_observed_at": "2026-10-29T10:43:50.709427Z",
+      "changes": [
+        {
+          "event_id": "12ce8df89865ba978090875f6b45e46414b7d7b5ee9886f62a734a591c4150f6",
+          "etf_id": "TW-00640L",
+          "holding_symbol": "00645.TW",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "00645.TW",
+          "holding_display_label": "(00645.TW)00645.TW",
+          "holding_bilingual_name": "00645.TW",
+          "previous_weight": 0.1031393,
+          "current_weight": 0.1073036,
+          "delta_weight": 0.0041643,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260729-ceff61e03a39",
+          "current_snapshot_id": "20261029-df70fb943a80",
+          "previous_observed_at": "2026-07-31T22:45:29.512997Z",
+          "current_observed_at": "2026-10-29T10:43:50.709427Z",
           "coverage": "top_holdings_only"
         }
       ]

@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -14.1412,
+      "value": -13.2928,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 3.6471,
+      "value": 3.6662,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.7768,
+      "value": 16.7762,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.3049,
+      "value": 0.307,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9246,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,29 +75,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.128,
+      "value": 0.1291,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 3.6471,
+      "value": 3.6662,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 24.6007,
+      "value": 24.53,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-28",
-    "value": 29.84,
+    "date": "2026-10-29",
+    "value": 29.69,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-09-14",
-      "value": 100.0
-    },
     {
       "date": "2023-09-15",
       "value": 100.0
@@ -3117,21 +3113,25 @@
     {
       "date": "2026-10-28",
       "value": 126.87
+    },
+    {
+      "date": "2026-10-29",
+      "value": 126.23
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-10-28",
-    "observations": 798,
+    "last_date": "2026-10-29",
+    "observations": 799,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-28",
-    "latest_volume": 115298.0,
-    "average_volume_20d": 174656.8,
-    "average_dollar_volume_20d": 5333714.136,
-    "relative_volume_20d": 0.6601,
+    "as_of": "2026-10-29",
+    "latest_volume": 244502.0,
+    "average_volume_20d": 179472.55,
+    "average_dollar_volume_20d": 5461800.96,
+    "relative_volume_20d": 1.3623,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "TW-006207",
       "holding_symbol": "300308.SZ",
       "holding_name": "Zhongji Innolight Co Ltd Class A",
-      "weight": 0.0481068,
+      "weight": 0.0347936,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3153,40 +3153,12 @@
     },
     {
       "etf_id": "TW-006207",
-      "holding_symbol": "300750.SZ",
-      "holding_name": "Contemporary Amperex Technology Co Ltd Class A",
-      "weight": 0.0355321,
+      "holding_symbol": "600519.SS",
+      "holding_name": "Kweichow Moutai Co Ltd Class A",
+      "weight": 0.0311079,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Contemporary Amperex Technology Co Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Contemporary Amperex Technology Co Ltd Class A",
-      "display_label": "(300750.SZ)Contemporary Amperex Technology Co Ltd Class A",
-      "bilingual_name": "Contemporary Amperex Technology Co Ltd Class A"
-    },
-    {
-      "etf_id": "TW-006207",
-      "holding_symbol": "300502.SZ",
-      "holding_name": "Eoptolink Technology Inc Ltd Class A",
-      "weight": 0.0291015,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Eoptolink Technology Inc Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Eoptolink Technology Inc Ltd Class A",
-      "display_label": "(300502.SZ)Eoptolink Technology Inc Ltd Class A",
-      "bilingual_name": "Eoptolink Technology Inc Ltd Class A"
-    },
-    {
-      "etf_id": "TW-006207",
-      "holding_symbol": "600519.SS",
-      "holding_name": "Kweichow Moutai Co Ltd Class A",
-      "weight": 0.0257884,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Kweichow Moutai Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Kweichow Moutai Co Ltd Class A",
@@ -3195,26 +3167,26 @@
     },
     {
       "etf_id": "TW-006207",
-      "holding_symbol": "603986.SS",
-      "holding_name": "GigaDevice Semiconductor Inc Class A",
-      "weight": 0.0192646,
+      "holding_symbol": "300750.SZ",
+      "holding_name": "Contemporary Amperex Technology Co Ltd Class A",
+      "weight": 0.0299036,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "GigaDevice Semiconductor Inc Class A",
+      "rank": 3,
+      "holding_name_en": "Contemporary Amperex Technology Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "GigaDevice Semiconductor Inc Class A",
-      "display_label": "(603986.SS)GigaDevice Semiconductor Inc Class A",
-      "bilingual_name": "GigaDevice Semiconductor Inc Class A"
+      "display_name": "Contemporary Amperex Technology Co Ltd Class A",
+      "display_label": "(300750.SZ)Contemporary Amperex Technology Co Ltd Class A",
+      "bilingual_name": "Contemporary Amperex Technology Co Ltd Class A"
     },
     {
       "etf_id": "TW-006207",
       "holding_symbol": "601318.SS",
       "holding_name": "Ping An Insurance (Group) Co. of China Ltd Class A",
-      "weight": 0.0173119,
+      "weight": 0.0219563,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
       "holding_name_en": "Ping An Insurance (Group) Co. of China Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Ping An Insurance (Group) Co. of China Ltd Class A",
@@ -3223,26 +3195,26 @@
     },
     {
       "etf_id": "TW-006207",
-      "holding_symbol": "688256.SS",
-      "holding_name": "Cambricon Technologies Corp Ltd Class A",
-      "weight": 0.01656,
+      "holding_symbol": "300502.SZ",
+      "holding_name": "Eoptolink Technology Inc Ltd Class A",
+      "weight": 0.0211897,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Cambricon Technologies Corp Ltd Class A",
+      "rank": 5,
+      "holding_name_en": "Eoptolink Technology Inc Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "Cambricon Technologies Corp Ltd Class A",
-      "display_label": "(688256.SS)Cambricon Technologies Corp Ltd Class A",
-      "bilingual_name": "Cambricon Technologies Corp Ltd Class A"
+      "display_name": "Eoptolink Technology Inc Ltd Class A",
+      "display_label": "(300502.SZ)Eoptolink Technology Inc Ltd Class A",
+      "bilingual_name": "Eoptolink Technology Inc Ltd Class A"
     },
     {
       "etf_id": "TW-006207",
       "holding_symbol": "600036.SS",
       "holding_name": "China Merchants Bank Co Ltd Class A",
-      "weight": 0.014961,
+      "weight": 0.0197566,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 6,
       "holding_name_en": "China Merchants Bank Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "China Merchants Bank Co Ltd Class A",
@@ -3253,10 +3225,10 @@
       "etf_id": "TW-006207",
       "holding_symbol": "601899.SS",
       "holding_name": "Zijin Mining Group Co Ltd Class A",
-      "weight": 0.0143154,
+      "weight": 0.0192733,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 7,
       "holding_name_en": "Zijin Mining Group Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Zijin Mining Group Co Ltd Class A",
@@ -3265,23 +3237,51 @@
     },
     {
       "etf_id": "TW-006207",
-      "holding_symbol": "002371.SZ",
-      "holding_name": "NAURA Technology Group Co Ltd Class A",
-      "weight": 0.0134171,
+      "holding_symbol": "603259.SS",
+      "holding_name": "Wuxi AppTec Co Ltd Class A",
+      "weight": 0.016557,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Wuxi AppTec Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Wuxi AppTec Co Ltd Class A",
+      "display_label": "(603259.SS)Wuxi AppTec Co Ltd Class A",
+      "bilingual_name": "Wuxi AppTec Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-006207",
+      "holding_symbol": "000333.SZ",
+      "holding_name": "Midea Group Co Ltd Class A",
+      "weight": 0.0154049,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Midea Group Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Midea Group Co Ltd Class A",
+      "display_label": "(000333.SZ)Midea Group Co Ltd Class A",
+      "bilingual_name": "Midea Group Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-006207",
+      "holding_symbol": "600900.SS",
+      "holding_name": "China Yangtze Power Co Ltd Class A",
+      "weight": 0.013805,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "NAURA Technology Group Co Ltd Class A",
+      "holding_name_en": "China Yangtze Power Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "NAURA Technology Group Co Ltd Class A",
-      "display_label": "(002371.SZ)NAURA Technology Group Co Ltd Class A",
-      "bilingual_name": "NAURA Technology Group Co Ltd Class A"
+      "display_name": "China Yangtze Power Co Ltd Class A",
+      "display_label": "(600900.SS)China Yangtze Power Co Ltd Class A",
+      "bilingual_name": "China Yangtze Power Co Ltd Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.234359,
-    "top_3_weight": 0.11274
+    "top_10_weight": 0.223748,
+    "top_3_weight": 0.095805
   },
   "research": {
     "tier": "context",

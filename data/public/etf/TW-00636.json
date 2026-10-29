@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -13.8227,
+      "value": -12.3855,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 1.1591,
+      "value": 1.8051,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.2285,
+      "value": 16.2264,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2595,
+      "value": 0.2597,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9246,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,29 +75,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.021,
+      "value": 0.0188,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 1.1591,
+      "value": 1.8051,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 25.7345,
+      "value": 25.7241,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-10-28",
-    "value": 25.31,
+    "date": "2026-10-29",
+    "value": 25.38,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-09-14",
-      "value": 100.0
-    },
     {
       "date": "2023-09-15",
       "value": 100.0
@@ -3117,21 +3113,25 @@
     {
       "date": "2026-10-28",
       "value": 121.51
+    },
+    {
+      "date": "2026-10-29",
+      "value": 121.84
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-10-28",
-    "observations": 798,
+    "last_date": "2026-10-29",
+    "observations": 799,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-10-28",
-    "latest_volume": 400719.0,
-    "average_volume_20d": 576486.65,
-    "average_dollar_volume_20d": 14986643.186,
-    "relative_volume_20d": 0.6951,
+    "as_of": "2026-10-29",
+    "latest_volume": 135815.0,
+    "average_volume_20d": 562925.05,
+    "average_dollar_volume_20d": 14607443.736,
+    "relative_volume_20d": 0.2413,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3139,26 +3139,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-00636",
-      "holding_symbol": "300750.SZ",
-      "holding_name": "Contemporary Amperex Technology Co Ltd Class A",
-      "weight": 0.0778477,
+      "holding_symbol": "600519.SS",
+      "holding_name": "Kweichow Moutai Co Ltd Class A",
+      "weight": 0.0787726,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Contemporary Amperex Technology Co Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Contemporary Amperex Technology Co Ltd Class A",
-      "display_label": "(300750.SZ)Contemporary Amperex Technology Co Ltd Class A",
-      "bilingual_name": "Contemporary Amperex Technology Co Ltd Class A"
-    },
-    {
-      "etf_id": "TW-00636",
-      "holding_symbol": "600519.SS",
-      "holding_name": "Kweichow Moutai Co Ltd Class A",
-      "weight": 0.0667555,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Kweichow Moutai Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Kweichow Moutai Co Ltd Class A",
@@ -3167,9 +3153,23 @@
     },
     {
       "etf_id": "TW-00636",
+      "holding_symbol": "300750.SZ",
+      "holding_name": "Contemporary Amperex Technology Co Ltd Class A",
+      "weight": 0.0641481,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Contemporary Amperex Technology Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Contemporary Amperex Technology Co Ltd Class A",
+      "display_label": "(300750.SZ)Contemporary Amperex Technology Co Ltd Class A",
+      "bilingual_name": "Contemporary Amperex Technology Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-00636",
       "holding_symbol": "300308.SZ",
       "holding_name": "Zhongji Innolight Co Ltd Class A",
-      "weight": 0.063579,
+      "weight": 0.0450318,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3181,68 +3181,12 @@
     },
     {
       "etf_id": "TW-00636",
-      "holding_symbol": "688256.SS",
-      "holding_name": "Cambricon Technologies Corp Ltd Class A",
-      "weight": 0.0449345,
+      "holding_symbol": "600036.SS",
+      "holding_name": "China Merchants Bank Co Ltd Class A",
+      "weight": 0.0425333,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Cambricon Technologies Corp Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Cambricon Technologies Corp Ltd Class A",
-      "display_label": "(688256.SS)Cambricon Technologies Corp Ltd Class A",
-      "bilingual_name": "Cambricon Technologies Corp Ltd Class A"
-    },
-    {
-      "etf_id": "TW-00636",
-      "holding_symbol": "688041.SS",
-      "holding_name": "Hygon Information Technology Co Ltd Class A",
-      "weight": 0.0386701,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Hygon Information Technology Co Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Hygon Information Technology Co Ltd Class A",
-      "display_label": "(688041.SS)Hygon Information Technology Co Ltd Class A",
-      "bilingual_name": "Hygon Information Technology Co Ltd Class A"
-    },
-    {
-      "etf_id": "TW-00636",
-      "holding_symbol": "300502.SZ",
-      "holding_name": "Eoptolink Technology Inc Ltd Class A",
-      "weight": 0.0379363,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Eoptolink Technology Inc Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Eoptolink Technology Inc Ltd Class A",
-      "display_label": "(300502.SZ)Eoptolink Technology Inc Ltd Class A",
-      "bilingual_name": "Eoptolink Technology Inc Ltd Class A"
-    },
-    {
-      "etf_id": "TW-00636",
-      "holding_symbol": "601138.SS",
-      "holding_name": "Foxconn Industrial Internet Co Ltd Class A",
-      "weight": 0.0372299,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Foxconn Industrial Internet Co Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Foxconn Industrial Internet Co Ltd Class A",
-      "display_label": "(601138.SS)Foxconn Industrial Internet Co Ltd Class A",
-      "bilingual_name": "Foxconn Industrial Internet Co Ltd Class A"
-    },
-    {
-      "etf_id": "TW-00636",
-      "holding_symbol": "600036.SS",
-      "holding_name": "China Merchants Bank Co Ltd Class A",
-      "weight": 0.0329155,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "China Merchants Bank Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "China Merchants Bank Co Ltd Class A",
@@ -3253,10 +3197,10 @@
       "etf_id": "TW-00636",
       "holding_symbol": "600900.SS",
       "holding_name": "China Yangtze Power Co Ltd Class A",
-      "weight": 0.0291123,
+      "weight": 0.0348986,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 5,
       "holding_name_en": "China Yangtze Power Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "China Yangtze Power Co Ltd Class A",
@@ -3265,23 +3209,79 @@
     },
     {
       "etf_id": "TW-00636",
-      "holding_symbol": "002371.SZ",
-      "holding_name": "NAURA Technology Group Co Ltd Class A",
-      "weight": 0.0288728,
+      "holding_symbol": "601138.SS",
+      "holding_name": "Foxconn Industrial Internet Co Ltd Class A",
+      "weight": 0.0333916,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Foxconn Industrial Internet Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Foxconn Industrial Internet Co Ltd Class A",
+      "display_label": "(601138.SS)Foxconn Industrial Internet Co Ltd Class A",
+      "bilingual_name": "Foxconn Industrial Internet Co Ltd Class A"
+    },
+    {
+      "etf_id": "TW-00636",
+      "holding_symbol": "688256.SS",
+      "holding_name": "Cambricon Technologies Corp Ltd Class A",
+      "weight": 0.0317653,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Cambricon Technologies Corp Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Cambricon Technologies Corp Ltd Class A",
+      "display_label": "(688256.SS)Cambricon Technologies Corp Ltd Class A",
+      "bilingual_name": "Cambricon Technologies Corp Ltd Class A"
+    },
+    {
+      "etf_id": "TW-00636",
+      "holding_symbol": "601398.SS",
+      "holding_name": "Industrial And Commercial Bank Of China Ltd Class A",
+      "weight": 0.0314435,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Industrial And Commercial Bank Of China Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Industrial And Commercial Bank Of China Ltd Class A",
+      "display_label": "(601398.SS)Industrial And Commercial Bank Of China Ltd Class A",
+      "bilingual_name": "Industrial And Commercial Bank Of China Ltd Class A"
+    },
+    {
+      "etf_id": "TW-00636",
+      "holding_symbol": "601288.SS",
+      "holding_name": "Agricultural Bank of China Ltd Class A",
+      "weight": 0.0309037,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Agricultural Bank of China Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Agricultural Bank of China Ltd Class A",
+      "display_label": "(601288.SS)Agricultural Bank of China Ltd Class A",
+      "bilingual_name": "Agricultural Bank of China Ltd Class A"
+    },
+    {
+      "etf_id": "TW-00636",
+      "holding_symbol": "601899.SS",
+      "holding_name": "Zijin Mining Group Co Ltd Class A",
+      "weight": 0.0306724,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "NAURA Technology Group Co Ltd Class A",
+      "holding_name_en": "Zijin Mining Group Co Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "NAURA Technology Group Co Ltd Class A",
-      "display_label": "(002371.SZ)NAURA Technology Group Co Ltd Class A",
-      "bilingual_name": "NAURA Technology Group Co Ltd Class A"
+      "display_name": "Zijin Mining Group Co Ltd Class A",
+      "display_label": "(601899.SS)Zijin Mining Group Co Ltd Class A",
+      "bilingual_name": "Zijin Mining Group Co Ltd Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.457854,
-    "top_3_weight": 0.208182
+    "top_10_weight": 0.423561,
+    "top_3_weight": 0.187952
   },
   "research": {
     "tier": "context",
