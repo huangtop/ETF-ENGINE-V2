@@ -1,0 +1,767 @@
+{
+  "etf_id": "US-CQTM",
+  "ticker": "CQTM",
+  "quote_symbol": "CQTM",
+  "name": "Corgi Quantum Computing ETF",
+  "short_name": "CQTM",
+  "listing_market": "US",
+  "listing_exchange": "Cboe BZX",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Corgi Quantum Computing ETF",
+  "short_name_en": "CQTM",
+  "name_zh": "Corgi Quantum Computing ETF",
+  "short_name_zh": null,
+  "display_name": "Corgi Quantum Computing ETF",
+  "display_short_name": "Corgi Quantum Computing ETF",
+  "display_label": "(CQTM)Corgi Quantum Computing ETF",
+  "bilingual_name": "Corgi Quantum Computing ETF（Corgi Quantum Computing ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "theme",
+      "code": "quantum_computing"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -98.0081,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 68.2186,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 3.4607,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.496,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -50.6554,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -38.6454,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 61.4524,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 16.94,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-05-06",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-07",
+      "value": 94.2
+    },
+    {
+      "date": "2026-05-08",
+      "value": 95.11
+    },
+    {
+      "date": "2026-05-11",
+      "value": 101.92
+    },
+    {
+      "date": "2026-05-12",
+      "value": 99.02
+    },
+    {
+      "date": "2026-05-13",
+      "value": 97.54
+    },
+    {
+      "date": "2026-05-14",
+      "value": 100.25
+    },
+    {
+      "date": "2026-05-15",
+      "value": 93.23
+    },
+    {
+      "date": "2026-05-18",
+      "value": 88.99
+    },
+    {
+      "date": "2026-05-19",
+      "value": 86.74
+    },
+    {
+      "date": "2026-05-20",
+      "value": 90.95
+    },
+    {
+      "date": "2026-05-21",
+      "value": 106.27
+    },
+    {
+      "date": "2026-05-22",
+      "value": 116.3
+    },
+    {
+      "date": "2026-05-26",
+      "value": 114.52
+    },
+    {
+      "date": "2026-05-27",
+      "value": 114.02
+    },
+    {
+      "date": "2026-05-28",
+      "value": 122.17
+    },
+    {
+      "date": "2026-05-29",
+      "value": 122.89
+    },
+    {
+      "date": "2026-06-01",
+      "value": 121.08
+    },
+    {
+      "date": "2026-06-02",
+      "value": 124.34
+    },
+    {
+      "date": "2026-06-03",
+      "value": 116.19
+    },
+    {
+      "date": "2026-06-04",
+      "value": 115.1
+    },
+    {
+      "date": "2026-06-05",
+      "value": 102.1
+    },
+    {
+      "date": "2026-06-08",
+      "value": 107.86
+    },
+    {
+      "date": "2026-06-09",
+      "value": 100.4
+    },
+    {
+      "date": "2026-06-10",
+      "value": 99.13
+    },
+    {
+      "date": "2026-06-11",
+      "value": 102.86
+    },
+    {
+      "date": "2026-06-12",
+      "value": 101.99
+    },
+    {
+      "date": "2026-06-15",
+      "value": 114.74
+    },
+    {
+      "date": "2026-06-16",
+      "value": 109.31
+    },
+    {
+      "date": "2026-06-17",
+      "value": 110.79
+    },
+    {
+      "date": "2026-06-18",
+      "value": 118.07
+    },
+    {
+      "date": "2026-06-22",
+      "value": 119.59
+    },
+    {
+      "date": "2026-06-23",
+      "value": 121.91
+    },
+    {
+      "date": "2026-06-24",
+      "value": 113.26
+    },
+    {
+      "date": "2026-06-25",
+      "value": 109.31
+    },
+    {
+      "date": "2026-06-26",
+      "value": 107.32
+    },
+    {
+      "date": "2026-06-29",
+      "value": 112.17
+    },
+    {
+      "date": "2026-06-30",
+      "value": 114.85
+    },
+    {
+      "date": "2026-07-01",
+      "value": 111.77
+    },
+    {
+      "date": "2026-07-02",
+      "value": 106.52
+    },
+    {
+      "date": "2026-07-06",
+      "value": 107.71
+    },
+    {
+      "date": "2026-07-07",
+      "value": 101.52
+    },
+    {
+      "date": "2026-07-08",
+      "value": 100.25
+    },
+    {
+      "date": "2026-07-09",
+      "value": 101.01
+    },
+    {
+      "date": "2026-07-10",
+      "value": 97.57
+    },
+    {
+      "date": "2026-07-13",
+      "value": 91.2
+    },
+    {
+      "date": "2026-07-14",
+      "value": 90.98
+    },
+    {
+      "date": "2026-07-15",
+      "value": 89.17
+    },
+    {
+      "date": "2026-07-16",
+      "value": 84.14
+    },
+    {
+      "date": "2026-07-17",
+      "value": 84.24
+    },
+    {
+      "date": "2026-07-20",
+      "value": 83.48
+    },
+    {
+      "date": "2026-07-21",
+      "value": 86.06
+    },
+    {
+      "date": "2026-07-22",
+      "value": 84.28
+    },
+    {
+      "date": "2026-07-23",
+      "value": 83.09
+    },
+    {
+      "date": "2026-07-24",
+      "value": 79.46
+    },
+    {
+      "date": "2026-07-27",
+      "value": 84.64
+    },
+    {
+      "date": "2026-07-28",
+      "value": 80.8
+    },
+    {
+      "date": "2026-07-29",
+      "value": 76.57
+    },
+    {
+      "date": "2026-07-30",
+      "value": 83.7
+    },
+    {
+      "date": "2026-07-31",
+      "value": 83.7
+    },
+    {
+      "date": "2026-08-03",
+      "value": 88.99
+    },
+    {
+      "date": "2026-08-04",
+      "value": 94.1
+    },
+    {
+      "date": "2026-08-05",
+      "value": 91.45
+    },
+    {
+      "date": "2026-08-06",
+      "value": 90.08
+    },
+    {
+      "date": "2026-08-07",
+      "value": 94.49
+    },
+    {
+      "date": "2026-08-10",
+      "value": 91.96
+    },
+    {
+      "date": "2026-08-11",
+      "value": 93.41
+    },
+    {
+      "date": "2026-08-12",
+      "value": 97.68
+    },
+    {
+      "date": "2026-08-13",
+      "value": 97.83
+    },
+    {
+      "date": "2026-08-14",
+      "value": 98.73
+    },
+    {
+      "date": "2026-08-17",
+      "value": 98.52
+    },
+    {
+      "date": "2026-08-18",
+      "value": 93.59
+    },
+    {
+      "date": "2026-08-19",
+      "value": 91.6
+    },
+    {
+      "date": "2026-08-20",
+      "value": 89.46
+    },
+    {
+      "date": "2026-08-21",
+      "value": 94.97
+    },
+    {
+      "date": "2026-08-24",
+      "value": 89.13
+    },
+    {
+      "date": "2026-08-25",
+      "value": 91.34
+    },
+    {
+      "date": "2026-08-26",
+      "value": 88.23
+    },
+    {
+      "date": "2026-08-27",
+      "value": 90.87
+    },
+    {
+      "date": "2026-08-28",
+      "value": 85.8
+    },
+    {
+      "date": "2026-08-31",
+      "value": 85.58
+    },
+    {
+      "date": "2026-09-01",
+      "value": 82.69
+    },
+    {
+      "date": "2026-09-02",
+      "value": 82.76
+    },
+    {
+      "date": "2026-09-03",
+      "value": 83.48
+    },
+    {
+      "date": "2026-09-04",
+      "value": 83.81
+    },
+    {
+      "date": "2026-09-08",
+      "value": 86.38
+    },
+    {
+      "date": "2026-09-09",
+      "value": 83.88
+    },
+    {
+      "date": "2026-09-10",
+      "value": 82.0
+    },
+    {
+      "date": "2026-09-11",
+      "value": 82.65
+    },
+    {
+      "date": "2026-09-14",
+      "value": 80.59
+    },
+    {
+      "date": "2026-09-15",
+      "value": 80.33
+    },
+    {
+      "date": "2026-09-16",
+      "value": 80.3
+    },
+    {
+      "date": "2026-09-17",
+      "value": 84.28
+    },
+    {
+      "date": "2026-09-18",
+      "value": 82.9
+    },
+    {
+      "date": "2026-09-21",
+      "value": 86.45
+    },
+    {
+      "date": "2026-09-22",
+      "value": 86.24
+    },
+    {
+      "date": "2026-09-23",
+      "value": 85.98
+    },
+    {
+      "date": "2026-09-24",
+      "value": 87.47
+    },
+    {
+      "date": "2026-09-25",
+      "value": 87.87
+    },
+    {
+      "date": "2026-09-28",
+      "value": 86.49
+    },
+    {
+      "date": "2026-09-29",
+      "value": 85.01
+    },
+    {
+      "date": "2026-09-30",
+      "value": 85.19
+    },
+    {
+      "date": "2026-10-01",
+      "value": 85.37
+    },
+    {
+      "date": "2026-10-02",
+      "value": 84.64
+    },
+    {
+      "date": "2026-10-05",
+      "value": 83.99
+    },
+    {
+      "date": "2026-10-06",
+      "value": 84.9
+    },
+    {
+      "date": "2026-10-07",
+      "value": 81.82
+    },
+    {
+      "date": "2026-10-08",
+      "value": 78.7
+    },
+    {
+      "date": "2026-10-09",
+      "value": 78.41
+    },
+    {
+      "date": "2026-10-12",
+      "value": 74.39
+    },
+    {
+      "date": "2026-10-13",
+      "value": 72.8
+    },
+    {
+      "date": "2026-10-14",
+      "value": 67.87
+    },
+    {
+      "date": "2026-10-15",
+      "value": 70.84
+    },
+    {
+      "date": "2026-10-16",
+      "value": 66.53
+    },
+    {
+      "date": "2026-10-19",
+      "value": 66.64
+    },
+    {
+      "date": "2026-10-20",
+      "value": 67.29
+    },
+    {
+      "date": "2026-10-21",
+      "value": 69.54
+    },
+    {
+      "date": "2026-10-22",
+      "value": 66.43
+    },
+    {
+      "date": "2026-10-23",
+      "value": 66.71
+    },
+    {
+      "date": "2026-10-26",
+      "value": 66.35
+    },
+    {
+      "date": "2026-10-27",
+      "value": 69.97
+    },
+    {
+      "date": "2026-10-28",
+      "value": 69.72
+    },
+    {
+      "date": "2026-10-29",
+      "value": 67.8
+    },
+    {
+      "date": "2026-10-30",
+      "value": 64.0
+    },
+    {
+      "date": "2026-11-02",
+      "value": 61.35
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-05-06",
+    "last_date": "2026-11-02",
+    "observations": 125,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 30916.0,
+    "average_volume_20d": 26705.8,
+    "average_dollar_volume_20d": 515843.8544,
+    "relative_volume_20d": 1.1577,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "IONQ",
+      "holding_name": "IonQ Inc",
+      "weight": 0.17764321,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "IonQ Inc",
+      "holding_name_zh": null,
+      "display_name": "IonQ Inc",
+      "display_label": "(IONQ)IonQ Inc",
+      "bilingual_name": "IonQ Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "QBTS",
+      "holding_name": "D-Wave Quantum Inc",
+      "weight": 0.0972849,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "D-Wave Quantum Inc",
+      "holding_name_zh": null,
+      "display_name": "D-Wave Quantum Inc",
+      "display_label": "(QBTS)D-Wave Quantum Inc",
+      "bilingual_name": "D-Wave Quantum Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "RGTI",
+      "holding_name": "Rigetti Computing Inc",
+      "weight": 0.0759032,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Rigetti Computing Inc",
+      "holding_name_zh": null,
+      "display_name": "Rigetti Computing Inc",
+      "display_label": "(RGTI)Rigetti Computing Inc",
+      "bilingual_name": "Rigetti Computing Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "QNT",
+      "holding_name": "Quantinuum Inc Class A",
+      "weight": 0.0738742,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Quantinuum Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Quantinuum Inc Class A",
+      "display_label": "(QNT)Quantinuum Inc Class A",
+      "bilingual_name": "Quantinuum Inc Class A"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "INFQ",
+      "holding_name": "Infleqtion Inc",
+      "weight": 0.0563909,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Infleqtion Inc",
+      "holding_name_zh": null,
+      "display_name": "Infleqtion Inc",
+      "display_label": "(INFQ)Infleqtion Inc",
+      "bilingual_name": "Infleqtion Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "FORM",
+      "holding_name": "FormFactor Inc",
+      "weight": 0.0505551,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "FormFactor Inc",
+      "holding_name_zh": null,
+      "display_name": "FormFactor Inc",
+      "display_label": "(FORM)FormFactor Inc",
+      "bilingual_name": "FormFactor Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0460763,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "ARQQ",
+      "holding_name": "Arqit Quantum Inc",
+      "weight": 0.0456873,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Arqit Quantum Inc",
+      "holding_name_zh": null,
+      "display_name": "Arqit Quantum Inc",
+      "display_label": "(ARQQ)Arqit Quantum Inc",
+      "bilingual_name": "Arqit Quantum Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "QUBT",
+      "holding_name": "Quantum Computing Inc",
+      "weight": 0.0451006,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Quantum Computing Inc",
+      "holding_name_zh": null,
+      "display_name": "Quantum Computing Inc",
+      "display_label": "(QUBT)Quantum Computing Inc",
+      "bilingual_name": "Quantum Computing Inc"
+    },
+    {
+      "etf_id": "US-CQTM",
+      "holding_symbol": "IBM",
+      "holding_name": "International Business Machines Corp",
+      "weight": 0.0436921,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "International Business Machines Corp",
+      "holding_name_zh": null,
+      "display_name": "International Business Machines Corp",
+      "display_label": "(IBM)International Business Machines Corp",
+      "bilingual_name": "International Business Machines Corp"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.712208,
+    "top_3_weight": 0.350831
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

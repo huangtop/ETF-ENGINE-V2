@@ -1,0 +1,647 @@
+{
+  "etf_id": "US-QTUP",
+  "ticker": "QTUP",
+  "quote_symbol": "QTUP",
+  "name": "Defiance Long Pure Quantum ETF",
+  "short_name": "QTUP",
+  "listing_market": "US",
+  "listing_exchange": "Cboe BZX",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Defiance Long Pure Quantum ETF",
+  "short_name_en": "QTUP",
+  "name_zh": "Defiance Long Pure Quantum ETF",
+  "short_name_zh": null,
+  "display_name": "Defiance Long Pure Quantum ETF",
+  "display_short_name": "Defiance Long Pure Quantum ETF",
+  "display_label": "(QTUP)Defiance Long Pure Quantum ETF",
+  "bilingual_name": "Defiance Long Pure Quantum ETF（Defiance Long Pure Quantum ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "theme",
+      "code": "quantum_computing"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -138.126,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 70.2655,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 3.3974,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.4048,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -55.614,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -43.1304,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 63.8327,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 10.555,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-06-09",
+      "value": 100.0
+    },
+    {
+      "date": "2026-06-10",
+      "value": 99.57
+    },
+    {
+      "date": "2026-06-11",
+      "value": 102.64
+    },
+    {
+      "date": "2026-06-12",
+      "value": 101.83
+    },
+    {
+      "date": "2026-06-15",
+      "value": 117.89
+    },
+    {
+      "date": "2026-06-16",
+      "value": 112.88
+    },
+    {
+      "date": "2026-06-17",
+      "value": 114.71
+    },
+    {
+      "date": "2026-06-18",
+      "value": 122.84
+    },
+    {
+      "date": "2026-06-22",
+      "value": 122.47
+    },
+    {
+      "date": "2026-06-23",
+      "value": 128.13
+    },
+    {
+      "date": "2026-06-24",
+      "value": 118.75
+    },
+    {
+      "date": "2026-06-25",
+      "value": 112.34
+    },
+    {
+      "date": "2026-06-26",
+      "value": 112.07
+    },
+    {
+      "date": "2026-06-29",
+      "value": 116.59
+    },
+    {
+      "date": "2026-06-30",
+      "value": 121.07
+    },
+    {
+      "date": "2026-07-01",
+      "value": 117.51
+    },
+    {
+      "date": "2026-07-02",
+      "value": 110.29
+    },
+    {
+      "date": "2026-07-06",
+      "value": 111.75
+    },
+    {
+      "date": "2026-07-07",
+      "value": 104.47
+    },
+    {
+      "date": "2026-07-08",
+      "value": 102.75
+    },
+    {
+      "date": "2026-07-09",
+      "value": 103.56
+    },
+    {
+      "date": "2026-07-10",
+      "value": 99.41
+    },
+    {
+      "date": "2026-07-13",
+      "value": 92.03
+    },
+    {
+      "date": "2026-07-14",
+      "value": 94.61
+    },
+    {
+      "date": "2026-07-15",
+      "value": 90.63
+    },
+    {
+      "date": "2026-07-16",
+      "value": 84.11
+    },
+    {
+      "date": "2026-07-17",
+      "value": 84.97
+    },
+    {
+      "date": "2026-07-20",
+      "value": 84.59
+    },
+    {
+      "date": "2026-07-21",
+      "value": 87.28
+    },
+    {
+      "date": "2026-07-22",
+      "value": 85.51
+    },
+    {
+      "date": "2026-07-23",
+      "value": 83.94
+    },
+    {
+      "date": "2026-07-24",
+      "value": 79.47
+    },
+    {
+      "date": "2026-07-27",
+      "value": 85.83
+    },
+    {
+      "date": "2026-07-28",
+      "value": 81.63
+    },
+    {
+      "date": "2026-07-29",
+      "value": 76.45
+    },
+    {
+      "date": "2026-07-30",
+      "value": 84.54
+    },
+    {
+      "date": "2026-07-31",
+      "value": 84.05
+    },
+    {
+      "date": "2026-08-03",
+      "value": 90.89
+    },
+    {
+      "date": "2026-08-04",
+      "value": 96.93
+    },
+    {
+      "date": "2026-08-05",
+      "value": 94.61
+    },
+    {
+      "date": "2026-08-06",
+      "value": 92.89
+    },
+    {
+      "date": "2026-08-07",
+      "value": 97.41
+    },
+    {
+      "date": "2026-08-10",
+      "value": 94.34
+    },
+    {
+      "date": "2026-08-11",
+      "value": 95.85
+    },
+    {
+      "date": "2026-08-12",
+      "value": 101.99
+    },
+    {
+      "date": "2026-08-13",
+      "value": 101.51
+    },
+    {
+      "date": "2026-08-14",
+      "value": 102.26
+    },
+    {
+      "date": "2026-08-17",
+      "value": 102.75
+    },
+    {
+      "date": "2026-08-18",
+      "value": 96.28
+    },
+    {
+      "date": "2026-08-19",
+      "value": 94.02
+    },
+    {
+      "date": "2026-08-20",
+      "value": 91.54
+    },
+    {
+      "date": "2026-08-21",
+      "value": 99.19
+    },
+    {
+      "date": "2026-08-24",
+      "value": 91.49
+    },
+    {
+      "date": "2026-08-25",
+      "value": 94.02
+    },
+    {
+      "date": "2026-08-26",
+      "value": 90.52
+    },
+    {
+      "date": "2026-08-27",
+      "value": 93.43
+    },
+    {
+      "date": "2026-08-28",
+      "value": 87.55
+    },
+    {
+      "date": "2026-08-31",
+      "value": 87.34
+    },
+    {
+      "date": "2026-09-01",
+      "value": 84.16
+    },
+    {
+      "date": "2026-09-02",
+      "value": 86.15
+    },
+    {
+      "date": "2026-09-03",
+      "value": 86.15
+    },
+    {
+      "date": "2026-09-04",
+      "value": 86.64
+    },
+    {
+      "date": "2026-09-08",
+      "value": 88.79
+    },
+    {
+      "date": "2026-09-09",
+      "value": 86.15
+    },
+    {
+      "date": "2026-09-10",
+      "value": 83.89
+    },
+    {
+      "date": "2026-09-11",
+      "value": 84.0
+    },
+    {
+      "date": "2026-09-14",
+      "value": 81.14
+    },
+    {
+      "date": "2026-09-15",
+      "value": 81.14
+    },
+    {
+      "date": "2026-09-16",
+      "value": 81.95
+    },
+    {
+      "date": "2026-09-17",
+      "value": 86.26
+    },
+    {
+      "date": "2026-09-18",
+      "value": 84.86
+    },
+    {
+      "date": "2026-09-21",
+      "value": 88.85
+    },
+    {
+      "date": "2026-09-22",
+      "value": 87.72
+    },
+    {
+      "date": "2026-09-23",
+      "value": 86.85
+    },
+    {
+      "date": "2026-09-24",
+      "value": 89.12
+    },
+    {
+      "date": "2026-09-25",
+      "value": 89.6
+    },
+    {
+      "date": "2026-09-28",
+      "value": 87.55
+    },
+    {
+      "date": "2026-09-29",
+      "value": 86.53
+    },
+    {
+      "date": "2026-09-30",
+      "value": 86.26
+    },
+    {
+      "date": "2026-10-01",
+      "value": 85.61
+    },
+    {
+      "date": "2026-10-02",
+      "value": 85.13
+    },
+    {
+      "date": "2026-10-05",
+      "value": 84.05
+    },
+    {
+      "date": "2026-10-06",
+      "value": 85.08
+    },
+    {
+      "date": "2026-10-07",
+      "value": 81.36
+    },
+    {
+      "date": "2026-10-08",
+      "value": 76.62
+    },
+    {
+      "date": "2026-10-09",
+      "value": 76.02
+    },
+    {
+      "date": "2026-10-12",
+      "value": 71.55
+    },
+    {
+      "date": "2026-10-13",
+      "value": 68.91
+    },
+    {
+      "date": "2026-10-14",
+      "value": 63.47
+    },
+    {
+      "date": "2026-10-15",
+      "value": 66.54
+    },
+    {
+      "date": "2026-10-16",
+      "value": 62.34
+    },
+    {
+      "date": "2026-10-19",
+      "value": 62.28
+    },
+    {
+      "date": "2026-10-20",
+      "value": 62.72
+    },
+    {
+      "date": "2026-10-21",
+      "value": 65.63
+    },
+    {
+      "date": "2026-10-22",
+      "value": 62.45
+    },
+    {
+      "date": "2026-10-23",
+      "value": 62.5
+    },
+    {
+      "date": "2026-10-26",
+      "value": 61.91
+    },
+    {
+      "date": "2026-10-27",
+      "value": 66.49
+    },
+    {
+      "date": "2026-10-28",
+      "value": 65.79
+    },
+    {
+      "date": "2026-10-29",
+      "value": 64.49
+    },
+    {
+      "date": "2026-10-30",
+      "value": 60.51
+    },
+    {
+      "date": "2026-11-02",
+      "value": 56.87
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-06-09",
+    "last_date": "2026-11-02",
+    "observations": 102,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 29723.0,
+    "average_volume_20d": 51576.15,
+    "average_dollar_volume_20d": 655809.0661,
+    "relative_volume_20d": 0.5763,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "IONQ",
+      "holding_name": "IonQ Inc",
+      "weight": 0.20993,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "IonQ Inc",
+      "holding_name_zh": null,
+      "display_name": "IonQ Inc",
+      "display_label": "(IONQ)IonQ Inc",
+      "bilingual_name": "IonQ Inc"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.2028898,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "INFQ",
+      "holding_name": "Infleqtion Inc",
+      "weight": 0.0895163,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Infleqtion Inc",
+      "holding_name_zh": null,
+      "display_name": "Infleqtion Inc",
+      "display_label": "(INFQ)Infleqtion Inc",
+      "bilingual_name": "Infleqtion Inc"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "ARQQ",
+      "holding_name": "Arqit Quantum Inc",
+      "weight": 0.0847204,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Arqit Quantum Inc",
+      "holding_name_zh": null,
+      "display_name": "Arqit Quantum Inc",
+      "display_label": "(ARQQ)Arqit Quantum Inc",
+      "bilingual_name": "Arqit Quantum Inc"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "QBTS",
+      "holding_name": "D-Wave Quantum Inc",
+      "weight": 0.0473137,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "D-Wave Quantum Inc",
+      "holding_name_zh": null,
+      "display_name": "D-Wave Quantum Inc",
+      "display_label": "(QBTS)D-Wave Quantum Inc",
+      "bilingual_name": "D-Wave Quantum Inc"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "RGTI",
+      "holding_name": "Rigetti Computing Inc",
+      "weight": 0.0471824,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Rigetti Computing Inc",
+      "holding_name_zh": null,
+      "display_name": "Rigetti Computing Inc",
+      "display_label": "(RGTI)Rigetti Computing Inc",
+      "bilingual_name": "Rigetti Computing Inc"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "IQMX",
+      "holding_name": "IQM Quantum Computers Oyj ADR",
+      "weight": 0.0464242,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "IQM Quantum Computers Oyj ADR",
+      "holding_name_zh": null,
+      "display_name": "IQM Quantum Computers Oyj ADR",
+      "display_label": "(IQMX)IQM Quantum Computers Oyj ADR",
+      "bilingual_name": "IQM Quantum Computers Oyj ADR"
+    },
+    {
+      "etf_id": "US-QTUP",
+      "holding_symbol": "QNT",
+      "holding_name": "Quantinuum Inc Class A",
+      "weight": 0.0454532,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Quantinuum Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Quantinuum Inc Class A",
+      "display_label": "(QNT)Quantinuum Inc Class A",
+      "bilingual_name": "Quantinuum Inc Class A"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 8,
+    "top_10_weight": 0.77343,
+    "top_3_weight": 0.502336
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

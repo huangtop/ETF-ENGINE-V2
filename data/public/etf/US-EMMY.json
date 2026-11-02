@@ -1,0 +1,633 @@
+{
+  "etf_id": "US-EMMY",
+  "ticker": "EMMY",
+  "quote_symbol": "EMMY",
+  "name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series",
+  "short_name": "EMMY",
+  "listing_market": "US",
+  "listing_exchange": "Cboe BZX",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series",
+  "short_name_en": "EMMY",
+  "name_zh": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series",
+  "short_name_zh": null,
+  "display_name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series",
+  "display_short_name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series",
+  "display_label": "(EMMY)Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series",
+  "bilingual_name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series（Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "emerging_markets"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -27.5,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 17.3062,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 1.0503,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.4921,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -9.8936,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -9.8936,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 11.6477,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-10-30",
+    "value": 22.86,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-05-06",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-07",
+      "value": 97.95
+    },
+    {
+      "date": "2026-05-08",
+      "value": 98.46
+    },
+    {
+      "date": "2026-05-11",
+      "value": 99.01
+    },
+    {
+      "date": "2026-05-12",
+      "value": 96.85
+    },
+    {
+      "date": "2026-05-13",
+      "value": 97.87
+    },
+    {
+      "date": "2026-05-14",
+      "value": 98.15
+    },
+    {
+      "date": "2026-05-15",
+      "value": 96.33
+    },
+    {
+      "date": "2026-05-18",
+      "value": 95.98
+    },
+    {
+      "date": "2026-05-19",
+      "value": 95.47
+    },
+    {
+      "date": "2026-05-20",
+      "value": 96.02
+    },
+    {
+      "date": "2026-05-21",
+      "value": 96.73
+    },
+    {
+      "date": "2026-05-22",
+      "value": 96.49
+    },
+    {
+      "date": "2026-05-26",
+      "value": 98.46
+    },
+    {
+      "date": "2026-05-27",
+      "value": 98.07
+    },
+    {
+      "date": "2026-05-28",
+      "value": 98.54
+    },
+    {
+      "date": "2026-05-29",
+      "value": 98.54
+    },
+    {
+      "date": "2026-06-01",
+      "value": 99.57
+    },
+    {
+      "date": "2026-06-02",
+      "value": 99.49
+    },
+    {
+      "date": "2026-06-03",
+      "value": 98.94
+    },
+    {
+      "date": "2026-06-04",
+      "value": 98.46
+    },
+    {
+      "date": "2026-06-05",
+      "value": 94.72
+    },
+    {
+      "date": "2026-06-08",
+      "value": 95.55
+    },
+    {
+      "date": "2026-06-09",
+      "value": 95.55
+    },
+    {
+      "date": "2026-06-10",
+      "value": 94.95
+    },
+    {
+      "date": "2026-06-11",
+      "value": 97.64
+    },
+    {
+      "date": "2026-06-12",
+      "value": 97.99
+    },
+    {
+      "date": "2026-06-15",
+      "value": 99.37
+    },
+    {
+      "date": "2026-06-16",
+      "value": 98.31
+    },
+    {
+      "date": "2026-06-17",
+      "value": 98.11
+    },
+    {
+      "date": "2026-06-18",
+      "value": 99.65
+    },
+    {
+      "date": "2026-06-22",
+      "value": 99.49
+    },
+    {
+      "date": "2026-06-23",
+      "value": 97.0
+    },
+    {
+      "date": "2026-06-24",
+      "value": 96.93
+    },
+    {
+      "date": "2026-06-25",
+      "value": 97.48
+    },
+    {
+      "date": "2026-06-26",
+      "value": 97.04
+    },
+    {
+      "date": "2026-06-29",
+      "value": 97.48
+    },
+    {
+      "date": "2026-06-30",
+      "value": 98.27
+    },
+    {
+      "date": "2026-07-01",
+      "value": 96.18
+    },
+    {
+      "date": "2026-07-02",
+      "value": 95.51
+    },
+    {
+      "date": "2026-07-06",
+      "value": 97.56
+    },
+    {
+      "date": "2026-07-07",
+      "value": 95.74
+    },
+    {
+      "date": "2026-07-08",
+      "value": 95.23
+    },
+    {
+      "date": "2026-07-09",
+      "value": 95.66
+    },
+    {
+      "date": "2026-07-10",
+      "value": 95.82
+    },
+    {
+      "date": "2026-07-13",
+      "value": 94.13
+    },
+    {
+      "date": "2026-07-14",
+      "value": 94.8
+    },
+    {
+      "date": "2026-07-15",
+      "value": 95.11
+    },
+    {
+      "date": "2026-07-16",
+      "value": 94.48
+    },
+    {
+      "date": "2026-07-17",
+      "value": 94.25
+    },
+    {
+      "date": "2026-07-20",
+      "value": 94.56
+    },
+    {
+      "date": "2026-07-21",
+      "value": 95.55
+    },
+    {
+      "date": "2026-07-22",
+      "value": 95.62
+    },
+    {
+      "date": "2026-07-23",
+      "value": 95.39
+    },
+    {
+      "date": "2026-07-24",
+      "value": 94.48
+    },
+    {
+      "date": "2026-07-27",
+      "value": 94.64
+    },
+    {
+      "date": "2026-07-28",
+      "value": 93.42
+    },
+    {
+      "date": "2026-07-29",
+      "value": 92.35
+    },
+    {
+      "date": "2026-07-30",
+      "value": 94.4
+    },
+    {
+      "date": "2026-07-31",
+      "value": 94.92
+    },
+    {
+      "date": "2026-08-03",
+      "value": 94.76
+    },
+    {
+      "date": "2026-08-04",
+      "value": 95.94
+    },
+    {
+      "date": "2026-08-05",
+      "value": 95.47
+    },
+    {
+      "date": "2026-08-06",
+      "value": 94.68
+    },
+    {
+      "date": "2026-08-07",
+      "value": 95.51
+    },
+    {
+      "date": "2026-08-10",
+      "value": 95.31
+    },
+    {
+      "date": "2026-08-11",
+      "value": 95.82
+    },
+    {
+      "date": "2026-08-12",
+      "value": 96.65
+    },
+    {
+      "date": "2026-08-13",
+      "value": 96.85
+    },
+    {
+      "date": "2026-08-14",
+      "value": 96.49
+    },
+    {
+      "date": "2026-08-17",
+      "value": 97.71
+    },
+    {
+      "date": "2026-08-18",
+      "value": 95.98
+    },
+    {
+      "date": "2026-08-19",
+      "value": 96.49
+    },
+    {
+      "date": "2026-08-20",
+      "value": 96.61
+    },
+    {
+      "date": "2026-08-21",
+      "value": 97.2
+    },
+    {
+      "date": "2026-08-24",
+      "value": 96.49
+    },
+    {
+      "date": "2026-08-25",
+      "value": 97.67
+    },
+    {
+      "date": "2026-08-26",
+      "value": 97.71
+    },
+    {
+      "date": "2026-08-27",
+      "value": 97.87
+    },
+    {
+      "date": "2026-08-28",
+      "value": 97.52
+    },
+    {
+      "date": "2026-08-31",
+      "value": 97.71
+    },
+    {
+      "date": "2026-09-01",
+      "value": 97.04
+    },
+    {
+      "date": "2026-09-02",
+      "value": 98.11
+    },
+    {
+      "date": "2026-09-03",
+      "value": 98.5
+    },
+    {
+      "date": "2026-09-04",
+      "value": 99.45
+    },
+    {
+      "date": "2026-09-08",
+      "value": 99.61
+    },
+    {
+      "date": "2026-09-09",
+      "value": 99.49
+    },
+    {
+      "date": "2026-09-10",
+      "value": 98.11
+    },
+    {
+      "date": "2026-09-11",
+      "value": 98.78
+    },
+    {
+      "date": "2026-09-14",
+      "value": 97.04
+    },
+    {
+      "date": "2026-09-15",
+      "value": 96.65
+    },
+    {
+      "date": "2026-09-16",
+      "value": 95.74
+    },
+    {
+      "date": "2026-09-17",
+      "value": 97.04
+    },
+    {
+      "date": "2026-09-18",
+      "value": 96.93
+    },
+    {
+      "date": "2026-09-21",
+      "value": 98.62
+    },
+    {
+      "date": "2026-09-22",
+      "value": 98.9
+    },
+    {
+      "date": "2026-09-23",
+      "value": 97.56
+    },
+    {
+      "date": "2026-09-24",
+      "value": 96.65
+    },
+    {
+      "date": "2026-09-25",
+      "value": 97.16
+    },
+    {
+      "date": "2026-09-28",
+      "value": 96.45
+    },
+    {
+      "date": "2026-09-29",
+      "value": 96.96
+    },
+    {
+      "date": "2026-09-30",
+      "value": 96.06
+    },
+    {
+      "date": "2026-10-01",
+      "value": 96.33
+    },
+    {
+      "date": "2026-10-02",
+      "value": 96.96
+    },
+    {
+      "date": "2026-10-05",
+      "value": 98.15
+    },
+    {
+      "date": "2026-10-06",
+      "value": 97.91
+    },
+    {
+      "date": "2026-10-07",
+      "value": 96.81
+    },
+    {
+      "date": "2026-10-08",
+      "value": 95.15
+    },
+    {
+      "date": "2026-10-09",
+      "value": 96.33
+    },
+    {
+      "date": "2026-10-12",
+      "value": 95.51
+    },
+    {
+      "date": "2026-10-13",
+      "value": 94.8
+    },
+    {
+      "date": "2026-10-14",
+      "value": 93.73
+    },
+    {
+      "date": "2026-10-15",
+      "value": 93.38
+    },
+    {
+      "date": "2026-10-16",
+      "value": 92.0
+    },
+    {
+      "date": "2026-10-19",
+      "value": 93.14
+    },
+    {
+      "date": "2026-10-20",
+      "value": 92.87
+    },
+    {
+      "date": "2026-10-21",
+      "value": 93.26
+    },
+    {
+      "date": "2026-10-22",
+      "value": 91.09
+    },
+    {
+      "date": "2026-10-23",
+      "value": 91.25
+    },
+    {
+      "date": "2026-10-26",
+      "value": 91.25
+    },
+    {
+      "date": "2026-10-27",
+      "value": 92.47
+    },
+    {
+      "date": "2026-10-28",
+      "value": 93.06
+    },
+    {
+      "date": "2026-10-29",
+      "value": 92.0
+    },
+    {
+      "date": "2026-10-30",
+      "value": 90.11
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-05-06",
+    "last_date": "2026-10-30",
+    "observations": 124,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-10-30",
+    "latest_volume": 1000.0,
+    "average_volume_20d": 1705.0,
+    "average_dollar_volume_20d": 40201.7003,
+    "relative_volume_20d": 0.5865,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-EMMY",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.0129284,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 1,
+    "top_10_weight": 0.012928,
+    "top_3_weight": 0.012928
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

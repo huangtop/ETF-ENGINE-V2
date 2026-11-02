@@ -1,0 +1,591 @@
+{
+  "etf_id": "US-DRVR",
+  "ticker": "DRVR",
+  "quote_symbol": "DRVR",
+  "name": "Amplify S&P 500 Dividend Drivers ETF",
+  "short_name": "DRVR",
+  "listing_market": "US",
+  "listing_exchange": "NYSE Arca",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Amplify S&P 500 Dividend Drivers ETF",
+  "short_name_en": "DRVR",
+  "name_zh": "Amplify S&P 500 Dividend Drivers ETF",
+  "short_name_zh": null,
+  "display_name": "Amplify S&P 500 Dividend Drivers ETF",
+  "display_short_name": "Amplify S&P 500 Dividend Drivers ETF",
+  "display_label": "(DRVR)Amplify S&P 500 Dividend Drivers ETF",
+  "bilingual_name": "Amplify S&P 500 Dividend Drivers ETF（Amplify S&P 500 Dividend Drivers ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": 20.8281,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 14.6973,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.1866,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.3214,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -8.0196,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 6.6181,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 17.1586,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-10-30",
+    "value": 26.26,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-07-09",
+      "value": 100.0
+    },
+    {
+      "date": "2026-07-10",
+      "value": 100.89
+    },
+    {
+      "date": "2026-07-13",
+      "value": 100.68
+    },
+    {
+      "date": "2026-07-14",
+      "value": 100.52
+    },
+    {
+      "date": "2026-07-15",
+      "value": 100.89
+    },
+    {
+      "date": "2026-07-16",
+      "value": 102.9
+    },
+    {
+      "date": "2026-07-17",
+      "value": 102.46
+    },
+    {
+      "date": "2026-07-20",
+      "value": 101.61
+    },
+    {
+      "date": "2026-07-21",
+      "value": 101.49
+    },
+    {
+      "date": "2026-07-22",
+      "value": 101.61
+    },
+    {
+      "date": "2026-07-23",
+      "value": 100.36
+    },
+    {
+      "date": "2026-07-24",
+      "value": 101.65
+    },
+    {
+      "date": "2026-07-27",
+      "value": 102.98
+    },
+    {
+      "date": "2026-07-28",
+      "value": 104.55
+    },
+    {
+      "date": "2026-07-29",
+      "value": 103.62
+    },
+    {
+      "date": "2026-07-30",
+      "value": 102.16
+    },
+    {
+      "date": "2026-07-31",
+      "value": 101.67
+    },
+    {
+      "date": "2026-08-03",
+      "value": 102.48
+    },
+    {
+      "date": "2026-08-04",
+      "value": 104.05
+    },
+    {
+      "date": "2026-08-05",
+      "value": 103.93
+    },
+    {
+      "date": "2026-08-06",
+      "value": 103.29
+    },
+    {
+      "date": "2026-08-07",
+      "value": 103.89
+    },
+    {
+      "date": "2026-08-10",
+      "value": 103.65
+    },
+    {
+      "date": "2026-08-11",
+      "value": 103.93
+    },
+    {
+      "date": "2026-08-12",
+      "value": 103.65
+    },
+    {
+      "date": "2026-08-13",
+      "value": 104.46
+    },
+    {
+      "date": "2026-08-14",
+      "value": 104.05
+    },
+    {
+      "date": "2026-08-17",
+      "value": 102.52
+    },
+    {
+      "date": "2026-08-18",
+      "value": 103.0
+    },
+    {
+      "date": "2026-08-19",
+      "value": 104.01
+    },
+    {
+      "date": "2026-08-20",
+      "value": 103.21
+    },
+    {
+      "date": "2026-08-21",
+      "value": 103.97
+    },
+    {
+      "date": "2026-08-24",
+      "value": 105.02
+    },
+    {
+      "date": "2026-08-25",
+      "value": 104.41
+    },
+    {
+      "date": "2026-08-26",
+      "value": 104.46
+    },
+    {
+      "date": "2026-08-27",
+      "value": 103.89
+    },
+    {
+      "date": "2026-08-28",
+      "value": 104.05
+    },
+    {
+      "date": "2026-08-31",
+      "value": 103.33
+    },
+    {
+      "date": "2026-09-01",
+      "value": 102.4
+    },
+    {
+      "date": "2026-09-02",
+      "value": 103.0
+    },
+    {
+      "date": "2026-09-03",
+      "value": 103.73
+    },
+    {
+      "date": "2026-09-04",
+      "value": 103.12
+    },
+    {
+      "date": "2026-09-08",
+      "value": 101.83
+    },
+    {
+      "date": "2026-09-09",
+      "value": 100.7
+    },
+    {
+      "date": "2026-09-10",
+      "value": 100.42
+    },
+    {
+      "date": "2026-09-11",
+      "value": 100.98
+    },
+    {
+      "date": "2026-09-14",
+      "value": 102.28
+    },
+    {
+      "date": "2026-09-15",
+      "value": 101.35
+    },
+    {
+      "date": "2026-09-16",
+      "value": 100.1
+    },
+    {
+      "date": "2026-09-17",
+      "value": 100.42
+    },
+    {
+      "date": "2026-09-18",
+      "value": 99.45
+    },
+    {
+      "date": "2026-09-21",
+      "value": 99.57
+    },
+    {
+      "date": "2026-09-22",
+      "value": 99.69
+    },
+    {
+      "date": "2026-09-23",
+      "value": 98.52
+    },
+    {
+      "date": "2026-09-24",
+      "value": 97.63
+    },
+    {
+      "date": "2026-09-25",
+      "value": 98.12
+    },
+    {
+      "date": "2026-09-28",
+      "value": 97.63
+    },
+    {
+      "date": "2026-09-29",
+      "value": 97.16
+    },
+    {
+      "date": "2026-09-30",
+      "value": 96.6
+    },
+    {
+      "date": "2026-10-01",
+      "value": 97.57
+    },
+    {
+      "date": "2026-10-02",
+      "value": 97.04
+    },
+    {
+      "date": "2026-10-05",
+      "value": 97.21
+    },
+    {
+      "date": "2026-10-06",
+      "value": 97.61
+    },
+    {
+      "date": "2026-10-07",
+      "value": 97.12
+    },
+    {
+      "date": "2026-10-08",
+      "value": 99.19
+    },
+    {
+      "date": "2026-10-09",
+      "value": 99.11
+    },
+    {
+      "date": "2026-10-12",
+      "value": 99.76
+    },
+    {
+      "date": "2026-10-13",
+      "value": 99.76
+    },
+    {
+      "date": "2026-10-14",
+      "value": 100.08
+    },
+    {
+      "date": "2026-10-15",
+      "value": 102.15
+    },
+    {
+      "date": "2026-10-16",
+      "value": 102.63
+    },
+    {
+      "date": "2026-10-19",
+      "value": 102.35
+    },
+    {
+      "date": "2026-10-20",
+      "value": 103.85
+    },
+    {
+      "date": "2026-10-21",
+      "value": 103.89
+    },
+    {
+      "date": "2026-10-22",
+      "value": 106.85
+    },
+    {
+      "date": "2026-10-23",
+      "value": 105.47
+    },
+    {
+      "date": "2026-10-26",
+      "value": 105.15
+    },
+    {
+      "date": "2026-10-27",
+      "value": 104.46
+    },
+    {
+      "date": "2026-10-28",
+      "value": 104.42
+    },
+    {
+      "date": "2026-10-29",
+      "value": 106.37
+    },
+    {
+      "date": "2026-10-30",
+      "value": 106.62
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-07-09",
+    "last_date": "2026-10-30",
+    "observations": 81,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-10-30",
+    "latest_volume": 600.0,
+    "average_volume_20d": 2090.0,
+    "average_dollar_volume_20d": 52033.3592,
+    "relative_volume_20d": 0.2871,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "ACN",
+      "holding_name": "Accenture PLC Class A",
+      "weight": 0.0624187,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Accenture PLC Class A",
+      "holding_name_zh": null,
+      "display_name": "Accenture PLC Class A",
+      "display_label": "(ACN)Accenture PLC Class A",
+      "bilingual_name": "Accenture PLC Class A"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "MO",
+      "holding_name": "Altria Group Inc",
+      "weight": 0.045335,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Altria Group Inc",
+      "holding_name_zh": null,
+      "display_name": "Altria Group Inc",
+      "display_label": "(MO)Altria Group Inc",
+      "bilingual_name": "Altria Group Inc"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "BBY",
+      "holding_name": "Best Buy Co Inc",
+      "weight": 0.0424219,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Best Buy Co Inc",
+      "holding_name_zh": null,
+      "display_name": "Best Buy Co Inc",
+      "display_label": "(BBY)Best Buy Co Inc",
+      "bilingual_name": "Best Buy Co Inc"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "UPS",
+      "holding_name": "United Parcel Service Inc Class B",
+      "weight": 0.0391894,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "United Parcel Service Inc Class B",
+      "holding_name_zh": null,
+      "display_name": "United Parcel Service Inc Class B",
+      "display_label": "(UPS)United Parcel Service Inc Class B",
+      "bilingual_name": "United Parcel Service Inc Class B"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "PAYX",
+      "holding_name": "Paychex Inc",
+      "weight": 0.0362611,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Paychex Inc",
+      "holding_name_zh": null,
+      "display_name": "Paychex Inc",
+      "display_label": "(PAYX)Paychex Inc",
+      "bilingual_name": "Paychex Inc"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "TROW",
+      "holding_name": "T. Rowe Price Group Inc",
+      "weight": 0.0341944,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "T. Rowe Price Group Inc",
+      "holding_name_zh": null,
+      "display_name": "T. Rowe Price Group Inc",
+      "display_label": "(TROW)T. Rowe Price Group Inc",
+      "bilingual_name": "T. Rowe Price Group Inc"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "PEP",
+      "holding_name": "PepsiCo Inc",
+      "weight": 0.0341885,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "PepsiCo Inc",
+      "holding_name_zh": null,
+      "display_name": "PepsiCo Inc",
+      "display_label": "(PEP)PepsiCo Inc",
+      "bilingual_name": "PepsiCo Inc"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "TGT",
+      "holding_name": "Target Corp",
+      "weight": 0.0334505,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Target Corp",
+      "holding_name_zh": null,
+      "display_name": "Target Corp",
+      "display_label": "(TGT)Target Corp",
+      "bilingual_name": "Target Corp"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "MDLZ",
+      "holding_name": "Mondelez International Inc Class A",
+      "weight": 0.0297415,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Mondelez International Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Mondelez International Inc Class A",
+      "display_label": "(MDLZ)Mondelez International Inc Class A",
+      "bilingual_name": "Mondelez International Inc Class A"
+    },
+    {
+      "etf_id": "US-DRVR",
+      "holding_symbol": "ADP",
+      "holding_name": "Automatic Data Processing Inc",
+      "weight": 0.0284135,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Automatic Data Processing Inc",
+      "holding_name_zh": null,
+      "display_name": "Automatic Data Processing Inc",
+      "display_label": "(ADP)Automatic Data Processing Inc",
+      "bilingual_name": "Automatic Data Processing Inc"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.385614,
+    "top_3_weight": 0.150176
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

@@ -1,0 +1,935 @@
+{
+  "etf_id": "US-BREE",
+  "ticker": "BREE",
+  "quote_symbol": "BREE",
+  "name": "MFS Blended Research Emerging Markets Equity ETF",
+  "short_name": "BREE",
+  "listing_market": "US",
+  "listing_exchange": "NYSE",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "MFS Blended Research Emerging Markets Equity ETF",
+  "short_name_en": "BREE",
+  "name_zh": "MFS Blended Research Emerging Markets Equity ETF",
+  "short_name_zh": null,
+  "display_name": "MFS Blended Research Emerging Markets Equity ETF",
+  "display_short_name": "MFS Blended Research Emerging Markets Equity ETF",
+  "display_label": "(BREE)MFS Blended Research Emerging Markets Equity ETF",
+  "bilingual_name": "MFS Blended Research Emerging Markets Equity ETF（MFS Blended Research Emerging Markets Equity ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "emerging_markets"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -9.7386,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 27.3879,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 1.6231,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.6667,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -12.972,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 9.3345,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 18.7682,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 25.3,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-03-05",
+      "value": 100.0
+    },
+    {
+      "date": "2026-03-06",
+      "value": 99.7
+    },
+    {
+      "date": "2026-03-09",
+      "value": 100.65
+    },
+    {
+      "date": "2026-03-10",
+      "value": 101.64
+    },
+    {
+      "date": "2026-03-11",
+      "value": 101.56
+    },
+    {
+      "date": "2026-03-12",
+      "value": 98.27
+    },
+    {
+      "date": "2026-03-13",
+      "value": 97.8
+    },
+    {
+      "date": "2026-03-16",
+      "value": 100.04
+    },
+    {
+      "date": "2026-03-17",
+      "value": 100.65
+    },
+    {
+      "date": "2026-03-18",
+      "value": 99.22
+    },
+    {
+      "date": "2026-03-19",
+      "value": 98.7
+    },
+    {
+      "date": "2026-03-20",
+      "value": 95.81
+    },
+    {
+      "date": "2026-03-23",
+      "value": 98.27
+    },
+    {
+      "date": "2026-03-24",
+      "value": 97.36
+    },
+    {
+      "date": "2026-03-25",
+      "value": 98.75
+    },
+    {
+      "date": "2026-03-26",
+      "value": 95.51
+    },
+    {
+      "date": "2026-03-27",
+      "value": 94.94
+    },
+    {
+      "date": "2026-03-30",
+      "value": 93.78
+    },
+    {
+      "date": "2026-03-31",
+      "value": 97.23
+    },
+    {
+      "date": "2026-04-01",
+      "value": 98.4
+    },
+    {
+      "date": "2026-04-02",
+      "value": 97.28
+    },
+    {
+      "date": "2026-04-06",
+      "value": 98.31
+    },
+    {
+      "date": "2026-04-07",
+      "value": 98.4
+    },
+    {
+      "date": "2026-04-08",
+      "value": 103.76
+    },
+    {
+      "date": "2026-04-09",
+      "value": 103.67
+    },
+    {
+      "date": "2026-04-10",
+      "value": 104.15
+    },
+    {
+      "date": "2026-04-13",
+      "value": 104.84
+    },
+    {
+      "date": "2026-04-14",
+      "value": 106.57
+    },
+    {
+      "date": "2026-04-15",
+      "value": 106.22
+    },
+    {
+      "date": "2026-04-16",
+      "value": 106.44
+    },
+    {
+      "date": "2026-04-17",
+      "value": 108.34
+    },
+    {
+      "date": "2026-04-20",
+      "value": 107.39
+    },
+    {
+      "date": "2026-04-21",
+      "value": 106.14
+    },
+    {
+      "date": "2026-04-22",
+      "value": 108.17
+    },
+    {
+      "date": "2026-04-23",
+      "value": 106.53
+    },
+    {
+      "date": "2026-04-24",
+      "value": 108.34
+    },
+    {
+      "date": "2026-04-27",
+      "value": 108.34
+    },
+    {
+      "date": "2026-04-28",
+      "value": 107.17
+    },
+    {
+      "date": "2026-04-29",
+      "value": 106.96
+    },
+    {
+      "date": "2026-04-30",
+      "value": 109.16
+    },
+    {
+      "date": "2026-05-01",
+      "value": 109.2
+    },
+    {
+      "date": "2026-05-04",
+      "value": 109.2
+    },
+    {
+      "date": "2026-05-05",
+      "value": 111.24
+    },
+    {
+      "date": "2026-05-06",
+      "value": 115.38
+    },
+    {
+      "date": "2026-05-07",
+      "value": 114.3
+    },
+    {
+      "date": "2026-05-08",
+      "value": 115.64
+    },
+    {
+      "date": "2026-05-11",
+      "value": 116.59
+    },
+    {
+      "date": "2026-05-12",
+      "value": 112.92
+    },
+    {
+      "date": "2026-05-13",
+      "value": 114.61
+    },
+    {
+      "date": "2026-05-14",
+      "value": 115.34
+    },
+    {
+      "date": "2026-05-15",
+      "value": 112.01
+    },
+    {
+      "date": "2026-05-18",
+      "value": 111.02
+    },
+    {
+      "date": "2026-05-19",
+      "value": 110.5
+    },
+    {
+      "date": "2026-05-20",
+      "value": 112.06
+    },
+    {
+      "date": "2026-05-21",
+      "value": 113.18
+    },
+    {
+      "date": "2026-05-22",
+      "value": 112.71
+    },
+    {
+      "date": "2026-05-26",
+      "value": 116.47
+    },
+    {
+      "date": "2026-05-27",
+      "value": 117.07
+    },
+    {
+      "date": "2026-05-28",
+      "value": 117.85
+    },
+    {
+      "date": "2026-05-29",
+      "value": 117.85
+    },
+    {
+      "date": "2026-06-01",
+      "value": 120.74
+    },
+    {
+      "date": "2026-06-02",
+      "value": 122.04
+    },
+    {
+      "date": "2026-06-03",
+      "value": 120.53
+    },
+    {
+      "date": "2026-06-04",
+      "value": 119.62
+    },
+    {
+      "date": "2026-06-05",
+      "value": 112.32
+    },
+    {
+      "date": "2026-06-08",
+      "value": 113.87
+    },
+    {
+      "date": "2026-06-09",
+      "value": 114.26
+    },
+    {
+      "date": "2026-06-10",
+      "value": 112.36
+    },
+    {
+      "date": "2026-06-11",
+      "value": 116.9
+    },
+    {
+      "date": "2026-06-12",
+      "value": 117.55
+    },
+    {
+      "date": "2026-06-15",
+      "value": 121.0
+    },
+    {
+      "date": "2026-06-16",
+      "value": 119.71
+    },
+    {
+      "date": "2026-06-17",
+      "value": 119.1
+    },
+    {
+      "date": "2026-06-18",
+      "value": 122.82
+    },
+    {
+      "date": "2026-06-22",
+      "value": 123.6
+    },
+    {
+      "date": "2026-06-23",
+      "value": 117.07
+    },
+    {
+      "date": "2026-06-24",
+      "value": 117.24
+    },
+    {
+      "date": "2026-06-25",
+      "value": 118.76
+    },
+    {
+      "date": "2026-06-26",
+      "value": 117.5
+    },
+    {
+      "date": "2026-06-29",
+      "value": 115.99
+    },
+    {
+      "date": "2026-06-30",
+      "value": 119.88
+    },
+    {
+      "date": "2026-07-01",
+      "value": 116.68
+    },
+    {
+      "date": "2026-07-02",
+      "value": 114.43
+    },
+    {
+      "date": "2026-07-06",
+      "value": 118.54
+    },
+    {
+      "date": "2026-07-07",
+      "value": 115.34
+    },
+    {
+      "date": "2026-07-08",
+      "value": 115.82
+    },
+    {
+      "date": "2026-07-09",
+      "value": 117.11
+    },
+    {
+      "date": "2026-07-10",
+      "value": 117.33
+    },
+    {
+      "date": "2026-07-13",
+      "value": 113.14
+    },
+    {
+      "date": "2026-07-14",
+      "value": 114.74
+    },
+    {
+      "date": "2026-07-15",
+      "value": 114.61
+    },
+    {
+      "date": "2026-07-16",
+      "value": 112.32
+    },
+    {
+      "date": "2026-07-17",
+      "value": 111.06
+    },
+    {
+      "date": "2026-07-20",
+      "value": 111.67
+    },
+    {
+      "date": "2026-07-21",
+      "value": 114.95
+    },
+    {
+      "date": "2026-07-22",
+      "value": 114.35
+    },
+    {
+      "date": "2026-07-23",
+      "value": 113.4
+    },
+    {
+      "date": "2026-07-24",
+      "value": 111.28
+    },
+    {
+      "date": "2026-07-27",
+      "value": 112.14
+    },
+    {
+      "date": "2026-07-28",
+      "value": 110.07
+    },
+    {
+      "date": "2026-07-29",
+      "value": 107.56
+    },
+    {
+      "date": "2026-07-30",
+      "value": 110.72
+    },
+    {
+      "date": "2026-07-31",
+      "value": 112.79
+    },
+    {
+      "date": "2026-08-03",
+      "value": 113.87
+    },
+    {
+      "date": "2026-08-04",
+      "value": 116.51
+    },
+    {
+      "date": "2026-08-05",
+      "value": 115.95
+    },
+    {
+      "date": "2026-08-06",
+      "value": 114.91
+    },
+    {
+      "date": "2026-08-07",
+      "value": 115.08
+    },
+    {
+      "date": "2026-08-10",
+      "value": 114.82
+    },
+    {
+      "date": "2026-08-11",
+      "value": 115.25
+    },
+    {
+      "date": "2026-08-12",
+      "value": 115.82
+    },
+    {
+      "date": "2026-08-13",
+      "value": 117.07
+    },
+    {
+      "date": "2026-08-14",
+      "value": 117.07
+    },
+    {
+      "date": "2026-08-17",
+      "value": 117.98
+    },
+    {
+      "date": "2026-08-18",
+      "value": 114.82
+    },
+    {
+      "date": "2026-08-19",
+      "value": 115.73
+    },
+    {
+      "date": "2026-08-20",
+      "value": 116.38
+    },
+    {
+      "date": "2026-08-21",
+      "value": 117.42
+    },
+    {
+      "date": "2026-08-24",
+      "value": 116.08
+    },
+    {
+      "date": "2026-08-25",
+      "value": 117.93
+    },
+    {
+      "date": "2026-08-26",
+      "value": 118.11
+    },
+    {
+      "date": "2026-08-27",
+      "value": 118.58
+    },
+    {
+      "date": "2026-08-28",
+      "value": 117.8
+    },
+    {
+      "date": "2026-08-31",
+      "value": 117.72
+    },
+    {
+      "date": "2026-09-01",
+      "value": 117.33
+    },
+    {
+      "date": "2026-09-02",
+      "value": 118.02
+    },
+    {
+      "date": "2026-09-03",
+      "value": 118.58
+    },
+    {
+      "date": "2026-09-04",
+      "value": 120.31
+    },
+    {
+      "date": "2026-09-08",
+      "value": 120.83
+    },
+    {
+      "date": "2026-09-09",
+      "value": 120.4
+    },
+    {
+      "date": "2026-09-10",
+      "value": 118.32
+    },
+    {
+      "date": "2026-09-11",
+      "value": 119.66
+    },
+    {
+      "date": "2026-09-14",
+      "value": 116.47
+    },
+    {
+      "date": "2026-09-15",
+      "value": 115.9
+    },
+    {
+      "date": "2026-09-16",
+      "value": 115.73
+    },
+    {
+      "date": "2026-09-17",
+      "value": 117.85
+    },
+    {
+      "date": "2026-09-18",
+      "value": 117.89
+    },
+    {
+      "date": "2026-09-21",
+      "value": 120.87
+    },
+    {
+      "date": "2026-09-22",
+      "value": 121.91
+    },
+    {
+      "date": "2026-09-23",
+      "value": 119.49
+    },
+    {
+      "date": "2026-09-24",
+      "value": 118.93
+    },
+    {
+      "date": "2026-09-25",
+      "value": 119.84
+    },
+    {
+      "date": "2026-09-28",
+      "value": 118.71
+    },
+    {
+      "date": "2026-09-29",
+      "value": 119.23
+    },
+    {
+      "date": "2026-09-30",
+      "value": 117.98
+    },
+    {
+      "date": "2026-10-01",
+      "value": 118.19
+    },
+    {
+      "date": "2026-10-02",
+      "value": 119.58
+    },
+    {
+      "date": "2026-10-05",
+      "value": 121.39
+    },
+    {
+      "date": "2026-10-06",
+      "value": 120.66
+    },
+    {
+      "date": "2026-10-07",
+      "value": 119.06
+    },
+    {
+      "date": "2026-10-08",
+      "value": 116.68
+    },
+    {
+      "date": "2026-10-09",
+      "value": 117.5
+    },
+    {
+      "date": "2026-10-12",
+      "value": 116.51
+    },
+    {
+      "date": "2026-10-13",
+      "value": 115.6
+    },
+    {
+      "date": "2026-10-14",
+      "value": 113.31
+    },
+    {
+      "date": "2026-10-15",
+      "value": 112.32
+    },
+    {
+      "date": "2026-10-16",
+      "value": 110.67
+    },
+    {
+      "date": "2026-10-19",
+      "value": 111.54
+    },
+    {
+      "date": "2026-10-20",
+      "value": 111.75
+    },
+    {
+      "date": "2026-10-21",
+      "value": 112.4
+    },
+    {
+      "date": "2026-10-22",
+      "value": 109.16
+    },
+    {
+      "date": "2026-10-23",
+      "value": 109.64
+    },
+    {
+      "date": "2026-10-26",
+      "value": 109.46
+    },
+    {
+      "date": "2026-10-27",
+      "value": 111.15
+    },
+    {
+      "date": "2026-10-28",
+      "value": 112.79
+    },
+    {
+      "date": "2026-10-29",
+      "value": 111.67
+    },
+    {
+      "date": "2026-10-30",
+      "value": 108.51
+    },
+    {
+      "date": "2026-11-02",
+      "value": 109.33
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-03-05",
+    "last_date": "2026-11-02",
+    "observations": 168,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 2136.0,
+    "average_volume_20d": 1781.8,
+    "average_dollar_volume_20d": 46149.7899,
+    "relative_volume_20d": 1.1988,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "TSM",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "weight": 0.14887491,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "holding_name_zh": "台積電ADR",
+      "display_name": "台積電ADR",
+      "display_label": "(TSM)台積電ADR",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "000660.KQ",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.0633239,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "SK hynix Inc",
+      "holding_name_zh": null,
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KQ)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "005930.KQ",
+      "holding_name": "Samsung Electronics Co Ltd",
+      "weight": 0.0590226,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Samsung Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd",
+      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
+      "bilingual_name": "Samsung Electronics Co Ltd"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "005935",
+      "holding_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "weight": 0.0281055,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "display_label": "(005935)Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "bilingual_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "TCEHY",
+      "holding_name": "Tencent Holdings Ltd ADR",
+      "weight": 0.0234477,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Tencent Holdings Ltd ADR",
+      "holding_name_zh": null,
+      "display_name": "Tencent Holdings Ltd ADR",
+      "display_label": "(TCEHY)Tencent Holdings Ltd ADR",
+      "bilingual_name": "Tencent Holdings Ltd ADR"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "00939",
+      "holding_name": "China Construction Bank Corp Class H",
+      "weight": 0.0230493,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "China Construction Bank Corp Class H",
+      "holding_name_zh": null,
+      "display_name": "China Construction Bank Corp Class H",
+      "display_label": "(00939)China Construction Bank Corp Class H",
+      "bilingual_name": "China Construction Bank Corp Class H"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0198109,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0194893,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "BABA",
+      "holding_name": "Alibaba Group Holding Ltd ADR",
+      "weight": 0.0159416,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Alibaba Group Holding Ltd ADR",
+      "holding_name_zh": null,
+      "display_name": "Alibaba Group Holding Ltd ADR",
+      "display_label": "(BABA)Alibaba Group Holding Ltd ADR",
+      "bilingual_name": "Alibaba Group Holding Ltd ADR"
+    },
+    {
+      "etf_id": "US-BREE",
+      "holding_symbol": "KB",
+      "holding_name": "KB Financial Group Inc ADR",
+      "weight": 0.0153543,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "KB Financial Group Inc ADR",
+      "holding_name_zh": null,
+      "display_name": "KB Financial Group Inc ADR",
+      "display_label": "(KB)KB Financial Group Inc ADR",
+      "bilingual_name": "KB Financial Group Inc ADR"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.41642,
+    "top_3_weight": 0.271221
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

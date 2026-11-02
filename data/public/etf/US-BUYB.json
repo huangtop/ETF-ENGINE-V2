@@ -1,0 +1,763 @@
+{
+  "etf_id": "US-BUYB",
+  "ticker": "BUYB",
+  "quote_symbol": "BUYB",
+  "name": "ProShares S&P 500 Buyback Aristocrats ETF",
+  "short_name": "BUYB",
+  "listing_market": "US",
+  "listing_exchange": "NYSE Arca",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "ProShares S&P 500 Buyback Aristocrats ETF",
+  "short_name_en": "BUYB",
+  "name_zh": "ProShares S&P 500 Buyback Aristocrats ETF",
+  "short_name_zh": null,
+  "display_name": "ProShares S&P 500 Buyback Aristocrats ETF",
+  "display_short_name": "ProShares S&P 500 Buyback Aristocrats ETF",
+  "display_label": "(BUYB)ProShares S&P 500 Buyback Aristocrats ETF",
+  "bilingual_name": "ProShares S&P 500 Buyback Aristocrats ETF（ProShares S&P 500 Buyback Aristocrats ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "strategy",
+      "code": "broad_market"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": 22.5474,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 11.8538,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.3458,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.4921,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -6.8142,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 12.5591,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 13.6569,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 44.4401,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-05-07",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-08",
+      "value": 99.82
+    },
+    {
+      "date": "2026-05-11",
+      "value": 99.32
+    },
+    {
+      "date": "2026-05-12",
+      "value": 99.14
+    },
+    {
+      "date": "2026-05-13",
+      "value": 98.41
+    },
+    {
+      "date": "2026-05-14",
+      "value": 99.04
+    },
+    {
+      "date": "2026-05-15",
+      "value": 98.74
+    },
+    {
+      "date": "2026-05-18",
+      "value": 99.67
+    },
+    {
+      "date": "2026-05-19",
+      "value": 98.76
+    },
+    {
+      "date": "2026-05-20",
+      "value": 100.05
+    },
+    {
+      "date": "2026-05-21",
+      "value": 100.63
+    },
+    {
+      "date": "2026-05-22",
+      "value": 101.46
+    },
+    {
+      "date": "2026-05-26",
+      "value": 101.84
+    },
+    {
+      "date": "2026-05-27",
+      "value": 101.59
+    },
+    {
+      "date": "2026-05-28",
+      "value": 101.94
+    },
+    {
+      "date": "2026-05-29",
+      "value": 101.97
+    },
+    {
+      "date": "2026-06-01",
+      "value": 101.49
+    },
+    {
+      "date": "2026-06-02",
+      "value": 101.84
+    },
+    {
+      "date": "2026-06-03",
+      "value": 101.69
+    },
+    {
+      "date": "2026-06-04",
+      "value": 102.63
+    },
+    {
+      "date": "2026-06-05",
+      "value": 102.2
+    },
+    {
+      "date": "2026-06-08",
+      "value": 101.87
+    },
+    {
+      "date": "2026-06-09",
+      "value": 103.01
+    },
+    {
+      "date": "2026-06-10",
+      "value": 101.94
+    },
+    {
+      "date": "2026-06-11",
+      "value": 103.69
+    },
+    {
+      "date": "2026-06-12",
+      "value": 104.32
+    },
+    {
+      "date": "2026-06-15",
+      "value": 104.49
+    },
+    {
+      "date": "2026-06-16",
+      "value": 104.85
+    },
+    {
+      "date": "2026-06-17",
+      "value": 103.23
+    },
+    {
+      "date": "2026-06-18",
+      "value": 103.48
+    },
+    {
+      "date": "2026-06-22",
+      "value": 103.23
+    },
+    {
+      "date": "2026-06-23",
+      "value": 102.85
+    },
+    {
+      "date": "2026-06-24",
+      "value": 103.74
+    },
+    {
+      "date": "2026-06-25",
+      "value": 104.29
+    },
+    {
+      "date": "2026-06-26",
+      "value": 104.6
+    },
+    {
+      "date": "2026-06-29",
+      "value": 104.92
+    },
+    {
+      "date": "2026-06-30",
+      "value": 105.15
+    },
+    {
+      "date": "2026-07-01",
+      "value": 105.61
+    },
+    {
+      "date": "2026-07-02",
+      "value": 106.57
+    },
+    {
+      "date": "2026-07-06",
+      "value": 106.29
+    },
+    {
+      "date": "2026-07-07",
+      "value": 106.11
+    },
+    {
+      "date": "2026-07-08",
+      "value": 104.49
+    },
+    {
+      "date": "2026-07-09",
+      "value": 105.43
+    },
+    {
+      "date": "2026-07-10",
+      "value": 106.21
+    },
+    {
+      "date": "2026-07-13",
+      "value": 106.44
+    },
+    {
+      "date": "2026-07-14",
+      "value": 105.88
+    },
+    {
+      "date": "2026-07-15",
+      "value": 105.83
+    },
+    {
+      "date": "2026-07-16",
+      "value": 107.78
+    },
+    {
+      "date": "2026-07-17",
+      "value": 107.28
+    },
+    {
+      "date": "2026-07-20",
+      "value": 106.59
+    },
+    {
+      "date": "2026-07-21",
+      "value": 106.62
+    },
+    {
+      "date": "2026-07-22",
+      "value": 106.37
+    },
+    {
+      "date": "2026-07-23",
+      "value": 106.59
+    },
+    {
+      "date": "2026-07-24",
+      "value": 107.96
+    },
+    {
+      "date": "2026-07-27",
+      "value": 109.2
+    },
+    {
+      "date": "2026-07-28",
+      "value": 110.87
+    },
+    {
+      "date": "2026-07-29",
+      "value": 109.73
+    },
+    {
+      "date": "2026-07-30",
+      "value": 108.92
+    },
+    {
+      "date": "2026-07-31",
+      "value": 109.02
+    },
+    {
+      "date": "2026-08-03",
+      "value": 109.7
+    },
+    {
+      "date": "2026-08-04",
+      "value": 111.4
+    },
+    {
+      "date": "2026-08-05",
+      "value": 111.35
+    },
+    {
+      "date": "2026-08-06",
+      "value": 111.07
+    },
+    {
+      "date": "2026-08-07",
+      "value": 111.42
+    },
+    {
+      "date": "2026-08-10",
+      "value": 110.94
+    },
+    {
+      "date": "2026-08-11",
+      "value": 111.09
+    },
+    {
+      "date": "2026-08-12",
+      "value": 111.22
+    },
+    {
+      "date": "2026-08-13",
+      "value": 111.55
+    },
+    {
+      "date": "2026-08-14",
+      "value": 111.09
+    },
+    {
+      "date": "2026-08-17",
+      "value": 110.13
+    },
+    {
+      "date": "2026-08-18",
+      "value": 110.03
+    },
+    {
+      "date": "2026-08-19",
+      "value": 110.23
+    },
+    {
+      "date": "2026-08-20",
+      "value": 109.02
+    },
+    {
+      "date": "2026-08-21",
+      "value": 109.68
+    },
+    {
+      "date": "2026-08-24",
+      "value": 110.16
+    },
+    {
+      "date": "2026-08-25",
+      "value": 109.85
+    },
+    {
+      "date": "2026-08-26",
+      "value": 110.21
+    },
+    {
+      "date": "2026-08-27",
+      "value": 109.45
+    },
+    {
+      "date": "2026-08-28",
+      "value": 109.02
+    },
+    {
+      "date": "2026-08-31",
+      "value": 108.46
+    },
+    {
+      "date": "2026-09-01",
+      "value": 107.3
+    },
+    {
+      "date": "2026-09-02",
+      "value": 107.83
+    },
+    {
+      "date": "2026-09-03",
+      "value": 108.69
+    },
+    {
+      "date": "2026-09-04",
+      "value": 108.24
+    },
+    {
+      "date": "2026-09-08",
+      "value": 107.07
+    },
+    {
+      "date": "2026-09-09",
+      "value": 106.21
+    },
+    {
+      "date": "2026-09-10",
+      "value": 105.66
+    },
+    {
+      "date": "2026-09-11",
+      "value": 106.67
+    },
+    {
+      "date": "2026-09-14",
+      "value": 107.28
+    },
+    {
+      "date": "2026-09-15",
+      "value": 106.67
+    },
+    {
+      "date": "2026-09-16",
+      "value": 105.76
+    },
+    {
+      "date": "2026-09-17",
+      "value": 105.96
+    },
+    {
+      "date": "2026-09-18",
+      "value": 105.4
+    },
+    {
+      "date": "2026-09-21",
+      "value": 105.76
+    },
+    {
+      "date": "2026-09-22",
+      "value": 105.96
+    },
+    {
+      "date": "2026-09-23",
+      "value": 105.39
+    },
+    {
+      "date": "2026-09-24",
+      "value": 105.04
+    },
+    {
+      "date": "2026-09-25",
+      "value": 105.67
+    },
+    {
+      "date": "2026-09-28",
+      "value": 105.29
+    },
+    {
+      "date": "2026-09-29",
+      "value": 104.91
+    },
+    {
+      "date": "2026-09-30",
+      "value": 103.95
+    },
+    {
+      "date": "2026-10-01",
+      "value": 104.5
+    },
+    {
+      "date": "2026-10-02",
+      "value": 104.73
+    },
+    {
+      "date": "2026-10-05",
+      "value": 105.11
+    },
+    {
+      "date": "2026-10-06",
+      "value": 105.9
+    },
+    {
+      "date": "2026-10-07",
+      "value": 104.71
+    },
+    {
+      "date": "2026-10-08",
+      "value": 106.0
+    },
+    {
+      "date": "2026-10-09",
+      "value": 106.38
+    },
+    {
+      "date": "2026-10-12",
+      "value": 107.06
+    },
+    {
+      "date": "2026-10-13",
+      "value": 107.01
+    },
+    {
+      "date": "2026-10-14",
+      "value": 107.27
+    },
+    {
+      "date": "2026-10-15",
+      "value": 109.14
+    },
+    {
+      "date": "2026-10-16",
+      "value": 109.06
+    },
+    {
+      "date": "2026-10-19",
+      "value": 108.58
+    },
+    {
+      "date": "2026-10-20",
+      "value": 109.49
+    },
+    {
+      "date": "2026-10-21",
+      "value": 109.82
+    },
+    {
+      "date": "2026-10-22",
+      "value": 111.75
+    },
+    {
+      "date": "2026-10-23",
+      "value": 110.0
+    },
+    {
+      "date": "2026-10-26",
+      "value": 110.25
+    },
+    {
+      "date": "2026-10-27",
+      "value": 110.05
+    },
+    {
+      "date": "2026-10-28",
+      "value": 109.82
+    },
+    {
+      "date": "2026-10-29",
+      "value": 111.7
+    },
+    {
+      "date": "2026-10-30",
+      "value": 110.86
+    },
+    {
+      "date": "2026-11-02",
+      "value": 112.56
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-05-07",
+    "last_date": "2026-11-02",
+    "observations": 124,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 3890.0,
+    "average_volume_20d": 3654.5,
+    "average_dollar_volume_20d": 157497.9017,
+    "relative_volume_20d": 1.0644,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "CTSH",
+      "holding_name": "Cognizant Technology Solutions Corp Class A",
+      "weight": 0.0200153,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Cognizant Technology Solutions Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Cognizant Technology Solutions Corp Class A",
+      "display_label": "(CTSH)Cognizant Technology Solutions Corp Class A",
+      "bilingual_name": "Cognizant Technology Solutions Corp Class A"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "A",
+      "holding_name": "Agilent Technologies Inc",
+      "weight": 0.0197498,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Agilent Technologies Inc",
+      "holding_name_zh": null,
+      "display_name": "Agilent Technologies Inc",
+      "display_label": "(A)Agilent Technologies Inc",
+      "bilingual_name": "Agilent Technologies Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "MTD",
+      "holding_name": "Mettler-Toledo International Inc",
+      "weight": 0.0178987,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Mettler-Toledo International Inc",
+      "holding_name_zh": null,
+      "display_name": "Mettler-Toledo International Inc",
+      "display_label": "(MTD)Mettler-Toledo International Inc",
+      "bilingual_name": "Mettler-Toledo International Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "ULTA",
+      "holding_name": "Ulta Beauty Inc",
+      "weight": 0.0177704,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Ulta Beauty Inc",
+      "holding_name_zh": null,
+      "display_name": "Ulta Beauty Inc",
+      "display_label": "(ULTA)Ulta Beauty Inc",
+      "bilingual_name": "Ulta Beauty Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "PYPL",
+      "holding_name": "PayPal Holdings Inc",
+      "weight": 0.0174404,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "PayPal Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "PayPal Holdings Inc",
+      "display_label": "(PYPL)PayPal Holdings Inc",
+      "bilingual_name": "PayPal Holdings Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "ALLE",
+      "holding_name": "Allegion PLC",
+      "weight": 0.0168494,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Allegion PLC",
+      "holding_name_zh": null,
+      "display_name": "Allegion PLC",
+      "display_label": "(ALLE)Allegion PLC",
+      "bilingual_name": "Allegion PLC"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "EMR",
+      "holding_name": "Emerson Electric Co",
+      "weight": 0.0168089,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Emerson Electric Co",
+      "holding_name_zh": null,
+      "display_name": "Emerson Electric Co",
+      "display_label": "(EMR)Emerson Electric Co",
+      "bilingual_name": "Emerson Electric Co"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "EXPD",
+      "holding_name": "Expeditors International of Washington Inc",
+      "weight": 0.0166112,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Expeditors International of Washington Inc",
+      "holding_name_zh": null,
+      "display_name": "Expeditors International of Washington Inc",
+      "display_label": "(EXPD)Expeditors International of Washington Inc",
+      "bilingual_name": "Expeditors International of Washington Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "CPAY",
+      "holding_name": "Corpay Inc",
+      "weight": 0.0166094,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Corpay Inc",
+      "holding_name_zh": null,
+      "display_name": "Corpay Inc",
+      "display_label": "(CPAY)Corpay Inc",
+      "bilingual_name": "Corpay Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "UHS",
+      "holding_name": "Universal Health Services Inc Class B",
+      "weight": 0.0164794,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Universal Health Services Inc Class B",
+      "holding_name_zh": null,
+      "display_name": "Universal Health Services Inc Class B",
+      "display_label": "(UHS)Universal Health Services Inc Class B",
+      "bilingual_name": "Universal Health Services Inc Class B"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.176233,
+    "top_3_weight": 0.057664
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

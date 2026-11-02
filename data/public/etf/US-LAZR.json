@@ -1,0 +1,605 @@
+{
+  "etf_id": "US-LAZR",
+  "ticker": "LAZR",
+  "quote_symbol": "LAZR",
+  "name": "Tema Photonics & Optical ETF",
+  "short_name": "LAZR",
+  "listing_market": "US",
+  "listing_exchange": "NYSE Arca",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Tema Photonics & Optical ETF",
+  "short_name_en": "LAZR",
+  "name_zh": "Tema Photonics & Optical ETF",
+  "short_name_zh": null,
+  "display_name": "Tema Photonics & Optical ETF",
+  "display_short_name": "Tema Photonics & Optical ETF",
+  "display_label": "(LAZR)Tema Photonics & Optical ETF",
+  "bilingual_name": "Tema Photonics & Optical ETF（Tema Photonics & Optical ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "theme",
+      "code": "photonics_optics"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -115.2656,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 74.1968,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 3.9583,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.3492,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -36.7194,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -36.7194,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 68.3263,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 32.02,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-06-30",
+      "value": 100.0
+    },
+    {
+      "date": "2026-07-01",
+      "value": 93.85
+    },
+    {
+      "date": "2026-07-02",
+      "value": 83.75
+    },
+    {
+      "date": "2026-07-06",
+      "value": 85.59
+    },
+    {
+      "date": "2026-07-07",
+      "value": 80.51
+    },
+    {
+      "date": "2026-07-08",
+      "value": 81.03
+    },
+    {
+      "date": "2026-07-09",
+      "value": 85.91
+    },
+    {
+      "date": "2026-07-10",
+      "value": 84.25
+    },
+    {
+      "date": "2026-07-13",
+      "value": 80.4
+    },
+    {
+      "date": "2026-07-14",
+      "value": 84.7
+    },
+    {
+      "date": "2026-07-15",
+      "value": 81.72
+    },
+    {
+      "date": "2026-07-16",
+      "value": 76.64
+    },
+    {
+      "date": "2026-07-17",
+      "value": 74.01
+    },
+    {
+      "date": "2026-07-20",
+      "value": 74.57
+    },
+    {
+      "date": "2026-07-21",
+      "value": 82.67
+    },
+    {
+      "date": "2026-07-22",
+      "value": 81.28
+    },
+    {
+      "date": "2026-07-23",
+      "value": 81.28
+    },
+    {
+      "date": "2026-07-24",
+      "value": 76.32
+    },
+    {
+      "date": "2026-07-27",
+      "value": 75.0
+    },
+    {
+      "date": "2026-07-28",
+      "value": 69.19
+    },
+    {
+      "date": "2026-07-29",
+      "value": 64.33
+    },
+    {
+      "date": "2026-07-30",
+      "value": 70.16
+    },
+    {
+      "date": "2026-07-31",
+      "value": 74.03
+    },
+    {
+      "date": "2026-08-03",
+      "value": 78.95
+    },
+    {
+      "date": "2026-08-04",
+      "value": 84.82
+    },
+    {
+      "date": "2026-08-05",
+      "value": 83.28
+    },
+    {
+      "date": "2026-08-06",
+      "value": 86.11
+    },
+    {
+      "date": "2026-08-07",
+      "value": 90.59
+    },
+    {
+      "date": "2026-08-10",
+      "value": 86.9
+    },
+    {
+      "date": "2026-08-11",
+      "value": 87.79
+    },
+    {
+      "date": "2026-08-12",
+      "value": 94.11
+    },
+    {
+      "date": "2026-08-13",
+      "value": 91.78
+    },
+    {
+      "date": "2026-08-14",
+      "value": 93.87
+    },
+    {
+      "date": "2026-08-17",
+      "value": 99.8
+    },
+    {
+      "date": "2026-08-18",
+      "value": 90.63
+    },
+    {
+      "date": "2026-08-19",
+      "value": 85.43
+    },
+    {
+      "date": "2026-08-20",
+      "value": 86.98
+    },
+    {
+      "date": "2026-08-21",
+      "value": 86.66
+    },
+    {
+      "date": "2026-08-24",
+      "value": 82.37
+    },
+    {
+      "date": "2026-08-25",
+      "value": 85.85
+    },
+    {
+      "date": "2026-08-26",
+      "value": 87.25
+    },
+    {
+      "date": "2026-08-27",
+      "value": 88.85
+    },
+    {
+      "date": "2026-08-28",
+      "value": 83.16
+    },
+    {
+      "date": "2026-08-31",
+      "value": 84.6
+    },
+    {
+      "date": "2026-09-01",
+      "value": 82.31
+    },
+    {
+      "date": "2026-09-02",
+      "value": 82.27
+    },
+    {
+      "date": "2026-09-03",
+      "value": 81.21
+    },
+    {
+      "date": "2026-09-04",
+      "value": 84.17
+    },
+    {
+      "date": "2026-09-08",
+      "value": 88.46
+    },
+    {
+      "date": "2026-09-09",
+      "value": 88.48
+    },
+    {
+      "date": "2026-09-10",
+      "value": 85.47
+    },
+    {
+      "date": "2026-09-11",
+      "value": 86.64
+    },
+    {
+      "date": "2026-09-14",
+      "value": 80.3
+    },
+    {
+      "date": "2026-09-15",
+      "value": 80.04
+    },
+    {
+      "date": "2026-09-16",
+      "value": 83.99
+    },
+    {
+      "date": "2026-09-17",
+      "value": 85.38
+    },
+    {
+      "date": "2026-09-18",
+      "value": 87.77
+    },
+    {
+      "date": "2026-09-21",
+      "value": 91.11
+    },
+    {
+      "date": "2026-09-22",
+      "value": 90.42
+    },
+    {
+      "date": "2026-09-23",
+      "value": 87.55
+    },
+    {
+      "date": "2026-09-24",
+      "value": 87.13
+    },
+    {
+      "date": "2026-09-25",
+      "value": 88.72
+    },
+    {
+      "date": "2026-09-28",
+      "value": 85.43
+    },
+    {
+      "date": "2026-09-29",
+      "value": 88.24
+    },
+    {
+      "date": "2026-09-30",
+      "value": 87.87
+    },
+    {
+      "date": "2026-10-01",
+      "value": 90.18
+    },
+    {
+      "date": "2026-10-02",
+      "value": 95.42
+    },
+    {
+      "date": "2026-10-05",
+      "value": 95.55
+    },
+    {
+      "date": "2026-10-06",
+      "value": 96.11
+    },
+    {
+      "date": "2026-10-07",
+      "value": 94.43
+    },
+    {
+      "date": "2026-10-08",
+      "value": 87.94
+    },
+    {
+      "date": "2026-10-09",
+      "value": 88.97
+    },
+    {
+      "date": "2026-10-12",
+      "value": 83.62
+    },
+    {
+      "date": "2026-10-13",
+      "value": 83.22
+    },
+    {
+      "date": "2026-10-14",
+      "value": 78.3
+    },
+    {
+      "date": "2026-10-15",
+      "value": 75.08
+    },
+    {
+      "date": "2026-10-16",
+      "value": 71.96
+    },
+    {
+      "date": "2026-10-19",
+      "value": 73.46
+    },
+    {
+      "date": "2026-10-20",
+      "value": 72.65
+    },
+    {
+      "date": "2026-10-21",
+      "value": 74.19
+    },
+    {
+      "date": "2026-10-22",
+      "value": 66.09
+    },
+    {
+      "date": "2026-10-23",
+      "value": 66.5
+    },
+    {
+      "date": "2026-10-26",
+      "value": 69.09
+    },
+    {
+      "date": "2026-10-27",
+      "value": 71.8
+    },
+    {
+      "date": "2026-10-28",
+      "value": 74.92
+    },
+    {
+      "date": "2026-10-29",
+      "value": 73.32
+    },
+    {
+      "date": "2026-10-30",
+      "value": 67.37
+    },
+    {
+      "date": "2026-11-02",
+      "value": 63.28
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-06-30",
+    "last_date": "2026-11-02",
+    "observations": 88,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 175491.0,
+    "average_volume_20d": 301339.55,
+    "average_dollar_volume_20d": 11747859.4374,
+    "relative_volume_20d": 0.5824,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "LITE",
+      "holding_name": "Lumentum Holdings Inc",
+      "weight": 0.16599569,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Lumentum Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "Lumentum Holdings Inc",
+      "display_label": "(LITE)Lumentum Holdings Inc",
+      "bilingual_name": "Lumentum Holdings Inc"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "AXTI",
+      "holding_name": "AXT Inc",
+      "weight": 0.1070148,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "AXT Inc",
+      "holding_name_zh": null,
+      "display_name": "AXT Inc",
+      "display_label": "(AXTI)AXT Inc",
+      "bilingual_name": "AXT Inc"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "AIXA.DE",
+      "holding_name": "Aixtron SE",
+      "weight": 0.080216,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Aixtron SE",
+      "holding_name_zh": null,
+      "display_name": "Aixtron SE",
+      "display_label": "(AIXA.DE)Aixtron SE",
+      "bilingual_name": "Aixtron SE"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "3081.TWO",
+      "holding_name": "LandMark Optoelectronics Corp",
+      "weight": 0.0505781,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "LandMark Optoelectronics Corp",
+      "holding_name_zh": "聯亞",
+      "display_name": "聯亞",
+      "display_label": "(3081.TWO)聯亞",
+      "bilingual_name": "LandMark Optoelectronics Corp（聯亞）"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "688498.SS",
+      "holding_name": "Yuanjie Semiconductor Technology Co Ltd Class A",
+      "weight": 0.0491522,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Yuanjie Semiconductor Technology Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Yuanjie Semiconductor Technology Co Ltd Class A",
+      "display_label": "(688498.SS)Yuanjie Semiconductor Technology Co Ltd Class A",
+      "bilingual_name": "Yuanjie Semiconductor Technology Co Ltd Class A"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "AAOI",
+      "holding_name": "Applied Optoelectronics Inc",
+      "weight": 0.0421792,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Applied Optoelectronics Inc",
+      "holding_name_zh": null,
+      "display_name": "Applied Optoelectronics Inc",
+      "display_label": "(AAOI)Applied Optoelectronics Inc",
+      "bilingual_name": "Applied Optoelectronics Inc"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "5801.T",
+      "holding_name": "Furukawa Electric Co Ltd",
+      "weight": 0.0390253,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Furukawa Electric Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Furukawa Electric Co Ltd",
+      "display_label": "(5801.T)Furukawa Electric Co Ltd",
+      "bilingual_name": "Furukawa Electric Co Ltd"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "AEHR",
+      "holding_name": "Aehr Test Systems",
+      "weight": 0.0375678,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Aehr Test Systems",
+      "holding_name_zh": null,
+      "display_name": "Aehr Test Systems",
+      "display_label": "(AEHR)Aehr Test Systems",
+      "bilingual_name": "Aehr Test Systems"
+    },
+    {
+      "etf_id": "US-LAZR",
+      "holding_symbol": "TSEM.TA",
+      "holding_name": "Tower Semiconductor Ltd",
+      "weight": 0.0366085,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Tower Semiconductor Ltd",
+      "holding_name_zh": null,
+      "display_name": "Tower Semiconductor Ltd",
+      "display_label": "(TSEM.TA)Tower Semiconductor Ltd",
+      "bilingual_name": "Tower Semiconductor Ltd"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 9,
+    "top_10_weight": 0.608338,
+    "top_3_weight": 0.353226
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

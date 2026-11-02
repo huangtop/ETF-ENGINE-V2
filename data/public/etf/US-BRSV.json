@@ -1,0 +1,547 @@
+{
+  "etf_id": "US-BRSV",
+  "ticker": "BRSV",
+  "quote_symbol": "BRSV",
+  "name": "EA Bridgeway Select Small-Cap Value ETF",
+  "short_name": "BRSV",
+  "listing_market": "US",
+  "listing_exchange": "Cboe BZX",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "EA Bridgeway Select Small-Cap Value ETF",
+  "short_name_en": "BRSV",
+  "name_zh": "EA Bridgeway Select Small-Cap Value ETF",
+  "short_name_zh": null,
+  "display_name": "EA Bridgeway Select Small-Cap Value ETF",
+  "display_short_name": "EA Bridgeway Select Small-Cap Value ETF",
+  "display_label": "(BRSV)EA Bridgeway Select Small-Cap Value ETF",
+  "bilingual_name": "EA Bridgeway Select Small-Cap Value ETF（EA Bridgeway Select Small-Cap Value ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "strategy",
+      "code": "value"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -4.5224,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 11.5884,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.5873,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.2778,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -6.9651,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -0.2918,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 10.5717,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 44.42,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-07-27",
+      "value": 100.0
+    },
+    {
+      "date": "2026-07-28",
+      "value": 100.47
+    },
+    {
+      "date": "2026-07-29",
+      "value": 99.3
+    },
+    {
+      "date": "2026-07-30",
+      "value": 99.57
+    },
+    {
+      "date": "2026-07-31",
+      "value": 99.78
+    },
+    {
+      "date": "2026-08-03",
+      "value": 101.46
+    },
+    {
+      "date": "2026-08-04",
+      "value": 102.81
+    },
+    {
+      "date": "2026-08-05",
+      "value": 101.35
+    },
+    {
+      "date": "2026-08-06",
+      "value": 101.05
+    },
+    {
+      "date": "2026-08-07",
+      "value": 101.71
+    },
+    {
+      "date": "2026-08-10",
+      "value": 101.23
+    },
+    {
+      "date": "2026-08-11",
+      "value": 101.3
+    },
+    {
+      "date": "2026-08-12",
+      "value": 101.89
+    },
+    {
+      "date": "2026-08-13",
+      "value": 102.36
+    },
+    {
+      "date": "2026-08-14",
+      "value": 102.81
+    },
+    {
+      "date": "2026-08-17",
+      "value": 102.18
+    },
+    {
+      "date": "2026-08-18",
+      "value": 101.14
+    },
+    {
+      "date": "2026-08-19",
+      "value": 100.52
+    },
+    {
+      "date": "2026-08-20",
+      "value": 99.46
+    },
+    {
+      "date": "2026-08-21",
+      "value": 99.87
+    },
+    {
+      "date": "2026-08-24",
+      "value": 99.42
+    },
+    {
+      "date": "2026-08-25",
+      "value": 99.64
+    },
+    {
+      "date": "2026-08-26",
+      "value": 99.42
+    },
+    {
+      "date": "2026-08-27",
+      "value": 99.66
+    },
+    {
+      "date": "2026-08-28",
+      "value": 99.39
+    },
+    {
+      "date": "2026-08-31",
+      "value": 98.47
+    },
+    {
+      "date": "2026-09-01",
+      "value": 97.55
+    },
+    {
+      "date": "2026-09-02",
+      "value": 98.83
+    },
+    {
+      "date": "2026-09-03",
+      "value": 99.3
+    },
+    {
+      "date": "2026-09-04",
+      "value": 99.62
+    },
+    {
+      "date": "2026-09-08",
+      "value": 98.63
+    },
+    {
+      "date": "2026-09-09",
+      "value": 98.11
+    },
+    {
+      "date": "2026-09-10",
+      "value": 97.78
+    },
+    {
+      "date": "2026-09-11",
+      "value": 98.41
+    },
+    {
+      "date": "2026-09-14",
+      "value": 98.16
+    },
+    {
+      "date": "2026-09-15",
+      "value": 97.73
+    },
+    {
+      "date": "2026-09-16",
+      "value": 97.4
+    },
+    {
+      "date": "2026-09-17",
+      "value": 97.78
+    },
+    {
+      "date": "2026-09-18",
+      "value": 97.22
+    },
+    {
+      "date": "2026-09-21",
+      "value": 97.33
+    },
+    {
+      "date": "2026-09-22",
+      "value": 97.19
+    },
+    {
+      "date": "2026-09-23",
+      "value": 96.36
+    },
+    {
+      "date": "2026-09-24",
+      "value": 96.97
+    },
+    {
+      "date": "2026-09-25",
+      "value": 97.28
+    },
+    {
+      "date": "2026-09-28",
+      "value": 96.81
+    },
+    {
+      "date": "2026-09-29",
+      "value": 96.34
+    },
+    {
+      "date": "2026-09-30",
+      "value": 95.65
+    },
+    {
+      "date": "2026-10-01",
+      "value": 96.59
+    },
+    {
+      "date": "2026-10-02",
+      "value": 97.44
+    },
+    {
+      "date": "2026-10-05",
+      "value": 97.64
+    },
+    {
+      "date": "2026-10-06",
+      "value": 97.24
+    },
+    {
+      "date": "2026-10-07",
+      "value": 96.27
+    },
+    {
+      "date": "2026-10-08",
+      "value": 97.37
+    },
+    {
+      "date": "2026-10-09",
+      "value": 97.33
+    },
+    {
+      "date": "2026-10-12",
+      "value": 97.51
+    },
+    {
+      "date": "2026-10-13",
+      "value": 97.89
+    },
+    {
+      "date": "2026-10-14",
+      "value": 96.52
+    },
+    {
+      "date": "2026-10-15",
+      "value": 97.78
+    },
+    {
+      "date": "2026-10-16",
+      "value": 97.19
+    },
+    {
+      "date": "2026-10-19",
+      "value": 96.84
+    },
+    {
+      "date": "2026-10-20",
+      "value": 98.23
+    },
+    {
+      "date": "2026-10-21",
+      "value": 98.38
+    },
+    {
+      "date": "2026-10-22",
+      "value": 99.35
+    },
+    {
+      "date": "2026-10-23",
+      "value": 99.55
+    },
+    {
+      "date": "2026-10-26",
+      "value": 100.07
+    },
+    {
+      "date": "2026-10-27",
+      "value": 99.87
+    },
+    {
+      "date": "2026-10-28",
+      "value": 99.6
+    },
+    {
+      "date": "2026-10-29",
+      "value": 100.49
+    },
+    {
+      "date": "2026-10-30",
+      "value": 99.35
+    },
+    {
+      "date": "2026-11-02",
+      "value": 99.71
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-07-27",
+    "last_date": "2026-11-02",
+    "observations": 70,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 6719.0,
+    "average_volume_20d": 11875.95,
+    "average_dollar_volume_20d": 522340.0998,
+    "relative_volume_20d": 0.5658,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "VSAT",
+      "holding_name": "Viasat Inc",
+      "weight": 0.0108289,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Viasat Inc",
+      "holding_name_zh": null,
+      "display_name": "Viasat Inc",
+      "display_label": "(VSAT)Viasat Inc",
+      "bilingual_name": "Viasat Inc"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "FULT",
+      "holding_name": "Fulton Financial Corp",
+      "weight": 0.0100182,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Fulton Financial Corp",
+      "holding_name_zh": null,
+      "display_name": "Fulton Financial Corp",
+      "display_label": "(FULT)Fulton Financial Corp",
+      "bilingual_name": "Fulton Financial Corp"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "WSFS",
+      "holding_name": "WSFS Financial Corp",
+      "weight": 0.0097019,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "WSFS Financial Corp",
+      "holding_name_zh": null,
+      "display_name": "WSFS Financial Corp",
+      "display_label": "(WSFS)WSFS Financial Corp",
+      "bilingual_name": "WSFS Financial Corp"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "INSW",
+      "holding_name": "International Seaways Inc",
+      "weight": 0.0096745,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "International Seaways Inc",
+      "holding_name_zh": null,
+      "display_name": "International Seaways Inc",
+      "display_label": "(INSW)International Seaways Inc",
+      "bilingual_name": "International Seaways Inc"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "UMBF",
+      "holding_name": "UMB Financial Corp",
+      "weight": 0.0095412,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "UMB Financial Corp",
+      "holding_name_zh": null,
+      "display_name": "UMB Financial Corp",
+      "display_label": "(UMBF)UMB Financial Corp",
+      "bilingual_name": "UMB Financial Corp"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "MATX",
+      "holding_name": "Matson Inc",
+      "weight": 0.0094713,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Matson Inc",
+      "holding_name_zh": null,
+      "display_name": "Matson Inc",
+      "display_label": "(MATX)Matson Inc",
+      "bilingual_name": "Matson Inc"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "SIG",
+      "holding_name": "Signet Jewelers Ltd",
+      "weight": 0.0093443,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Signet Jewelers Ltd",
+      "holding_name_zh": null,
+      "display_name": "Signet Jewelers Ltd",
+      "display_label": "(SIG)Signet Jewelers Ltd",
+      "bilingual_name": "Signet Jewelers Ltd"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "FFBC",
+      "holding_name": "First Financial Bancorp",
+      "weight": 0.0093087,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "First Financial Bancorp",
+      "holding_name_zh": null,
+      "display_name": "First Financial Bancorp",
+      "display_label": "(FFBC)First Financial Bancorp",
+      "bilingual_name": "First Financial Bancorp"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "PRLB",
+      "holding_name": "Proto Labs Inc",
+      "weight": 0.0089556,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Proto Labs Inc",
+      "holding_name_zh": null,
+      "display_name": "Proto Labs Inc",
+      "display_label": "(PRLB)Proto Labs Inc",
+      "bilingual_name": "Proto Labs Inc"
+    },
+    {
+      "etf_id": "US-BRSV",
+      "holding_symbol": "NTCT",
+      "holding_name": "NetScout Systems Inc",
+      "weight": 0.0088768,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "NetScout Systems Inc",
+      "holding_name_zh": null,
+      "display_name": "NetScout Systems Inc",
+      "display_label": "(NTCT)NetScout Systems Inc",
+      "bilingual_name": "NetScout Systems Inc"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.095721,
+    "top_3_weight": 0.030549
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

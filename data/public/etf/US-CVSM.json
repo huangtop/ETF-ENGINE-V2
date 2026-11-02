@@ -1,0 +1,727 @@
+{
+  "etf_id": "US-CVSM",
+  "ticker": "CVSM",
+  "quote_symbol": "CVSM",
+  "name": "CresAlta Small and Mid-Cap ETF",
+  "short_name": "CVSM",
+  "listing_market": "US",
+  "listing_exchange": "NYSE Arca",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "CresAlta Small and Mid-Cap ETF",
+  "short_name_en": "CVSM",
+  "name_zh": "CresAlta Small and Mid-Cap ETF",
+  "short_name_zh": null,
+  "display_name": "CresAlta Small and Mid-Cap ETF",
+  "display_short_name": "CresAlta Small and Mid-Cap ETF",
+  "display_label": "(CVSM)CresAlta Small and Mid-Cap ETF",
+  "bilingual_name": "CresAlta Small and Mid-Cap ETF（CresAlta Small and Mid-Cap ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": 5.9003,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 11.338,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.2875,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.4603,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -8.7908,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": 3.2845,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 13.9007,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-10-30",
+    "value": 26.1,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-05-18",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-19",
+      "value": 98.85
+    },
+    {
+      "date": "2026-05-20",
+      "value": 100.16
+    },
+    {
+      "date": "2026-05-21",
+      "value": 100.44
+    },
+    {
+      "date": "2026-05-22",
+      "value": 101.27
+    },
+    {
+      "date": "2026-05-26",
+      "value": 102.14
+    },
+    {
+      "date": "2026-05-27",
+      "value": 101.9
+    },
+    {
+      "date": "2026-05-28",
+      "value": 102.02
+    },
+    {
+      "date": "2026-05-29",
+      "value": 101.58
+    },
+    {
+      "date": "2026-06-01",
+      "value": 101.46
+    },
+    {
+      "date": "2026-06-02",
+      "value": 102.26
+    },
+    {
+      "date": "2026-06-03",
+      "value": 101.9
+    },
+    {
+      "date": "2026-06-04",
+      "value": 102.45
+    },
+    {
+      "date": "2026-06-05",
+      "value": 102.06
+    },
+    {
+      "date": "2026-06-08",
+      "value": 102.37
+    },
+    {
+      "date": "2026-06-09",
+      "value": 103.36
+    },
+    {
+      "date": "2026-06-10",
+      "value": 102.57
+    },
+    {
+      "date": "2026-06-11",
+      "value": 103.92
+    },
+    {
+      "date": "2026-06-12",
+      "value": 104.67
+    },
+    {
+      "date": "2026-06-15",
+      "value": 104.08
+    },
+    {
+      "date": "2026-06-16",
+      "value": 103.44
+    },
+    {
+      "date": "2026-06-17",
+      "value": 101.62
+    },
+    {
+      "date": "2026-06-18",
+      "value": 101.66
+    },
+    {
+      "date": "2026-06-22",
+      "value": 101.19
+    },
+    {
+      "date": "2026-06-23",
+      "value": 101.15
+    },
+    {
+      "date": "2026-06-24",
+      "value": 101.62
+    },
+    {
+      "date": "2026-06-25",
+      "value": 102.45
+    },
+    {
+      "date": "2026-06-26",
+      "value": 103.48
+    },
+    {
+      "date": "2026-06-29",
+      "value": 102.85
+    },
+    {
+      "date": "2026-06-30",
+      "value": 103.09
+    },
+    {
+      "date": "2026-07-01",
+      "value": 102.77
+    },
+    {
+      "date": "2026-07-02",
+      "value": 103.72
+    },
+    {
+      "date": "2026-07-06",
+      "value": 103.8
+    },
+    {
+      "date": "2026-07-07",
+      "value": 103.6
+    },
+    {
+      "date": "2026-07-08",
+      "value": 102.33
+    },
+    {
+      "date": "2026-07-09",
+      "value": 102.3
+    },
+    {
+      "date": "2026-07-10",
+      "value": 102.73
+    },
+    {
+      "date": "2026-07-13",
+      "value": 102.89
+    },
+    {
+      "date": "2026-07-14",
+      "value": 102.93
+    },
+    {
+      "date": "2026-07-15",
+      "value": 102.89
+    },
+    {
+      "date": "2026-07-16",
+      "value": 104.08
+    },
+    {
+      "date": "2026-07-17",
+      "value": 103.72
+    },
+    {
+      "date": "2026-07-20",
+      "value": 103.21
+    },
+    {
+      "date": "2026-07-21",
+      "value": 103.88
+    },
+    {
+      "date": "2026-07-22",
+      "value": 104.12
+    },
+    {
+      "date": "2026-07-23",
+      "value": 103.52
+    },
+    {
+      "date": "2026-07-24",
+      "value": 105.3
+    },
+    {
+      "date": "2026-07-27",
+      "value": 105.5
+    },
+    {
+      "date": "2026-07-28",
+      "value": 106.69
+    },
+    {
+      "date": "2026-07-29",
+      "value": 105.54
+    },
+    {
+      "date": "2026-07-30",
+      "value": 105.42
+    },
+    {
+      "date": "2026-07-31",
+      "value": 104.19
+    },
+    {
+      "date": "2026-08-03",
+      "value": 104.71
+    },
+    {
+      "date": "2026-08-04",
+      "value": 106.17
+    },
+    {
+      "date": "2026-08-05",
+      "value": 105.9
+    },
+    {
+      "date": "2026-08-06",
+      "value": 104.79
+    },
+    {
+      "date": "2026-08-07",
+      "value": 105.5
+    },
+    {
+      "date": "2026-08-10",
+      "value": 105.14
+    },
+    {
+      "date": "2026-08-11",
+      "value": 105.18
+    },
+    {
+      "date": "2026-08-12",
+      "value": 104.99
+    },
+    {
+      "date": "2026-08-13",
+      "value": 105.7
+    },
+    {
+      "date": "2026-08-14",
+      "value": 106.13
+    },
+    {
+      "date": "2026-08-17",
+      "value": 105.22
+    },
+    {
+      "date": "2026-08-18",
+      "value": 104.95
+    },
+    {
+      "date": "2026-08-19",
+      "value": 105.26
+    },
+    {
+      "date": "2026-08-20",
+      "value": 104.16
+    },
+    {
+      "date": "2026-08-21",
+      "value": 104.51
+    },
+    {
+      "date": "2026-08-24",
+      "value": 104.23
+    },
+    {
+      "date": "2026-08-25",
+      "value": 104.0
+    },
+    {
+      "date": "2026-08-26",
+      "value": 104.59
+    },
+    {
+      "date": "2026-08-27",
+      "value": 104.27
+    },
+    {
+      "date": "2026-08-28",
+      "value": 104.23
+    },
+    {
+      "date": "2026-08-31",
+      "value": 103.72
+    },
+    {
+      "date": "2026-09-01",
+      "value": 103.28
+    },
+    {
+      "date": "2026-09-02",
+      "value": 104.08
+    },
+    {
+      "date": "2026-09-03",
+      "value": 104.19
+    },
+    {
+      "date": "2026-09-04",
+      "value": 104.59
+    },
+    {
+      "date": "2026-09-08",
+      "value": 103.24
+    },
+    {
+      "date": "2026-09-09",
+      "value": 102.18
+    },
+    {
+      "date": "2026-09-10",
+      "value": 101.5
+    },
+    {
+      "date": "2026-09-11",
+      "value": 101.82
+    },
+    {
+      "date": "2026-09-14",
+      "value": 101.39
+    },
+    {
+      "date": "2026-09-15",
+      "value": 101.39
+    },
+    {
+      "date": "2026-09-16",
+      "value": 100.59
+    },
+    {
+      "date": "2026-09-17",
+      "value": 100.67
+    },
+    {
+      "date": "2026-09-18",
+      "value": 99.8
+    },
+    {
+      "date": "2026-09-21",
+      "value": 99.45
+    },
+    {
+      "date": "2026-09-22",
+      "value": 100.04
+    },
+    {
+      "date": "2026-09-23",
+      "value": 99.64
+    },
+    {
+      "date": "2026-09-24",
+      "value": 98.73
+    },
+    {
+      "date": "2026-09-25",
+      "value": 99.29
+    },
+    {
+      "date": "2026-09-28",
+      "value": 98.58
+    },
+    {
+      "date": "2026-09-29",
+      "value": 97.7
+    },
+    {
+      "date": "2026-09-30",
+      "value": 97.31
+    },
+    {
+      "date": "2026-10-01",
+      "value": 97.74
+    },
+    {
+      "date": "2026-10-02",
+      "value": 98.18
+    },
+    {
+      "date": "2026-10-05",
+      "value": 98.18
+    },
+    {
+      "date": "2026-10-06",
+      "value": 98.77
+    },
+    {
+      "date": "2026-10-07",
+      "value": 97.67
+    },
+    {
+      "date": "2026-10-08",
+      "value": 98.3
+    },
+    {
+      "date": "2026-10-09",
+      "value": 97.94
+    },
+    {
+      "date": "2026-10-12",
+      "value": 98.34
+    },
+    {
+      "date": "2026-10-13",
+      "value": 98.65
+    },
+    {
+      "date": "2026-10-14",
+      "value": 98.42
+    },
+    {
+      "date": "2026-10-15",
+      "value": 99.92
+    },
+    {
+      "date": "2026-10-16",
+      "value": 99.84
+    },
+    {
+      "date": "2026-10-19",
+      "value": 99.25
+    },
+    {
+      "date": "2026-10-20",
+      "value": 100.67
+    },
+    {
+      "date": "2026-10-21",
+      "value": 100.55
+    },
+    {
+      "date": "2026-10-22",
+      "value": 102.22
+    },
+    {
+      "date": "2026-10-23",
+      "value": 101.31
+    },
+    {
+      "date": "2026-10-26",
+      "value": 102.02
+    },
+    {
+      "date": "2026-10-27",
+      "value": 102.1
+    },
+    {
+      "date": "2026-10-28",
+      "value": 101.62
+    },
+    {
+      "date": "2026-10-29",
+      "value": 102.89
+    },
+    {
+      "date": "2026-10-30",
+      "value": 103.28
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-05-18",
+    "last_date": "2026-10-30",
+    "observations": 116,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-10-30",
+    "latest_volume": 1000.0,
+    "average_volume_20d": 2805.0,
+    "average_dollar_volume_20d": 71064.2,
+    "relative_volume_20d": 0.3565,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "MVRXX",
+      "holding_name": "Morgan Stanley Instl Lqudty Govt Instl",
+      "weight": 0.0720931,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Morgan Stanley Instl Lqudty Govt Instl",
+      "holding_name_zh": null,
+      "display_name": "Morgan Stanley Instl Lqudty Govt Instl",
+      "display_label": "(MVRXX)Morgan Stanley Instl Lqudty Govt Instl",
+      "bilingual_name": "Morgan Stanley Instl Lqudty Govt Instl"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "DT",
+      "holding_name": "Dynatrace Inc Ordinary Shares",
+      "weight": 0.0382246,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Dynatrace Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Dynatrace Inc Ordinary Shares",
+      "display_label": "(DT)Dynatrace Inc Ordinary Shares",
+      "bilingual_name": "Dynatrace Inc Ordinary Shares"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "VTRS",
+      "holding_name": "Viatris Inc",
+      "weight": 0.0288585,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Viatris Inc",
+      "holding_name_zh": null,
+      "display_name": "Viatris Inc",
+      "display_label": "(VTRS)Viatris Inc",
+      "bilingual_name": "Viatris Inc"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "MSM",
+      "holding_name": "MSC Industrial Direct Co Inc Class A",
+      "weight": 0.027006,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "MSC Industrial Direct Co Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "MSC Industrial Direct Co Inc Class A",
+      "display_label": "(MSM)MSC Industrial Direct Co Inc Class A",
+      "bilingual_name": "MSC Industrial Direct Co Inc Class A"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "SAFT",
+      "holding_name": "Safety Insurance Group Inc",
+      "weight": 0.0263485,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Safety Insurance Group Inc",
+      "holding_name_zh": null,
+      "display_name": "Safety Insurance Group Inc",
+      "display_label": "(SAFT)Safety Insurance Group Inc",
+      "bilingual_name": "Safety Insurance Group Inc"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "ST",
+      "holding_name": "Sensata Technologies Holding PLC",
+      "weight": 0.0247282,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Sensata Technologies Holding PLC",
+      "holding_name_zh": null,
+      "display_name": "Sensata Technologies Holding PLC",
+      "display_label": "(ST)Sensata Technologies Holding PLC",
+      "bilingual_name": "Sensata Technologies Holding PLC"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "SJM",
+      "holding_name": "JM Smucker Co",
+      "weight": 0.0246105,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "JM Smucker Co",
+      "holding_name_zh": null,
+      "display_name": "JM Smucker Co",
+      "display_label": "(SJM)JM Smucker Co",
+      "bilingual_name": "JM Smucker Co"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "HII",
+      "holding_name": "Huntington Ingalls Industries Inc",
+      "weight": 0.0234873,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Huntington Ingalls Industries Inc",
+      "holding_name_zh": null,
+      "display_name": "Huntington Ingalls Industries Inc",
+      "display_label": "(HII)Huntington Ingalls Industries Inc",
+      "bilingual_name": "Huntington Ingalls Industries Inc"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "TYL",
+      "holding_name": "Tyler Technologies Inc",
+      "weight": 0.0233469,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Tyler Technologies Inc",
+      "holding_name_zh": null,
+      "display_name": "Tyler Technologies Inc",
+      "display_label": "(TYL)Tyler Technologies Inc",
+      "bilingual_name": "Tyler Technologies Inc"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "BKH",
+      "holding_name": "Black Hills Corp",
+      "weight": 0.0226425,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Black Hills Corp",
+      "holding_name_zh": null,
+      "display_name": "Black Hills Corp",
+      "display_label": "(BKH)Black Hills Corp",
+      "bilingual_name": "Black Hills Corp"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.311346,
+    "top_3_weight": 0.139176
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

@@ -1,0 +1,799 @@
+{
+  "etf_id": "US-RISE",
+  "ticker": "RISE",
+  "quote_symbol": "RISE",
+  "name": "Pictet Emerging Markets Rising Economies ETF",
+  "short_name": "RISE",
+  "listing_market": "US",
+  "listing_exchange": "NYSE Arca",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-02",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Pictet Emerging Markets Rising Economies ETF",
+  "short_name_en": "RISE",
+  "name_zh": "Pictet Emerging Markets Rising Economies ETF",
+  "short_name_zh": null,
+  "display_name": "Pictet Emerging Markets Rising Economies ETF",
+  "display_short_name": "Pictet Emerging Markets Rising Economies ETF",
+  "display_label": "(RISE)Pictet Emerging Markets Rising Economies ETF",
+  "bilingual_name": "Pictet Emerging Markets Rising Economies ETF（Pictet Emerging Markets Rising Economies ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "emerging_markets"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    }
+  ],
+  "metrics": {
+    "alpha": {
+      "value": -27.3723,
+      "unit": "percent"
+    },
+    "annualized_volatility": {
+      "value": 17.8786,
+      "unit": "percent"
+    },
+    "beta": {
+      "value": 0.89,
+      "unit": "ratio"
+    },
+    "data_years": {
+      "value": 0.5317,
+      "unit": "years"
+    },
+    "max_drawdown": {
+      "value": -10.8363,
+      "unit": "percent"
+    },
+    "sharpe_ratio": {
+      "value": null,
+      "unit": "ratio"
+    },
+    "total_return_since_inception": {
+      "value": -8.9683,
+      "unit": "percent"
+    },
+    "tracking_error": {
+      "value": 14.3325,
+      "unit": "percent"
+    }
+  },
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-02",
+    "value": 17.4075,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-04-23",
+      "value": 100.0
+    },
+    {
+      "date": "2026-04-24",
+      "value": 100.15
+    },
+    {
+      "date": "2026-04-27",
+      "value": 99.38
+    },
+    {
+      "date": "2026-04-28",
+      "value": 98.56
+    },
+    {
+      "date": "2026-04-29",
+      "value": 97.11
+    },
+    {
+      "date": "2026-04-30",
+      "value": 98.61
+    },
+    {
+      "date": "2026-05-01",
+      "value": 98.45
+    },
+    {
+      "date": "2026-05-04",
+      "value": 97.27
+    },
+    {
+      "date": "2026-05-05",
+      "value": 98.66
+    },
+    {
+      "date": "2026-05-06",
+      "value": 101.29
+    },
+    {
+      "date": "2026-05-07",
+      "value": 100.0
+    },
+    {
+      "date": "2026-05-08",
+      "value": 100.57
+    },
+    {
+      "date": "2026-05-11",
+      "value": 99.28
+    },
+    {
+      "date": "2026-05-12",
+      "value": 98.25
+    },
+    {
+      "date": "2026-05-13",
+      "value": 97.58
+    },
+    {
+      "date": "2026-05-14",
+      "value": 97.84
+    },
+    {
+      "date": "2026-05-15",
+      "value": 95.62
+    },
+    {
+      "date": "2026-05-18",
+      "value": 96.24
+    },
+    {
+      "date": "2026-05-19",
+      "value": 95.1
+    },
+    {
+      "date": "2026-05-20",
+      "value": 96.86
+    },
+    {
+      "date": "2026-05-21",
+      "value": 96.7
+    },
+    {
+      "date": "2026-05-22",
+      "value": 96.03
+    },
+    {
+      "date": "2026-05-26",
+      "value": 97.27
+    },
+    {
+      "date": "2026-05-27",
+      "value": 96.96
+    },
+    {
+      "date": "2026-05-28",
+      "value": 97.16
+    },
+    {
+      "date": "2026-05-29",
+      "value": 96.55
+    },
+    {
+      "date": "2026-06-01",
+      "value": 95.62
+    },
+    {
+      "date": "2026-06-02",
+      "value": 96.65
+    },
+    {
+      "date": "2026-06-03",
+      "value": 94.28
+    },
+    {
+      "date": "2026-06-04",
+      "value": 94.85
+    },
+    {
+      "date": "2026-06-05",
+      "value": 91.91
+    },
+    {
+      "date": "2026-06-08",
+      "value": 91.86
+    },
+    {
+      "date": "2026-06-09",
+      "value": 92.47
+    },
+    {
+      "date": "2026-06-10",
+      "value": 91.6
+    },
+    {
+      "date": "2026-06-11",
+      "value": 94.28
+    },
+    {
+      "date": "2026-06-12",
+      "value": 95.15
+    },
+    {
+      "date": "2026-06-15",
+      "value": 96.55
+    },
+    {
+      "date": "2026-06-16",
+      "value": 96.65
+    },
+    {
+      "date": "2026-06-17",
+      "value": 95.82
+    },
+    {
+      "date": "2026-06-18",
+      "value": 95.72
+    },
+    {
+      "date": "2026-06-22",
+      "value": 94.69
+    },
+    {
+      "date": "2026-06-23",
+      "value": 93.66
+    },
+    {
+      "date": "2026-06-24",
+      "value": 92.78
+    },
+    {
+      "date": "2026-06-25",
+      "value": 93.14
+    },
+    {
+      "date": "2026-06-26",
+      "value": 93.5
+    },
+    {
+      "date": "2026-06-29",
+      "value": 93.45
+    },
+    {
+      "date": "2026-06-30",
+      "value": 93.35
+    },
+    {
+      "date": "2026-07-01",
+      "value": 92.83
+    },
+    {
+      "date": "2026-07-02",
+      "value": 93.5
+    },
+    {
+      "date": "2026-07-06",
+      "value": 94.23
+    },
+    {
+      "date": "2026-07-07",
+      "value": 93.45
+    },
+    {
+      "date": "2026-07-08",
+      "value": 93.04
+    },
+    {
+      "date": "2026-07-09",
+      "value": 93.87
+    },
+    {
+      "date": "2026-07-10",
+      "value": 94.75
+    },
+    {
+      "date": "2026-07-13",
+      "value": 93.56
+    },
+    {
+      "date": "2026-07-14",
+      "value": 94.38
+    },
+    {
+      "date": "2026-07-15",
+      "value": 94.23
+    },
+    {
+      "date": "2026-07-16",
+      "value": 93.19
+    },
+    {
+      "date": "2026-07-17",
+      "value": 93.04
+    },
+    {
+      "date": "2026-07-20",
+      "value": 92.93
+    },
+    {
+      "date": "2026-07-21",
+      "value": 93.76
+    },
+    {
+      "date": "2026-07-22",
+      "value": 94.02
+    },
+    {
+      "date": "2026-07-23",
+      "value": 93.3
+    },
+    {
+      "date": "2026-07-24",
+      "value": 92.78
+    },
+    {
+      "date": "2026-07-27",
+      "value": 93.71
+    },
+    {
+      "date": "2026-07-28",
+      "value": 94.07
+    },
+    {
+      "date": "2026-07-29",
+      "value": 93.35
+    },
+    {
+      "date": "2026-07-30",
+      "value": 95.42
+    },
+    {
+      "date": "2026-07-31",
+      "value": 95.52
+    },
+    {
+      "date": "2026-08-03",
+      "value": 96.09
+    },
+    {
+      "date": "2026-08-04",
+      "value": 97.39
+    },
+    {
+      "date": "2026-08-05",
+      "value": 97.96
+    },
+    {
+      "date": "2026-08-06",
+      "value": 97.7
+    },
+    {
+      "date": "2026-08-07",
+      "value": 98.37
+    },
+    {
+      "date": "2026-08-10",
+      "value": 98.27
+    },
+    {
+      "date": "2026-08-11",
+      "value": 96.72
+    },
+    {
+      "date": "2026-08-12",
+      "value": 96.97
+    },
+    {
+      "date": "2026-08-13",
+      "value": 96.56
+    },
+    {
+      "date": "2026-08-14",
+      "value": 96.09
+    },
+    {
+      "date": "2026-08-17",
+      "value": 95.89
+    },
+    {
+      "date": "2026-08-18",
+      "value": 95.42
+    },
+    {
+      "date": "2026-08-19",
+      "value": 97.23
+    },
+    {
+      "date": "2026-08-20",
+      "value": 97.29
+    },
+    {
+      "date": "2026-08-21",
+      "value": 99.41
+    },
+    {
+      "date": "2026-08-24",
+      "value": 99.1
+    },
+    {
+      "date": "2026-08-25",
+      "value": 100.03
+    },
+    {
+      "date": "2026-08-26",
+      "value": 99.56
+    },
+    {
+      "date": "2026-08-27",
+      "value": 99.51
+    },
+    {
+      "date": "2026-08-28",
+      "value": 98.79
+    },
+    {
+      "date": "2026-08-31",
+      "value": 98.99
+    },
+    {
+      "date": "2026-09-01",
+      "value": 98.89
+    },
+    {
+      "date": "2026-09-02",
+      "value": 99.93
+    },
+    {
+      "date": "2026-09-03",
+      "value": 101.12
+    },
+    {
+      "date": "2026-09-04",
+      "value": 100.76
+    },
+    {
+      "date": "2026-09-08",
+      "value": 100.86
+    },
+    {
+      "date": "2026-09-09",
+      "value": 100.24
+    },
+    {
+      "date": "2026-09-10",
+      "value": 99.51
+    },
+    {
+      "date": "2026-09-11",
+      "value": 99.56
+    },
+    {
+      "date": "2026-09-14",
+      "value": 98.84
+    },
+    {
+      "date": "2026-09-15",
+      "value": 98.22
+    },
+    {
+      "date": "2026-09-16",
+      "value": 97.13
+    },
+    {
+      "date": "2026-09-17",
+      "value": 98.42
+    },
+    {
+      "date": "2026-09-18",
+      "value": 97.54
+    },
+    {
+      "date": "2026-09-21",
+      "value": 98.37
+    },
+    {
+      "date": "2026-09-22",
+      "value": 98.84
+    },
+    {
+      "date": "2026-09-23",
+      "value": 97.29
+    },
+    {
+      "date": "2026-09-24",
+      "value": 96.35
+    },
+    {
+      "date": "2026-09-25",
+      "value": 96.85
+    },
+    {
+      "date": "2026-09-28",
+      "value": 95.12
+    },
+    {
+      "date": "2026-09-29",
+      "value": 95.02
+    },
+    {
+      "date": "2026-09-30",
+      "value": 94.76
+    },
+    {
+      "date": "2026-10-01",
+      "value": 94.13
+    },
+    {
+      "date": "2026-10-02",
+      "value": 94.76
+    },
+    {
+      "date": "2026-10-05",
+      "value": 97.79
+    },
+    {
+      "date": "2026-10-06",
+      "value": 97.84
+    },
+    {
+      "date": "2026-10-07",
+      "value": 96.12
+    },
+    {
+      "date": "2026-10-08",
+      "value": 96.27
+    },
+    {
+      "date": "2026-10-09",
+      "value": 97.63
+    },
+    {
+      "date": "2026-10-12",
+      "value": 97.84
+    },
+    {
+      "date": "2026-10-13",
+      "value": 98.47
+    },
+    {
+      "date": "2026-10-14",
+      "value": 97.63
+    },
+    {
+      "date": "2026-10-15",
+      "value": 98.47
+    },
+    {
+      "date": "2026-10-16",
+      "value": 98.58
+    },
+    {
+      "date": "2026-10-19",
+      "value": 98.1
+    },
+    {
+      "date": "2026-10-20",
+      "value": 99.31
+    },
+    {
+      "date": "2026-10-21",
+      "value": 99.1
+    },
+    {
+      "date": "2026-10-22",
+      "value": 97.84
+    },
+    {
+      "date": "2026-10-23",
+      "value": 97.37
+    },
+    {
+      "date": "2026-10-26",
+      "value": 92.77
+    },
+    {
+      "date": "2026-10-27",
+      "value": 93.19
+    },
+    {
+      "date": "2026-10-28",
+      "value": 92.82
+    },
+    {
+      "date": "2026-10-29",
+      "value": 91.99
+    },
+    {
+      "date": "2026-10-30",
+      "value": 90.31
+    },
+    {
+      "date": "2026-11-02",
+      "value": 91.03
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-04-23",
+    "last_date": "2026-11-02",
+    "observations": 134,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-02",
+    "latest_volume": 10718.0,
+    "average_volume_20d": 3405.9,
+    "average_dollar_volume_20d": 61784.1273,
+    "relative_volume_20d": 3.1469,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 20
+  },
+  "top_holdings": [
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "BAP",
+      "holding_name": "Credicorp Ltd",
+      "weight": 0.0313719,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "Credicorp Ltd",
+      "holding_name_zh": null,
+      "display_name": "Credicorp Ltd",
+      "display_label": "(BAP)Credicorp Ltd",
+      "bilingual_name": "Credicorp Ltd"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "ITUB4",
+      "holding_name": "Itau Unibanco Holding SA Participating Preferred",
+      "weight": 0.0301752,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Itau Unibanco Holding SA Participating Preferred",
+      "holding_name_zh": null,
+      "display_name": "Itau Unibanco Holding SA Participating Preferred",
+      "display_label": "(ITUB4)Itau Unibanco Holding SA Participating Preferred",
+      "bilingual_name": "Itau Unibanco Holding SA Participating Preferred"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "GFNORTEO.MX",
+      "holding_name": "Grupo Financiero Banorte SAB de CV Class O",
+      "weight": 0.0294958,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Grupo Financiero Banorte SAB de CV Class O",
+      "holding_name_zh": null,
+      "display_name": "Grupo Financiero Banorte SAB de CV Class O",
+      "display_label": "(GFNORTEO.MX)Grupo Financiero Banorte SAB de CV Class O",
+      "bilingual_name": "Grupo Financiero Banorte SAB de CV Class O"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "PETR4",
+      "holding_name": "Petroleo Brasileiro SA Petrobras Participating Preferred",
+      "weight": 0.0289025,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Petroleo Brasileiro SA Petrobras Participating Preferred",
+      "holding_name_zh": null,
+      "display_name": "Petroleo Brasileiro SA Petrobras Participating Preferred",
+      "display_label": "(PETR4)Petroleo Brasileiro SA Petrobras Participating Preferred",
+      "bilingual_name": "Petroleo Brasileiro SA Petrobras Participating Preferred"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "HCLTECH.NS",
+      "holding_name": "HCL Technologies Ltd",
+      "weight": 0.0285797,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "HCL Technologies Ltd",
+      "holding_name_zh": null,
+      "display_name": "HCL Technologies Ltd",
+      "display_label": "(HCLTECH.NS)HCL Technologies Ltd",
+      "bilingual_name": "HCL Technologies Ltd"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "NPN.JO",
+      "holding_name": "Naspers Ltd Class N",
+      "weight": 0.0285794,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Naspers Ltd Class N",
+      "holding_name_zh": null,
+      "display_name": "Naspers Ltd Class N",
+      "display_label": "(NPN.JO)Naspers Ltd Class N",
+      "bilingual_name": "Naspers Ltd Class N"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "INFY",
+      "holding_name": "Infosys Ltd ADR",
+      "weight": 0.0261024,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Infosys Ltd ADR",
+      "holding_name_zh": null,
+      "display_name": "Infosys Ltd ADR",
+      "display_label": "(INFY)Infosys Ltd ADR",
+      "bilingual_name": "Infosys Ltd ADR"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "BPAC11",
+      "holding_name": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
+      "weight": 0.0253989,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
+      "holding_name_zh": null,
+      "display_name": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
+      "display_label": "(BPAC11)Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
+      "bilingual_name": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "GFI.JO",
+      "holding_name": "Gold Fields Ltd",
+      "weight": 0.0248883,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Gold Fields Ltd",
+      "holding_name_zh": null,
+      "display_name": "Gold Fields Ltd",
+      "display_label": "(GFI.JO)Gold Fields Ltd",
+      "bilingual_name": "Gold Fields Ltd"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "COFORGE.BO",
+      "holding_name": "Coforge Ltd",
+      "weight": 0.0238459,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Coforge Ltd",
+      "holding_name_zh": null,
+      "display_name": "Coforge Ltd",
+      "display_label": "(COFORGE.BO)Coforge Ltd",
+      "bilingual_name": "Coforge Ltd"
+    }
+  ],
+  "holdings_summary": {
+    "holding_count": 10,
+    "top_10_weight": 0.27734,
+    "top_3_weight": 0.091043
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}
