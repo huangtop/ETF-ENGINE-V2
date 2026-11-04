@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -14.4835,
+      "value": -14.4936,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -10.1048,
+      "value": -10.1139,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 15.0998,
+      "value": 15.0991,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4259,
+      "value": 0.4258,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 3.0238,
+      "value": 3.0198,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.7685,
+      "value": -0.7692,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -10.1048,
+      "value": -10.1139,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 15.8837,
+      "value": 15.8833,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-03",
-    "value": 34.4735,
+    "value": 34.47,
     "currency": "USD"
   },
   "trend": [
@@ -3124,7 +3124,7 @@
     },
     {
       "date": "2026-11-03",
-      "value": 139.36
+      "value": 139.35
     }
   ],
   "price_history": {
@@ -3136,10 +3136,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-03",
-    "latest_volume": 12747.0,
-    "average_volume_20d": 8467.35,
-    "average_dollar_volume_20d": 293484.7308,
-    "relative_volume_20d": 1.5054,
+    "latest_volume": 12700.0,
+    "average_volume_20d": 8465.0,
+    "average_dollar_volume_20d": 293401.4968,
+    "relative_volume_20d": 1.5003,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3203,31 +3203,31 @@
     },
     {
       "etf_id": "US-RSPC",
-      "holding_symbol": "LYV",
-      "holding_name": "Live Nation Entertainment Inc",
-      "weight": 0.0465206,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Live Nation Entertainment Inc",
-      "holding_name_zh": null,
-      "display_name": "Live Nation Entertainment Inc",
-      "display_label": "(LYV)Live Nation Entertainment Inc",
-      "bilingual_name": "Live Nation Entertainment Inc"
-    },
-    {
-      "etf_id": "US-RSPC",
       "holding_symbol": "ROKU",
       "holding_name": "Roku Inc Class A",
       "weight": 0.0465206,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Roku Inc Class A",
       "holding_name_zh": null,
       "display_name": "Roku Inc Class A",
       "display_label": "(ROKU)Roku Inc Class A",
       "bilingual_name": "Roku Inc Class A"
+    },
+    {
+      "etf_id": "US-RSPC",
+      "holding_symbol": "LYV",
+      "holding_name": "Live Nation Entertainment Inc",
+      "weight": 0.0465206,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Live Nation Entertainment Inc",
+      "holding_name_zh": null,
+      "display_name": "Live Nation Entertainment Inc",
+      "display_label": "(LYV)Live Nation Entertainment Inc",
+      "bilingual_name": "Live Nation Entertainment Inc"
     },
     {
       "etf_id": "US-RSPC",
