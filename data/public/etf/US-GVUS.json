@@ -59,11 +59,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 19.2162,
+      "value": 19.2159,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 32.8592,
+      "value": 32.8588,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -87,7 +87,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 32.8592,
+      "value": 32.8588,
       "unit": "percent"
     },
     "tracking_error": {
@@ -98,7 +98,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 68.0702,
+    "value": 68.07,
     "currency": "USD"
   },
   "trend": [
@@ -3052,10 +3052,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1195.0,
-    "average_volume_20d": 11029.75,
-    "average_dollar_volume_20d": 731159.4017,
-    "relative_volume_20d": 0.1083,
+    "latest_volume": 1200.0,
+    "average_volume_20d": 11030.0,
+    "average_dollar_volume_20d": 731176.4074,
+    "relative_volume_20d": 0.1088,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3063,26 +3063,12 @@
   "top_holdings": [
     {
       "etf_id": "US-GVUS",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0606081,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0599557,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Amazon.com Inc",
-      "holding_name_zh": "亞馬遜",
-      "display_name": "亞馬遜",
-      "display_label": "(AMZN)亞馬遜",
-      "bilingual_name": "Amazon.com Inc（亞馬遜）"
-    },
-    {
-      "etf_id": "US-GVUS",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.060383,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -3091,9 +3077,23 @@
     },
     {
       "etf_id": "US-GVUS",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0560977,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "US-GVUS",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0521434,
+      "weight": 0.0509092,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3107,7 +3107,7 @@
       "etf_id": "US-GVUS",
       "holding_symbol": "BRK-B",
       "holding_name": "Berkshire Hathaway Inc Class B",
-      "weight": 0.0253784,
+      "weight": 0.0265285,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3121,7 +3121,7 @@
       "etf_id": "US-GVUS",
       "holding_symbol": "JPM",
       "holding_name": "JPMorgan Chase & Co",
-      "weight": 0.0242087,
+      "weight": 0.023663,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3135,7 +3135,7 @@
       "etf_id": "US-GVUS",
       "holding_symbol": "XOM",
       "holding_name": "ExxonMobil Holdings Corp",
-      "weight": 0.0183379,
+      "weight": 0.020243,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3149,7 +3149,7 @@
       "etf_id": "US-GVUS",
       "holding_symbol": "JNJ",
       "holding_name": "Johnson & Johnson",
-      "weight": 0.0174584,
+      "weight": 0.0172863,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3161,23 +3161,23 @@
     },
     {
       "etf_id": "US-GVUS",
-      "holding_symbol": "INTC",
-      "holding_name": "Intel Corp",
-      "weight": 0.0150336,
+      "holding_symbol": "WMT",
+      "holding_name": "Walmart Inc",
+      "weight": 0.0130134,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Intel Corp",
-      "holding_name_zh": "英特爾",
-      "display_name": "英特爾",
-      "display_label": "(INTC)英特爾",
-      "bilingual_name": "Intel Corp（英特爾）"
+      "holding_name_en": "Walmart Inc",
+      "holding_name_zh": null,
+      "display_name": "Walmart Inc",
+      "display_label": "(WMT)Walmart Inc",
+      "bilingual_name": "Walmart Inc"
     },
     {
       "etf_id": "US-GVUS",
       "holding_symbol": "ABBV",
       "holding_name": "AbbVie Inc",
-      "weight": 0.0116544,
+      "weight": 0.0126056,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3189,23 +3189,23 @@
     },
     {
       "etf_id": "US-GVUS",
-      "holding_symbol": "CSCO",
-      "holding_name": "Cisco Systems Inc",
-      "weight": 0.0116378,
+      "holding_symbol": "CVX",
+      "holding_name": "Chevron Corp",
+      "weight": 0.011474,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Cisco Systems Inc",
-      "holding_name_zh": "思科",
-      "display_name": "思科",
-      "display_label": "(CSCO)思科",
-      "bilingual_name": "Cisco Systems Inc（思科）"
+      "holding_name_en": "Chevron Corp",
+      "holding_name_zh": null,
+      "display_name": "Chevron Corp",
+      "display_label": "(CVX)Chevron Corp",
+      "bilingual_name": "Chevron Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.296844,
-    "top_3_weight": 0.173134
+    "top_10_weight": 0.291776,
+    "top_3_weight": 0.166963
   },
   "research": {
     "tier": "context",

@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-ARKQ",
   "right_etf_id": "US-BOTZ",
-  "overlap_ratio": 0.059131,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.081933,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.059131,
-      "right_weight": 0.08,
-      "overlap_weight": 0.059131
+      "left_weight": 0.057962,
+      "right_weight": 0.078061,
+      "overlap_weight": 0.057962
+    },
+    {
+      "holding_symbol": "TSLA",
+      "left_weight": 0.125609,
+      "right_weight": 0.023971,
+      "overlap_weight": 0.023971
     }
   ]
 }

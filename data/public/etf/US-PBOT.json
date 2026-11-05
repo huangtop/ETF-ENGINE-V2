@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -5.5127,
+      "value": -5.5136,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 17.0789,
+      "value": 17.0777,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.3064,
+      "value": 28.3065,
       "unit": "percent"
     },
     "beta": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5504,
+      "value": 0.5503,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 17.0789,
+      "value": 17.0777,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.664,
+      "value": 19.6641,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 29.9993,
+    "value": 29.999,
     "currency": "USD"
   },
   "trend": [
@@ -1156,7 +1156,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 120.95
+      "value": 120.94
     }
   ],
   "price_history": {
@@ -1168,10 +1168,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 755.0,
-    "average_volume_20d": 3422.75,
-    "average_dollar_volume_20d": 118672.2801,
-    "relative_volume_20d": 0.2206,
+    "latest_volume": 800.0,
+    "average_volume_20d": 3425.0,
+    "average_dollar_volume_20d": 118739.7666,
+    "relative_volume_20d": 0.2336,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1179,26 +1179,12 @@
   "top_holdings": [
     {
       "etf_id": "US-PBOT",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.052593,
+      "holding_symbol": "TSM",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "weight": 0.0516755,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
-    },
-    {
-      "etf_id": "US-PBOT",
-      "holding_symbol": "TSM",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.0516056,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
       "holding_name_zh": "台積電ADR",
       "display_name": "台積電ADR",
@@ -1207,9 +1193,23 @@
     },
     {
       "etf_id": "US-PBOT",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0481427,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "US-PBOT",
       "holding_symbol": "SNOW",
       "holding_name": "Snowflake Inc Ordinary Shares",
-      "weight": 0.0468262,
+      "weight": 0.0475076,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1223,7 +1223,7 @@
       "etf_id": "US-PBOT",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0440316,
+      "weight": 0.0460089,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1235,26 +1235,12 @@
     },
     {
       "etf_id": "US-PBOT",
-      "holding_symbol": "AMAT",
-      "holding_name": "Applied Materials Inc",
-      "weight": 0.04349,
+      "holding_symbol": "PANW",
+      "holding_name": "Palo Alto Networks Inc",
+      "weight": 0.0441709,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Applied Materials Inc",
-      "holding_name_zh": "應用材料",
-      "display_name": "應用材料",
-      "display_label": "(AMAT)應用材料",
-      "bilingual_name": "Applied Materials Inc（應用材料）"
-    },
-    {
-      "etf_id": "US-PBOT",
-      "holding_symbol": "PANW",
-      "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.0426442,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Palo Alto Networks Inc",
       "holding_name_zh": "Palo Alto Networks",
       "display_name": "Palo Alto Networks",
@@ -1263,9 +1249,23 @@
     },
     {
       "etf_id": "US-PBOT",
+      "holding_symbol": "CRWD",
+      "holding_name": "CrowdStrike Holdings Inc Class A",
+      "weight": 0.0421953,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "CrowdStrike Holdings Inc Class A",
+      "holding_name_zh": "CrowdStrike",
+      "display_name": "CrowdStrike",
+      "display_label": "(CRWD)CrowdStrike",
+      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
+    },
+    {
+      "etf_id": "US-PBOT",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0401828,
+      "weight": 0.0405213,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1277,37 +1277,37 @@
     },
     {
       "etf_id": "US-PBOT",
-      "holding_symbol": "CRWD",
-      "holding_name": "CrowdStrike Holdings Inc Class A",
-      "weight": 0.0396472,
+      "holding_symbol": "AMAT",
+      "holding_name": "Applied Materials Inc",
+      "weight": 0.0373391,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "CrowdStrike Holdings Inc Class A",
-      "holding_name_zh": "CrowdStrike",
-      "display_name": "CrowdStrike",
-      "display_label": "(CRWD)CrowdStrike",
-      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
+      "holding_name_en": "Applied Materials Inc",
+      "holding_name_zh": "應用材料",
+      "display_name": "應用材料",
+      "display_label": "(AMAT)應用材料",
+      "bilingual_name": "Applied Materials Inc（應用材料）"
     },
     {
       "etf_id": "US-PBOT",
-      "holding_symbol": "NET",
-      "holding_name": "Cloudflare Inc",
-      "weight": 0.034632,
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0337755,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Cloudflare Inc",
-      "holding_name_zh": null,
-      "display_name": "Cloudflare Inc",
-      "display_label": "(NET)Cloudflare Inc",
-      "bilingual_name": "Cloudflare Inc"
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
     },
     {
       "etf_id": "US-PBOT",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
-      "weight": 0.0333408,
+      "weight": 0.0326316,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -1320,8 +1320,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.428993,
-    "top_3_weight": 0.151025
+    "top_10_weight": 0.423968,
+    "top_3_weight": 0.147326
   },
   "research": {
     "tier": "context",

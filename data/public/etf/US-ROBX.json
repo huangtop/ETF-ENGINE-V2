@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -71.4526,
+      "value": -71.4782,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 35.5282,
+      "value": 35.5275,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.821,
+      "value": 1.8207,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -15.2403,
+      "value": -15.2449,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 30.8277,
+      "value": 30.8283,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 20.0711,
+    "value": 20.07,
     "currency": "USD"
   },
   "trend": [
@@ -324,10 +324,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 3545.0,
-    "average_volume_20d": 1852.25,
-    "average_dollar_volume_20d": 38686.4029,
-    "relative_volume_20d": 1.9139,
+    "latest_volume": 3500.0,
+    "average_volume_20d": 1850.0,
+    "average_dollar_volume_20d": 38641.0503,
+    "relative_volume_20d": 1.8919,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -337,7 +337,7 @@
       "etf_id": "US-ROBX",
       "holding_symbol": "AGPXX",
       "holding_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "weight": 0.1677074,
+      "weight": 0.1359555,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -349,26 +349,54 @@
     },
     {
       "etf_id": "US-ROBX",
-      "holding_symbol": "6324.T",
-      "holding_name": "Harmonic Drive Systems Inc",
-      "weight": 0.10887419,
+      "holding_symbol": "AUTO.OL",
+      "holding_name": "AutoStore Holdings Ltd Ordinary Shares",
+      "weight": 0.1321491,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Harmonic Drive Systems Inc",
+      "holding_name_en": "AutoStore Holdings Ltd Ordinary Shares",
       "holding_name_zh": null,
-      "display_name": "Harmonic Drive Systems Inc",
-      "display_label": "(6324.T)Harmonic Drive Systems Inc",
-      "bilingual_name": "Harmonic Drive Systems Inc"
+      "display_name": "AutoStore Holdings Ltd Ordinary Shares",
+      "display_label": "(AUTO.OL)AutoStore Holdings Ltd Ordinary Shares",
+      "bilingual_name": "AutoStore Holdings Ltd Ordinary Shares"
+    },
+    {
+      "etf_id": "US-ROBX",
+      "holding_symbol": "2049.TW",
+      "holding_name": "Hiwin Technologies Corp",
+      "weight": 0.1120417,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Hiwin Technologies Corp",
+      "holding_name_zh": null,
+      "display_name": "Hiwin Technologies Corp",
+      "display_label": "(2049.TW)Hiwin Technologies Corp",
+      "bilingual_name": "Hiwin Technologies Corp"
+    },
+    {
+      "etf_id": "US-ROBX",
+      "holding_symbol": "RAL",
+      "holding_name": "Ralliant Corp",
+      "weight": 0.0973348,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Ralliant Corp",
+      "holding_name_zh": null,
+      "display_name": "Ralliant Corp",
+      "display_label": "(RAL)Ralliant Corp",
+      "bilingual_name": "Ralliant Corp"
     },
     {
       "etf_id": "US-ROBX",
       "holding_symbol": "6752.T",
       "holding_name": "Panasonic Holdings Corp",
-      "weight": 0.102097,
+      "weight": 0.0712987,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 5,
       "holding_name_en": "Panasonic Holdings Corp",
       "holding_name_zh": null,
       "display_name": "Panasonic Holdings Corp",
@@ -379,10 +407,10 @@
       "etf_id": "US-ROBX",
       "holding_symbol": "6134.T",
       "holding_name": "Fuji Corp",
-      "weight": 0.09089711,
+      "weight": 0.0674634,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 6,
       "holding_name_en": "Fuji Corp",
       "holding_name_zh": null,
       "display_name": "Fuji Corp",
@@ -391,51 +419,23 @@
     },
     {
       "etf_id": "US-ROBX",
-      "holding_symbol": "6407.T",
-      "holding_name": "CKD Corp",
-      "weight": 0.077261,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "CKD Corp",
-      "holding_name_zh": null,
-      "display_name": "CKD Corp",
-      "display_label": "(6407.T)CKD Corp",
-      "bilingual_name": "CKD Corp"
-    },
-    {
-      "etf_id": "US-ROBX",
-      "holding_symbol": "6622.T",
-      "holding_name": "Daihen Corp",
-      "weight": 0.0733903,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Daihen Corp",
-      "holding_name_zh": null,
-      "display_name": "Daihen Corp",
-      "display_label": "(6622.T)Daihen Corp",
-      "bilingual_name": "Daihen Corp"
-    },
-    {
-      "etf_id": "US-ROBX",
-      "holding_symbol": "TER",
-      "holding_name": "Teradyne Inc",
-      "weight": 0.0447395,
+      "holding_symbol": "6324.T",
+      "holding_name": "Harmonic Drive Systems Inc",
+      "weight": 0.0461485,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Teradyne Inc",
-      "holding_name_zh": "泰瑞達",
-      "display_name": "泰瑞達",
-      "display_label": "(TER)泰瑞達",
-      "bilingual_name": "Teradyne Inc（泰瑞達）"
+      "holding_name_en": "Harmonic Drive Systems Inc",
+      "holding_name_zh": null,
+      "display_name": "Harmonic Drive Systems Inc",
+      "display_label": "(6324.T)Harmonic Drive Systems Inc",
+      "bilingual_name": "Harmonic Drive Systems Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 7,
-    "top_10_weight": 0.664967,
-    "top_3_weight": 0.378679
+    "top_10_weight": 0.662392,
+    "top_3_weight": 0.380146
   },
   "research": {
     "tier": "context",

@@ -55,11 +55,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -1.1058,
+      "value": -1.1056,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 13.7959,
+      "value": 13.7961,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -83,7 +83,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 13.7959,
+      "value": 13.7961,
       "unit": "percent"
     },
     "tracking_error": {
@@ -94,7 +94,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 82.3768,
+    "value": 82.377,
     "currency": "USD"
   },
   "trend": [
@@ -3132,10 +3132,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 268.0,
-    "average_volume_20d": 728.4,
-    "average_dollar_volume_20d": 59918.1842,
-    "relative_volume_20d": 0.3679,
+    "latest_volume": 300.0,
+    "average_volume_20d": 730.0,
+    "average_dollar_volume_20d": 60049.9901,
+    "relative_volume_20d": 0.411,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3143,26 +3143,12 @@
   "top_holdings": [
     {
       "etf_id": "US-SPXE",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0865961,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0800594,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-SPXE",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.07614659,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -3171,9 +3157,23 @@
     },
     {
       "etf_id": "US-SPXE",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0788323,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "US-SPXE",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0596748,
+      "weight": 0.0616907,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3187,7 +3187,7 @@
       "etf_id": "US-SPXE",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.0383181,
+      "weight": 0.0375552,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3201,7 +3201,7 @@
       "etf_id": "US-SPXE",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0316348,
+      "weight": 0.0261404,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3215,7 +3215,7 @@
       "etf_id": "US-SPXE",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0261758,
+      "weight": 0.0246919,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3227,26 +3227,12 @@
     },
     {
       "etf_id": "US-SPXE",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0253732,
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.0215899,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Alphabet Inc Class C",
-      "holding_name_zh": "Alphabet C類股",
-      "display_name": "Alphabet C類股",
-      "display_label": "(GOOG)Alphabet C類股",
-      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
-    },
-    {
-      "etf_id": "US-SPXE",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0250593,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Meta Platforms Inc Class A",
       "holding_name_zh": "Meta Platforms",
       "display_name": "Meta Platforms",
@@ -3255,23 +3241,37 @@
     },
     {
       "etf_id": "US-SPXE",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0188482,
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0210482,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "US-SPXE",
+      "holding_symbol": "LLY",
+      "holding_name": "Eli Lilly and Co",
+      "weight": 0.0180627,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
+      "holding_name_en": "Eli Lilly and Co",
+      "holding_name_zh": null,
+      "display_name": "Eli Lilly and Co",
+      "display_label": "(LLY)Eli Lilly and Co",
+      "bilingual_name": "Eli Lilly and Co"
     },
     {
       "etf_id": "US-SPXE",
       "holding_symbol": "TSLA",
       "holding_name": "Tesla Inc",
-      "weight": 0.015668,
+      "weight": 0.017939,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -3284,8 +3284,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.403495,
-    "top_3_weight": 0.222417
+    "top_10_weight": 0.38761,
+    "top_3_weight": 0.220582
   },
   "research": {
     "tier": "context",

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "US-HEEM",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-11-05T10:58:11.443946Z-US-HEEM-8c80fd34",
+    "etf_id": "US-HEEM",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20261102-fea6b901a1e5",
+    "current_snapshot_id": "20261105-e09560b2b537",
+    "previous_observed_at": "2026-11-02T22:53:47.812738Z",
+    "current_observed_at": "2026-11-05T10:58:11.443946Z",
+    "changes": [
+      {
+        "event_id": "9e2de97913f4607b04f35179a69a12eb64dc23efdb240d79da03c529b500c385",
+        "etf_id": "US-HEEM",
+        "holding_symbol": "EEM",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "EEM",
+        "holding_display_label": "(EEM)EEM",
+        "holding_bilingual_name": "EEM",
+        "previous_weight": 0.99891114,
+        "current_weight": 0.9992266,
+        "delta_weight": 0.00031546,
+        "change_type": "WEIGHT_INCREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20261102-fea6b901a1e5",
+        "current_snapshot_id": "20261105-e09560b2b537",
+        "previous_observed_at": "2026-11-02T22:53:47.812738Z",
+        "current_observed_at": "2026-11-05T10:58:11.443946Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-11-05T10:58:11.443946Z-US-HEEM-8c80fd34",
+      "etf_id": "US-HEEM",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261102-fea6b901a1e5",
+      "current_snapshot_id": "20261105-e09560b2b537",
+      "previous_observed_at": "2026-11-02T22:53:47.812738Z",
+      "current_observed_at": "2026-11-05T10:58:11.443946Z",
+      "changes": [
+        {
+          "event_id": "9e2de97913f4607b04f35179a69a12eb64dc23efdb240d79da03c529b500c385",
+          "etf_id": "US-HEEM",
+          "holding_symbol": "EEM",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "EEM",
+          "holding_display_label": "(EEM)EEM",
+          "holding_bilingual_name": "EEM",
+          "previous_weight": 0.99891114,
+          "current_weight": 0.9992266,
+          "delta_weight": 0.00031546,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261102-fea6b901a1e5",
+          "current_snapshot_id": "20261105-e09560b2b537",
+          "previous_observed_at": "2026-11-02T22:53:47.812738Z",
+          "current_observed_at": "2026-11-05T10:58:11.443946Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

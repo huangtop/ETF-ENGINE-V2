@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-DRIV",
   "right_etf_id": "US-SOXX",
-  "overlap_ratio": 0.070692,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.086054,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "INTC",
-      "left_weight": 0.036889,
-      "right_weight": 0.095912,
-      "overlap_weight": 0.036889
+      "holding_symbol": "NVDA",
+      "left_weight": 0.034812,
+      "right_weight": 0.079824,
+      "overlap_weight": 0.034812
     },
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.033803,
-      "right_weight": 0.073864,
-      "overlap_weight": 0.033803
+      "holding_symbol": "QCOM",
+      "left_weight": 0.028173,
+      "right_weight": 0.041623,
+      "overlap_weight": 0.028173
+    },
+    {
+      "holding_symbol": "INTC",
+      "left_weight": 0.023069,
+      "right_weight": 0.06327,
+      "overlap_weight": 0.023069
     }
   ]
 }

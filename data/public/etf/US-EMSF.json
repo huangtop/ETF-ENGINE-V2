@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -2.0665,
+      "value": -2.067,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 21.8282,
+      "value": 21.8275,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,7 +79,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 21.8282,
+      "value": 21.8275,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 35.1682,
+    "value": 35.168,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1568.0,
-    "average_volume_20d": 3708.4,
-    "average_dollar_volume_20d": 131548.5716,
-    "relative_volume_20d": 0.4228,
+    "latest_volume": 1600.0,
+    "average_volume_20d": 3710.0,
+    "average_dollar_volume_20d": 131604.8245,
+    "relative_volume_20d": 0.4313,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-EMSF",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0930232,
+      "weight": 0.0988346,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-EMSF",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0755564,
+      "weight": 0.07313021,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-EMSF",
       "holding_symbol": "402340.KQ",
       "holding_name": "SK Square",
-      "weight": 0.0568026,
+      "weight": 0.0516682,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3181,54 +3181,12 @@
     },
     {
       "etf_id": "US-EMSF",
-      "holding_symbol": "084370.KQ",
-      "holding_name": "Eugene Technology Co Ltd",
-      "weight": 0.0497748,
+      "holding_symbol": "2383.TW",
+      "holding_name": "Elite Material Co Ltd",
+      "weight": 0.0361034,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Eugene Technology Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Eugene Technology Co Ltd",
-      "display_label": "(084370.KQ)Eugene Technology Co Ltd",
-      "bilingual_name": "Eugene Technology Co Ltd"
-    },
-    {
-      "etf_id": "US-EMSF",
-      "holding_symbol": "BANDHANBNK.BO",
-      "holding_name": "Bandhan Bank Ltd",
-      "weight": 0.0359051,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Bandhan Bank Ltd",
-      "holding_name_zh": null,
-      "display_name": "Bandhan Bank Ltd",
-      "display_label": "(BANDHANBNK.BO)Bandhan Bank Ltd",
-      "bilingual_name": "Bandhan Bank Ltd"
-    },
-    {
-      "etf_id": "US-EMSF",
-      "holding_symbol": "9988.HK",
-      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0346316,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
-      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
-    },
-    {
-      "etf_id": "US-EMSF",
-      "holding_symbol": "2383.TW",
-      "holding_name": "Elite Material Co Ltd",
-      "weight": 0.0342794,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Elite Material Co Ltd",
       "holding_name_zh": "台光電",
       "display_name": "台光電",
@@ -3237,23 +3195,65 @@
     },
     {
       "etf_id": "US-EMSF",
-      "holding_symbol": "531642",
-      "holding_name": "Marico Ltd",
-      "weight": 0.0285633,
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0359077,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
+      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
+    },
+    {
+      "etf_id": "US-EMSF",
+      "holding_symbol": "BANDHANBNK.BO",
+      "holding_name": "Bandhan Bank Ltd",
+      "weight": 0.0357289,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Bandhan Bank Ltd",
+      "holding_name_zh": null,
+      "display_name": "Bandhan Bank Ltd",
+      "display_label": "(BANDHANBNK.BO)Bandhan Bank Ltd",
+      "bilingual_name": "Bandhan Bank Ltd"
+    },
+    {
+      "etf_id": "US-EMSF",
+      "holding_symbol": "084370.KQ",
+      "holding_name": "Eugene Technology Co Ltd",
+      "weight": 0.0356057,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Eugene Technology Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Eugene Technology Co Ltd",
+      "display_label": "(084370.KQ)Eugene Technology Co Ltd",
+      "bilingual_name": "Eugene Technology Co Ltd"
+    },
+    {
+      "etf_id": "US-EMSF",
+      "holding_symbol": "5904.TWO",
+      "holding_name": "Poya International Co Ltd",
+      "weight": 0.0231913,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Marico Ltd",
+      "holding_name_en": "Poya International Co Ltd",
       "holding_name_zh": null,
-      "display_name": "Marico Ltd",
-      "display_label": "(531642)Marico Ltd",
-      "bilingual_name": "Marico Ltd"
+      "display_name": "Poya International Co Ltd",
+      "display_label": "(5904.TWO)Poya International Co Ltd",
+      "bilingual_name": "Poya International Co Ltd"
     },
     {
       "etf_id": "US-EMSF",
       "holding_symbol": "TPEIR.AT",
       "holding_name": "Piraeus Bank SA",
-      "weight": 0.0219352,
+      "weight": 0.0219282,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3262,26 +3262,12 @@
       "display_name": "Piraeus Bank SA",
       "display_label": "(TPEIR.AT)Piraeus Bank SA",
       "bilingual_name": "Piraeus Bank SA"
-    },
-    {
-      "etf_id": "US-EMSF",
-      "holding_symbol": "267260.KQ",
-      "holding_name": "HD Hyundai Electric",
-      "weight": 0.0206975,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "HD Hyundai Electric",
-      "holding_name_zh": null,
-      "display_name": "HD Hyundai Electric",
-      "display_label": "(267260.KQ)HD Hyundai Electric",
-      "bilingual_name": "HD Hyundai Electric"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.451169,
-    "top_3_weight": 0.225382
+    "holding_count": 9,
+    "top_10_weight": 0.412098,
+    "top_3_weight": 0.223633
   },
   "research": {
     "tier": "context",

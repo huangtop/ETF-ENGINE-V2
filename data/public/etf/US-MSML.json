@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -6.7565,
+      "value": -6.759,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.1079,
+      "value": 13.1077,
       "unit": "percent"
     },
     "beta": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -0.8629,
+      "value": -0.8633,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 9.6737,
+      "value": 9.6738,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 73.9503,
+    "value": 73.95,
     "currency": "USD"
   },
   "trend": [
@@ -268,10 +268,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 3789.0,
-    "average_volume_20d": 5679.45,
-    "average_dollar_volume_20d": 408881.8822,
-    "relative_volume_20d": 0.6671,
+    "latest_volume": 3800.0,
+    "average_volume_20d": 5680.0,
+    "average_dollar_volume_20d": 408922.4969,
+    "relative_volume_20d": 0.669,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -279,40 +279,68 @@
   "top_holdings": [
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "OKTA",
-      "holding_name": "Okta Inc Class A",
-      "weight": 0.0058465,
+      "holding_symbol": "MRNA",
+      "holding_name": "Moderna Inc",
+      "weight": 0.0115929,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Okta Inc Class A",
+      "holding_name_en": "Moderna Inc",
       "holding_name_zh": null,
-      "display_name": "Okta Inc Class A",
-      "display_label": "(OKTA)Okta Inc Class A",
-      "bilingual_name": "Okta Inc Class A"
+      "display_name": "Moderna Inc",
+      "display_label": "(MRNA)Moderna Inc",
+      "bilingual_name": "Moderna Inc"
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "TEAM",
-      "holding_name": "Atlassian Corp Class A",
-      "weight": 0.0047208,
+      "holding_symbol": "THC",
+      "holding_name": "Tenet Healthcare Corp",
+      "weight": 0.0036489,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Atlassian Corp Class A",
+      "holding_name_en": "Tenet Healthcare Corp",
       "holding_name_zh": null,
-      "display_name": "Atlassian Corp Class A",
-      "display_label": "(TEAM)Atlassian Corp Class A",
-      "bilingual_name": "Atlassian Corp Class A"
+      "display_name": "Tenet Healthcare Corp",
+      "display_label": "(THC)Tenet Healthcare Corp",
+      "bilingual_name": "Tenet Healthcare Corp"
+    },
+    {
+      "etf_id": "US-MSML",
+      "holding_symbol": "USFD",
+      "holding_name": "US Foods Holding Corp",
+      "weight": 0.0035392,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "US Foods Holding Corp",
+      "holding_name_zh": null,
+      "display_name": "US Foods Holding Corp",
+      "display_label": "(USFD)US Foods Holding Corp",
+      "bilingual_name": "US Foods Holding Corp"
+    },
+    {
+      "etf_id": "US-MSML",
+      "holding_symbol": "VTRS",
+      "holding_name": "Viatris Inc",
+      "weight": 0.0034397,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Viatris Inc",
+      "holding_name_zh": null,
+      "display_name": "Viatris Inc",
+      "display_label": "(VTRS)Viatris Inc",
+      "bilingual_name": "Viatris Inc"
     },
     {
       "etf_id": "US-MSML",
       "holding_symbol": "GH",
       "holding_name": "Guardant Health Inc",
-      "weight": 0.0037985,
+      "weight": 0.0034021,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 5,
       "holding_name_en": "Guardant Health Inc",
       "holding_name_zh": null,
       "display_name": "Guardant Health Inc",
@@ -321,12 +349,26 @@
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "ROKU",
-      "holding_name": "Roku Inc Class A",
-      "weight": 0.0032978,
+      "holding_symbol": "XTSLA",
+      "holding_name": "BlackRock Cash Funds Treasury SL Agency",
+      "weight": 0.003396,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 6,
+      "holding_name_en": "BlackRock Cash Funds Treasury SL Agency",
+      "holding_name_zh": null,
+      "display_name": "BlackRock Cash Funds Treasury SL Agency",
+      "display_label": "(XTSLA)BlackRock Cash Funds Treasury SL Agency",
+      "bilingual_name": "BlackRock Cash Funds Treasury SL Agency"
+    },
+    {
+      "etf_id": "US-MSML",
+      "holding_symbol": "ROKU",
+      "holding_name": "Roku Inc Class A",
+      "weight": 0.0031811,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Roku Inc Class A",
       "holding_name_zh": null,
       "display_name": "Roku Inc Class A",
@@ -335,93 +377,51 @@
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "NTNX",
-      "holding_name": "Nutanix Inc Class A",
-      "weight": 0.0031189,
+      "holding_symbol": "OVV",
+      "holding_name": "Ovintiv Inc",
+      "weight": 0.0031192,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Nutanix Inc Class A",
+      "rank": 8,
+      "holding_name_en": "Ovintiv Inc",
       "holding_name_zh": null,
-      "display_name": "Nutanix Inc Class A",
-      "display_label": "(NTNX)Nutanix Inc Class A",
-      "bilingual_name": "Nutanix Inc Class A"
+      "display_name": "Ovintiv Inc",
+      "display_label": "(OVV)Ovintiv Inc",
+      "bilingual_name": "Ovintiv Inc"
     },
     {
       "etf_id": "US-MSML",
-      "holding_symbol": "ZBRA",
-      "holding_name": "Zebra Technologies Corp Ordinary Shares - Class A",
-      "weight": 0.0029969,
+      "holding_symbol": "PR",
+      "holding_name": "Permian Resources Corp Class A",
+      "weight": 0.0030489,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Zebra Technologies Corp Ordinary Shares - Class A",
+      "rank": 9,
+      "holding_name_en": "Permian Resources Corp Class A",
       "holding_name_zh": null,
-      "display_name": "Zebra Technologies Corp Ordinary Shares - Class A",
-      "display_label": "(ZBRA)Zebra Technologies Corp Ordinary Shares - Class A",
-      "bilingual_name": "Zebra Technologies Corp Ordinary Shares - Class A"
+      "display_name": "Permian Resources Corp Class A",
+      "display_label": "(PR)Permian Resources Corp Class A",
+      "bilingual_name": "Permian Resources Corp Class A"
     },
     {
       "etf_id": "US-MSML",
       "holding_symbol": "RBRK",
       "holding_name": "Rubrik Inc Class A Shares",
-      "weight": 0.0028916,
+      "weight": 0.0030356,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 10,
       "holding_name_en": "Rubrik Inc Class A Shares",
       "holding_name_zh": null,
       "display_name": "Rubrik Inc Class A Shares",
       "display_label": "(RBRK)Rubrik Inc Class A Shares",
       "bilingual_name": "Rubrik Inc Class A Shares"
-    },
-    {
-      "etf_id": "US-MSML",
-      "holding_symbol": "BBY",
-      "holding_name": "Best Buy Co Inc",
-      "weight": 0.0028721,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Best Buy Co Inc",
-      "holding_name_zh": null,
-      "display_name": "Best Buy Co Inc",
-      "display_label": "(BBY)Best Buy Co Inc",
-      "bilingual_name": "Best Buy Co Inc"
-    },
-    {
-      "etf_id": "US-MSML",
-      "holding_symbol": "RVTY",
-      "holding_name": "Revvity Inc",
-      "weight": 0.0028475,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Revvity Inc",
-      "holding_name_zh": null,
-      "display_name": "Revvity Inc",
-      "display_label": "(RVTY)Revvity Inc",
-      "bilingual_name": "Revvity Inc"
-    },
-    {
-      "etf_id": "US-MSML",
-      "holding_symbol": "DT",
-      "holding_name": "Dynatrace Inc Ordinary Shares",
-      "weight": 0.0028028,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Dynatrace Inc Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Dynatrace Inc Ordinary Shares",
-      "display_label": "(DT)Dynatrace Inc Ordinary Shares",
-      "bilingual_name": "Dynatrace Inc Ordinary Shares"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.035193,
-    "top_3_weight": 0.014366
+    "top_10_weight": 0.041404,
+    "top_3_weight": 0.018781
   },
   "research": {
     "tier": "context",

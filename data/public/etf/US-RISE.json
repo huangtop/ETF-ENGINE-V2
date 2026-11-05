@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -29.0065,
+      "value": -27.1566,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.8371,
+      "value": 18.1262,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8869,
+      "value": 0.9109,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.5357,
+      "value": 0.5397,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -9.635,
+      "value": -7.3341,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 14.3383,
+      "value": 14.3519,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 17.28,
+    "date": "2026-11-04",
+    "value": 17.72,
     "currency": "USD"
   },
   "trend": [
@@ -629,21 +629,25 @@
     {
       "date": "2026-11-03",
       "value": 90.36
+    },
+    {
+      "date": "2026-11-04",
+      "value": 92.67
     }
   ],
   "price_history": {
     "first_date": "2026-04-23",
-    "last_date": "2026-11-03",
-    "observations": 135,
+    "last_date": "2026-11-04",
+    "observations": 136,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 400.0,
-    "average_volume_20d": 2515.0,
-    "average_dollar_volume_20d": 45089.2992,
-    "relative_volume_20d": 0.159,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
+    "average_volume_20d": 1720.0,
+    "average_dollar_volume_20d": 30473.8999,
+    "relative_volume_20d": 0.0581,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -651,68 +655,12 @@
   "top_holdings": [
     {
       "etf_id": "US-RISE",
-      "holding_symbol": "BAP",
-      "holding_name": "Credicorp Ltd",
-      "weight": 0.0313719,
+      "holding_symbol": "HCLTECH.NS",
+      "holding_name": "HCL Technologies Ltd",
+      "weight": 0.0351408,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Credicorp Ltd",
-      "holding_name_zh": null,
-      "display_name": "Credicorp Ltd",
-      "display_label": "(BAP)Credicorp Ltd",
-      "bilingual_name": "Credicorp Ltd"
-    },
-    {
-      "etf_id": "US-RISE",
-      "holding_symbol": "ITUB4",
-      "holding_name": "Itau Unibanco Holding SA Participating Preferred",
-      "weight": 0.0301752,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Itau Unibanco Holding SA Participating Preferred",
-      "holding_name_zh": null,
-      "display_name": "Itau Unibanco Holding SA Participating Preferred",
-      "display_label": "(ITUB4)Itau Unibanco Holding SA Participating Preferred",
-      "bilingual_name": "Itau Unibanco Holding SA Participating Preferred"
-    },
-    {
-      "etf_id": "US-RISE",
-      "holding_symbol": "GFNORTEO.MX",
-      "holding_name": "Grupo Financiero Banorte SAB de CV Class O",
-      "weight": 0.0294958,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Grupo Financiero Banorte SAB de CV Class O",
-      "holding_name_zh": null,
-      "display_name": "Grupo Financiero Banorte SAB de CV Class O",
-      "display_label": "(GFNORTEO.MX)Grupo Financiero Banorte SAB de CV Class O",
-      "bilingual_name": "Grupo Financiero Banorte SAB de CV Class O"
-    },
-    {
-      "etf_id": "US-RISE",
-      "holding_symbol": "PETR4",
-      "holding_name": "Petroleo Brasileiro SA Petrobras Participating Preferred",
-      "weight": 0.0289025,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Petroleo Brasileiro SA Petrobras Participating Preferred",
-      "holding_name_zh": null,
-      "display_name": "Petroleo Brasileiro SA Petrobras Participating Preferred",
-      "display_label": "(PETR4)Petroleo Brasileiro SA Petrobras Participating Preferred",
-      "bilingual_name": "Petroleo Brasileiro SA Petrobras Participating Preferred"
-    },
-    {
-      "etf_id": "US-RISE",
-      "holding_symbol": "HCLTECH.NS",
-      "holding_name": "HCL Technologies Ltd",
-      "weight": 0.0285797,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "HCL Technologies Ltd",
       "holding_name_zh": null,
       "display_name": "HCL Technologies Ltd",
@@ -721,9 +669,65 @@
     },
     {
       "etf_id": "US-RISE",
+      "holding_symbol": "GFNORTEO.MX",
+      "holding_name": "Grupo Financiero Banorte SAB de CV Class O",
+      "weight": 0.0325906,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Grupo Financiero Banorte SAB de CV Class O",
+      "holding_name_zh": null,
+      "display_name": "Grupo Financiero Banorte SAB de CV Class O",
+      "display_label": "(GFNORTEO.MX)Grupo Financiero Banorte SAB de CV Class O",
+      "bilingual_name": "Grupo Financiero Banorte SAB de CV Class O"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "INFY",
+      "holding_name": "Infosys Ltd ADR",
+      "weight": 0.0319452,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Infosys Ltd ADR",
+      "holding_name_zh": null,
+      "display_name": "Infosys Ltd ADR",
+      "display_label": "(INFY)Infosys Ltd ADR",
+      "bilingual_name": "Infosys Ltd ADR"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "BAP",
+      "holding_name": "Credicorp Ltd",
+      "weight": 0.030254,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Credicorp Ltd",
+      "holding_name_zh": null,
+      "display_name": "Credicorp Ltd",
+      "display_label": "(BAP)Credicorp Ltd",
+      "bilingual_name": "Credicorp Ltd"
+    },
+    {
+      "etf_id": "US-RISE",
+      "holding_symbol": "COFORGE.BO",
+      "holding_name": "Coforge Ltd",
+      "weight": 0.0295252,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Coforge Ltd",
+      "holding_name_zh": null,
+      "display_name": "Coforge Ltd",
+      "display_label": "(COFORGE.BO)Coforge Ltd",
+      "bilingual_name": "Coforge Ltd"
+    },
+    {
+      "etf_id": "US-RISE",
       "holding_symbol": "NPN.JO",
       "holding_name": "Naspers Ltd Class N",
-      "weight": 0.0285794,
+      "weight": 0.0285305,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -735,40 +739,12 @@
     },
     {
       "etf_id": "US-RISE",
-      "holding_symbol": "INFY",
-      "holding_name": "Infosys Ltd ADR",
-      "weight": 0.0261024,
+      "holding_symbol": "GFI.JO",
+      "holding_name": "Gold Fields Ltd",
+      "weight": 0.0237604,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Infosys Ltd ADR",
-      "holding_name_zh": null,
-      "display_name": "Infosys Ltd ADR",
-      "display_label": "(INFY)Infosys Ltd ADR",
-      "bilingual_name": "Infosys Ltd ADR"
-    },
-    {
-      "etf_id": "US-RISE",
-      "holding_symbol": "BPAC11",
-      "holding_name": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
-      "weight": 0.0253989,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
-      "holding_name_zh": null,
-      "display_name": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
-      "display_label": "(BPAC11)Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-",
-      "bilingual_name": "Banco BTG Pactual S.A. Units Cons of 1 Sh ' 2 Pfd Shs -A-"
-    },
-    {
-      "etf_id": "US-RISE",
-      "holding_symbol": "GFI.JO",
-      "holding_name": "Gold Fields Ltd",
-      "weight": 0.0248883,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Gold Fields Ltd",
       "holding_name_zh": null,
       "display_name": "Gold Fields Ltd",
@@ -777,23 +753,23 @@
     },
     {
       "etf_id": "US-RISE",
-      "holding_symbol": "COFORGE.BO",
-      "holding_name": "Coforge Ltd",
-      "weight": 0.0238459,
+      "holding_symbol": "FAB.AB",
+      "holding_name": "First Abu Dhabi Bank PJSC",
+      "weight": 0.022618,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Coforge Ltd",
+      "rank": 8,
+      "holding_name_en": "First Abu Dhabi Bank PJSC",
       "holding_name_zh": null,
-      "display_name": "Coforge Ltd",
-      "display_label": "(COFORGE.BO)Coforge Ltd",
-      "bilingual_name": "Coforge Ltd"
+      "display_name": "First Abu Dhabi Bank PJSC",
+      "display_label": "(FAB.AB)First Abu Dhabi Bank PJSC",
+      "bilingual_name": "First Abu Dhabi Bank PJSC"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.27734,
-    "top_3_weight": 0.091043
+    "holding_count": 8,
+    "top_10_weight": 0.234365,
+    "top_3_weight": 0.099677
   },
   "research": {
     "tier": "context",

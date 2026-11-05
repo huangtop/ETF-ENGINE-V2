@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 91.4693,
+      "value": 91.4786,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 44.0886,
+      "value": 44.0883,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.3529,
+      "value": 1.3531,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 61.124,
+      "value": 61.1324,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 41.0588,
+      "value": 41.058,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 42.1178,
+    "value": 42.12,
     "currency": "USD"
   },
   "trend": [
@@ -600,7 +600,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 161.12
+      "value": 161.13
     }
   ],
   "price_history": {
@@ -612,10 +612,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 9736.0,
-    "average_volume_20d": 7761.8,
-    "average_dollar_volume_20d": 343055.0947,
-    "relative_volume_20d": 1.2543,
+    "latest_volume": 9700.0,
+    "average_volume_20d": 7760.0,
+    "average_dollar_volume_20d": 342980.3484,
+    "relative_volume_20d": 1.25,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -625,7 +625,7 @@
       "etf_id": "US-XA",
       "holding_symbol": "PANW",
       "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.1224621,
+      "weight": 0.1112776,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -639,7 +639,7 @@
       "etf_id": "US-XA",
       "holding_symbol": "CRWD",
       "holding_name": "CrowdStrike Holdings Inc Class A",
-      "weight": 0.1151628,
+      "weight": 0.10763641,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -653,7 +653,7 @@
       "etf_id": "US-XA",
       "holding_symbol": "OKTA",
       "holding_name": "Okta Inc Class A",
-      "weight": 0.06593201,
+      "weight": 0.06491371,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -665,26 +665,12 @@
     },
     {
       "etf_id": "US-XA",
-      "holding_symbol": "FTNT",
-      "holding_name": "Fortinet Inc",
-      "weight": 0.0584992,
+      "holding_symbol": "RBRK",
+      "holding_name": "Rubrik Inc Class A Shares",
+      "weight": 0.0525224,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Fortinet Inc",
-      "holding_name_zh": "Fortinet",
-      "display_name": "Fortinet",
-      "display_label": "(FTNT)Fortinet",
-      "bilingual_name": "Fortinet Inc（Fortinet）"
-    },
-    {
-      "etf_id": "US-XA",
-      "holding_symbol": "RBRK",
-      "holding_name": "Rubrik Inc Class A Shares",
-      "weight": 0.0489066,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Rubrik Inc Class A Shares",
       "holding_name_zh": null,
       "display_name": "Rubrik Inc Class A Shares",
@@ -693,26 +679,12 @@
     },
     {
       "etf_id": "US-XA",
-      "holding_symbol": "NET",
-      "holding_name": "Cloudflare Inc",
-      "weight": 0.0473531,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Cloudflare Inc",
-      "holding_name_zh": null,
-      "display_name": "Cloudflare Inc",
-      "display_label": "(NET)Cloudflare Inc",
-      "bilingual_name": "Cloudflare Inc"
-    },
-    {
-      "etf_id": "US-XA",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.0473481,
+      "weight": 0.0476929,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 5,
       "holding_name_en": "First American Government Obligs X",
       "holding_name_zh": null,
       "display_name": "First American Government Obligs X",
@@ -721,51 +693,79 @@
     },
     {
       "etf_id": "US-XA",
-      "holding_symbol": "DDOG",
-      "holding_name": "Datadog Inc Class A",
-      "weight": 0.0405215,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Datadog Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "Datadog Inc Class A",
-      "display_label": "(DDOG)Datadog Inc Class A",
-      "bilingual_name": "Datadog Inc Class A"
-    },
-    {
-      "etf_id": "US-XA",
-      "holding_symbol": "FFIV",
-      "holding_name": "F5 Inc",
-      "weight": 0.0404681,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "F5 Inc",
-      "holding_name_zh": null,
-      "display_name": "F5 Inc",
-      "display_label": "(FFIV)F5 Inc",
-      "bilingual_name": "F5 Inc"
-    },
-    {
-      "etf_id": "US-XA",
       "holding_symbol": "ZS",
       "holding_name": "Zscaler Inc",
-      "weight": 0.0398813,
+      "weight": 0.0470966,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 6,
       "holding_name_en": "Zscaler Inc",
       "holding_name_zh": null,
       "display_name": "Zscaler Inc",
       "display_label": "(ZS)Zscaler Inc",
       "bilingual_name": "Zscaler Inc"
+    },
+    {
+      "etf_id": "US-XA",
+      "holding_symbol": "QLYS",
+      "holding_name": "Qualys Inc",
+      "weight": 0.0453902,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Qualys Inc",
+      "holding_name_zh": null,
+      "display_name": "Qualys Inc",
+      "display_label": "(QLYS)Qualys Inc",
+      "bilingual_name": "Qualys Inc"
+    },
+    {
+      "etf_id": "US-XA",
+      "holding_symbol": "FTNT",
+      "holding_name": "Fortinet Inc",
+      "weight": 0.0440957,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Fortinet Inc",
+      "holding_name_zh": "Fortinet",
+      "display_name": "Fortinet",
+      "display_label": "(FTNT)Fortinet",
+      "bilingual_name": "Fortinet Inc（Fortinet）"
+    },
+    {
+      "etf_id": "US-XA",
+      "holding_symbol": "ESTC",
+      "holding_name": "Elastic NV",
+      "weight": 0.0411548,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Elastic NV",
+      "holding_name_zh": null,
+      "display_name": "Elastic NV",
+      "display_label": "(ESTC)Elastic NV",
+      "bilingual_name": "Elastic NV"
+    },
+    {
+      "etf_id": "US-XA",
+      "holding_symbol": "NET",
+      "holding_name": "Cloudflare Inc",
+      "weight": 0.0378995,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Cloudflare Inc",
+      "holding_name_zh": null,
+      "display_name": "Cloudflare Inc",
+      "display_label": "(NET)Cloudflare Inc",
+      "bilingual_name": "Cloudflare Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.626535,
-    "top_3_weight": 0.303557
+    "top_10_weight": 0.59968,
+    "top_3_weight": 0.283828
   },
   "research": {
     "tier": "context",

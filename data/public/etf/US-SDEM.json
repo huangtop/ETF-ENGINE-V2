@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 6.2796,
+      "value": 6.2381,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 15.7901,
+      "value": 15.7894,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 15.2789,
+      "value": 15.3311,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6663,
+      "value": 0.6697,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.9353,
+      "value": 0.9321,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 15.7901,
+      "value": 15.7894,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 13.365,
+      "value": 13.3831,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 32.1962,
+    "value": 32.196,
     "currency": "USD"
   },
   "trend": [
@@ -3032,7 +3032,7 @@
     },
     {
       "date": "2026-10-06",
-      "value": 183.21
+      "value": 182.4
     },
     {
       "date": "2026-10-07",
@@ -3044,27 +3044,27 @@
     },
     {
       "date": "2026-10-09",
-      "value": 184.02
+      "value": 183.21
     },
     {
       "date": "2026-10-12",
-      "value": 182.9
+      "value": 182.09
     },
     {
       "date": "2026-10-13",
-      "value": 182.78
+      "value": 181.97
     },
     {
       "date": "2026-10-14",
-      "value": 182.11
+      "value": 181.31
     },
     {
       "date": "2026-10-15",
-      "value": 181.67
+      "value": 180.86
     },
     {
       "date": "2026-10-16",
-      "value": 181.35
+      "value": 180.54
     },
     {
       "date": "2026-10-19",
@@ -3072,7 +3072,7 @@
     },
     {
       "date": "2026-10-20",
-      "value": 182.75
+      "value": 181.94
     },
     {
       "date": "2026-10-21",
@@ -3080,7 +3080,7 @@
     },
     {
       "date": "2026-10-22",
-      "value": 180.17
+      "value": 179.37
     },
     {
       "date": "2026-10-23",
@@ -3112,11 +3112,11 @@
     },
     {
       "date": "2026-11-03",
-      "value": 169.5
+      "value": 168.75
     },
     {
       "date": "2026-11-04",
-      "value": 172.74
+      "value": 172.73
     }
   ],
   "price_history": {
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 2743.0,
-    "average_volume_20d": 3042.15,
-    "average_dollar_volume_20d": 98536.004,
-    "relative_volume_20d": 0.9017,
+    "latest_volume": 2700.0,
+    "average_volume_20d": 3040.0,
+    "average_dollar_volume_20d": 98353.8075,
+    "relative_volume_20d": 0.8882,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3139,26 +3139,12 @@
   "top_holdings": [
     {
       "etf_id": "US-SDEM",
-      "holding_symbol": "900948.SS",
-      "holding_name": "Inner Mongolia Yitai Coal Co Ltd",
-      "weight": 0.0282318,
+      "holding_symbol": "PFCIBEST.CL",
+      "holding_name": "Grupo Cibest SA PRF PERPETUAL COP 500",
+      "weight": 0.0291947,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Inner Mongolia Yitai Coal Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Inner Mongolia Yitai Coal Co Ltd",
-      "display_label": "(900948.SS)Inner Mongolia Yitai Coal Co Ltd",
-      "bilingual_name": "Inner Mongolia Yitai Coal Co Ltd"
-    },
-    {
-      "etf_id": "US-SDEM",
-      "holding_symbol": "PFCIBEST.CL",
-      "holding_name": "Grupo Cibest SA PRF PERPETUAL COP 500",
-      "weight": 0.0276733,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Grupo Cibest SA PRF PERPETUAL COP 500",
       "holding_name_zh": null,
       "display_name": "Grupo Cibest SA PRF PERPETUAL COP 500",
@@ -3167,40 +3153,12 @@
     },
     {
       "etf_id": "US-SDEM",
-      "holding_symbol": "ITSA4",
-      "holding_name": "Itausa Investimentos ITAU SA",
-      "weight": 0.0256554,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Itausa Investimentos ITAU SA",
-      "holding_name_zh": null,
-      "display_name": "Itausa Investimentos ITAU SA",
-      "display_label": "(ITSA4)Itausa Investimentos ITAU SA",
-      "bilingual_name": "Itausa Investimentos ITAU SA"
-    },
-    {
-      "etf_id": "US-SDEM",
-      "holding_symbol": "ITUB4",
-      "holding_name": "Itau Unibanco Holding SA",
-      "weight": 0.0251085,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Itau Unibanco Holding SA",
-      "holding_name_zh": null,
-      "display_name": "Itau Unibanco Holding SA",
-      "display_label": "(ITUB4)Itau Unibanco Holding SA",
-      "bilingual_name": "Itau Unibanco Holding SA"
-    },
-    {
-      "etf_id": "US-SDEM",
       "holding_symbol": "00902",
       "holding_name": "Huaneng Power International Inc Class H",
-      "weight": 0.0243465,
+      "weight": 0.025759,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 2,
       "holding_name_en": "Huaneng Power International Inc Class H",
       "holding_name_zh": null,
       "display_name": "Huaneng Power International Inc Class H",
@@ -3211,10 +3169,10 @@
       "etf_id": "US-SDEM",
       "holding_symbol": "601216.SS",
       "holding_name": "Inner Mongolia Junzheng Energy & Chemical Group Co Ltd Class A",
-      "weight": 0.0226687,
+      "weight": 0.0245225,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 3,
       "holding_name_en": "Inner Mongolia Junzheng Energy & Chemical Group Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Inner Mongolia Junzheng Energy & Chemical Group Co Ltd Class A",
@@ -3225,10 +3183,10 @@
       "etf_id": "US-SDEM",
       "holding_symbol": "MOL.BD",
       "holding_name": "MOL Hungarian Oil and Gas PLC Class A",
-      "weight": 0.0224616,
+      "weight": 0.0232274,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 4,
       "holding_name_en": "MOL Hungarian Oil and Gas PLC Class A",
       "holding_name_zh": null,
       "display_name": "MOL Hungarian Oil and Gas PLC Class A",
@@ -3237,26 +3195,54 @@
     },
     {
       "etf_id": "US-SDEM",
-      "holding_symbol": "PEO.WA",
-      "holding_name": "Bank Polska Kasa Opieki SA",
-      "weight": 0.0221865,
+      "holding_symbol": "900948.SS",
+      "holding_name": "Inner Mongolia Yitai Coal Co Ltd",
+      "weight": 0.0230838,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Bank Polska Kasa Opieki SA",
+      "rank": 5,
+      "holding_name_en": "Inner Mongolia Yitai Coal Co Ltd",
       "holding_name_zh": null,
-      "display_name": "Bank Polska Kasa Opieki SA",
-      "display_label": "(PEO.WA)Bank Polska Kasa Opieki SA",
-      "bilingual_name": "Bank Polska Kasa Opieki SA"
+      "display_name": "Inner Mongolia Yitai Coal Co Ltd",
+      "display_label": "(900948.SS)Inner Mongolia Yitai Coal Co Ltd",
+      "bilingual_name": "Inner Mongolia Yitai Coal Co Ltd"
+    },
+    {
+      "etf_id": "US-SDEM",
+      "holding_symbol": "CXSE3.SA",
+      "holding_name": "Caixa Seguridade Participacoes SA",
+      "weight": 0.0225314,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Caixa Seguridade Participacoes SA",
+      "holding_name_zh": null,
+      "display_name": "Caixa Seguridade Participacoes SA",
+      "display_label": "(CXSE3.SA)Caixa Seguridade Participacoes SA",
+      "bilingual_name": "Caixa Seguridade Participacoes SA"
+    },
+    {
+      "etf_id": "US-SDEM",
+      "holding_symbol": "BBSE3.SA",
+      "holding_name": "BB Seguridade Participacoes SA",
+      "weight": 0.0225185,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "BB Seguridade Participacoes SA",
+      "holding_name_zh": null,
+      "display_name": "BB Seguridade Participacoes SA",
+      "display_label": "(BBSE3.SA)BB Seguridade Participacoes SA",
+      "bilingual_name": "BB Seguridade Participacoes SA"
     },
     {
       "etf_id": "US-SDEM",
       "holding_symbol": "VIVT3.SA",
       "holding_name": "Telefonica Brasil SA",
-      "weight": 0.0217661,
+      "weight": 0.0224309,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Telefonica Brasil SA",
       "holding_name_zh": null,
       "display_name": "Telefonica Brasil SA",
@@ -3265,23 +3251,23 @@
     },
     {
       "etf_id": "US-SDEM",
-      "holding_symbol": "BBSE3.SA",
-      "holding_name": "BB Seguridade Participacoes SA",
-      "weight": 0.0213374,
+      "holding_symbol": "2290.SR",
+      "holding_name": "Yanbu National Petrochemicals Co",
+      "weight": 0.0222705,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "BB Seguridade Participacoes SA",
+      "rank": 9,
+      "holding_name_en": "Yanbu National Petrochemicals Co",
       "holding_name_zh": null,
-      "display_name": "BB Seguridade Participacoes SA",
-      "display_label": "(BBSE3.SA)BB Seguridade Participacoes SA",
-      "bilingual_name": "BB Seguridade Participacoes SA"
+      "display_name": "Yanbu National Petrochemicals Co",
+      "display_label": "(2290.SR)Yanbu National Petrochemicals Co",
+      "bilingual_name": "Yanbu National Petrochemicals Co"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.241436,
-    "top_3_weight": 0.081561
+    "holding_count": 9,
+    "top_10_weight": 0.215539,
+    "top_3_weight": 0.079476
   },
   "research": {
     "tier": "context",

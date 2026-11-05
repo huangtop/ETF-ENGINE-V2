@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-CHAT",
   "right_etf_id": "US-IGV",
-  "overlap_ratio": 0.037638,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.088387,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.037638,
-      "right_weight": 0.085012,
-      "overlap_weight": 0.037638
+      "left_weight": 0.052937,
+      "right_weight": 0.088205,
+      "overlap_weight": 0.052937
+    },
+    {
+      "holding_symbol": "CRWD",
+      "left_weight": 0.03545,
+      "right_weight": 0.085506,
+      "overlap_weight": 0.03545
     }
   ]
 }

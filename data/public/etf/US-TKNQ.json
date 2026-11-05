@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -26.1412,
+      "value": -26.1421,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.8064,
+      "value": 28.8063,
       "unit": "percent"
     },
     "beta": {
@@ -75,7 +75,7 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -7.4432,
+      "value": -7.444,
       "unit": "percent"
     },
     "tracking_error": {
@@ -86,7 +86,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 23.5372,
+    "value": 23.537,
     "currency": "USD"
   },
   "trend": [
@@ -972,10 +972,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1105.0,
-    "average_volume_20d": 1125.25,
-    "average_dollar_volume_20d": 26924.3402,
-    "relative_volume_20d": 0.982,
+    "latest_volume": 1100.0,
+    "average_volume_20d": 1125.0,
+    "average_dollar_volume_20d": 26918.4449,
+    "relative_volume_20d": 0.9778,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -983,40 +983,26 @@
   "top_holdings": [
     {
       "etf_id": "US-TKNQ",
-      "holding_symbol": "AGPXX",
-      "holding_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "weight": 0.1471592,
+      "holding_symbol": "BHYP",
+      "holding_name": "Bitwise Hyperliquid ETF",
+      "weight": 0.0534235,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
+      "holding_name_en": "Bitwise Hyperliquid ETF",
       "holding_name_zh": null,
-      "display_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "display_label": "(AGPXX)Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "bilingual_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl"
-    },
-    {
-      "etf_id": "US-TKNQ",
-      "holding_symbol": "HBR",
-      "holding_name": "Canary HBAR ETF",
-      "weight": 0.0641085,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Canary HBAR ETF",
-      "holding_name_zh": null,
-      "display_name": "Canary HBAR ETF",
-      "display_label": "(HBR)Canary HBAR ETF",
-      "bilingual_name": "Canary HBAR ETF"
+      "display_name": "Bitwise Hyperliquid ETF",
+      "display_label": "(BHYP)Bitwise Hyperliquid ETF",
+      "bilingual_name": "Bitwise Hyperliquid ETF"
     },
     {
       "etf_id": "US-TKNQ",
       "holding_symbol": "GLNK",
       "holding_name": "Grayscale Chainlink Trust ETF",
-      "weight": 0.0602532,
+      "weight": 0.0468053,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 2,
       "holding_name_en": "Grayscale Chainlink Trust ETF",
       "holding_name_zh": null,
       "display_name": "Grayscale Chainlink Trust ETF",
@@ -1027,10 +1013,10 @@
       "etf_id": "US-TKNQ",
       "holding_symbol": "BSOL",
       "holding_name": "Bitwise Solana Staking ETF",
-      "weight": 0.0459091,
+      "weight": 0.0466303,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "Bitwise Solana Staking ETF",
       "holding_name_zh": null,
       "display_name": "Bitwise Solana Staking ETF",
@@ -1039,68 +1025,12 @@
     },
     {
       "etf_id": "US-TKNQ",
-      "holding_symbol": "SECZ",
-      "holding_name": "Securitize Holdings Inc",
-      "weight": 0.0157143,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Securitize Holdings Inc",
-      "holding_name_zh": null,
-      "display_name": "Securitize Holdings Inc",
-      "display_label": "(SECZ)Securitize Holdings Inc",
-      "bilingual_name": "Securitize Holdings Inc"
-    },
-    {
-      "etf_id": "US-TKNQ",
-      "holding_symbol": "VAVX",
-      "holding_name": "VanEck Avalanche ETF",
-      "weight": 0.0156865,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "VanEck Avalanche ETF",
-      "holding_name_zh": null,
-      "display_name": "VanEck Avalanche ETF",
-      "display_label": "(VAVX)VanEck Avalanche ETF",
-      "bilingual_name": "VanEck Avalanche ETF"
-    },
-    {
-      "etf_id": "US-TKNQ",
-      "holding_symbol": "02318",
-      "holding_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
-      "weight": 0.0106164,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Ping An Insurance (Group) Co. of China Ltd Class H",
-      "holding_name_zh": null,
-      "display_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
-      "display_label": "(02318)Ping An Insurance (Group) Co. of China Ltd Class H",
-      "bilingual_name": "Ping An Insurance (Group) Co. of China Ltd Class H"
-    },
-    {
-      "etf_id": "US-TKNQ",
-      "holding_symbol": "GEMI",
-      "holding_name": "Gemini Space Station Inc Ordinary Shares-Class A",
-      "weight": 0.0105255,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Gemini Space Station Inc Ordinary Shares-Class A",
-      "holding_name_zh": null,
-      "display_name": "Gemini Space Station Inc Ordinary Shares-Class A",
-      "display_label": "(GEMI)Gemini Space Station Inc Ordinary Shares-Class A",
-      "bilingual_name": "Gemini Space Station Inc Ordinary Shares-Class A"
-    },
-    {
-      "etf_id": "US-TKNQ",
       "holding_symbol": "ETHA",
       "holding_name": "iShares Ethereum Trust ETF",
-      "weight": 0.0101679,
+      "weight": 0.0453446,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 4,
       "holding_name_en": "iShares Ethereum Trust ETF",
       "holding_name_zh": null,
       "display_name": "iShares Ethereum Trust ETF",
@@ -1109,23 +1039,93 @@
     },
     {
       "etf_id": "US-TKNQ",
-      "holding_symbol": "NET",
-      "holding_name": "Cloudflare Inc",
-      "weight": 0.0100915,
+      "holding_symbol": "XRP",
+      "holding_name": "Bitwise XRP ETF",
+      "weight": 0.0444921,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Bitwise XRP ETF",
+      "holding_name_zh": null,
+      "display_name": "Bitwise XRP ETF",
+      "display_label": "(XRP)Bitwise XRP ETF",
+      "bilingual_name": "Bitwise XRP ETF"
+    },
+    {
+      "etf_id": "US-TKNQ",
+      "holding_symbol": "HBR",
+      "holding_name": "Canary HBAR ETF",
+      "weight": 0.0420541,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Canary HBAR ETF",
+      "holding_name_zh": null,
+      "display_name": "Canary HBAR ETF",
+      "display_label": "(HBR)Canary HBAR ETF",
+      "bilingual_name": "Canary HBAR ETF"
+    },
+    {
+      "etf_id": "US-TKNQ",
+      "holding_symbol": "VAVX",
+      "holding_name": "VanEck Avalanche ETF",
+      "weight": 0.0119625,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "VanEck Avalanche ETF",
+      "holding_name_zh": null,
+      "display_name": "VanEck Avalanche ETF",
+      "display_label": "(VAVX)VanEck Avalanche ETF",
+      "bilingual_name": "VanEck Avalanche ETF"
+    },
+    {
+      "etf_id": "US-TKNQ",
+      "holding_symbol": "BLK",
+      "holding_name": "BlackRock Inc",
+      "weight": 0.0108379,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "BlackRock Inc",
+      "holding_name_zh": null,
+      "display_name": "BlackRock Inc",
+      "display_label": "(BLK)BlackRock Inc",
+      "bilingual_name": "BlackRock Inc"
+    },
+    {
+      "etf_id": "US-TKNQ",
+      "holding_symbol": "TW",
+      "holding_name": "Tradeweb Markets Inc",
+      "weight": 0.0104161,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Tradeweb Markets Inc",
+      "holding_name_zh": null,
+      "display_name": "Tradeweb Markets Inc",
+      "display_label": "(TW)Tradeweb Markets Inc",
+      "bilingual_name": "Tradeweb Markets Inc"
+    },
+    {
+      "etf_id": "US-TKNQ",
+      "holding_symbol": "DB1.DE",
+      "holding_name": "Deutsche Boerse AG",
+      "weight": 0.0101372,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Cloudflare Inc",
+      "holding_name_en": "Deutsche Boerse AG",
       "holding_name_zh": null,
-      "display_name": "Cloudflare Inc",
-      "display_label": "(NET)Cloudflare Inc",
-      "bilingual_name": "Cloudflare Inc"
+      "display_name": "Deutsche Boerse AG",
+      "display_label": "(DB1.DE)Deutsche Boerse AG",
+      "bilingual_name": "Deutsche Boerse AG"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.390232,
-    "top_3_weight": 0.271521
+    "top_10_weight": 0.322104,
+    "top_3_weight": 0.146859
   },
   "research": {
     "tier": "context",

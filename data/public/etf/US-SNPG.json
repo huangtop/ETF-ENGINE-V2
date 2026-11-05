@@ -59,11 +59,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -6.9569,
+      "value": -6.9567,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 9.861,
+      "value": 9.8612,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -87,7 +87,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 9.861,
+      "value": 9.8612,
       "unit": "percent"
     },
     "tracking_error": {
@@ -98,7 +98,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 57.1649,
+    "value": 57.165,
     "currency": "USD"
   },
   "trend": [
@@ -3136,10 +3136,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1957.0,
-    "average_volume_20d": 1382.85,
-    "average_dollar_volume_20d": 80592.2707,
-    "relative_volume_20d": 1.4152,
+    "latest_volume": 2000.0,
+    "average_volume_20d": 1385.0,
+    "average_dollar_volume_20d": 80715.1852,
+    "relative_volume_20d": 1.444,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3149,7 +3149,7 @@
       "etf_id": "US-SNPG",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.1136338,
+      "weight": 0.1205955,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3163,7 +3163,7 @@
       "etf_id": "US-SNPG",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.09310021,
+      "weight": 0.0894191,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3175,26 +3175,12 @@
     },
     {
       "etf_id": "US-SNPG",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0908231,
+      "holding_symbol": "LLY",
+      "holding_name": "Eli Lilly and Co",
+      "weight": 0.08520661,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "US-SNPG",
-      "holding_symbol": "LLY",
-      "holding_name": "Eli Lilly and Co",
-      "weight": 0.0699217,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Eli Lilly and Co",
       "holding_name_zh": null,
       "display_name": "Eli Lilly and Co",
@@ -3203,9 +3189,23 @@
     },
     {
       "etf_id": "US-SNPG",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0817854,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "US-SNPG",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0482119,
+      "weight": 0.04083,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3219,7 +3219,7 @@
       "etf_id": "US-SNPG",
       "holding_symbol": "GOOG",
       "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0387087,
+      "weight": 0.0329263,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3231,26 +3231,40 @@
     },
     {
       "etf_id": "US-SNPG",
-      "holding_symbol": "LRCX",
-      "holding_name": "Lam Research Corp",
-      "weight": 0.0310154,
+      "holding_symbol": "V",
+      "holding_name": "Visa Inc Class A",
+      "weight": 0.0297558,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Lam Research Corp",
-      "holding_name_zh": "科林研發",
-      "display_name": "科林研發",
-      "display_label": "(LRCX)科林研發",
-      "bilingual_name": "Lam Research Corp（科林研發）"
+      "holding_name_en": "Visa Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Visa Inc Class A",
+      "display_label": "(V)Visa Inc Class A",
+      "bilingual_name": "Visa Inc Class A"
+    },
+    {
+      "etf_id": "US-SNPG",
+      "holding_symbol": "MA",
+      "holding_name": "Mastercard Inc Class A",
+      "weight": 0.0267097,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Mastercard Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Mastercard Inc Class A",
+      "display_label": "(MA)Mastercard Inc Class A",
+      "bilingual_name": "Mastercard Inc Class A"
     },
     {
       "etf_id": "US-SNPG",
       "holding_symbol": "AMAT",
       "holding_name": "Applied Materials Inc",
-      "weight": 0.0306526,
+      "weight": 0.0259514,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Applied Materials Inc",
       "holding_name_zh": "應用材料",
       "display_name": "應用材料",
@@ -3259,37 +3273,23 @@
     },
     {
       "etf_id": "US-SNPG",
-      "holding_symbol": "CAT",
-      "holding_name": "Caterpillar Inc",
-      "weight": 0.0281753,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Caterpillar Inc",
-      "holding_name_zh": null,
-      "display_name": "Caterpillar Inc",
-      "display_label": "(CAT)Caterpillar Inc",
-      "bilingual_name": "Caterpillar Inc"
-    },
-    {
-      "etf_id": "US-SNPG",
-      "holding_symbol": "V",
-      "holding_name": "Visa Inc Class A",
-      "weight": 0.0253749,
+      "holding_symbol": "LRCX",
+      "holding_name": "Lam Research Corp",
+      "weight": 0.0246657,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Visa Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "Visa Inc Class A",
-      "display_label": "(V)Visa Inc Class A",
-      "bilingual_name": "Visa Inc Class A"
+      "holding_name_en": "Lam Research Corp",
+      "holding_name_zh": "科林研發",
+      "display_name": "科林研發",
+      "display_label": "(LRCX)科林研發",
+      "bilingual_name": "Lam Research Corp（科林研發）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.569618,
-    "top_3_weight": 0.297557
+    "top_10_weight": 0.557846,
+    "top_3_weight": 0.295221
   },
   "research": {
     "tier": "context",

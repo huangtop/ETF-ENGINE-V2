@@ -59,15 +59,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 5.176,
+      "value": 5.1753,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 18.492,
+      "value": 18.4911,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 12.4277,
+      "value": 12.4276,
       "unit": "percent"
     },
     "beta": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.3673,
+      "value": 1.3672,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 18.492,
+      "value": 18.4911,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 5.5197,
+      "value": 5.5196,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 27.4202,
+    "value": 27.42,
     "currency": "USD"
   },
   "trend": [
@@ -1616,10 +1616,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 18280.0,
-    "average_volume_20d": 5494.0,
-    "average_dollar_volume_20d": 149266.4377,
-    "relative_volume_20d": 3.3273,
+    "latest_volume": 18300.0,
+    "average_volume_20d": 5495.0,
+    "average_dollar_volume_20d": 149293.6746,
+    "relative_volume_20d": 3.3303,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1627,68 +1627,26 @@
   "top_holdings": [
     {
       "etf_id": "US-LCOW",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.0597376,
+      "holding_symbol": "MA",
+      "holding_name": "Mastercard Inc Class A",
+      "weight": 0.0564575,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Microsoft Corp",
-      "holding_name_zh": "微軟",
-      "display_name": "微軟",
-      "display_label": "(MSFT)微軟",
-      "bilingual_name": "Microsoft Corp（微軟）"
-    },
-    {
-      "etf_id": "US-LCOW",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.0560756,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Apple Inc",
-      "holding_name_zh": "蘋果",
-      "display_name": "蘋果",
-      "display_label": "(AAPL)蘋果",
-      "bilingual_name": "Apple Inc（蘋果）"
-    },
-    {
-      "etf_id": "US-LCOW",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0546811,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-LCOW",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0515748,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+      "holding_name_en": "Mastercard Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Mastercard Inc Class A",
+      "display_label": "(MA)Mastercard Inc Class A",
+      "bilingual_name": "Mastercard Inc Class A"
     },
     {
       "etf_id": "US-LCOW",
       "holding_symbol": "V",
       "holding_name": "Visa Inc Class A",
-      "weight": 0.0507068,
+      "weight": 0.0560598,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 2,
       "holding_name_en": "Visa Inc Class A",
       "holding_name_zh": null,
       "display_name": "Visa Inc Class A",
@@ -1699,10 +1657,10 @@
       "etf_id": "US-LCOW",
       "holding_symbol": "ABBV",
       "holding_name": "AbbVie Inc",
-      "weight": 0.0482279,
+      "weight": 0.053419,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 3,
       "holding_name_en": "AbbVie Inc",
       "holding_name_zh": "艾伯維",
       "display_name": "艾伯維",
@@ -1711,40 +1669,40 @@
     },
     {
       "etf_id": "US-LCOW",
-      "holding_symbol": "MA",
-      "holding_name": "Mastercard Inc Class A",
-      "weight": 0.0474122,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0516601,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Mastercard Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "Mastercard Inc Class A",
-      "display_label": "(MA)Mastercard Inc Class A",
-      "bilingual_name": "Mastercard Inc Class A"
+      "rank": 4,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
     },
     {
       "etf_id": "US-LCOW",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0472016,
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0497029,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Alphabet Inc Class C",
-      "holding_name_zh": "Alphabet C類股",
-      "display_name": "Alphabet C類股",
-      "display_label": "(GOOG)Alphabet C類股",
-      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+      "rank": 5,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
     },
     {
       "etf_id": "US-LCOW",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.0436169,
+      "weight": 0.0437255,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 6,
       "holding_name_en": "Broadcom Inc",
       "holding_name_zh": "博通",
       "display_name": "博通",
@@ -1753,9 +1711,51 @@
     },
     {
       "etf_id": "US-LCOW",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0434725,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "US-LCOW",
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.0430058,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+    },
+    {
+      "etf_id": "US-LCOW",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0402843,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "US-LCOW",
       "holding_symbol": "JNJ",
       "holding_name": "Johnson & Johnson",
-      "weight": 0.0342604,
+      "weight": 0.03814,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -1768,8 +1768,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.493495,
-    "top_3_weight": 0.170494
+    "top_10_weight": 0.475927,
+    "top_3_weight": 0.165936
   },
   "research": {
     "tier": "context",

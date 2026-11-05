@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -10.6743,
+      "value": -12.8853,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 3.0265,
+      "value": 4.8356,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 25.4279,
+      "value": 25.3996,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.4603,
+      "value": 1.4459,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.8413,
+      "value": 1.8452,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.06,
+      "value": 0.1313,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 3.0265,
+      "value": 4.8356,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 18.2206,
+      "value": 18.2567,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 24.573,
+    "date": "2026-11-04",
+    "value": 24.692,
     "currency": "USD"
   },
   "trend": [
@@ -1949,21 +1949,25 @@
     {
       "date": "2026-11-03",
       "value": 126.73
+    },
+    {
+      "date": "2026-11-04",
+      "value": 127.34
     }
   ],
   "price_history": {
     "first_date": "2024-12-27",
-    "last_date": "2026-11-03",
-    "observations": 464,
+    "last_date": "2026-11-04",
+    "observations": 465,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 300.0,
-    "average_volume_20d": 295.0,
-    "average_dollar_volume_20d": 7648.98,
-    "relative_volume_20d": 1.0169,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
+    "average_volume_20d": 270.0,
+    "average_dollar_volume_20d": 6948.16,
+    "relative_volume_20d": 0.3704,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1971,23 +1975,23 @@
   "top_holdings": [
     {
       "etf_id": "US-EFFE",
-      "holding_symbol": "000660.KQ",
-      "holding_name": "SK hynix Inc",
-      "weight": 0.0373527,
+      "holding_symbol": "3231.TW",
+      "holding_name": "Wistron Corp",
+      "weight": 0.0379573,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "SK hynix Inc",
-      "holding_name_zh": null,
-      "display_name": "SK hynix Inc",
-      "display_label": "(000660.KQ)SK hynix Inc",
-      "bilingual_name": "SK hynix Inc"
+      "holding_name_en": "Wistron Corp",
+      "holding_name_zh": "緯創",
+      "display_name": "緯創",
+      "display_label": "(3231.TW)緯創",
+      "bilingual_name": "Wistron Corp（緯創）"
     },
     {
       "etf_id": "US-EFFE",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.036678,
+      "weight": 0.036619,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1999,54 +2003,40 @@
     },
     {
       "etf_id": "US-EFFE",
-      "holding_symbol": "066570.KQ",
-      "holding_name": "LG Electronics Inc",
-      "weight": 0.0354195,
+      "holding_symbol": "2382.TW",
+      "holding_name": "Quanta Computer Inc",
+      "weight": 0.0324517,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "LG Electronics Inc",
-      "holding_name_zh": null,
-      "display_name": "LG Electronics Inc",
-      "display_label": "(066570.KQ)LG Electronics Inc",
-      "bilingual_name": "LG Electronics Inc"
+      "holding_name_en": "Quanta Computer Inc",
+      "holding_name_zh": "廣達",
+      "display_name": "廣達",
+      "display_label": "(2382.TW)廣達",
+      "bilingual_name": "Quanta Computer Inc（廣達）"
     },
     {
       "etf_id": "US-EFFE",
-      "holding_symbol": "3231.TW",
-      "holding_name": "Wistron Corp",
-      "weight": 0.0352299,
+      "holding_symbol": "000660.KQ",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.0321224,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Wistron Corp",
-      "holding_name_zh": "緯創",
-      "display_name": "緯創",
-      "display_label": "(3231.TW)緯創",
-      "bilingual_name": "Wistron Corp（緯創）"
-    },
-    {
-      "etf_id": "US-EFFE",
-      "holding_symbol": "0992.HK",
-      "holding_name": "Lenovo Group Ltd",
-      "weight": 0.0346024,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Lenovo Group Ltd",
+      "holding_name_en": "SK hynix Inc",
       "holding_name_zh": null,
-      "display_name": "Lenovo Group Ltd",
-      "display_label": "(0992.HK)Lenovo Group Ltd",
-      "bilingual_name": "Lenovo Group Ltd"
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KQ)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
     },
     {
       "etf_id": "US-EFFE",
       "holding_symbol": "6669.TW",
       "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.0328268,
+      "weight": 0.0308162,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Wiwynn Corp Ordinary Shares",
       "holding_name_zh": "緯穎",
       "display_name": "緯穎",
@@ -2057,10 +2047,10 @@
       "etf_id": "US-EFFE",
       "holding_symbol": "000270.KQ",
       "holding_name": "Kia Corp",
-      "weight": 0.0326209,
+      "weight": 0.0304054,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Kia Corp",
       "holding_name_zh": null,
       "display_name": "Kia Corp",
@@ -2069,51 +2059,65 @@
     },
     {
       "etf_id": "US-EFFE",
-      "holding_symbol": "2382.TW",
-      "holding_name": "Quanta Computer Inc",
-      "weight": 0.0315286,
+      "holding_symbol": "BHARTIARTL.NS",
+      "holding_name": "Bharti Airtel Ltd",
+      "weight": 0.0298014,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Quanta Computer Inc",
-      "holding_name_zh": "廣達",
-      "display_name": "廣達",
-      "display_label": "(2382.TW)廣達",
-      "bilingual_name": "Quanta Computer Inc（廣達）"
+      "rank": 7,
+      "holding_name_en": "Bharti Airtel Ltd",
+      "holding_name_zh": null,
+      "display_name": "Bharti Airtel Ltd",
+      "display_label": "(BHARTIARTL.NS)Bharti Airtel Ltd",
+      "bilingual_name": "Bharti Airtel Ltd"
     },
     {
       "etf_id": "US-EFFE",
-      "holding_symbol": "2059.TW",
-      "holding_name": "King Slide Works Co Ltd",
-      "weight": 0.030172,
+      "holding_symbol": "066570.KQ",
+      "holding_name": "LG Electronics Inc",
+      "weight": 0.0277033,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "King Slide Works Co Ltd",
-      "holding_name_zh": "川湖",
-      "display_name": "川湖",
-      "display_label": "(2059.TW)川湖",
-      "bilingual_name": "King Slide Works Co Ltd（川湖）"
+      "rank": 8,
+      "holding_name_en": "LG Electronics Inc",
+      "holding_name_zh": null,
+      "display_name": "LG Electronics Inc",
+      "display_label": "(066570.KQ)LG Electronics Inc",
+      "bilingual_name": "LG Electronics Inc"
     },
     {
       "etf_id": "US-EFFE",
       "holding_symbol": "028260.KQ",
       "holding_name": "Samsung C&T Corp",
-      "weight": 0.0267682,
+      "weight": 0.0273785,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Samsung C&T Corp",
       "holding_name_zh": null,
       "display_name": "Samsung C&T Corp",
       "display_label": "(028260.KQ)Samsung C&T Corp",
       "bilingual_name": "Samsung C&T Corp"
+    },
+    {
+      "etf_id": "US-EFFE",
+      "holding_symbol": "BBSE3.SA",
+      "holding_name": "BB Seguridade Participacoes SA",
+      "weight": 0.026275,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "BB Seguridade Participacoes SA",
+      "holding_name_zh": null,
+      "display_name": "BB Seguridade Participacoes SA",
+      "display_label": "(BBSE3.SA)BB Seguridade Participacoes SA",
+      "bilingual_name": "BB Seguridade Participacoes SA"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.333199,
-    "top_3_weight": 0.10945
+    "top_10_weight": 0.31153,
+    "top_3_weight": 0.107028
   },
   "research": {
     "tier": "context",

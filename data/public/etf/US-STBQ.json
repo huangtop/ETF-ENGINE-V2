@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -43.6064,
+      "value": -43.6049,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 40.5423,
+      "value": 40.5424,
       "unit": "percent"
     },
     "beta": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -17.1788,
+      "value": -17.1776,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 33.1877,
+      "value": 33.1878,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 21.2867,
+    "value": 21.287,
     "currency": "USD"
   },
   "trend": [
@@ -972,10 +972,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1946.0,
-    "average_volume_20d": 1112.3,
-    "average_dollar_volume_20d": 24136.7658,
-    "relative_volume_20d": 1.7495,
+    "latest_volume": 1900.0,
+    "average_volume_20d": 1110.0,
+    "average_dollar_volume_20d": 24087.835,
+    "relative_volume_20d": 1.7117,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -983,26 +983,12 @@
   "top_holdings": [
     {
       "etf_id": "US-STBQ",
-      "holding_symbol": "USDE",
-      "holding_name": "StableCoinX Inc Class A",
-      "weight": 0.0666858,
+      "holding_symbol": "GLNK",
+      "holding_name": "Grayscale Chainlink Trust ETF",
+      "weight": 0.0507166,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "StableCoinX Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "StableCoinX Inc Class A",
-      "display_label": "(USDE)StableCoinX Inc Class A",
-      "bilingual_name": "StableCoinX Inc Class A"
-    },
-    {
-      "etf_id": "US-STBQ",
-      "holding_symbol": "GLNK",
-      "holding_name": "Grayscale Chainlink Trust ETF",
-      "weight": 0.0468571,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Grayscale Chainlink Trust ETF",
       "holding_name_zh": null,
       "display_name": "Grayscale Chainlink Trust ETF",
@@ -1013,10 +999,10 @@
       "etf_id": "US-STBQ",
       "holding_symbol": "BSOL",
       "holding_name": "Bitwise Solana Staking ETF",
-      "weight": 0.0450174,
+      "weight": 0.0505232,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 2,
       "holding_name_en": "Bitwise Solana Staking ETF",
       "holding_name_zh": null,
       "display_name": "Bitwise Solana Staking ETF",
@@ -1025,26 +1011,12 @@
     },
     {
       "etf_id": "US-STBQ",
-      "holding_symbol": "AGPXX",
-      "holding_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "weight": 0.0447189,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "holding_name_zh": null,
-      "display_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "display_label": "(AGPXX)Invesco Shrt-Trm Inv Gov&Agcy Instl",
-      "bilingual_name": "Invesco Shrt-Trm Inv Gov&Agcy Instl"
-    },
-    {
-      "etf_id": "US-STBQ",
       "holding_symbol": "ETHA",
       "holding_name": "iShares Ethereum Trust ETF",
-      "weight": 0.0423944,
+      "weight": 0.0491822,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 3,
       "holding_name_en": "iShares Ethereum Trust ETF",
       "holding_name_zh": null,
       "display_name": "iShares Ethereum Trust ETF",
@@ -1055,10 +1027,10 @@
       "etf_id": "US-STBQ",
       "holding_symbol": "XRP",
       "holding_name": "Bitwise XRP ETF",
-      "weight": 0.0415775,
+      "weight": 0.0482968,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
       "holding_name_en": "Bitwise XRP ETF",
       "holding_name_zh": null,
       "display_name": "Bitwise XRP ETF",
@@ -1067,9 +1039,37 @@
     },
     {
       "etf_id": "US-STBQ",
+      "holding_symbol": "USDE",
+      "holding_name": "StableCoinX Inc Class A",
+      "weight": 0.0396039,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "StableCoinX Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "StableCoinX Inc Class A",
+      "display_label": "(USDE)StableCoinX Inc Class A",
+      "bilingual_name": "StableCoinX Inc Class A"
+    },
+    {
+      "etf_id": "US-STBQ",
+      "holding_symbol": "V",
+      "holding_name": "Visa Inc Class A",
+      "weight": 0.0392536,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Visa Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Visa Inc Class A",
+      "display_label": "(V)Visa Inc Class A",
+      "bilingual_name": "Visa Inc Class A"
+    },
+    {
+      "etf_id": "US-STBQ",
       "holding_symbol": "MQ",
       "holding_name": "Marqeta Inc Class A",
-      "weight": 0.032096,
+      "weight": 0.0387233,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1081,51 +1081,51 @@
     },
     {
       "etf_id": "US-STBQ",
-      "holding_symbol": "COIN",
-      "holding_name": "Coinbase Global Inc Ordinary Shares - Class A",
-      "weight": 0.0318858,
+      "holding_symbol": "FLYW",
+      "holding_name": "Flywire Corp",
+      "weight": 0.0377643,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Coinbase Global Inc Ordinary Shares - Class A",
+      "holding_name_en": "Flywire Corp",
       "holding_name_zh": null,
-      "display_name": "Coinbase Global Inc Ordinary Shares - Class A",
-      "display_label": "(COIN)Coinbase Global Inc Ordinary Shares - Class A",
-      "bilingual_name": "Coinbase Global Inc Ordinary Shares - Class A"
+      "display_name": "Flywire Corp",
+      "display_label": "(FLYW)Flywire Corp",
+      "bilingual_name": "Flywire Corp"
     },
     {
       "etf_id": "US-STBQ",
-      "holding_symbol": "GEMI",
-      "holding_name": "Gemini Space Station Inc Ordinary Shares-Class A",
-      "weight": 0.0303516,
+      "holding_symbol": "PYPL",
+      "holding_name": "PayPal Holdings Inc",
+      "weight": 0.0369734,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Gemini Space Station Inc Ordinary Shares-Class A",
+      "holding_name_en": "PayPal Holdings Inc",
       "holding_name_zh": null,
-      "display_name": "Gemini Space Station Inc Ordinary Shares-Class A",
-      "display_label": "(GEMI)Gemini Space Station Inc Ordinary Shares-Class A",
-      "bilingual_name": "Gemini Space Station Inc Ordinary Shares-Class A"
+      "display_name": "PayPal Holdings Inc",
+      "display_label": "(PYPL)PayPal Holdings Inc",
+      "bilingual_name": "PayPal Holdings Inc"
     },
     {
       "etf_id": "US-STBQ",
-      "holding_symbol": "V",
-      "holding_name": "Visa Inc Class A",
-      "weight": 0.0301048,
+      "holding_symbol": "MA",
+      "holding_name": "Mastercard Inc Class A",
+      "weight": 0.0353223,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Visa Inc Class A",
+      "holding_name_en": "Mastercard Inc Class A",
       "holding_name_zh": null,
-      "display_name": "Visa Inc Class A",
-      "display_label": "(V)Visa Inc Class A",
-      "bilingual_name": "Visa Inc Class A"
+      "display_name": "Mastercard Inc Class A",
+      "display_label": "(MA)Mastercard Inc Class A",
+      "bilingual_name": "Mastercard Inc Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.411689,
-    "top_3_weight": 0.15856
+    "top_10_weight": 0.42636,
+    "top_3_weight": 0.150422
   },
   "research": {
     "tier": "context",

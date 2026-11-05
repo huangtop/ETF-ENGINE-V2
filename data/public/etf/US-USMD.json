@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 1.4662,
+      "value": -4.001,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 27.516,
+      "value": 27.526,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.8109,
+      "value": 1.7517,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.7421,
+      "value": 0.746,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 17.7822,
+      "value": 15.7228,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 17.6343,
+      "value": 18.0369,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 29.74,
+    "date": "2026-11-04",
+    "value": 29.22,
     "currency": "USD"
   },
   "trend": [
@@ -841,20 +841,24 @@
     {
       "date": "2026-11-03",
       "value": 117.78
+    },
+    {
+      "date": "2026-11-04",
+      "value": 115.72
     }
   ],
   "price_history": {
     "first_date": "2026-02-06",
-    "last_date": "2026-11-03",
-    "observations": 187,
+    "last_date": "2026-11-04",
+    "observations": 188,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "latest_volume": 100.0,
     "average_volume_20d": 295.0,
-    "average_dollar_volume_20d": 9308.4998,
+    "average_dollar_volume_20d": 9287.4998,
     "relative_volume_20d": 0.339,
     "currency": "USD",
     "volume_unit": "shares",
@@ -863,40 +867,12 @@
   "top_holdings": [
     {
       "etf_id": "US-USMD",
-      "holding_symbol": "PLTR",
-      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.0568625,
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0654235,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "holding_name_zh": "Palantir Technologies",
-      "display_name": "Palantir Technologies",
-      "display_label": "(PLTR)Palantir Technologies",
-      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
-    },
-    {
-      "etf_id": "US-USMD",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0544766,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
-    },
-    {
-      "etf_id": "US-USMD",
-      "holding_symbol": "TSLA",
-      "holding_name": "Tesla Inc",
-      "weight": 0.0533865,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Tesla Inc",
       "holding_name_zh": "特斯拉",
       "display_name": "特斯拉",
@@ -905,12 +881,26 @@
     },
     {
       "etf_id": "US-USMD",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.0503987,
+      "holding_symbol": "PLTR",
+      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "weight": 0.0608685,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 2,
+      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "holding_name_zh": "Palantir Technologies",
+      "display_name": "Palantir Technologies",
+      "display_label": "(PLTR)Palantir Technologies",
+      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
+    },
+    {
+      "etf_id": "US-USMD",
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0557724,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "Microsoft Corp",
       "holding_name_zh": "微軟",
       "display_name": "微軟",
@@ -919,54 +909,26 @@
     },
     {
       "etf_id": "US-USMD",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0464898,
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.0488865,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
-    },
-    {
-      "etf_id": "US-USMD",
-      "holding_symbol": "INTC",
-      "holding_name": "Intel Corp",
-      "weight": 0.0457805,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Intel Corp",
-      "holding_name_zh": "英特爾",
-      "display_name": "英特爾",
-      "display_label": "(INTC)英特爾",
-      "bilingual_name": "Intel Corp（英特爾）"
-    },
-    {
-      "etf_id": "US-USMD",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0448808,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
+      "rank": 4,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
     },
     {
       "etf_id": "US-USMD",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.0443741,
+      "weight": 0.0465522,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 5,
       "holding_name_en": "Amazon.com Inc",
       "holding_name_zh": "亞馬遜",
       "display_name": "亞馬遜",
@@ -975,12 +937,40 @@
     },
     {
       "etf_id": "US-USMD",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0366637,
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.043737,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 6,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "US-USMD",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0411189,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "US-USMD",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0370247,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Broadcom Inc",
       "holding_name_zh": "博通",
       "display_name": "博通",
@@ -989,23 +979,37 @@
     },
     {
       "etf_id": "US-USMD",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0294353,
+      "holding_symbol": "IBM",
+      "holding_name": "International Business Machines Corp",
+      "weight": 0.0344366,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "International Business Machines Corp",
+      "holding_name_zh": null,
+      "display_name": "International Business Machines Corp",
+      "display_label": "(IBM)International Business Machines Corp",
+      "bilingual_name": "International Business Machines Corp"
+    },
+    {
+      "etf_id": "US-USMD",
+      "holding_symbol": "TXN",
+      "holding_name": "Texas Instruments Inc",
+      "weight": 0.0331542,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
+      "holding_name_en": "Texas Instruments Inc",
+      "holding_name_zh": "德州儀器",
+      "display_name": "德州儀器",
+      "display_label": "(TXN)德州儀器",
+      "bilingual_name": "Texas Instruments Inc（德州儀器）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.462749,
-    "top_3_weight": 0.164726
+    "top_10_weight": 0.466975,
+    "top_3_weight": 0.182064
   },
   "research": {
     "tier": "context",

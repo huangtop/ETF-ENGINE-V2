@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -3.3265,
+      "value": -3.3258,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 4.8577,
+      "value": 4.8586,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -75,11 +75,11 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.2855,
+      "value": 0.2856,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 4.8577,
+      "value": 4.8586,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 46.9136,
+    "value": 46.914,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 131.0,
-    "average_volume_20d": 216.55,
-    "average_dollar_volume_20d": 10163.9193,
-    "relative_volume_20d": 0.6049,
+    "latest_volume": 100.0,
+    "average_volume_20d": 215.0,
+    "average_dollar_volume_20d": 10091.2052,
+    "relative_volume_20d": 0.4651,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3139,68 +3139,12 @@
   "top_holdings": [
     {
       "etf_id": "US-EMDV",
-      "holding_symbol": "RENT3.SA",
-      "holding_name": "Localiza Rent A Car SA",
-      "weight": 0.0280823,
+      "holding_symbol": "601328.SS",
+      "holding_name": "Bank of Communications Co Ltd Class A",
+      "weight": 0.0272104,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Localiza Rent A Car SA",
-      "holding_name_zh": null,
-      "display_name": "Localiza Rent A Car SA",
-      "display_label": "(RENT3.SA)Localiza Rent A Car SA",
-      "bilingual_name": "Localiza Rent A Car SA"
-    },
-    {
-      "etf_id": "US-EMDV",
-      "holding_symbol": "1658.HK",
-      "holding_name": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
-      "weight": 0.025435,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
-      "holding_name_zh": null,
-      "display_name": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
-      "display_label": "(1658.HK)Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
-      "bilingual_name": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S"
-    },
-    {
-      "etf_id": "US-EMDV",
-      "holding_symbol": "601988.SS",
-      "holding_name": "Bank Of China Ltd Class A",
-      "weight": 0.0250441,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Bank Of China Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Bank Of China Ltd Class A",
-      "display_label": "(601988.SS)Bank Of China Ltd Class A",
-      "bilingual_name": "Bank Of China Ltd Class A"
-    },
-    {
-      "etf_id": "US-EMDV",
-      "holding_symbol": "3533.TW",
-      "holding_name": "Lotes Co Ltd",
-      "weight": 0.0247549,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Lotes Co Ltd",
-      "holding_name_zh": "嘉澤",
-      "display_name": "嘉澤",
-      "display_label": "(3533.TW)嘉澤",
-      "bilingual_name": "Lotes Co Ltd（嘉澤）"
-    },
-    {
-      "etf_id": "US-EMDV",
-      "holding_symbol": "601328.SS",
-      "holding_name": "Bank of Communications Co Ltd Class A",
-      "weight": 0.0245253,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Bank of Communications Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Bank of Communications Co Ltd Class A",
@@ -3209,9 +3153,65 @@
     },
     {
       "etf_id": "US-EMDV",
+      "holding_symbol": "601988.SS",
+      "holding_name": "Bank Of China Ltd Class A",
+      "weight": 0.0262876,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Bank Of China Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Bank Of China Ltd Class A",
+      "display_label": "(601988.SS)Bank Of China Ltd Class A",
+      "bilingual_name": "Bank Of China Ltd Class A"
+    },
+    {
+      "etf_id": "US-EMDV",
+      "holding_symbol": "601939.SS",
+      "holding_name": "China Construction Bank Corp Class A",
+      "weight": 0.0255817,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "China Construction Bank Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "China Construction Bank Corp Class A",
+      "display_label": "(601939.SS)China Construction Bank Corp Class A",
+      "bilingual_name": "China Construction Bank Corp Class A"
+    },
+    {
+      "etf_id": "US-EMDV",
+      "holding_symbol": "1658.HK",
+      "holding_name": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
+      "weight": 0.0255036,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
+      "holding_name_zh": null,
+      "display_name": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
+      "display_label": "(1658.HK)Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S",
+      "bilingual_name": "Postal Savings Bank Of China Co Ltd Shs -H- Unitary 144A/Reg S"
+    },
+    {
+      "etf_id": "US-EMDV",
+      "holding_symbol": "3533.TW",
+      "holding_name": "Lotes Co Ltd",
+      "weight": 0.0252943,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Lotes Co Ltd",
+      "holding_name_zh": "嘉澤",
+      "display_name": "嘉澤",
+      "display_label": "(3533.TW)嘉澤",
+      "bilingual_name": "Lotes Co Ltd（嘉澤）"
+    },
+    {
+      "etf_id": "US-EMDV",
       "holding_symbol": "601398.SS",
       "holding_name": "Industrial And Commercial Bank Of China Ltd Class A",
-      "weight": 0.024019,
+      "weight": 0.0252897,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3225,7 +3225,7 @@
       "etf_id": "US-EMDV",
       "holding_symbol": "600036.SS",
       "holding_name": "China Merchants Bank Co Ltd Class A",
-      "weight": 0.0238341,
+      "weight": 0.0250651,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3237,51 +3237,51 @@
     },
     {
       "etf_id": "US-EMDV",
-      "holding_symbol": "601939.SS",
-      "holding_name": "China Construction Bank Corp Class A",
-      "weight": 0.0237036,
+      "holding_symbol": "PERSISTENT.NS",
+      "holding_name": "Persistent Systems Ltd",
+      "weight": 0.0249227,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "China Construction Bank Corp Class A",
+      "holding_name_en": "Persistent Systems Ltd",
       "holding_name_zh": null,
-      "display_name": "China Construction Bank Corp Class A",
-      "display_label": "(601939.SS)China Construction Bank Corp Class A",
-      "bilingual_name": "China Construction Bank Corp Class A"
-    },
-    {
-      "etf_id": "US-EMDV",
-      "holding_symbol": "3661.TW",
-      "holding_name": "Alchip Technologies Ltd",
-      "weight": 0.0233502,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Alchip Technologies Ltd",
-      "holding_name_zh": "世芯-KY",
-      "display_name": "世芯-KY",
-      "display_label": "(3661.TW)世芯-KY",
-      "bilingual_name": "Alchip Technologies Ltd（世芯-KY）"
+      "display_name": "Persistent Systems Ltd",
+      "display_label": "(PERSISTENT.NS)Persistent Systems Ltd",
+      "bilingual_name": "Persistent Systems Ltd"
     },
     {
       "etf_id": "US-EMDV",
       "holding_symbol": "SHP.JO",
       "holding_name": "Shoprite Holdings Ltd",
-      "weight": 0.0233316,
+      "weight": 0.0244374,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Shoprite Holdings Ltd",
       "holding_name_zh": null,
       "display_name": "Shoprite Holdings Ltd",
       "display_label": "(SHP.JO)Shoprite Holdings Ltd",
       "bilingual_name": "Shoprite Holdings Ltd"
+    },
+    {
+      "etf_id": "US-EMDV",
+      "holding_symbol": "2319.HK",
+      "holding_name": "China Mengniu Dairy Co Ltd",
+      "weight": 0.0242175,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "China Mengniu Dairy Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "China Mengniu Dairy Co Ltd",
+      "display_label": "(2319.HK)China Mengniu Dairy Co Ltd",
+      "bilingual_name": "China Mengniu Dairy Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.24608,
-    "top_3_weight": 0.078561
+    "top_10_weight": 0.25381,
+    "top_3_weight": 0.07908
   },
   "research": {
     "tier": "context",

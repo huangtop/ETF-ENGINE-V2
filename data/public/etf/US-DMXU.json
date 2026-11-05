@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -14.0151,
+      "value": -14.0202,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.3438,
+      "value": 13.343,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9519,
+      "value": 0.9518,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -3.8388,
+      "value": -3.8398,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 8.5665,
+      "value": 8.5662,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 37.8404,
+    "value": 37.84,
     "currency": "USD"
   },
   "trend": [
@@ -328,10 +328,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 4972.0,
-    "average_volume_20d": 13103.6,
-    "average_dollar_volume_20d": 487562.5069,
-    "relative_volume_20d": 0.3794,
+    "latest_volume": 5000.0,
+    "average_volume_20d": 13105.0,
+    "average_dollar_volume_20d": 487615.3833,
+    "relative_volume_20d": 0.3815,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -341,7 +341,7 @@
       "etf_id": "US-DMXU",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0355276,
+      "weight": 0.031307,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -355,7 +355,7 @@
       "etf_id": "US-DMXU",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
-      "weight": 0.0262232,
+      "weight": 0.0244611,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -369,7 +369,7 @@
       "etf_id": "US-DMXU",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0249427,
+      "weight": 0.0218493,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -381,26 +381,12 @@
     },
     {
       "etf_id": "US-DMXU",
-      "holding_symbol": "HSBA.L",
-      "holding_name": "HSBC Holdings PLC",
-      "weight": 0.0130036,
+      "holding_symbol": "ROP.SW",
+      "holding_name": "Roche Holding AG Ordinary Shares new",
+      "weight": 0.0131176,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "HSBC Holdings PLC",
-      "holding_name_zh": null,
-      "display_name": "HSBC Holdings PLC",
-      "display_label": "(HSBA.L)HSBC Holdings PLC",
-      "bilingual_name": "HSBC Holdings PLC"
-    },
-    {
-      "etf_id": "US-DMXU",
-      "holding_symbol": "ROP.SW",
-      "holding_name": "Roche Holding AG Ordinary Shares new",
-      "weight": 0.0111731,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Roche Holding AG Ordinary Shares new",
       "holding_name_zh": null,
       "display_name": "Roche Holding AG Ordinary Shares new",
@@ -411,10 +397,10 @@
       "etf_id": "US-DMXU",
       "holding_symbol": "SHEL.L",
       "holding_name": "Shell PLC",
-      "weight": 0.0104707,
+      "weight": 0.0120079,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Shell PLC",
       "holding_name_zh": null,
       "display_name": "Shell PLC",
@@ -425,10 +411,10 @@
       "etf_id": "US-DMXU",
       "holding_symbol": "NOVN.SW",
       "holding_name": "Novartis AG Registered Shares",
-      "weight": 0.0103112,
+      "weight": 0.0115629,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Novartis AG Registered Shares",
       "holding_name_zh": null,
       "display_name": "Novartis AG Registered Shares",
@@ -437,9 +423,23 @@
     },
     {
       "etf_id": "US-DMXU",
+      "holding_symbol": "HSBA.L",
+      "holding_name": "HSBC Holdings PLC",
+      "weight": 0.0113779,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "HSBC Holdings PLC",
+      "holding_name_zh": null,
+      "display_name": "HSBC Holdings PLC",
+      "display_label": "(HSBA.L)HSBC Holdings PLC",
+      "bilingual_name": "HSBC Holdings PLC"
+    },
+    {
+      "etf_id": "US-DMXU",
       "holding_symbol": "RY",
       "holding_name": "Royal Bank of Canada",
-      "weight": 0.0098175,
+      "weight": 0.0103038,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -453,7 +453,7 @@
       "etf_id": "US-DMXU",
       "holding_symbol": "AZN.L",
       "holding_name": "AstraZeneca PLC",
-      "weight": 0.0093128,
+      "weight": 0.010035,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -465,23 +465,23 @@
     },
     {
       "etf_id": "US-DMXU",
-      "holding_symbol": "SIE.DE",
-      "holding_name": "Siemens AG",
-      "weight": 0.0090767,
+      "holding_symbol": "NESN.SW",
+      "holding_name": "Nestle SA",
+      "weight": 0.009884,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Siemens AG",
+      "holding_name_en": "Nestle SA",
       "holding_name_zh": null,
-      "display_name": "Siemens AG",
-      "display_label": "(SIE.DE)Siemens AG",
-      "bilingual_name": "Siemens AG"
+      "display_name": "Nestle SA",
+      "display_label": "(NESN.SW)Nestle SA",
+      "bilingual_name": "Nestle SA"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.159859,
-    "top_3_weight": 0.086694
+    "top_10_weight": 0.155907,
+    "top_3_weight": 0.077617
   },
   "research": {
     "tier": "context",

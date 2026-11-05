@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 6.4939,
+      "value": 6.4933,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 31.3652,
+      "value": 31.3644,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,7 +79,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 31.3652,
+      "value": 31.3644,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 44.6273,
+    "value": 44.627,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 22724.0,
-    "average_volume_20d": 9131.2,
-    "average_dollar_volume_20d": 424228.9134,
-    "relative_volume_20d": 2.4886,
+    "latest_volume": 22700.0,
+    "average_volume_20d": 9130.0,
+    "average_dollar_volume_20d": 424175.0186,
+    "relative_volume_20d": 2.4863,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-STXE",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.20203279,
+      "weight": 0.20672701,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-STXE",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.1267657,
+      "weight": 0.11816379,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-STXE",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0838276,
+      "weight": 0.07445,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3183,7 +3183,7 @@
       "etf_id": "US-STXE",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0233124,
+      "weight": 0.0198624,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3195,26 +3195,12 @@
     },
     {
       "etf_id": "US-STXE",
-      "holding_symbol": "005935",
-      "holding_name": "Samsung Electronics Co Ltd Participating Preferred",
-      "weight": 0.0165254,
+      "holding_symbol": "HDFCBANK.NS",
+      "holding_name": "HDFC Bank Ltd",
+      "weight": 0.0157742,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Samsung Electronics Co Ltd Participating Preferred",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd Participating Preferred",
-      "display_label": "(005935)Samsung Electronics Co Ltd Participating Preferred",
-      "bilingual_name": "Samsung Electronics Co Ltd Participating Preferred"
-    },
-    {
-      "etf_id": "US-STXE",
-      "holding_symbol": "HDFCBANK.NS",
-      "holding_name": "HDFC Bank Ltd",
-      "weight": 0.0145797,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "HDFC Bank Ltd",
       "holding_name_zh": null,
       "display_name": "HDFC Bank Ltd",
@@ -3223,9 +3209,23 @@
     },
     {
       "etf_id": "US-STXE",
+      "holding_symbol": "ICICIBANK.NS",
+      "holding_name": "ICICI Bank Ltd",
+      "weight": 0.0153257,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "ICICI Bank Ltd",
+      "holding_name_zh": null,
+      "display_name": "ICICI Bank Ltd",
+      "display_label": "(ICICIBANK.NS)ICICI Bank Ltd",
+      "bilingual_name": "ICICI Bank Ltd"
+    },
+    {
+      "etf_id": "US-STXE",
       "holding_symbol": "1120.SR",
       "holding_name": "Al Rajhi Bank",
-      "weight": 0.0141416,
+      "weight": 0.0146451,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3237,51 +3237,37 @@
     },
     {
       "etf_id": "US-STXE",
-      "holding_symbol": "ICICIBANK.NS",
-      "holding_name": "ICICI Bank Ltd",
-      "weight": 0.0130916,
+      "holding_symbol": "GMEXICOB.MX",
+      "holding_name": "Grupo Mexico SAB de CV Class B",
+      "weight": 0.0113348,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "ICICI Bank Ltd",
-      "holding_name_zh": null,
-      "display_name": "ICICI Bank Ltd",
-      "display_label": "(ICICIBANK.NS)ICICI Bank Ltd",
-      "bilingual_name": "ICICI Bank Ltd"
-    },
-    {
-      "etf_id": "US-STXE",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0116375,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Delta Electronics Inc",
-      "holding_name_zh": "台達電",
-      "display_name": "台達電",
-      "display_label": "(2308.TW)台達電",
-      "bilingual_name": "Delta Electronics Inc（台達電）"
-    },
-    {
-      "etf_id": "US-STXE",
-      "holding_symbol": "GMEXICOB.MX",
-      "holding_name": "Grupo Mexico SAB de CV Class B",
-      "weight": 0.010811,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
       "holding_name_en": "Grupo Mexico SAB de CV Class B",
       "holding_name_zh": null,
       "display_name": "Grupo Mexico SAB de CV Class B",
       "display_label": "(GMEXICOB.MX)Grupo Mexico SAB de CV Class B",
       "bilingual_name": "Grupo Mexico SAB de CV Class B"
+    },
+    {
+      "etf_id": "US-STXE",
+      "holding_symbol": "RELIANCE.NS",
+      "holding_name": "Reliance Industries Ltd",
+      "weight": 0.0112923,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Reliance Industries Ltd",
+      "holding_name_zh": null,
+      "display_name": "Reliance Industries Ltd",
+      "display_label": "(RELIANCE.NS)Reliance Industries Ltd",
+      "bilingual_name": "Reliance Industries Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.516725,
-    "top_3_weight": 0.412626
+    "holding_count": 9,
+    "top_10_weight": 0.487575,
+    "top_3_weight": 0.399341
   },
   "research": {
     "tier": "context",

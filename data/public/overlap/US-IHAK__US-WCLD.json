@@ -1,26 +1,38 @@
 {
   "left_etf_id": "US-IHAK",
   "right_etf_id": "US-WCLD",
-  "overlap_ratio": 0.063643,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.105384,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
+      "holding_symbol": "NTSK",
+      "left_weight": 0.068603,
+      "right_weight": 0.02416,
+      "overlap_weight": 0.02416
+    },
+    {
       "holding_symbol": "OKTA",
-      "left_weight": 0.060119,
-      "right_weight": 0.023849,
-      "overlap_weight": 0.023849
+      "left_weight": 0.054861,
+      "right_weight": 0.022231,
+      "overlap_weight": 0.022231
+    },
+    {
+      "holding_symbol": "TENB",
+      "left_weight": 0.056994,
+      "right_weight": 0.021295,
+      "overlap_weight": 0.021295
+    },
+    {
+      "holding_symbol": "ZS",
+      "left_weight": 0.056877,
+      "right_weight": 0.018879,
+      "overlap_weight": 0.018879
     },
     {
       "holding_symbol": "CRWD",
-      "left_weight": 0.053866,
-      "right_weight": 0.021264,
-      "overlap_weight": 0.021264
-    },
-    {
-      "holding_symbol": "NTSK",
-      "left_weight": 0.053731,
-      "right_weight": 0.01853,
-      "overlap_weight": 0.01853
+      "left_weight": 0.046691,
+      "right_weight": 0.018819,
+      "overlap_weight": 0.018819
     }
   ]
 }

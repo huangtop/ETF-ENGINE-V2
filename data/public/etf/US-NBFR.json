@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -13.1782,
+      "value": -13.1942,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 15.5098,
+      "value": 15.5088,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9961,
+      "value": 0.996,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 2.0162,
+      "value": 2.0027,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 8.1182,
+      "value": 8.1201,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 25.7934,
+    "value": 25.79,
     "currency": "USD"
   },
   "trend": [
@@ -796,7 +796,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 102.02
+      "value": 102.0
     }
   ],
   "price_history": {
@@ -808,10 +808,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 2572.0,
-    "average_volume_20d": 3363.6,
-    "average_dollar_volume_20d": 89863.732,
-    "relative_volume_20d": 0.7647,
+    "latest_volume": 2600.0,
+    "average_volume_20d": 3365.0,
+    "average_dollar_volume_20d": 89899.4009,
+    "relative_volume_20d": 0.7727,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -819,26 +819,12 @@
   "top_holdings": [
     {
       "etf_id": "US-NBFR",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0876817,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0872003,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-NBFR",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.0814824,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -847,9 +833,23 @@
     },
     {
       "etf_id": "US-NBFR",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0812568,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "US-NBFR",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.0733971,
+      "weight": 0.0772263,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -861,26 +861,12 @@
     },
     {
       "etf_id": "US-NBFR",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0524331,
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0478772,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "US-NBFR",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0479919,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Amazon.com Inc",
       "holding_name_zh": "亞馬遜",
       "display_name": "亞馬遜",
@@ -889,26 +875,12 @@
     },
     {
       "etf_id": "US-NBFR",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0479167,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
-    },
-    {
-      "etf_id": "US-NBFR",
       "holding_symbol": "WMT",
       "holding_name": "Walmart Inc",
-      "weight": 0.0386266,
+      "weight": 0.0474781,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 5,
       "holding_name_en": "Walmart Inc",
       "holding_name_zh": null,
       "display_name": "Walmart Inc",
@@ -917,12 +889,54 @@
     },
     {
       "etf_id": "US-NBFR",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0379259,
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0450317,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "US-NBFR",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.04089,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
+    },
+    {
+      "etf_id": "US-NBFR",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0384507,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
+    },
+    {
+      "etf_id": "US-NBFR",
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.0332492,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
       "holding_name_en": "Meta Platforms Inc Class A",
       "holding_name_zh": "Meta Platforms",
       "display_name": "Meta Platforms",
@@ -931,37 +945,23 @@
     },
     {
       "etf_id": "US-NBFR",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0348494,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
-    },
-    {
-      "etf_id": "US-NBFR",
-      "holding_symbol": "TSLA",
-      "holding_name": "Tesla Inc",
-      "weight": 0.0329962,
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0295261,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Tesla Inc",
-      "holding_name_zh": "特斯拉",
-      "display_name": "特斯拉",
-      "display_label": "(TSLA)特斯拉",
-      "bilingual_name": "Tesla Inc（特斯拉）"
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.535301,
-    "top_3_weight": 0.242561
+    "top_10_weight": 0.528186,
+    "top_3_weight": 0.245683
   },
   "research": {
     "tier": "context",

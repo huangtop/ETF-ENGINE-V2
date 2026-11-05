@@ -59,19 +59,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 25.5107,
+      "value": 25.4832,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 31.627,
+      "value": 31.6276,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.298,
+      "value": 13.2755,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.206,
+      "value": 0.2078,
       "unit": "ratio"
     },
     "data_years": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 2.2655,
+      "value": 2.2694,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 31.627,
+      "value": 31.6276,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.5452,
+      "value": 16.5097,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 43.2808,
+    "value": 43.281,
     "currency": "USD"
   },
   "trend": [
@@ -3040,7 +3040,7 @@
     },
     {
       "date": "2026-10-06",
-      "value": 142.31
+      "value": 142.01
     },
     {
       "date": "2026-10-07",
@@ -3052,27 +3052,27 @@
     },
     {
       "date": "2026-10-09",
-      "value": 144.11
+      "value": 143.8
     },
     {
       "date": "2026-10-12",
-      "value": 145.3
+      "value": 144.99
     },
     {
       "date": "2026-10-13",
-      "value": 146.17
+      "value": 145.86
     },
     {
       "date": "2026-10-14",
-      "value": 147.55
+      "value": 147.23
     },
     {
       "date": "2026-10-15",
-      "value": 150.05
+      "value": 149.73
     },
     {
       "date": "2026-10-16",
-      "value": 151.33
+      "value": 151.0
     },
     {
       "date": "2026-10-19",
@@ -3080,7 +3080,7 @@
     },
     {
       "date": "2026-10-20",
-      "value": 152.73
+      "value": 152.41
     },
     {
       "date": "2026-10-21",
@@ -3088,7 +3088,7 @@
     },
     {
       "date": "2026-10-22",
-      "value": 157.62
+      "value": 157.28
     },
     {
       "date": "2026-10-23",
@@ -3120,11 +3120,11 @@
     },
     {
       "date": "2026-11-03",
-      "value": 155.67
+      "value": 155.33
     },
     {
       "date": "2026-11-04",
-      "value": 160.31
+      "value": 160.32
     }
   ],
   "price_history": {
@@ -3136,10 +3136,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 2790.0,
-    "average_volume_20d": 2779.5,
-    "average_dollar_volume_20d": 114184.8052,
-    "relative_volume_20d": 1.0038,
+    "latest_volume": 2800.0,
+    "average_volume_20d": 2780.0,
+    "average_dollar_volume_20d": 114066.3725,
+    "relative_volume_20d": 1.0072,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3147,12 +3147,26 @@
   "top_holdings": [
     {
       "etf_id": "US-QDIV",
-      "holding_symbol": "GILD",
-      "holding_name": "Gilead Sciences Inc",
-      "weight": 0.0243766,
+      "holding_symbol": "ACN",
+      "holding_name": "Accenture PLC Class A",
+      "weight": 0.0270131,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Accenture PLC Class A",
+      "holding_name_zh": null,
+      "display_name": "Accenture PLC Class A",
+      "display_label": "(ACN)Accenture PLC Class A",
+      "bilingual_name": "Accenture PLC Class A"
+    },
+    {
+      "etf_id": "US-QDIV",
+      "holding_symbol": "GILD",
+      "holding_name": "Gilead Sciences Inc",
+      "weight": 0.0251517,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Gilead Sciences Inc",
       "holding_name_zh": null,
       "display_name": "Gilead Sciences Inc",
@@ -3161,26 +3175,26 @@
     },
     {
       "etf_id": "US-QDIV",
-      "holding_symbol": "TGT",
-      "holding_name": "Target Corp",
-      "weight": 0.0243248,
+      "holding_symbol": "APA",
+      "holding_name": "APA Corp",
+      "weight": 0.0247893,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Target Corp",
+      "rank": 3,
+      "holding_name_en": "APA Corp",
       "holding_name_zh": null,
-      "display_name": "Target Corp",
-      "display_label": "(TGT)Target Corp",
-      "bilingual_name": "Target Corp"
+      "display_name": "APA Corp",
+      "display_label": "(APA)APA Corp",
+      "bilingual_name": "APA Corp"
     },
     {
       "etf_id": "US-QDIV",
       "holding_symbol": "BDX",
       "holding_name": "Becton Dickinson & Co",
-      "weight": 0.0240654,
+      "weight": 0.0239711,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 4,
       "holding_name_en": "Becton Dickinson & Co",
       "holding_name_zh": null,
       "display_name": "Becton Dickinson & Co",
@@ -3189,51 +3203,37 @@
     },
     {
       "etf_id": "US-QDIV",
-      "holding_symbol": "BBY",
-      "holding_name": "Best Buy Co Inc",
-      "weight": 0.0231785,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Best Buy Co Inc",
-      "holding_name_zh": null,
-      "display_name": "Best Buy Co Inc",
-      "display_label": "(BBY)Best Buy Co Inc",
-      "bilingual_name": "Best Buy Co Inc"
-    },
-    {
-      "etf_id": "US-QDIV",
-      "holding_symbol": "IFF",
-      "holding_name": "International Flavors & Fragrances Inc",
-      "weight": 0.022343,
+      "holding_symbol": "FDS",
+      "holding_name": "FactSet Research Systems Inc",
+      "weight": 0.0236902,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "International Flavors & Fragrances Inc",
+      "holding_name_en": "FactSet Research Systems Inc",
       "holding_name_zh": null,
-      "display_name": "International Flavors & Fragrances Inc",
-      "display_label": "(IFF)International Flavors & Fragrances Inc",
-      "bilingual_name": "International Flavors & Fragrances Inc"
+      "display_name": "FactSet Research Systems Inc",
+      "display_label": "(FDS)FactSet Research Systems Inc",
+      "bilingual_name": "FactSet Research Systems Inc"
     },
     {
       "etf_id": "US-QDIV",
-      "holding_symbol": "BMY",
-      "holding_name": "Bristol-Myers Squibb Co",
-      "weight": 0.0222976,
+      "holding_symbol": "COP",
+      "holding_name": "ConocoPhillips",
+      "weight": 0.0229071,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Bristol-Myers Squibb Co",
+      "holding_name_en": "ConocoPhillips",
       "holding_name_zh": null,
-      "display_name": "Bristol-Myers Squibb Co",
-      "display_label": "(BMY)Bristol-Myers Squibb Co",
-      "bilingual_name": "Bristol-Myers Squibb Co"
+      "display_name": "ConocoPhillips",
+      "display_label": "(COP)ConocoPhillips",
+      "bilingual_name": "ConocoPhillips"
     },
     {
       "etf_id": "US-QDIV",
       "holding_symbol": "ADP",
       "holding_name": "Automatic Data Processing Inc",
-      "weight": 0.0221008,
+      "weight": 0.0226796,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3245,51 +3245,51 @@
     },
     {
       "etf_id": "US-QDIV",
-      "holding_symbol": "PFE",
-      "holding_name": "Pfizer Inc",
-      "weight": 0.0220484,
+      "holding_symbol": "BBY",
+      "holding_name": "Best Buy Co Inc",
+      "weight": 0.0226397,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Pfizer Inc",
+      "holding_name_en": "Best Buy Co Inc",
       "holding_name_zh": null,
-      "display_name": "Pfizer Inc",
-      "display_label": "(PFE)Pfizer Inc",
-      "bilingual_name": "Pfizer Inc"
+      "display_name": "Best Buy Co Inc",
+      "display_label": "(BBY)Best Buy Co Inc",
+      "bilingual_name": "Best Buy Co Inc"
+    },
+    {
+      "etf_id": "US-QDIV",
+      "holding_symbol": "IFF",
+      "holding_name": "International Flavors & Fragrances Inc",
+      "weight": 0.022434,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "International Flavors & Fragrances Inc",
+      "holding_name_zh": null,
+      "display_name": "International Flavors & Fragrances Inc",
+      "display_label": "(IFF)International Flavors & Fragrances Inc",
+      "bilingual_name": "International Flavors & Fragrances Inc"
     },
     {
       "etf_id": "US-QDIV",
       "holding_symbol": "CTSH",
       "holding_name": "Cognizant Technology Solutions Corp Class A",
-      "weight": 0.02194,
+      "weight": 0.0224109,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "Cognizant Technology Solutions Corp Class A",
       "holding_name_zh": null,
       "display_name": "Cognizant Technology Solutions Corp Class A",
       "display_label": "(CTSH)Cognizant Technology Solutions Corp Class A",
       "bilingual_name": "Cognizant Technology Solutions Corp Class A"
-    },
-    {
-      "etf_id": "US-QDIV",
-      "holding_symbol": "BR",
-      "holding_name": "Broadridge Financial Solutions Inc",
-      "weight": 0.0217675,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Broadridge Financial Solutions Inc",
-      "holding_name_zh": null,
-      "display_name": "Broadridge Financial Solutions Inc",
-      "display_label": "(BR)Broadridge Financial Solutions Inc",
-      "bilingual_name": "Broadridge Financial Solutions Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.228443,
-    "top_3_weight": 0.072767
+    "top_10_weight": 0.237687,
+    "top_3_weight": 0.076954
   },
   "research": {
     "tier": "context",

@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-PAVE",
   "right_etf_id": "US-ROBO",
-  "overlap_ratio": 0.016674,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.034624,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "ROK",
-      "left_weight": 0.031086,
-      "right_weight": 0.016674,
-      "overlap_weight": 0.016674
+      "left_weight": 0.030781,
+      "right_weight": 0.017913,
+      "overlap_weight": 0.017913
+    },
+    {
+      "holding_symbol": "EMR",
+      "left_weight": 0.037002,
+      "right_weight": 0.016711,
+      "overlap_weight": 0.016711
     }
   ]
 }

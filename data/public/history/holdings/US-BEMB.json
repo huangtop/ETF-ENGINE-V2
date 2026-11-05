@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "US-BEMB",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-11-05T10:57:30.131726Z-US-BEMB-019704bf",
+    "etf_id": "US-BEMB",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20261102-50958756802e",
+    "current_snapshot_id": "20261105-7d89a76ae184",
+    "previous_observed_at": "2026-11-02T22:53:23.688256Z",
+    "current_observed_at": "2026-11-05T10:57:30.131726Z",
+    "changes": [
+      {
+        "event_id": "b8bdd31e56f742176f136da4eb24cc198b02913db0defa8ae325c3946e4c7aeb",
+        "etf_id": "US-BEMB",
+        "holding_symbol": "XTSLA",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "XTSLA",
+        "holding_display_label": "(XTSLA)XTSLA",
+        "holding_bilingual_name": "XTSLA",
+        "previous_weight": 0.0169759,
+        "current_weight": 0.0156435,
+        "delta_weight": -0.0013324,
+        "change_type": "WEIGHT_DECREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20261102-50958756802e",
+        "current_snapshot_id": "20261105-7d89a76ae184",
+        "previous_observed_at": "2026-11-02T22:53:23.688256Z",
+        "current_observed_at": "2026-11-05T10:57:30.131726Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-11-05T10:57:30.131726Z-US-BEMB-019704bf",
+      "etf_id": "US-BEMB",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261102-50958756802e",
+      "current_snapshot_id": "20261105-7d89a76ae184",
+      "previous_observed_at": "2026-11-02T22:53:23.688256Z",
+      "current_observed_at": "2026-11-05T10:57:30.131726Z",
+      "changes": [
+        {
+          "event_id": "b8bdd31e56f742176f136da4eb24cc198b02913db0defa8ae325c3946e4c7aeb",
+          "etf_id": "US-BEMB",
+          "holding_symbol": "XTSLA",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "XTSLA",
+          "holding_display_label": "(XTSLA)XTSLA",
+          "holding_bilingual_name": "XTSLA",
+          "previous_weight": 0.0169759,
+          "current_weight": 0.0156435,
+          "delta_weight": -0.0013324,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261102-50958756802e",
+          "current_snapshot_id": "20261105-7d89a76ae184",
+          "previous_observed_at": "2026-11-02T22:53:23.688256Z",
+          "current_observed_at": "2026-11-05T10:57:30.131726Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

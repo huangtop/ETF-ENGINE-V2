@@ -2432,10 +2432,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 657475.0,
-    "average_volume_20d": 294203.75,
-    "average_dollar_volume_20d": 15539339.5699,
-    "relative_volume_20d": 2.2348,
+    "latest_volume": 684100.0,
+    "average_volume_20d": 295535.0,
+    "average_dollar_volume_20d": 15611133.8828,
+    "relative_volume_20d": 2.3148,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2445,7 +2445,7 @@
       "etf_id": "US-RSPA",
       "holding_symbol": "IUGXX",
       "holding_name": "Invesco Premier US Government Money Inst",
-      "weight": 0.1968334,
+      "weight": 0.18516581,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2454,12 +2454,26 @@
       "display_name": "Invesco Premier US Government Money Inst",
       "display_label": "(IUGXX)Invesco Premier US Government Money Inst",
       "bilingual_name": "Invesco Premier US Government Money Inst"
+    },
+    {
+      "etf_id": "US-RSPA",
+      "holding_symbol": "MRNA",
+      "holding_name": "Moderna Inc",
+      "weight": 0.0024541,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Moderna Inc",
+      "holding_name_zh": null,
+      "display_name": "Moderna Inc",
+      "display_label": "(MRNA)Moderna Inc",
+      "bilingual_name": "Moderna Inc"
     }
   ],
   "holdings_summary": {
-    "holding_count": 1,
-    "top_10_weight": 0.196833,
-    "top_3_weight": 0.196833
+    "holding_count": 2,
+    "top_10_weight": 0.18762,
+    "top_3_weight": 0.18762
   },
   "research": {
     "tier": "context",

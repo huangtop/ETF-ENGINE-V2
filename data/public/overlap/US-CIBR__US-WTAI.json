@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-CIBR",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.03542,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.07391,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.070919,
+      "right_weight": 0.040501,
+      "overlap_weight": 0.040501
+    },
+    {
       "holding_symbol": "PANW",
-      "left_weight": 0.080667,
-      "right_weight": 0.03542,
-      "overlap_weight": 0.03542
+      "left_weight": 0.075818,
+      "right_weight": 0.033409,
+      "overlap_weight": 0.033409
     }
   ]
 }

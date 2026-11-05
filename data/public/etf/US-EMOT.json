@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 6.1574,
+      "value": 7.5443,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 14.3826,
+      "value": 18.4628,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 11.8532,
+      "value": 12.0777,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6945,
+      "value": 0.7072,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.2897,
+      "value": 2.2937,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.0868,
+      "value": 1.4045,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 14.3826,
+      "value": 18.4628,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 8.7623,
+      "value": 8.8081,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 26.933,
+    "date": "2026-11-04",
+    "value": 27.629,
     "currency": "USD"
   },
   "trend": [
@@ -2405,21 +2405,25 @@
     {
       "date": "2026-11-03",
       "value": 137.76
+    },
+    {
+      "date": "2026-11-04",
+      "value": 141.32
     }
   ],
   "price_history": {
     "first_date": "2024-07-18",
-    "last_date": "2026-11-03",
-    "observations": 577,
+    "last_date": "2026-11-04",
+    "observations": 578,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 400.0,
-    "average_volume_20d": 820.0,
-    "average_dollar_volume_20d": 21687.505,
-    "relative_volume_20d": 0.4878,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
+    "average_volume_20d": 665.0,
+    "average_dollar_volume_20d": 17665.65,
+    "relative_volume_20d": 0.1504,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2429,7 +2433,7 @@
       "etf_id": "US-EMOT",
       "holding_symbol": "MTD",
       "holding_name": "Mettler-Toledo International Inc",
-      "weight": 0.0271464,
+      "weight": 0.0293399,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2441,26 +2445,12 @@
     },
     {
       "etf_id": "US-EMOT",
-      "holding_symbol": "FTNT",
-      "holding_name": "Fortinet Inc",
-      "weight": 0.0260422,
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0255775,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Fortinet Inc",
-      "holding_name_zh": "Fortinet",
-      "display_name": "Fortinet",
-      "display_label": "(FTNT)Fortinet",
-      "bilingual_name": "Fortinet Inc（Fortinet）"
-    },
-    {
-      "etf_id": "US-EMOT",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.0260422,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Microsoft Corp",
       "holding_name_zh": "微軟",
       "display_name": "微軟",
@@ -2469,68 +2459,12 @@
     },
     {
       "etf_id": "US-EMOT",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0257743,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
-    },
-    {
-      "etf_id": "US-EMOT",
-      "holding_symbol": "HPQ",
-      "holding_name": "HP Inc",
-      "weight": 0.0256193,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "HP Inc",
-      "holding_name_zh": null,
-      "display_name": "HP Inc",
-      "display_label": "(HPQ)HP Inc",
-      "bilingual_name": "HP Inc"
-    },
-    {
-      "etf_id": "US-EMOT",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.0231524,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Apple Inc",
-      "holding_name_zh": "蘋果",
-      "display_name": "蘋果",
-      "display_label": "(AAPL)蘋果",
-      "bilingual_name": "Apple Inc（蘋果）"
-    },
-    {
-      "etf_id": "US-EMOT",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0230133,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-EMOT",
       "holding_symbol": "MA",
       "holding_name": "Mastercard Inc Class A",
-      "weight": 0.0228313,
+      "weight": 0.0250082,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 3,
       "holding_name_en": "Mastercard Inc Class A",
       "holding_name_zh": null,
       "display_name": "Mastercard Inc Class A",
@@ -2539,12 +2473,54 @@
     },
     {
       "etf_id": "US-EMOT",
-      "holding_symbol": "ADP",
-      "holding_name": "Automatic Data Processing Inc",
-      "weight": 0.0225771,
+      "holding_symbol": "HPQ",
+      "holding_name": "HP Inc",
+      "weight": 0.0247719,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 4,
+      "holding_name_en": "HP Inc",
+      "holding_name_zh": null,
+      "display_name": "HP Inc",
+      "display_label": "(HPQ)HP Inc",
+      "bilingual_name": "HP Inc"
+    },
+    {
+      "etf_id": "US-EMOT",
+      "holding_symbol": "V",
+      "holding_name": "Visa Inc Class A",
+      "weight": 0.0243781,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Visa Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Visa Inc Class A",
+      "display_label": "(V)Visa Inc Class A",
+      "bilingual_name": "Visa Inc Class A"
+    },
+    {
+      "etf_id": "US-EMOT",
+      "holding_symbol": "MCK",
+      "holding_name": "McKesson Corp",
+      "weight": 0.0240261,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "McKesson Corp",
+      "holding_name_zh": null,
+      "display_name": "McKesson Corp",
+      "display_label": "(MCK)McKesson Corp",
+      "bilingual_name": "McKesson Corp"
+    },
+    {
+      "etf_id": "US-EMOT",
+      "holding_symbol": "ADP",
+      "holding_name": "Automatic Data Processing Inc",
+      "weight": 0.0237826,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Automatic Data Processing Inc",
       "holding_name_zh": null,
       "display_name": "Automatic Data Processing Inc",
@@ -2553,23 +2529,51 @@
     },
     {
       "etf_id": "US-EMOT",
-      "holding_symbol": "V",
-      "holding_name": "Visa Inc Class A",
-      "weight": 0.0224552,
+      "holding_symbol": "LMT",
+      "holding_name": "Lockheed Martin Corp",
+      "weight": 0.0236466,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Lockheed Martin Corp",
+      "holding_name_zh": null,
+      "display_name": "Lockheed Martin Corp",
+      "display_label": "(LMT)Lockheed Martin Corp",
+      "bilingual_name": "Lockheed Martin Corp"
+    },
+    {
+      "etf_id": "US-EMOT",
+      "holding_symbol": "LLY",
+      "holding_name": "Eli Lilly and Co",
+      "weight": 0.0234517,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Eli Lilly and Co",
+      "holding_name_zh": null,
+      "display_name": "Eli Lilly and Co",
+      "display_label": "(LLY)Eli Lilly and Co",
+      "bilingual_name": "Eli Lilly and Co"
+    },
+    {
+      "etf_id": "US-EMOT",
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0230493,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Visa Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "Visa Inc Class A",
-      "display_label": "(V)Visa Inc Class A",
-      "bilingual_name": "Visa Inc Class A"
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.244654,
-    "top_3_weight": 0.079231
+    "top_10_weight": 0.247032,
+    "top_3_weight": 0.079926
   },
   "research": {
     "tier": "context",

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "US-RYLD",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-11-05T10:59:07.231227Z-US-RYLD-89c632a7",
+    "etf_id": "US-RYLD",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20261102-a8052c3e7eb4",
+    "current_snapshot_id": "20261105-99f4bba77038",
+    "previous_observed_at": "2026-11-02T22:54:22.412330Z",
+    "current_observed_at": "2026-11-05T10:59:07.231227Z",
+    "changes": [
+      {
+        "event_id": "97736e974d0e948c2de486dd6fdec9e97ceb75bf798936e7bc1da779cc106671",
+        "etf_id": "US-RYLD",
+        "holding_symbol": "RSSL",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "RSSL",
+        "holding_display_label": "(RSSL)RSSL",
+        "holding_bilingual_name": "RSSL",
+        "previous_weight": 0.01006741,
+        "current_weight": 0.01029712,
+        "delta_weight": 0.00022971,
+        "change_type": "WEIGHT_INCREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20261102-a8052c3e7eb4",
+        "current_snapshot_id": "20261105-99f4bba77038",
+        "previous_observed_at": "2026-11-02T22:54:22.412330Z",
+        "current_observed_at": "2026-11-05T10:59:07.231227Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-11-05T10:59:07.231227Z-US-RYLD-89c632a7",
+      "etf_id": "US-RYLD",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261102-a8052c3e7eb4",
+      "current_snapshot_id": "20261105-99f4bba77038",
+      "previous_observed_at": "2026-11-02T22:54:22.412330Z",
+      "current_observed_at": "2026-11-05T10:59:07.231227Z",
+      "changes": [
+        {
+          "event_id": "97736e974d0e948c2de486dd6fdec9e97ceb75bf798936e7bc1da779cc106671",
+          "etf_id": "US-RYLD",
+          "holding_symbol": "RSSL",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "RSSL",
+          "holding_display_label": "(RSSL)RSSL",
+          "holding_bilingual_name": "RSSL",
+          "previous_weight": 0.01006741,
+          "current_weight": 0.01029712,
+          "delta_weight": 0.00022971,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261102-a8052c3e7eb4",
+          "current_snapshot_id": "20261105-99f4bba77038",
+          "previous_observed_at": "2026-11-02T22:54:22.412330Z",
+          "current_observed_at": "2026-11-05T10:59:07.231227Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

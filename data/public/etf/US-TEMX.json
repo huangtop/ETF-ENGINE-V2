@@ -55,11 +55,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -8.7796,
+      "value": -8.7794,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 11.8949,
+      "value": 11.8953,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -83,7 +83,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 11.8949,
+      "value": 11.8953,
       "unit": "percent"
     },
     "tracking_error": {
@@ -94,7 +94,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 33.2609,
+    "value": 33.261,
     "currency": "USD"
   },
   "trend": [
@@ -1796,10 +1796,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 808.0,
-    "average_volume_20d": 435.4,
-    "average_dollar_volume_20d": 15046.6555,
-    "relative_volume_20d": 1.8558,
+    "latest_volume": 800.0,
+    "average_volume_20d": 435.0,
+    "average_dollar_volume_20d": 15033.3553,
+    "relative_volume_20d": 1.8391,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1809,7 +1809,7 @@
       "etf_id": "US-TEMX",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.1305102,
+      "weight": 0.12538339,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1823,7 +1823,7 @@
       "etf_id": "US-TEMX",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.1079472,
+      "weight": 0.1138412,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1837,7 +1837,7 @@
       "etf_id": "US-TEMX",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0486765,
+      "weight": 0.0445564,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1849,23 +1849,23 @@
     },
     {
       "etf_id": "US-TEMX",
-      "holding_symbol": "XCEM",
-      "holding_name": "Columbia EM Core ex-China ETF",
-      "weight": 0.0482623,
+      "holding_symbol": "TSM",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "weight": 0.0396846,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Columbia EM Core ex-China ETF",
-      "holding_name_zh": null,
-      "display_name": "Columbia EM Core ex-China ETF",
-      "display_label": "(XCEM)Columbia EM Core ex-China ETF",
-      "bilingual_name": "Columbia EM Core ex-China ETF"
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "holding_name_zh": "台積電ADR",
+      "display_name": "台積電ADR",
+      "display_label": "(TSM)台積電ADR",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
     },
     {
       "etf_id": "US-TEMX",
       "holding_symbol": "DGCXX",
       "holding_name": "BNY Dreyfus Govt Cash Mgmt Instl",
-      "weight": 0.0439666,
+      "weight": 0.0375591,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1879,7 +1879,7 @@
       "etf_id": "US-TEMX",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0413579,
+      "weight": 0.0353918,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1891,23 +1891,23 @@
     },
     {
       "etf_id": "US-TEMX",
-      "holding_symbol": "TSM",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.0394412,
+      "holding_symbol": "KSPI",
+      "holding_name": "Kaspi.kz JSC ADS",
+      "weight": 0.032784,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "holding_name_zh": "台積電ADR",
-      "display_name": "台積電ADR",
-      "display_label": "(TSM)台積電ADR",
-      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
+      "holding_name_en": "Kaspi.kz JSC ADS",
+      "holding_name_zh": null,
+      "display_name": "Kaspi.kz JSC ADS",
+      "display_label": "(KSPI)Kaspi.kz JSC ADS",
+      "bilingual_name": "Kaspi.kz JSC ADS"
     },
     {
       "etf_id": "US-TEMX",
       "holding_symbol": "402340.KQ",
       "holding_name": "SK Square",
-      "weight": 0.0354225,
+      "weight": 0.0319819,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -1919,37 +1919,23 @@
     },
     {
       "etf_id": "US-TEMX",
-      "holding_symbol": "500034",
-      "holding_name": "Bajaj Finance Ltd",
-      "weight": 0.0328152,
+      "holding_symbol": "BHARTIARTL.NS",
+      "holding_name": "Bharti Airtel Ltd",
+      "weight": 0.0314931,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Bajaj Finance Ltd",
+      "holding_name_en": "Bharti Airtel Ltd",
       "holding_name_zh": null,
-      "display_name": "Bajaj Finance Ltd",
-      "display_label": "(500034)Bajaj Finance Ltd",
-      "bilingual_name": "Bajaj Finance Ltd"
-    },
-    {
-      "etf_id": "US-TEMX",
-      "holding_symbol": "KSPI",
-      "holding_name": "Kaspi.kz JSC ADS",
-      "weight": 0.0298941,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Kaspi.kz JSC ADS",
-      "holding_name_zh": null,
-      "display_name": "Kaspi.kz JSC ADS",
-      "display_label": "(KSPI)Kaspi.kz JSC ADS",
-      "bilingual_name": "Kaspi.kz JSC ADS"
+      "display_name": "Bharti Airtel Ltd",
+      "display_label": "(BHARTIARTL.NS)Bharti Airtel Ltd",
+      "bilingual_name": "Bharti Airtel Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.558294,
-    "top_3_weight": 0.287134
+    "holding_count": 9,
+    "top_10_weight": 0.492675,
+    "top_3_weight": 0.283781
   },
   "research": {
     "tier": "context",

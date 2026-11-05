@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.97,
+      "value": -4.9682,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 5.08,
+      "value": 5.0821,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.9412,
+      "value": 14.9414,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.7666,
+      "value": 0.7667,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.2396,
+      "value": 0.2397,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 5.08,
+      "value": 5.0821,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.6337,
+      "value": 11.6336,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 25.3775,
+    "value": 25.378,
     "currency": "USD"
   },
   "trend": [
@@ -2164,10 +2164,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 3187.0,
-    "average_volume_20d": 8499.35,
-    "average_dollar_volume_20d": 204486.4202,
-    "relative_volume_20d": 0.375,
+    "latest_volume": 3200.0,
+    "average_volume_20d": 8500.0,
+    "average_dollar_volume_20d": 204502.9955,
+    "relative_volume_20d": 0.3765,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2177,7 +2177,7 @@
       "etf_id": "US-KMID",
       "holding_symbol": "AME",
       "holding_name": "AMETEK Inc",
-      "weight": 0.0678786,
+      "weight": 0.0635285,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2189,26 +2189,12 @@
     },
     {
       "etf_id": "US-KMID",
-      "holding_symbol": "TDY",
-      "holding_name": "Teledyne Technologies Inc",
-      "weight": 0.0569156,
+      "holding_symbol": "WST",
+      "holding_name": "West Pharmaceutical Services Inc",
+      "weight": 0.0608022,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Teledyne Technologies Inc",
-      "holding_name_zh": null,
-      "display_name": "Teledyne Technologies Inc",
-      "display_label": "(TDY)Teledyne Technologies Inc",
-      "bilingual_name": "Teledyne Technologies Inc"
-    },
-    {
-      "etf_id": "US-KMID",
-      "holding_symbol": "WST",
-      "holding_name": "West Pharmaceutical Services Inc",
-      "weight": 0.0568238,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "West Pharmaceutical Services Inc",
       "holding_name_zh": null,
       "display_name": "West Pharmaceutical Services Inc",
@@ -2217,9 +2203,23 @@
     },
     {
       "etf_id": "US-KMID",
+      "holding_symbol": "TDY",
+      "holding_name": "Teledyne Technologies Inc",
+      "weight": 0.0593433,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Teledyne Technologies Inc",
+      "holding_name_zh": null,
+      "display_name": "Teledyne Technologies Inc",
+      "display_label": "(TDY)Teledyne Technologies Inc",
+      "bilingual_name": "Teledyne Technologies Inc"
+    },
+    {
+      "etf_id": "US-KMID",
       "holding_symbol": "WAB",
       "holding_name": "Westinghouse Air Brake Technologies Corp",
-      "weight": 0.0568104,
+      "weight": 0.0531651,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -2231,23 +2231,23 @@
     },
     {
       "etf_id": "US-KMID",
-      "holding_symbol": "MPWR",
-      "holding_name": "Monolithic Power Systems Inc",
-      "weight": 0.0562886,
+      "holding_symbol": "ALLE",
+      "holding_name": "Allegion PLC",
+      "weight": 0.0497224,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Monolithic Power Systems Inc",
+      "holding_name_en": "Allegion PLC",
       "holding_name_zh": null,
-      "display_name": "Monolithic Power Systems Inc",
-      "display_label": "(MPWR)Monolithic Power Systems Inc",
-      "bilingual_name": "Monolithic Power Systems Inc"
+      "display_name": "Allegion PLC",
+      "display_label": "(ALLE)Allegion PLC",
+      "bilingual_name": "Allegion PLC"
     },
     {
       "etf_id": "US-KMID",
       "holding_symbol": "ROST",
       "holding_name": "Ross Stores Inc",
-      "weight": 0.0505897,
+      "weight": 0.0475534,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -2259,26 +2259,12 @@
     },
     {
       "etf_id": "US-KMID",
-      "holding_symbol": "ALLE",
-      "holding_name": "Allegion PLC",
-      "weight": 0.0426466,
+      "holding_symbol": "VRSK",
+      "holding_name": "Verisk Analytics Inc",
+      "weight": 0.0441729,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Allegion PLC",
-      "holding_name_zh": null,
-      "display_name": "Allegion PLC",
-      "display_label": "(ALLE)Allegion PLC",
-      "bilingual_name": "Allegion PLC"
-    },
-    {
-      "etf_id": "US-KMID",
-      "holding_symbol": "VRSK",
-      "holding_name": "Verisk Analytics Inc",
-      "weight": 0.0393136,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Verisk Analytics Inc",
       "holding_name_zh": null,
       "display_name": "Verisk Analytics Inc",
@@ -2289,10 +2275,10 @@
       "etf_id": "US-KMID",
       "holding_symbol": "HEI-A",
       "holding_name": "Heico Corp Class A",
-      "weight": 0.0386436,
+      "weight": 0.038817,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Heico Corp Class A",
       "holding_name_zh": null,
       "display_name": "Heico Corp Class A",
@@ -2301,23 +2287,37 @@
     },
     {
       "etf_id": "US-KMID",
-      "holding_symbol": "WSO",
-      "holding_name": "Watsco Inc Ordinary Shares",
-      "weight": 0.0361705,
+      "holding_symbol": "MSCI",
+      "holding_name": "MSCI Inc",
+      "weight": 0.0387588,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "MSCI Inc",
+      "holding_name_zh": null,
+      "display_name": "MSCI Inc",
+      "display_label": "(MSCI)MSCI Inc",
+      "bilingual_name": "MSCI Inc"
+    },
+    {
+      "etf_id": "US-KMID",
+      "holding_symbol": "JKHY",
+      "holding_name": "Jack Henry & Associates Inc",
+      "weight": 0.0371301,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Watsco Inc Ordinary Shares",
+      "holding_name_en": "Jack Henry & Associates Inc",
       "holding_name_zh": null,
-      "display_name": "Watsco Inc Ordinary Shares",
-      "display_label": "(WSO)Watsco Inc Ordinary Shares",
-      "bilingual_name": "Watsco Inc Ordinary Shares"
+      "display_name": "Jack Henry & Associates Inc",
+      "display_label": "(JKHY)Jack Henry & Associates Inc",
+      "bilingual_name": "Jack Henry & Associates Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.502081,
-    "top_3_weight": 0.181618
+    "top_10_weight": 0.492994,
+    "top_3_weight": 0.183674
   },
   "research": {
     "tier": "context",

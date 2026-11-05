@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 0.9248,
+      "value": 0.9246,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 23.2871,
+      "value": 23.2868,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,7 +79,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 23.2871,
+      "value": 23.2868,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 42.9001,
+    "value": 42.9,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 6603.0,
-    "average_volume_20d": 2570.15,
-    "average_dollar_volume_20d": 114763.7382,
-    "relative_volume_20d": 2.5691,
+    "latest_volume": 6600.0,
+    "average_volume_20d": 2570.0,
+    "average_dollar_volume_20d": 114757.2705,
+    "relative_volume_20d": 2.5681,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3139,26 +3139,12 @@
   "top_holdings": [
     {
       "etf_id": "US-MEMX",
-      "holding_symbol": "005930.KQ",
-      "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0950579,
+      "holding_symbol": "TSM",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "weight": 0.0913292,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Samsung Electronics Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd",
-      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
-      "bilingual_name": "Samsung Electronics Co Ltd"
-    },
-    {
-      "etf_id": "US-MEMX",
-      "holding_symbol": "TSM",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.0921556,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
       "holding_name_zh": "台積電ADR",
       "display_name": "台積電ADR",
@@ -3167,9 +3153,23 @@
     },
     {
       "etf_id": "US-MEMX",
+      "holding_symbol": "005930.KQ",
+      "holding_name": "Samsung Electronics Co Ltd",
+      "weight": 0.08994971,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Samsung Electronics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd",
+      "display_label": "(005930.KQ)Samsung Electronics Co Ltd",
+      "bilingual_name": "Samsung Electronics Co Ltd"
+    },
+    {
+      "etf_id": "US-MEMX",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0524474,
+      "weight": 0.0544789,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3183,7 +3183,7 @@
       "etf_id": "US-MEMX",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0422569,
+      "weight": 0.0371342,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3197,7 +3197,7 @@
       "etf_id": "US-MEMX",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0328576,
+      "weight": 0.0284191,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3211,7 +3211,7 @@
       "etf_id": "US-MEMX",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0193155,
+      "weight": 0.020494,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3223,65 +3223,65 @@
     },
     {
       "etf_id": "US-MEMX",
-      "holding_symbol": "402340.KQ",
-      "holding_name": "SK Square",
-      "weight": 0.0184397,
+      "holding_symbol": "ETERNAL.BO",
+      "holding_name": "Eternal Ltd",
+      "weight": 0.0184138,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "SK Square",
+      "holding_name_en": "Eternal Ltd",
       "holding_name_zh": null,
-      "display_name": "SK Square",
-      "display_label": "(402340.KQ)SK Square",
-      "bilingual_name": "SK Square"
+      "display_name": "Eternal Ltd",
+      "display_label": "(ETERNAL.BO)Eternal Ltd",
+      "bilingual_name": "Eternal Ltd"
     },
     {
       "etf_id": "US-MEMX",
-      "holding_symbol": "3711.TW",
-      "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0172146,
+      "holding_symbol": "028050.KQ",
+      "holding_name": "Samsung E&A",
+      "weight": 0.0182332,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "ASE Technology Holding Co Ltd",
-      "holding_name_zh": "日月光投控",
-      "display_name": "日月光投控",
-      "display_label": "(3711.TW)日月光投控",
-      "bilingual_name": "ASE Technology Holding Co Ltd（日月光投控）"
-    },
-    {
-      "etf_id": "US-MEMX",
-      "holding_symbol": "FCX",
-      "holding_name": "Freeport-McMoRan Inc",
-      "weight": 0.0163393,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Freeport-McMoRan Inc",
+      "holding_name_en": "Samsung E&A",
       "holding_name_zh": null,
-      "display_name": "Freeport-McMoRan Inc",
-      "display_label": "(FCX)Freeport-McMoRan Inc",
-      "bilingual_name": "Freeport-McMoRan Inc"
+      "display_name": "Samsung E&A",
+      "display_label": "(028050.KQ)Samsung E&A",
+      "bilingual_name": "Samsung E&A"
     },
     {
       "etf_id": "US-MEMX",
       "holding_symbol": "000810.KQ",
       "holding_name": "Samsung Fire & Marine Insurance Co Ltd",
-      "weight": 0.0152103,
+      "weight": 0.017881,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Samsung Fire & Marine Insurance Co Ltd",
       "holding_name_zh": null,
       "display_name": "Samsung Fire & Marine Insurance Co Ltd",
       "display_label": "(000810.KQ)Samsung Fire & Marine Insurance Co Ltd",
       "bilingual_name": "Samsung Fire & Marine Insurance Co Ltd"
+    },
+    {
+      "etf_id": "US-MEMX",
+      "holding_symbol": "3711.TW",
+      "holding_name": "ASE Technology Holding Co Ltd",
+      "weight": 0.0177798,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "ASE Technology Holding Co Ltd",
+      "holding_name_zh": "日月光投控",
+      "display_name": "日月光投控",
+      "display_label": "(3711.TW)日月光投控",
+      "bilingual_name": "ASE Technology Holding Co Ltd（日月光投控）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.401295,
-    "top_3_weight": 0.239661
+    "top_10_weight": 0.394113,
+    "top_3_weight": 0.235758
   },
   "research": {
     "tier": "context",

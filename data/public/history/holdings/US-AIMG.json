@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "US-AIMG",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-11-05T10:57:10.787424Z-US-AIMG-e42890cf",
+    "etf_id": "US-AIMG",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20261006-38572b55ffce",
+    "current_snapshot_id": "20261105-61820f2a45cf",
+    "previous_observed_at": "2026-10-06T10:49:21.428222Z",
+    "current_observed_at": "2026-11-05T10:57:10.787424Z",
+    "changes": [
+      {
+        "event_id": "2b7ce9891144b182345beffd40c31b971517fb7637c8054763fb5dad96f130af",
+        "etf_id": "US-AIMG",
+        "holding_symbol": "FGXXX",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "FGXXX",
+        "holding_display_label": "(FGXXX)FGXXX",
+        "holding_bilingual_name": "FGXXX",
+        "previous_weight": 0.69946253,
+        "current_weight": 0.73114985,
+        "delta_weight": 0.03168732,
+        "change_type": "WEIGHT_INCREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20261006-38572b55ffce",
+        "current_snapshot_id": "20261105-61820f2a45cf",
+        "previous_observed_at": "2026-10-06T10:49:21.428222Z",
+        "current_observed_at": "2026-11-05T10:57:10.787424Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-11-05T10:57:10.787424Z-US-AIMG-e42890cf",
+      "etf_id": "US-AIMG",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261006-38572b55ffce",
+      "current_snapshot_id": "20261105-61820f2a45cf",
+      "previous_observed_at": "2026-10-06T10:49:21.428222Z",
+      "current_observed_at": "2026-11-05T10:57:10.787424Z",
+      "changes": [
+        {
+          "event_id": "2b7ce9891144b182345beffd40c31b971517fb7637c8054763fb5dad96f130af",
+          "etf_id": "US-AIMG",
+          "holding_symbol": "FGXXX",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "FGXXX",
+          "holding_display_label": "(FGXXX)FGXXX",
+          "holding_bilingual_name": "FGXXX",
+          "previous_weight": 0.69946253,
+          "current_weight": 0.73114985,
+          "delta_weight": 0.03168732,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261006-38572b55ffce",
+          "current_snapshot_id": "20261105-61820f2a45cf",
+          "previous_observed_at": "2026-10-06T10:49:21.428222Z",
+          "current_observed_at": "2026-11-05T10:57:10.787424Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

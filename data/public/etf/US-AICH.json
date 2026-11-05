@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -214.4067,
+      "value": -214.3154,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 56.1212,
+      "value": 56.1405,
       "unit": "percent"
     },
     "beta": {
-      "value": 3.1211,
+      "value": 3.1223,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -22.6553,
+      "value": -22.6444,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 49.122,
+      "value": 49.1404,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 19.9472,
+    "value": 19.95,
     "currency": "USD"
   },
   "trend": [
@@ -232,7 +232,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 77.34
+      "value": 77.36
     }
   ],
   "price_history": {
@@ -244,10 +244,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 11108.0,
-    "average_volume_20d": 5205.4,
-    "average_dollar_volume_20d": 109952.8252,
-    "relative_volume_20d": 2.1339,
+    "latest_volume": 11100.0,
+    "average_volume_20d": 5205.0,
+    "average_dollar_volume_20d": 109946.4003,
+    "relative_volume_20d": 2.1326,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -257,7 +257,7 @@
       "etf_id": "US-AICH",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.1081977,
+      "weight": 0.10740051,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -271,7 +271,7 @@
       "etf_id": "US-AICH",
       "holding_symbol": "688041.SS",
       "holding_name": "Hygon Information Technology Co Ltd Class A",
-      "weight": 0.06489649,
+      "weight": 0.0635125,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -283,26 +283,12 @@
     },
     {
       "etf_id": "US-AICH",
-      "holding_symbol": "300308.SZ",
-      "holding_name": "Zhongji Innolight Co Ltd Class A",
-      "weight": 0.06425749,
+      "holding_symbol": "688008.SS",
+      "holding_name": "Montage Technology Co Ltd Class A",
+      "weight": 0.0631745,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Zhongji Innolight Co Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Zhongji Innolight Co Ltd Class A",
-      "display_label": "(300308.SZ)Zhongji Innolight Co Ltd Class A",
-      "bilingual_name": "Zhongji Innolight Co Ltd Class A"
-    },
-    {
-      "etf_id": "US-AICH",
-      "holding_symbol": "688008.SS",
-      "holding_name": "Montage Technology Co Ltd Class A",
-      "weight": 0.0619087,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Montage Technology Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "Montage Technology Co Ltd Class A",
@@ -311,37 +297,51 @@
     },
     {
       "etf_id": "US-AICH",
-      "holding_symbol": "300502.SZ",
-      "holding_name": "Eoptolink Technology Inc Ltd Class A",
-      "weight": 0.0556538,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Eoptolink Technology Inc Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "Eoptolink Technology Inc Ltd Class A",
-      "display_label": "(300502.SZ)Eoptolink Technology Inc Ltd Class A",
-      "bilingual_name": "Eoptolink Technology Inc Ltd Class A"
-    },
-    {
-      "etf_id": "US-AICH",
       "holding_symbol": "2513.HK",
       "holding_name": "Z.AI Co Ltd Ordinary Shares - Class H",
-      "weight": 0.0522455,
+      "weight": 0.0595407,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
       "holding_name_en": "Z.AI Co Ltd Ordinary Shares - Class H",
       "holding_name_zh": null,
       "display_name": "Z.AI Co Ltd Ordinary Shares - Class H",
       "display_label": "(2513.HK)Z.AI Co Ltd Ordinary Shares - Class H",
       "bilingual_name": "Z.AI Co Ltd Ordinary Shares - Class H"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "300308.SZ",
+      "holding_name": "Zhongji Innolight Co Ltd Class A",
+      "weight": 0.0573226,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Zhongji Innolight Co Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Zhongji Innolight Co Ltd Class A",
+      "display_label": "(300308.SZ)Zhongji Innolight Co Ltd Class A",
+      "bilingual_name": "Zhongji Innolight Co Ltd Class A"
+    },
+    {
+      "etf_id": "US-AICH",
+      "holding_symbol": "688256.SS",
+      "holding_name": "Cambricon Technologies Corp Ltd Class A",
+      "weight": 0.0547307,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Cambricon Technologies Corp Ltd Class A",
+      "holding_name_zh": null,
+      "display_name": "Cambricon Technologies Corp Ltd Class A",
+      "display_label": "(688256.SS)Cambricon Technologies Corp Ltd Class A",
+      "bilingual_name": "Cambricon Technologies Corp Ltd Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 6,
-    "top_10_weight": 0.40716,
-    "top_3_weight": 0.237352
+    "top_10_weight": 0.405682,
+    "top_3_weight": 0.234088
   },
   "research": {
     "tier": "context",

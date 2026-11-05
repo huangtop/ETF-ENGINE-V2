@@ -1,14 +1,26 @@
 {
   "left_etf_id": "US-ARKQ",
   "right_etf_id": "US-MAGS",
-  "overlap_ratio": 0.057869,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.14772,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
+      "holding_symbol": "TSLA",
+      "left_weight": 0.125609,
+      "right_weight": 0.063105,
+      "overlap_weight": 0.063105
+    },
+    {
       "holding_symbol": "NVDA",
-      "left_weight": 0.059131,
-      "right_weight": 0.057869,
-      "overlap_weight": 0.057869
+      "left_weight": 0.057962,
+      "right_weight": 0.049528,
+      "overlap_weight": 0.049528
+    },
+    {
+      "holding_symbol": "AMZN",
+      "left_weight": 0.035087,
+      "right_weight": 0.053524,
+      "overlap_weight": 0.035087
     }
   ]
 }

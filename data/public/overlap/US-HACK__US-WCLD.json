@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-HACK",
   "right_etf_id": "US-WCLD",
-  "overlap_ratio": 0.063415,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.084089,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
+      "holding_symbol": "NTSK",
+      "left_weight": 0.049919,
+      "right_weight": 0.02416,
+      "overlap_weight": 0.02416
+    },
+    {
       "holding_symbol": "OKTA",
-      "left_weight": 0.050035,
-      "right_weight": 0.023849,
-      "overlap_weight": 0.023849
+      "left_weight": 0.048315,
+      "right_weight": 0.022231,
+      "overlap_weight": 0.022231
+    },
+    {
+      "holding_symbol": "ZS",
+      "left_weight": 0.050275,
+      "right_weight": 0.018879,
+      "overlap_weight": 0.018879
     },
     {
       "holding_symbol": "CRWD",
-      "left_weight": 0.062711,
-      "right_weight": 0.021264,
-      "overlap_weight": 0.021264
-    },
-    {
-      "holding_symbol": "NET",
-      "left_weight": 0.055784,
-      "right_weight": 0.018302,
-      "overlap_weight": 0.018302
+      "left_weight": 0.05752,
+      "right_weight": 0.018819,
+      "overlap_weight": 0.018819
     }
   ]
 }

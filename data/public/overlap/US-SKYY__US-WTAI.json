@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-SKYY",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.066429,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.092086,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "AMZN",
-      "left_weight": 0.033332,
-      "right_weight": 0.038674,
-      "overlap_weight": 0.033332
+      "left_weight": 0.031881,
+      "right_weight": 0.043027,
+      "overlap_weight": 0.031881
+    },
+    {
+      "holding_symbol": "ORCL",
+      "left_weight": 0.031793,
+      "right_weight": 0.034951,
+      "overlap_weight": 0.031793
     },
     {
       "holding_symbol": "GOOGL",
-      "left_weight": 0.035237,
-      "right_weight": 0.033097,
-      "overlap_weight": 0.033097
+      "left_weight": 0.028412,
+      "right_weight": 0.036775,
+      "overlap_weight": 0.028412
     }
   ]
 }

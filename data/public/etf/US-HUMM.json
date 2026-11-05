@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -56.7737,
+      "value": -110.5879,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 40.9425,
+      "value": 41.0715,
       "unit": "percent"
     },
     "beta": {
-      "value": 2.9999,
+      "value": 2.2769,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.1349,
+      "value": 0.1389,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -21.9631,
+      "value": -22.4504,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -10.2574,
+      "value": -13.1045,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 32.9232,
+      "value": 34.709,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 23.01,
+    "date": "2026-11-04",
+    "value": 22.28,
     "currency": "USD"
   },
   "trend": [
@@ -225,21 +225,25 @@
     {
       "date": "2026-11-03",
       "value": 89.74
+    },
+    {
+      "date": "2026-11-04",
+      "value": 86.9
     }
   ],
   "price_history": {
     "first_date": "2026-09-17",
-    "last_date": "2026-11-03",
-    "observations": 34,
+    "last_date": "2026-11-04",
+    "observations": 35,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 1000.0,
-    "average_volume_20d": 650.0,
-    "average_dollar_volume_20d": 15971.45,
-    "relative_volume_20d": 1.5385,
+    "as_of": "2026-11-04",
+    "latest_volume": 200.0,
+    "average_volume_20d": 625.0,
+    "average_dollar_volume_20d": 15219.15,
+    "relative_volume_20d": 0.32,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -247,68 +251,12 @@
   "top_holdings": [
     {
       "etf_id": "US-HUMM",
-      "holding_symbol": "VICR",
-      "holding_name": "Vicor Corp",
-      "weight": 0.0781522,
+      "holding_symbol": "MPWR",
+      "holding_name": "Monolithic Power Systems Inc",
+      "weight": 0.0552306,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Vicor Corp",
-      "holding_name_zh": null,
-      "display_name": "Vicor Corp",
-      "display_label": "(VICR)Vicor Corp",
-      "bilingual_name": "Vicor Corp"
-    },
-    {
-      "etf_id": "US-HUMM",
-      "holding_symbol": "NVTS",
-      "holding_name": "Navitas Semiconductor Corp Class A",
-      "weight": 0.0610745,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Navitas Semiconductor Corp Class A",
-      "holding_name_zh": null,
-      "display_name": "Navitas Semiconductor Corp Class A",
-      "display_label": "(NVTS)Navitas Semiconductor Corp Class A",
-      "bilingual_name": "Navitas Semiconductor Corp Class A"
-    },
-    {
-      "etf_id": "US-HUMM",
-      "holding_symbol": "IFNNY",
-      "holding_name": "Infineon Technologies AG ADR",
-      "weight": 0.0605258,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Infineon Technologies AG ADR",
-      "holding_name_zh": null,
-      "display_name": "Infineon Technologies AG ADR",
-      "display_label": "(IFNNY)Infineon Technologies AG ADR",
-      "bilingual_name": "Infineon Technologies AG ADR"
-    },
-    {
-      "etf_id": "US-HUMM",
-      "holding_symbol": "ON",
-      "holding_name": "ON Semiconductor Corp",
-      "weight": 0.0583059,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "ON Semiconductor Corp",
-      "holding_name_zh": null,
-      "display_name": "ON Semiconductor Corp",
-      "display_label": "(ON)ON Semiconductor Corp",
-      "bilingual_name": "ON Semiconductor Corp"
-    },
-    {
-      "etf_id": "US-HUMM",
-      "holding_symbol": "MPWR",
-      "holding_name": "Monolithic Power Systems Inc",
-      "weight": 0.0580866,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Monolithic Power Systems Inc",
       "holding_name_zh": null,
       "display_name": "Monolithic Power Systems Inc",
@@ -317,26 +265,68 @@
     },
     {
       "etf_id": "US-HUMM",
-      "holding_symbol": "FLEX",
-      "holding_name": "Flex Ltd",
-      "weight": 0.0541188,
+      "holding_symbol": "ON",
+      "holding_name": "ON Semiconductor Corp",
+      "weight": 0.0546351,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Flex Ltd",
+      "rank": 2,
+      "holding_name_en": "ON Semiconductor Corp",
       "holding_name_zh": null,
-      "display_name": "Flex Ltd",
-      "display_label": "(FLEX)Flex Ltd",
-      "bilingual_name": "Flex Ltd"
+      "display_name": "ON Semiconductor Corp",
+      "display_label": "(ON)ON Semiconductor Corp",
+      "bilingual_name": "ON Semiconductor Corp"
+    },
+    {
+      "etf_id": "US-HUMM",
+      "holding_symbol": "VICR",
+      "holding_name": "Vicor Corp",
+      "weight": 0.0541172,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Vicor Corp",
+      "holding_name_zh": null,
+      "display_name": "Vicor Corp",
+      "display_label": "(VICR)Vicor Corp",
+      "bilingual_name": "Vicor Corp"
+    },
+    {
+      "etf_id": "US-HUMM",
+      "holding_symbol": "IFNNY",
+      "holding_name": "Infineon Technologies AG ADR",
+      "weight": 0.0528486,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Infineon Technologies AG ADR",
+      "holding_name_zh": null,
+      "display_name": "Infineon Technologies AG ADR",
+      "display_label": "(IFNNY)Infineon Technologies AG ADR",
+      "bilingual_name": "Infineon Technologies AG ADR"
+    },
+    {
+      "etf_id": "US-HUMM",
+      "holding_symbol": "VRT",
+      "holding_name": "Vertiv Holdings Co Class A",
+      "weight": 0.0489322,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Vertiv Holdings Co Class A",
+      "holding_name_zh": null,
+      "display_name": "Vertiv Holdings Co Class A",
+      "display_label": "(VRT)Vertiv Holdings Co Class A",
+      "bilingual_name": "Vertiv Holdings Co Class A"
     },
     {
       "etf_id": "US-HUMM",
       "holding_symbol": "RNECY",
       "holding_name": "Renesas Electronics Corp ADR",
-      "weight": 0.0523106,
+      "weight": 0.0475104,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Renesas Electronics Corp ADR",
       "holding_name_zh": null,
       "display_name": "Renesas Electronics Corp ADR",
@@ -347,10 +337,10 @@
       "etf_id": "US-HUMM",
       "holding_symbol": "ABBNY",
       "holding_name": "ABB Ltd ADR",
-      "weight": 0.0488191,
+      "weight": 0.0458713,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 7,
       "holding_name_en": "ABB Ltd ADR",
       "holding_name_zh": null,
       "display_name": "ABB Ltd ADR",
@@ -359,37 +349,51 @@
     },
     {
       "etf_id": "US-HUMM",
-      "holding_symbol": "VRT",
-      "holding_name": "Vertiv Holdings Co Class A",
-      "weight": 0.0483617,
+      "holding_symbol": "TXN",
+      "holding_name": "Texas Instruments Inc",
+      "weight": 0.0456628,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Vertiv Holdings Co Class A",
-      "holding_name_zh": null,
-      "display_name": "Vertiv Holdings Co Class A",
-      "display_label": "(VRT)Vertiv Holdings Co Class A",
-      "bilingual_name": "Vertiv Holdings Co Class A"
+      "rank": 8,
+      "holding_name_en": "Texas Instruments Inc",
+      "holding_name_zh": "德州儀器",
+      "display_name": "德州儀器",
+      "display_label": "(TXN)德州儀器",
+      "bilingual_name": "Texas Instruments Inc（德州儀器）"
     },
     {
       "etf_id": "US-HUMM",
-      "holding_symbol": "2301.TW",
-      "holding_name": "Lite-On Technology Corp",
-      "weight": 0.0476986,
+      "holding_symbol": "NVTS",
+      "holding_name": "Navitas Semiconductor Corp Class A",
+      "weight": 0.045609,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Navitas Semiconductor Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Navitas Semiconductor Corp Class A",
+      "display_label": "(NVTS)Navitas Semiconductor Corp Class A",
+      "bilingual_name": "Navitas Semiconductor Corp Class A"
+    },
+    {
+      "etf_id": "US-HUMM",
+      "holding_symbol": "FLEX",
+      "holding_name": "Flex Ltd",
+      "weight": 0.0448307,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Lite-On Technology Corp",
-      "holding_name_zh": "光寶科",
-      "display_name": "光寶科",
-      "display_label": "(2301.TW)光寶科",
-      "bilingual_name": "Lite-On Technology Corp（光寶科）"
+      "holding_name_en": "Flex Ltd",
+      "holding_name_zh": null,
+      "display_name": "Flex Ltd",
+      "display_label": "(FLEX)Flex Ltd",
+      "bilingual_name": "Flex Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.567454,
-    "top_3_weight": 0.199752
+    "top_10_weight": 0.495248,
+    "top_3_weight": 0.163983
   },
   "research": {
     "tier": "context",

@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -12.1351,
+      "value": -12.136,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -0.6769,
+      "value": -0.6778,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.1743,
+      "value": 16.1741,
       "unit": "percent"
     },
     "beta": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.1346,
+      "value": -0.1347,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -0.6769,
+      "value": -0.6778,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.6132,
+      "value": 11.6131,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 30.9373,
+    "value": 30.937,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 6303.0,
-    "average_volume_20d": 15425.15,
-    "average_dollar_volume_20d": 463900.3879,
-    "relative_volume_20d": 0.4086,
+    "latest_volume": 6300.0,
+    "average_volume_20d": 15425.0,
+    "average_dollar_volume_20d": 463895.653,
+    "relative_volume_20d": 0.4084,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-XC",
       "holding_symbol": "MELI",
       "holding_name": "MercadoLibre Inc",
-      "weight": 0.0360017,
+      "weight": 0.0327071,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3153,26 +3153,12 @@
     },
     {
       "etf_id": "US-XC",
-      "holding_symbol": "RELIANCE.NS",
-      "holding_name": "Reliance Industries Ltd",
-      "weight": 0.022711,
+      "holding_symbol": "1120.SR",
+      "holding_name": "Al Rajhi Bank",
+      "weight": 0.0220099,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Reliance Industries Ltd",
-      "holding_name_zh": null,
-      "display_name": "Reliance Industries Ltd",
-      "display_label": "(RELIANCE.NS)Reliance Industries Ltd",
-      "bilingual_name": "Reliance Industries Ltd"
-    },
-    {
-      "etf_id": "US-XC",
-      "holding_symbol": "1120.SR",
-      "holding_name": "Al Rajhi Bank",
-      "weight": 0.0224127,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Al Rajhi Bank",
       "holding_name_zh": null,
       "display_name": "Al Rajhi Bank",
@@ -3183,10 +3169,10 @@
       "etf_id": "US-XC",
       "holding_symbol": "HDFCBANK.NS",
       "holding_name": "HDFC Bank Ltd",
-      "weight": 0.0207031,
+      "weight": 0.0199242,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "HDFC Bank Ltd",
       "holding_name_zh": null,
       "display_name": "HDFC Bank Ltd",
@@ -3195,9 +3181,23 @@
     },
     {
       "etf_id": "US-XC",
+      "holding_symbol": "RELIANCE.NS",
+      "holding_name": "Reliance Industries Ltd",
+      "weight": 0.0196894,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Reliance Industries Ltd",
+      "holding_name_zh": null,
+      "display_name": "Reliance Industries Ltd",
+      "display_label": "(RELIANCE.NS)Reliance Industries Ltd",
+      "bilingual_name": "Reliance Industries Ltd"
+    },
+    {
+      "etf_id": "US-XC",
       "holding_symbol": "ICICIBANK.NS",
       "holding_name": "ICICI Bank Ltd",
-      "weight": 0.0187682,
+      "weight": 0.0175547,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3211,7 +3211,7 @@
       "etf_id": "US-XC",
       "holding_symbol": "GMEXICOB.MX",
       "holding_name": "Grupo Mexico SAB de CV Class B",
-      "weight": 0.0157538,
+      "weight": 0.0160411,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3223,26 +3223,12 @@
     },
     {
       "etf_id": "US-XC",
-      "holding_symbol": "DELTA-R",
-      "holding_name": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "weight": 0.0145529,
+      "holding_symbol": "BHARTIARTL.NS",
+      "holding_name": "Bharti Airtel Ltd",
+      "weight": 0.0146648,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "holding_name_zh": null,
-      "display_name": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "display_label": "(DELTA-R)Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "bilingual_name": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt"
-    },
-    {
-      "etf_id": "US-XC",
-      "holding_symbol": "BHARTIARTL.NS",
-      "holding_name": "Bharti Airtel Ltd",
-      "weight": 0.0139709,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Bharti Airtel Ltd",
       "holding_name_zh": null,
       "display_name": "Bharti Airtel Ltd",
@@ -3251,9 +3237,23 @@
     },
     {
       "etf_id": "US-XC",
+      "holding_symbol": "OTP.BD",
+      "holding_name": "OTP Bank PLC",
+      "weight": 0.0143093,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "OTP Bank PLC",
+      "holding_name_zh": null,
+      "display_name": "OTP Bank PLC",
+      "display_label": "(OTP.BD)OTP Bank PLC",
+      "bilingual_name": "OTP Bank PLC"
+    },
+    {
+      "etf_id": "US-XC",
       "holding_symbol": "FSR.JO",
       "holding_name": "Firstrand Ltd",
-      "weight": 0.013002,
+      "weight": 0.0134514,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3262,26 +3262,12 @@
       "display_name": "Firstrand Ltd",
       "display_label": "(FSR.JO)Firstrand Ltd",
       "bilingual_name": "Firstrand Ltd"
-    },
-    {
-      "etf_id": "US-XC",
-      "holding_symbol": "OTP.BD",
-      "holding_name": "OTP Bank PLC",
-      "weight": 0.0129173,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "OTP Bank PLC",
-      "holding_name_zh": null,
-      "display_name": "OTP Bank PLC",
-      "display_label": "(OTP.BD)OTP Bank PLC",
-      "bilingual_name": "OTP Bank PLC"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.190794,
-    "top_3_weight": 0.081125
+    "holding_count": 9,
+    "top_10_weight": 0.170352,
+    "top_3_weight": 0.074641
   },
   "research": {
     "tier": "context",

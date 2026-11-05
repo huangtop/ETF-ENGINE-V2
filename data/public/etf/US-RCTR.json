@@ -55,11 +55,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -31.166,
+      "value": -31.1671,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -13.2542,
+      "value": -13.2554,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -75,26 +75,26 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -23.1136,
+      "value": -23.1146,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.5583,
+      "value": -0.5584,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -13.2542,
+      "value": -13.2554,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.9336,
+      "value": 19.9338,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 29.8294,
+    "value": 29.829,
     "currency": "USD"
   },
   "trend": [
@@ -1384,10 +1384,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 17874.0,
-    "average_volume_20d": 9213.7,
-    "average_dollar_volume_20d": 287771.2875,
-    "relative_volume_20d": 1.9399,
+    "latest_volume": 17900.0,
+    "average_volume_20d": 9215.0,
+    "average_dollar_volume_20d": 287809.7089,
+    "relative_volume_20d": 1.9425,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1395,40 +1395,68 @@
   "top_holdings": [
     {
       "etf_id": "US-RCTR",
-      "holding_symbol": "6501.T",
-      "holding_name": "Hitachi Ltd",
-      "weight": 0.0575362,
+      "holding_symbol": "SO",
+      "holding_name": "Southern Co",
+      "weight": 0.051241,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Hitachi Ltd",
+      "holding_name_en": "Southern Co",
       "holding_name_zh": null,
-      "display_name": "Hitachi Ltd",
-      "display_label": "(6501.T)Hitachi Ltd",
-      "bilingual_name": "Hitachi Ltd"
+      "display_name": "Southern Co",
+      "display_label": "(SO)Southern Co",
+      "bilingual_name": "Southern Co"
     },
     {
       "etf_id": "US-RCTR",
-      "holding_symbol": "034020.KQ",
-      "holding_name": "Doosan Enerbility Co Ltd",
-      "weight": 0.0507537,
+      "holding_symbol": "DUK",
+      "holding_name": "Duke Energy Corp",
+      "weight": 0.0508894,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Doosan Enerbility Co Ltd",
+      "holding_name_en": "Duke Energy Corp",
       "holding_name_zh": null,
-      "display_name": "Doosan Enerbility Co Ltd",
-      "display_label": "(034020.KQ)Doosan Enerbility Co Ltd",
-      "bilingual_name": "Doosan Enerbility Co Ltd"
+      "display_name": "Duke Energy Corp",
+      "display_label": "(DUK)Duke Energy Corp",
+      "bilingual_name": "Duke Energy Corp"
+    },
+    {
+      "etf_id": "US-RCTR",
+      "holding_symbol": "ETR",
+      "holding_name": "Entergy Corp",
+      "weight": 0.0502746,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Entergy Corp",
+      "holding_name_zh": null,
+      "display_name": "Entergy Corp",
+      "display_label": "(ETR)Entergy Corp",
+      "bilingual_name": "Entergy Corp"
+    },
+    {
+      "etf_id": "US-RCTR",
+      "holding_symbol": "TLN",
+      "holding_name": "Talen Energy Corp Ordinary Shares New",
+      "weight": 0.0501685,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Talen Energy Corp Ordinary Shares New",
+      "holding_name_zh": null,
+      "display_name": "Talen Energy Corp Ordinary Shares New",
+      "display_label": "(TLN)Talen Energy Corp Ordinary Shares New",
+      "bilingual_name": "Talen Energy Corp Ordinary Shares New"
     },
     {
       "etf_id": "US-RCTR",
       "holding_symbol": "CEG",
       "holding_name": "Constellation Energy Corp",
-      "weight": 0.0502738,
+      "weight": 0.0474002,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 5,
       "holding_name_en": "Constellation Energy Corp",
       "holding_name_zh": null,
       "display_name": "Constellation Energy Corp",
@@ -1437,51 +1465,23 @@
     },
     {
       "etf_id": "US-RCTR",
-      "holding_symbol": "7011.T",
-      "holding_name": "Mitsubishi Heavy Industries Ltd",
-      "weight": 0.04907,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Mitsubishi Heavy Industries Ltd",
-      "holding_name_zh": null,
-      "display_name": "Mitsubishi Heavy Industries Ltd",
-      "display_label": "(7011.T)Mitsubishi Heavy Industries Ltd",
-      "bilingual_name": "Mitsubishi Heavy Industries Ltd"
-    },
-    {
-      "etf_id": "US-RCTR",
-      "holding_symbol": "BHP.AX",
-      "holding_name": "BHP Group Ltd",
-      "weight": 0.047661,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "BHP Group Ltd",
-      "holding_name_zh": null,
-      "display_name": "BHP Group Ltd",
-      "display_label": "(BHP.AX)BHP Group Ltd",
-      "bilingual_name": "BHP Group Ltd"
-    },
-    {
-      "etf_id": "US-RCTR",
-      "holding_symbol": "RR.L",
-      "holding_name": "Rolls-Royce Holdings PLC",
-      "weight": 0.0456721,
+      "holding_symbol": "BWXT",
+      "holding_name": "BWX Technologies Inc",
+      "weight": 0.0471827,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Rolls-Royce Holdings PLC",
+      "holding_name_en": "BWX Technologies Inc",
       "holding_name_zh": null,
-      "display_name": "Rolls-Royce Holdings PLC",
-      "display_label": "(RR.L)Rolls-Royce Holdings PLC",
-      "bilingual_name": "Rolls-Royce Holdings PLC"
+      "display_name": "BWX Technologies Inc",
+      "display_label": "(BWXT)BWX Technologies Inc",
+      "bilingual_name": "BWX Technologies Inc"
     },
     {
       "etf_id": "US-RCTR",
       "holding_symbol": "VST",
       "holding_name": "Vistra Corp",
-      "weight": 0.0433669,
+      "weight": 0.0464405,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1495,7 +1495,7 @@
       "etf_id": "US-RCTR",
       "holding_symbol": "CCO.TO",
       "holding_name": "Cameco Corp",
-      "weight": 0.0417558,
+      "weight": 0.0450899,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -1507,37 +1507,37 @@
     },
     {
       "etf_id": "US-RCTR",
-      "holding_symbol": "DUK",
-      "holding_name": "Duke Energy Corp",
-      "weight": 0.0416552,
+      "holding_symbol": "BHP.AX",
+      "holding_name": "BHP Group Ltd",
+      "weight": 0.0437553,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Duke Energy Corp",
+      "holding_name_en": "BHP Group Ltd",
       "holding_name_zh": null,
-      "display_name": "Duke Energy Corp",
-      "display_label": "(DUK)Duke Energy Corp",
-      "bilingual_name": "Duke Energy Corp"
+      "display_name": "BHP Group Ltd",
+      "display_label": "(BHP.AX)BHP Group Ltd",
+      "bilingual_name": "BHP Group Ltd"
     },
     {
       "etf_id": "US-RCTR",
-      "holding_symbol": "ETR",
-      "holding_name": "Entergy Corp",
-      "weight": 0.0408274,
+      "holding_symbol": "6501.T",
+      "holding_name": "Hitachi Ltd",
+      "weight": 0.0422944,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Entergy Corp",
+      "holding_name_en": "Hitachi Ltd",
       "holding_name_zh": null,
-      "display_name": "Entergy Corp",
-      "display_label": "(ETR)Entergy Corp",
-      "bilingual_name": "Entergy Corp"
+      "display_name": "Hitachi Ltd",
+      "display_label": "(6501.T)Hitachi Ltd",
+      "bilingual_name": "Hitachi Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.468572,
-    "top_3_weight": 0.158564
+    "top_10_weight": 0.474737,
+    "top_3_weight": 0.152405
   },
   "research": {
     "tier": "context",

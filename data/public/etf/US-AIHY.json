@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 5.3641,
+      "value": 5.3567,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.3079,
+      "value": 28.3069,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.8402,
+      "value": 1.8401,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 5.4269,
+      "value": 5.4244,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 21.0749,
+      "value": 21.0743,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 20.9905,
+    "value": 20.99,
     "currency": "USD"
   },
   "trend": [
@@ -392,7 +392,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 105.43
+      "value": 105.42
     }
   ],
   "price_history": {
@@ -404,10 +404,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 107772.0,
-    "average_volume_20d": 26158.6,
-    "average_dollar_volume_20d": 557367.5038,
-    "relative_volume_20d": 4.1199,
+    "latest_volume": 107800.0,
+    "average_volume_20d": 26160.0,
+    "average_dollar_volume_20d": 557394.197,
+    "relative_volume_20d": 4.1208,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -417,7 +417,7 @@
       "etf_id": "US-AIHY",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.261454,
+      "weight": 0.2618515,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -431,7 +431,7 @@
       "etf_id": "US-AIHY",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.2233201,
+      "weight": 0.216008,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -445,7 +445,7 @@
       "etf_id": "US-AIHY",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.20873739,
+      "weight": 0.1942236,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -457,23 +457,23 @@
     },
     {
       "etf_id": "US-AIHY",
-      "holding_symbol": "SPCX",
-      "holding_name": "Space Exploration Technologies Corp Class A",
-      "weight": 0.0352146,
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0370069,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Space Exploration Technologies Corp Class A",
-      "holding_name_zh": null,
-      "display_name": "Space Exploration Technologies Corp Class A",
-      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
-      "bilingual_name": "Space Exploration Technologies Corp Class A"
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
     },
     {
       "etf_id": "US-AIHY",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0351303,
+      "weight": 0.0356122,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -485,37 +485,37 @@
     },
     {
       "etf_id": "US-AIHY",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0349699,
+      "holding_symbol": "SPCX",
+      "holding_name": "Space Exploration Technologies Corp Class A",
+      "weight": 0.0344927,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Amazon.com Inc",
-      "holding_name_zh": "亞馬遜",
-      "display_name": "亞馬遜",
-      "display_label": "(AMZN)亞馬遜",
-      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+      "holding_name_en": "Space Exploration Technologies Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Space Exploration Technologies Corp Class A",
+      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+      "bilingual_name": "Space Exploration Technologies Corp Class A"
     },
     {
       "etf_id": "US-AIHY",
-      "holding_symbol": "BABA",
-      "holding_name": "Alibaba Group Holding Ltd ADR",
-      "weight": 0.0282117,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.032105,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Alibaba Group Holding Ltd ADR",
-      "holding_name_zh": null,
-      "display_name": "Alibaba Group Holding Ltd ADR",
-      "display_label": "(BABA)Alibaba Group Holding Ltd ADR",
-      "bilingual_name": "Alibaba Group Holding Ltd ADR"
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
     }
   ],
   "holdings_summary": {
     "holding_count": 7,
-    "top_10_weight": 0.827038,
-    "top_3_weight": 0.693511
+    "top_10_weight": 0.8113,
+    "top_3_weight": 0.672083
   },
   "research": {
     "tier": "context",

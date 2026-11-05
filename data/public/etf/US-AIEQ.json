@@ -67,11 +67,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -3.6281,
+      "value": -3.6279,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 9.6332,
+      "value": 9.6334,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -91,22 +91,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.6311,
+      "value": 0.6312,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 9.6332,
+      "value": 9.6334,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 4.2333,
+      "value": 4.2332,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 49.1029,
+    "value": 49.103,
     "currency": "USD"
   },
   "trend": [
@@ -3144,10 +3144,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 4095.0,
-    "average_volume_20d": 2524.75,
-    "average_dollar_volume_20d": 124399.0082,
-    "relative_volume_20d": 1.6219,
+    "latest_volume": 4100.0,
+    "average_volume_20d": 2525.0,
+    "average_dollar_volume_20d": 124411.3043,
+    "relative_volume_20d": 1.6238,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3155,96 +3155,40 @@
   "top_holdings": [
     {
       "etf_id": "US-AIEQ",
-      "holding_symbol": "TEL",
-      "holding_name": "TE Connectivity PLC Registered Shares",
-      "weight": 0.063685,
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.08788419,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "TE Connectivity PLC Registered Shares",
-      "holding_name_zh": null,
-      "display_name": "TE Connectivity PLC Registered Shares",
-      "display_label": "(TEL)TE Connectivity PLC Registered Shares",
-      "bilingual_name": "TE Connectivity PLC Registered Shares"
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
     },
     {
       "etf_id": "US-AIEQ",
-      "holding_symbol": "NFLX",
-      "holding_name": "Netflix Inc",
-      "weight": 0.0481113,
+      "holding_symbol": "MA",
+      "holding_name": "Mastercard Inc Class A",
+      "weight": 0.0426652,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Netflix Inc",
+      "holding_name_en": "Mastercard Inc Class A",
       "holding_name_zh": null,
-      "display_name": "Netflix Inc",
-      "display_label": "(NFLX)Netflix Inc",
-      "bilingual_name": "Netflix Inc"
-    },
-    {
-      "etf_id": "US-AIEQ",
-      "holding_symbol": "CB",
-      "holding_name": "Chubb Ltd",
-      "weight": 0.0480812,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Chubb Ltd",
-      "holding_name_zh": null,
-      "display_name": "Chubb Ltd",
-      "display_label": "(CB)Chubb Ltd",
-      "bilingual_name": "Chubb Ltd"
-    },
-    {
-      "etf_id": "US-AIEQ",
-      "holding_symbol": "GEV",
-      "holding_name": "GE Vernova Inc",
-      "weight": 0.0470555,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "GE Vernova Inc",
-      "holding_name_zh": null,
-      "display_name": "GE Vernova Inc",
-      "display_label": "(GEV)GE Vernova Inc",
-      "bilingual_name": "GE Vernova Inc"
-    },
-    {
-      "etf_id": "US-AIEQ",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0460167,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-AIEQ",
-      "holding_symbol": "AFL",
-      "holding_name": "Aflac Inc",
-      "weight": 0.0428492,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Aflac Inc",
-      "holding_name_zh": null,
-      "display_name": "Aflac Inc",
-      "display_label": "(AFL)Aflac Inc",
-      "bilingual_name": "Aflac Inc"
+      "display_name": "Mastercard Inc Class A",
+      "display_label": "(MA)Mastercard Inc Class A",
+      "bilingual_name": "Mastercard Inc Class A"
     },
     {
       "etf_id": "US-AIEQ",
       "holding_symbol": "TSN",
       "holding_name": "Tyson Foods Inc Class A",
-      "weight": 0.0406301,
+      "weight": 0.0417152,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 3,
       "holding_name_en": "Tyson Foods Inc Class A",
       "holding_name_zh": null,
       "display_name": "Tyson Foods Inc Class A",
@@ -3253,51 +3197,107 @@
     },
     {
       "etf_id": "US-AIEQ",
-      "holding_symbol": "BIIB",
-      "holding_name": "Biogen Inc",
-      "weight": 0.0377016,
+      "holding_symbol": "BRK-B",
+      "holding_name": "Berkshire Hathaway Inc Class B",
+      "weight": 0.0401964,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Berkshire Hathaway Inc Class B",
+      "holding_name_zh": null,
+      "display_name": "Berkshire Hathaway Inc Class B",
+      "display_label": "(BRK-B)Berkshire Hathaway Inc Class B",
+      "bilingual_name": "Berkshire Hathaway Inc Class B"
+    },
+    {
+      "etf_id": "US-AIEQ",
+      "holding_symbol": "NFLX",
+      "holding_name": "Netflix Inc",
+      "weight": 0.0393266,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Netflix Inc",
+      "holding_name_zh": null,
+      "display_name": "Netflix Inc",
+      "display_label": "(NFLX)Netflix Inc",
+      "bilingual_name": "Netflix Inc"
+    },
+    {
+      "etf_id": "US-AIEQ",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0359638,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "US-AIEQ",
+      "holding_symbol": "UBER",
+      "holding_name": "Uber Technologies Inc",
+      "weight": 0.0351579,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Uber Technologies Inc",
+      "holding_name_zh": null,
+      "display_name": "Uber Technologies Inc",
+      "display_label": "(UBER)Uber Technologies Inc",
+      "bilingual_name": "Uber Technologies Inc"
+    },
+    {
+      "etf_id": "US-AIEQ",
+      "holding_symbol": "GEV",
+      "holding_name": "GE Vernova Inc",
+      "weight": 0.0333798,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Biogen Inc",
+      "holding_name_en": "GE Vernova Inc",
       "holding_name_zh": null,
-      "display_name": "Biogen Inc",
-      "display_label": "(BIIB)Biogen Inc",
-      "bilingual_name": "Biogen Inc"
+      "display_name": "GE Vernova Inc",
+      "display_label": "(GEV)GE Vernova Inc",
+      "bilingual_name": "GE Vernova Inc"
     },
     {
       "etf_id": "US-AIEQ",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.0346832,
+      "holding_symbol": "OKE",
+      "holding_name": "ONEOK Inc",
+      "weight": 0.0292369,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Microsoft Corp",
-      "holding_name_zh": "微軟",
-      "display_name": "微軟",
-      "display_label": "(MSFT)微軟",
-      "bilingual_name": "Microsoft Corp（微軟）"
+      "holding_name_en": "ONEOK Inc",
+      "holding_name_zh": null,
+      "display_name": "ONEOK Inc",
+      "display_label": "(OKE)ONEOK Inc",
+      "bilingual_name": "ONEOK Inc"
     },
     {
       "etf_id": "US-AIEQ",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0335409,
+      "holding_symbol": "SNA",
+      "holding_name": "Snap-on Inc",
+      "weight": 0.0245594,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+      "holding_name_en": "Snap-on Inc",
+      "holding_name_zh": null,
+      "display_name": "Snap-on Inc",
+      "display_label": "(SNA)Snap-on Inc",
+      "bilingual_name": "Snap-on Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.442355,
-    "top_3_weight": 0.159878
+    "top_10_weight": 0.410085,
+    "top_3_weight": 0.172265
   },
   "research": {
     "tier": "primary",

@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.1268,
+      "value": -4.1258,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 14.6125,
+      "value": 14.6137,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -75,11 +75,11 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5309,
+      "value": 0.531,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 14.6125,
+      "value": 14.6137,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 28.1017,
+    "value": 28.102,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 7649.0,
-    "average_volume_20d": 9387.45,
-    "average_dollar_volume_20d": 268903.8243,
-    "relative_volume_20d": 0.8148,
+    "latest_volume": 7600.0,
+    "average_volume_20d": 9385.0,
+    "average_dollar_volume_20d": 268835.0889,
+    "relative_volume_20d": 0.8098,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.1426053,
+      "weight": 0.14510609,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.07055941,
+      "weight": 0.066149,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0564188,
+      "weight": 0.0526039,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3183,7 +3183,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0260193,
+      "weight": 0.0243842,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3197,7 +3197,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "9988.HK",
       "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0188343,
+      "weight": 0.0181863,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3211,7 +3211,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0172796,
+      "weight": 0.0148447,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3225,7 +3225,7 @@
       "etf_id": "US-BKEM",
       "holding_symbol": "00939",
       "holding_name": "China Construction Bank Corp Class H",
-      "weight": 0.0090005,
+      "weight": 0.0099317,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3237,23 +3237,23 @@
     },
     {
       "etf_id": "US-BKEM",
-      "holding_symbol": "005935",
-      "holding_name": "Samsung Electronics Co Ltd Participating Preferred",
-      "weight": 0.0087999,
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0075505,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Samsung Electronics Co Ltd Participating Preferred",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd Participating Preferred",
-      "display_label": "(005935)Samsung Electronics Co Ltd Participating Preferred",
-      "bilingual_name": "Samsung Electronics Co Ltd Participating Preferred"
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
     },
     {
       "etf_id": "US-BKEM",
       "holding_symbol": "2308.TW",
       "holding_name": "Delta Electronics Inc",
-      "weight": 0.0080983,
+      "weight": 0.0066264,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3262,26 +3262,12 @@
       "display_name": "台達電",
       "display_label": "(2308.TW)台達電",
       "bilingual_name": "Delta Electronics Inc（台達電）"
-    },
-    {
-      "etf_id": "US-BKEM",
-      "holding_symbol": "2317.TW",
-      "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.007256,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
-      "holding_name_zh": "鴻海",
-      "display_name": "鴻海",
-      "display_label": "(2317.TW)鴻海",
-      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.364871,
-    "top_3_weight": 0.269584
+    "holding_count": 9,
+    "top_10_weight": 0.345383,
+    "top_3_weight": 0.263859
   },
   "research": {
     "tier": "context",

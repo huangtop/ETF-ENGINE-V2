@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -33.2362,
+      "value": -33.2377,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.5348,
+      "value": 16.5347,
       "unit": "percent"
     },
     "beta": {
@@ -75,7 +75,7 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -5.893,
+      "value": -5.8933,
       "unit": "percent"
     },
     "tracking_error": {
@@ -86,7 +86,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 91.4033,
+    "value": 91.403,
     "currency": "USD"
   },
   "trend": [
@@ -308,10 +308,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 2689.0,
-    "average_volume_20d": 3994.45,
-    "average_dollar_volume_20d": 371459.8958,
-    "relative_volume_20d": 0.6732,
+    "latest_volume": 2700.0,
+    "average_volume_20d": 3995.0,
+    "average_dollar_volume_20d": 371510.1275,
+    "relative_volume_20d": 0.6758,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -321,7 +321,7 @@
       "etf_id": "US-AFEM",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.1397238,
+      "weight": 0.1392425,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -335,7 +335,7 @@
       "etf_id": "US-AFEM",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0788019,
+      "weight": 0.0722404,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -349,7 +349,7 @@
       "etf_id": "US-AFEM",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0378541,
+      "weight": 0.0345083,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -363,7 +363,7 @@
       "etf_id": "US-AFEM",
       "holding_symbol": "3037.TW",
       "holding_name": "Unimicron Technology Corp",
-      "weight": 0.0217628,
+      "weight": 0.0197127,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -375,26 +375,12 @@
     },
     {
       "etf_id": "US-AFEM",
-      "holding_symbol": "0992.HK",
-      "holding_name": "Lenovo Group Ltd",
-      "weight": 0.0185858,
+      "holding_symbol": "01398",
+      "holding_name": "Industrial And Commercial Bank Of China Ltd Class H",
+      "weight": 0.0189281,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Lenovo Group Ltd",
-      "holding_name_zh": null,
-      "display_name": "Lenovo Group Ltd",
-      "display_label": "(0992.HK)Lenovo Group Ltd",
-      "bilingual_name": "Lenovo Group Ltd"
-    },
-    {
-      "etf_id": "US-AFEM",
-      "holding_symbol": "01398",
-      "holding_name": "Industrial And Commercial Bank Of China Ltd Class H",
-      "weight": 0.0183628,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Industrial And Commercial Bank Of China Ltd Class H",
       "holding_name_zh": null,
       "display_name": "Industrial And Commercial Bank Of China Ltd Class H",
@@ -403,9 +389,23 @@
     },
     {
       "etf_id": "US-AFEM",
+      "holding_symbol": "03328",
+      "holding_name": "Bank of Communications Co Ltd Class H",
+      "weight": 0.0172031,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Bank of Communications Co Ltd Class H",
+      "holding_name_zh": null,
+      "display_name": "Bank of Communications Co Ltd Class H",
+      "display_label": "(03328)Bank of Communications Co Ltd Class H",
+      "bilingual_name": "Bank of Communications Co Ltd Class H"
+    },
+    {
+      "etf_id": "US-AFEM",
       "holding_symbol": "3653.TW",
       "holding_name": "Jentech Precision Industrial Co Ltd",
-      "weight": 0.0173559,
+      "weight": 0.0167299,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -417,51 +417,51 @@
     },
     {
       "etf_id": "US-AFEM",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.0163475,
+      "holding_symbol": "KBANK.BK",
+      "holding_name": "Kasikornbank Public Co Ltd",
+      "weight": 0.016271,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "MediaTek Inc",
-      "holding_name_zh": "聯發科",
-      "display_name": "聯發科",
-      "display_label": "(2454.TW)聯發科",
-      "bilingual_name": "MediaTek Inc（聯發科）"
-    },
-    {
-      "etf_id": "US-AFEM",
-      "holding_symbol": "03328",
-      "holding_name": "Bank of Communications Co Ltd Class H",
-      "weight": 0.0161779,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Bank of Communications Co Ltd Class H",
+      "holding_name_en": "Kasikornbank Public Co Ltd",
       "holding_name_zh": null,
-      "display_name": "Bank of Communications Co Ltd Class H",
-      "display_label": "(03328)Bank of Communications Co Ltd Class H",
-      "bilingual_name": "Bank of Communications Co Ltd Class H"
+      "display_name": "Kasikornbank Public Co Ltd",
+      "display_label": "(KBANK.BK)Kasikornbank Public Co Ltd",
+      "bilingual_name": "Kasikornbank Public Co Ltd"
     },
     {
       "etf_id": "US-AFEM",
       "holding_symbol": "000270.KQ",
       "holding_name": "Kia Corp",
-      "weight": 0.0151612,
+      "weight": 0.0154438,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Kia Corp",
       "holding_name_zh": null,
       "display_name": "Kia Corp",
       "display_label": "(000270.KQ)Kia Corp",
       "bilingual_name": "Kia Corp"
+    },
+    {
+      "etf_id": "US-AFEM",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0137544,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.380134,
-    "top_3_weight": 0.25638
+    "top_10_weight": 0.364034,
+    "top_3_weight": 0.245991
   },
   "research": {
     "tier": "context",

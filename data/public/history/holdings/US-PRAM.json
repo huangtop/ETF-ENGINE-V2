@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "etf_id": "US-PRAM",
   "coverage": "top_holdings_only",
-  "transition_count": 1,
+  "transition_count": 2,
   "latest_transition": {
-    "transition_id": "2026-10-06T10:49:21.259428Z-US-PRAM-3ede0b0e",
+    "transition_id": "2026-11-05T10:57:10.447994Z-US-PRAM-b5220314",
     "etf_id": "US-PRAM",
     "coverage": "top_holdings_only",
-    "previous_snapshot_id": "20260904-41d5560c0cd9",
-    "current_snapshot_id": "20261006-6364b0607c77",
-    "previous_observed_at": "2026-09-04T08:10:20.701087Z",
-    "current_observed_at": "2026-10-06T10:49:21.259428Z",
+    "previous_snapshot_id": "20261006-6364b0607c77",
+    "current_snapshot_id": "20261105-5c854e7061cb",
+    "previous_observed_at": "2026-10-06T10:49:21.259428Z",
+    "current_observed_at": "2026-11-05T10:57:10.447994Z",
     "changes": [
       {
-        "event_id": "c3a9a1efb29ef396ef1b28954cada928f26d0643a1c59ae78439e32705a5200c",
+        "event_id": "6c80ac56104920f5ad7449b8d5fb620739c3e67ce53cfd4082c60ab16b5f0892",
         "etf_id": "US-PRAM",
         "holding_symbol": "FGXXX",
         "holding_name_en": null,
@@ -21,16 +21,16 @@
         "holding_display_name": "FGXXX",
         "holding_display_label": "(FGXXX)FGXXX",
         "holding_bilingual_name": "FGXXX",
-        "previous_weight": 0.01004472,
-        "current_weight": 0.94012016,
-        "delta_weight": 0.93007544,
-        "change_type": "WEIGHT_INCREASED",
+        "previous_weight": 0.94012016,
+        "current_weight": 0.8596033,
+        "delta_weight": -0.08051686,
+        "change_type": "WEIGHT_DECREASED",
         "previous_source": "yahoo",
         "current_source": "yahoo",
-        "previous_snapshot_id": "20260904-41d5560c0cd9",
-        "current_snapshot_id": "20261006-6364b0607c77",
-        "previous_observed_at": "2026-09-04T08:10:20.701087Z",
-        "current_observed_at": "2026-10-06T10:49:21.259428Z",
+        "previous_snapshot_id": "20261006-6364b0607c77",
+        "current_snapshot_id": "20261105-5c854e7061cb",
+        "previous_observed_at": "2026-10-06T10:49:21.259428Z",
+        "current_observed_at": "2026-11-05T10:57:10.447994Z",
         "coverage": "top_holdings_only"
       }
     ]
@@ -64,6 +64,38 @@
           "current_snapshot_id": "20261006-6364b0607c77",
           "previous_observed_at": "2026-09-04T08:10:20.701087Z",
           "current_observed_at": "2026-10-06T10:49:21.259428Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    },
+    {
+      "transition_id": "2026-11-05T10:57:10.447994Z-US-PRAM-b5220314",
+      "etf_id": "US-PRAM",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261006-6364b0607c77",
+      "current_snapshot_id": "20261105-5c854e7061cb",
+      "previous_observed_at": "2026-10-06T10:49:21.259428Z",
+      "current_observed_at": "2026-11-05T10:57:10.447994Z",
+      "changes": [
+        {
+          "event_id": "6c80ac56104920f5ad7449b8d5fb620739c3e67ce53cfd4082c60ab16b5f0892",
+          "etf_id": "US-PRAM",
+          "holding_symbol": "FGXXX",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "FGXXX",
+          "holding_display_label": "(FGXXX)FGXXX",
+          "holding_bilingual_name": "FGXXX",
+          "previous_weight": 0.94012016,
+          "current_weight": 0.8596033,
+          "delta_weight": -0.08051686,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261006-6364b0607c77",
+          "current_snapshot_id": "20261105-5c854e7061cb",
+          "previous_observed_at": "2026-10-06T10:49:21.259428Z",
+          "current_observed_at": "2026-11-05T10:57:10.447994Z",
           "coverage": "top_holdings_only"
         }
       ]

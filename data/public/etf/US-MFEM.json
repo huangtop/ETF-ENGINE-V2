@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.1343,
+      "value": -0.1357,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 18.3062,
+      "value": 18.3044,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 23.8265,
+      "value": 23.8264,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.3767,
+      "value": 1.3766,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.7054,
+      "value": 0.7053,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 18.3062,
+      "value": 18.3044,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.6946,
+      "value": 16.6947,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 26.0804,
+    "value": 26.08,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 6529.0,
-    "average_volume_20d": 7586.45,
-    "average_dollar_volume_20d": 207563.6712,
-    "relative_volume_20d": 0.8606,
+    "latest_volume": 6500.0,
+    "average_volume_20d": 7585.0,
+    "average_dollar_volume_20d": 207525.7245,
+    "relative_volume_20d": 0.857,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3139,26 +3139,12 @@
   "top_holdings": [
     {
       "etf_id": "US-MFEM",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.0301824,
+      "holding_symbol": "3711.TW",
+      "holding_name": "ASE Technology Holding Co Ltd",
+      "weight": 0.0268185,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "MediaTek Inc",
-      "holding_name_zh": "聯發科",
-      "display_name": "聯發科",
-      "display_label": "(2454.TW)聯發科",
-      "bilingual_name": "MediaTek Inc（聯發科）"
-    },
-    {
-      "etf_id": "US-MFEM",
-      "holding_symbol": "3711.TW",
-      "holding_name": "ASE Technology Holding Co Ltd",
-      "weight": 0.0272671,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "ASE Technology Holding Co Ltd",
       "holding_name_zh": "日月光投控",
       "display_name": "日月光投控",
@@ -3167,12 +3153,40 @@
     },
     {
       "etf_id": "US-MFEM",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0231889,
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0256447,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
+    },
+    {
+      "etf_id": "US-MFEM",
+      "holding_symbol": "1303.TW",
+      "holding_name": "Nan Ya Plastics Corp",
+      "weight": 0.0232669,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
+      "holding_name_en": "Nan Ya Plastics Corp",
+      "holding_name_zh": "南亞",
+      "display_name": "南亞",
+      "display_label": "(1303.TW)南亞",
+      "bilingual_name": "Nan Ya Plastics Corp（南亞）"
+    },
+    {
+      "etf_id": "US-MFEM",
+      "holding_symbol": "2308.TW",
+      "holding_name": "Delta Electronics Inc",
+      "weight": 0.0174895,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Delta Electronics Inc",
       "holding_name_zh": "台達電",
       "display_name": "台達電",
@@ -3183,10 +3197,10 @@
       "etf_id": "US-MFEM",
       "holding_symbol": "009150.KQ",
       "holding_name": "Samsung Electro-Mechanics Co Ltd",
-      "weight": 0.0189686,
+      "weight": 0.0164046,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "Samsung Electro-Mechanics Co Ltd",
       "holding_name_zh": null,
       "display_name": "Samsung Electro-Mechanics Co Ltd",
@@ -3195,23 +3209,9 @@
     },
     {
       "etf_id": "US-MFEM",
-      "holding_symbol": "1303.TW",
-      "holding_name": "Nan Ya Plastics Corp",
-      "weight": 0.0188088,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Nan Ya Plastics Corp",
-      "holding_name_zh": "南亞",
-      "display_name": "南亞",
-      "display_label": "(1303.TW)南亞",
-      "bilingual_name": "Nan Ya Plastics Corp（南亞）"
-    },
-    {
-      "etf_id": "US-MFEM",
       "holding_symbol": "005380.KQ",
       "holding_name": "Hyundai Motor Co",
-      "weight": 0.0180654,
+      "weight": 0.0163803,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3223,37 +3223,37 @@
     },
     {
       "etf_id": "US-MFEM",
-      "holding_symbol": "0992.HK",
-      "holding_name": "Lenovo Group Ltd",
-      "weight": 0.016802,
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.0130205,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Lenovo Group Ltd",
-      "holding_name_zh": null,
-      "display_name": "Lenovo Group Ltd",
-      "display_label": "(0992.HK)Lenovo Group Ltd",
-      "bilingual_name": "Lenovo Group Ltd"
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "holding_name_zh": "台積電",
+      "display_name": "台積電",
+      "display_label": "(2330.TW)台積電",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd（台積電）"
     },
     {
       "etf_id": "US-MFEM",
-      "holding_symbol": "2303.TW",
-      "holding_name": "United Microelectronics Corp",
-      "weight": 0.0154094,
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0126367,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "United Microelectronics Corp",
-      "holding_name_zh": "聯電",
-      "display_name": "聯電",
-      "display_label": "(2303.TW)聯電",
-      "bilingual_name": "United Microelectronics Corp（聯電）"
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
     },
     {
       "etf_id": "US-MFEM",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0143067,
+      "weight": 0.0122466,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3262,26 +3262,12 @@
       "display_name": "SK hynix Inc",
       "display_label": "(000660.KQ)SK hynix Inc",
       "bilingual_name": "SK hynix Inc"
-    },
-    {
-      "etf_id": "US-MFEM",
-      "holding_symbol": "PETR4",
-      "holding_name": "Petroleo Brasileiro SA Petrobras",
-      "weight": 0.0134986,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Petroleo Brasileiro SA Petrobras",
-      "holding_name_zh": null,
-      "display_name": "Petroleo Brasileiro SA Petrobras",
-      "display_label": "(PETR4)Petroleo Brasileiro SA Petrobras",
-      "bilingual_name": "Petroleo Brasileiro SA Petrobras"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.196498,
-    "top_3_weight": 0.080638
+    "holding_count": 9,
+    "top_10_weight": 0.163908,
+    "top_3_weight": 0.07573
   },
   "research": {
     "tier": "context",

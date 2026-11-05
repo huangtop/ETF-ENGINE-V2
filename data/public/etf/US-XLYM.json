@@ -56,8 +56,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 25.61,
+    "date": "2026-11-04",
+    "value": 26.72,
     "currency": "USD"
   },
   "trend": [
@@ -120,30 +120,91 @@
     {
       "date": "2026-11-03",
       "value": 103.81
+    },
+    {
+      "date": "2026-11-04",
+      "value": 108.31
     }
   ],
   "price_history": {
     "first_date": "2026-10-14",
-    "last_date": "2026-11-03",
-    "observations": 15,
+    "last_date": "2026-11-04",
+    "observations": 16,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "latest_volume": 100.0,
-    "average_volume_20d": 360.0,
-    "average_dollar_volume_20d": 8952.5334,
-    "relative_volume_20d": 0.2778,
+    "average_volume_20d": 343.75,
+    "average_dollar_volume_20d": 8560.0001,
+    "relative_volume_20d": 0.2909,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 15
+    "observation_count": 16
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-XLYM",
+      "holding_symbol": "XLY",
+      "holding_name": "State Street® CnsmrDiscSelSectSPDR®ETF",
+      "weight": 0.65334356,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "State Street® CnsmrDiscSelSectSPDR®ETF",
+      "holding_name_zh": null,
+      "display_name": "State Street® CnsmrDiscSelSectSPDR®ETF",
+      "display_label": "(XLY)State Street® CnsmrDiscSelSectSPDR®ETF",
+      "bilingual_name": "State Street® CnsmrDiscSelSectSPDR®ETF"
+    },
+    {
+      "etf_id": "US-XLYM",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.165084,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "US-XLYM",
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0670559,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
+    },
+    {
+      "etf_id": "US-XLYM",
+      "holding_symbol": "HD",
+      "holding_name": "The Home Depot Inc",
+      "weight": 0.0184052,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "The Home Depot Inc",
+      "holding_name_zh": null,
+      "display_name": "The Home Depot Inc",
+      "display_label": "(HD)The Home Depot Inc",
+      "bilingual_name": "The Home Depot Inc"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 4,
+    "top_10_weight": 0.903889,
+    "top_3_weight": 0.885483
   },
   "research": {
     "tier": "context",

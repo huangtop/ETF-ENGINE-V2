@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.5884,
+      "value": -0.2027,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 12.268,
+      "value": 16.6611,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 19.5367,
+      "value": 19.5795,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.2194,
+      "value": 1.2197,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.6071,
+      "value": 2.6111,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5512,
+      "value": 0.7743,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 12.268,
+      "value": 16.6611,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 12.0839,
+      "value": 12.0868,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 25.166,
+    "date": "2026-11-04",
+    "value": 25.72,
     "currency": "USD"
   },
   "trend": [
@@ -2725,21 +2725,25 @@
     {
       "date": "2026-11-03",
       "value": 129.81
+    },
+    {
+      "date": "2026-11-04",
+      "value": 132.67
     }
   ],
   "price_history": {
     "first_date": "2024-03-22",
-    "last_date": "2026-11-03",
-    "observations": 657,
+    "last_date": "2026-11-04",
+    "observations": 658,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 500.0,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
     "average_volume_20d": 215.0,
-    "average_dollar_volume_20d": 5440.1851,
-    "relative_volume_20d": 2.3256,
+    "average_dollar_volume_20d": 5443.1851,
+    "relative_volume_20d": 0.4651,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2747,26 +2751,12 @@
   "top_holdings": [
     {
       "etf_id": "US-EAFG",
-      "holding_symbol": "4062.T",
-      "holding_name": "Ibiden Co Ltd",
-      "weight": 0.0419607,
+      "holding_symbol": "6098.T",
+      "holding_name": "Recruit Holdings Co Ltd",
+      "weight": 0.0448702,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Ibiden Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Ibiden Co Ltd",
-      "display_label": "(4062.T)Ibiden Co Ltd",
-      "bilingual_name": "Ibiden Co Ltd"
-    },
-    {
-      "etf_id": "US-EAFG",
-      "holding_symbol": "6098.T",
-      "holding_name": "Recruit Holdings Co Ltd",
-      "weight": 0.0402601,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Recruit Holdings Co Ltd",
       "holding_name_zh": null,
       "display_name": "Recruit Holdings Co Ltd",
@@ -2775,26 +2765,26 @@
     },
     {
       "etf_id": "US-EAFG",
-      "holding_symbol": "285A.T",
-      "holding_name": "Kioxia Holdings Corp Ordinary Shares",
-      "weight": 0.0387132,
+      "holding_symbol": "4062.T",
+      "holding_name": "Ibiden Co Ltd",
+      "weight": 0.0310014,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Kioxia Holdings Corp Ordinary Shares",
+      "rank": 2,
+      "holding_name_en": "Ibiden Co Ltd",
       "holding_name_zh": null,
-      "display_name": "Kioxia Holdings Corp Ordinary Shares",
-      "display_label": "(285A.T)Kioxia Holdings Corp Ordinary Shares",
-      "bilingual_name": "Kioxia Holdings Corp Ordinary Shares"
+      "display_name": "Ibiden Co Ltd",
+      "display_label": "(4062.T)Ibiden Co Ltd",
+      "bilingual_name": "Ibiden Co Ltd"
     },
     {
       "etf_id": "US-EAFG",
       "holding_symbol": "PNDORA.CO",
       "holding_name": "Pandora AS",
-      "weight": 0.0310271,
+      "weight": 0.0291875,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "Pandora AS",
       "holding_name_zh": null,
       "display_name": "Pandora AS",
@@ -2803,26 +2793,26 @@
     },
     {
       "etf_id": "US-EAFG",
-      "holding_symbol": "1308.HK",
-      "holding_name": "SITC International Holdings Co Ltd",
-      "weight": 0.0246305,
+      "holding_symbol": "285A.T",
+      "holding_name": "Kioxia Holdings Corp Ordinary Shares",
+      "weight": 0.0280953,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "SITC International Holdings Co Ltd",
+      "rank": 4,
+      "holding_name_en": "Kioxia Holdings Corp Ordinary Shares",
       "holding_name_zh": null,
-      "display_name": "SITC International Holdings Co Ltd",
-      "display_label": "(1308.HK)SITC International Holdings Co Ltd",
-      "bilingual_name": "SITC International Holdings Co Ltd"
+      "display_name": "Kioxia Holdings Corp Ordinary Shares",
+      "display_label": "(285A.T)Kioxia Holdings Corp Ordinary Shares",
+      "bilingual_name": "Kioxia Holdings Corp Ordinary Shares"
     },
     {
       "etf_id": "US-EAFG",
       "holding_symbol": "VARO.ST",
       "holding_name": "Var Energi ASA",
-      "weight": 0.0226395,
+      "weight": 0.026885,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Var Energi ASA",
       "holding_name_zh": null,
       "display_name": "Var Energi ASA",
@@ -2831,23 +2821,37 @@
     },
     {
       "etf_id": "US-EAFG",
-      "holding_symbol": "4689.T",
-      "holding_name": "LY Corp",
-      "weight": 0.0211429,
+      "holding_symbol": "1308.HK",
+      "holding_name": "SITC International Holdings Co Ltd",
+      "weight": 0.0241404,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "SITC International Holdings Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "SITC International Holdings Co Ltd",
+      "display_label": "(1308.HK)SITC International Holdings Co Ltd",
+      "bilingual_name": "SITC International Holdings Co Ltd"
+    },
+    {
+      "etf_id": "US-EAFG",
+      "holding_symbol": "PME.AX",
+      "holding_name": "Pro Medicus Ltd",
+      "weight": 0.0233572,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "LY Corp",
+      "holding_name_en": "Pro Medicus Ltd",
       "holding_name_zh": null,
-      "display_name": "LY Corp",
-      "display_label": "(4689.T)LY Corp",
-      "bilingual_name": "LY Corp"
+      "display_name": "Pro Medicus Ltd",
+      "display_label": "(PME.AX)Pro Medicus Ltd",
+      "bilingual_name": "Pro Medicus Ltd"
     },
     {
       "etf_id": "US-EAFG",
       "holding_symbol": "EVO.ST",
       "holding_name": "Evolution AB",
-      "weight": 0.0205269,
+      "weight": 0.0215495,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -2859,37 +2863,37 @@
     },
     {
       "etf_id": "US-EAFG",
-      "holding_symbol": "PME.AX",
-      "holding_name": "Pro Medicus Ltd",
-      "weight": 0.0197471,
+      "holding_symbol": "SGE.L",
+      "holding_name": "Sage Group (The) PLC",
+      "weight": 0.0213052,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Pro Medicus Ltd",
+      "holding_name_en": "Sage Group (The) PLC",
       "holding_name_zh": null,
-      "display_name": "Pro Medicus Ltd",
-      "display_label": "(PME.AX)Pro Medicus Ltd",
-      "bilingual_name": "Pro Medicus Ltd"
+      "display_name": "Sage Group (The) PLC",
+      "display_label": "(SGE.L)Sage Group (The) PLC",
+      "bilingual_name": "Sage Group (The) PLC"
     },
     {
       "etf_id": "US-EAFG",
-      "holding_symbol": "DPLM.L",
-      "holding_name": "Diploma PLC",
-      "weight": 0.0196809,
+      "holding_symbol": "4689.T",
+      "holding_name": "LY Corp",
+      "weight": 0.0201345,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Diploma PLC",
+      "holding_name_en": "LY Corp",
       "holding_name_zh": null,
-      "display_name": "Diploma PLC",
-      "display_label": "(DPLM.L)Diploma PLC",
-      "bilingual_name": "Diploma PLC"
+      "display_name": "LY Corp",
+      "display_label": "(4689.T)LY Corp",
+      "bilingual_name": "LY Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.280329,
-    "top_3_weight": 0.120934
+    "top_10_weight": 0.270526,
+    "top_3_weight": 0.105059
   },
   "research": {
     "tier": "context",

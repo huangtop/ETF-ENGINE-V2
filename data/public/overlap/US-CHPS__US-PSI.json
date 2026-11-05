@@ -1,32 +1,38 @@
 {
   "left_etf_id": "US-CHPS",
   "right_etf_id": "US-PSI",
-  "overlap_ratio": 0.195407,
-  "shared_holdings_count": 4,
+  "overlap_ratio": 0.238649,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
       "holding_symbol": "AMD",
-      "left_weight": 0.052742,
-      "right_weight": 0.056884,
-      "overlap_weight": 0.052742
+      "left_weight": 0.054206,
+      "right_weight": 0.060273,
+      "overlap_weight": 0.054206
+    },
+    {
+      "holding_symbol": "TXN",
+      "left_weight": 0.051358,
+      "right_weight": 0.066199,
+      "overlap_weight": 0.051358
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.050042,
-      "right_weight": 0.050868,
-      "overlap_weight": 0.050042
+      "left_weight": 0.048796,
+      "right_weight": 0.054252,
+      "overlap_weight": 0.048796
+    },
+    {
+      "holding_symbol": "ADI",
+      "left_weight": 0.042913,
+      "right_weight": 0.063869,
+      "overlap_weight": 0.042913
     },
     {
       "holding_symbol": "INTC",
-      "left_weight": 0.048671,
-      "right_weight": 0.061236,
-      "overlap_weight": 0.048671
-    },
-    {
-      "holding_symbol": "LRCX",
-      "left_weight": 0.043952,
-      "right_weight": 0.046517,
-      "overlap_weight": 0.043952
+      "left_weight": 0.041376,
+      "right_weight": 0.043015,
+      "overlap_weight": 0.041376
     }
   ]
 }

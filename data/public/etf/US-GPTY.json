@@ -55,7 +55,7 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -12.8609,
+      "value": -12.955,
       "unit": "percent"
     },
     "annualized_return": {
@@ -63,11 +63,11 @@
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.7171,
+      "value": 28.7019,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.8016,
+      "value": 1.8078,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,7 +79,7 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.2744,
+      "value": 0.2745,
       "unit": "ratio"
     },
     "total_return_1y": {
@@ -87,7 +87,7 @@
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 19.8896,
+      "value": 19.8162,
       "unit": "percent"
     }
   },
@@ -1808,7 +1808,7 @@
     },
     {
       "date": "2026-10-06",
-      "value": 158.94
+      "value": 157.88
     },
     {
       "date": "2026-10-07",
@@ -1820,7 +1820,7 @@
     },
     {
       "date": "2026-10-09",
-      "value": 156.99
+      "value": 155.94
     },
     {
       "date": "2026-10-12",
@@ -1828,19 +1828,19 @@
     },
     {
       "date": "2026-10-13",
-      "value": 155.52
+      "value": 154.49
     },
     {
       "date": "2026-10-14",
-      "value": 150.02
+      "value": 149.01
     },
     {
       "date": "2026-10-15",
-      "value": 149.83
+      "value": 148.83
     },
     {
       "date": "2026-10-16",
-      "value": 144.0
+      "value": 143.04
     },
     {
       "date": "2026-10-19",
@@ -1860,7 +1860,7 @@
     },
     {
       "date": "2026-10-23",
-      "value": 142.36
+      "value": 141.4
     },
     {
       "date": "2026-10-26",
@@ -1872,23 +1872,23 @@
     },
     {
       "date": "2026-10-28",
-      "value": 148.99
+      "value": 148.0
     },
     {
       "date": "2026-10-29",
-      "value": 144.43
+      "value": 143.46
     },
     {
       "date": "2026-10-30",
-      "value": 137.1
+      "value": 136.18
     },
     {
       "date": "2026-11-02",
-      "value": 133.51
+      "value": 132.62
     },
     {
       "date": "2026-11-03",
-      "value": 136.09
+      "value": 135.18
     },
     {
       "date": "2026-11-04",
@@ -1904,10 +1904,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 61658.0,
-    "average_volume_20d": 80137.9,
-    "average_dollar_volume_20d": 3128707.9098,
-    "relative_volume_20d": 0.7694,
+    "latest_volume": 61700.0,
+    "average_volume_20d": 80140.0,
+    "average_dollar_volume_20d": 3117809.5998,
+    "relative_volume_20d": 0.7699,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1915,124 +1915,26 @@
   "top_holdings": [
     {
       "etf_id": "US-GPTY",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0671646,
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.1166878,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "SNOW",
-      "holding_name": "Snowflake Inc Ordinary Shares",
-      "weight": 0.0586388,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Snowflake Inc Ordinary Shares",
+      "holding_name_en": "First American Government Obligs X",
       "holding_name_zh": null,
-      "display_name": "Snowflake Inc Ordinary Shares",
-      "display_label": "(SNOW)Snowflake Inc Ordinary Shares",
-      "bilingual_name": "Snowflake Inc Ordinary Shares"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0530227,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0521771,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Advanced Micro Devices Inc",
-      "holding_name_zh": "超微半導體",
-      "display_name": "超微半導體",
-      "display_label": "(AMD)超微半導體",
-      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "PLTR",
-      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.0511651,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "holding_name_zh": "Palantir Technologies",
-      "display_name": "Palantir Technologies",
-      "display_label": "(PLTR)Palantir Technologies",
-      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "INTC",
-      "holding_name": "Intel Corp",
-      "weight": 0.0499435,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Intel Corp",
-      "holding_name_zh": "英特爾",
-      "display_name": "英特爾",
-      "display_label": "(INTC)英特爾",
-      "bilingual_name": "Intel Corp（英特爾）"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.047715,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Microsoft Corp",
-      "holding_name_zh": "微軟",
-      "display_name": "微軟",
-      "display_label": "(MSFT)微軟",
-      "bilingual_name": "Microsoft Corp（微軟）"
-    },
-    {
-      "etf_id": "US-GPTY",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0471741,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
     },
     {
       "etf_id": "US-GPTY",
       "holding_symbol": "AAPL",
       "holding_name": "Apple Inc",
-      "weight": 0.0458634,
+      "weight": 0.0760024,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -2041,23 +1943,121 @@
     },
     {
       "etf_id": "US-GPTY",
-      "holding_symbol": "MRVL",
-      "holding_name": "Marvell Technology Inc",
-      "weight": 0.0447231,
+      "holding_symbol": "MSFT",
+      "holding_name": "Microsoft Corp",
+      "weight": 0.0735487,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Microsoft Corp",
+      "holding_name_zh": "微軟",
+      "display_name": "微軟",
+      "display_label": "(MSFT)微軟",
+      "bilingual_name": "Microsoft Corp（微軟）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0707311,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0616896,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.0606609,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Amazon.com Inc",
+      "holding_name_zh": "亞馬遜",
+      "display_name": "亞馬遜",
+      "display_label": "(AMZN)亞馬遜",
+      "bilingual_name": "Amazon.com Inc（亞馬遜）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "TSM",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "weight": 0.0582566,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+      "holding_name_zh": "台積電ADR",
+      "display_name": "台積電ADR",
+      "display_label": "(TSM)台積電ADR",
+      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0522901,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0474892,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "US-GPTY",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.0382687,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Marvell Technology Inc",
-      "holding_name_zh": "邁威爾科技",
-      "display_name": "邁威爾科技",
-      "display_label": "(MRVL)邁威爾科技",
-      "bilingual_name": "Marvell Technology Inc（邁威爾科技）"
+      "holding_name_en": "Advanced Micro Devices Inc",
+      "holding_name_zh": "超微半導體",
+      "display_name": "超微半導體",
+      "display_label": "(AMD)超微半導體",
+      "bilingual_name": "Advanced Micro Devices Inc（超微半導體）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.517587,
-    "top_3_weight": 0.178826
+    "top_10_weight": 0.655625,
+    "top_3_weight": 0.266239
   },
   "research": {
     "tier": "context",

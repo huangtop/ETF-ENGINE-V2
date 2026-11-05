@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 11.602,
+      "value": 11.601,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 26.5505,
+      "value": 26.549,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.5625,
+      "value": 16.5623,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9301,
+      "value": 0.93,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.5125,
+      "value": 1.5124,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 26.5505,
+      "value": 26.549,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.513,
+      "value": 11.5129,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 34.8024,
+    "value": 34.802,
     "currency": "USD"
   },
   "trend": [
@@ -1640,10 +1640,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1545.0,
-    "average_volume_20d": 2477.25,
-    "average_dollar_volume_20d": 84117.3448,
-    "relative_volume_20d": 0.6237,
+    "latest_volume": 1500.0,
+    "average_volume_20d": 2475.0,
+    "average_dollar_volume_20d": 84039.0094,
+    "relative_volume_20d": 0.6061,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1651,51 +1651,51 @@
   "top_holdings": [
     {
       "etf_id": "US-LITL",
-      "holding_symbol": "CDNA",
-      "holding_name": "CareDx Inc",
-      "weight": 0.0078322,
+      "holding_symbol": "OPCH",
+      "holding_name": "Option Care Health Inc",
+      "weight": 0.0075722,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "CareDx Inc",
+      "holding_name_en": "Option Care Health Inc",
       "holding_name_zh": null,
-      "display_name": "CareDx Inc",
-      "display_label": "(CDNA)CareDx Inc",
-      "bilingual_name": "CareDx Inc"
+      "display_name": "Option Care Health Inc",
+      "display_label": "(OPCH)Option Care Health Inc",
+      "bilingual_name": "Option Care Health Inc"
     },
     {
       "etf_id": "US-LITL",
-      "holding_symbol": "PSIX",
-      "holding_name": "Power Solutions International Inc",
-      "weight": 0.0076033,
+      "holding_symbol": "RPD",
+      "holding_name": "Rapid7 Inc",
+      "weight": 0.0074485,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Power Solutions International Inc",
+      "holding_name_en": "Rapid7 Inc",
       "holding_name_zh": null,
-      "display_name": "Power Solutions International Inc",
-      "display_label": "(PSIX)Power Solutions International Inc",
-      "bilingual_name": "Power Solutions International Inc"
+      "display_name": "Rapid7 Inc",
+      "display_label": "(RPD)Rapid7 Inc",
+      "bilingual_name": "Rapid7 Inc"
     },
     {
       "etf_id": "US-LITL",
-      "holding_symbol": "SIG",
-      "holding_name": "Signet Jewelers Ltd",
-      "weight": 0.0074159,
+      "holding_symbol": "DXC",
+      "holding_name": "DXC Technology Co Registered Shs When Issued",
+      "weight": 0.0071425,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Signet Jewelers Ltd",
+      "holding_name_en": "DXC Technology Co Registered Shs When Issued",
       "holding_name_zh": null,
-      "display_name": "Signet Jewelers Ltd",
-      "display_label": "(SIG)Signet Jewelers Ltd",
-      "bilingual_name": "Signet Jewelers Ltd"
+      "display_name": "DXC Technology Co Registered Shs When Issued",
+      "display_label": "(DXC)DXC Technology Co Registered Shs When Issued",
+      "bilingual_name": "DXC Technology Co Registered Shs When Issued"
     }
   ],
   "holdings_summary": {
     "holding_count": 3,
-    "top_10_weight": 0.022851,
-    "top_3_weight": 0.022851
+    "top_10_weight": 0.022163,
+    "top_3_weight": 0.022163
   },
   "research": {
     "tier": "context",

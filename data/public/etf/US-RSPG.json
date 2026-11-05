@@ -59,15 +59,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 45.0681,
+      "value": 45.0703,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 44.5027,
+      "value": 44.5067,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 23.684,
+      "value": 23.6834,
       "unit": "percent"
     },
     "beta": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.8157,
+      "value": 1.8159,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 44.5027,
+      "value": 44.5067,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 29.0942,
+      "value": 29.0936,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 109.327,
+    "value": 109.33,
     "currency": "USD"
   },
   "trend": [
@@ -3124,7 +3124,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 156.51
+      "value": 156.52
     }
   ],
   "price_history": {
@@ -3136,10 +3136,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 374589.0,
-    "average_volume_20d": 95864.45,
-    "average_dollar_volume_20d": 11132817.0697,
-    "relative_volume_20d": 3.9075,
+    "latest_volume": 374600.0,
+    "average_volume_20d": 95865.0,
+    "average_dollar_volume_20d": 11132933.3587,
+    "relative_volume_20d": 3.9076,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3147,23 +3147,23 @@
   "top_holdings": [
     {
       "etf_id": "US-RSPG",
-      "holding_symbol": "VLO",
-      "holding_name": "Valero Energy Corp",
-      "weight": 0.0493336,
+      "holding_symbol": "APA",
+      "holding_name": "APA Corp",
+      "weight": 0.0518193,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Valero Energy Corp",
+      "holding_name_en": "APA Corp",
       "holding_name_zh": null,
-      "display_name": "Valero Energy Corp",
-      "display_label": "(VLO)Valero Energy Corp",
-      "bilingual_name": "Valero Energy Corp"
+      "display_name": "APA Corp",
+      "display_label": "(APA)APA Corp",
+      "bilingual_name": "APA Corp"
     },
     {
       "etf_id": "US-RSPG",
       "holding_symbol": "XOM",
       "holding_name": "ExxonMobil Holdings Corp",
-      "weight": 0.0490572,
+      "weight": 0.0501573,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3175,12 +3175,40 @@
     },
     {
       "etf_id": "US-RSPG",
-      "holding_symbol": "MPC",
-      "holding_name": "Marathon Petroleum Corp",
-      "weight": 0.0490043,
+      "holding_symbol": "COP",
+      "holding_name": "ConocoPhillips",
+      "weight": 0.0496272,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
+      "holding_name_en": "ConocoPhillips",
+      "holding_name_zh": null,
+      "display_name": "ConocoPhillips",
+      "display_label": "(COP)ConocoPhillips",
+      "bilingual_name": "ConocoPhillips"
+    },
+    {
+      "etf_id": "US-RSPG",
+      "holding_symbol": "EOG",
+      "holding_name": "EOG Resources Inc",
+      "weight": 0.0495361,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "EOG Resources Inc",
+      "holding_name_zh": null,
+      "display_name": "EOG Resources Inc",
+      "display_label": "(EOG)EOG Resources Inc",
+      "bilingual_name": "EOG Resources Inc"
+    },
+    {
+      "etf_id": "US-RSPG",
+      "holding_symbol": "MPC",
+      "holding_name": "Marathon Petroleum Corp",
+      "weight": 0.0489769,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Marathon Petroleum Corp",
       "holding_name_zh": null,
       "display_name": "Marathon Petroleum Corp",
@@ -3189,37 +3217,9 @@
     },
     {
       "etf_id": "US-RSPG",
-      "holding_symbol": "PSX",
-      "holding_name": "Phillips 66",
-      "weight": 0.048465,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Phillips 66",
-      "holding_name_zh": null,
-      "display_name": "Phillips 66",
-      "display_label": "(PSX)Phillips 66",
-      "bilingual_name": "Phillips 66"
-    },
-    {
-      "etf_id": "US-RSPG",
-      "holding_symbol": "KMI",
-      "holding_name": "Kinder Morgan Inc Class P",
-      "weight": 0.0475172,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Kinder Morgan Inc Class P",
-      "holding_name_zh": null,
-      "display_name": "Kinder Morgan Inc Class P",
-      "display_label": "(KMI)Kinder Morgan Inc Class P",
-      "bilingual_name": "Kinder Morgan Inc Class P"
-    },
-    {
-      "etf_id": "US-RSPG",
       "holding_symbol": "CVX",
       "holding_name": "Chevron Corp",
-      "weight": 0.0472809,
+      "weight": 0.0484585,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3231,40 +3231,26 @@
     },
     {
       "etf_id": "US-RSPG",
-      "holding_symbol": "DVN",
-      "holding_name": "Devon Energy Corp",
-      "weight": 0.0465318,
+      "holding_symbol": "PSX",
+      "holding_name": "Phillips 66",
+      "weight": 0.0477106,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Devon Energy Corp",
+      "holding_name_en": "Phillips 66",
       "holding_name_zh": null,
-      "display_name": "Devon Energy Corp",
-      "display_label": "(DVN)Devon Energy Corp",
-      "bilingual_name": "Devon Energy Corp"
-    },
-    {
-      "etf_id": "US-RSPG",
-      "holding_symbol": "EOG",
-      "holding_name": "EOG Resources Inc",
-      "weight": 0.0463885,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "EOG Resources Inc",
-      "holding_name_zh": null,
-      "display_name": "EOG Resources Inc",
-      "display_label": "(EOG)EOG Resources Inc",
-      "bilingual_name": "EOG Resources Inc"
+      "display_name": "Phillips 66",
+      "display_label": "(PSX)Phillips 66",
+      "bilingual_name": "Phillips 66"
     },
     {
       "etf_id": "US-RSPG",
       "holding_symbol": "TRGP",
       "holding_name": "Targa Resources Corp",
-      "weight": 0.0459219,
+      "weight": 0.0475513,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Targa Resources Corp",
       "holding_name_zh": null,
       "display_name": "Targa Resources Corp",
@@ -3273,23 +3259,37 @@
     },
     {
       "etf_id": "US-RSPG",
-      "holding_symbol": "APA",
-      "holding_name": "APA Corp",
-      "weight": 0.0458599,
+      "holding_symbol": "KMI",
+      "holding_name": "Kinder Morgan Inc Class P",
+      "weight": 0.0474357,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Kinder Morgan Inc Class P",
+      "holding_name_zh": null,
+      "display_name": "Kinder Morgan Inc Class P",
+      "display_label": "(KMI)Kinder Morgan Inc Class P",
+      "bilingual_name": "Kinder Morgan Inc Class P"
+    },
+    {
+      "etf_id": "US-RSPG",
+      "holding_symbol": "DVN",
+      "holding_name": "Devon Energy Corp",
+      "weight": 0.0468378,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "APA Corp",
+      "holding_name_en": "Devon Energy Corp",
       "holding_name_zh": null,
-      "display_name": "APA Corp",
-      "display_label": "(APA)APA Corp",
-      "bilingual_name": "APA Corp"
+      "display_name": "Devon Energy Corp",
+      "display_label": "(DVN)Devon Energy Corp",
+      "bilingual_name": "Devon Energy Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.47536,
-    "top_3_weight": 0.147395
+    "top_10_weight": 0.488111,
+    "top_3_weight": 0.151604
   },
   "research": {
     "tier": "context",

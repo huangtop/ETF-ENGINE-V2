@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-BOTZ",
-  "overlap_ratio": 0.029445,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.052475,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.029445,
-      "right_weight": 0.08,
-      "overlap_weight": 0.029445
+      "left_weight": 0.028504,
+      "right_weight": 0.078061,
+      "overlap_weight": 0.028504
+    },
+    {
+      "holding_symbol": "TSLA",
+      "left_weight": 0.036365,
+      "right_weight": 0.023971,
+      "overlap_weight": 0.023971
     }
   ]
 }

@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -58.1663,
+      "value": -58.1672,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -32.8621,
+      "value": -32.8628,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 38.4383,
+      "value": 38.4384,
       "unit": "percent"
     },
     "beta": {
@@ -75,7 +75,7 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -43.8799,
+      "value": -43.8805,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -83,18 +83,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -32.8621,
+      "value": -32.8628,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 32.5237,
+      "value": 32.5238,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 30.7033,
+    "value": 30.703,
     "currency": "USD"
   },
   "trend": [
@@ -2232,10 +2232,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 8944.0,
-    "average_volume_20d": 5047.2,
-    "average_dollar_volume_20d": 161661.1198,
-    "relative_volume_20d": 1.7721,
+    "latest_volume": 8900.0,
+    "average_volume_20d": 5045.0,
+    "average_dollar_volume_20d": 161593.4384,
+    "relative_volume_20d": 1.7641,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2243,26 +2243,12 @@
   "top_holdings": [
     {
       "etf_id": "US-URAN",
-      "holding_symbol": "CCO.TO",
-      "holding_name": "Cameco Corp",
-      "weight": 0.0846474,
+      "holding_symbol": "CEG",
+      "holding_name": "Constellation Energy Corp",
+      "weight": 0.0890865,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Cameco Corp",
-      "holding_name_zh": null,
-      "display_name": "Cameco Corp",
-      "display_label": "(CCO.TO)Cameco Corp",
-      "bilingual_name": "Cameco Corp"
-    },
-    {
-      "etf_id": "US-URAN",
-      "holding_symbol": "CEG",
-      "holding_name": "Constellation Energy Corp",
-      "weight": 0.0799286,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Constellation Energy Corp",
       "holding_name_zh": null,
       "display_name": "Constellation Energy Corp",
@@ -2271,23 +2257,37 @@
     },
     {
       "etf_id": "US-URAN",
-      "holding_symbol": "KAP",
-      "holding_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "weight": 0.0430208,
+      "holding_symbol": "CCO.TO",
+      "holding_name": "Cameco Corp",
+      "weight": 0.0811635,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Cameco Corp",
+      "holding_name_zh": null,
+      "display_name": "Cameco Corp",
+      "display_label": "(CCO.TO)Cameco Corp",
+      "bilingual_name": "Cameco Corp"
+    },
+    {
+      "etf_id": "US-URAN",
+      "holding_symbol": "DUK",
+      "holding_name": "Duke Energy Corp",
+      "weight": 0.0420738,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "holding_name_en": "Duke Energy Corp",
       "holding_name_zh": null,
-      "display_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "display_label": "(KAP)National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "bilingual_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S"
+      "display_name": "Duke Energy Corp",
+      "display_label": "(DUK)Duke Energy Corp",
+      "bilingual_name": "Duke Energy Corp"
     },
     {
       "etf_id": "US-URAN",
       "holding_symbol": "AEP",
       "holding_name": "American Electric Power Co Inc",
-      "weight": 0.035065,
+      "weight": 0.0415274,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -2299,23 +2299,23 @@
     },
     {
       "etf_id": "US-URAN",
-      "holding_symbol": "DUK",
-      "holding_name": "Duke Energy Corp",
-      "weight": 0.0348957,
+      "holding_symbol": "PEG",
+      "holding_name": "Public Service Enterprise Group Inc",
+      "weight": 0.0362669,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Duke Energy Corp",
+      "holding_name_en": "Public Service Enterprise Group Inc",
       "holding_name_zh": null,
-      "display_name": "Duke Energy Corp",
-      "display_label": "(DUK)Duke Energy Corp",
-      "bilingual_name": "Duke Energy Corp"
+      "display_name": "Public Service Enterprise Group Inc",
+      "display_label": "(PEG)Public Service Enterprise Group Inc",
+      "bilingual_name": "Public Service Enterprise Group Inc"
     },
     {
       "etf_id": "US-URAN",
       "holding_symbol": "601985.SS",
       "holding_name": "China National Nuclear Power Co Ltd Class A",
-      "weight": 0.0306114,
+      "weight": 0.0359568,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -2327,40 +2327,12 @@
     },
     {
       "etf_id": "US-URAN",
-      "holding_symbol": "PEG",
-      "holding_name": "Public Service Enterprise Group Inc",
-      "weight": 0.0304654,
+      "holding_symbol": "003816",
+      "holding_name": "CGN Power Co Ltd Ordinary Shares Class A",
+      "weight": 0.0351016,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Public Service Enterprise Group Inc",
-      "holding_name_zh": null,
-      "display_name": "Public Service Enterprise Group Inc",
-      "display_label": "(PEG)Public Service Enterprise Group Inc",
-      "bilingual_name": "Public Service Enterprise Group Inc"
-    },
-    {
-      "etf_id": "US-URAN",
-      "holding_symbol": "NXE.TO",
-      "holding_name": "NexGen Energy Ltd",
-      "weight": 0.0290312,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "NexGen Energy Ltd",
-      "holding_name_zh": null,
-      "display_name": "NexGen Energy Ltd",
-      "display_label": "(NXE.TO)NexGen Energy Ltd",
-      "bilingual_name": "NexGen Energy Ltd"
-    },
-    {
-      "etf_id": "US-URAN",
-      "holding_symbol": "003816",
-      "holding_name": "CGN Power Co Ltd Ordinary Shares Class A",
-      "weight": 0.0285137,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "CGN Power Co Ltd Ordinary Shares Class A",
       "holding_name_zh": null,
       "display_name": "CGN Power Co Ltd Ordinary Shares Class A",
@@ -2369,23 +2341,37 @@
     },
     {
       "etf_id": "US-URAN",
-      "holding_symbol": "OKLO",
-      "holding_name": "Oklo Inc Class A Shares",
-      "weight": 0.0284303,
+      "holding_symbol": "YCA.L",
+      "holding_name": "Yellow Cake PLC Ordinary Shares",
+      "weight": 0.0289849,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Oklo Inc Class A Shares",
+      "rank": 8,
+      "holding_name_en": "Yellow Cake PLC Ordinary Shares",
       "holding_name_zh": null,
-      "display_name": "Oklo Inc Class A Shares",
-      "display_label": "(OKLO)Oklo Inc Class A Shares",
-      "bilingual_name": "Oklo Inc Class A Shares"
+      "display_name": "Yellow Cake PLC Ordinary Shares",
+      "display_label": "(YCA.L)Yellow Cake PLC Ordinary Shares",
+      "bilingual_name": "Yellow Cake PLC Ordinary Shares"
+    },
+    {
+      "etf_id": "US-URAN",
+      "holding_symbol": "NXE.TO",
+      "holding_name": "NexGen Energy Ltd",
+      "weight": 0.0283994,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "NexGen Energy Ltd",
+      "holding_name_zh": null,
+      "display_name": "NexGen Energy Ltd",
+      "display_label": "(NXE.TO)NexGen Energy Ltd",
+      "bilingual_name": "NexGen Energy Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.424609,
-    "top_3_weight": 0.207597
+    "holding_count": 9,
+    "top_10_weight": 0.418561,
+    "top_3_weight": 0.212324
   },
   "research": {
     "tier": "context",

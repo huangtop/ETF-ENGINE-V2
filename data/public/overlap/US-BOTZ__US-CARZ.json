@@ -1,14 +1,20 @@
 {
   "left_etf_id": "US-BOTZ",
   "right_etf_id": "US-CARZ",
-  "overlap_ratio": 0.051239,
-  "shared_holdings_count": 1,
+  "overlap_ratio": 0.068771,
+  "shared_holdings_count": 2,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.08,
-      "right_weight": 0.051239,
-      "overlap_weight": 0.051239
+      "left_weight": 0.078061,
+      "right_weight": 0.0448,
+      "overlap_weight": 0.0448
+    },
+    {
+      "holding_symbol": "TSLA",
+      "left_weight": 0.023971,
+      "right_weight": 0.051975,
+      "overlap_weight": 0.023971
     }
   ]
 }

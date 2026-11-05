@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -19.1602,
+      "value": -19.1934,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -13.7242,
+      "value": -13.7562,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 45.8437,
+      "value": 45.8405,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.108,
+      "value": 1.1076,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.3321,
+      "value": -0.3328,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -13.7242,
+      "value": -13.7562,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 43.603,
+      "value": 43.601,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 13.2449,
+    "value": 13.24,
     "currency": "USD"
   },
   "trend": [
@@ -3116,7 +3116,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 103.2
+      "value": 103.17
     }
   ],
   "price_history": {
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 12962.0,
-    "average_volume_20d": 27568.1,
-    "average_dollar_volume_20d": 429442.024,
-    "relative_volume_20d": 0.4702,
+    "latest_volume": 13000.0,
+    "average_volume_20d": 27570.0,
+    "average_dollar_volume_20d": 429464.0044,
+    "relative_volume_20d": 0.4715,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3139,40 +3139,26 @@
   "top_holdings": [
     {
       "etf_id": "US-BRF",
-      "holding_symbol": "CYRE3.SA",
-      "holding_name": "Cyrela Brazil Realty SA Empreend e Part",
-      "weight": 0.0343602,
+      "holding_symbol": "PAGS",
+      "holding_name": "PagSeguro Digital Ltd Class A",
+      "weight": 0.0351093,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Cyrela Brazil Realty SA Empreend e Part",
+      "holding_name_en": "PagSeguro Digital Ltd Class A",
       "holding_name_zh": null,
-      "display_name": "Cyrela Brazil Realty SA Empreend e Part",
-      "display_label": "(CYRE3.SA)Cyrela Brazil Realty SA Empreend e Part",
-      "bilingual_name": "Cyrela Brazil Realty SA Empreend e Part"
-    },
-    {
-      "etf_id": "US-BRF",
-      "holding_symbol": "ALUP11",
-      "holding_name": "Alupar Investimento SA Unit Cons of 1 Sh + 2 Pfd Shs",
-      "weight": 0.0330336,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Alupar Investimento SA Unit Cons of 1 Sh + 2 Pfd Shs",
-      "holding_name_zh": null,
-      "display_name": "Alupar Investimento SA Unit Cons of 1 Sh + 2 Pfd Shs",
-      "display_label": "(ALUP11)Alupar Investimento SA Unit Cons of 1 Sh + 2 Pfd Shs",
-      "bilingual_name": "Alupar Investimento SA Unit Cons of 1 Sh + 2 Pfd Shs"
+      "display_name": "PagSeguro Digital Ltd Class A",
+      "display_label": "(PAGS)PagSeguro Digital Ltd Class A",
+      "bilingual_name": "PagSeguro Digital Ltd Class A"
     },
     {
       "etf_id": "US-BRF",
       "holding_symbol": "FLRY3.SA",
       "holding_name": "Fleury SA",
-      "weight": 0.0321714,
+      "weight": 0.0349889,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 2,
       "holding_name_en": "Fleury SA",
       "holding_name_zh": null,
       "display_name": "Fleury SA",
@@ -3183,10 +3169,10 @@
       "etf_id": "US-BRF",
       "holding_symbol": "SMFT3.SA",
       "holding_name": "Smartfit Escola DE Ginastica E Danca SA Ordinary Shares",
-      "weight": 0.0320599,
+      "weight": 0.0347485,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "Smartfit Escola DE Ginastica E Danca SA Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Smartfit Escola DE Ginastica E Danca SA Ordinary Shares",
@@ -3195,26 +3181,12 @@
     },
     {
       "etf_id": "US-BRF",
-      "holding_symbol": "PAGS",
-      "holding_name": "PagSeguro Digital Ltd Class A",
-      "weight": 0.0318273,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "PagSeguro Digital Ltd Class A",
-      "holding_name_zh": null,
-      "display_name": "PagSeguro Digital Ltd Class A",
-      "display_label": "(PAGS)PagSeguro Digital Ltd Class A",
-      "bilingual_name": "PagSeguro Digital Ltd Class A"
-    },
-    {
-      "etf_id": "US-BRF",
       "holding_symbol": "INTR",
       "holding_name": "Inter & Co Inc Ordinary Shares - Class A",
-      "weight": 0.0278999,
+      "weight": 0.0266633,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
       "holding_name_en": "Inter & Co Inc Ordinary Shares - Class A",
       "holding_name_zh": null,
       "display_name": "Inter & Co Inc Ordinary Shares - Class A",
@@ -3223,9 +3195,37 @@
     },
     {
       "etf_id": "US-BRF",
+      "holding_symbol": "ORVR3.SA",
+      "holding_name": "Orizon Valorizacao De Residuos SA Ordinary Shares",
+      "weight": 0.0258944,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Orizon Valorizacao De Residuos SA Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Orizon Valorizacao De Residuos SA Ordinary Shares",
+      "display_label": "(ORVR3.SA)Orizon Valorizacao De Residuos SA Ordinary Shares",
+      "bilingual_name": "Orizon Valorizacao De Residuos SA Ordinary Shares"
+    },
+    {
+      "etf_id": "US-BRF",
+      "holding_symbol": "CYRE3.SA",
+      "holding_name": "Cyrela Brazil Realty SA Empreend e Part",
+      "weight": 0.0253341,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Cyrela Brazil Realty SA Empreend e Part",
+      "holding_name_zh": null,
+      "display_name": "Cyrela Brazil Realty SA Empreend e Part",
+      "display_label": "(CYRE3.SA)Cyrela Brazil Realty SA Empreend e Part",
+      "bilingual_name": "Cyrela Brazil Realty SA Empreend e Part"
+    },
+    {
+      "etf_id": "US-BRF",
       "holding_symbol": "GGPS3.SA",
       "holding_name": "GPS Participacoes E Empreendimentos SA",
-      "weight": 0.024851,
+      "weight": 0.0251163,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3237,51 +3237,23 @@
     },
     {
       "etf_id": "US-BRF",
-      "holding_symbol": "SAPR11",
-      "holding_name": "CIA Saneamento Do Parana-SANEPAR Units (1 Ord Share & 4 Pref Shares)",
-      "weight": 0.0232992,
+      "holding_symbol": "CURY3.SA",
+      "holding_name": "Cury Construtora E Incorporadora SA Ordinary Shares",
+      "weight": 0.0244767,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "CIA Saneamento Do Parana-SANEPAR Units (1 Ord Share & 4 Pref Shares)",
-      "holding_name_zh": null,
-      "display_name": "CIA Saneamento Do Parana-SANEPAR Units (1 Ord Share & 4 Pref Shares)",
-      "display_label": "(SAPR11)CIA Saneamento Do Parana-SANEPAR Units (1 Ord Share & 4 Pref Shares)",
-      "bilingual_name": "CIA Saneamento Do Parana-SANEPAR Units (1 Ord Share & 4 Pref Shares)"
-    },
-    {
-      "etf_id": "US-BRF",
-      "holding_symbol": "CURY3.SA",
-      "holding_name": "Cury Construtora E Incorporadora SA Ordinary Shares",
-      "weight": 0.0231889,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Cury Construtora E Incorporadora SA Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Cury Construtora E Incorporadora SA Ordinary Shares",
       "display_label": "(CURY3.SA)Cury Construtora E Incorporadora SA Ordinary Shares",
       "bilingual_name": "Cury Construtora E Incorporadora SA Ordinary Shares"
-    },
-    {
-      "etf_id": "US-BRF",
-      "holding_symbol": "ORVR3.SA",
-      "holding_name": "Orizon Valorizacao De Residuos SA Ordinary Shares",
-      "weight": 0.0228164,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "Orizon Valorizacao De Residuos SA Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Orizon Valorizacao De Residuos SA Ordinary Shares",
-      "display_label": "(ORVR3.SA)Orizon Valorizacao De Residuos SA Ordinary Shares",
-      "bilingual_name": "Orizon Valorizacao De Residuos SA Ordinary Shares"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.285508,
-    "top_3_weight": 0.099565
+    "holding_count": 8,
+    "top_10_weight": 0.232332,
+    "top_3_weight": 0.104847
   },
   "research": {
     "tier": "context",

@@ -1,26 +1,38 @@
 {
   "left_etf_id": "US-BAI",
   "right_etf_id": "US-CHAT",
-  "overlap_ratio": 0.117567,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.188687,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.052663,
-      "right_weight": 0.069248,
-      "overlap_weight": 0.052663
-    },
-    {
-      "holding_symbol": "AMD",
-      "left_weight": 0.054357,
-      "right_weight": 0.033381,
-      "overlap_weight": 0.033381
+      "left_weight": 0.056696,
+      "right_weight": 0.073525,
+      "overlap_weight": 0.056696
     },
     {
       "holding_symbol": "MU",
-      "left_weight": 0.065834,
-      "right_weight": 0.031523,
-      "overlap_weight": 0.031523
+      "left_weight": 0.061638,
+      "right_weight": 0.039584,
+      "overlap_weight": 0.039584
+    },
+    {
+      "holding_symbol": "AMD",
+      "left_weight": 0.053685,
+      "right_weight": 0.036696,
+      "overlap_weight": 0.036696
+    },
+    {
+      "holding_symbol": "LITE",
+      "left_weight": 0.028761,
+      "right_weight": 0.03555,
+      "overlap_weight": 0.028761
+    },
+    {
+      "holding_symbol": "MSFT",
+      "left_weight": 0.02695,
+      "right_weight": 0.052937,
+      "overlap_weight": 0.02695
     }
   ]
 }

@@ -1,26 +1,38 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.091182,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.147989,
+  "shared_holdings_count": 5,
   "shared_holdings": [
     {
-      "holding_symbol": "META",
-      "left_weight": 0.032195,
-      "right_weight": 0.042976,
-      "overlap_weight": 0.032195
+      "holding_symbol": "ORCL",
+      "left_weight": 0.031653,
+      "right_weight": 0.034951,
+      "overlap_weight": 0.031653
     },
     {
-      "holding_symbol": "TSM",
-      "left_weight": 0.029542,
-      "right_weight": 0.031167,
-      "overlap_weight": 0.029542
+      "holding_symbol": "AMZN",
+      "left_weight": 0.02991,
+      "right_weight": 0.043027,
+      "overlap_weight": 0.02991
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.029505,
+      "right_weight": 0.044666,
+      "overlap_weight": 0.029505
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.029445,
-      "right_weight": 0.050686,
-      "overlap_weight": 0.029445
+      "left_weight": 0.028504,
+      "right_weight": 0.053811,
+      "overlap_weight": 0.028504
+    },
+    {
+      "holding_symbol": "TSM",
+      "left_weight": 0.028417,
+      "right_weight": 0.043519,
+      "overlap_weight": 0.028417
     }
   ]
 }

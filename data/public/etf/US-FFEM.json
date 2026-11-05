@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -2.1804,
+      "value": -2.1809,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 18.7394,
+      "value": 18.7387,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,7 +79,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 18.7394,
+      "value": 18.7387,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 38.3222,
+    "value": 38.322,
     "currency": "USD"
   },
   "trend": [
@@ -2060,10 +2060,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 10135.0,
-    "average_volume_20d": 9516.75,
-    "average_dollar_volume_20d": 374005.884,
-    "relative_volume_20d": 1.065,
+    "latest_volume": 10100.0,
+    "average_volume_20d": 9515.0,
+    "average_dollar_volume_20d": 373938.718,
+    "relative_volume_20d": 1.0615,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2073,7 +2073,7 @@
       "etf_id": "US-FFEM",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.1770956,
+      "weight": 0.18141149,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2087,7 +2087,7 @@
       "etf_id": "US-FFEM",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.08672281,
+      "weight": 0.08138409,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -2101,7 +2101,7 @@
       "etf_id": "US-FFEM",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0685499,
+      "weight": 0.0576985,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -2115,7 +2115,7 @@
       "etf_id": "US-FFEM",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0444172,
+      "weight": 0.0439755,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -2129,7 +2129,7 @@
       "etf_id": "US-FFEM",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0338187,
+      "weight": 0.0261208,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -2141,26 +2141,12 @@
     },
     {
       "etf_id": "US-FFEM",
-      "holding_symbol": "9988.HK",
-      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0191597,
+      "holding_symbol": "00939",
+      "holding_name": "China Construction Bank Corp Class H",
+      "weight": 0.0199008,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
-      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
-    },
-    {
-      "etf_id": "US-FFEM",
-      "holding_symbol": "00939",
-      "holding_name": "China Construction Bank Corp Class H",
-      "weight": 0.0173129,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "China Construction Bank Corp Class H",
       "holding_name_zh": null,
       "display_name": "China Construction Bank Corp Class H",
@@ -2169,9 +2155,23 @@
     },
     {
       "etf_id": "US-FFEM",
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0182827,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
+      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
+    },
+    {
+      "etf_id": "US-FFEM",
       "holding_symbol": "HDB",
       "holding_name": "HDFC Bank Ltd ADR",
-      "weight": 0.0162911,
+      "weight": 0.0177888,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -2183,12 +2183,26 @@
     },
     {
       "etf_id": "US-FFEM",
-      "holding_symbol": "BAP",
-      "holding_name": "Credicorp Ltd",
-      "weight": 0.0148086,
+      "holding_symbol": "IBN",
+      "holding_name": "ICICI Bank Ltd ADR",
+      "weight": 0.0155882,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
+      "holding_name_en": "ICICI Bank Ltd ADR",
+      "holding_name_zh": null,
+      "display_name": "ICICI Bank Ltd ADR",
+      "display_label": "(IBN)ICICI Bank Ltd ADR",
+      "bilingual_name": "ICICI Bank Ltd ADR"
+    },
+    {
+      "etf_id": "US-FFEM",
+      "holding_symbol": "BAP",
+      "holding_name": "Credicorp Ltd",
+      "weight": 0.0149614,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
       "holding_name_en": "Credicorp Ltd",
       "holding_name_zh": null,
       "display_name": "Credicorp Ltd",
@@ -2197,9 +2211,9 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.478177,
-    "top_3_weight": 0.332368
+    "holding_count": 10,
+    "top_10_weight": 0.477112,
+    "top_3_weight": 0.320494
   },
   "research": {
     "tier": "context",

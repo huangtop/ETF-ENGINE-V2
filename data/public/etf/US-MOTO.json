@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -10.1428,
+      "value": -10.1432,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 10.5941,
+      "value": 10.5935,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 25.4945,
+      "value": 25.4946,
       "unit": "percent"
     },
     "beta": {
@@ -83,18 +83,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 10.5941,
+      "value": 10.5935,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.6611,
+      "value": 16.6612,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 57.6673,
+    "value": 57.667,
     "currency": "USD"
   },
   "trend": [
@@ -3132,10 +3132,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 886.0,
-    "average_volume_20d": 264.3,
-    "average_dollar_volume_20d": 15639.8964,
-    "relative_volume_20d": 3.3523,
+    "latest_volume": 900.0,
+    "average_volume_20d": 265.0,
+    "average_dollar_volume_20d": 15680.2499,
+    "relative_volume_20d": 3.3962,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3145,7 +3145,7 @@
       "etf_id": "US-MOTO",
       "holding_symbol": "TSM",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.0605287,
+      "weight": 0.0568269,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3159,7 +3159,7 @@
       "etf_id": "US-MOTO",
       "holding_symbol": "PWR",
       "holding_name": "Quanta Services Inc",
-      "weight": 0.0520505,
+      "weight": 0.0530299,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3171,12 +3171,26 @@
     },
     {
       "etf_id": "US-MOTO",
-      "holding_symbol": "APH",
-      "holding_name": "Amphenol Corp Class A",
-      "weight": 0.0480631,
+      "holding_symbol": "ADI",
+      "holding_name": "Analog Devices Inc",
+      "weight": 0.0494066,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
+      "holding_name_en": "Analog Devices Inc",
+      "holding_name_zh": null,
+      "display_name": "Analog Devices Inc",
+      "display_label": "(ADI)Analog Devices Inc",
+      "bilingual_name": "Analog Devices Inc"
+    },
+    {
+      "etf_id": "US-MOTO",
+      "holding_symbol": "APH",
+      "holding_name": "Amphenol Corp Class A",
+      "weight": 0.0476794,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Amphenol Corp Class A",
       "holding_name_zh": null,
       "display_name": "Amphenol Corp Class A",
@@ -3187,10 +3201,10 @@
       "etf_id": "US-MOTO",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0475034,
+      "weight": 0.0448881,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "NVIDIA Corp",
       "holding_name_zh": "輝達",
       "display_name": "輝達",
@@ -3199,23 +3213,9 @@
     },
     {
       "etf_id": "US-MOTO",
-      "holding_symbol": "ADI",
-      "holding_name": "Analog Devices Inc",
-      "weight": 0.0445588,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Analog Devices Inc",
-      "holding_name_zh": null,
-      "display_name": "Analog Devices Inc",
-      "display_label": "(ADI)Analog Devices Inc",
-      "bilingual_name": "Analog Devices Inc"
-    },
-    {
-      "etf_id": "US-MOTO",
       "holding_symbol": "IFX.DE",
       "holding_name": "Infineon Technologies AG",
-      "weight": 0.0433314,
+      "weight": 0.0382933,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3229,7 +3229,7 @@
       "etf_id": "US-MOTO",
       "holding_symbol": "ETN",
       "holding_name": "Eaton Corp PLC",
-      "weight": 0.0416795,
+      "weight": 0.0378431,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3241,26 +3241,12 @@
     },
     {
       "etf_id": "US-MOTO",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0409581,
+      "holding_symbol": "SIE.DE",
+      "holding_name": "Siemens AG",
+      "weight": 0.035965,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Alphabet Inc Class C",
-      "holding_name_zh": "Alphabet C類股",
-      "display_name": "Alphabet C類股",
-      "display_label": "(GOOG)Alphabet C類股",
-      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
-    },
-    {
-      "etf_id": "US-MOTO",
-      "holding_symbol": "SIE.DE",
-      "holding_name": "Siemens AG",
-      "weight": 0.0358643,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Siemens AG",
       "holding_name_zh": null,
       "display_name": "Siemens AG",
@@ -3269,9 +3255,23 @@
     },
     {
       "etf_id": "US-MOTO",
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0352677,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "US-MOTO",
       "holding_symbol": "VOLV-B.ST",
       "holding_name": "Volvo AB Class B",
-      "weight": 0.0331172,
+      "weight": 0.0342539,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -3284,8 +3284,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.447655,
-    "top_3_weight": 0.160642
+    "top_10_weight": 0.433454,
+    "top_3_weight": 0.159263
   },
   "research": {
     "tier": "context",

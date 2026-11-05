@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.0201,
+      "value": -4.0291,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 13.032,
+      "value": 13.0202,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 22.0097,
+      "value": 22.0094,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.2998,
+      "value": 1.2997,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5239,
+      "value": 0.5234,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 13.032,
+      "value": 13.0202,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 14.858,
+      "value": 14.8587,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 34.6136,
+    "value": 34.61,
     "currency": "USD"
   },
   "trend": [
@@ -3116,7 +3116,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 163.54
+      "value": 163.53
     }
   ],
   "price_history": {
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 16552.0,
-    "average_volume_20d": 18117.6,
-    "average_dollar_volume_20d": 641817.5069,
-    "relative_volume_20d": 0.9136,
+    "latest_volume": 16600.0,
+    "average_volume_20d": 18120.0,
+    "average_dollar_volume_20d": 641897.5906,
+    "relative_volume_20d": 0.9161,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0827532,
+      "weight": 0.0836541,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0583043,
+      "weight": 0.0527185,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0514941,
+      "weight": 0.0469626,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3183,7 +3183,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0244989,
+      "weight": 0.0301508,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3197,7 +3197,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "9988.HK",
       "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0191597,
+      "weight": 0.022754,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3211,7 +3211,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "MELI",
       "holding_name": "MercadoLibre Inc",
-      "weight": 0.0165932,
+      "weight": 0.0150798,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3225,7 +3225,7 @@
       "etf_id": "US-EMMF",
       "holding_symbol": "2059.TW",
       "holding_name": "King Slide Works Co Ltd",
-      "weight": 0.0144029,
+      "weight": 0.0114907,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3237,26 +3237,12 @@
     },
     {
       "etf_id": "US-EMMF",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.013436,
+      "holding_symbol": "CPNG",
+      "holding_name": "Coupang Inc Ordinary Shares - Class A",
+      "weight": 0.0106909,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "MediaTek Inc",
-      "holding_name_zh": "聯發科",
-      "display_name": "聯發科",
-      "display_label": "(2454.TW)聯發科",
-      "bilingual_name": "MediaTek Inc（聯發科）"
-    },
-    {
-      "etf_id": "US-EMMF",
-      "holding_symbol": "CPNG",
-      "holding_name": "Coupang Inc Ordinary Shares - Class A",
-      "weight": 0.0125172,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Coupang Inc Ordinary Shares - Class A",
       "holding_name_zh": null,
       "display_name": "Coupang Inc Ordinary Shares - Class A",
@@ -3265,23 +3251,37 @@
     },
     {
       "etf_id": "US-EMMF",
-      "holding_symbol": "3653.TW",
-      "holding_name": "Jentech Precision Industrial Co Ltd",
-      "weight": 0.0116063,
+      "holding_symbol": "3711.TW",
+      "holding_name": "ASE Technology Holding Co Ltd",
+      "weight": 0.0101132,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "ASE Technology Holding Co Ltd",
+      "holding_name_zh": "日月光投控",
+      "display_name": "日月光投控",
+      "display_label": "(3711.TW)日月光投控",
+      "bilingual_name": "ASE Technology Holding Co Ltd（日月光投控）"
+    },
+    {
+      "etf_id": "US-EMMF",
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0099895,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Jentech Precision Industrial Co Ltd",
-      "holding_name_zh": "健策",
-      "display_name": "健策",
-      "display_label": "(3653.TW)健策",
-      "bilingual_name": "Jentech Precision Industrial Co Ltd（健策）"
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.304766,
-    "top_3_weight": 0.192552
+    "top_10_weight": 0.293604,
+    "top_3_weight": 0.183335
   },
   "research": {
     "tier": "context",

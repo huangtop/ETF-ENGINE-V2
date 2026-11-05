@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-SKYY",
-  "overlap_ratio": 0.06592,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.097064,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.03617,
-      "right_weight": 0.035137,
-      "overlap_weight": 0.035137
+      "left_weight": 0.039772,
+      "right_weight": 0.035501,
+      "overlap_weight": 0.035501
     },
     {
       "holding_symbol": "ORCL",
-      "left_weight": 0.030783,
-      "right_weight": 0.031998,
-      "overlap_weight": 0.030783
+      "left_weight": 0.031653,
+      "right_weight": 0.031793,
+      "overlap_weight": 0.031653
+    },
+    {
+      "holding_symbol": "AMZN",
+      "left_weight": 0.02991,
+      "right_weight": 0.031881,
+      "overlap_weight": 0.02991
     }
   ]
 }

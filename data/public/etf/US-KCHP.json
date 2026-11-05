@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -123.8942,
+      "value": -124.001,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 63.4306,
+      "value": 63.4324,
       "unit": "percent"
     },
     "beta": {
-      "value": 2.7944,
+      "value": 2.793,
       "unit": "ratio"
     },
     "data_years": {
@@ -71,7 +71,7 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -30.2843,
+      "value": -30.2968,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -14.8964,
+      "value": -14.9115,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 58.2155,
+      "value": 58.221,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 20.2036,
+    "value": 20.2,
     "currency": "USD"
   },
   "trend": [
@@ -240,7 +240,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 85.1
+      "value": 85.09
     }
   ],
   "price_history": {
@@ -252,10 +252,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 17094.0,
-    "average_volume_20d": 12524.7,
-    "average_dollar_volume_20d": 285959.8682,
-    "relative_volume_20d": 1.3648,
+    "latest_volume": 17100.0,
+    "average_volume_20d": 12525.0,
+    "average_dollar_volume_20d": 285962.852,
+    "relative_volume_20d": 1.3653,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -265,7 +265,7 @@
       "etf_id": "US-KCHP",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.1926516,
+      "weight": 0.20226999,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -279,7 +279,7 @@
       "etf_id": "US-KCHP",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.1556394,
+      "weight": 0.1865079,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -291,68 +291,12 @@
     },
     {
       "etf_id": "US-KCHP",
-      "holding_symbol": "036930.KQ",
-      "holding_name": "Jusung Engineering Co Ltd",
-      "weight": 0.0573049,
+      "holding_symbol": "353200.KQ",
+      "holding_name": "Daeduck Electronics Ordinary Shares",
+      "weight": 0.0492673,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Jusung Engineering Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Jusung Engineering Co Ltd",
-      "display_label": "(036930.KQ)Jusung Engineering Co Ltd",
-      "bilingual_name": "Jusung Engineering Co Ltd"
-    },
-    {
-      "etf_id": "US-KCHP",
-      "holding_symbol": "007660.KQ",
-      "holding_name": "Isupetasys Co Ltd",
-      "weight": 0.0532706,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Isupetasys Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Isupetasys Co Ltd",
-      "display_label": "(007660.KQ)Isupetasys Co Ltd",
-      "bilingual_name": "Isupetasys Co Ltd"
-    },
-    {
-      "etf_id": "US-KCHP",
-      "holding_symbol": "042700.KQ",
-      "holding_name": "HANMI Semiconductor Co Ltd",
-      "weight": 0.0498739,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "HANMI Semiconductor Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "HANMI Semiconductor Co Ltd",
-      "display_label": "(042700.KQ)HANMI Semiconductor Co Ltd",
-      "bilingual_name": "HANMI Semiconductor Co Ltd"
-    },
-    {
-      "etf_id": "US-KCHP",
-      "holding_symbol": "039030.KQ",
-      "holding_name": "EO Technics Co Ltd",
-      "weight": 0.0427218,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "EO Technics Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "EO Technics Co Ltd",
-      "display_label": "(039030.KQ)EO Technics Co Ltd",
-      "bilingual_name": "EO Technics Co Ltd"
-    },
-    {
-      "etf_id": "US-KCHP",
-      "holding_symbol": "353200.KQ",
-      "holding_name": "Daeduck Electronics Ordinary Shares",
-      "weight": 0.0413666,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Daeduck Electronics Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Daeduck Electronics Ordinary Shares",
@@ -361,51 +305,107 @@
     },
     {
       "etf_id": "US-KCHP",
-      "holding_symbol": "222800.KQ",
-      "holding_name": "Simmtech Co Ltd",
-      "weight": 0.040338,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Simmtech Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Simmtech Co Ltd",
-      "display_label": "(222800.KQ)Simmtech Co Ltd",
-      "bilingual_name": "Simmtech Co Ltd"
-    },
-    {
-      "etf_id": "US-KCHP",
-      "holding_symbol": "000990.KQ",
-      "holding_name": "DB HiTek Co Ltd",
-      "weight": 0.0396536,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "DB HiTek Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "DB HiTek Co Ltd",
-      "display_label": "(000990.KQ)DB HiTek Co Ltd",
-      "bilingual_name": "DB HiTek Co Ltd"
-    },
-    {
-      "etf_id": "US-KCHP",
       "holding_symbol": "009150.KQ",
       "holding_name": "Samsung Electro-Mechanics Co Ltd",
-      "weight": 0.0372915,
+      "weight": 0.0466099,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 4,
       "holding_name_en": "Samsung Electro-Mechanics Co Ltd",
       "holding_name_zh": null,
       "display_name": "Samsung Electro-Mechanics Co Ltd",
       "display_label": "(009150.KQ)Samsung Electro-Mechanics Co Ltd",
       "bilingual_name": "Samsung Electro-Mechanics Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "036930.KQ",
+      "holding_name": "Jusung Engineering Co Ltd",
+      "weight": 0.0445342,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Jusung Engineering Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Jusung Engineering Co Ltd",
+      "display_label": "(036930.KQ)Jusung Engineering Co Ltd",
+      "bilingual_name": "Jusung Engineering Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "042700.KQ",
+      "holding_name": "HANMI Semiconductor Co Ltd",
+      "weight": 0.0428408,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "HANMI Semiconductor Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "HANMI Semiconductor Co Ltd",
+      "display_label": "(042700.KQ)HANMI Semiconductor Co Ltd",
+      "bilingual_name": "HANMI Semiconductor Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "007660.KQ",
+      "holding_name": "Isupetasys Co Ltd",
+      "weight": 0.0422259,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Isupetasys Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Isupetasys Co Ltd",
+      "display_label": "(007660.KQ)Isupetasys Co Ltd",
+      "bilingual_name": "Isupetasys Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "039030.KQ",
+      "holding_name": "EO Technics Co Ltd",
+      "weight": 0.0374419,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "EO Technics Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "EO Technics Co Ltd",
+      "display_label": "(039030.KQ)EO Technics Co Ltd",
+      "bilingual_name": "EO Technics Co Ltd"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "058470.KQ",
+      "holding_name": "Leeno Industrial Inc",
+      "weight": 0.0368643,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Leeno Industrial Inc",
+      "holding_name_zh": null,
+      "display_name": "Leeno Industrial Inc",
+      "display_label": "(058470.KQ)Leeno Industrial Inc",
+      "bilingual_name": "Leeno Industrial Inc"
+    },
+    {
+      "etf_id": "US-KCHP",
+      "holding_symbol": "222800.KQ",
+      "holding_name": "Simmtech Co Ltd",
+      "weight": 0.0362678,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Simmtech Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Simmtech Co Ltd",
+      "display_label": "(222800.KQ)Simmtech Co Ltd",
+      "bilingual_name": "Simmtech Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.710112,
-    "top_3_weight": 0.405596
+    "top_10_weight": 0.72483,
+    "top_3_weight": 0.438045
   },
   "research": {
     "tier": "context",

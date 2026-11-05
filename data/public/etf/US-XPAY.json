@@ -2124,19 +2124,34 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 31353.0,
-    "average_volume_20d": 35727.65,
-    "average_dollar_volume_20d": 1831930.3311,
-    "relative_volume_20d": 0.8776,
+    "latest_volume": 31400.0,
+    "average_volume_20d": 35730.0,
+    "average_dollar_volume_20d": 1832050.7921,
+    "relative_volume_20d": 0.8788,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-XPAY",
+      "holding_symbol": "FGXXX",
+      "holding_name": "First American Government Obligs X",
+      "weight": 0.0572318,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "First American Government Obligs X",
+      "holding_name_zh": null,
+      "display_name": "First American Government Obligs X",
+      "display_label": "(FGXXX)First American Government Obligs X",
+      "bilingual_name": "First American Government Obligs X"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 1,
+    "top_10_weight": 0.057232,
+    "top_3_weight": 0.057232
   },
   "research": {
     "tier": "context",

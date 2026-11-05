@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 1.1152,
+      "value": 1.6538,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 11.7807,
+      "value": 15.738,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.3352,
+      "value": 17.4715,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9991,
+      "value": 1.0084,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.0476,
+      "value": 1.0516,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5931,
+      "value": 0.8149,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 11.7807,
+      "value": 15.738,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.7049,
+      "value": 11.733,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 22.53,
+    "date": "2026-11-04",
+    "value": 23.089,
     "currency": "USD"
   },
   "trend": [
@@ -1149,21 +1149,25 @@
     {
       "date": "2026-11-03",
       "value": 111.93
+    },
+    {
+      "date": "2026-11-04",
+      "value": 114.71
     }
   ],
   "price_history": {
     "first_date": "2025-10-16",
-    "last_date": "2026-11-03",
-    "observations": 264,
+    "last_date": "2026-11-04",
+    "observations": 265,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 600.0,
-    "average_volume_20d": 7540.0,
-    "average_dollar_volume_20d": 175195.6085,
-    "relative_volume_20d": 0.0796,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
+    "average_volume_20d": 7530.0,
+    "average_dollar_volume_20d": 174971.5285,
+    "relative_volume_20d": 0.0133,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1173,7 +1177,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "EFA",
       "holding_name": "iShares MSCI EAFE ETF",
-      "weight": 0.0477605,
+      "weight": 0.0480851,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -1187,7 +1191,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "IEFA",
       "holding_name": "iShares Core MSCI EAFE ETF",
-      "weight": 0.047621,
+      "weight": 0.0479118,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -1201,7 +1205,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
-      "weight": 0.0350459,
+      "weight": 0.0308199,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1215,7 +1219,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "ROP.SW",
       "holding_name": "Roche Holding AG Ordinary Shares new",
-      "weight": 0.0140011,
+      "weight": 0.01659,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1229,7 +1233,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "BATS.L",
       "holding_name": "British American Tobacco PLC",
-      "weight": 0.0133756,
+      "weight": 0.0151745,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1243,7 +1247,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "NOVN.SW",
       "holding_name": "Novartis AG Registered Shares",
-      "weight": 0.0130642,
+      "weight": 0.014959,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -1257,7 +1261,7 @@
       "etf_id": "US-PQNT",
       "holding_symbol": "6758.T",
       "holding_name": "Sony Group Corp",
-      "weight": 0.0124992,
+      "weight": 0.0132886,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1269,26 +1273,12 @@
     },
     {
       "etf_id": "US-PQNT",
-      "holding_symbol": "BNP.PA",
-      "holding_name": "BNP Paribas Act. Cat.A",
-      "weight": 0.0115195,
+      "holding_symbol": "6098.T",
+      "holding_name": "Recruit Holdings Co Ltd",
+      "weight": 0.0131082,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "BNP Paribas Act. Cat.A",
-      "holding_name_zh": null,
-      "display_name": "BNP Paribas Act. Cat.A",
-      "display_label": "(BNP.PA)BNP Paribas Act. Cat.A",
-      "bilingual_name": "BNP Paribas Act. Cat.A"
-    },
-    {
-      "etf_id": "US-PQNT",
-      "holding_symbol": "6098.T",
-      "holding_name": "Recruit Holdings Co Ltd",
-      "weight": 0.0113635,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Recruit Holdings Co Ltd",
       "holding_name_zh": null,
       "display_name": "Recruit Holdings Co Ltd",
@@ -1297,23 +1287,37 @@
     },
     {
       "etf_id": "US-PQNT",
-      "holding_symbol": "ISP.MI",
-      "holding_name": "Intesa Sanpaolo",
-      "weight": 0.0111038,
+      "holding_symbol": "ZURN.SW",
+      "holding_name": "Zurich Insurance Group AG",
+      "weight": 0.0108742,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Zurich Insurance Group AG",
+      "holding_name_zh": null,
+      "display_name": "Zurich Insurance Group AG",
+      "display_label": "(ZURN.SW)Zurich Insurance Group AG",
+      "bilingual_name": "Zurich Insurance Group AG"
+    },
+    {
+      "etf_id": "US-PQNT",
+      "holding_symbol": "GALD.SW",
+      "holding_name": "Galderma Group AG Registered Shares",
+      "weight": 0.0107821,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Intesa Sanpaolo",
+      "holding_name_en": "Galderma Group AG Registered Shares",
       "holding_name_zh": null,
-      "display_name": "Intesa Sanpaolo",
-      "display_label": "(ISP.MI)Intesa Sanpaolo",
-      "bilingual_name": "Intesa Sanpaolo"
+      "display_name": "Galderma Group AG Registered Shares",
+      "display_label": "(GALD.SW)Galderma Group AG Registered Shares",
+      "bilingual_name": "Galderma Group AG Registered Shares"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.217354,
-    "top_3_weight": 0.130427
+    "top_10_weight": 0.221593,
+    "top_3_weight": 0.126817
   },
   "research": {
     "tier": "context",

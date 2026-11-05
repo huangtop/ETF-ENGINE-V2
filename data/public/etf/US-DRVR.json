@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 32.5688,
+      "value": 32.5268,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 16.1382,
+      "value": 16.1279,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2857,
+      "value": 0.2851,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 11.5471,
+      "value": 11.5309,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 17.7777,
+      "value": 17.7726,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 27.474,
+    "value": 27.47,
     "currency": "USD"
   },
   "trend": [
@@ -428,7 +428,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 111.55
+      "value": 111.53
     }
   ],
   "price_history": {
@@ -440,10 +440,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 538.0,
-    "average_volume_20d": 2041.9,
-    "average_dollar_volume_20d": 51001.4288,
-    "relative_volume_20d": 0.2635,
+    "latest_volume": 500.0,
+    "average_volume_20d": 2040.0,
+    "average_dollar_volume_20d": 50949.1282,
+    "relative_volume_20d": 0.2451,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -453,7 +453,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "ACN",
       "holding_name": "Accenture PLC Class A",
-      "weight": 0.0624187,
+      "weight": 0.076383,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -467,7 +467,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "MO",
       "holding_name": "Altria Group Inc",
-      "weight": 0.045335,
+      "weight": 0.0468998,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -481,7 +481,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "BBY",
       "holding_name": "Best Buy Co Inc",
-      "weight": 0.0424219,
+      "weight": 0.0438071,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -495,7 +495,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "UPS",
       "holding_name": "United Parcel Service Inc Class B",
-      "weight": 0.0391894,
+      "weight": 0.0408585,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -509,7 +509,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "PAYX",
       "holding_name": "Paychex Inc",
-      "weight": 0.0362611,
+      "weight": 0.0365452,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -521,26 +521,12 @@
     },
     {
       "etf_id": "US-DRVR",
-      "holding_symbol": "TROW",
-      "holding_name": "T. Rowe Price Group Inc",
-      "weight": 0.0341944,
+      "holding_symbol": "PEP",
+      "holding_name": "PepsiCo Inc",
+      "weight": 0.0327636,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "T. Rowe Price Group Inc",
-      "holding_name_zh": null,
-      "display_name": "T. Rowe Price Group Inc",
-      "display_label": "(TROW)T. Rowe Price Group Inc",
-      "bilingual_name": "T. Rowe Price Group Inc"
-    },
-    {
-      "etf_id": "US-DRVR",
-      "holding_symbol": "PEP",
-      "holding_name": "PepsiCo Inc",
-      "weight": 0.0341885,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "PepsiCo Inc",
       "holding_name_zh": null,
       "display_name": "PepsiCo Inc",
@@ -549,9 +535,23 @@
     },
     {
       "etf_id": "US-DRVR",
+      "holding_symbol": "TROW",
+      "holding_name": "T. Rowe Price Group Inc",
+      "weight": 0.0318061,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "T. Rowe Price Group Inc",
+      "holding_name_zh": null,
+      "display_name": "T. Rowe Price Group Inc",
+      "display_label": "(TROW)T. Rowe Price Group Inc",
+      "bilingual_name": "T. Rowe Price Group Inc"
+    },
+    {
+      "etf_id": "US-DRVR",
       "holding_symbol": "TGT",
       "holding_name": "Target Corp",
-      "weight": 0.0334505,
+      "weight": 0.0294183,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -565,7 +565,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "MDLZ",
       "holding_name": "Mondelez International Inc Class A",
-      "weight": 0.0297415,
+      "weight": 0.029194,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -579,7 +579,7 @@
       "etf_id": "US-DRVR",
       "holding_symbol": "ADP",
       "holding_name": "Automatic Data Processing Inc",
-      "weight": 0.0284135,
+      "weight": 0.0285898,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -592,8 +592,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.385614,
-    "top_3_weight": 0.150176
+    "top_10_weight": 0.396265,
+    "top_3_weight": 0.16709
   },
   "research": {
     "tier": "context",

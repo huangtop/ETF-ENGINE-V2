@@ -59,15 +59,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 11.7343,
+      "value": 11.7353,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 19.2915,
+      "value": 19.2928,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 11.0968,
+      "value": 11.0971,
       "unit": "percent"
     },
     "beta": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.6033,
+      "value": 1.6034,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 19.2915,
+      "value": 19.2928,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.7138,
+      "value": 11.7139,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 35.4696,
+    "value": 35.47,
     "currency": "USD"
   },
   "trend": [
@@ -3136,10 +3136,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 2682.0,
-    "average_volume_20d": 1839.1,
-    "average_dollar_volume_20d": 63109.8546,
-    "relative_volume_20d": 1.4583,
+    "latest_volume": 2700.0,
+    "average_volume_20d": 1840.0,
+    "average_dollar_volume_20d": 63141.8313,
+    "relative_volume_20d": 1.4674,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3149,7 +3149,7 @@
       "etf_id": "US-QLVD",
       "holding_symbol": "NOVN.SW",
       "holding_name": "Novartis AG Registered Shares",
-      "weight": 0.0396722,
+      "weight": 0.0426591,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3163,7 +3163,7 @@
       "etf_id": "US-QLVD",
       "holding_symbol": "RY",
       "holding_name": "Royal Bank of Canada",
-      "weight": 0.0372145,
+      "weight": 0.0364895,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3175,26 +3175,12 @@
     },
     {
       "etf_id": "US-QLVD",
-      "holding_symbol": "ASML.AS",
-      "holding_name": "ASML Holding NV",
-      "weight": 0.0258488,
+      "holding_symbol": "ULVR.L",
+      "holding_name": "Unilever PLC",
+      "weight": 0.0228072,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "ASML Holding NV",
-      "holding_name_zh": null,
-      "display_name": "ASML Holding NV",
-      "display_label": "(ASML.AS)ASML Holding NV",
-      "bilingual_name": "ASML Holding NV"
-    },
-    {
-      "etf_id": "US-QLVD",
-      "holding_symbol": "ULVR.L",
-      "holding_name": "Unilever PLC",
-      "weight": 0.0224908,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Unilever PLC",
       "holding_name_zh": null,
       "display_name": "Unilever PLC",
@@ -3203,9 +3189,23 @@
     },
     {
       "etf_id": "US-QLVD",
+      "holding_symbol": "ASML.AS",
+      "holding_name": "ASML Holding NV",
+      "weight": 0.0213632,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "ASML Holding NV",
+      "holding_name_zh": null,
+      "display_name": "ASML Holding NV",
+      "display_label": "(ASML.AS)ASML Holding NV",
+      "bilingual_name": "ASML Holding NV"
+    },
+    {
+      "etf_id": "US-QLVD",
       "holding_symbol": "D05.SI",
       "holding_name": "DBS Group Holdings Ltd",
-      "weight": 0.0215001,
+      "weight": 0.0192753,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3219,7 +3219,7 @@
       "etf_id": "US-QLVD",
       "holding_symbol": "CM.TO",
       "holding_name": "Canadian Imperial Bank of Commerce",
-      "weight": 0.0174186,
+      "weight": 0.0175075,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -3233,7 +3233,7 @@
       "etf_id": "US-QLVD",
       "holding_symbol": "IBE.MC",
       "holding_name": "Iberdrola SA",
-      "weight": 0.0164942,
+      "weight": 0.016581,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3245,26 +3245,12 @@
     },
     {
       "etf_id": "US-QLVD",
-      "holding_symbol": "SAN.PA",
-      "holding_name": "Sanofi SA",
-      "weight": 0.0153721,
+      "holding_symbol": "SHEL.L",
+      "holding_name": "Shell PLC",
+      "weight": 0.0165001,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Sanofi SA",
-      "holding_name_zh": null,
-      "display_name": "Sanofi SA",
-      "display_label": "(SAN.PA)Sanofi SA",
-      "bilingual_name": "Sanofi SA"
-    },
-    {
-      "etf_id": "US-QLVD",
-      "holding_symbol": "SHEL.L",
-      "holding_name": "Shell PLC",
-      "weight": 0.0152232,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Shell PLC",
       "holding_name_zh": null,
       "display_name": "Shell PLC",
@@ -3275,21 +3261,35 @@
       "etf_id": "US-QLVD",
       "holding_symbol": "NESN.SW",
       "holding_name": "Nestle SA",
-      "weight": 0.0151397,
+      "weight": 0.0162646,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Nestle SA",
       "holding_name_zh": null,
       "display_name": "Nestle SA",
       "display_label": "(NESN.SW)Nestle SA",
       "bilingual_name": "Nestle SA"
+    },
+    {
+      "etf_id": "US-QLVD",
+      "holding_symbol": "SAN.PA",
+      "holding_name": "Sanofi SA",
+      "weight": 0.0157627,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Sanofi SA",
+      "holding_name_zh": null,
+      "display_name": "Sanofi SA",
+      "display_label": "(SAN.PA)Sanofi SA",
+      "bilingual_name": "Sanofi SA"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.226374,
-    "top_3_weight": 0.102735
+    "top_10_weight": 0.22521,
+    "top_3_weight": 0.101956
   },
   "research": {
     "tier": "context",

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "etf_id": "US-XLKI",
+  "coverage": "top_holdings_only",
+  "transition_count": 1,
+  "latest_transition": {
+    "transition_id": "2026-11-05T10:59:39.857960Z-US-XLKI-69c084ab",
+    "etf_id": "US-XLKI",
+    "coverage": "top_holdings_only",
+    "previous_snapshot_id": "20261102-2373c0aca1a7",
+    "current_snapshot_id": "20261105-658e61986e28",
+    "previous_observed_at": "2026-11-02T22:54:43.423951Z",
+    "current_observed_at": "2026-11-05T10:59:39.857960Z",
+    "changes": [
+      {
+        "event_id": "6bd14ef94e645921a59dd5050f99ae512c3034e988bef0259ed297032f7507cc",
+        "etf_id": "US-XLKI",
+        "holding_symbol": "XLK",
+        "holding_name_en": null,
+        "holding_name_zh": null,
+        "holding_display_name": "XLK",
+        "holding_display_label": "(XLK)XLK",
+        "holding_bilingual_name": "XLK",
+        "previous_weight": 0.01030319,
+        "current_weight": 0.9922088,
+        "delta_weight": 0.98190561,
+        "change_type": "WEIGHT_INCREASED",
+        "previous_source": "yahoo",
+        "current_source": "yahoo",
+        "previous_snapshot_id": "20261102-2373c0aca1a7",
+        "current_snapshot_id": "20261105-658e61986e28",
+        "previous_observed_at": "2026-11-02T22:54:43.423951Z",
+        "current_observed_at": "2026-11-05T10:59:39.857960Z",
+        "coverage": "top_holdings_only"
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "transition_id": "2026-11-05T10:59:39.857960Z-US-XLKI-69c084ab",
+      "etf_id": "US-XLKI",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261102-2373c0aca1a7",
+      "current_snapshot_id": "20261105-658e61986e28",
+      "previous_observed_at": "2026-11-02T22:54:43.423951Z",
+      "current_observed_at": "2026-11-05T10:59:39.857960Z",
+      "changes": [
+        {
+          "event_id": "6bd14ef94e645921a59dd5050f99ae512c3034e988bef0259ed297032f7507cc",
+          "etf_id": "US-XLKI",
+          "holding_symbol": "XLK",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "XLK",
+          "holding_display_label": "(XLK)XLK",
+          "holding_bilingual_name": "XLK",
+          "previous_weight": 0.01030319,
+          "current_weight": 0.9922088,
+          "delta_weight": 0.98190561,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261102-2373c0aca1a7",
+          "current_snapshot_id": "20261105-658e61986e28",
+          "previous_observed_at": "2026-11-02T22:54:43.423951Z",
+          "current_observed_at": "2026-11-05T10:59:39.857960Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    }
+  ]
+}

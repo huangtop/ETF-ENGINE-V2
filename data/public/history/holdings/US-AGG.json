@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "etf_id": "US-AGG",
   "coverage": "top_holdings_only",
-  "transition_count": 3,
+  "transition_count": 4,
   "latest_transition": {
-    "transition_id": "2026-10-06T10:49:01.036959Z-US-AGG-0246c037",
+    "transition_id": "2026-11-05T10:56:30.333843Z-US-AGG-e2b5debf",
     "etf_id": "US-AGG",
     "coverage": "top_holdings_only",
-    "previous_snapshot_id": "20260904-8cefdc6fc987",
-    "current_snapshot_id": "20261006-c37a689c5872",
-    "previous_observed_at": "2026-09-04T22:41:27.038703Z",
-    "current_observed_at": "2026-10-06T10:49:01.036959Z",
+    "previous_snapshot_id": "20261006-c37a689c5872",
+    "current_snapshot_id": "20261105-00d8e9ed5b48",
+    "previous_observed_at": "2026-10-06T10:49:01.036959Z",
+    "current_observed_at": "2026-11-05T10:56:30.333843Z",
     "changes": [
       {
-        "event_id": "6c37002f474cb8f75639e0fcd82ec88bc4fdea1c67cbfcaa7493420f382f24d4",
+        "event_id": "180bdf7aa250a6022be99414acc98321b4e5ea4e11b46ca26969071dc4be9898",
         "etf_id": "US-AGG",
         "holding_symbol": "BISXX",
         "holding_name_en": null,
@@ -21,16 +21,16 @@
         "holding_display_name": "BISXX",
         "holding_display_label": "(BISXX)BISXX",
         "holding_bilingual_name": "BISXX",
-        "previous_weight": 0.0300711,
-        "current_weight": 0.0292519,
-        "delta_weight": -0.0008192,
-        "change_type": "WEIGHT_DECREASED",
+        "previous_weight": 0.0292519,
+        "current_weight": 0.0293451,
+        "delta_weight": 9.32e-05,
+        "change_type": "WEIGHT_INCREASED",
         "previous_source": "yahoo",
         "current_source": "yahoo",
-        "previous_snapshot_id": "20260904-8cefdc6fc987",
-        "current_snapshot_id": "20261006-c37a689c5872",
-        "previous_observed_at": "2026-09-04T22:41:27.038703Z",
-        "current_observed_at": "2026-10-06T10:49:01.036959Z",
+        "previous_snapshot_id": "20261006-c37a689c5872",
+        "current_snapshot_id": "20261105-00d8e9ed5b48",
+        "previous_observed_at": "2026-10-06T10:49:01.036959Z",
+        "current_observed_at": "2026-11-05T10:56:30.333843Z",
         "coverage": "top_holdings_only"
       }
     ]
@@ -128,6 +128,38 @@
           "current_snapshot_id": "20261006-c37a689c5872",
           "previous_observed_at": "2026-09-04T22:41:27.038703Z",
           "current_observed_at": "2026-10-06T10:49:01.036959Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    },
+    {
+      "transition_id": "2026-11-05T10:56:30.333843Z-US-AGG-e2b5debf",
+      "etf_id": "US-AGG",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20261006-c37a689c5872",
+      "current_snapshot_id": "20261105-00d8e9ed5b48",
+      "previous_observed_at": "2026-10-06T10:49:01.036959Z",
+      "current_observed_at": "2026-11-05T10:56:30.333843Z",
+      "changes": [
+        {
+          "event_id": "180bdf7aa250a6022be99414acc98321b4e5ea4e11b46ca26969071dc4be9898",
+          "etf_id": "US-AGG",
+          "holding_symbol": "BISXX",
+          "holding_name_en": null,
+          "holding_name_zh": null,
+          "holding_display_name": "BISXX",
+          "holding_display_label": "(BISXX)BISXX",
+          "holding_bilingual_name": "BISXX",
+          "previous_weight": 0.0292519,
+          "current_weight": 0.0293451,
+          "delta_weight": 9.32e-05,
+          "change_type": "WEIGHT_INCREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20261006-c37a689c5872",
+          "current_snapshot_id": "20261105-00d8e9ed5b48",
+          "previous_observed_at": "2026-10-06T10:49:01.036959Z",
+          "current_observed_at": "2026-11-05T10:56:30.333843Z",
           "coverage": "top_holdings_only"
         }
       ]

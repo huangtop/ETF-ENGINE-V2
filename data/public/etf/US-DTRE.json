@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 5.4905,
+      "value": 5.4842,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 11.1568,
+      "value": 11.149,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.0472,
+      "value": 14.0455,
       "unit": "percent"
     },
     "beta": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.6875,
+      "value": 0.687,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 11.1568,
+      "value": 11.149,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 14.9141,
+      "value": 14.9134,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 42.873,
+    "value": 42.87,
     "currency": "USD"
   },
   "trend": [
@@ -3120,7 +3120,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 128.94
+      "value": 128.93
     }
   ],
   "price_history": {
@@ -3132,10 +3132,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1711.0,
-    "average_volume_20d": 600.55,
-    "average_dollar_volume_20d": 24587.2355,
-    "relative_volume_20d": 2.8491,
+    "latest_volume": 1700.0,
+    "average_volume_20d": 600.0,
+    "average_dollar_volume_20d": 24563.4001,
+    "relative_volume_20d": 2.8333,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3143,12 +3143,26 @@
   "top_holdings": [
     {
       "etf_id": "US-DTRE",
-      "holding_symbol": "AMT",
-      "holding_name": "American Tower Corp",
-      "weight": 0.0702032,
+      "holding_symbol": "CCI",
+      "holding_name": "Crown Castle Inc",
+      "weight": 0.0830244,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Crown Castle Inc",
+      "holding_name_zh": null,
+      "display_name": "Crown Castle Inc",
+      "display_label": "(CCI)Crown Castle Inc",
+      "bilingual_name": "Crown Castle Inc"
+    },
+    {
+      "etf_id": "US-DTRE",
+      "holding_symbol": "AMT",
+      "holding_name": "American Tower Corp",
+      "weight": 0.0717871,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "American Tower Corp",
       "holding_name_zh": "美國電塔",
       "display_name": "美國電塔",
@@ -3159,10 +3173,10 @@
       "etf_id": "US-DTRE",
       "holding_symbol": "DLR",
       "holding_name": "Digital Realty Trust Inc",
-      "weight": 0.0692643,
+      "weight": 0.0668856,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
+      "rank": 3,
       "holding_name_en": "Digital Realty Trust Inc",
       "holding_name_zh": "Digital Realty",
       "display_name": "Digital Realty",
@@ -3173,10 +3187,10 @@
       "etf_id": "US-DTRE",
       "holding_symbol": "EQIX",
       "holding_name": "Equinix Inc",
-      "weight": 0.0691996,
+      "weight": 0.0660228,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 4,
       "holding_name_en": "Equinix Inc",
       "holding_name_zh": "Equinix",
       "display_name": "Equinix",
@@ -3185,23 +3199,9 @@
     },
     {
       "etf_id": "US-DTRE",
-      "holding_symbol": "PLD",
-      "holding_name": "Prologis Inc",
-      "weight": 0.0650002,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Prologis Inc",
-      "holding_name_zh": null,
-      "display_name": "Prologis Inc",
-      "display_label": "(PLD)Prologis Inc",
-      "bilingual_name": "Prologis Inc"
-    },
-    {
-      "etf_id": "US-DTRE",
       "holding_symbol": "SBAC",
       "holding_name": "SBA Communications Corp Class A",
-      "weight": 0.062093,
+      "weight": 0.0637722,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3213,79 +3213,79 @@
     },
     {
       "etf_id": "US-DTRE",
-      "holding_symbol": "CCI",
-      "holding_name": "Crown Castle Inc",
-      "weight": 0.0615118,
+      "holding_symbol": "PLD",
+      "holding_name": "Prologis Inc",
+      "weight": 0.0637502,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Crown Castle Inc",
+      "holding_name_en": "Prologis Inc",
       "holding_name_zh": null,
-      "display_name": "Crown Castle Inc",
-      "display_label": "(CCI)Crown Castle Inc",
-      "bilingual_name": "Crown Castle Inc"
+      "display_name": "Prologis Inc",
+      "display_label": "(PLD)Prologis Inc",
+      "bilingual_name": "Prologis Inc"
+    },
+    {
+      "etf_id": "US-DTRE",
+      "holding_symbol": "COLD",
+      "holding_name": "Americold Realty Trust Inc",
+      "weight": 0.0425442,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Americold Realty Trust Inc",
+      "holding_name_zh": null,
+      "display_name": "Americold Realty Trust Inc",
+      "display_label": "(COLD)Americold Realty Trust Inc",
+      "bilingual_name": "Americold Realty Trust Inc"
+    },
+    {
+      "etf_id": "US-DTRE",
+      "holding_symbol": "LINE",
+      "holding_name": "Lineage Inc REIT",
+      "weight": 0.0423516,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Lineage Inc REIT",
+      "holding_name_zh": null,
+      "display_name": "Lineage Inc REIT",
+      "display_label": "(LINE)Lineage Inc REIT",
+      "bilingual_name": "Lineage Inc REIT"
+    },
+    {
+      "etf_id": "US-DTRE",
+      "holding_symbol": "STAG",
+      "holding_name": "Stag Industrial Inc",
+      "weight": 0.0418293,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Stag Industrial Inc",
+      "holding_name_zh": null,
+      "display_name": "Stag Industrial Inc",
+      "display_label": "(STAG)Stag Industrial Inc",
+      "bilingual_name": "Stag Industrial Inc"
     },
     {
       "etf_id": "US-DTRE",
       "holding_symbol": "REXR",
       "holding_name": "Rexford Industrial Realty Inc",
-      "weight": 0.0520743,
+      "weight": 0.0414805,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 10,
       "holding_name_en": "Rexford Industrial Realty Inc",
       "holding_name_zh": null,
       "display_name": "Rexford Industrial Realty Inc",
       "display_label": "(REXR)Rexford Industrial Realty Inc",
       "bilingual_name": "Rexford Industrial Realty Inc"
-    },
-    {
-      "etf_id": "US-DTRE",
-      "holding_symbol": "SGRO.L",
-      "holding_name": "Segro PLC",
-      "weight": 0.0501026,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Segro PLC",
-      "holding_name_zh": null,
-      "display_name": "Segro PLC",
-      "display_label": "(SGRO.L)Segro PLC",
-      "bilingual_name": "Segro PLC"
-    },
-    {
-      "etf_id": "US-DTRE",
-      "holding_symbol": "TRNO",
-      "holding_name": "Terreno Realty Corp",
-      "weight": 0.046016,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Terreno Realty Corp",
-      "holding_name_zh": null,
-      "display_name": "Terreno Realty Corp",
-      "display_label": "(TRNO)Terreno Realty Corp",
-      "bilingual_name": "Terreno Realty Corp"
-    },
-    {
-      "etf_id": "US-DTRE",
-      "holding_symbol": "EGP",
-      "holding_name": "EastGroup Properties Inc",
-      "weight": 0.0458421,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "EastGroup Properties Inc",
-      "holding_name_zh": null,
-      "display_name": "EastGroup Properties Inc",
-      "display_label": "(EGP)EastGroup Properties Inc",
-      "bilingual_name": "EastGroup Properties Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.591307,
-    "top_3_weight": 0.208667
+    "top_10_weight": 0.583448,
+    "top_3_weight": 0.221697
   },
   "research": {
     "tier": "context",

@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -12.7742,
+      "value": -12.7753,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 6.7825,
+      "value": 6.7812,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 6.7825,
+      "value": 6.7812,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 15.9329,
+      "value": 15.9331,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 24.6923,
+    "value": 24.692,
     "currency": "USD"
   },
   "trend": [
@@ -1276,7 +1276,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 126.28
+      "value": 126.27
     }
   ],
   "price_history": {
@@ -1288,10 +1288,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 5719.0,
-    "average_volume_20d": 4915.95,
-    "average_dollar_volume_20d": 126662.4782,
-    "relative_volume_20d": 1.1634,
+    "latest_volume": 5700.0,
+    "average_volume_20d": 4915.0,
+    "average_dollar_volume_20d": 126638.9346,
+    "relative_volume_20d": 1.1597,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1299,40 +1299,12 @@
   "top_holdings": [
     {
       "etf_id": "US-AGIQ",
-      "holding_symbol": "CRWD",
-      "holding_name": "CrowdStrike Holdings Inc Class A",
-      "weight": 0.0626592,
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0729341,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "CrowdStrike Holdings Inc Class A",
-      "holding_name_zh": "CrowdStrike",
-      "display_name": "CrowdStrike",
-      "display_label": "(CRWD)CrowdStrike",
-      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
-    },
-    {
-      "etf_id": "US-AGIQ",
-      "holding_symbol": "GOOG",
-      "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0613633,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Alphabet Inc Class C",
-      "holding_name_zh": "Alphabet C類股",
-      "display_name": "Alphabet C類股",
-      "display_label": "(GOOG)Alphabet C類股",
-      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
-    },
-    {
-      "etf_id": "US-AGIQ",
-      "holding_symbol": "TSLA",
-      "holding_name": "Tesla Inc",
-      "weight": 0.0604968,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "Tesla Inc",
       "holding_name_zh": "特斯拉",
       "display_name": "特斯拉",
@@ -1341,9 +1313,37 @@
     },
     {
       "etf_id": "US-AGIQ",
+      "holding_symbol": "CRWD",
+      "holding_name": "CrowdStrike Holdings Inc Class A",
+      "weight": 0.0634158,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "CrowdStrike Holdings Inc Class A",
+      "holding_name_zh": "CrowdStrike",
+      "display_name": "CrowdStrike",
+      "display_label": "(CRWD)CrowdStrike",
+      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
+    },
+    {
+      "etf_id": "US-AGIQ",
+      "holding_symbol": "ISRG",
+      "holding_name": "Intuitive Surgical Inc",
+      "weight": 0.0590239,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Intuitive Surgical Inc",
+      "holding_name_zh": "直覺外科",
+      "display_name": "直覺外科",
+      "display_label": "(ISRG)直覺外科",
+      "bilingual_name": "Intuitive Surgical Inc（直覺外科）"
+    },
+    {
+      "etf_id": "US-AGIQ",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0598943,
+      "weight": 0.0574226,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1355,54 +1355,12 @@
     },
     {
       "etf_id": "US-AGIQ",
-      "holding_symbol": "ILMN",
-      "holding_name": "Illumina Inc",
-      "weight": 0.0572463,
+      "holding_symbol": "PLTR",
+      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "weight": 0.0568887,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Illumina Inc",
-      "holding_name_zh": null,
-      "display_name": "Illumina Inc",
-      "display_label": "(ILMN)Illumina Inc",
-      "bilingual_name": "Illumina Inc"
-    },
-    {
-      "etf_id": "US-AGIQ",
-      "holding_symbol": "PANW",
-      "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.0561878,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Palo Alto Networks Inc",
-      "holding_name_zh": "Palo Alto Networks",
-      "display_name": "Palo Alto Networks",
-      "display_label": "(PANW)Palo Alto Networks",
-      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
-    },
-    {
-      "etf_id": "US-AGIQ",
-      "holding_symbol": "QCOM",
-      "holding_name": "Qualcomm Inc",
-      "weight": 0.0550909,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Qualcomm Inc",
-      "holding_name_zh": "高通",
-      "display_name": "高通",
-      "display_label": "(QCOM)高通",
-      "bilingual_name": "Qualcomm Inc（高通）"
-    },
-    {
-      "etf_id": "US-AGIQ",
-      "holding_symbol": "PLTR",
-      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.0540122,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
       "holding_name_zh": "Palantir Technologies",
       "display_name": "Palantir Technologies",
@@ -1411,37 +1369,79 @@
     },
     {
       "etf_id": "US-AGIQ",
-      "holding_symbol": "TER",
-      "holding_name": "Teradyne Inc",
-      "weight": 0.0529215,
+      "holding_symbol": "TMO",
+      "holding_name": "Thermo Fisher Scientific Inc",
+      "weight": 0.0562419,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Teradyne Inc",
-      "holding_name_zh": "泰瑞達",
-      "display_name": "泰瑞達",
-      "display_label": "(TER)泰瑞達",
-      "bilingual_name": "Teradyne Inc（泰瑞達）"
+      "rank": 6,
+      "holding_name_en": "Thermo Fisher Scientific Inc",
+      "holding_name_zh": null,
+      "display_name": "Thermo Fisher Scientific Inc",
+      "display_label": "(TMO)Thermo Fisher Scientific Inc",
+      "bilingual_name": "Thermo Fisher Scientific Inc"
     },
     {
       "etf_id": "US-AGIQ",
-      "holding_symbol": "ISRG",
-      "holding_name": "Intuitive Surgical Inc",
-      "weight": 0.0519145,
+      "holding_symbol": "PANW",
+      "holding_name": "Palo Alto Networks Inc",
+      "weight": 0.0553664,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Palo Alto Networks Inc",
+      "holding_name_zh": "Palo Alto Networks",
+      "display_name": "Palo Alto Networks",
+      "display_label": "(PANW)Palo Alto Networks",
+      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
+    },
+    {
+      "etf_id": "US-AGIQ",
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0536214,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "US-AGIQ",
+      "holding_symbol": "ILMN",
+      "holding_name": "Illumina Inc",
+      "weight": 0.0528202,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Illumina Inc",
+      "holding_name_zh": null,
+      "display_name": "Illumina Inc",
+      "display_label": "(ILMN)Illumina Inc",
+      "bilingual_name": "Illumina Inc"
+    },
+    {
+      "etf_id": "US-AGIQ",
+      "holding_symbol": "QCOM",
+      "holding_name": "Qualcomm Inc",
+      "weight": 0.0527848,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Intuitive Surgical Inc",
-      "holding_name_zh": "直覺外科",
-      "display_name": "直覺外科",
-      "display_label": "(ISRG)直覺外科",
-      "bilingual_name": "Intuitive Surgical Inc（直覺外科）"
+      "holding_name_en": "Qualcomm Inc",
+      "holding_name_zh": "高通",
+      "display_name": "高通",
+      "display_label": "(QCOM)高通",
+      "bilingual_name": "Qualcomm Inc（高通）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.571787,
-    "top_3_weight": 0.184519
+    "top_10_weight": 0.58052,
+    "top_3_weight": 0.195374
   },
   "research": {
     "tier": "context",

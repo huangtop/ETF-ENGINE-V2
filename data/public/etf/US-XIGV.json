@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -45.5311,
+      "value": -45.5519,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 22.6534,
+      "value": 22.6529,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.6669,
+      "value": 1.6666,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -9.4579,
+      "value": -9.466,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 14.3087,
+      "value": 14.3108,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 22.382,
+    "value": 22.38,
     "currency": "USD"
   },
   "trend": [
@@ -460,7 +460,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 90.54
+      "value": 90.53
     }
   ],
   "price_history": {
@@ -472,10 +472,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 107.0,
-    "average_volume_20d": 135.35,
-    "average_dollar_volume_20d": 3147.3437,
-    "relative_volume_20d": 0.7905,
+    "latest_volume": 100.0,
+    "average_volume_20d": 135.0,
+    "average_dollar_volume_20d": 3139.5,
+    "relative_volume_20d": 0.7407,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -483,12 +483,26 @@
   "top_holdings": [
     {
       "etf_id": "US-XIGV",
-      "holding_symbol": "AMD",
-      "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0605911,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.0585683,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Apple Inc",
+      "holding_name_zh": "蘋果",
+      "display_name": "蘋果",
+      "display_label": "(AAPL)蘋果",
+      "bilingual_name": "Apple Inc（蘋果）"
+    },
+    {
+      "etf_id": "US-XIGV",
+      "holding_symbol": "AMD",
+      "holding_name": "Advanced Micro Devices Inc",
+      "weight": 0.0541811,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "Advanced Micro Devices Inc",
       "holding_name_zh": "超微半導體",
       "display_name": "超微半導體",
@@ -499,10 +513,10 @@
       "etf_id": "US-XIGV",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0568603,
+      "weight": 0.052258,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
+      "rank": 3,
       "holding_name_en": "Meta Platforms Inc Class A",
       "holding_name_zh": "Meta Platforms",
       "display_name": "Meta Platforms",
@@ -511,37 +525,23 @@
     },
     {
       "etf_id": "US-XIGV",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0527458,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "US-XIGV",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.0522258,
+      "holding_symbol": "TSLA",
+      "holding_name": "Tesla Inc",
+      "weight": 0.0518511,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Apple Inc",
-      "holding_name_zh": "蘋果",
-      "display_name": "蘋果",
-      "display_label": "(AAPL)蘋果",
-      "bilingual_name": "Apple Inc（蘋果）"
+      "holding_name_en": "Tesla Inc",
+      "holding_name_zh": "特斯拉",
+      "display_name": "特斯拉",
+      "display_label": "(TSLA)特斯拉",
+      "bilingual_name": "Tesla Inc（特斯拉）"
     },
     {
       "etf_id": "US-XIGV",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.0518379,
+      "weight": 0.050335,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -553,26 +553,12 @@
     },
     {
       "etf_id": "US-XIGV",
-      "holding_symbol": "SPCX",
-      "holding_name": "Space Exploration Technologies Corp Class A",
-      "weight": 0.0473148,
+      "holding_symbol": "AMZN",
+      "holding_name": "Amazon.com Inc",
+      "weight": 0.049445,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Space Exploration Technologies Corp Class A",
-      "holding_name_zh": null,
-      "display_name": "Space Exploration Technologies Corp Class A",
-      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
-      "bilingual_name": "Space Exploration Technologies Corp Class A"
-    },
-    {
-      "etf_id": "US-XIGV",
-      "holding_symbol": "AMZN",
-      "holding_name": "Amazon.com Inc",
-      "weight": 0.0472983,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Amazon.com Inc",
       "holding_name_zh": "亞馬遜",
       "display_name": "亞馬遜",
@@ -581,23 +567,37 @@
     },
     {
       "etf_id": "US-XIGV",
-      "holding_symbol": "GOOGL",
-      "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0440174,
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0474817,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "US-XIGV",
+      "holding_symbol": "SPCX",
+      "holding_name": "Space Exploration Technologies Corp Class A",
+      "weight": 0.0463905,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Alphabet Inc Class A",
-      "holding_name_zh": "Alphabet A類股",
-      "display_name": "Alphabet A類股",
-      "display_label": "(GOOGL)Alphabet A類股",
-      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+      "holding_name_en": "Space Exploration Technologies Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Space Exploration Technologies Corp Class A",
+      "display_label": "(SPCX)Space Exploration Technologies Corp Class A",
+      "bilingual_name": "Space Exploration Technologies Corp Class A"
     },
     {
       "etf_id": "US-XIGV",
       "holding_symbol": "AVGO",
       "holding_name": "Broadcom Inc",
-      "weight": 0.043481,
+      "weight": 0.0437474,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -609,23 +609,23 @@
     },
     {
       "etf_id": "US-XIGV",
-      "holding_symbol": "TSLA",
-      "holding_name": "Tesla Inc",
-      "weight": 0.0424616,
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0387966,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Tesla Inc",
-      "holding_name_zh": "特斯拉",
-      "display_name": "特斯拉",
-      "display_label": "(TSLA)特斯拉",
-      "bilingual_name": "Tesla Inc（特斯拉）"
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.498834,
-    "top_3_weight": 0.170197
+    "top_10_weight": 0.493055,
+    "top_3_weight": 0.165007
   },
   "research": {
     "tier": "context",

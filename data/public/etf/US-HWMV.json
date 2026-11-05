@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 47.1006,
+      "value": 47.164,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.0496,
+      "value": 13.0533,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.0822,
+      "value": -0.0814,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 5.463,
+      "value": 5.4706,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 18.0516,
+      "value": 18.0482,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 26.2181,
+    "value": 26.22,
     "currency": "USD"
   },
   "trend": [
@@ -212,7 +212,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 105.46
+      "value": 105.47
     }
   ],
   "price_history": {
@@ -224,10 +224,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 6.0,
-    "average_volume_20d": 95.3,
-    "average_dollar_volume_20d": 2430.0155,
-    "relative_volume_20d": 0.063,
+    "latest_volume": 100.0,
+    "average_volume_20d": 100.0,
+    "average_dollar_volume_20d": 2553.25,
+    "relative_volume_20d": 1.0,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -235,40 +235,12 @@
   "top_holdings": [
     {
       "etf_id": "US-HWMV",
-      "holding_symbol": "APA",
-      "holding_name": "APA Corp",
-      "weight": 0.0461681,
+      "holding_symbol": "AIG",
+      "holding_name": "American International Group Inc",
+      "weight": 0.0431982,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "APA Corp",
-      "holding_name_zh": null,
-      "display_name": "APA Corp",
-      "display_label": "(APA)APA Corp",
-      "bilingual_name": "APA Corp"
-    },
-    {
-      "etf_id": "US-HWMV",
-      "holding_symbol": "WDAY",
-      "holding_name": "Workday Inc Class A",
-      "weight": 0.0445066,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Workday Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "Workday Inc Class A",
-      "display_label": "(WDAY)Workday Inc Class A",
-      "bilingual_name": "Workday Inc Class A"
-    },
-    {
-      "etf_id": "US-HWMV",
-      "holding_symbol": "AIG",
-      "holding_name": "American International Group Inc",
-      "weight": 0.0441004,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "American International Group Inc",
       "holding_name_zh": null,
       "display_name": "American International Group Inc",
@@ -279,10 +251,10 @@
       "etf_id": "US-HWMV",
       "holding_symbol": "KOS",
       "holding_name": "Kosmos Energy Ltd",
-      "weight": 0.0404248,
+      "weight": 0.0430584,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 2,
       "holding_name_en": "Kosmos Energy Ltd",
       "holding_name_zh": null,
       "display_name": "Kosmos Energy Ltd",
@@ -291,26 +263,26 @@
     },
     {
       "etf_id": "US-HWMV",
-      "holding_symbol": "CRGY",
-      "holding_name": "Crescent Energy Co Class A",
-      "weight": 0.0323431,
+      "holding_symbol": "APA",
+      "holding_name": "APA Corp",
+      "weight": 0.0406213,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Crescent Energy Co Class A",
+      "rank": 3,
+      "holding_name_en": "APA Corp",
       "holding_name_zh": null,
-      "display_name": "Crescent Energy Co Class A",
-      "display_label": "(CRGY)Crescent Energy Co Class A",
-      "bilingual_name": "Crescent Energy Co Class A"
+      "display_name": "APA Corp",
+      "display_label": "(APA)APA Corp",
+      "bilingual_name": "APA Corp"
     },
     {
       "etf_id": "US-HWMV",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.0301132,
+      "weight": 0.0399426,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
       "holding_name_en": "First American Government Obligs X",
       "holding_name_zh": null,
       "display_name": "First American Government Obligs X",
@@ -319,9 +291,37 @@
     },
     {
       "etf_id": "US-HWMV",
+      "holding_symbol": "WDAY",
+      "holding_name": "Workday Inc Class A",
+      "weight": 0.037809,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Workday Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Workday Inc Class A",
+      "display_label": "(WDAY)Workday Inc Class A",
+      "bilingual_name": "Workday Inc Class A"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "CRGY",
+      "holding_name": "Crescent Energy Co Class A",
+      "weight": 0.0338233,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Crescent Energy Co Class A",
+      "holding_name_zh": null,
+      "display_name": "Crescent Energy Co Class A",
+      "display_label": "(CRGY)Crescent Energy Co Class A",
+      "bilingual_name": "Crescent Energy Co Class A"
+    },
+    {
+      "etf_id": "US-HWMV",
       "holding_symbol": "FISV",
       "holding_name": "Fiserv Inc",
-      "weight": 0.0283661,
+      "weight": 0.0317405,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -333,51 +333,51 @@
     },
     {
       "etf_id": "US-HWMV",
-      "holding_symbol": "SLM",
-      "holding_name": "SLM Corp",
-      "weight": 0.0277945,
+      "holding_symbol": "CNC",
+      "holding_name": "Centene Corp",
+      "weight": 0.0260865,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "SLM Corp",
-      "holding_name_zh": null,
-      "display_name": "SLM Corp",
-      "display_label": "(SLM)SLM Corp",
-      "bilingual_name": "SLM Corp"
-    },
-    {
-      "etf_id": "US-HWMV",
-      "holding_symbol": "UHS",
-      "holding_name": "Universal Health Services Inc Class B",
-      "weight": 0.026314,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Universal Health Services Inc Class B",
-      "holding_name_zh": null,
-      "display_name": "Universal Health Services Inc Class B",
-      "display_label": "(UHS)Universal Health Services Inc Class B",
-      "bilingual_name": "Universal Health Services Inc Class B"
-    },
-    {
-      "etf_id": "US-HWMV",
-      "holding_symbol": "CNC",
-      "holding_name": "Centene Corp",
-      "weight": 0.0249388,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
       "holding_name_en": "Centene Corp",
       "holding_name_zh": null,
       "display_name": "Centene Corp",
       "display_label": "(CNC)Centene Corp",
       "bilingual_name": "Centene Corp"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "WPP",
+      "holding_name": "WPP PLC ADR",
+      "weight": 0.0247321,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "WPP PLC ADR",
+      "holding_name_zh": null,
+      "display_name": "WPP PLC ADR",
+      "display_label": "(WPP)WPP PLC ADR",
+      "bilingual_name": "WPP PLC ADR"
+    },
+    {
+      "etf_id": "US-HWMV",
+      "holding_symbol": "FLR",
+      "holding_name": "Fluor Corp",
+      "weight": 0.0230289,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Fluor Corp",
+      "holding_name_zh": null,
+      "display_name": "Fluor Corp",
+      "display_label": "(FLR)Fluor Corp",
+      "bilingual_name": "Fluor Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.34507,
-    "top_3_weight": 0.134775
+    "top_10_weight": 0.344041,
+    "top_3_weight": 0.126878
   },
   "research": {
     "tier": "context",

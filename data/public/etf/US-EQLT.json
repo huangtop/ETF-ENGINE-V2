@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -3.1287,
+      "value": -3.1298,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 16.1593,
+      "value": 16.1579,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 24.2759,
+      "value": 24.2758,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.464,
+      "value": 1.4639,
       "unit": "ratio"
     },
     "data_years": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.6039,
+      "value": 0.6038,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 16.1593,
+      "value": 16.1579,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.4788,
+      "value": 16.4787,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 34.4094,
+    "value": 34.409,
     "currency": "USD"
   },
   "trend": [
@@ -3132,10 +3132,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 288.0,
-    "average_volume_20d": 1344.4,
-    "average_dollar_volume_20d": 47327.1002,
-    "relative_volume_20d": 0.2142,
+    "latest_volume": 300.0,
+    "average_volume_20d": 1345.0,
+    "average_dollar_volume_20d": 47347.7398,
+    "relative_volume_20d": 0.223,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3145,7 +3145,7 @@
       "etf_id": "US-EQLT",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0568629,
+      "weight": 0.0510333,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3157,12 +3157,26 @@
     },
     {
       "etf_id": "US-EQLT",
-      "holding_symbol": "0992.HK",
-      "holding_name": "Lenovo Group Ltd",
-      "weight": 0.0555457,
+      "holding_symbol": "INFY.NS",
+      "holding_name": "Infosys Ltd",
+      "weight": 0.04484,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
+      "holding_name_en": "Infosys Ltd",
+      "holding_name_zh": null,
+      "display_name": "Infosys Ltd",
+      "display_label": "(INFY.NS)Infosys Ltd",
+      "bilingual_name": "Infosys Ltd"
+    },
+    {
+      "etf_id": "US-EQLT",
+      "holding_symbol": "0992.HK",
+      "holding_name": "Lenovo Group Ltd",
+      "weight": 0.0365394,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "Lenovo Group Ltd",
       "holding_name_zh": null,
       "display_name": "Lenovo Group Ltd",
@@ -3173,10 +3187,10 @@
       "etf_id": "US-EQLT",
       "holding_symbol": "2345.TW",
       "holding_name": "Accton Technology Corp",
-      "weight": 0.0370367,
+      "weight": 0.0364612,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 4,
       "holding_name_en": "Accton Technology Corp",
       "holding_name_zh": "智邦",
       "display_name": "智邦",
@@ -3185,54 +3199,12 @@
     },
     {
       "etf_id": "US-EQLT",
-      "holding_symbol": "2059.TW",
-      "holding_name": "King Slide Works Co Ltd",
-      "weight": 0.0370074,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "King Slide Works Co Ltd",
-      "holding_name_zh": "川湖",
-      "display_name": "川湖",
-      "display_label": "(2059.TW)川湖",
-      "bilingual_name": "King Slide Works Co Ltd（川湖）"
-    },
-    {
-      "etf_id": "US-EQLT",
-      "holding_symbol": "INFY.NS",
-      "holding_name": "Infosys Ltd",
-      "weight": 0.0334231,
+      "holding_symbol": "0700.HK",
+      "holding_name": "Tencent Holdings Ltd",
+      "weight": 0.0328372,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Infosys Ltd",
-      "holding_name_zh": null,
-      "display_name": "Infosys Ltd",
-      "display_label": "(INFY.NS)Infosys Ltd",
-      "bilingual_name": "Infosys Ltd"
-    },
-    {
-      "etf_id": "US-EQLT",
-      "holding_symbol": "5274.TWO",
-      "holding_name": "Aspeed Technology Inc",
-      "weight": 0.0334015,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Aspeed Technology Inc",
-      "holding_name_zh": "信驊",
-      "display_name": "信驊",
-      "display_label": "(5274.TWO)信驊",
-      "bilingual_name": "Aspeed Technology Inc（信驊）"
-    },
-    {
-      "etf_id": "US-EQLT",
-      "holding_symbol": "0700.HK",
-      "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0332878,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Tencent Holdings Ltd",
       "holding_name_zh": null,
       "display_name": "Tencent Holdings Ltd",
@@ -3241,51 +3213,65 @@
     },
     {
       "etf_id": "US-EQLT",
-      "holding_symbol": "9988.HK",
-      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0281956,
+      "holding_symbol": "2059.TW",
+      "holding_name": "King Slide Works Co Ltd",
+      "weight": 0.0320533,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
-      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
+      "rank": 6,
+      "holding_name_en": "King Slide Works Co Ltd",
+      "holding_name_zh": "川湖",
+      "display_name": "川湖",
+      "display_label": "(2059.TW)川湖",
+      "bilingual_name": "King Slide Works Co Ltd（川湖）"
     },
     {
       "etf_id": "US-EQLT",
-      "holding_symbol": "DELTA-R",
-      "holding_name": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "weight": 0.0224066,
+      "holding_symbol": "5274.TWO",
+      "holding_name": "Aspeed Technology Inc",
+      "weight": 0.0307819,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "holding_name_zh": null,
-      "display_name": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "display_label": "(DELTA-R)Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt",
-      "bilingual_name": "Delta Electronics (Thailand) PCL Units Non-Voting Depository Receipt"
+      "rank": 7,
+      "holding_name_en": "Aspeed Technology Inc",
+      "holding_name_zh": "信驊",
+      "display_name": "信驊",
+      "display_label": "(5274.TWO)信驊",
+      "bilingual_name": "Aspeed Technology Inc（信驊）"
     },
     {
       "etf_id": "US-EQLT",
       "holding_symbol": "TCS.NS",
       "holding_name": "Tata Consultancy Services Ltd",
-      "weight": 0.0222471,
+      "weight": 0.0303656,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 8,
       "holding_name_en": "Tata Consultancy Services Ltd",
       "holding_name_zh": null,
       "display_name": "Tata Consultancy Services Ltd",
       "display_label": "(TCS.NS)Tata Consultancy Services Ltd",
       "bilingual_name": "Tata Consultancy Services Ltd"
+    },
+    {
+      "etf_id": "US-EQLT",
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0284511,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
+      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.359414,
-    "top_3_weight": 0.149445
+    "holding_count": 9,
+    "top_10_weight": 0.323363,
+    "top_3_weight": 0.132413
   },
   "research": {
     "tier": "context",

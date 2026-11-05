@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -3.0595,
+      "value": -1.0592,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.1572,
+      "value": 14.5909,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.883,
+      "value": 0.9049,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.7222,
+      "value": 0.7262,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 7.283,
+      "value": 10.6882,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 8.3384,
+      "value": 8.5109,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 26.78,
+    "date": "2026-11-04",
+    "value": 27.63,
     "currency": "USD"
   },
   "trend": [
@@ -817,20 +817,24 @@
     {
       "date": "2026-11-03",
       "value": 107.28
+    },
+    {
+      "date": "2026-11-04",
+      "value": 110.69
     }
   ],
   "price_history": {
     "first_date": "2026-02-13",
-    "last_date": "2026-11-03",
-    "observations": 182,
+    "last_date": "2026-11-04",
+    "observations": 183,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "latest_volume": 100.0,
     "average_volume_20d": 605.0,
-    "average_dollar_volume_20d": 16132.4498,
+    "average_dollar_volume_20d": 16135.5998,
     "relative_volume_20d": 0.1653,
     "currency": "USD",
     "volume_unit": "shares",
@@ -841,7 +845,7 @@
       "etf_id": "US-EXEQ",
       "holding_symbol": "DAL",
       "holding_name": "Delta Air Lines Inc",
-      "weight": 0.0966096,
+      "weight": 0.1099772,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -855,7 +859,7 @@
       "etf_id": "US-EXEQ",
       "holding_symbol": "UAL",
       "holding_name": "United Airlines Holdings Inc",
-      "weight": 0.0660321,
+      "weight": 0.0808102,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -869,7 +873,7 @@
       "etf_id": "US-EXEQ",
       "holding_symbol": "AU",
       "holding_name": "Anglogold Ashanti PLC",
-      "weight": 0.0419359,
+      "weight": 0.0399893,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -881,82 +885,26 @@
     },
     {
       "etf_id": "US-EXEQ",
-      "holding_symbol": "AER",
-      "holding_name": "AerCap Holdings NV",
-      "weight": 0.0345161,
+      "holding_symbol": "CCL",
+      "holding_name": "Carnival Corporation Ltd",
+      "weight": 0.0355003,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "AerCap Holdings NV",
+      "holding_name_en": "Carnival Corporation Ltd",
       "holding_name_zh": null,
-      "display_name": "AerCap Holdings NV",
-      "display_label": "(AER)AerCap Holdings NV",
-      "bilingual_name": "AerCap Holdings NV"
-    },
-    {
-      "etf_id": "US-EXEQ",
-      "holding_symbol": "MSFT",
-      "holding_name": "Microsoft Corp",
-      "weight": 0.0340772,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Microsoft Corp",
-      "holding_name_zh": "微軟",
-      "display_name": "微軟",
-      "display_label": "(MSFT)微軟",
-      "bilingual_name": "Microsoft Corp（微軟）"
-    },
-    {
-      "etf_id": "US-EXEQ",
-      "holding_symbol": "EOG",
-      "holding_name": "EOG Resources Inc",
-      "weight": 0.0314543,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "EOG Resources Inc",
-      "holding_name_zh": null,
-      "display_name": "EOG Resources Inc",
-      "display_label": "(EOG)EOG Resources Inc",
-      "bilingual_name": "EOG Resources Inc"
-    },
-    {
-      "etf_id": "US-EXEQ",
-      "holding_symbol": "RCL",
-      "holding_name": "Royal Caribbean Group",
-      "weight": 0.0291083,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Royal Caribbean Group",
-      "holding_name_zh": null,
-      "display_name": "Royal Caribbean Group",
-      "display_label": "(RCL)Royal Caribbean Group",
-      "bilingual_name": "Royal Caribbean Group"
-    },
-    {
-      "etf_id": "US-EXEQ",
-      "holding_symbol": "VRTX",
-      "holding_name": "Vertex Pharmaceuticals Inc",
-      "weight": 0.0278861,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Vertex Pharmaceuticals Inc",
-      "holding_name_zh": null,
-      "display_name": "Vertex Pharmaceuticals Inc",
-      "display_label": "(VRTX)Vertex Pharmaceuticals Inc",
-      "bilingual_name": "Vertex Pharmaceuticals Inc"
+      "display_name": "Carnival Corporation Ltd",
+      "display_label": "(CCL)Carnival Corporation Ltd",
+      "bilingual_name": "Carnival Corporation Ltd"
     },
     {
       "etf_id": "US-EXEQ",
       "holding_symbol": "MELI",
       "holding_name": "MercadoLibre Inc",
-      "weight": 0.0274978,
+      "weight": 0.0320183,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 5,
       "holding_name_en": "MercadoLibre Inc",
       "holding_name_zh": null,
       "display_name": "MercadoLibre Inc",
@@ -965,23 +913,79 @@
     },
     {
       "etf_id": "US-EXEQ",
-      "holding_symbol": "EQT",
-      "holding_name": "EQT Corp",
-      "weight": 0.0263562,
+      "holding_symbol": "GOOG",
+      "holding_name": "Alphabet Inc Class C",
+      "weight": 0.0310732,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Alphabet Inc Class C",
+      "holding_name_zh": "Alphabet C類股",
+      "display_name": "Alphabet C類股",
+      "display_label": "(GOOG)Alphabet C類股",
+      "bilingual_name": "Alphabet Inc Class C（Alphabet C類股）"
+    },
+    {
+      "etf_id": "US-EXEQ",
+      "holding_symbol": "GOOGL",
+      "holding_name": "Alphabet Inc Class A",
+      "weight": 0.0309915,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Alphabet Inc Class A",
+      "holding_name_zh": "Alphabet A類股",
+      "display_name": "Alphabet A類股",
+      "display_label": "(GOOGL)Alphabet A類股",
+      "bilingual_name": "Alphabet Inc Class A（Alphabet A類股）"
+    },
+    {
+      "etf_id": "US-EXEQ",
+      "holding_symbol": "RCL",
+      "holding_name": "Royal Caribbean Group",
+      "weight": 0.0288301,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Royal Caribbean Group",
+      "holding_name_zh": null,
+      "display_name": "Royal Caribbean Group",
+      "display_label": "(RCL)Royal Caribbean Group",
+      "bilingual_name": "Royal Caribbean Group"
+    },
+    {
+      "etf_id": "US-EXEQ",
+      "holding_symbol": "PM",
+      "holding_name": "Philip Morris International Inc",
+      "weight": 0.028022,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Philip Morris International Inc",
+      "holding_name_zh": null,
+      "display_name": "Philip Morris International Inc",
+      "display_label": "(PM)Philip Morris International Inc",
+      "bilingual_name": "Philip Morris International Inc"
+    },
+    {
+      "etf_id": "US-EXEQ",
+      "holding_symbol": "AER",
+      "holding_name": "AerCap Holdings NV",
+      "weight": 0.0270778,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "EQT Corp",
+      "holding_name_en": "AerCap Holdings NV",
       "holding_name_zh": null,
-      "display_name": "EQT Corp",
-      "display_label": "(EQT)EQT Corp",
-      "bilingual_name": "EQT Corp"
+      "display_name": "AerCap Holdings NV",
+      "display_label": "(AER)AerCap Holdings NV",
+      "bilingual_name": "AerCap Holdings NV"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.415474,
-    "top_3_weight": 0.204578
+    "top_10_weight": 0.44429,
+    "top_3_weight": 0.230777
   },
   "research": {
     "tier": "context",

@@ -56,8 +56,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 25.28,
+    "date": "2026-11-04",
+    "value": 24.06,
     "currency": "USD"
   },
   "trend": [
@@ -116,30 +116,133 @@
     {
       "date": "2026-11-03",
       "value": 100.24
+    },
+    {
+      "date": "2026-11-04",
+      "value": 95.4
     }
   ],
   "price_history": {
     "first_date": "2026-10-15",
-    "last_date": "2026-11-03",
-    "observations": 14,
+    "last_date": "2026-11-04",
+    "observations": 15,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "latest_volume": 100.0,
-    "average_volume_20d": 464.2857,
-    "average_dollar_volume_20d": 12090.0715,
-    "relative_volume_20d": 0.2154,
+    "average_volume_20d": 440.0,
+    "average_dollar_volume_20d": 11444.4667,
+    "relative_volume_20d": 0.2273,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 14
+    "observation_count": 15
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "XLE",
+      "holding_name": "State Street®EngySelSectSPDR®ETF",
+      "weight": 0.8470394,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "State Street®EngySelSectSPDR®ETF",
+      "holding_name_zh": null,
+      "display_name": "State Street®EngySelSectSPDR®ETF",
+      "display_label": "(XLE)State Street®EngySelSectSPDR®ETF",
+      "bilingual_name": "State Street®EngySelSectSPDR®ETF"
+    },
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "XOM",
+      "holding_name": "ExxonMobil Holdings Corp",
+      "weight": 0.0945885,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "ExxonMobil Holdings Corp",
+      "holding_name_zh": null,
+      "display_name": "ExxonMobil Holdings Corp",
+      "display_label": "(XOM)ExxonMobil Holdings Corp",
+      "bilingual_name": "ExxonMobil Holdings Corp"
+    },
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "CVX",
+      "holding_name": "Chevron Corp",
+      "weight": 0.0257477,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Chevron Corp",
+      "holding_name_zh": null,
+      "display_name": "Chevron Corp",
+      "display_label": "(CVX)Chevron Corp",
+      "bilingual_name": "Chevron Corp"
+    },
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "COP",
+      "holding_name": "ConocoPhillips",
+      "weight": 0.0098711,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "ConocoPhillips",
+      "holding_name_zh": null,
+      "display_name": "ConocoPhillips",
+      "display_label": "(COP)ConocoPhillips",
+      "bilingual_name": "ConocoPhillips"
+    },
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "VLO",
+      "holding_name": "Valero Energy Corp",
+      "weight": 0.0090397,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Valero Energy Corp",
+      "holding_name_zh": null,
+      "display_name": "Valero Energy Corp",
+      "display_label": "(VLO)Valero Energy Corp",
+      "bilingual_name": "Valero Energy Corp"
+    },
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "MPC",
+      "holding_name": "Marathon Petroleum Corp",
+      "weight": 0.0083826,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Marathon Petroleum Corp",
+      "holding_name_zh": null,
+      "display_name": "Marathon Petroleum Corp",
+      "display_label": "(MPC)Marathon Petroleum Corp",
+      "bilingual_name": "Marathon Petroleum Corp"
+    },
+    {
+      "etf_id": "US-XLEM",
+      "holding_symbol": "PSX",
+      "holding_name": "Phillips 66",
+      "weight": 0.005331,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Phillips 66",
+      "holding_name_zh": null,
+      "display_name": "Phillips 66",
+      "display_label": "(PSX)Phillips 66",
+      "bilingual_name": "Phillips 66"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 7,
+    "top_10_weight": 1.0,
+    "top_3_weight": 0.967376
   },
   "research": {
     "tier": "context",

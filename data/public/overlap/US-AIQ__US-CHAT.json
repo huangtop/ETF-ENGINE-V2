@@ -1,26 +1,32 @@
 {
   "left_etf_id": "US-AIQ",
   "right_etf_id": "US-CHAT",
-  "overlap_ratio": 0.096126,
-  "shared_holdings_count": 3,
+  "overlap_ratio": 0.127691,
+  "shared_holdings_count": 4,
   "shared_holdings": [
     {
       "holding_symbol": "MSFT",
-      "left_weight": 0.03617,
-      "right_weight": 0.037638,
-      "overlap_weight": 0.03617
+      "left_weight": 0.039772,
+      "right_weight": 0.052937,
+      "overlap_weight": 0.039772
     },
     {
-      "holding_symbol": "AMD",
-      "left_weight": 0.030511,
-      "right_weight": 0.033381,
-      "overlap_weight": 0.030511
+      "holding_symbol": "AMZN",
+      "left_weight": 0.02991,
+      "right_weight": 0.038018,
+      "overlap_weight": 0.02991
+    },
+    {
+      "holding_symbol": "META",
+      "left_weight": 0.029505,
+      "right_weight": 0.035236,
+      "overlap_weight": 0.029505
     },
     {
       "holding_symbol": "NVDA",
-      "left_weight": 0.029445,
-      "right_weight": 0.069248,
-      "overlap_weight": 0.029445
+      "left_weight": 0.028504,
+      "right_weight": 0.073525,
+      "overlap_weight": 0.028504
     }
   ]
 }

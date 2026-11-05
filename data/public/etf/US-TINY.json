@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -0.6471,
+      "value": -0.6469,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 22.7804,
+      "value": 22.7807,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -71,7 +71,7 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -33.9481,
+      "value": -33.9479,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -79,7 +79,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 22.7804,
+      "value": 22.7807,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 64.0968,
+    "value": 64.097,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 584.0,
-    "average_volume_20d": 1524.2,
-    "average_dollar_volume_20d": 106990.0813,
-    "relative_volume_20d": 0.3832,
+    "latest_volume": 600.0,
+    "average_volume_20d": 1525.0,
+    "average_dollar_volume_20d": 107041.3647,
+    "relative_volume_20d": 0.3934,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-TINY",
       "holding_symbol": "BRKR",
       "holding_name": "Bruker Corp",
-      "weight": 0.0759689,
+      "weight": 0.08026849,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-TINY",
       "holding_symbol": "7735.T",
       "holding_name": "Screen Holdings Co Ltd",
-      "weight": 0.0596694,
+      "weight": 0.0559141,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-TINY",
       "holding_symbol": "ASML.AS",
       "holding_name": "ASML Holding NV",
-      "weight": 0.0531312,
+      "weight": 0.0555722,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3181,54 +3181,12 @@
     },
     {
       "etf_id": "US-TINY",
-      "holding_symbol": "LRCX",
-      "holding_name": "Lam Research Corp",
-      "weight": 0.0526272,
+      "holding_symbol": "2330.TW",
+      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.0537584,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Lam Research Corp",
-      "holding_name_zh": "科林研發",
-      "display_name": "科林研發",
-      "display_label": "(LRCX)科林研發",
-      "bilingual_name": "Lam Research Corp（科林研發）"
-    },
-    {
-      "etf_id": "US-TINY",
-      "holding_symbol": "AMAT",
-      "holding_name": "Applied Materials Inc",
-      "weight": 0.052607,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Applied Materials Inc",
-      "holding_name_zh": "應用材料",
-      "display_name": "應用材料",
-      "display_label": "(AMAT)應用材料",
-      "bilingual_name": "Applied Materials Inc（應用材料）"
-    },
-    {
-      "etf_id": "US-TINY",
-      "holding_symbol": "7731.T",
-      "holding_name": "Nikon Corp",
-      "weight": 0.0504161,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Nikon Corp",
-      "holding_name_zh": null,
-      "display_name": "Nikon Corp",
-      "display_label": "(7731.T)Nikon Corp",
-      "bilingual_name": "Nikon Corp"
-    },
-    {
-      "etf_id": "US-TINY",
-      "holding_symbol": "2330.TW",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.0480584,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
       "holding_name_zh": "台積電",
       "display_name": "台積電",
@@ -3237,12 +3195,40 @@
     },
     {
       "etf_id": "US-TINY",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.0470373,
+      "holding_symbol": "7731.T",
+      "holding_name": "Nikon Corp",
+      "weight": 0.0509262,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 5,
+      "holding_name_en": "Nikon Corp",
+      "holding_name_zh": null,
+      "display_name": "Nikon Corp",
+      "display_label": "(7731.T)Nikon Corp",
+      "bilingual_name": "Nikon Corp"
+    },
+    {
+      "etf_id": "US-TINY",
+      "holding_symbol": "ENTG",
+      "holding_name": "Entegris Inc",
+      "weight": 0.05087,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Entegris Inc",
+      "holding_name_zh": null,
+      "display_name": "Entegris Inc",
+      "display_label": "(ENTG)Entegris Inc",
+      "bilingual_name": "Entegris Inc"
+    },
+    {
+      "etf_id": "US-TINY",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.0505261,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "NVIDIA Corp",
       "holding_name_zh": "輝達",
       "display_name": "輝達",
@@ -3251,37 +3237,51 @@
     },
     {
       "etf_id": "US-TINY",
-      "holding_symbol": "VECO",
-      "holding_name": "Veeco Instruments Inc",
-      "weight": 0.0430259,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Veeco Instruments Inc",
-      "holding_name_zh": null,
-      "display_name": "Veeco Instruments Inc",
-      "display_label": "(VECO)Veeco Instruments Inc",
-      "bilingual_name": "Veeco Instruments Inc"
-    },
-    {
-      "etf_id": "US-TINY",
       "holding_symbol": "CBT",
       "holding_name": "Cabot Corp",
-      "weight": 0.0429134,
+      "weight": 0.0497851,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 8,
       "holding_name_en": "Cabot Corp",
       "holding_name_zh": null,
       "display_name": "Cabot Corp",
       "display_label": "(CBT)Cabot Corp",
       "bilingual_name": "Cabot Corp"
+    },
+    {
+      "etf_id": "US-TINY",
+      "holding_symbol": "AMAT",
+      "holding_name": "Applied Materials Inc",
+      "weight": 0.0481067,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Applied Materials Inc",
+      "holding_name_zh": "應用材料",
+      "display_name": "應用材料",
+      "display_label": "(AMAT)應用材料",
+      "bilingual_name": "Applied Materials Inc（應用材料）"
+    },
+    {
+      "etf_id": "US-TINY",
+      "holding_symbol": "1963.T",
+      "holding_name": "JGC Holdings Corp",
+      "weight": 0.046881,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "JGC Holdings Corp",
+      "holding_name_zh": null,
+      "display_name": "JGC Holdings Corp",
+      "display_label": "(1963.T)JGC Holdings Corp",
+      "bilingual_name": "JGC Holdings Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.525455,
-    "top_3_weight": 0.18877
+    "top_10_weight": 0.542608,
+    "top_3_weight": 0.191755
   },
   "research": {
     "tier": "context",

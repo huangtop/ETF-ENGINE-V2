@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -13.6042,
+      "value": -13.604,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 1.588,
+      "value": 1.5882,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -75,11 +75,11 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.0049,
+      "value": 0.005,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 1.588,
+      "value": 1.5882,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 38.6339,
+    "value": 38.634,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 17168.0,
-    "average_volume_20d": 26018.4,
-    "average_dollar_volume_20d": 983585.234,
-    "relative_volume_20d": 0.6598,
+    "latest_volume": 17200.0,
+    "average_volume_20d": 26020.0,
+    "average_dollar_volume_20d": 983647.1336,
+    "relative_volume_20d": 0.661,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-BCHP",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.1168634,
+      "weight": 0.1073726,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-BCHP",
       "holding_symbol": "MSFT",
       "holding_name": "Microsoft Corp",
-      "weight": 0.1035269,
+      "weight": 0.1070426,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-BCHP",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.1020316,
+      "weight": 0.1012208,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3183,7 +3183,7 @@
       "etf_id": "US-BCHP",
       "holding_symbol": "GOOG",
       "holding_name": "Alphabet Inc Class C",
-      "weight": 0.0983104,
+      "weight": 0.0838199,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3197,7 +3197,7 @@
       "etf_id": "US-BCHP",
       "holding_symbol": "BN.TO",
       "holding_name": "Brookfield Corp Registered Shs -A- Limited Vtg",
-      "weight": 0.07273,
+      "weight": 0.0797087,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3209,54 +3209,12 @@
     },
     {
       "etf_id": "US-BCHP",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.0499344,
+      "holding_symbol": "MA",
+      "holding_name": "Mastercard Inc Class A",
+      "weight": 0.0523487,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
-    },
-    {
-      "etf_id": "US-BCHP",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0498042,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Broadcom Inc",
-      "holding_name_zh": "博通",
-      "display_name": "博通",
-      "display_label": "(AVGO)博通",
-      "bilingual_name": "Broadcom Inc（博通）"
-    },
-    {
-      "etf_id": "US-BCHP",
-      "holding_symbol": "TDG",
-      "holding_name": "TransDigm Group Inc",
-      "weight": 0.0485204,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "TransDigm Group Inc",
-      "holding_name_zh": null,
-      "display_name": "TransDigm Group Inc",
-      "display_label": "(TDG)TransDigm Group Inc",
-      "bilingual_name": "TransDigm Group Inc"
-    },
-    {
-      "etf_id": "US-BCHP",
-      "holding_symbol": "MA",
-      "holding_name": "Mastercard Inc Class A",
-      "weight": 0.046107,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
       "holding_name_en": "Mastercard Inc Class A",
       "holding_name_zh": null,
       "display_name": "Mastercard Inc Class A",
@@ -3265,23 +3223,65 @@
     },
     {
       "etf_id": "US-BCHP",
-      "holding_symbol": "V",
-      "holding_name": "Visa Inc Class A",
-      "weight": 0.0411042,
+      "holding_symbol": "TDG",
+      "holding_name": "TransDigm Group Inc",
+      "weight": 0.0515146,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 7,
+      "holding_name_en": "TransDigm Group Inc",
+      "holding_name_zh": null,
+      "display_name": "TransDigm Group Inc",
+      "display_label": "(TDG)TransDigm Group Inc",
+      "bilingual_name": "TransDigm Group Inc"
+    },
+    {
+      "etf_id": "US-BCHP",
+      "holding_symbol": "V",
+      "holding_name": "Visa Inc Class A",
+      "weight": 0.0465139,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
       "holding_name_en": "Visa Inc Class A",
       "holding_name_zh": null,
       "display_name": "Visa Inc Class A",
       "display_label": "(V)Visa Inc Class A",
       "bilingual_name": "Visa Inc Class A"
+    },
+    {
+      "etf_id": "US-BCHP",
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.045359,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Broadcom Inc",
+      "holding_name_zh": "博通",
+      "display_name": "博通",
+      "display_label": "(AVGO)博通",
+      "bilingual_name": "Broadcom Inc（博通）"
+    },
+    {
+      "etf_id": "US-BCHP",
+      "holding_symbol": "META",
+      "holding_name": "Meta Platforms Inc Class A",
+      "weight": 0.0420609,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Meta Platforms Inc Class A",
+      "holding_name_zh": "Meta Platforms",
+      "display_name": "Meta Platforms",
+      "display_label": "(META)Meta Platforms",
+      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.728932,
-    "top_3_weight": 0.322422
+    "top_10_weight": 0.716962,
+    "top_3_weight": 0.315636
   },
   "research": {
     "tier": "context",

@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -8.9927,
+      "value": -8.9937,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 11.1519,
+      "value": 11.1506,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 25.8772,
+      "value": 25.8771,
       "unit": "percent"
     },
     "beta": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.373,
+      "value": 0.3729,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 11.1519,
+      "value": 11.1506,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 17.6026,
+      "value": 17.6027,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 34.0274,
+    "value": 34.027,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 5988.0,
-    "average_volume_20d": 1814.4,
-    "average_dollar_volume_20d": 63116.9481,
-    "relative_volume_20d": 3.3003,
+    "latest_volume": 6000.0,
+    "average_volume_20d": 1815.0,
+    "average_dollar_volume_20d": 63137.2444,
+    "relative_volume_20d": 3.3058,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-EMC",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.1350464,
+      "weight": 0.148448,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3153,23 +3153,23 @@
     },
     {
       "etf_id": "US-EMC",
-      "holding_symbol": "SMSN",
-      "holding_name": "Samsung Electronics Co Ltd DR",
-      "weight": 0.0756264,
+      "holding_symbol": "000660.KQ",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.0418973,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Samsung Electronics Co Ltd DR",
+      "holding_name_en": "SK hynix Inc",
       "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd DR",
-      "display_label": "(SMSN)Samsung Electronics Co Ltd DR",
-      "bilingual_name": "Samsung Electronics Co Ltd DR"
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KQ)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
     },
     {
       "etf_id": "US-EMC",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0460056,
+      "weight": 0.0389604,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3181,23 +3181,23 @@
     },
     {
       "etf_id": "US-EMC",
-      "holding_symbol": "000660.KQ",
-      "holding_name": "SK hynix Inc",
-      "weight": 0.0417183,
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0350322,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "SK hynix Inc",
+      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
       "holding_name_zh": null,
-      "display_name": "SK hynix Inc",
-      "display_label": "(000660.KQ)SK hynix Inc",
-      "bilingual_name": "SK hynix Inc"
+      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
+      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
     },
     {
       "etf_id": "US-EMC",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0357731,
+      "weight": 0.0347103,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3209,40 +3209,12 @@
     },
     {
       "etf_id": "US-EMC",
-      "holding_symbol": "9988.HK",
-      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0352962,
+      "holding_symbol": "055550.KQ",
+      "holding_name": "Shinhan Financial Group Co Ltd",
+      "weight": 0.0224798,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "display_label": "(9988.HK)Alibaba Group Holding Ltd Ordinary Shares",
-      "bilingual_name": "Alibaba Group Holding Ltd Ordinary Shares"
-    },
-    {
-      "etf_id": "US-EMC",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0280687,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Delta Electronics Inc",
-      "holding_name_zh": "台達電",
-      "display_name": "台達電",
-      "display_label": "(2308.TW)台達電",
-      "bilingual_name": "Delta Electronics Inc（台達電）"
-    },
-    {
-      "etf_id": "US-EMC",
-      "holding_symbol": "055550.KQ",
-      "holding_name": "Shinhan Financial Group Co Ltd",
-      "weight": 0.0240762,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Shinhan Financial Group Co Ltd",
       "holding_name_zh": null,
       "display_name": "Shinhan Financial Group Co Ltd",
@@ -3251,37 +3223,51 @@
     },
     {
       "etf_id": "US-EMC",
-      "holding_symbol": "ITUB",
-      "holding_name": "Itau Unibanco Holding SA ADR",
-      "weight": 0.0231923,
+      "holding_symbol": "IBN",
+      "holding_name": "ICICI Bank Ltd ADR",
+      "weight": 0.0218699,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Itau Unibanco Holding SA ADR",
+      "rank": 7,
+      "holding_name_en": "ICICI Bank Ltd ADR",
       "holding_name_zh": null,
-      "display_name": "Itau Unibanco Holding SA ADR",
-      "display_label": "(ITUB)Itau Unibanco Holding SA ADR",
-      "bilingual_name": "Itau Unibanco Holding SA ADR"
+      "display_name": "ICICI Bank Ltd ADR",
+      "display_label": "(IBN)ICICI Bank Ltd ADR",
+      "bilingual_name": "ICICI Bank Ltd ADR"
     },
     {
       "etf_id": "US-EMC",
-      "holding_symbol": "402340.KQ",
-      "holding_name": "SK Square",
-      "weight": 0.0219375,
+      "holding_symbol": "0388.HK",
+      "holding_name": "Hong Kong Exchanges and Clearing Ltd",
+      "weight": 0.0214481,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "SK Square",
+      "rank": 8,
+      "holding_name_en": "Hong Kong Exchanges and Clearing Ltd",
       "holding_name_zh": null,
-      "display_name": "SK Square",
-      "display_label": "(402340.KQ)SK Square",
-      "bilingual_name": "SK Square"
+      "display_name": "Hong Kong Exchanges and Clearing Ltd",
+      "display_label": "(0388.HK)Hong Kong Exchanges and Clearing Ltd",
+      "bilingual_name": "Hong Kong Exchanges and Clearing Ltd"
+    },
+    {
+      "etf_id": "US-EMC",
+      "holding_symbol": "2317.TW",
+      "holding_name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.0212694,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Hon Hai Precision Industry Co Ltd",
+      "holding_name_zh": "鴻海",
+      "display_name": "鴻海",
+      "display_label": "(2317.TW)鴻海",
+      "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.466741,
-    "top_3_weight": 0.256678
+    "holding_count": 9,
+    "top_10_weight": 0.386115,
+    "top_3_weight": 0.229306
   },
   "research": {
     "tier": "context",

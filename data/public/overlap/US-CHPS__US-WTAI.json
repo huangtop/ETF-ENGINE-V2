@@ -1,20 +1,26 @@
 {
   "left_etf_id": "US-CHPS",
   "right_etf_id": "US-WTAI",
-  "overlap_ratio": 0.099968,
-  "shared_holdings_count": 2,
+  "overlap_ratio": 0.141153,
+  "shared_holdings_count": 3,
   "shared_holdings": [
     {
-      "holding_symbol": "MU",
-      "left_weight": 0.050042,
-      "right_weight": 0.05055,
-      "overlap_weight": 0.050042
+      "holding_symbol": "NVDA",
+      "left_weight": 0.051856,
+      "right_weight": 0.053811,
+      "overlap_weight": 0.051856
     },
     {
-      "holding_symbol": "NVDA",
-      "left_weight": 0.049926,
-      "right_weight": 0.050686,
-      "overlap_weight": 0.049926
+      "holding_symbol": "MU",
+      "left_weight": 0.048796,
+      "right_weight": 0.04937,
+      "overlap_weight": 0.048796
+    },
+    {
+      "holding_symbol": "AVGO",
+      "left_weight": 0.043904,
+      "right_weight": 0.040501,
+      "overlap_weight": 0.040501
     }
   ]
 }

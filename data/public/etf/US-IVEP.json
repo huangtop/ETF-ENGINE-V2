@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -55.396,
+      "value": -55.4151,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 31.3067,
+      "value": 31.3109,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.5861,
+      "value": 1.5858,
       "unit": "ratio"
     },
     "data_years": {
@@ -71,7 +71,7 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -22.3128,
+      "value": -22.3248,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -12.9368,
+      "value": -12.9502,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 25.6598,
+      "value": 25.6665,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 22.7235,
+    "value": 22.72,
     "currency": "USD"
   },
   "trend": [
@@ -680,7 +680,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 87.06
+      "value": 87.05
     }
   ],
   "price_history": {
@@ -692,10 +692,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 13271.0,
-    "average_volume_20d": 13968.55,
-    "average_dollar_volume_20d": 339309.6266,
-    "relative_volume_20d": 0.9501,
+    "latest_volume": 13300.0,
+    "average_volume_20d": 13970.0,
+    "average_dollar_volume_20d": 339340.2482,
+    "relative_volume_20d": 0.952,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -703,82 +703,54 @@
   "top_holdings": [
     {
       "etf_id": "US-IVEP",
-      "holding_symbol": "SBGSY",
-      "holding_name": "Schneider Electric SE ADR",
-      "weight": 0.0470004,
+      "holding_symbol": "NEE",
+      "holding_name": "NextEra Energy Inc",
+      "weight": 0.0490263,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Schneider Electric SE ADR",
+      "holding_name_en": "NextEra Energy Inc",
       "holding_name_zh": null,
-      "display_name": "Schneider Electric SE ADR",
-      "display_label": "(SBGSY)Schneider Electric SE ADR",
-      "bilingual_name": "Schneider Electric SE ADR"
+      "display_name": "NextEra Energy Inc",
+      "display_label": "(NEE)NextEra Energy Inc",
+      "bilingual_name": "NextEra Energy Inc"
     },
     {
       "etf_id": "US-IVEP",
-      "holding_symbol": "ETN",
-      "holding_name": "Eaton Corp PLC",
-      "weight": 0.0461025,
+      "holding_symbol": "SO",
+      "holding_name": "Southern Co",
+      "weight": 0.0475859,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Eaton Corp PLC",
+      "holding_name_en": "Southern Co",
       "holding_name_zh": null,
-      "display_name": "Eaton Corp PLC",
-      "display_label": "(ETN)Eaton Corp PLC",
-      "bilingual_name": "Eaton Corp PLC"
+      "display_name": "Southern Co",
+      "display_label": "(SO)Southern Co",
+      "bilingual_name": "Southern Co"
     },
     {
       "etf_id": "US-IVEP",
-      "holding_symbol": "BE",
-      "holding_name": "Bloom Energy Corp Class A",
-      "weight": 0.0428989,
+      "holding_symbol": "WMB",
+      "holding_name": "Williams Companies Inc",
+      "weight": 0.0435183,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Bloom Energy Corp Class A",
+      "holding_name_en": "Williams Companies Inc",
       "holding_name_zh": null,
-      "display_name": "Bloom Energy Corp Class A",
-      "display_label": "(BE)Bloom Energy Corp Class A",
-      "bilingual_name": "Bloom Energy Corp Class A"
-    },
-    {
-      "etf_id": "US-IVEP",
-      "holding_symbol": "JCI",
-      "holding_name": "Johnson Controls International PLC Registered Shares",
-      "weight": 0.0423657,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Johnson Controls International PLC Registered Shares",
-      "holding_name_zh": null,
-      "display_name": "Johnson Controls International PLC Registered Shares",
-      "display_label": "(JCI)Johnson Controls International PLC Registered Shares",
-      "bilingual_name": "Johnson Controls International PLC Registered Shares"
-    },
-    {
-      "etf_id": "US-IVEP",
-      "holding_symbol": "SMERY",
-      "holding_name": "Siemens Energy AG ADR - Sponsored",
-      "weight": 0.0415556,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Siemens Energy AG ADR - Sponsored",
-      "holding_name_zh": null,
-      "display_name": "Siemens Energy AG ADR - Sponsored",
-      "display_label": "(SMERY)Siemens Energy AG ADR - Sponsored",
-      "bilingual_name": "Siemens Energy AG ADR - Sponsored"
+      "display_name": "Williams Companies Inc",
+      "display_label": "(WMB)Williams Companies Inc",
+      "bilingual_name": "Williams Companies Inc"
     },
     {
       "etf_id": "US-IVEP",
       "holding_symbol": "EQIX",
       "holding_name": "Equinix Inc",
-      "weight": 0.0410517,
+      "weight": 0.0434253,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 4,
       "holding_name_en": "Equinix Inc",
       "holding_name_zh": "Equinix",
       "display_name": "Equinix",
@@ -787,65 +759,93 @@
     },
     {
       "etf_id": "US-IVEP",
-      "holding_symbol": "PWR",
-      "holding_name": "Quanta Services Inc",
-      "weight": 0.0409054,
+      "holding_symbol": "VRT",
+      "holding_name": "Vertiv Holdings Co Class A",
+      "weight": 0.0412298,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Vertiv Holdings Co Class A",
+      "holding_name_zh": null,
+      "display_name": "Vertiv Holdings Co Class A",
+      "display_label": "(VRT)Vertiv Holdings Co Class A",
+      "bilingual_name": "Vertiv Holdings Co Class A"
+    },
+    {
+      "etf_id": "US-IVEP",
+      "holding_symbol": "JCI",
+      "holding_name": "Johnson Controls International PLC Registered Shares",
+      "weight": 0.0409994,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Johnson Controls International PLC Registered Shares",
+      "holding_name_zh": null,
+      "display_name": "Johnson Controls International PLC Registered Shares",
+      "display_label": "(JCI)Johnson Controls International PLC Registered Shares",
+      "bilingual_name": "Johnson Controls International PLC Registered Shares"
+    },
+    {
+      "etf_id": "US-IVEP",
+      "holding_symbol": "KMI",
+      "holding_name": "Kinder Morgan Inc Class P",
+      "weight": 0.040743,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
+      "holding_name_en": "Kinder Morgan Inc Class P",
+      "holding_name_zh": null,
+      "display_name": "Kinder Morgan Inc Class P",
+      "display_label": "(KMI)Kinder Morgan Inc Class P",
+      "bilingual_name": "Kinder Morgan Inc Class P"
+    },
+    {
+      "etf_id": "US-IVEP",
+      "holding_symbol": "SBGSY",
+      "holding_name": "Schneider Electric SE ADR",
+      "weight": 0.0401795,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Schneider Electric SE ADR",
+      "holding_name_zh": null,
+      "display_name": "Schneider Electric SE ADR",
+      "display_label": "(SBGSY)Schneider Electric SE ADR",
+      "bilingual_name": "Schneider Electric SE ADR"
+    },
+    {
+      "etf_id": "US-IVEP",
+      "holding_symbol": "DLR",
+      "holding_name": "Digital Realty Trust Inc",
+      "weight": 0.0398866,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Digital Realty Trust Inc",
+      "holding_name_zh": "Digital Realty",
+      "display_name": "Digital Realty",
+      "display_label": "(DLR)Digital Realty",
+      "bilingual_name": "Digital Realty Trust Inc（Digital Realty）"
+    },
+    {
+      "etf_id": "US-IVEP",
+      "holding_symbol": "PWR",
+      "holding_name": "Quanta Services Inc",
+      "weight": 0.0390352,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
       "holding_name_en": "Quanta Services Inc",
       "holding_name_zh": null,
       "display_name": "Quanta Services Inc",
       "display_label": "(PWR)Quanta Services Inc",
       "bilingual_name": "Quanta Services Inc"
-    },
-    {
-      "etf_id": "US-IVEP",
-      "holding_symbol": "CEG",
-      "holding_name": "Constellation Energy Corp",
-      "weight": 0.040793,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Constellation Energy Corp",
-      "holding_name_zh": null,
-      "display_name": "Constellation Energy Corp",
-      "display_label": "(CEG)Constellation Energy Corp",
-      "bilingual_name": "Constellation Energy Corp"
-    },
-    {
-      "etf_id": "US-IVEP",
-      "holding_symbol": "GEV",
-      "holding_name": "GE Vernova Inc",
-      "weight": 0.0383957,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "GE Vernova Inc",
-      "holding_name_zh": null,
-      "display_name": "GE Vernova Inc",
-      "display_label": "(GEV)GE Vernova Inc",
-      "bilingual_name": "GE Vernova Inc"
-    },
-    {
-      "etf_id": "US-IVEP",
-      "holding_symbol": "NEE",
-      "holding_name": "NextEra Energy Inc",
-      "weight": 0.0376783,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "NextEra Energy Inc",
-      "holding_name_zh": null,
-      "display_name": "NextEra Energy Inc",
-      "display_label": "(NEE)NextEra Energy Inc",
-      "bilingual_name": "NextEra Energy Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.418747,
-    "top_3_weight": 0.136002
+    "top_10_weight": 0.425629,
+    "top_3_weight": 0.14013
   },
   "research": {
     "tier": "context",

@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 8.6415,
+      "value": 8.7244,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 12.4452,
+      "value": 13.5166,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 6.0491,
+      "value": 6.0907,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2869,
+      "value": 0.2907,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.3571,
+      "value": 1.3611,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.8094,
+      "value": 1.973,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 12.4452,
+      "value": 13.5166,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 10.3154,
+      "value": 10.3003,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 46.438,
+    "date": "2026-11-04",
+    "value": 46.804,
     "currency": "USD"
   },
   "trend": [
@@ -1461,20 +1461,24 @@
     {
       "date": "2026-11-03",
       "value": 118.54
+    },
+    {
+      "date": "2026-11-04",
+      "value": 119.47
     }
   ],
   "price_history": {
     "first_date": "2025-06-26",
-    "last_date": "2026-11-03",
-    "observations": 342,
+    "last_date": "2026-11-04",
+    "observations": 343,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "latest_volume": 100.0,
     "average_volume_20d": 305.0,
-    "average_dollar_volume_20d": 14172.43,
+    "average_dollar_volume_20d": 14174.8,
     "relative_volume_20d": 0.3279,
     "currency": "USD",
     "volume_unit": "shares",
@@ -1483,54 +1487,40 @@
   "top_holdings": [
     {
       "etf_id": "US-RB",
-      "holding_symbol": "TWST",
-      "holding_name": "Twist Bioscience Corp",
-      "weight": 0.0036743,
+      "holding_symbol": "GKOS",
+      "holding_name": "Glaukos Corp",
+      "weight": 0.0038711,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Twist Bioscience Corp",
+      "holding_name_en": "Glaukos Corp",
       "holding_name_zh": null,
-      "display_name": "Twist Bioscience Corp",
-      "display_label": "(TWST)Twist Bioscience Corp",
-      "bilingual_name": "Twist Bioscience Corp"
+      "display_name": "Glaukos Corp",
+      "display_label": "(GKOS)Glaukos Corp",
+      "bilingual_name": "Glaukos Corp"
     },
     {
       "etf_id": "US-RB",
-      "holding_symbol": "MOG-A",
-      "holding_name": "Moog Inc Class A",
-      "weight": 0.0032975,
+      "holding_symbol": "BTSG",
+      "holding_name": "BrightSpring Health Services Inc",
+      "weight": 0.0032699,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Moog Inc Class A",
+      "holding_name_en": "BrightSpring Health Services Inc",
       "holding_name_zh": null,
-      "display_name": "Moog Inc Class A",
-      "display_label": "(MOG-A)Moog Inc Class A",
-      "bilingual_name": "Moog Inc Class A"
-    },
-    {
-      "etf_id": "US-RB",
-      "holding_symbol": "TXG",
-      "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
-      "weight": 0.0030459,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
-      "holding_name_zh": null,
-      "display_name": "10x Genomics Inc Ordinary Shares - Class A",
-      "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
-      "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
+      "display_name": "BrightSpring Health Services Inc",
+      "display_label": "(BTSG)BrightSpring Health Services Inc",
+      "bilingual_name": "BrightSpring Health Services Inc"
     },
     {
       "etf_id": "US-RB",
       "holding_symbol": "FROG",
       "holding_name": "JFrog Ltd Ordinary Shares",
-      "weight": 0.0030192,
+      "weight": 0.0030761,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "JFrog Ltd Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "JFrog Ltd Ordinary Shares",
@@ -1539,9 +1529,23 @@
     },
     {
       "etf_id": "US-RB",
+      "holding_symbol": "MOG-A",
+      "holding_name": "Moog Inc Class A",
+      "weight": 0.0030075,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Moog Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Moog Inc Class A",
+      "display_label": "(MOG-A)Moog Inc Class A",
+      "bilingual_name": "Moog Inc Class A"
+    },
+    {
+      "etf_id": "US-RB",
       "holding_symbol": "UMBF",
       "holding_name": "UMB Financial Corp",
-      "weight": 0.0028091,
+      "weight": 0.0029981,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -1553,37 +1557,37 @@
     },
     {
       "etf_id": "US-RB",
-      "holding_symbol": "BTSG",
-      "holding_name": "BrightSpring Health Services Inc",
-      "weight": 0.0027961,
+      "holding_symbol": "VSAT",
+      "holding_name": "Viasat Inc",
+      "weight": 0.0029724,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "BrightSpring Health Services Inc",
+      "holding_name_en": "Viasat Inc",
       "holding_name_zh": null,
-      "display_name": "BrightSpring Health Services Inc",
-      "display_label": "(BTSG)BrightSpring Health Services Inc",
-      "bilingual_name": "BrightSpring Health Services Inc"
+      "display_name": "Viasat Inc",
+      "display_label": "(VSAT)Viasat Inc",
+      "bilingual_name": "Viasat Inc"
     },
     {
       "etf_id": "US-RB",
-      "holding_symbol": "GKOS",
-      "holding_name": "Glaukos Corp",
-      "weight": 0.0026968,
+      "holding_symbol": "TWST",
+      "holding_name": "Twist Bioscience Corp",
+      "weight": 0.0028823,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Glaukos Corp",
+      "holding_name_en": "Twist Bioscience Corp",
       "holding_name_zh": null,
-      "display_name": "Glaukos Corp",
-      "display_label": "(GKOS)Glaukos Corp",
-      "bilingual_name": "Glaukos Corp"
+      "display_name": "Twist Bioscience Corp",
+      "display_label": "(TWST)Twist Bioscience Corp",
+      "bilingual_name": "Twist Bioscience Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 7,
-    "top_10_weight": 0.021339,
-    "top_3_weight": 0.010018
+    "top_10_weight": 0.022077,
+    "top_3_weight": 0.010217
   },
   "research": {
     "tier": "context",

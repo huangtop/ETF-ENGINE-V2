@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -1.9595,
+      "value": -3.4373,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 9.1766,
+      "value": 10.531,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.3838,
+      "value": 17.3153,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.0611,
+      "value": 1.039,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.8611,
+      "value": 2.8651,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.4416,
+      "value": 0.5216,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 9.1766,
+      "value": 10.531,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 10.8807,
+      "value": 11.0509,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 65.644,
+    "date": "2026-11-04",
+    "value": 65.44,
     "currency": "USD"
   },
   "trend": [
@@ -2977,21 +2977,25 @@
     {
       "date": "2026-11-03",
       "value": 131.89
+    },
+    {
+      "date": "2026-11-04",
+      "value": 131.48
     }
   ],
   "price_history": {
     "first_date": "2023-12-19",
-    "last_date": "2026-11-03",
-    "observations": 721,
+    "last_date": "2026-11-04",
+    "observations": 722,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 1500.0,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
     "average_volume_20d": 640.0,
-    "average_dollar_volume_20d": 41594.6548,
-    "relative_volume_20d": 2.3438,
+    "average_dollar_volume_20d": 41594.8448,
+    "relative_volume_20d": 0.1562,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3001,7 +3005,7 @@
       "etf_id": "US-PJFM",
       "holding_symbol": "NI",
       "holding_name": "NiSource Inc",
-      "weight": 0.0420376,
+      "weight": 0.0473681,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3015,7 +3019,7 @@
       "etf_id": "US-PJFM",
       "holding_symbol": "MKL",
       "holding_name": "Markel Group Inc",
-      "weight": 0.0394086,
+      "weight": 0.0365387,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3027,96 +3031,26 @@
     },
     {
       "etf_id": "US-PJFM",
-      "holding_symbol": "CLS.TO",
-      "holding_name": "Celestica Inc Ordinary Shares (Subordinate Voting)",
-      "weight": 0.0326348,
+      "holding_symbol": "ELV",
+      "holding_name": "Elevance Health Inc",
+      "weight": 0.0329178,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Celestica Inc Ordinary Shares (Subordinate Voting)",
+      "holding_name_en": "Elevance Health Inc",
       "holding_name_zh": null,
-      "display_name": "Celestica Inc Ordinary Shares (Subordinate Voting)",
-      "display_label": "(CLS.TO)Celestica Inc Ordinary Shares (Subordinate Voting)",
-      "bilingual_name": "Celestica Inc Ordinary Shares (Subordinate Voting)"
-    },
-    {
-      "etf_id": "US-PJFM",
-      "holding_symbol": "MCHP",
-      "holding_name": "Microchip Technology Inc",
-      "weight": 0.0314025,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Microchip Technology Inc",
-      "holding_name_zh": null,
-      "display_name": "Microchip Technology Inc",
-      "display_label": "(MCHP)Microchip Technology Inc",
-      "bilingual_name": "Microchip Technology Inc"
-    },
-    {
-      "etf_id": "US-PJFM",
-      "holding_symbol": "CBRE",
-      "holding_name": "CBRE Group Inc Class A",
-      "weight": 0.0308337,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "CBRE Group Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "CBRE Group Inc Class A",
-      "display_label": "(CBRE)CBRE Group Inc Class A",
-      "bilingual_name": "CBRE Group Inc Class A"
-    },
-    {
-      "etf_id": "US-PJFM",
-      "holding_symbol": "AXS",
-      "holding_name": "Axis Capital Holdings Ltd",
-      "weight": 0.0299939,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Axis Capital Holdings Ltd",
-      "holding_name_zh": null,
-      "display_name": "Axis Capital Holdings Ltd",
-      "display_label": "(AXS)Axis Capital Holdings Ltd",
-      "bilingual_name": "Axis Capital Holdings Ltd"
-    },
-    {
-      "etf_id": "US-PJFM",
-      "holding_symbol": "KEYS",
-      "holding_name": "Keysight Technologies Inc",
-      "weight": 0.0295194,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Keysight Technologies Inc",
-      "holding_name_zh": null,
-      "display_name": "Keysight Technologies Inc",
-      "display_label": "(KEYS)Keysight Technologies Inc",
-      "bilingual_name": "Keysight Technologies Inc"
-    },
-    {
-      "etf_id": "US-PJFM",
-      "holding_symbol": "GLPI",
-      "holding_name": "Gaming and Leisure Properties Inc",
-      "weight": 0.0286313,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Gaming and Leisure Properties Inc",
-      "holding_name_zh": null,
-      "display_name": "Gaming and Leisure Properties Inc",
-      "display_label": "(GLPI)Gaming and Leisure Properties Inc",
-      "bilingual_name": "Gaming and Leisure Properties Inc"
+      "display_name": "Elevance Health Inc",
+      "display_label": "(ELV)Elevance Health Inc",
+      "bilingual_name": "Elevance Health Inc"
     },
     {
       "etf_id": "US-PJFM",
       "holding_symbol": "CHRD",
       "holding_name": "Chord Energy Corp Ordinary Shares - New",
-      "weight": 0.026638,
+      "weight": 0.0307553,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 4,
       "holding_name_en": "Chord Energy Corp Ordinary Shares - New",
       "holding_name_zh": null,
       "display_name": "Chord Energy Corp Ordinary Shares - New",
@@ -3125,23 +3059,93 @@
     },
     {
       "etf_id": "US-PJFM",
-      "holding_symbol": "ARGX",
-      "holding_name": "argenx SE ADR",
-      "weight": 0.0253899,
+      "holding_symbol": "PR",
+      "holding_name": "Permian Resources Corp Class A",
+      "weight": 0.0301663,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Permian Resources Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Permian Resources Corp Class A",
+      "display_label": "(PR)Permian Resources Corp Class A",
+      "bilingual_name": "Permian Resources Corp Class A"
+    },
+    {
+      "etf_id": "US-PJFM",
+      "holding_symbol": "CCK",
+      "holding_name": "Crown Holdings Inc",
+      "weight": 0.0299854,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Crown Holdings Inc",
+      "holding_name_zh": null,
+      "display_name": "Crown Holdings Inc",
+      "display_label": "(CCK)Crown Holdings Inc",
+      "bilingual_name": "Crown Holdings Inc"
+    },
+    {
+      "etf_id": "US-PJFM",
+      "holding_symbol": "GLPI",
+      "holding_name": "Gaming and Leisure Properties Inc",
+      "weight": 0.02898,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Gaming and Leisure Properties Inc",
+      "holding_name_zh": null,
+      "display_name": "Gaming and Leisure Properties Inc",
+      "display_label": "(GLPI)Gaming and Leisure Properties Inc",
+      "bilingual_name": "Gaming and Leisure Properties Inc"
+    },
+    {
+      "etf_id": "US-PJFM",
+      "holding_symbol": "ARMK",
+      "holding_name": "Aramark",
+      "weight": 0.0266381,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Aramark",
+      "holding_name_zh": null,
+      "display_name": "Aramark",
+      "display_label": "(ARMK)Aramark",
+      "bilingual_name": "Aramark"
+    },
+    {
+      "etf_id": "US-PJFM",
+      "holding_symbol": "AXS",
+      "holding_name": "Axis Capital Holdings Ltd",
+      "weight": 0.0266201,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Axis Capital Holdings Ltd",
+      "holding_name_zh": null,
+      "display_name": "Axis Capital Holdings Ltd",
+      "display_label": "(AXS)Axis Capital Holdings Ltd",
+      "bilingual_name": "Axis Capital Holdings Ltd"
+    },
+    {
+      "etf_id": "US-PJFM",
+      "holding_symbol": "RL",
+      "holding_name": "Ralph Lauren Corp Class A",
+      "weight": 0.0261916,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "argenx SE ADR",
+      "holding_name_en": "Ralph Lauren Corp Class A",
       "holding_name_zh": null,
-      "display_name": "argenx SE ADR",
-      "display_label": "(ARGX)argenx SE ADR",
-      "bilingual_name": "argenx SE ADR"
+      "display_name": "Ralph Lauren Corp Class A",
+      "display_label": "(RL)Ralph Lauren Corp Class A",
+      "bilingual_name": "Ralph Lauren Corp Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.31649,
-    "top_3_weight": 0.114081
+    "top_10_weight": 0.316161,
+    "top_3_weight": 0.116825
   },
   "research": {
     "tier": "context",

@@ -59,15 +59,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -105.687,
+      "value": -105.678,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 45.4039,
+      "value": 45.4281,
       "unit": "percent"
     },
     "beta": {
-      "value": 2.3068,
+      "value": 2.3083,
       "unit": "ratio"
     },
     "data_years": {
@@ -75,7 +75,7 @@
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -43.3589,
+      "value": -43.3486,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -83,18 +83,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -38.4399,
+      "value": -38.4287,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 37.6642,
+      "value": 37.6862,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 26.8951,
+    "value": 26.9,
     "currency": "USD"
   },
   "trend": [
@@ -748,7 +748,7 @@
     },
     {
       "date": "2026-10-22",
-      "value": 64.03
+      "value": 63.87
     },
     {
       "date": "2026-10-23",
@@ -784,7 +784,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 61.56
+      "value": 61.57
     }
   ],
   "price_history": {
@@ -796,10 +796,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 4440.0,
-    "average_volume_20d": 3032.0,
-    "average_dollar_volume_20d": 87674.5296,
-    "relative_volume_20d": 1.4644,
+    "latest_volume": 4500.0,
+    "average_volume_20d": 3035.0,
+    "average_dollar_volume_20d": 87740.3776,
+    "relative_volume_20d": 1.4827,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -809,7 +809,7 @@
       "etf_id": "US-NUKX",
       "holding_symbol": "FGXXX",
       "holding_name": "First American Government Obligs X",
-      "weight": 0.1552255,
+      "weight": 0.2739077,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -821,40 +821,12 @@
     },
     {
       "etf_id": "US-NUKX",
-      "holding_symbol": "URA",
-      "holding_name": "Global X Uranium ETF",
-      "weight": 0.1260108,
+      "holding_symbol": "D",
+      "holding_name": "Dominion Energy Inc",
+      "weight": 0.0733462,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Global X Uranium ETF",
-      "holding_name_zh": null,
-      "display_name": "Global X Uranium ETF",
-      "display_label": "(URA)Global X Uranium ETF",
-      "bilingual_name": "Global X Uranium ETF"
-    },
-    {
-      "etf_id": "US-NUKX",
-      "holding_symbol": "GEV",
-      "holding_name": "GE Vernova Inc",
-      "weight": 0.0678545,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "GE Vernova Inc",
-      "holding_name_zh": null,
-      "display_name": "GE Vernova Inc",
-      "display_label": "(GEV)GE Vernova Inc",
-      "bilingual_name": "GE Vernova Inc"
-    },
-    {
-      "etf_id": "US-NUKX",
-      "holding_symbol": "D",
-      "holding_name": "Dominion Energy Inc",
-      "weight": 0.0616431,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
       "holding_name_en": "Dominion Energy Inc",
       "holding_name_zh": null,
       "display_name": "Dominion Energy Inc",
@@ -865,10 +837,10 @@
       "etf_id": "US-NUKX",
       "holding_symbol": "DUK",
       "holding_name": "Duke Energy Corp",
-      "weight": 0.0555591,
+      "weight": 0.0670949,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 3,
       "holding_name_en": "Duke Energy Corp",
       "holding_name_zh": null,
       "display_name": "Duke Energy Corp",
@@ -877,9 +849,37 @@
     },
     {
       "etf_id": "US-NUKX",
+      "holding_symbol": "GEV",
+      "holding_name": "GE Vernova Inc",
+      "weight": 0.0659704,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "GE Vernova Inc",
+      "holding_name_zh": null,
+      "display_name": "GE Vernova Inc",
+      "display_label": "(GEV)GE Vernova Inc",
+      "bilingual_name": "GE Vernova Inc"
+    },
+    {
+      "etf_id": "US-NUKX",
+      "holding_symbol": "NEE",
+      "holding_name": "NextEra Energy Inc",
+      "weight": 0.0626187,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "NextEra Energy Inc",
+      "holding_name_zh": null,
+      "display_name": "NextEra Energy Inc",
+      "display_label": "(NEE)NextEra Energy Inc",
+      "bilingual_name": "NextEra Energy Inc"
+    },
+    {
+      "etf_id": "US-NUKX",
       "holding_symbol": "VST",
       "holding_name": "Vistra Corp",
-      "weight": 0.0525355,
+      "weight": 0.05677,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -891,26 +891,12 @@
     },
     {
       "etf_id": "US-NUKX",
-      "holding_symbol": "NEE",
-      "holding_name": "NextEra Energy Inc",
-      "weight": 0.052421,
+      "holding_symbol": "CEG",
+      "holding_name": "Constellation Energy Corp",
+      "weight": 0.0552919,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "NextEra Energy Inc",
-      "holding_name_zh": null,
-      "display_name": "NextEra Energy Inc",
-      "display_label": "(NEE)NextEra Energy Inc",
-      "bilingual_name": "NextEra Energy Inc"
-    },
-    {
-      "etf_id": "US-NUKX",
-      "holding_symbol": "CEG",
-      "holding_name": "Constellation Energy Corp",
-      "weight": 0.0495798,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Constellation Energy Corp",
       "holding_name_zh": null,
       "display_name": "Constellation Energy Corp",
@@ -919,9 +905,23 @@
     },
     {
       "etf_id": "US-NUKX",
+      "holding_symbol": "NXE.TO",
+      "holding_name": "NexGen Energy Ltd",
+      "weight": 0.0433464,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "NexGen Energy Ltd",
+      "holding_name_zh": null,
+      "display_name": "NexGen Energy Ltd",
+      "display_label": "(NXE.TO)NexGen Energy Ltd",
+      "bilingual_name": "NexGen Energy Ltd"
+    },
+    {
+      "etf_id": "US-NUKX",
       "holding_symbol": "CCO.TO",
       "holding_name": "Cameco Corp",
-      "weight": 0.0442324,
+      "weight": 0.0424138,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -930,26 +930,12 @@
       "display_name": "Cameco Corp",
       "display_label": "(CCO.TO)Cameco Corp",
       "bilingual_name": "Cameco Corp"
-    },
-    {
-      "etf_id": "US-NUKX",
-      "holding_symbol": "NXE.TO",
-      "holding_name": "NexGen Energy Ltd",
-      "weight": 0.0442114,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "NexGen Energy Ltd",
-      "holding_name_zh": null,
-      "display_name": "NexGen Energy Ltd",
-      "display_label": "(NXE.TO)NexGen Energy Ltd",
-      "bilingual_name": "NexGen Energy Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.709273,
-    "top_3_weight": 0.349091
+    "holding_count": 9,
+    "top_10_weight": 0.74076,
+    "top_3_weight": 0.414349
   },
   "research": {
     "tier": "context",

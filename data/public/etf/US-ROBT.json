@@ -71,11 +71,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -17.6012,
+      "value": -17.6019,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 3.1005,
+      "value": 3.0998,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -99,7 +99,7 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 3.1005,
+      "value": 3.0998,
       "unit": "percent"
     },
     "tracking_error": {
@@ -110,7 +110,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 55.5134,
+    "value": 55.513,
     "currency": "USD"
   },
   "trend": [
@@ -3148,10 +3148,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 55777.0,
-    "average_volume_20d": 40278.85,
-    "average_dollar_volume_20d": 2318149.4105,
-    "relative_volume_20d": 1.3848,
+    "latest_volume": 55800.0,
+    "average_volume_20d": 40280.0,
+    "average_dollar_volume_20d": 2318212.1334,
+    "relative_volume_20d": 1.3853,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3159,26 +3159,12 @@
   "top_holdings": [
     {
       "etf_id": "US-ROBT",
-      "holding_symbol": "TEM",
-      "holding_name": "Tempus AI Inc Class A common stock",
-      "weight": 0.0202363,
+      "holding_symbol": "ILMN",
+      "holding_name": "Illumina Inc",
+      "weight": 0.021504,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Tempus AI Inc Class A common stock",
-      "holding_name_zh": null,
-      "display_name": "Tempus AI Inc Class A common stock",
-      "display_label": "(TEM)Tempus AI Inc Class A common stock",
-      "bilingual_name": "Tempus AI Inc Class A common stock"
-    },
-    {
-      "etf_id": "US-ROBT",
-      "holding_symbol": "ILMN",
-      "holding_name": "Illumina Inc",
-      "weight": 0.0199576,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Illumina Inc",
       "holding_name_zh": null,
       "display_name": "Illumina Inc",
@@ -3187,26 +3173,26 @@
     },
     {
       "etf_id": "US-ROBT",
-      "holding_symbol": "META",
-      "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.019739,
+      "holding_symbol": "OCDO.L",
+      "holding_name": "Ocado Group PLC",
+      "weight": 0.0210082,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Meta Platforms Inc Class A",
-      "holding_name_zh": "Meta Platforms",
-      "display_name": "Meta Platforms",
-      "display_label": "(META)Meta Platforms",
-      "bilingual_name": "Meta Platforms Inc Class A（Meta Platforms）"
+      "rank": 2,
+      "holding_name_en": "Ocado Group PLC",
+      "holding_name_zh": null,
+      "display_name": "Ocado Group PLC",
+      "display_label": "(OCDO.L)Ocado Group PLC",
+      "bilingual_name": "Ocado Group PLC"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "RXRX",
       "holding_name": "Recursion Pharmaceuticals Inc Class A",
-      "weight": 0.0189235,
+      "weight": 0.0197511,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 3,
       "holding_name_en": "Recursion Pharmaceuticals Inc Class A",
       "holding_name_zh": null,
       "display_name": "Recursion Pharmaceuticals Inc Class A",
@@ -3215,26 +3201,26 @@
     },
     {
       "etf_id": "US-ROBT",
-      "holding_symbol": "NET",
-      "holding_name": "Cloudflare Inc",
-      "weight": 0.0177319,
+      "holding_symbol": "TEM",
+      "holding_name": "Tempus AI Inc Class A common stock",
+      "weight": 0.0195533,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Cloudflare Inc",
+      "rank": 4,
+      "holding_name_en": "Tempus AI Inc Class A common stock",
       "holding_name_zh": null,
-      "display_name": "Cloudflare Inc",
-      "display_label": "(NET)Cloudflare Inc",
-      "bilingual_name": "Cloudflare Inc"
+      "display_name": "Tempus AI Inc Class A common stock",
+      "display_label": "(TEM)Tempus AI Inc Class A common stock",
+      "bilingual_name": "Tempus AI Inc Class A common stock"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "ISRG",
       "holding_name": "Intuitive Surgical Inc",
-      "weight": 0.0168094,
+      "weight": 0.0188604,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Intuitive Surgical Inc",
       "holding_name_zh": "直覺外科",
       "display_name": "直覺外科",
@@ -3243,9 +3229,23 @@
     },
     {
       "etf_id": "US-ROBT",
+      "holding_symbol": "APPN",
+      "holding_name": "Appian Corp Class A",
+      "weight": 0.0186113,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Appian Corp Class A",
+      "holding_name_zh": null,
+      "display_name": "Appian Corp Class A",
+      "display_label": "(APPN)Appian Corp Class A",
+      "bilingual_name": "Appian Corp Class A"
+    },
+    {
+      "etf_id": "US-ROBT",
       "holding_symbol": "S",
       "holding_name": "SentinelOne Inc Class A",
-      "weight": 0.0167488,
+      "weight": 0.0184253,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3257,23 +3257,23 @@
     },
     {
       "etf_id": "US-ROBT",
-      "holding_symbol": "SYM",
-      "holding_name": "Symbotic Inc Ordinary Shares - Class A",
-      "weight": 0.0165212,
+      "holding_symbol": "AI",
+      "holding_name": "C3.ai Inc Ordinary Shares - Class A",
+      "weight": 0.0178143,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Symbotic Inc Ordinary Shares - Class A",
+      "holding_name_en": "C3.ai Inc Ordinary Shares - Class A",
       "holding_name_zh": null,
-      "display_name": "Symbotic Inc Ordinary Shares - Class A",
-      "display_label": "(SYM)Symbotic Inc Ordinary Shares - Class A",
-      "bilingual_name": "Symbotic Inc Ordinary Shares - Class A"
+      "display_name": "C3.ai Inc Ordinary Shares - Class A",
+      "display_label": "(AI)C3.ai Inc Ordinary Shares - Class A",
+      "bilingual_name": "C3.ai Inc Ordinary Shares - Class A"
     },
     {
       "etf_id": "US-ROBT",
       "holding_symbol": "DT",
       "holding_name": "Dynatrace Inc Ordinary Shares",
-      "weight": 0.0164776,
+      "weight": 0.017692,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3285,23 +3285,23 @@
     },
     {
       "etf_id": "US-ROBT",
-      "holding_symbol": "PANW",
-      "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.0161974,
+      "holding_symbol": "SNPS",
+      "holding_name": "Synopsys Inc",
+      "weight": 0.0176609,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Palo Alto Networks Inc",
-      "holding_name_zh": "Palo Alto Networks",
-      "display_name": "Palo Alto Networks",
-      "display_label": "(PANW)Palo Alto Networks",
-      "bilingual_name": "Palo Alto Networks Inc（Palo Alto Networks）"
+      "holding_name_en": "Synopsys Inc",
+      "holding_name_zh": null,
+      "display_name": "Synopsys Inc",
+      "display_label": "(SNPS)Synopsys Inc",
+      "bilingual_name": "Synopsys Inc"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.179343,
-    "top_3_weight": 0.059933
+    "top_10_weight": 0.190881,
+    "top_3_weight": 0.062263
   },
   "research": {
     "tier": "context",

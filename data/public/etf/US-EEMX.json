@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.6481,
+      "value": -4.6488,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 15.7998,
+      "value": 15.7988,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 15.7998,
+      "value": 15.7988,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 18.4141,
+      "value": 18.4142,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 48.5034,
+    "value": 48.503,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 4707.0,
-    "average_volume_20d": 3585.35,
-    "average_dollar_volume_20d": 179189.9647,
-    "relative_volume_20d": 1.3128,
+    "latest_volume": 4700.0,
+    "average_volume_20d": 3585.0,
+    "average_dollar_volume_20d": 179172.8944,
+    "relative_volume_20d": 1.311,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-EEMX",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.162477,
+      "weight": 0.1655215,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-EEMX",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0785246,
+      "weight": 0.0728746,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3169,7 +3169,7 @@
       "etf_id": "US-EEMX",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0613396,
+      "weight": 0.0542383,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -3183,7 +3183,7 @@
       "etf_id": "US-EEMX",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0286827,
+      "weight": 0.0278768,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3195,26 +3195,12 @@
     },
     {
       "etf_id": "US-EEMX",
-      "holding_symbol": "2454.TW",
-      "holding_name": "MediaTek Inc",
-      "weight": 0.0191205,
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0180069,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "MediaTek Inc",
-      "holding_name_zh": "聯發科",
-      "display_name": "聯發科",
-      "display_label": "(2454.TW)聯發科",
-      "bilingual_name": "MediaTek Inc（聯發科）"
-    },
-    {
-      "etf_id": "US-EEMX",
-      "holding_symbol": "9988.HK",
-      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0181126,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
@@ -3223,40 +3209,26 @@
     },
     {
       "etf_id": "US-EEMX",
-      "holding_symbol": "2308.TW",
-      "holding_name": "Delta Electronics Inc",
-      "weight": 0.0098999,
+      "holding_symbol": "2454.TW",
+      "holding_name": "MediaTek Inc",
+      "weight": 0.0162193,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Delta Electronics Inc",
-      "holding_name_zh": "台達電",
-      "display_name": "台達電",
-      "display_label": "(2308.TW)台達電",
-      "bilingual_name": "Delta Electronics Inc（台達電）"
-    },
-    {
-      "etf_id": "US-EEMX",
-      "holding_symbol": "005935",
-      "holding_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
-      "weight": 0.0098467,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
-      "holding_name_en": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
-      "holding_name_zh": null,
-      "display_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
-      "display_label": "(005935)Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
-      "bilingual_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting"
+      "rank": 6,
+      "holding_name_en": "MediaTek Inc",
+      "holding_name_zh": "聯發科",
+      "display_name": "聯發科",
+      "display_label": "(2454.TW)聯發科",
+      "bilingual_name": "MediaTek Inc（聯發科）"
     },
     {
       "etf_id": "US-EEMX",
       "holding_symbol": "00939",
       "holding_name": "China Construction Bank Corp Class H",
-      "weight": 0.0089271,
+      "weight": 0.0101852,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 7,
       "holding_name_en": "China Construction Bank Corp Class H",
       "holding_name_zh": null,
       "display_name": "China Construction Bank Corp Class H",
@@ -3267,21 +3239,35 @@
       "etf_id": "US-EEMX",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0082433,
+      "weight": 0.0085779,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 8,
       "holding_name_en": "Hon Hai Precision Industry Co Ltd",
       "holding_name_zh": "鴻海",
       "display_name": "鴻海",
       "display_label": "(2317.TW)鴻海",
       "bilingual_name": "Hon Hai Precision Industry Co Ltd（鴻海）"
+    },
+    {
+      "etf_id": "US-EEMX",
+      "holding_symbol": "HDFCBANK.NS",
+      "holding_name": "HDFC Bank Ltd",
+      "weight": 0.0077255,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "HDFC Bank Ltd",
+      "holding_name_zh": null,
+      "display_name": "HDFC Bank Ltd",
+      "display_label": "(HDFCBANK.NS)HDFC Bank Ltd",
+      "bilingual_name": "HDFC Bank Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.405174,
-    "top_3_weight": 0.302341
+    "holding_count": 9,
+    "top_10_weight": 0.381226,
+    "top_3_weight": 0.292634
   },
   "research": {
     "tier": "context",

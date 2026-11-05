@@ -51,11 +51,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 3.2494,
+      "value": 3.2496,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 16.7686,
+      "value": 16.7689,
       "unit": "percent"
     },
     "annualized_volatility": {
@@ -75,11 +75,11 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.9756,
+      "value": 0.9757,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 16.7686,
+      "value": 16.7689,
       "unit": "percent"
     },
     "tracking_error": {
@@ -90,7 +90,7 @@
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 37.5399,
+    "value": 37.54,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 2330.0,
-    "average_volume_20d": 6151.5,
-    "average_dollar_volume_20d": 224073.5221,
-    "relative_volume_20d": 0.3788,
+    "latest_volume": 2300.0,
+    "average_volume_20d": 6150.0,
+    "average_dollar_volume_20d": 224017.2237,
+    "relative_volume_20d": 0.374,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-STXK",
       "holding_symbol": "TWST",
       "holding_name": "Twist Bioscience Corp",
-      "weight": 0.0054084,
+      "weight": 0.0041627,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3153,54 +3153,12 @@
     },
     {
       "etf_id": "US-STXK",
-      "holding_symbol": "FORM",
-      "holding_name": "FormFactor Inc",
-      "weight": 0.0053791,
+      "holding_symbol": "ESTC",
+      "holding_name": "Elastic NV",
+      "weight": 0.0039074,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "FormFactor Inc",
-      "holding_name_zh": null,
-      "display_name": "FormFactor Inc",
-      "display_label": "(FORM)FormFactor Inc",
-      "bilingual_name": "FormFactor Inc"
-    },
-    {
-      "etf_id": "US-STXK",
-      "holding_symbol": "TXG",
-      "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
-      "weight": 0.0046515,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
-      "holding_name_zh": null,
-      "display_name": "10x Genomics Inc Ordinary Shares - Class A",
-      "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
-      "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
-    },
-    {
-      "etf_id": "US-STXK",
-      "holding_symbol": "IDCC",
-      "holding_name": "InterDigital Inc",
-      "weight": 0.0037963,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "InterDigital Inc",
-      "holding_name_zh": null,
-      "display_name": "InterDigital Inc",
-      "display_label": "(IDCC)InterDigital Inc",
-      "bilingual_name": "InterDigital Inc"
-    },
-    {
-      "etf_id": "US-STXK",
-      "holding_symbol": "ESTC",
-      "holding_name": "Elastic NV",
-      "weight": 0.0037782,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Elastic NV",
       "holding_name_zh": null,
       "display_name": "Elastic NV",
@@ -3209,26 +3167,12 @@
     },
     {
       "etf_id": "US-STXK",
-      "holding_symbol": "AVT",
-      "holding_name": "Avnet Inc",
-      "weight": 0.0037183,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Avnet Inc",
-      "holding_name_zh": null,
-      "display_name": "Avnet Inc",
-      "display_label": "(AVT)Avnet Inc",
-      "bilingual_name": "Avnet Inc"
-    },
-    {
-      "etf_id": "US-STXK",
       "holding_symbol": "S",
       "holding_name": "SentinelOne Inc Class A",
-      "weight": 0.0036884,
+      "weight": 0.0038017,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 3,
       "holding_name_en": "SentinelOne Inc Class A",
       "holding_name_zh": null,
       "display_name": "SentinelOne Inc Class A",
@@ -3237,51 +3181,107 @@
     },
     {
       "etf_id": "US-STXK",
-      "holding_symbol": "MXL",
-      "holding_name": "MaxLinear Inc",
-      "weight": 0.0035086,
+      "holding_symbol": "CLF",
+      "holding_name": "Cleveland-Cliffs Inc",
+      "weight": 0.0035895,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Cleveland-Cliffs Inc",
+      "holding_name_zh": null,
+      "display_name": "Cleveland-Cliffs Inc",
+      "display_label": "(CLF)Cleveland-Cliffs Inc",
+      "bilingual_name": "Cleveland-Cliffs Inc"
+    },
+    {
+      "etf_id": "US-STXK",
+      "holding_symbol": "IDCC",
+      "holding_name": "InterDigital Inc",
+      "weight": 0.0035352,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "InterDigital Inc",
+      "holding_name_zh": null,
+      "display_name": "InterDigital Inc",
+      "display_label": "(IDCC)InterDigital Inc",
+      "bilingual_name": "InterDigital Inc"
+    },
+    {
+      "etf_id": "US-STXK",
+      "holding_symbol": "TXG",
+      "holding_name": "10x Genomics Inc Ordinary Shares - Class A",
+      "weight": 0.0035156,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "10x Genomics Inc Ordinary Shares - Class A",
+      "holding_name_zh": null,
+      "display_name": "10x Genomics Inc Ordinary Shares - Class A",
+      "display_label": "(TXG)10x Genomics Inc Ordinary Shares - Class A",
+      "bilingual_name": "10x Genomics Inc Ordinary Shares - Class A"
+    },
+    {
+      "etf_id": "US-STXK",
+      "holding_symbol": "QLYS",
+      "holding_name": "Qualys Inc",
+      "weight": 0.0035062,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Qualys Inc",
+      "holding_name_zh": null,
+      "display_name": "Qualys Inc",
+      "display_label": "(QLYS)Qualys Inc",
+      "bilingual_name": "Qualys Inc"
+    },
+    {
+      "etf_id": "US-STXK",
+      "holding_symbol": "GTLB",
+      "holding_name": "GitLab Inc Class A",
+      "weight": 0.0033938,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "MaxLinear Inc",
+      "holding_name_en": "GitLab Inc Class A",
       "holding_name_zh": null,
-      "display_name": "MaxLinear Inc",
-      "display_label": "(MXL)MaxLinear Inc",
-      "bilingual_name": "MaxLinear Inc"
+      "display_name": "GitLab Inc Class A",
+      "display_label": "(GTLB)GitLab Inc Class A",
+      "bilingual_name": "GitLab Inc Class A"
     },
     {
       "etf_id": "US-STXK",
-      "holding_symbol": "AAOI",
-      "holding_name": "Applied Optoelectronics Inc",
-      "weight": 0.0034859,
+      "holding_symbol": "CROX",
+      "holding_name": "Crocs Inc",
+      "weight": 0.0033117,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Applied Optoelectronics Inc",
+      "holding_name_en": "Crocs Inc",
       "holding_name_zh": null,
-      "display_name": "Applied Optoelectronics Inc",
-      "display_label": "(AAOI)Applied Optoelectronics Inc",
-      "bilingual_name": "Applied Optoelectronics Inc"
+      "display_name": "Crocs Inc",
+      "display_label": "(CROX)Crocs Inc",
+      "bilingual_name": "Crocs Inc"
     },
     {
       "etf_id": "US-STXK",
-      "holding_symbol": "MP",
-      "holding_name": "MP Materials Corp Ordinary Shares - Class A",
-      "weight": 0.0034467,
+      "holding_symbol": "ANF",
+      "holding_name": "Abercrombie & Fitch Co Class A",
+      "weight": 0.0032625,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "MP Materials Corp Ordinary Shares - Class A",
+      "holding_name_en": "Abercrombie & Fitch Co Class A",
       "holding_name_zh": null,
-      "display_name": "MP Materials Corp Ordinary Shares - Class A",
-      "display_label": "(MP)MP Materials Corp Ordinary Shares - Class A",
-      "bilingual_name": "MP Materials Corp Ordinary Shares - Class A"
+      "display_name": "Abercrombie & Fitch Co Class A",
+      "display_label": "(ANF)Abercrombie & Fitch Co Class A",
+      "bilingual_name": "Abercrombie & Fitch Co Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.040861,
-    "top_3_weight": 0.015439
+    "top_10_weight": 0.035986,
+    "top_3_weight": 0.011872
   },
   "research": {
     "tier": "context",

@@ -55,15 +55,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 14.2498,
+      "value": 14.2482,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 26.868,
+      "value": 26.8656,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 14.0898,
+      "value": 14.0894,
       "unit": "percent"
     },
     "beta": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.8005,
+      "value": 1.8003,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 26.868,
+      "value": 26.8656,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 10.9577,
+      "value": 10.9575,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 59.2711,
+    "value": 59.27,
     "currency": "USD"
   },
   "trend": [
@@ -3132,10 +3132,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 3167.0,
-    "average_volume_20d": 1343.35,
-    "average_dollar_volume_20d": 77727.6777,
-    "relative_volume_20d": 2.3575,
+    "latest_volume": 3200.0,
+    "average_volume_20d": 1345.0,
+    "average_dollar_volume_20d": 77825.2993,
+    "relative_volume_20d": 2.3792,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3145,7 +3145,7 @@
       "etf_id": "US-AIVI",
       "holding_symbol": "TTE.PA",
       "holding_name": "TotalEnergies SE",
-      "weight": 0.0285037,
+      "weight": 0.0293375,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3157,82 +3157,12 @@
     },
     {
       "etf_id": "US-AIVI",
-      "holding_symbol": "SWED-A.ST",
-      "holding_name": "Swedbank AB Class A",
-      "weight": 0.0278325,
+      "holding_symbol": "NAB.AX",
+      "holding_name": "National Australia Bank Ltd",
+      "weight": 0.0222388,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Swedbank AB Class A",
-      "holding_name_zh": null,
-      "display_name": "Swedbank AB Class A",
-      "display_label": "(SWED-A.ST)Swedbank AB Class A",
-      "bilingual_name": "Swedbank AB Class A"
-    },
-    {
-      "etf_id": "US-AIVI",
-      "holding_symbol": "O39.SI",
-      "holding_name": "Oversea-Chinese Banking Corp Ltd",
-      "weight": 0.0236529,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Oversea-Chinese Banking Corp Ltd",
-      "holding_name_zh": null,
-      "display_name": "Oversea-Chinese Banking Corp Ltd",
-      "display_label": "(O39.SI)Oversea-Chinese Banking Corp Ltd",
-      "bilingual_name": "Oversea-Chinese Banking Corp Ltd"
-    },
-    {
-      "etf_id": "US-AIVI",
-      "holding_symbol": "SEB-A.ST",
-      "holding_name": "Skandinaviska Enskilda Banken AB Class A",
-      "weight": 0.0229839,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Skandinaviska Enskilda Banken AB Class A",
-      "holding_name_zh": null,
-      "display_name": "Skandinaviska Enskilda Banken AB Class A",
-      "display_label": "(SEB-A.ST)Skandinaviska Enskilda Banken AB Class A",
-      "bilingual_name": "Skandinaviska Enskilda Banken AB Class A"
-    },
-    {
-      "etf_id": "US-AIVI",
-      "holding_symbol": "DNB.OL",
-      "holding_name": "DNB Bank ASA",
-      "weight": 0.0217966,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "DNB Bank ASA",
-      "holding_name_zh": null,
-      "display_name": "DNB Bank ASA",
-      "display_label": "(DNB.OL)DNB Bank ASA",
-      "bilingual_name": "DNB Bank ASA"
-    },
-    {
-      "etf_id": "US-AIVI",
-      "holding_symbol": "SHEL.L",
-      "holding_name": "Shell PLC",
-      "weight": 0.0209486,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Shell PLC",
-      "holding_name_zh": null,
-      "display_name": "Shell PLC",
-      "display_label": "(SHEL.L)Shell PLC",
-      "bilingual_name": "Shell PLC"
-    },
-    {
-      "etf_id": "US-AIVI",
-      "holding_symbol": "NAB.AX",
-      "holding_name": "National Australia Bank Ltd",
-      "weight": 0.020297,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "National Australia Bank Ltd",
       "holding_name_zh": null,
       "display_name": "National Australia Bank Ltd",
@@ -3243,10 +3173,10 @@
       "etf_id": "US-AIVI",
       "holding_symbol": "BATS.L",
       "holding_name": "British American Tobacco PLC",
-      "weight": 0.0183947,
+      "weight": 0.0207535,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 3,
       "holding_name_en": "British American Tobacco PLC",
       "holding_name_zh": null,
       "display_name": "British American Tobacco PLC",
@@ -3255,37 +3185,107 @@
     },
     {
       "etf_id": "US-AIVI",
-      "holding_symbol": "U11.SI",
-      "holding_name": "United Overseas Bank Ltd",
-      "weight": 0.0181473,
+      "holding_symbol": "SHEL.L",
+      "holding_name": "Shell PLC",
+      "weight": 0.0195924,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "United Overseas Bank Ltd",
+      "rank": 4,
+      "holding_name_en": "Shell PLC",
       "holding_name_zh": null,
-      "display_name": "United Overseas Bank Ltd",
-      "display_label": "(U11.SI)United Overseas Bank Ltd",
-      "bilingual_name": "United Overseas Bank Ltd"
+      "display_name": "Shell PLC",
+      "display_label": "(SHEL.L)Shell PLC",
+      "bilingual_name": "Shell PLC"
     },
     {
       "etf_id": "US-AIVI",
-      "holding_symbol": "BMED.MI",
-      "holding_name": "Banca Mediolanum",
-      "weight": 0.0168155,
+      "holding_symbol": "O39.SI",
+      "holding_name": "Oversea-Chinese Banking Corp Ltd",
+      "weight": 0.0179954,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Oversea-Chinese Banking Corp Ltd",
+      "holding_name_zh": null,
+      "display_name": "Oversea-Chinese Banking Corp Ltd",
+      "display_label": "(O39.SI)Oversea-Chinese Banking Corp Ltd",
+      "bilingual_name": "Oversea-Chinese Banking Corp Ltd"
+    },
+    {
+      "etf_id": "US-AIVI",
+      "holding_symbol": "HSBA.L",
+      "holding_name": "HSBC Holdings PLC",
+      "weight": 0.015901,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "HSBC Holdings PLC",
+      "holding_name_zh": null,
+      "display_name": "HSBC Holdings PLC",
+      "display_label": "(HSBA.L)HSBC Holdings PLC",
+      "bilingual_name": "HSBC Holdings PLC"
+    },
+    {
+      "etf_id": "US-AIVI",
+      "holding_symbol": "GLE.PA",
+      "holding_name": "Societe Generale SA",
+      "weight": 0.0158663,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Societe Generale SA",
+      "holding_name_zh": null,
+      "display_name": "Societe Generale SA",
+      "display_label": "(GLE.PA)Societe Generale SA",
+      "bilingual_name": "Societe Generale SA"
+    },
+    {
+      "etf_id": "US-AIVI",
+      "holding_symbol": "4503.T",
+      "holding_name": "Astellas Pharma Inc",
+      "weight": 0.0154287,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Astellas Pharma Inc",
+      "holding_name_zh": null,
+      "display_name": "Astellas Pharma Inc",
+      "display_label": "(4503.T)Astellas Pharma Inc",
+      "bilingual_name": "Astellas Pharma Inc"
+    },
+    {
+      "etf_id": "US-AIVI",
+      "holding_symbol": "DNB.OL",
+      "holding_name": "DNB Bank ASA",
+      "weight": 0.0152161,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "DNB Bank ASA",
+      "holding_name_zh": null,
+      "display_name": "DNB Bank ASA",
+      "display_label": "(DNB.OL)DNB Bank ASA",
+      "bilingual_name": "DNB Bank ASA"
+    },
+    {
+      "etf_id": "US-AIVI",
+      "holding_symbol": "DANSKE.CO",
+      "holding_name": "Danske Bank AS",
+      "weight": 0.0147302,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Banca Mediolanum",
+      "holding_name_en": "Danske Bank AS",
       "holding_name_zh": null,
-      "display_name": "Banca Mediolanum",
-      "display_label": "(BMED.MI)Banca Mediolanum",
-      "bilingual_name": "Banca Mediolanum"
+      "display_name": "Danske Bank AS",
+      "display_label": "(DANSKE.CO)Danske Bank AS",
+      "bilingual_name": "Danske Bank AS"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.219373,
-    "top_3_weight": 0.079989
+    "top_10_weight": 0.18706,
+    "top_3_weight": 0.07233
   },
   "research": {
     "tier": "context",

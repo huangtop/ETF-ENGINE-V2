@@ -51,15 +51,15 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -45.6622,
+      "value": -45.6625,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -27.6688,
+      "value": -27.669,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 21.766,
+      "value": 21.7659,
       "unit": "percent"
     },
     "beta": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -27.6688,
+      "value": -27.669,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.8476,
+      "value": 16.8475,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 31.1341,
+    "value": 31.134,
     "currency": "USD"
   },
   "trend": [
@@ -3128,10 +3128,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 70251.0,
-    "average_volume_20d": 41052.55,
-    "average_dollar_volume_20d": 1251821.5905,
-    "relative_volume_20d": 1.7112,
+    "latest_volume": 70300.0,
+    "average_volume_20d": 41055.0,
+    "average_dollar_volume_20d": 1251897.5204,
+    "relative_volume_20d": 1.7123,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3141,7 +3141,7 @@
       "etf_id": "US-EMQQ",
       "holding_symbol": "MELI",
       "holding_name": "MercadoLibre Inc",
-      "weight": 0.0854056,
+      "weight": 0.0850807,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -3155,7 +3155,7 @@
       "etf_id": "US-EMQQ",
       "holding_symbol": "RELIANCE.NS",
       "holding_name": "Reliance Industries Ltd",
-      "weight": 0.0745952,
+      "weight": 0.0783167,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -3167,23 +3167,23 @@
     },
     {
       "etf_id": "US-EMQQ",
-      "holding_symbol": "SE",
-      "holding_name": "Sea Ltd ADR",
-      "weight": 0.0710701,
+      "holding_symbol": "PDD",
+      "holding_name": "PDD Holdings Inc ADR",
+      "weight": 0.0684631,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
-      "holding_name_en": "Sea Ltd ADR",
+      "holding_name_en": "PDD Holdings Inc ADR",
       "holding_name_zh": null,
-      "display_name": "Sea Ltd ADR",
-      "display_label": "(SE)Sea Ltd ADR",
-      "bilingual_name": "Sea Ltd ADR"
+      "display_name": "PDD Holdings Inc ADR",
+      "display_label": "(PDD)PDD Holdings Inc ADR",
+      "bilingual_name": "PDD Holdings Inc ADR"
     },
     {
       "etf_id": "US-EMQQ",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0700466,
+      "weight": 0.0660961,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -3195,26 +3195,12 @@
     },
     {
       "etf_id": "US-EMQQ",
-      "holding_symbol": "PDD",
-      "holding_name": "PDD Holdings Inc ADR",
-      "weight": 0.0640391,
+      "holding_symbol": "9988.HK",
+      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
+      "weight": 0.0590045,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "PDD Holdings Inc ADR",
-      "holding_name_zh": null,
-      "display_name": "PDD Holdings Inc ADR",
-      "display_label": "(PDD)PDD Holdings Inc ADR",
-      "bilingual_name": "PDD Holdings Inc ADR"
-    },
-    {
-      "etf_id": "US-EMQQ",
-      "holding_symbol": "9988.HK",
-      "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0611307,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Alibaba Group Holding Ltd Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Alibaba Group Holding Ltd Ordinary Shares",
@@ -3225,10 +3211,10 @@
       "etf_id": "US-EMQQ",
       "holding_symbol": "NU",
       "holding_name": "Nu Holdings Ltd Ordinary Shares Class A",
-      "weight": 0.0606511,
+      "weight": 0.0589564,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Nu Holdings Ltd Ordinary Shares Class A",
       "holding_name_zh": null,
       "display_name": "Nu Holdings Ltd Ordinary Shares Class A",
@@ -3237,9 +3223,23 @@
     },
     {
       "etf_id": "US-EMQQ",
+      "holding_symbol": "SE",
+      "holding_name": "Sea Ltd ADR",
+      "weight": 0.0574431,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Sea Ltd ADR",
+      "holding_name_zh": null,
+      "display_name": "Sea Ltd ADR",
+      "display_label": "(SE)Sea Ltd ADR",
+      "bilingual_name": "Sea Ltd ADR"
+    },
+    {
+      "etf_id": "US-EMQQ",
       "holding_symbol": "3690.HK",
       "holding_name": "Meituan Class B",
-      "weight": 0.0410147,
+      "weight": 0.0434232,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -3251,37 +3251,23 @@
     },
     {
       "etf_id": "US-EMQQ",
-      "holding_symbol": "500034",
-      "holding_name": "Bajaj Finance Ltd",
-      "weight": 0.035908,
+      "holding_symbol": "ETERNAL.BO",
+      "holding_name": "Eternal Ltd",
+      "weight": 0.0384,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Bajaj Finance Ltd",
+      "holding_name_en": "Eternal Ltd",
       "holding_name_zh": null,
-      "display_name": "Bajaj Finance Ltd",
-      "display_label": "(500034)Bajaj Finance Ltd",
-      "bilingual_name": "Bajaj Finance Ltd"
-    },
-    {
-      "etf_id": "US-EMQQ",
-      "holding_symbol": "9999.HK",
-      "holding_name": "NetEase Inc Ordinary Shares",
-      "weight": 0.0356329,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
-      "holding_name_en": "NetEase Inc Ordinary Shares",
-      "holding_name_zh": null,
-      "display_name": "NetEase Inc Ordinary Shares",
-      "display_label": "(9999.HK)NetEase Inc Ordinary Shares",
-      "bilingual_name": "NetEase Inc Ordinary Shares"
+      "display_name": "Eternal Ltd",
+      "display_label": "(ETERNAL.BO)Eternal Ltd",
+      "bilingual_name": "Eternal Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.599494,
-    "top_3_weight": 0.231071
+    "holding_count": 9,
+    "top_10_weight": 0.555184,
+    "top_3_weight": 0.23186
   },
   "research": {
     "tier": "context",

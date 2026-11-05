@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 20.223,
+      "value": 19.3835,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 17.0944,
+      "value": 17.1003,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9846,
+      "value": 0.9745,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.496,
+      "value": 0.5,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 13.722,
+      "value": 15.1279,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 12.1937,
+      "value": 12.1647,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 29.12,
+    "date": "2026-11-04",
+    "value": 29.48,
     "currency": "USD"
   },
   "trend": [
@@ -593,21 +593,25 @@
     {
       "date": "2026-11-03",
       "value": 113.72
+    },
+    {
+      "date": "2026-11-04",
+      "value": 115.13
     }
   ],
   "price_history": {
     "first_date": "2026-05-07",
-    "last_date": "2026-11-03",
-    "observations": 125,
+    "last_date": "2026-11-04",
+    "observations": 126,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
-    "latest_volume": 600.0,
+    "as_of": "2026-11-04",
+    "latest_volume": 100.0,
     "average_volume_20d": 1260.0,
-    "average_dollar_volume_20d": 36223.2503,
-    "relative_volume_20d": 0.4762,
+    "average_dollar_volume_20d": 36233.1503,
+    "relative_volume_20d": 0.0794,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -617,7 +621,7 @@
       "etf_id": "US-PSAI",
       "holding_symbol": "EG",
       "holding_name": "Everest Group Ltd",
-      "weight": 0.0178848,
+      "weight": 0.0185444,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -629,26 +633,12 @@
     },
     {
       "etf_id": "US-PSAI",
-      "holding_symbol": "VLO",
-      "holding_name": "Valero Energy Corp",
-      "weight": 0.0161184,
+      "holding_symbol": "APA",
+      "holding_name": "APA Corp",
+      "weight": 0.0166837,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Valero Energy Corp",
-      "holding_name_zh": null,
-      "display_name": "Valero Energy Corp",
-      "display_label": "(VLO)Valero Energy Corp",
-      "bilingual_name": "Valero Energy Corp"
-    },
-    {
-      "etf_id": "US-PSAI",
-      "holding_symbol": "APA",
-      "holding_name": "APA Corp",
-      "weight": 0.0142416,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
       "holding_name_en": "APA Corp",
       "holding_name_zh": null,
       "display_name": "APA Corp",
@@ -657,40 +647,40 @@
     },
     {
       "etf_id": "US-PSAI",
-      "holding_symbol": "NEM",
-      "holding_name": "Newmont Corp",
-      "weight": 0.0138558,
+      "holding_symbol": "VLO",
+      "holding_name": "Valero Energy Corp",
+      "weight": 0.0153117,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Newmont Corp",
+      "rank": 3,
+      "holding_name_en": "Valero Energy Corp",
       "holding_name_zh": null,
-      "display_name": "Newmont Corp",
-      "display_label": "(NEM)Newmont Corp",
-      "bilingual_name": "Newmont Corp"
+      "display_name": "Valero Energy Corp",
+      "display_label": "(VLO)Valero Energy Corp",
+      "bilingual_name": "Valero Energy Corp"
     },
     {
       "etf_id": "US-PSAI",
-      "holding_symbol": "HPQ",
-      "holding_name": "HP Inc",
-      "weight": 0.0137301,
+      "holding_symbol": "NUE",
+      "holding_name": "Nucor Corp",
+      "weight": 0.0143399,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "HP Inc",
+      "rank": 4,
+      "holding_name_en": "Nucor Corp",
       "holding_name_zh": null,
-      "display_name": "HP Inc",
-      "display_label": "(HPQ)HP Inc",
-      "bilingual_name": "HP Inc"
+      "display_name": "Nucor Corp",
+      "display_label": "(NUE)Nucor Corp",
+      "bilingual_name": "Nucor Corp"
     },
     {
       "etf_id": "US-PSAI",
       "holding_symbol": "MPC",
       "holding_name": "Marathon Petroleum Corp",
-      "weight": 0.0137024,
+      "weight": 0.0141989,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 5,
       "holding_name_en": "Marathon Petroleum Corp",
       "holding_name_zh": null,
       "display_name": "Marathon Petroleum Corp",
@@ -701,10 +691,10 @@
       "etf_id": "US-PSAI",
       "holding_symbol": "PSX",
       "holding_name": "Phillips 66",
-      "weight": 0.0135661,
+      "weight": 0.0138456,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Phillips 66",
       "holding_name_zh": null,
       "display_name": "Phillips 66",
@@ -713,51 +703,65 @@
     },
     {
       "etf_id": "US-PSAI",
-      "holding_symbol": "NUE",
-      "holding_name": "Nucor Corp",
-      "weight": 0.0132843,
+      "holding_symbol": "FDS",
+      "holding_name": "FactSet Research Systems Inc",
+      "weight": 0.013328,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "FactSet Research Systems Inc",
+      "holding_name_zh": null,
+      "display_name": "FactSet Research Systems Inc",
+      "display_label": "(FDS)FactSet Research Systems Inc",
+      "bilingual_name": "FactSet Research Systems Inc"
+    },
+    {
+      "etf_id": "US-PSAI",
+      "holding_symbol": "LYB",
+      "holding_name": "LyondellBasell Industries NV Class A",
+      "weight": 0.0132365,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Nucor Corp",
+      "holding_name_en": "LyondellBasell Industries NV Class A",
       "holding_name_zh": null,
-      "display_name": "Nucor Corp",
-      "display_label": "(NUE)Nucor Corp",
-      "bilingual_name": "Nucor Corp"
+      "display_name": "LyondellBasell Industries NV Class A",
+      "display_label": "(LYB)LyondellBasell Industries NV Class A",
+      "bilingual_name": "LyondellBasell Industries NV Class A"
     },
     {
       "etf_id": "US-PSAI",
-      "holding_symbol": "GL",
-      "holding_name": "Globe Life Inc",
-      "weight": 0.0130879,
+      "holding_symbol": "AIZ",
+      "holding_name": "Assurant Inc",
+      "weight": 0.0130875,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Globe Life Inc",
+      "holding_name_en": "Assurant Inc",
       "holding_name_zh": null,
-      "display_name": "Globe Life Inc",
-      "display_label": "(GL)Globe Life Inc",
-      "bilingual_name": "Globe Life Inc"
+      "display_name": "Assurant Inc",
+      "display_label": "(AIZ)Assurant Inc",
+      "bilingual_name": "Assurant Inc"
     },
     {
       "etf_id": "US-PSAI",
-      "holding_symbol": "CRWD",
-      "holding_name": "CrowdStrike Holdings Inc Class A",
-      "weight": 0.0128444,
+      "holding_symbol": "ACGL",
+      "holding_name": "Arch Capital Group Ltd",
+      "weight": 0.0130849,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "CrowdStrike Holdings Inc Class A",
-      "holding_name_zh": "CrowdStrike",
-      "display_name": "CrowdStrike",
-      "display_label": "(CRWD)CrowdStrike",
-      "bilingual_name": "CrowdStrike Holdings Inc Class A（CrowdStrike）"
+      "holding_name_en": "Arch Capital Group Ltd",
+      "holding_name_zh": null,
+      "display_name": "Arch Capital Group Ltd",
+      "display_label": "(ACGL)Arch Capital Group Ltd",
+      "bilingual_name": "Arch Capital Group Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.142316,
-    "top_3_weight": 0.048245
+    "top_10_weight": 0.145661,
+    "top_3_weight": 0.05054
   },
   "research": {
     "tier": "context",

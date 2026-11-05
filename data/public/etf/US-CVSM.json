@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 4.6532,
+      "value": 10.8357,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.7708,
+      "value": 14.6906,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2447,
+      "value": 0.3169,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.4683,
+      "value": 0.4722,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 2.4139,
+      "value": 6.1338,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.3211,
+      "value": 16.5066,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-03",
-    "value": 25.88,
+    "date": "2026-11-04",
+    "value": 26.82,
     "currency": "USD"
   },
   "trend": [
@@ -561,21 +561,25 @@
     {
       "date": "2026-11-03",
       "value": 102.41
+    },
+    {
+      "date": "2026-11-04",
+      "value": 106.13
     }
   ],
   "price_history": {
     "first_date": "2026-05-18",
-    "last_date": "2026-11-03",
-    "observations": 118,
+    "last_date": "2026-11-04",
+    "observations": 119,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-04",
     "latest_volume": 100.0,
-    "average_volume_20d": 2625.0,
-    "average_dollar_volume_20d": 66613.2001,
-    "relative_volume_20d": 0.0381,
+    "average_volume_20d": 2495.0,
+    "average_dollar_volume_20d": 63415.5001,
+    "relative_volume_20d": 0.0401,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -585,7 +589,7 @@
       "etf_id": "US-CVSM",
       "holding_symbol": "MVRXX",
       "holding_name": "Morgan Stanley Instl Lqudty Govt Instl",
-      "weight": 0.0720931,
+      "weight": 0.0870442,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -599,7 +603,7 @@
       "etf_id": "US-CVSM",
       "holding_symbol": "DT",
       "holding_name": "Dynatrace Inc Ordinary Shares",
-      "weight": 0.0382246,
+      "weight": 0.0307232,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -611,12 +615,26 @@
     },
     {
       "etf_id": "US-CVSM",
-      "holding_symbol": "VTRS",
-      "holding_name": "Viatris Inc",
-      "weight": 0.0288585,
+      "holding_symbol": "RRC",
+      "holding_name": "Range Resources Corp",
+      "weight": 0.0297792,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
+      "holding_name_en": "Range Resources Corp",
+      "holding_name_zh": null,
+      "display_name": "Range Resources Corp",
+      "display_label": "(RRC)Range Resources Corp",
+      "bilingual_name": "Range Resources Corp"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "VTRS",
+      "holding_name": "Viatris Inc",
+      "weight": 0.0291224,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
       "holding_name_en": "Viatris Inc",
       "holding_name_zh": null,
       "display_name": "Viatris Inc",
@@ -625,51 +643,37 @@
     },
     {
       "etf_id": "US-CVSM",
-      "holding_symbol": "MSM",
-      "holding_name": "MSC Industrial Direct Co Inc Class A",
-      "weight": 0.027006,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "MSC Industrial Direct Co Inc Class A",
-      "holding_name_zh": null,
-      "display_name": "MSC Industrial Direct Co Inc Class A",
-      "display_label": "(MSM)MSC Industrial Direct Co Inc Class A",
-      "bilingual_name": "MSC Industrial Direct Co Inc Class A"
-    },
-    {
-      "etf_id": "US-CVSM",
-      "holding_symbol": "SAFT",
-      "holding_name": "Safety Insurance Group Inc",
-      "weight": 0.0263485,
+      "holding_symbol": "TYL",
+      "holding_name": "Tyler Technologies Inc",
+      "weight": 0.0271439,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Safety Insurance Group Inc",
+      "holding_name_en": "Tyler Technologies Inc",
       "holding_name_zh": null,
-      "display_name": "Safety Insurance Group Inc",
-      "display_label": "(SAFT)Safety Insurance Group Inc",
-      "bilingual_name": "Safety Insurance Group Inc"
+      "display_name": "Tyler Technologies Inc",
+      "display_label": "(TYL)Tyler Technologies Inc",
+      "bilingual_name": "Tyler Technologies Inc"
     },
     {
       "etf_id": "US-CVSM",
-      "holding_symbol": "ST",
-      "holding_name": "Sensata Technologies Holding PLC",
-      "weight": 0.0247282,
+      "holding_symbol": "HII",
+      "holding_name": "Huntington Ingalls Industries Inc",
+      "weight": 0.0261798,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Sensata Technologies Holding PLC",
+      "holding_name_en": "Huntington Ingalls Industries Inc",
       "holding_name_zh": null,
-      "display_name": "Sensata Technologies Holding PLC",
-      "display_label": "(ST)Sensata Technologies Holding PLC",
-      "bilingual_name": "Sensata Technologies Holding PLC"
+      "display_name": "Huntington Ingalls Industries Inc",
+      "display_label": "(HII)Huntington Ingalls Industries Inc",
+      "bilingual_name": "Huntington Ingalls Industries Inc"
     },
     {
       "etf_id": "US-CVSM",
       "holding_symbol": "SJM",
       "holding_name": "JM Smucker Co",
-      "weight": 0.0246105,
+      "weight": 0.0252565,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -681,51 +685,51 @@
     },
     {
       "etf_id": "US-CVSM",
-      "holding_symbol": "HII",
-      "holding_name": "Huntington Ingalls Industries Inc",
-      "weight": 0.0234873,
+      "holding_symbol": "BKH",
+      "holding_name": "Black Hills Corp",
+      "weight": 0.024892,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Huntington Ingalls Industries Inc",
-      "holding_name_zh": null,
-      "display_name": "Huntington Ingalls Industries Inc",
-      "display_label": "(HII)Huntington Ingalls Industries Inc",
-      "bilingual_name": "Huntington Ingalls Industries Inc"
-    },
-    {
-      "etf_id": "US-CVSM",
-      "holding_symbol": "TYL",
-      "holding_name": "Tyler Technologies Inc",
-      "weight": 0.0233469,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Tyler Technologies Inc",
-      "holding_name_zh": null,
-      "display_name": "Tyler Technologies Inc",
-      "display_label": "(TYL)Tyler Technologies Inc",
-      "bilingual_name": "Tyler Technologies Inc"
-    },
-    {
-      "etf_id": "US-CVSM",
-      "holding_symbol": "BKH",
-      "holding_name": "Black Hills Corp",
-      "weight": 0.0226425,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
       "holding_name_en": "Black Hills Corp",
       "holding_name_zh": null,
       "display_name": "Black Hills Corp",
       "display_label": "(BKH)Black Hills Corp",
       "bilingual_name": "Black Hills Corp"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "SAFT",
+      "holding_name": "Safety Insurance Group Inc",
+      "weight": 0.024829,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Safety Insurance Group Inc",
+      "holding_name_zh": null,
+      "display_name": "Safety Insurance Group Inc",
+      "display_label": "(SAFT)Safety Insurance Group Inc",
+      "bilingual_name": "Safety Insurance Group Inc"
+    },
+    {
+      "etf_id": "US-CVSM",
+      "holding_symbol": "MSM",
+      "holding_name": "MSC Industrial Direct Co Inc Class A",
+      "weight": 0.0248165,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "MSC Industrial Direct Co Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "MSC Industrial Direct Co Inc Class A",
+      "display_label": "(MSM)MSC Industrial Direct Co Inc Class A",
+      "bilingual_name": "MSC Industrial Direct Co Inc Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.311346,
-    "top_3_weight": 0.139176
+    "top_10_weight": 0.329787,
+    "top_3_weight": 0.147547
   },
   "research": {
     "tier": "context",

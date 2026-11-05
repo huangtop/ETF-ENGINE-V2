@@ -55,11 +55,11 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 24.3776,
+      "value": 24.3719,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 12.3949,
+      "value": 12.3935,
       "unit": "percent"
     },
     "beta": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 14.7659,
+      "value": 14.7624,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 13.7132,
+      "value": 13.7127,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
     "date": "2026-11-04",
-    "value": 45.3114,
+    "value": 45.31,
     "currency": "USD"
   },
   "trend": [
@@ -596,7 +596,7 @@
     },
     {
       "date": "2026-11-04",
-      "value": 114.77
+      "value": 114.76
     }
   ],
   "price_history": {
@@ -608,10 +608,10 @@
   },
   "liquidity": {
     "as_of": "2026-11-04",
-    "latest_volume": 1749.0,
-    "average_volume_20d": 3827.45,
-    "average_dollar_volume_20d": 165577.4338,
-    "relative_volume_20d": 0.457,
+    "latest_volume": 1700.0,
+    "average_volume_20d": 3825.0,
+    "average_dollar_volume_20d": 165466.3018,
+    "relative_volume_20d": 0.4444,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -619,82 +619,26 @@
   "top_holdings": [
     {
       "etf_id": "US-BUYB",
-      "holding_symbol": "CTSH",
-      "holding_name": "Cognizant Technology Solutions Corp Class A",
-      "weight": 0.0200153,
+      "holding_symbol": "LMT",
+      "holding_name": "Lockheed Martin Corp",
+      "weight": 0.0176692,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Cognizant Technology Solutions Corp Class A",
+      "holding_name_en": "Lockheed Martin Corp",
       "holding_name_zh": null,
-      "display_name": "Cognizant Technology Solutions Corp Class A",
-      "display_label": "(CTSH)Cognizant Technology Solutions Corp Class A",
-      "bilingual_name": "Cognizant Technology Solutions Corp Class A"
-    },
-    {
-      "etf_id": "US-BUYB",
-      "holding_symbol": "A",
-      "holding_name": "Agilent Technologies Inc",
-      "weight": 0.0197498,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "Agilent Technologies Inc",
-      "holding_name_zh": null,
-      "display_name": "Agilent Technologies Inc",
-      "display_label": "(A)Agilent Technologies Inc",
-      "bilingual_name": "Agilent Technologies Inc"
-    },
-    {
-      "etf_id": "US-BUYB",
-      "holding_symbol": "MTD",
-      "holding_name": "Mettler-Toledo International Inc",
-      "weight": 0.0178987,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Mettler-Toledo International Inc",
-      "holding_name_zh": null,
-      "display_name": "Mettler-Toledo International Inc",
-      "display_label": "(MTD)Mettler-Toledo International Inc",
-      "bilingual_name": "Mettler-Toledo International Inc"
-    },
-    {
-      "etf_id": "US-BUYB",
-      "holding_symbol": "ULTA",
-      "holding_name": "Ulta Beauty Inc",
-      "weight": 0.0177704,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Ulta Beauty Inc",
-      "holding_name_zh": null,
-      "display_name": "Ulta Beauty Inc",
-      "display_label": "(ULTA)Ulta Beauty Inc",
-      "bilingual_name": "Ulta Beauty Inc"
-    },
-    {
-      "etf_id": "US-BUYB",
-      "holding_symbol": "PYPL",
-      "holding_name": "PayPal Holdings Inc",
-      "weight": 0.0174404,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "PayPal Holdings Inc",
-      "holding_name_zh": null,
-      "display_name": "PayPal Holdings Inc",
-      "display_label": "(PYPL)PayPal Holdings Inc",
-      "bilingual_name": "PayPal Holdings Inc"
+      "display_name": "Lockheed Martin Corp",
+      "display_label": "(LMT)Lockheed Martin Corp",
+      "bilingual_name": "Lockheed Martin Corp"
     },
     {
       "etf_id": "US-BUYB",
       "holding_symbol": "ALLE",
       "holding_name": "Allegion PLC",
-      "weight": 0.0168494,
+      "weight": 0.0174727,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 2,
       "holding_name_en": "Allegion PLC",
       "holding_name_zh": null,
       "display_name": "Allegion PLC",
@@ -703,65 +647,121 @@
     },
     {
       "etf_id": "US-BUYB",
-      "holding_symbol": "EMR",
-      "holding_name": "Emerson Electric Co",
-      "weight": 0.0168089,
+      "holding_symbol": "LLY",
+      "holding_name": "Eli Lilly and Co",
+      "weight": 0.0164985,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Eli Lilly and Co",
+      "holding_name_zh": null,
+      "display_name": "Eli Lilly and Co",
+      "display_label": "(LLY)Eli Lilly and Co",
+      "bilingual_name": "Eli Lilly and Co"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "NOC",
+      "holding_name": "Northrop Grumman Corp",
+      "weight": 0.0163223,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Northrop Grumman Corp",
+      "holding_name_zh": null,
+      "display_name": "Northrop Grumman Corp",
+      "display_label": "(NOC)Northrop Grumman Corp",
+      "bilingual_name": "Northrop Grumman Corp"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "ULTA",
+      "holding_name": "Ulta Beauty Inc",
+      "weight": 0.0162567,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Ulta Beauty Inc",
+      "holding_name_zh": null,
+      "display_name": "Ulta Beauty Inc",
+      "display_label": "(ULTA)Ulta Beauty Inc",
+      "bilingual_name": "Ulta Beauty Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "TXT",
+      "holding_name": "Textron Inc",
+      "weight": 0.0162529,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Textron Inc",
+      "holding_name_zh": null,
+      "display_name": "Textron Inc",
+      "display_label": "(TXT)Textron Inc",
+      "bilingual_name": "Textron Inc"
+    },
+    {
+      "etf_id": "US-BUYB",
+      "holding_symbol": "MAS",
+      "holding_name": "Masco Corp",
+      "weight": 0.0162174,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
-      "holding_name_en": "Emerson Electric Co",
+      "holding_name_en": "Masco Corp",
       "holding_name_zh": null,
-      "display_name": "Emerson Electric Co",
-      "display_label": "(EMR)Emerson Electric Co",
-      "bilingual_name": "Emerson Electric Co"
+      "display_name": "Masco Corp",
+      "display_label": "(MAS)Masco Corp",
+      "bilingual_name": "Masco Corp"
     },
     {
       "etf_id": "US-BUYB",
-      "holding_symbol": "EXPD",
-      "holding_name": "Expeditors International of Washington Inc",
-      "weight": 0.0166112,
+      "holding_symbol": "VRSK",
+      "holding_name": "Verisk Analytics Inc",
+      "weight": 0.0161261,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Expeditors International of Washington Inc",
+      "holding_name_en": "Verisk Analytics Inc",
       "holding_name_zh": null,
-      "display_name": "Expeditors International of Washington Inc",
-      "display_label": "(EXPD)Expeditors International of Washington Inc",
-      "bilingual_name": "Expeditors International of Washington Inc"
+      "display_name": "Verisk Analytics Inc",
+      "display_label": "(VRSK)Verisk Analytics Inc",
+      "bilingual_name": "Verisk Analytics Inc"
     },
     {
       "etf_id": "US-BUYB",
-      "holding_symbol": "CPAY",
-      "holding_name": "Corpay Inc",
-      "weight": 0.0166094,
+      "holding_symbol": "WMT",
+      "holding_name": "Walmart Inc",
+      "weight": 0.0158258,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Corpay Inc",
+      "holding_name_en": "Walmart Inc",
       "holding_name_zh": null,
-      "display_name": "Corpay Inc",
-      "display_label": "(CPAY)Corpay Inc",
-      "bilingual_name": "Corpay Inc"
+      "display_name": "Walmart Inc",
+      "display_label": "(WMT)Walmart Inc",
+      "bilingual_name": "Walmart Inc"
     },
     {
       "etf_id": "US-BUYB",
-      "holding_symbol": "UHS",
-      "holding_name": "Universal Health Services Inc Class B",
-      "weight": 0.0164794,
+      "holding_symbol": "CTSH",
+      "holding_name": "Cognizant Technology Solutions Corp Class A",
+      "weight": 0.0158093,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Universal Health Services Inc Class B",
+      "holding_name_en": "Cognizant Technology Solutions Corp Class A",
       "holding_name_zh": null,
-      "display_name": "Universal Health Services Inc Class B",
-      "display_label": "(UHS)Universal Health Services Inc Class B",
-      "bilingual_name": "Universal Health Services Inc Class B"
+      "display_name": "Cognizant Technology Solutions Corp Class A",
+      "display_label": "(CTSH)Cognizant Technology Solutions Corp Class A",
+      "bilingual_name": "Cognizant Technology Solutions Corp Class A"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.176233,
-    "top_3_weight": 0.057664
+    "top_10_weight": 0.164451,
+    "top_3_weight": 0.05164
   },
   "research": {
     "tier": "context",

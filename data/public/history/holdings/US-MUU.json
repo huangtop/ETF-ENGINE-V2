@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "etf_id": "US-MUU",
   "coverage": "top_holdings_only",
-  "transition_count": 1,
+  "transition_count": 2,
   "latest_transition": {
-    "transition_id": "2026-08-07T22:39:10.841961Z-US-MUU-401b98dd",
+    "transition_id": "2026-11-05T10:56:57.619690Z-US-MUU-6bfe7ff4",
     "etf_id": "US-MUU",
     "coverage": "top_holdings_only",
-    "previous_snapshot_id": "20260731-e40700ee2aa3",
-    "current_snapshot_id": "20260807-2e12a9de7dde",
-    "previous_observed_at": "2026-07-31T02:53:03.993285Z",
-    "current_observed_at": "2026-08-07T22:39:10.841961Z",
+    "previous_snapshot_id": "20260807-2e12a9de7dde",
+    "current_snapshot_id": "20261105-c30967cb2033",
+    "previous_observed_at": "2026-08-07T22:39:10.841961Z",
+    "current_observed_at": "2026-11-05T10:56:57.619690Z",
     "changes": [
       {
-        "event_id": "d9ebb8775181406253cc3cfed620d60385a7905d4302b76a3c2c41c79c7eeeb8",
+        "event_id": "39d00d0b0e783ec50f2612ad53fa5d773718e6ff22bcd1afa1f89d74b2241686",
         "etf_id": "US-MUU",
         "holding_symbol": "MU",
         "holding_name_en": "Micron Technology Inc",
@@ -21,16 +21,16 @@
         "holding_display_name": "美光科技",
         "holding_display_label": "(MU)美光科技",
         "holding_bilingual_name": "Micron Technology Inc（美光科技）",
-        "previous_weight": 0.1664225,
-        "current_weight": 0.1230384,
-        "delta_weight": -0.0433841,
+        "previous_weight": 0.1230384,
+        "current_weight": 0.0499318,
+        "delta_weight": -0.0731066,
         "change_type": "WEIGHT_DECREASED",
         "previous_source": "yahoo",
         "current_source": "yahoo",
-        "previous_snapshot_id": "20260731-e40700ee2aa3",
-        "current_snapshot_id": "20260807-2e12a9de7dde",
-        "previous_observed_at": "2026-07-31T02:53:03.993285Z",
-        "current_observed_at": "2026-08-07T22:39:10.841961Z",
+        "previous_snapshot_id": "20260807-2e12a9de7dde",
+        "current_snapshot_id": "20261105-c30967cb2033",
+        "previous_observed_at": "2026-08-07T22:39:10.841961Z",
+        "current_observed_at": "2026-11-05T10:56:57.619690Z",
         "coverage": "top_holdings_only"
       }
     ]
@@ -64,6 +64,38 @@
           "current_snapshot_id": "20260807-2e12a9de7dde",
           "previous_observed_at": "2026-07-31T02:53:03.993285Z",
           "current_observed_at": "2026-08-07T22:39:10.841961Z",
+          "coverage": "top_holdings_only"
+        }
+      ]
+    },
+    {
+      "transition_id": "2026-11-05T10:56:57.619690Z-US-MUU-6bfe7ff4",
+      "etf_id": "US-MUU",
+      "coverage": "top_holdings_only",
+      "previous_snapshot_id": "20260807-2e12a9de7dde",
+      "current_snapshot_id": "20261105-c30967cb2033",
+      "previous_observed_at": "2026-08-07T22:39:10.841961Z",
+      "current_observed_at": "2026-11-05T10:56:57.619690Z",
+      "changes": [
+        {
+          "event_id": "39d00d0b0e783ec50f2612ad53fa5d773718e6ff22bcd1afa1f89d74b2241686",
+          "etf_id": "US-MUU",
+          "holding_symbol": "MU",
+          "holding_name_en": "Micron Technology Inc",
+          "holding_name_zh": "美光科技",
+          "holding_display_name": "美光科技",
+          "holding_display_label": "(MU)美光科技",
+          "holding_bilingual_name": "Micron Technology Inc（美光科技）",
+          "previous_weight": 0.1230384,
+          "current_weight": 0.0499318,
+          "delta_weight": -0.0731066,
+          "change_type": "WEIGHT_DECREASED",
+          "previous_source": "yahoo",
+          "current_source": "yahoo",
+          "previous_snapshot_id": "20260807-2e12a9de7dde",
+          "current_snapshot_id": "20261105-c30967cb2033",
+          "previous_observed_at": "2026-08-07T22:39:10.841961Z",
+          "current_observed_at": "2026-11-05T10:56:57.619690Z",
           "coverage": "top_holdings_only"
         }
       ]
