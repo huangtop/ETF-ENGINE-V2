@@ -1,0 +1,93 @@
+{
+  "etf_id": "US-ACEM",
+  "ticker": "ACEM",
+  "quote_symbol": "ACEM",
+  "name": "American Century Emerging Markets Insights ETF",
+  "short_name": "ACEM",
+  "listing_market": "US",
+  "listing_exchange": "Nasdaq",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-05",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "American Century Emerging Markets Insights ETF",
+  "short_name_en": "ACEM",
+  "name_zh": "American Century Emerging Markets Insights ETF",
+  "short_name_zh": null,
+  "display_name": "American Century Emerging Markets Insights ETF",
+  "display_short_name": "American Century Emerging Markets Insights ETF",
+  "display_label": "(ACEM)American Century Emerging Markets Insights ETF",
+  "bilingual_name": "American Century Emerging Markets Insights ETF（American Century Emerging Markets Insights ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "emerging_markets"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    }
+  ],
+  "metrics": {},
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-05",
+    "value": 37.705,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-11-05",
+      "value": 100.0
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-11-05",
+    "last_date": "2026-11-05",
+    "observations": 1,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-05",
+    "latest_volume": 409.0,
+    "average_volume_20d": 409.0,
+    "average_dollar_volume_20d": 15421.3457,
+    "relative_volume_20d": 1.0,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 1
+  },
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

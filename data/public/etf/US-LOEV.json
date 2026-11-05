@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 11.5188,
+      "value": 12.1509,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 12.1708,
+      "value": 13.5564,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8074,
+      "value": 0.792,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.3056,
+      "value": 0.3095,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 6.2459,
+      "value": 2.7326,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 8.1235,
+      "value": 8.2969,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-04",
-    "value": 16.33,
+    "date": "2026-11-05",
+    "value": 15.79,
     "currency": "USD"
   },
   "trend": [
@@ -397,21 +397,25 @@
     {
       "date": "2026-11-04",
       "value": 106.25
+    },
+    {
+      "date": "2026-11-05",
+      "value": 102.73
     }
   ],
   "price_history": {
     "first_date": "2026-07-20",
-    "last_date": "2026-11-04",
-    "observations": 77,
+    "last_date": "2026-11-05",
+    "observations": 78,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-04",
-    "latest_volume": 14300.0,
-    "average_volume_20d": 21610.0,
-    "average_dollar_volume_20d": 346955.2987,
-    "relative_volume_20d": 0.6617,
+    "as_of": "2026-11-05",
+    "latest_volume": 14585.0,
+    "average_volume_20d": 20414.25,
+    "average_dollar_volume_20d": 327978.1559,
+    "relative_volume_20d": 0.7145,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -419,68 +423,12 @@
   "top_holdings": [
     {
       "etf_id": "US-LOEV",
-      "holding_symbol": "BBVA",
-      "holding_name": "Banco Bilbao Vizcaya Argentaria SA ADR",
-      "weight": 0.0423482,
+      "holding_symbol": "SHEL",
+      "holding_name": "Shell PLC ADR (Representing - Ordinary Shares)",
+      "weight": 0.0468304,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Banco Bilbao Vizcaya Argentaria SA ADR",
-      "holding_name_zh": null,
-      "display_name": "Banco Bilbao Vizcaya Argentaria SA ADR",
-      "display_label": "(BBVA)Banco Bilbao Vizcaya Argentaria SA ADR",
-      "bilingual_name": "Banco Bilbao Vizcaya Argentaria SA ADR"
-    },
-    {
-      "etf_id": "US-LOEV",
-      "holding_symbol": "ASML",
-      "holding_name": "ASML Holding NV ADR",
-      "weight": 0.0393311,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
-      "holding_name_en": "ASML Holding NV ADR",
-      "holding_name_zh": "艾司摩爾ADR",
-      "display_name": "艾司摩爾ADR",
-      "display_label": "(ASML)艾司摩爾ADR",
-      "bilingual_name": "ASML Holding NV ADR（艾司摩爾ADR）"
-    },
-    {
-      "etf_id": "US-LOEV",
-      "holding_symbol": "TSM",
-      "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "weight": 0.0379241,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-      "holding_name_zh": "台積電ADR",
-      "display_name": "台積電ADR",
-      "display_label": "(TSM)台積電ADR",
-      "bilingual_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR（台積電ADR）"
-    },
-    {
-      "etf_id": "US-LOEV",
-      "holding_symbol": "6098.T",
-      "holding_name": "Recruit Holdings Co Ltd",
-      "weight": 0.035383,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Recruit Holdings Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Recruit Holdings Co Ltd",
-      "display_label": "(6098.T)Recruit Holdings Co Ltd",
-      "bilingual_name": "Recruit Holdings Co Ltd"
-    },
-    {
-      "etf_id": "US-LOEV",
-      "holding_symbol": "SHEL",
-      "holding_name": "Shell PLC ADR (Representing - Ordinary Shares)",
-      "weight": 0.0348486,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "Shell PLC ADR (Representing - Ordinary Shares)",
       "holding_name_zh": null,
       "display_name": "Shell PLC ADR (Representing - Ordinary Shares)",
@@ -489,12 +437,54 @@
     },
     {
       "etf_id": "US-LOEV",
-      "holding_symbol": "ALV.DE",
-      "holding_name": "Allianz SE",
-      "weight": 0.0312823,
+      "holding_symbol": "BBVA",
+      "holding_name": "Banco Bilbao Vizcaya Argentaria SA ADR",
+      "weight": 0.0459978,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 2,
+      "holding_name_en": "Banco Bilbao Vizcaya Argentaria SA ADR",
+      "holding_name_zh": null,
+      "display_name": "Banco Bilbao Vizcaya Argentaria SA ADR",
+      "display_label": "(BBVA)Banco Bilbao Vizcaya Argentaria SA ADR",
+      "bilingual_name": "Banco Bilbao Vizcaya Argentaria SA ADR"
+    },
+    {
+      "etf_id": "US-LOEV",
+      "holding_symbol": "6098.T",
+      "holding_name": "Recruit Holdings Co Ltd",
+      "weight": 0.0426074,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "Recruit Holdings Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "Recruit Holdings Co Ltd",
+      "display_label": "(6098.T)Recruit Holdings Co Ltd",
+      "bilingual_name": "Recruit Holdings Co Ltd"
+    },
+    {
+      "etf_id": "US-LOEV",
+      "holding_symbol": "6501.T",
+      "holding_name": "Hitachi Ltd",
+      "weight": 0.0371848,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Hitachi Ltd",
+      "holding_name_zh": null,
+      "display_name": "Hitachi Ltd",
+      "display_label": "(6501.T)Hitachi Ltd",
+      "bilingual_name": "Hitachi Ltd"
+    },
+    {
+      "etf_id": "US-LOEV",
+      "holding_symbol": "ALV.DE",
+      "holding_name": "Allianz SE",
+      "weight": 0.0351088,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
       "holding_name_en": "Allianz SE",
       "holding_name_zh": null,
       "display_name": "Allianz SE",
@@ -503,9 +493,23 @@
     },
     {
       "etf_id": "US-LOEV",
+      "holding_symbol": "ASML",
+      "holding_name": "ASML Holding NV ADR",
+      "weight": 0.0349956,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "ASML Holding NV ADR",
+      "holding_name_zh": "艾司摩爾ADR",
+      "display_name": "艾司摩爾ADR",
+      "display_label": "(ASML)艾司摩爾ADR",
+      "bilingual_name": "ASML Holding NV ADR（艾司摩爾ADR）"
+    },
+    {
+      "etf_id": "US-LOEV",
       "holding_symbol": "MFC.TO",
       "holding_name": "Manulife Financial Corp",
-      "weight": 0.0312192,
+      "weight": 0.0349687,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -517,37 +521,51 @@
     },
     {
       "etf_id": "US-LOEV",
-      "holding_symbol": "ATD.TO",
-      "holding_name": "Alimentation Couche-Tard Inc",
-      "weight": 0.0310152,
+      "holding_symbol": "6861.T",
+      "holding_name": "Keyence Corp",
+      "weight": 0.0341419,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Alimentation Couche-Tard Inc",
+      "holding_name_en": "Keyence Corp",
       "holding_name_zh": null,
-      "display_name": "Alimentation Couche-Tard Inc",
-      "display_label": "(ATD.TO)Alimentation Couche-Tard Inc",
-      "bilingual_name": "Alimentation Couche-Tard Inc"
+      "display_name": "Keyence Corp",
+      "display_label": "(6861.T)Keyence Corp",
+      "bilingual_name": "Keyence Corp"
     },
     {
       "etf_id": "US-LOEV",
-      "holding_symbol": "6920.T",
-      "holding_name": "Lasertec Corp",
-      "weight": 0.0301901,
+      "holding_symbol": "HLN",
+      "holding_name": "Haleon PLC ADR",
+      "weight": 0.0296148,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "Lasertec Corp",
+      "holding_name_en": "Haleon PLC ADR",
       "holding_name_zh": null,
-      "display_name": "Lasertec Corp",
-      "display_label": "(6920.T)Lasertec Corp",
-      "bilingual_name": "Lasertec Corp"
+      "display_name": "Haleon PLC ADR",
+      "display_label": "(HLN)Haleon PLC ADR",
+      "bilingual_name": "Haleon PLC ADR"
+    },
+    {
+      "etf_id": "US-LOEV",
+      "holding_symbol": "D05.SI",
+      "holding_name": "DBS Group Holdings Ltd",
+      "weight": 0.0290667,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "DBS Group Holdings Ltd",
+      "holding_name_zh": null,
+      "display_name": "DBS Group Holdings Ltd",
+      "display_label": "(D05.SI)DBS Group Holdings Ltd",
+      "bilingual_name": "DBS Group Holdings Ltd"
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.313542,
-    "top_3_weight": 0.119603
+    "holding_count": 10,
+    "top_10_weight": 0.370517,
+    "top_3_weight": 0.135436
   },
   "research": {
     "tier": "context",
