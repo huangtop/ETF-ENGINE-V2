@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-06T10:55:54.788747Z",
+  "updated_at": "2026-11-06T22:53:31.816430Z",
   "etfs": {
     "TW-00400A": {
       "current": "20261019-123ff3889e38",
@@ -5511,8 +5511,8 @@
       ]
     },
     "US-IVV": {
-      "current": "20261105-dc099c167b42",
-      "previous": "20261006-9cc2d5ff55ef",
+      "current": "20261106-f9cb17140a40",
+      "previous": "20261105-dc099c167b42",
       "snapshots": [
         {
           "snapshot_id": "20260729-00e4ceed79c6",
@@ -5543,6 +5543,12 @@
           "observed_at": "2026-11-05T22:52:54.080317Z",
           "content_sha256": "dc099c167b423343545e7732fe0be8c6aa0f650865a8b5f89a3edea6cbfe85a4",
           "path": "snapshots/20261105-dc099c167b42.json"
+        },
+        {
+          "snapshot_id": "20261106-f9cb17140a40",
+          "observed_at": "2026-11-06T22:51:02.811589Z",
+          "content_sha256": "f9cb17140a40f17e3455c215934ffcba7e3ca741a09a6c40fb6feb1cd5ef0381",
+          "path": "snapshots/20261106-f9cb17140a40.json"
         }
       ]
     },
@@ -9753,8 +9759,8 @@
       ]
     },
     "US-IWF": {
-      "current": "20261006-3f4a17919657",
-      "previous": "20260904-555f290390d9",
+      "current": "20261106-6f37400e81b8",
+      "previous": "20261006-3f4a17919657",
       "snapshots": [
         {
           "snapshot_id": "20260826-39341225c099",
@@ -9773,12 +9779,18 @@
           "observed_at": "2026-10-06T10:49:16.643008Z",
           "content_sha256": "3f4a17919657bad69efcba6bd4c27bf1567afbaeeaf9ca210b67e1d2f43c3cb4",
           "path": "snapshots/20261006-3f4a17919657.json"
+        },
+        {
+          "snapshot_id": "20261106-6f37400e81b8",
+          "observed_at": "2026-11-06T22:51:18.858203Z",
+          "content_sha256": "6f37400e81b8fd814043e309fad1bfd02a59b296f833f0611f3c7dd8c5cd4fd0",
+          "path": "snapshots/20261106-6f37400e81b8.json"
         }
       ]
     },
     "US-IWD": {
-      "current": "20261105-f5cae1120692",
-      "previous": "20261006-2a1269f3d411",
+      "current": "20261106-12048edde1b0",
+      "previous": "20261105-f5cae1120692",
       "snapshots": [
         {
           "snapshot_id": "20260826-5ba8912e89ae",
@@ -9803,6 +9815,12 @@
           "observed_at": "2026-11-05T22:53:09.727998Z",
           "content_sha256": "f5cae1120692eb99b40e30c5fbb00ee80d66f39967a927145707a499dadf8871",
           "path": "snapshots/20261105-f5cae1120692.json"
+        },
+        {
+          "snapshot_id": "20261106-12048edde1b0",
+          "observed_at": "2026-11-06T22:51:19.162493Z",
+          "content_sha256": "12048edde1b0b5e71e750f19fc97bc0a529b35509ce1dc2fc1125a6912f2f2c1",
+          "path": "snapshots/20261106-12048edde1b0.json"
         }
       ]
     },
@@ -11577,8 +11595,8 @@
       ]
     },
     "US-DRVR": {
-      "current": "20261105-6779af98d1e4",
-      "previous": "20261102-ce6fa92409b0",
+      "current": "20261106-80d794daafad",
+      "previous": "20261105-6779af98d1e4",
       "snapshots": [
         {
           "snapshot_id": "20261102-ce6fa92409b0",
@@ -11591,6 +11609,12 @@
           "observed_at": "2026-11-05T10:57:45.062697Z",
           "content_sha256": "6779af98d1e45ab24991c7f968f7e6a40151b9682f027b6ad271940f0cbd57fa",
           "path": "snapshots/20261105-6779af98d1e4.json"
+        },
+        {
+          "snapshot_id": "20261106-80d794daafad",
+          "observed_at": "2026-11-06T22:51:53.873903Z",
+          "content_sha256": "80d794daafadb42145f507bab99354db3b4670705ad497af6eeda9e890fc2e41",
+          "path": "snapshots/20261106-80d794daafad.json"
         }
       ]
     },
@@ -13335,8 +13359,8 @@
       ]
     },
     "US-IWR": {
-      "current": "20261105-779be1caccea",
-      "previous": "20261102-07ffe6e3319d",
+      "current": "20261106-dd96f40a6637",
+      "previous": "20261105-779be1caccea",
       "snapshots": [
         {
           "snapshot_id": "20261102-07ffe6e3319d",
@@ -13349,6 +13373,12 @@
           "observed_at": "2026-11-05T22:54:11.792640Z",
           "content_sha256": "779be1cacceaad87af8b737791c6ccdee51c7c0595abbfc6edd5d4b67a3a0d10",
           "path": "snapshots/20261105-779be1caccea.json"
+        },
+        {
+          "snapshot_id": "20261106-dd96f40a6637",
+          "observed_at": "2026-11-06T22:52:25.498496Z",
+          "content_sha256": "dd96f40a6637b36c2c185d9592fa3da6bf3faaddf046c9274f330982b09e4ad0",
+          "path": "snapshots/20261106-dd96f40a6637.json"
         }
       ]
     },
@@ -17103,14 +17133,20 @@
       ]
     },
     "US-OVQ": {
-      "current": "20261105-bc6febb9fbba",
-      "previous": null,
+      "current": "20261106-35643142beba",
+      "previous": "20261105-bc6febb9fbba",
       "snapshots": [
         {
           "snapshot_id": "20261105-bc6febb9fbba",
           "observed_at": "2026-11-05T10:57:22.572117Z",
           "content_sha256": "bc6febb9fbba818c795bea11fe4867090e19eb09e8294a460f821366f04f8c86",
           "path": "snapshots/20261105-bc6febb9fbba.json"
+        },
+        {
+          "snapshot_id": "20261106-35643142beba",
+          "observed_at": "2026-11-06T22:51:36.562111Z",
+          "content_sha256": "35643142beba36ea81f41c225350fbf5ae18d5f4f8061d425a8a3b48ab61c856",
+          "path": "snapshots/20261106-35643142beba.json"
         }
       ]
     },
@@ -17139,14 +17175,20 @@
       ]
     },
     "US-HOID": {
-      "current": "20261105-359736e7d9be",
-      "previous": null,
+      "current": "20261106-d2b2e2e54c8d",
+      "previous": "20261105-359736e7d9be",
       "snapshots": [
         {
           "snapshot_id": "20261105-359736e7d9be",
           "observed_at": "2026-11-05T22:53:25.301746Z",
           "content_sha256": "359736e7d9bed6f89bfb61bb9b4aa1d962b7449424673caccfe214edca591da0",
           "path": "snapshots/20261105-359736e7d9be.json"
+        },
+        {
+          "snapshot_id": "20261106-d2b2e2e54c8d",
+          "observed_at": "2026-11-06T22:51:35.592281Z",
+          "content_sha256": "d2b2e2e54c8d4ec31fccdb88a83c29a02a4e29d4b40488832df8243ffdcb3031",
+          "path": "snapshots/20261106-d2b2e2e54c8d.json"
         }
       ]
     }
