@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 7.1624,
+      "value": 6.422,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 28.3636,
+      "value": 25.5223,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 19.0808,
+      "value": 18.7987,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.4103,
+      "value": 0.4144,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9048,
+      "value": 1.9087,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.4079,
+      "value": 1.2779,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 28.3636,
+      "value": 25.5223,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 22.7464,
+      "value": 22.4505,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-05",
-    "value": 14.12,
+    "date": "2026-11-06",
+    "value": 13.82,
     "currency": "TWD"
   },
   "trend": [
@@ -1940,7 +1940,7 @@
     },
     {
       "date": "2026-10-06",
-      "value": 144.33
+      "value": 148.25
     },
     {
       "date": "2026-10-07",
@@ -2021,21 +2021,25 @@
     {
       "date": "2026-11-05",
       "value": 141.34
+    },
+    {
+      "date": "2026-11-06",
+      "value": 138.34
     }
   ],
   "price_history": {
     "first_date": "2024-11-14",
-    "last_date": "2026-11-05",
-    "observations": 480,
+    "last_date": "2026-11-06",
+    "observations": 481,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-05",
-    "latest_volume": 3606051.0,
-    "average_volume_20d": 1955917.85,
-    "average_dollar_volume_20d": 28657839.9848,
-    "relative_volume_20d": 1.8437,
+    "as_of": "2026-11-06",
+    "latest_volume": 2184762.0,
+    "average_volume_20d": 1985501.25,
+    "average_dollar_volume_20d": 28983049.8642,
+    "relative_volume_20d": 1.1004,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2113,31 +2117,31 @@
     },
     {
       "etf_id": "TW-00964",
-      "holding_symbol": "1308.HK",
-      "holding_name": "SITC International Holdings Co Ltd",
-      "weight": 0.0251,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "SITC International Holdings Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "SITC International Holdings Co Ltd",
-      "display_label": "(1308.HK)SITC International Holdings Co Ltd",
-      "bilingual_name": "SITC International Holdings Co Ltd"
-    },
-    {
-      "etf_id": "TW-00964",
       "holding_symbol": "2603.TW",
       "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
       "weight": 0.0251,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
       "holding_name_zh": "長榮",
       "display_name": "長榮",
       "display_label": "(2603.TW)長榮",
       "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
+    },
+    {
+      "etf_id": "TW-00964",
+      "holding_symbol": "1308.HK",
+      "holding_name": "SITC International Holdings Co Ltd",
+      "weight": 0.0251,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "SITC International Holdings Co Ltd",
+      "holding_name_zh": null,
+      "display_name": "SITC International Holdings Co Ltd",
+      "display_label": "(1308.HK)SITC International Holdings Co Ltd",
+      "bilingual_name": "SITC International Holdings Co Ltd"
     },
     {
       "etf_id": "TW-00964",
