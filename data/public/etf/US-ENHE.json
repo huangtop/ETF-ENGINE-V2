@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -68.409,
+      "value": -69.8495,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.9172,
+      "value": 28.4478,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.2601,
+      "value": 1.2615,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.1151,
+      "value": 0.119,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -9.0401,
+      "value": -9.8614,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 16.8119,
+      "value": 16.5259,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-09",
-    "value": 21.96,
+    "date": "2026-11-10",
+    "value": 21.7617,
     "currency": "USD"
   },
   "trend": [
@@ -205,21 +205,25 @@
     {
       "date": "2026-11-09",
       "value": 90.96
+    },
+    {
+      "date": "2026-11-10",
+      "value": 90.14
     }
   ],
   "price_history": {
     "first_date": "2026-09-30",
-    "last_date": "2026-11-09",
-    "observations": 29,
+    "last_date": "2026-11-10",
+    "observations": 30,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-09",
-    "latest_volume": 100.0,
-    "average_volume_20d": 230.0,
-    "average_dollar_volume_20d": 5237.2,
-    "relative_volume_20d": 0.4348,
+    "as_of": "2026-11-10",
+    "latest_volume": 11.0,
+    "average_volume_20d": 225.55,
+    "average_dollar_volume_20d": 5130.4189,
+    "relative_volume_20d": 0.0488,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -229,7 +233,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.16342951,
+      "weight": 0.1494662,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -243,7 +247,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0786366,
+      "weight": 0.0709844,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -257,7 +261,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "000660.KQ",
       "holding_name": "SK hynix Inc",
-      "weight": 0.0538586,
+      "weight": 0.0479929,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -271,7 +275,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
-      "weight": 0.0264794,
+      "weight": 0.0246678,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -285,7 +289,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "9988.HK",
       "holding_name": "Alibaba Group Holding Ltd Ordinary Shares",
-      "weight": 0.0184546,
+      "weight": 0.0170243,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -299,7 +303,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "2454.TW",
       "holding_name": "MediaTek Inc",
-      "weight": 0.0122713,
+      "weight": 0.0112008,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -313,7 +317,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "2317.TW",
       "holding_name": "Hon Hai Precision Industry Co Ltd",
-      "weight": 0.0115426,
+      "weight": 0.0106186,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -327,7 +331,7 @@
       "etf_id": "US-ENHE",
       "holding_symbol": "00939",
       "holding_name": "China Construction Bank Corp Class H",
-      "weight": 0.0101558,
+      "weight": 0.0094675,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -336,26 +340,12 @@
       "display_name": "China Construction Bank Corp Class H",
       "display_label": "(00939)China Construction Bank Corp Class H",
       "bilingual_name": "China Construction Bank Corp Class H"
-    },
-    {
-      "etf_id": "US-ENHE",
-      "holding_symbol": "02318",
-      "holding_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
-      "weight": 0.0090696,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Ping An Insurance (Group) Co. of China Ltd Class H",
-      "holding_name_zh": null,
-      "display_name": "Ping An Insurance (Group) Co. of China Ltd Class H",
-      "display_label": "(02318)Ping An Insurance (Group) Co. of China Ltd Class H",
-      "bilingual_name": "Ping An Insurance (Group) Co. of China Ltd Class H"
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.383898,
-    "top_3_weight": 0.295925
+    "holding_count": 8,
+    "top_10_weight": 0.341423,
+    "top_3_weight": 0.268444
   },
   "research": {
     "tier": "context",

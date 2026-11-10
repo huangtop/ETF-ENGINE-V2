@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 3.4613,
+      "value": 3.3939,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 5.4154,
+      "value": 5.0625,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 2.5443,
+      "value": 2.5388,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.1402,
+      "value": 0.1404,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.1627,
+      "value": 2.1667,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.5389,
+      "value": 1.4033,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 5.4154,
+      "value": 5.0625,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.9365,
+      "value": 11.8683,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-09",
-    "value": 28.42,
+    "date": "2026-11-10",
+    "value": 28.39,
     "currency": "USD"
   },
   "trend": [
@@ -2277,21 +2277,25 @@
     {
       "date": "2026-11-09",
       "value": 113.77
+    },
+    {
+      "date": "2026-11-10",
+      "value": 113.65
     }
   ],
   "price_history": {
     "first_date": "2024-09-09",
-    "last_date": "2026-11-09",
-    "observations": 545,
+    "last_date": "2026-11-10",
+    "observations": 546,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-09",
-    "latest_volume": 26200.0,
-    "average_volume_20d": 28745.0,
-    "average_dollar_volume_20d": 816853.0191,
-    "relative_volume_20d": 0.9115,
+    "as_of": "2026-11-10",
+    "latest_volume": 17522.0,
+    "average_volume_20d": 28846.1,
+    "average_dollar_volume_20d": 819669.7728,
+    "relative_volume_20d": 0.6074,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2301,7 +2305,7 @@
       "etf_id": "US-CPSL",
       "holding_symbol": "CPSN",
       "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Nov",
-      "weight": 0.0834416,
+      "weight": 0.0836963,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2313,12 +2317,26 @@
     },
     {
       "etf_id": "US-CPSL",
-      "holding_symbol": "CPSO",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Oct",
-      "weight": 0.08339521,
+      "holding_symbol": "CPSY",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Jan",
+      "weight": 0.08354709,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
+      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Jan",
+      "holding_name_zh": null,
+      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Jan",
+      "display_label": "(CPSY)Calamos S&P 500 Str Alt Prt ETF-Jan",
+      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Jan"
+    },
+    {
+      "etf_id": "US-CPSL",
+      "holding_symbol": "CPSO",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Oct",
+      "weight": 0.0835337,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
       "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Oct",
       "holding_name_zh": null,
       "display_name": "Calamos S&P 500 Str Alt Prt ETF-Oct",
@@ -2329,10 +2347,10 @@
       "etf_id": "US-CPSL",
       "holding_symbol": "CPSD",
       "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Dec",
-      "weight": 0.083377,
+      "weight": 0.0834828,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 4,
       "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Dec",
       "holding_name_zh": null,
       "display_name": "Calamos S&P 500 Str Alt Prt ETF-Dec",
@@ -2341,68 +2359,12 @@
     },
     {
       "etf_id": "US-CPSL",
-      "holding_symbol": "CPSA",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Aug",
-      "weight": 0.0833679,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Aug",
-      "holding_name_zh": null,
-      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Aug",
-      "display_label": "(CPSA)Calamos S&P 500 Str Alt Prt ETF-Aug",
-      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Aug"
-    },
-    {
-      "etf_id": "US-CPSL",
-      "holding_symbol": "CPST",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Sep",
-      "weight": 0.0833102,
+      "holding_symbol": "CPSF",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Feb",
+      "weight": 0.08331451,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Sep",
-      "holding_name_zh": null,
-      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Sep",
-      "display_label": "(CPST)Calamos S&P 500 Str Alt Prt ETF-Sep",
-      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Sep"
-    },
-    {
-      "etf_id": "US-CPSL",
-      "holding_symbol": "CPSY",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Jan",
-      "weight": 0.08328769,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Jan",
-      "holding_name_zh": null,
-      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Jan",
-      "display_label": "(CPSY)Calamos S&P 500 Str Alt Prt ETF-Jan",
-      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Jan"
-    },
-    {
-      "etf_id": "US-CPSL",
-      "holding_symbol": "CPSJ",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Jul",
-      "weight": 0.0832666,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Jul",
-      "holding_name_zh": null,
-      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Jul",
-      "display_label": "(CPSJ)Calamos S&P 500 Str Alt Prt ETF-Jul",
-      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Jul"
-    },
-    {
-      "etf_id": "US-CPSL",
-      "holding_symbol": "CPSF",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Feb",
-      "weight": 0.0832528,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 8,
       "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Feb",
       "holding_name_zh": null,
       "display_name": "Calamos S&P 500 Str Alt Prt ETF-Feb",
@@ -2411,12 +2373,26 @@
     },
     {
       "etf_id": "US-CPSL",
-      "holding_symbol": "CPSR",
-      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Mar",
-      "weight": 0.0832011,
+      "holding_symbol": "CPSA",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Aug",
+      "weight": 0.0832154,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 6,
+      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Aug",
+      "holding_name_zh": null,
+      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Aug",
+      "display_label": "(CPSA)Calamos S&P 500 Str Alt Prt ETF-Aug",
+      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Aug"
+    },
+    {
+      "etf_id": "US-CPSL",
+      "holding_symbol": "CPSR",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Mar",
+      "weight": 0.0832053,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Mar",
       "holding_name_zh": null,
       "display_name": "Calamos S&P 500 Str Alt Prt ETF-Mar",
@@ -2427,21 +2403,49 @@
       "etf_id": "US-CPSL",
       "holding_symbol": "CPSP",
       "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Apr",
-      "weight": 0.0831165,
+      "weight": 0.0831871,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 8,
       "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Apr",
       "holding_name_zh": null,
       "display_name": "Calamos S&P 500 Str Alt Prt ETF-Apr",
       "display_label": "(CPSP)Calamos S&P 500 Str Alt Prt ETF-Apr",
       "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Apr"
+    },
+    {
+      "etf_id": "US-CPSL",
+      "holding_symbol": "CPSJ",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Jul",
+      "weight": 0.0831219,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Jul",
+      "holding_name_zh": null,
+      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Jul",
+      "display_label": "(CPSJ)Calamos S&P 500 Str Alt Prt ETF-Jul",
+      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Jul"
+    },
+    {
+      "etf_id": "US-CPSL",
+      "holding_symbol": "CPST",
+      "holding_name": "Calamos S&P 500 Str Alt Prt ETF-Sep",
+      "weight": 0.0830758,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Calamos S&P 500 Str Alt Prt ETF-Sep",
+      "holding_name_zh": null,
+      "display_name": "Calamos S&P 500 Str Alt Prt ETF-Sep",
+      "display_label": "(CPST)Calamos S&P 500 Str Alt Prt ETF-Sep",
+      "bilingual_name": "Calamos S&P 500 Str Alt Prt ETF-Sep"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.833017,
-    "top_3_weight": 0.250214
+    "top_10_weight": 0.83338,
+    "top_3_weight": 0.250777
   },
   "research": {
     "tier": "context",
