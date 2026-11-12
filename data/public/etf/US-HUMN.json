@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -21.7497,
+      "value": -24.4656,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -4.5681,
+      "value": -7.8432,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 37.1671,
+      "value": 37.4179,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.9196,
+      "value": 1.9275,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.381,
+      "value": 1.3849,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.1633,
+      "value": -0.2497,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -4.5681,
+      "value": -7.8432,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 29.0911,
+      "value": 29.3523,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-11",
-    "value": 28.45,
+    "date": "2026-11-12",
+    "value": 27.19,
     "currency": "USD"
   },
   "trend": [
@@ -1489,21 +1489,25 @@
     {
       "date": "2026-11-11",
       "value": 113.72
+    },
+    {
+      "date": "2026-11-12",
+      "value": 108.69
     }
   ],
   "price_history": {
     "first_date": "2025-06-26",
-    "last_date": "2026-11-11",
-    "observations": 348,
+    "last_date": "2026-11-12",
+    "observations": 349,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-11",
-    "latest_volume": 120700.0,
-    "average_volume_20d": 56665.0,
-    "average_dollar_volume_20d": 1536910.1546,
-    "relative_volume_20d": 2.1301,
+    "as_of": "2026-11-12",
+    "latest_volume": 52641.0,
+    "average_volume_20d": 55797.05,
+    "average_dollar_volume_20d": 1516950.5969,
+    "relative_volume_20d": 0.9434,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1595,26 +1599,12 @@
     },
     {
       "etf_id": "US-HUMN",
-      "holding_symbol": "CCXI",
-      "holding_name": "Churchill Capital Corp Xi",
-      "weight": 0.0323818,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Churchill Capital Corp Xi",
-      "holding_name_zh": null,
-      "display_name": "Churchill Capital Corp Xi",
-      "display_label": "(CCXI)Churchill Capital Corp Xi",
-      "bilingual_name": "Churchill Capital Corp Xi"
-    },
-    {
-      "etf_id": "US-HUMN",
       "holding_symbol": "HEXA-B.ST",
       "holding_name": "Hexagon AB Class B",
       "weight": 0.026506,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 7,
       "holding_name_en": "Hexagon AB Class B",
       "holding_name_zh": null,
       "display_name": "Hexagon AB Class B",
@@ -1623,8 +1613,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 8,
-    "top_10_weight": 0.291389,
+    "holding_count": 7,
+    "top_10_weight": 0.259007,
     "top_3_weight": 0.12953
   },
   "research": {
