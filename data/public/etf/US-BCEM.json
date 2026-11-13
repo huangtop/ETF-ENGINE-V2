@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -32.6414,
+      "value": -31.9464,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.6645,
+      "value": 28.572,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.5846,
+      "value": 1.583,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.6032,
+      "value": 0.6071,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -3.6,
+      "value": -3.8924,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.304,
+      "value": 20.2375,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-12",
-    "value": 24.1,
+    "date": "2026-11-13",
+    "value": 24.0269,
     "currency": "USD"
   },
   "trend": [
@@ -697,21 +697,25 @@
     {
       "date": "2026-11-12",
       "value": 96.4
+    },
+    {
+      "date": "2026-11-13",
+      "value": 96.11
     }
   ],
   "price_history": {
     "first_date": "2026-04-09",
-    "last_date": "2026-11-12",
-    "observations": 152,
+    "last_date": "2026-11-13",
+    "observations": 153,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-12",
-    "latest_volume": 4700.0,
-    "average_volume_20d": 2985.0,
-    "average_dollar_volume_20d": 72587.6002,
-    "relative_volume_20d": 1.5745,
+    "as_of": "2026-11-13",
+    "latest_volume": 10368.0,
+    "average_volume_20d": 3383.4,
+    "average_dollar_volume_20d": 82035.9449,
+    "relative_volume_20d": 3.0644,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -817,12 +821,26 @@
     },
     {
       "etf_id": "US-BCEM",
+      "holding_symbol": "BAJFINANCE.BO",
+      "holding_name": "Bajaj Finance Ltd",
+      "weight": 0.0214487,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Bajaj Finance Ltd",
+      "holding_name_zh": null,
+      "display_name": "Bajaj Finance Ltd",
+      "display_label": "(BAJFINANCE.BO)Bajaj Finance Ltd",
+      "bilingual_name": "Bajaj Finance Ltd"
+    },
+    {
+      "etf_id": "US-BCEM",
       "holding_symbol": "0700.HK",
       "holding_name": "Tencent Holdings Ltd",
       "weight": 0.0201394,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Tencent Holdings Ltd",
       "holding_name_zh": null,
       "display_name": "Tencent Holdings Ltd",
@@ -836,7 +854,7 @@
       "weight": 0.0168331,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "Southern Copper Corp",
       "holding_name_zh": null,
       "display_name": "Southern Copper Corp",
@@ -845,8 +863,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.371381,
+    "holding_count": 10,
+    "top_10_weight": 0.39283,
     "top_3_weight": 0.241326
   },
   "research": {
