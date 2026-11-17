@@ -63,19 +63,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -2.2484,
+      "value": -1.2705,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 25.7426,
+      "value": 25.2399,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 25.8842,
+      "value": 25.9154,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6262,
+      "value": 0.627,
       "unit": "ratio"
     },
     "data_years": {
@@ -87,26 +87,26 @@
       "unit": "percent"
     },
     "max_drawdown": {
-      "value": -13.4653,
+      "value": -15.3147,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.9366,
+      "value": 0.9161,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 25.7426,
+      "value": 25.2399,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.8055,
+      "value": 20.766,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-16",
-    "value": 26.67,
+    "date": "2026-11-17",
+    "value": 26.1,
     "currency": "TWD"
   },
   "trend": [
@@ -3061,21 +3061,25 @@
     {
       "date": "2026-11-16",
       "value": 175.81
+    },
+    {
+      "date": "2026-11-17",
+      "value": 172.05
     }
   ],
   "price_history": {
     "first_date": "2023-11-01",
-    "last_date": "2026-11-16",
-    "observations": 738,
+    "last_date": "2026-11-17",
+    "observations": 739,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-16",
-    "latest_volume": 13414649.0,
-    "average_volume_20d": 5693275.7,
-    "average_dollar_volume_20d": 159415661.016,
-    "relative_volume_20d": 2.3562,
+    "as_of": "2026-11-17",
+    "latest_volume": 8096280.0,
+    "average_volume_20d": 5709829.6,
+    "average_dollar_volume_20d": 158609168.087,
+    "relative_volume_20d": 1.418,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -3083,12 +3087,26 @@
   "top_holdings": [
     {
       "etf_id": "TW-00934",
-      "holding_symbol": "3293.TWO",
-      "holding_name": "International Games System Co Ltd",
-      "weight": 0.0704,
+      "holding_symbol": "2603.TW",
+      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
+      "weight": 0.077,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
+      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
+      "holding_name_zh": "長榮",
+      "display_name": "長榮",
+      "display_label": "(2603.TW)長榮",
+      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
+    },
+    {
+      "etf_id": "TW-00934",
+      "holding_symbol": "3293.TWO",
+      "holding_name": "International Games System Co Ltd",
+      "weight": 0.0762,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
       "holding_name_en": "International Games System Co Ltd",
       "holding_name_zh": "鈊象",
       "display_name": "鈊象",
@@ -3099,10 +3117,10 @@
       "etf_id": "TW-00934",
       "holding_symbol": "2382.TW",
       "holding_name": "Quanta Computer Inc",
-      "weight": 0.0685,
+      "weight": 0.0686,
       "as_of": null,
       "source": "yahoo",
-      "rank": 2,
+      "rank": 3,
       "holding_name_en": "Quanta Computer Inc",
       "holding_name_zh": "廣達",
       "display_name": "廣達",
@@ -3113,10 +3131,10 @@
       "etf_id": "TW-00934",
       "holding_symbol": "8299.TWO",
       "holding_name": "Phison Electronics Corp",
-      "weight": 0.0648,
+      "weight": 0.0611,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 4,
       "holding_name_en": "Phison Electronics Corp",
       "holding_name_zh": "群聯",
       "display_name": "群聯",
@@ -3125,23 +3143,9 @@
     },
     {
       "etf_id": "TW-00934",
-      "holding_symbol": "2603.TW",
-      "holding_name": "Evergreen Marine Corp (Taiwan) Ltd",
-      "weight": 0.0644,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Evergreen Marine Corp (Taiwan) Ltd",
-      "holding_name_zh": "長榮",
-      "display_name": "長榮",
-      "display_label": "(2603.TW)長榮",
-      "bilingual_name": "Evergreen Marine Corp (Taiwan) Ltd（長榮）"
-    },
-    {
-      "etf_id": "TW-00934",
       "holding_symbol": "2357.TW",
       "holding_name": "Asustek Computer Inc",
-      "weight": 0.0524,
+      "weight": 0.0519,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
@@ -3153,23 +3157,23 @@
     },
     {
       "etf_id": "TW-00934",
-      "holding_symbol": "6669.TW",
-      "holding_name": "Wiwynn Corp Ordinary Shares",
-      "weight": 0.0483,
+      "holding_symbol": "3034.TW",
+      "holding_name": "Novatek Microelectronics Corp",
+      "weight": 0.0469,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
-      "holding_name_en": "Wiwynn Corp Ordinary Shares",
-      "holding_name_zh": "緯穎",
-      "display_name": "緯穎",
-      "display_label": "(6669.TW)緯穎",
-      "bilingual_name": "Wiwynn Corp Ordinary Shares（緯穎）"
+      "holding_name_en": "Novatek Microelectronics Corp",
+      "holding_name_zh": "聯詠",
+      "display_name": "聯詠",
+      "display_label": "(3034.TW)聯詠",
+      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
     },
     {
       "etf_id": "TW-00934",
       "holding_symbol": "3260.TWO",
       "holding_name": "AData Technology Co Ltd",
-      "weight": 0.0463,
+      "weight": 0.0445,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -3181,23 +3185,23 @@
     },
     {
       "etf_id": "TW-00934",
-      "holding_symbol": "3034.TW",
-      "holding_name": "Novatek Microelectronics Corp",
-      "weight": 0.0424,
+      "holding_symbol": "2379.TW",
+      "holding_name": "Realtek Semiconductor Corp",
+      "weight": 0.034,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
-      "holding_name_en": "Novatek Microelectronics Corp",
-      "holding_name_zh": "聯詠",
-      "display_name": "聯詠",
-      "display_label": "(3034.TW)聯詠",
-      "bilingual_name": "Novatek Microelectronics Corp（聯詠）"
+      "holding_name_en": "Realtek Semiconductor Corp",
+      "holding_name_zh": "瑞昱",
+      "display_name": "瑞昱",
+      "display_label": "(2379.TW)瑞昱",
+      "bilingual_name": "Realtek Semiconductor Corp（瑞昱）"
     },
     {
       "etf_id": "TW-00934",
       "holding_symbol": "2404.TW",
       "holding_name": "United Integrated Services Co Ltd",
-      "weight": 0.033,
+      "weight": 0.0289,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -3209,23 +3213,23 @@
     },
     {
       "etf_id": "TW-00934",
-      "holding_symbol": "2379.TW",
-      "holding_name": "Realtek Semiconductor Corp",
-      "weight": 0.0306,
+      "holding_symbol": "2376.TW",
+      "holding_name": "Gigabyte Technology Co Ltd",
+      "weight": 0.0286,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Realtek Semiconductor Corp",
-      "holding_name_zh": "瑞昱",
-      "display_name": "瑞昱",
-      "display_label": "(2379.TW)瑞昱",
-      "bilingual_name": "Realtek Semiconductor Corp（瑞昱）"
+      "holding_name_en": "Gigabyte Technology Co Ltd",
+      "holding_name_zh": "技嘉",
+      "display_name": "技嘉",
+      "display_label": "(2376.TW)技嘉",
+      "bilingual_name": "Gigabyte Technology Co Ltd（技嘉）"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.5211,
-    "top_3_weight": 0.2037
+    "top_10_weight": 0.5177,
+    "top_3_weight": 0.2218
   },
   "research": {
     "tier": "context",
