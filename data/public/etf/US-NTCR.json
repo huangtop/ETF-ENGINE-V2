@@ -1,0 +1,97 @@
+{
+  "etf_id": "US-NTCR",
+  "ticker": "NTCR",
+  "quote_symbol": "NTCR",
+  "name": "Nuveen Technology & Infrastructure Credit ETF",
+  "short_name": "NTCR",
+  "listing_market": "US",
+  "listing_exchange": "Nasdaq",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-17",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "Nuveen Technology & Infrastructure Credit ETF",
+  "short_name_en": "NTCR",
+  "name_zh": "Nuveen Technology & Infrastructure Credit ETF",
+  "short_name_zh": null,
+  "display_name": "Nuveen Technology & Infrastructure Credit ETF",
+  "display_short_name": "Nuveen Technology & Infrastructure Credit ETF",
+  "display_label": "(NTCR)Nuveen Technology & Infrastructure Credit ETF",
+  "bilingual_name": "Nuveen Technology & Infrastructure Credit ETF（Nuveen Technology & Infrastructure Credit ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "theme",
+      "code": "infrastructure"
+    }
+  ],
+  "metrics": {},
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-17",
+    "value": 24.995,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-11-17",
+      "value": 100.0
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-11-17",
+    "last_date": "2026-11-17",
+    "observations": 1,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-17",
+    "latest_volume": 551440.0,
+    "average_volume_20d": 551440.0,
+    "average_dollar_volume_20d": 13783243.2628,
+    "relative_volume_20d": 1.0,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 1
+  },
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

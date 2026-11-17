@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -12.953,
+      "value": -12.985,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 21.2568,
+      "value": 21.2614,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.2942,
+      "value": 1.2944,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.5913,
+      "value": 0.5952,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -10.7182,
+      "value": -11.6669,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -0.9722,
+      "value": -2.3417,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 11.9344,
+      "value": 11.9017,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-16",
-    "value": 74.1,
+    "date": "2026-11-17",
+    "value": 73.0752,
     "currency": "USD"
   },
   "trend": [
@@ -689,21 +689,25 @@
     {
       "date": "2026-11-16",
       "value": 99.03
+    },
+    {
+      "date": "2026-11-17",
+      "value": 97.66
     }
   ],
   "price_history": {
     "first_date": "2026-04-16",
-    "last_date": "2026-11-16",
-    "observations": 149,
+    "last_date": "2026-11-17",
+    "observations": 150,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-16",
-    "latest_volume": 7400.0,
-    "average_volume_20d": 7485.0,
-    "average_dollar_volume_20d": 567835.3452,
-    "relative_volume_20d": 0.9886,
+    "as_of": "2026-11-17",
+    "latest_volume": 8519.0,
+    "average_volume_20d": 7550.95,
+    "average_dollar_volume_20d": 571425.3286,
+    "relative_volume_20d": 1.1282,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -711,26 +715,12 @@
   "top_holdings": [
     {
       "etf_id": "US-VDG",
-      "holding_symbol": "000660.KQ",
-      "holding_name": "SK hynix Inc",
-      "weight": 0.0484483,
+      "holding_symbol": "ASML.AS",
+      "holding_name": "ASML Holding NV",
+      "weight": 0.0405988,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "SK hynix Inc",
-      "holding_name_zh": null,
-      "display_name": "SK hynix Inc",
-      "display_label": "(000660.KQ)SK hynix Inc",
-      "bilingual_name": "SK hynix Inc"
-    },
-    {
-      "etf_id": "US-VDG",
-      "holding_symbol": "ASML.AS",
-      "holding_name": "ASML Holding NV",
-      "weight": 0.0444462,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "ASML Holding NV",
       "holding_name_zh": null,
       "display_name": "ASML Holding NV",
@@ -739,9 +729,23 @@
     },
     {
       "etf_id": "US-VDG",
+      "holding_symbol": "000660.KQ",
+      "holding_name": "SK hynix Inc",
+      "weight": 0.0396488,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "SK hynix Inc",
+      "holding_name_zh": null,
+      "display_name": "SK hynix Inc",
+      "display_label": "(000660.KQ)SK hynix Inc",
+      "bilingual_name": "SK hynix Inc"
+    },
+    {
+      "etf_id": "US-VDG",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0234286,
+      "weight": 0.0203055,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -755,7 +759,7 @@
       "etf_id": "US-VDG",
       "holding_symbol": "HSBA.L",
       "holding_name": "HSBC Holdings PLC",
-      "weight": 0.0217545,
+      "weight": 0.0195884,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -767,26 +771,12 @@
     },
     {
       "etf_id": "US-VDG",
-      "holding_symbol": "8306.T",
-      "holding_name": "Mitsubishi UFJ Financial Group Inc",
-      "weight": 0.0176833,
+      "holding_symbol": "RY",
+      "holding_name": "Royal Bank of Canada",
+      "weight": 0.0188106,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Mitsubishi UFJ Financial Group Inc",
-      "holding_name_zh": null,
-      "display_name": "Mitsubishi UFJ Financial Group Inc",
-      "display_label": "(8306.T)Mitsubishi UFJ Financial Group Inc",
-      "bilingual_name": "Mitsubishi UFJ Financial Group Inc"
-    },
-    {
-      "etf_id": "US-VDG",
-      "holding_symbol": "RY",
-      "holding_name": "Royal Bank of Canada",
-      "weight": 0.0174881,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Royal Bank of Canada",
       "holding_name_zh": null,
       "display_name": "Royal Bank of Canada",
@@ -795,26 +785,26 @@
     },
     {
       "etf_id": "US-VDG",
-      "holding_symbol": "SIE.DE",
-      "holding_name": "Siemens AG",
-      "weight": 0.0142979,
+      "holding_symbol": "8306.T",
+      "holding_name": "Mitsubishi UFJ Financial Group Inc",
+      "weight": 0.0170887,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Siemens AG",
+      "rank": 6,
+      "holding_name_en": "Mitsubishi UFJ Financial Group Inc",
       "holding_name_zh": null,
-      "display_name": "Siemens AG",
-      "display_label": "(SIE.DE)Siemens AG",
-      "bilingual_name": "Siemens AG"
+      "display_name": "Mitsubishi UFJ Financial Group Inc",
+      "display_label": "(8306.T)Mitsubishi UFJ Financial Group Inc",
+      "bilingual_name": "Mitsubishi UFJ Financial Group Inc"
     },
     {
       "etf_id": "US-VDG",
       "holding_symbol": "SAP.DE",
       "holding_name": "SAP SE",
-      "weight": 0.0136532,
+      "weight": 0.0159795,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 7,
       "holding_name_en": "SAP SE",
       "holding_name_zh": null,
       "display_name": "SAP SE",
@@ -823,37 +813,51 @@
     },
     {
       "etf_id": "US-VDG",
-      "holding_symbol": "SHOP",
-      "holding_name": "Shopify Inc Registered Shs -A- Subord Vtg",
-      "weight": 0.0114824,
+      "holding_symbol": "SIE.DE",
+      "holding_name": "Siemens AG",
+      "weight": 0.0141765,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
-      "holding_name_en": "Shopify Inc Registered Shs -A- Subord Vtg",
+      "rank": 8,
+      "holding_name_en": "Siemens AG",
       "holding_name_zh": null,
-      "display_name": "Shopify Inc Registered Shs -A- Subord Vtg",
-      "display_label": "(SHOP)Shopify Inc Registered Shs -A- Subord Vtg",
-      "bilingual_name": "Shopify Inc Registered Shs -A- Subord Vtg"
+      "display_name": "Siemens AG",
+      "display_label": "(SIE.DE)Siemens AG",
+      "bilingual_name": "Siemens AG"
     },
     {
       "etf_id": "US-VDG",
-      "holding_symbol": "SU.PA",
-      "holding_name": "Schneider Electric SE",
-      "weight": 0.0114103,
+      "holding_symbol": "ROP.SW",
+      "holding_name": "Roche Holding AG Ordinary Shares new",
+      "weight": 0.0134504,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Roche Holding AG Ordinary Shares new",
+      "holding_name_zh": null,
+      "display_name": "Roche Holding AG Ordinary Shares new",
+      "display_label": "(ROP.SW)Roche Holding AG Ordinary Shares new",
+      "bilingual_name": "Roche Holding AG Ordinary Shares new"
+    },
+    {
+      "etf_id": "US-VDG",
+      "holding_symbol": "CBA.AX",
+      "holding_name": "Commonwealth Bank of Australia",
+      "weight": 0.0130634,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Schneider Electric SE",
+      "holding_name_en": "Commonwealth Bank of Australia",
       "holding_name_zh": null,
-      "display_name": "Schneider Electric SE",
-      "display_label": "(SU.PA)Schneider Electric SE",
-      "bilingual_name": "Schneider Electric SE"
+      "display_name": "Commonwealth Bank of Australia",
+      "display_label": "(CBA.AX)Commonwealth Bank of Australia",
+      "bilingual_name": "Commonwealth Bank of Australia"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.224093,
-    "top_3_weight": 0.116323
+    "top_10_weight": 0.212711,
+    "top_3_weight": 0.100553
   },
   "research": {
     "tier": "context",

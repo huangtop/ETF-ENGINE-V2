@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -4.8179,
+      "value": -5.5014,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 15.7098,
+      "value": 15.7472,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.8626,
+      "value": 0.8661,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.5913,
+      "value": 0.5952,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -6.1292,
+      "value": -6.6258,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 1.7652,
+      "value": 0.4619,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 10.2726,
+      "value": 10.2426,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-16",
-    "value": 75.44,
+    "date": "2026-11-17",
+    "value": 74.4739,
     "currency": "USD"
   },
   "trend": [
@@ -689,21 +689,25 @@
     {
       "date": "2026-11-16",
       "value": 101.77
+    },
+    {
+      "date": "2026-11-17",
+      "value": 100.46
     }
   ],
   "price_history": {
     "first_date": "2026-04-16",
-    "last_date": "2026-11-16",
-    "observations": 149,
+    "last_date": "2026-11-17",
+    "observations": 150,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-16",
-    "latest_volume": 18700.0,
-    "average_volume_20d": 13985.0,
-    "average_dollar_volume_20d": 1069908.0603,
-    "relative_volume_20d": 1.3371,
+    "as_of": "2026-11-17",
+    "latest_volume": 17666.0,
+    "average_volume_20d": 14523.3,
+    "average_dollar_volume_20d": 1109232.8052,
+    "relative_volume_20d": 1.2164,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -713,7 +717,7 @@
       "etf_id": "US-VDV",
       "holding_symbol": "005930.KQ",
       "holding_name": "Samsung Electronics Co Ltd",
-      "weight": 0.0414455,
+      "weight": 0.0344085,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -727,7 +731,7 @@
       "etf_id": "US-VDV",
       "holding_symbol": "NESN.SW",
       "holding_name": "Nestle SA",
-      "weight": 0.0183165,
+      "weight": 0.0206116,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
@@ -741,7 +745,7 @@
       "etf_id": "US-VDV",
       "holding_symbol": "7203.T",
       "holding_name": "Toyota Motor Corp",
-      "weight": 0.0170201,
+      "weight": 0.0180279,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -753,26 +757,12 @@
     },
     {
       "etf_id": "US-VDV",
-      "holding_symbol": "ALV.DE",
-      "holding_name": "Allianz SE",
-      "weight": 0.0140537,
+      "holding_symbol": "TTE.PA",
+      "holding_name": "TotalEnergies SE",
+      "weight": 0.0151897,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
-      "holding_name_en": "Allianz SE",
-      "holding_name_zh": null,
-      "display_name": "Allianz SE",
-      "display_label": "(ALV.DE)Allianz SE",
-      "bilingual_name": "Allianz SE"
-    },
-    {
-      "etf_id": "US-VDV",
-      "holding_symbol": "TTE.PA",
-      "holding_name": "TotalEnergies SE",
-      "weight": 0.0136889,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
       "holding_name_en": "TotalEnergies SE",
       "holding_name_zh": null,
       "display_name": "TotalEnergies SE",
@@ -781,9 +771,23 @@
     },
     {
       "etf_id": "US-VDV",
+      "holding_symbol": "ALV.DE",
+      "holding_name": "Allianz SE",
+      "weight": 0.014534,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "Allianz SE",
+      "holding_name_zh": null,
+      "display_name": "Allianz SE",
+      "display_label": "(ALV.DE)Allianz SE",
+      "bilingual_name": "Allianz SE"
+    },
+    {
+      "etf_id": "US-VDV",
       "holding_symbol": "AZN.L",
       "holding_name": "AstraZeneca PLC",
-      "weight": 0.0110673,
+      "weight": 0.0127032,
       "as_of": null,
       "source": "yahoo",
       "rank": 6,
@@ -797,7 +801,7 @@
       "etf_id": "US-VDV",
       "holding_symbol": "SHEL.L",
       "holding_name": "Shell PLC",
-      "weight": 0.0105255,
+      "weight": 0.0119533,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -811,7 +815,7 @@
       "etf_id": "US-VDV",
       "holding_symbol": "ROP.SW",
       "holding_name": "Roche Holding AG Ordinary Shares new",
-      "weight": 0.0094939,
+      "weight": 0.0110948,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -823,37 +827,37 @@
     },
     {
       "etf_id": "US-VDV",
-      "holding_symbol": "BHP.AX",
-      "holding_name": "BHP Group Ltd",
-      "weight": 0.0094266,
+      "holding_symbol": "BATS.L",
+      "holding_name": "British American Tobacco PLC",
+      "weight": 0.0103715,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
-      "holding_name_en": "BHP Group Ltd",
-      "holding_name_zh": null,
-      "display_name": "BHP Group Ltd",
-      "display_label": "(BHP.AX)BHP Group Ltd",
-      "bilingual_name": "BHP Group Ltd"
-    },
-    {
-      "etf_id": "US-VDV",
-      "holding_symbol": "BATS.L",
-      "holding_name": "British American Tobacco PLC",
-      "weight": 0.0092776,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 10,
       "holding_name_en": "British American Tobacco PLC",
       "holding_name_zh": null,
       "display_name": "British American Tobacco PLC",
       "display_label": "(BATS.L)British American Tobacco PLC",
       "bilingual_name": "British American Tobacco PLC"
+    },
+    {
+      "etf_id": "US-VDV",
+      "holding_symbol": "BP.L",
+      "holding_name": "BP PLC",
+      "weight": 0.0102999,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "BP PLC",
+      "holding_name_zh": null,
+      "display_name": "BP PLC",
+      "display_label": "(BP.L)BP PLC",
+      "bilingual_name": "BP PLC"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.154316,
-    "top_3_weight": 0.076782
+    "top_10_weight": 0.159194,
+    "top_3_weight": 0.073048
   },
   "research": {
     "tier": "context",
