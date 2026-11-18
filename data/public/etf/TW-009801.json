@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -25.7835,
+      "value": -25.6767,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -7.4692,
+      "value": -6.7496,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 28.3854,
+      "value": 28.3675,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.5043,
+      "value": 0.5039,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.7183,
+      "value": 1.7222,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,22 +75,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.316,
+      "value": -0.2908,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -7.4692,
+      "value": -6.7496,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 28.2956,
+      "value": 28.2937,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-17",
-    "value": 10.53,
+    "date": "2026-11-18",
+    "value": 10.5,
     "currency": "TWD"
   },
   "trend": [
@@ -1825,21 +1825,25 @@
     {
       "date": "2026-11-17",
       "value": 105.3
+    },
+    {
+      "date": "2026-11-18",
+      "value": 105.0
     }
   ],
   "price_history": {
     "first_date": "2025-02-11",
-    "last_date": "2026-11-17",
-    "observations": 433,
+    "last_date": "2026-11-18",
+    "observations": 434,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-17",
-    "latest_volume": 588112.0,
-    "average_volume_20d": 734813.05,
-    "average_dollar_volume_20d": 8087989.2555,
-    "relative_volume_20d": 0.8004,
+    "as_of": "2026-11-18",
+    "latest_volume": 3012714.0,
+    "average_volume_20d": 849974.55,
+    "average_dollar_volume_20d": 9262775.0315,
+    "relative_volume_20d": 3.5445,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -1847,26 +1851,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "NVDA",
-      "holding_name": "NVIDIA Corp",
-      "weight": 0.1726,
+      "holding_symbol": "AAPL",
+      "holding_name": "Apple Inc",
+      "weight": 0.1866,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "NVIDIA Corp",
-      "holding_name_zh": "輝達",
-      "display_name": "輝達",
-      "display_label": "(NVDA)輝達",
-      "bilingual_name": "NVIDIA Corp（輝達）"
-    },
-    {
-      "etf_id": "TW-009801",
-      "holding_symbol": "AAPL",
-      "holding_name": "Apple Inc",
-      "weight": 0.16549999,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "Apple Inc",
       "holding_name_zh": "蘋果",
       "display_name": "蘋果",
@@ -1875,9 +1865,23 @@
     },
     {
       "etf_id": "TW-009801",
+      "holding_symbol": "NVDA",
+      "holding_name": "NVIDIA Corp",
+      "weight": 0.1689,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "NVIDIA Corp",
+      "holding_name_zh": "輝達",
+      "display_name": "輝達",
+      "display_label": "(NVDA)輝達",
+      "bilingual_name": "NVIDIA Corp（輝達）"
+    },
+    {
+      "etf_id": "TW-009801",
       "holding_symbol": "AMZN",
       "holding_name": "Amazon.com Inc",
-      "weight": 0.08310001,
+      "weight": 0.0874,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -1891,7 +1895,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "GOOGL",
       "holding_name": "Alphabet Inc Class A",
-      "weight": 0.0696,
+      "weight": 0.0617,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -1903,26 +1907,12 @@
     },
     {
       "etf_id": "TW-009801",
-      "holding_symbol": "MU",
-      "holding_name": "Micron Technology Inc",
-      "weight": 0.0632,
+      "holding_symbol": "AVGO",
+      "holding_name": "Broadcom Inc",
+      "weight": 0.0574,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Micron Technology Inc",
-      "holding_name_zh": "美光科技",
-      "display_name": "美光科技",
-      "display_label": "(MU)美光科技",
-      "bilingual_name": "Micron Technology Inc（美光科技）"
-    },
-    {
-      "etf_id": "TW-009801",
-      "holding_symbol": "AVGO",
-      "holding_name": "Broadcom Inc",
-      "weight": 0.0567,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
       "holding_name_en": "Broadcom Inc",
       "holding_name_zh": "博通",
       "display_name": "博通",
@@ -1931,9 +1921,23 @@
     },
     {
       "etf_id": "TW-009801",
+      "holding_symbol": "MU",
+      "holding_name": "Micron Technology Inc",
+      "weight": 0.0573,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Micron Technology Inc",
+      "holding_name_zh": "美光科技",
+      "display_name": "美光科技",
+      "display_label": "(MU)美光科技",
+      "bilingual_name": "Micron Technology Inc（美光科技）"
+    },
+    {
+      "etf_id": "TW-009801",
       "holding_symbol": "AMD",
       "holding_name": "Advanced Micro Devices Inc",
-      "weight": 0.0523,
+      "weight": 0.047,
       "as_of": null,
       "source": "yahoo",
       "rank": 7,
@@ -1947,7 +1951,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "META",
       "holding_name": "Meta Platforms Inc Class A",
-      "weight": 0.045,
+      "weight": 0.0416,
       "as_of": null,
       "source": "yahoo",
       "rank": 8,
@@ -1961,7 +1965,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "CSCO",
       "holding_name": "Cisco Systems Inc",
-      "weight": 0.0225,
+      "weight": 0.0238,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -1975,7 +1979,7 @@
       "etf_id": "TW-009801",
       "holding_symbol": "PLTR",
       "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.021,
+      "weight": 0.0225,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
@@ -1988,8 +1992,8 @@
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.7515,
-    "top_3_weight": 0.4212
+    "top_10_weight": 0.7542,
+    "top_3_weight": 0.4429
   },
   "research": {
     "tier": "context",

@@ -59,23 +59,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 14.1396,
+      "value": 13.1203,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 17.3421,
+      "value": 16.2417,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 11.5405,
+      "value": 11.5992,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.0608,
+      "value": 0.0607,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9365,
+      "value": 1.9405,
       "unit": "years"
     },
     "max_drawdown": {
@@ -83,22 +83,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 1.3727,
+      "value": 1.2709,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 17.3421,
+      "value": 16.2417,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 31.2162,
+      "value": 31.2142,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-17",
-    "value": 12.45,
+    "date": "2026-11-18",
+    "value": 12.31,
     "currency": "TWD"
   },
   "trend": [
@@ -2053,21 +2053,25 @@
     {
       "date": "2026-11-17",
       "value": 124.75
+    },
+    {
+      "date": "2026-11-18",
+      "value": 123.35
     }
   ],
   "price_history": {
     "first_date": "2024-11-14",
-    "last_date": "2026-11-17",
-    "observations": 488,
+    "last_date": "2026-11-18",
+    "observations": 489,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-17",
-    "latest_volume": 1255092.0,
-    "average_volume_20d": 1785018.9,
-    "average_dollar_volume_20d": 22501758.566,
-    "relative_volume_20d": 0.7031,
+    "as_of": "2026-11-18",
+    "latest_volume": 1737159.0,
+    "average_volume_20d": 1830861.35,
+    "average_dollar_volume_20d": 23051723.7005,
+    "relative_volume_20d": 0.9488,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2077,7 +2081,7 @@
       "etf_id": "TW-00963",
       "holding_symbol": "OBDC",
       "holding_name": "Blue Owl Capital Corp Ordinary Shares",
-      "weight": 0.0309,
+      "weight": 0.0307,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
@@ -2089,68 +2093,26 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "ARE",
-      "holding_name": "Alexandria Real Estate Equities Inc",
-      "weight": 0.027,
+      "holding_symbol": "HBR.L",
+      "holding_name": "Harbour Energy PLC",
+      "weight": 0.0273,
       "as_of": null,
       "source": "yahoo",
       "rank": 2,
-      "holding_name_en": "Alexandria Real Estate Equities Inc",
+      "holding_name_en": "Harbour Energy PLC",
       "holding_name_zh": null,
-      "display_name": "Alexandria Real Estate Equities Inc",
-      "display_label": "(ARE)Alexandria Real Estate Equities Inc",
-      "bilingual_name": "Alexandria Real Estate Equities Inc"
-    },
-    {
-      "etf_id": "TW-00963",
-      "holding_symbol": "ITUB",
-      "holding_name": "Itau Unibanco Holding SA ADR",
-      "weight": 0.0267,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 3,
-      "holding_name_en": "Itau Unibanco Holding SA ADR",
-      "holding_name_zh": null,
-      "display_name": "Itau Unibanco Holding SA ADR",
-      "display_label": "(ITUB)Itau Unibanco Holding SA ADR",
-      "bilingual_name": "Itau Unibanco Holding SA ADR"
-    },
-    {
-      "etf_id": "TW-00963",
-      "holding_symbol": "EDEN.PA",
-      "holding_name": "Edenred SE",
-      "weight": 0.0266,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 4,
-      "holding_name_en": "Edenred SE",
-      "holding_name_zh": null,
-      "display_name": "Edenred SE",
-      "display_label": "(EDEN.PA)Edenred SE",
-      "bilingual_name": "Edenred SE"
-    },
-    {
-      "etf_id": "TW-00963",
-      "holding_symbol": "ABEV",
-      "holding_name": "Ambev SA ADR",
-      "weight": 0.0258,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 5,
-      "holding_name_en": "Ambev SA ADR",
-      "holding_name_zh": null,
-      "display_name": "Ambev SA ADR",
-      "display_label": "(ABEV)Ambev SA ADR",
-      "bilingual_name": "Ambev SA ADR"
+      "display_name": "Harbour Energy PLC",
+      "display_label": "(HBR.L)Harbour Energy PLC",
+      "bilingual_name": "Harbour Energy PLC"
     },
     {
       "etf_id": "TW-00963",
       "holding_symbol": "PBR",
       "holding_name": "Petroleo Brasileiro SA Petrobras ADR",
-      "weight": 0.0254,
+      "weight": 0.0271,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 3,
       "holding_name_en": "Petroleo Brasileiro SA Petrobras ADR",
       "holding_name_zh": null,
       "display_name": "Petroleo Brasileiro SA Petrobras ADR",
@@ -2159,26 +2121,12 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "DOC",
-      "holding_name": "Healthpeak Properties Inc",
-      "weight": 0.0253,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
-      "holding_name_en": "Healthpeak Properties Inc",
-      "holding_name_zh": null,
-      "display_name": "Healthpeak Properties Inc",
-      "display_label": "(DOC)Healthpeak Properties Inc",
-      "bilingual_name": "Healthpeak Properties Inc"
-    },
-    {
-      "etf_id": "TW-00963",
       "holding_symbol": "LGEN.L",
       "holding_name": "Legal & General Group PLC",
-      "weight": 0.0252,
+      "weight": 0.0269,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 4,
       "holding_name_en": "Legal & General Group PLC",
       "holding_name_zh": null,
       "display_name": "Legal & General Group PLC",
@@ -2187,12 +2135,26 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "EVK.DE",
-      "holding_name": "Evonik Industries AG",
-      "weight": 0.0249,
+      "holding_symbol": "SDLF.L",
+      "holding_name": "Standard Life PLC",
+      "weight": 0.0265,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 5,
+      "holding_name_en": "Standard Life PLC",
+      "holding_name_zh": null,
+      "display_name": "Standard Life PLC",
+      "display_label": "(SDLF.L)Standard Life PLC",
+      "bilingual_name": "Standard Life PLC"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "EVK.DE",
+      "holding_name": "Evonik Industries AG",
+      "weight": 0.0258,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
       "holding_name_en": "Evonik Industries AG",
       "holding_name_zh": null,
       "display_name": "Evonik Industries AG",
@@ -2201,23 +2163,65 @@
     },
     {
       "etf_id": "TW-00963",
-      "holding_symbol": "SDLF.L",
-      "holding_name": "Standard Life PLC",
-      "weight": 0.0247,
+      "holding_symbol": "EC",
+      "holding_name": "Ecopetrol SA ADR",
+      "weight": 0.0246,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Ecopetrol SA ADR",
+      "holding_name_zh": null,
+      "display_name": "Ecopetrol SA ADR",
+      "display_label": "(EC)Ecopetrol SA ADR",
+      "bilingual_name": "Ecopetrol SA ADR"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "DOC",
+      "holding_name": "Healthpeak Properties Inc",
+      "weight": 0.0244,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Healthpeak Properties Inc",
+      "holding_name_zh": null,
+      "display_name": "Healthpeak Properties Inc",
+      "display_label": "(DOC)Healthpeak Properties Inc",
+      "bilingual_name": "Healthpeak Properties Inc"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "9101.T",
+      "holding_name": "Nippon Yusen Kabushiki Kaisha",
+      "weight": 0.0241,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Nippon Yusen Kabushiki Kaisha",
+      "holding_name_zh": null,
+      "display_name": "Nippon Yusen Kabushiki Kaisha",
+      "display_label": "(9101.T)Nippon Yusen Kabushiki Kaisha",
+      "bilingual_name": "Nippon Yusen Kabushiki Kaisha"
+    },
+    {
+      "etf_id": "TW-00963",
+      "holding_symbol": "SOBO.TO",
+      "holding_name": "South Bow Corp",
+      "weight": 0.0238,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "Standard Life PLC",
+      "holding_name_en": "South Bow Corp",
       "holding_name_zh": null,
-      "display_name": "Standard Life PLC",
-      "display_label": "(SDLF.L)Standard Life PLC",
-      "bilingual_name": "Standard Life PLC"
+      "display_name": "South Bow Corp",
+      "display_label": "(SOBO.TO)South Bow Corp",
+      "bilingual_name": "South Bow Corp"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.2625,
-    "top_3_weight": 0.0846
+    "top_10_weight": 0.2612,
+    "top_3_weight": 0.0851
   },
   "research": {
     "tier": "context",

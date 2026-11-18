@@ -51,46 +51,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -25.8109,
+      "value": -24.2604,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -7.9814,
+      "value": -6.0475,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 22.5069,
+      "value": 22.397,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.458,
+      "value": 0.4556,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.9048,
+      "value": 1.9087,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -20.2999,
+      "value": -20.4462,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.4213,
+      "value": -0.337,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -7.9814,
+      "value": -6.0475,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 24.2712,
+      "value": 24.2583,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-17",
-    "value": 21.79,
+    "date": "2026-11-18",
+    "value": 21.75,
     "currency": "TWD"
   },
   "trend": [
@@ -2013,21 +2013,25 @@
     {
       "date": "2026-11-17",
       "value": 149.76
+    },
+    {
+      "date": "2026-11-18",
+      "value": 149.48
     }
   ],
   "price_history": {
     "first_date": "2024-11-26",
-    "last_date": "2026-11-17",
-    "observations": 480,
+    "last_date": "2026-11-18",
+    "observations": 481,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-17",
-    "latest_volume": 1588547.0,
-    "average_volume_20d": 2194015.55,
-    "average_dollar_volume_20d": 50196459.8205,
-    "relative_volume_20d": 0.724,
+    "as_of": "2026-11-18",
+    "latest_volume": 1049969.0,
+    "average_volume_20d": 2186885.5,
+    "average_dollar_volume_20d": 49878595.428,
+    "relative_volume_20d": 0.4801,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2035,26 +2039,12 @@
   "top_holdings": [
     {
       "etf_id": "TW-00965",
-      "holding_symbol": "PLTR",
-      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "weight": 0.061989,
+      "holding_symbol": "6701.T",
+      "holding_name": "NEC Corp",
+      "weight": 0.068296,
       "as_of": null,
       "source": "yahoo",
       "rank": 1,
-      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
-      "holding_name_zh": "Palantir Technologies",
-      "display_name": "Palantir Technologies",
-      "display_label": "(PLTR)Palantir Technologies",
-      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
-    },
-    {
-      "etf_id": "TW-00965",
-      "holding_symbol": "6701.T",
-      "holding_name": "NEC Corp",
-      "weight": 0.061058,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 2,
       "holding_name_en": "NEC Corp",
       "holding_name_zh": null,
       "display_name": "NEC Corp",
@@ -2063,9 +2053,23 @@
     },
     {
       "etf_id": "TW-00965",
+      "holding_symbol": "PLTR",
+      "holding_name": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "weight": 0.067252,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Palantir Technologies Inc Ordinary Shares - Class A",
+      "holding_name_zh": "Palantir Technologies",
+      "display_name": "Palantir Technologies",
+      "display_label": "(PLTR)Palantir Technologies",
+      "bilingual_name": "Palantir Technologies Inc Ordinary Shares - Class A（Palantir Technologies）"
+    },
+    {
+      "etf_id": "TW-00965",
       "holding_symbol": "NVDA",
       "holding_name": "NVIDIA Corp",
-      "weight": 0.056114,
+      "weight": 0.055421,
       "as_of": null,
       "source": "yahoo",
       "rank": 3,
@@ -2079,7 +2083,7 @@
       "etf_id": "TW-00965",
       "holding_symbol": "2330.TW",
       "holding_name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.054092,
+      "weight": 0.055327,
       "as_of": null,
       "source": "yahoo",
       "rank": 4,
@@ -2091,40 +2095,12 @@
     },
     {
       "etf_id": "TW-00965",
-      "holding_symbol": "7011.T",
-      "holding_name": "Mitsubishi Heavy Industries Ltd",
-      "weight": 0.053102,
+      "holding_symbol": "GE",
+      "holding_name": "GE Aerospace",
+      "weight": 0.052886,
       "as_of": null,
       "source": "yahoo",
       "rank": 5,
-      "holding_name_en": "Mitsubishi Heavy Industries Ltd",
-      "holding_name_zh": null,
-      "display_name": "Mitsubishi Heavy Industries Ltd",
-      "display_label": "(7011.T)Mitsubishi Heavy Industries Ltd",
-      "bilingual_name": "Mitsubishi Heavy Industries Ltd"
-    },
-    {
-      "etf_id": "TW-00965",
-      "holding_symbol": "012450.KQ",
-      "holding_name": "Hanwha Aerospace Co Ltd",
-      "weight": 0.049653,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "Hanwha Aerospace Co Ltd",
-      "holding_name_zh": null,
-      "display_name": "Hanwha Aerospace Co Ltd",
-      "display_label": "(012450.KQ)Hanwha Aerospace Co Ltd",
-      "bilingual_name": "Hanwha Aerospace Co Ltd"
-    },
-    {
-      "etf_id": "TW-00965",
-      "holding_symbol": "GE",
-      "holding_name": "GE Aerospace",
-      "weight": 0.049648,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 7,
       "holding_name_en": "GE Aerospace",
       "holding_name_zh": null,
       "display_name": "GE Aerospace",
@@ -2133,12 +2109,26 @@
     },
     {
       "etf_id": "TW-00965",
-      "holding_symbol": "PANW",
-      "holding_name": "Palo Alto Networks Inc",
-      "weight": 0.049401,
+      "holding_symbol": "7011.T",
+      "holding_name": "Mitsubishi Heavy Industries Ltd",
+      "weight": 0.051818,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 6,
+      "holding_name_en": "Mitsubishi Heavy Industries Ltd",
+      "holding_name_zh": null,
+      "display_name": "Mitsubishi Heavy Industries Ltd",
+      "display_label": "(7011.T)Mitsubishi Heavy Industries Ltd",
+      "bilingual_name": "Mitsubishi Heavy Industries Ltd"
+    },
+    {
+      "etf_id": "TW-00965",
+      "holding_symbol": "PANW",
+      "holding_name": "Palo Alto Networks Inc",
+      "weight": 0.050143,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
       "holding_name_en": "Palo Alto Networks Inc",
       "holding_name_zh": "Palo Alto Networks",
       "display_name": "Palo Alto Networks",
@@ -2147,9 +2137,23 @@
     },
     {
       "etf_id": "TW-00965",
+      "holding_symbol": "RTX",
+      "holding_name": "RTX Corp",
+      "weight": 0.045191,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "RTX Corp",
+      "holding_name_zh": null,
+      "display_name": "RTX Corp",
+      "display_label": "(RTX)RTX Corp",
+      "bilingual_name": "RTX Corp"
+    },
+    {
+      "etf_id": "TW-00965",
       "holding_symbol": "6503.T",
       "holding_name": "Mitsubishi Electric Corp",
-      "weight": 0.041785,
+      "weight": 0.040884,
       "as_of": null,
       "source": "yahoo",
       "rank": 9,
@@ -2161,23 +2165,23 @@
     },
     {
       "etf_id": "TW-00965",
-      "holding_symbol": "RTX",
-      "holding_name": "RTX Corp",
-      "weight": 0.038096,
+      "holding_symbol": "012450.KQ",
+      "holding_name": "Hanwha Aerospace Co Ltd",
+      "weight": 0.038324,
       "as_of": null,
       "source": "yahoo",
       "rank": 10,
-      "holding_name_en": "RTX Corp",
+      "holding_name_en": "Hanwha Aerospace Co Ltd",
       "holding_name_zh": null,
-      "display_name": "RTX Corp",
-      "display_label": "(RTX)RTX Corp",
-      "bilingual_name": "RTX Corp"
+      "display_name": "Hanwha Aerospace Co Ltd",
+      "display_label": "(012450.KQ)Hanwha Aerospace Co Ltd",
+      "bilingual_name": "Hanwha Aerospace Co Ltd"
     }
   ],
   "holdings_summary": {
     "holding_count": 10,
-    "top_10_weight": 0.514938,
-    "top_3_weight": 0.179161
+    "top_10_weight": 0.525542,
+    "top_3_weight": 0.190969
   },
   "research": {
     "tier": "context",
