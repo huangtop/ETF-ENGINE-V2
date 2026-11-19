@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -60.6649,
+      "value": -61.0215,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 40.8989,
+      "value": 40.9238,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6364,
+      "value": 0.6378,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.4167,
+      "value": 0.4206,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -37.0134,
+      "value": -38.9309,
       "unit": "percent"
     },
     "sharpe_ratio": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -29.0576,
+      "value": -31.2173,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 37.0129,
+      "value": 36.8889,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-18",
-    "value": 10.84,
+    "date": "2026-11-19",
+    "value": 10.51,
     "currency": "TWD"
   },
   "trend": [
@@ -509,21 +509,25 @@
     {
       "date": "2026-11-18",
       "value": 70.94
+    },
+    {
+      "date": "2026-11-19",
+      "value": 68.78
     }
   ],
   "price_history": {
     "first_date": "2026-06-17",
-    "last_date": "2026-11-18",
-    "observations": 105,
+    "last_date": "2026-11-19",
+    "observations": 106,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-18",
-    "latest_volume": 4892853.0,
-    "average_volume_20d": 4055113.8,
-    "average_dollar_volume_20d": 48006290.2535,
-    "relative_volume_20d": 1.2066,
+    "as_of": "2026-11-19",
+    "latest_volume": 5495090.0,
+    "average_volume_20d": 4245483.95,
+    "average_dollar_volume_20d": 49859407.9175,
+    "relative_volume_20d": 1.2943,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -601,26 +605,12 @@
     },
     {
       "etf_id": "TW-009821",
-      "holding_symbol": "KAP",
-      "holding_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "weight": 0.047324,
-      "as_of": null,
-      "source": "yahoo",
-      "rank": 6,
-      "holding_name_en": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "holding_name_zh": null,
-      "display_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "display_label": "(KAP)National Atomic Co Kazatomprom JSC GDR - Regulation S",
-      "bilingual_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S"
-    },
-    {
-      "etf_id": "TW-009821",
       "holding_symbol": "NXE.TO",
       "holding_name": "NexGen Energy Ltd",
       "weight": 0.0470003,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 6,
       "holding_name_en": "NexGen Energy Ltd",
       "holding_name_zh": null,
       "display_name": "NexGen Energy Ltd",
@@ -634,7 +624,7 @@
       "weight": 0.0462952,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 7,
       "holding_name_en": "Barrick Mining Corp",
       "holding_name_zh": null,
       "display_name": "Barrick Mining Corp",
@@ -648,7 +638,7 @@
       "weight": 0.0462142,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 8,
       "holding_name_en": "Uranium Energy Corp",
       "holding_name_zh": null,
       "display_name": "Uranium Energy Corp",
@@ -662,7 +652,7 @@
       "weight": 0.0457501,
       "as_of": null,
       "source": "yahoo",
-      "rank": 10,
+      "rank": 9,
       "holding_name_en": "Lynas Rare Earths Ltd",
       "holding_name_zh": null,
       "display_name": "Lynas Rare Earths Ltd",
@@ -671,8 +661,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 10,
-    "top_10_weight": 0.502939,
+    "holding_count": 9,
+    "top_10_weight": 0.455615,
     "top_3_weight": 0.170911
   },
   "research": {
