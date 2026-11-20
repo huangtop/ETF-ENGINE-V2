@@ -1,0 +1,97 @@
+{
+  "etf_id": "US-ISMH",
+  "ticker": "ISMH",
+  "quote_symbol": "ISMH",
+  "name": "xETFs International Semiconductor ETF",
+  "short_name": "ISMH",
+  "listing_market": "US",
+  "listing_exchange": "Nasdaq",
+  "currency": "USD",
+  "benchmark_symbol": "SPY",
+  "benchmark_name": "Pending research",
+  "issuer": null,
+  "asset_class": null,
+  "is_thematic": false,
+  "active": true,
+  "product_status": "active",
+  "management_style": null,
+  "inception_date": null,
+  "first_seen_at": "2026-11-20",
+  "last_seen_at": null,
+  "delisted_at": null,
+  "name_en": "xETFs International Semiconductor ETF",
+  "short_name_en": "ISMH",
+  "name_zh": "xETFs International Semiconductor ETF",
+  "short_name_zh": null,
+  "display_name": "xETFs International Semiconductor ETF",
+  "display_short_name": "xETFs International Semiconductor ETF",
+  "display_label": "(ISMH)xETFs International Semiconductor ETF",
+  "bilingual_name": "xETFs International Semiconductor ETF（xETFs International Semiconductor ETF）",
+  "classifications": [
+    {
+      "dimension": "asset_class",
+      "code": "equity"
+    },
+    {
+      "dimension": "geography",
+      "code": "united_states"
+    },
+    {
+      "dimension": "listing_market",
+      "code": "us"
+    },
+    {
+      "dimension": "management_style",
+      "code": "passive"
+    },
+    {
+      "dimension": "product_structure",
+      "code": "standard"
+    },
+    {
+      "dimension": "theme",
+      "code": "semiconductors"
+    }
+  ],
+  "metrics": {},
+  "bootstrap_status": "ready",
+  "latest_price": {
+    "date": "2026-11-20",
+    "value": 21.6994,
+    "currency": "USD"
+  },
+  "trend": [
+    {
+      "date": "2026-11-20",
+      "value": 100.0
+    }
+  ],
+  "price_history": {
+    "first_date": "2026-11-20",
+    "last_date": "2026-11-20",
+    "observations": 1,
+    "one_year_eligible": false,
+    "status": "insufficient_history"
+  },
+  "liquidity": {
+    "as_of": "2026-11-20",
+    "latest_volume": 517.0,
+    "average_volume_20d": 517.0,
+    "average_dollar_volume_20d": 11218.5898,
+    "relative_volume_20d": 1.0,
+    "currency": "USD",
+    "volume_unit": "shares",
+    "observation_count": 1
+  },
+  "top_holdings": [],
+  "holdings_summary": {
+    "holding_count": 0,
+    "top_10_weight": 0,
+    "top_3_weight": 0
+  },
+  "research": {
+    "tier": "context",
+    "nodes": [],
+    "roles": []
+  }
+}

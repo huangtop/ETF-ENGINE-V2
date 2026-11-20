@@ -67,46 +67,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -10.8669,
+      "value": -10.9184,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 3.1514,
+      "value": -3.0142,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 48.1682,
+      "value": 48.9835,
       "unit": "percent"
     },
     "beta": {
-      "value": 2.6856,
+      "value": 2.6844,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.0714,
+      "value": 2.0754,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -40.0332,
+      "value": -43.6474,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.0343,
+      "value": -0.0922,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 3.1514,
+      "value": -3.0142,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 38.4165,
+      "value": 38.8165,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-19",
-    "value": 33.83,
+    "date": "2026-11-20",
+    "value": 30.56,
     "currency": "USD"
   },
   "trend": [
@@ -2197,21 +2197,25 @@
     {
       "date": "2026-11-19",
       "value": 137.46
+    },
+    {
+      "date": "2026-11-20",
+      "value": 124.17
     }
   ],
   "price_history": {
     "first_date": "2024-10-22",
-    "last_date": "2026-11-19",
-    "observations": 522,
+    "last_date": "2026-11-20",
+    "observations": 523,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-19",
-    "latest_volume": 5855400.0,
-    "average_volume_20d": 6808310.0,
-    "average_dollar_volume_20d": 248167787.2196,
-    "relative_volume_20d": 0.86,
+    "as_of": "2026-11-20",
+    "latest_volume": 6994723.0,
+    "average_volume_20d": 7023501.15,
+    "average_dollar_volume_20d": 253414724.1616,
+    "relative_volume_20d": 0.9959,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20

@@ -59,46 +59,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 0.3653,
+      "value": -0.1867,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 8.4665,
+      "value": 5.8345,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 12.8985,
+      "value": 13.3824,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.9031,
+      "value": 0.9123,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.6984,
+      "value": 2.7024,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -7.6853,
+      "value": -10.8459,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5401,
+      "value": 0.3239,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 8.4665,
+      "value": 5.8345,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 3.2642,
+      "value": 3.2556,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-19",
-    "value": 35.54,
+    "date": "2026-11-20",
+    "value": 34.18,
     "currency": "USD"
   },
   "trend": [
@@ -2808,34 +2808,38 @@
     },
     {
       "date": "2026-11-16",
-      "value": 141.48
+      "value": 140.93
     },
     {
       "date": "2026-11-17",
-      "value": 140.08
+      "value": 139.54
     },
     {
       "date": "2026-11-18",
-      "value": 140.05
+      "value": 139.5
     },
     {
       "date": "2026-11-19",
       "value": 137.49
+    },
+    {
+      "date": "2026-11-20",
+      "value": 132.23
     }
   ],
   "price_history": {
     "first_date": "2024-03-07",
-    "last_date": "2026-11-19",
-    "observations": 680,
+    "last_date": "2026-11-20",
+    "observations": 681,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-19",
-    "latest_volume": 451000.0,
-    "average_volume_20d": 172155.0,
-    "average_dollar_volume_20d": 6337351.6119,
-    "relative_volume_20d": 2.6197,
+    "as_of": "2026-11-20",
+    "latest_volume": 331588.0,
+    "average_volume_20d": 180879.4,
+    "average_dollar_volume_20d": 6608044.2132,
+    "relative_volume_20d": 1.8332,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
