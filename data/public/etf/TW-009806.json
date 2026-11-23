@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": 0.9277,
+      "value": -0.9147,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": 8.7959,
+      "value": 8.0577,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 13.8743,
+      "value": 14.0617,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.251,
+      "value": 0.2571,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 1.4722,
+      "value": 1.4762,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,21 +75,21 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": 0.5259,
+      "value": 0.4663,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": 8.7959,
+      "value": 8.0577,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 26.4754,
+      "value": 26.4109,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "value": 12.74,
     "currency": "TWD"
   },
@@ -1524,7 +1524,7 @@
     },
     {
       "date": "2026-11-03",
-      "value": 137.9
+      "value": 133.96
     },
     {
       "date": "2026-11-04",
@@ -1577,21 +1577,25 @@
     {
       "date": "2026-11-20",
       "value": 127.4
+    },
+    {
+      "date": "2026-11-23",
+      "value": 127.4
     }
   ],
   "price_history": {
     "first_date": "2025-05-19",
-    "last_date": "2026-11-20",
-    "observations": 371,
+    "last_date": "2026-11-23",
+    "observations": 372,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-20",
-    "latest_volume": 14000.0,
+    "as_of": "2026-11-23",
+    "latest_volume": 0.0,
     "average_volume_20d": 30850.0,
-    "average_dollar_volume_20d": 417473.9906,
-    "relative_volume_20d": 0.4538,
+    "average_dollar_volume_20d": 417336.1891,
+    "relative_volume_20d": 0.0,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20

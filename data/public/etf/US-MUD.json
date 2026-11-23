@@ -63,46 +63,46 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -218.9438,
+      "value": -229.6617,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -98.2722,
+      "value": -98.5579,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 123.2229,
+      "value": 124.5381,
       "unit": "percent"
     },
     "beta": {
-      "value": -0.0089,
+      "value": -0.0094,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.0833,
+      "value": 2.0873,
       "unit": "years"
     },
     "max_drawdown": {
-      "value": -98.9598,
+      "value": -98.9275,
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.8097,
+      "value": -0.8034,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -98.2722,
+      "value": -98.5579,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 836.7105,
+      "value": 1010.4205,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-20",
-    "value": 14.65,
+    "date": "2026-11-23",
+    "value": 11.86,
     "currency": "USD"
   },
   "trend": [
@@ -2205,21 +2205,25 @@
     {
       "date": "2026-11-20",
       "value": 0.68
+    },
+    {
+      "date": "2026-11-23",
+      "value": 0.55
     }
   ],
   "price_history": {
     "first_date": "2024-10-18",
-    "last_date": "2026-11-20",
-    "observations": 525,
+    "last_date": "2026-11-23",
+    "observations": 526,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-20",
-    "latest_volume": 6952200.0,
-    "average_volume_20d": 6588300.0,
-    "average_dollar_volume_20d": 77759966.5769,
-    "relative_volume_20d": 1.0552,
+    "as_of": "2026-11-23",
+    "latest_volume": 9048645.0,
+    "average_volume_20d": 6838277.25,
+    "average_dollar_volume_20d": 80989912.6179,
+    "relative_volume_20d": 1.3232,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
