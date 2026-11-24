@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -14.9109,
+      "value": -17.031,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 31.7057,
+      "value": 31.7382,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.628,
+      "value": 1.6322,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.7063,
+      "value": 0.7103,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 1.6102,
+      "value": -0.7366,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 20.0957,
+      "value": 20.1528,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-23",
-    "value": 24.61,
+    "date": "2026-11-24",
+    "value": 24.0416,
     "currency": "USD"
   },
   "trend": [
@@ -801,21 +801,25 @@
     {
       "date": "2026-11-23",
       "value": 101.61
+    },
+    {
+      "date": "2026-11-24",
+      "value": 99.26
     }
   ],
   "price_history": {
     "first_date": "2026-03-12",
-    "last_date": "2026-11-23",
-    "observations": 178,
+    "last_date": "2026-11-24",
+    "observations": 179,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-23",
-    "latest_volume": 400.0,
-    "average_volume_20d": 1310.0,
-    "average_dollar_volume_20d": 33782.9496,
-    "relative_volume_20d": 0.3053,
+    "as_of": "2026-11-24",
+    "latest_volume": 7849.0,
+    "average_volume_20d": 1697.45,
+    "average_dollar_volume_20d": 43085.2252,
+    "relative_volume_20d": 4.624,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -932,11 +936,25 @@
       "display_name": "聯發科",
       "display_label": "(2454.TW)聯發科",
       "bilingual_name": "MediaTek Inc（聯發科）"
+    },
+    {
+      "etf_id": "US-TEMR",
+      "holding_symbol": "005935",
+      "holding_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "weight": 0.0135574,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "display_label": "(005935)Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "bilingual_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting"
     }
   ],
   "holdings_summary": {
-    "holding_count": 8,
-    "top_10_weight": 0.359924,
+    "holding_count": 9,
+    "top_10_weight": 0.373481,
     "top_3_weight": 0.241785
   },
   "research": {

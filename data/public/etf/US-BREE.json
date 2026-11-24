@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -6.6971,
+      "value": -8.7023,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 29.6738,
+      "value": 29.7067,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.5042,
+      "value": 1.5081,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.7262,
+      "value": 0.7302,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": 3.0683,
+      "value": 0.8142,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 18.5948,
+      "value": 18.65,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-23",
-    "value": 23.85,
+    "date": "2026-11-24",
+    "value": 23.3284,
     "currency": "USD"
   },
   "trend": [
@@ -821,21 +821,25 @@
     {
       "date": "2026-11-23",
       "value": 103.07
+    },
+    {
+      "date": "2026-11-24",
+      "value": 100.81
     }
   ],
   "price_history": {
     "first_date": "2026-03-05",
-    "last_date": "2026-11-23",
-    "observations": 183,
+    "last_date": "2026-11-24",
+    "observations": 184,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-23",
-    "latest_volume": 2300.0,
-    "average_volume_20d": 2730.0,
-    "average_dollar_volume_20d": 66909.6504,
-    "relative_volume_20d": 0.8425,
+    "as_of": "2026-11-24",
+    "latest_volume": 1914.0,
+    "average_volume_20d": 2795.7,
+    "average_dollar_volume_20d": 68370.5783,
+    "relative_volume_20d": 0.6846,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -885,12 +889,26 @@
     },
     {
       "etf_id": "US-BREE",
+      "holding_symbol": "005935",
+      "holding_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "weight": 0.0275277,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "holding_name_zh": null,
+      "display_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "display_label": "(005935)Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+      "bilingual_name": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting"
+    },
+    {
+      "etf_id": "US-BREE",
       "holding_symbol": "00939",
       "holding_name": "China Construction Bank Corp Class H",
       "weight": 0.0260792,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "China Construction Bank Corp Class H",
       "holding_name_zh": null,
       "display_name": "China Construction Bank Corp Class H",
@@ -904,7 +922,7 @@
       "weight": 0.0229586,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Tencent Holdings Ltd ADR",
       "holding_name_zh": null,
       "display_name": "Tencent Holdings Ltd ADR",
@@ -918,7 +936,7 @@
       "weight": 0.0210547,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 7,
       "holding_name_en": "Hon Hai Precision Industry Co Ltd",
       "holding_name_zh": "鴻海",
       "display_name": "鴻海",
@@ -932,7 +950,7 @@
       "weight": 0.0163929,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 8,
       "holding_name_en": "MediaTek Inc",
       "holding_name_zh": "聯發科",
       "display_name": "聯發科",
@@ -946,7 +964,7 @@
       "weight": 0.0157333,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Alibaba Group Holding Ltd ADR",
       "holding_name_zh": null,
       "display_name": "Alibaba Group Holding Ltd ADR",
@@ -960,7 +978,7 @@
       "weight": 0.015497,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "PetroChina Co Ltd Class H",
       "holding_name_zh": null,
       "display_name": "PetroChina Co Ltd Class H",
@@ -969,8 +987,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.371033,
+    "holding_count": 10,
+    "top_10_weight": 0.398561,
     "top_3_weight": 0.253317
   },
   "research": {

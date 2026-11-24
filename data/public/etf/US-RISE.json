@@ -51,19 +51,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -23.839,
+      "value": -23.0454,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 18.4574,
+      "value": 18.3956,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.6761,
+      "value": 0.6745,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.5913,
+      "value": 0.5952,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,18 +75,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -12.1975,
+      "value": -12.1603,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 15.7935,
+      "value": 15.7614,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-23",
-    "value": 16.79,
+    "date": "2026-11-24",
+    "value": 16.7971,
     "currency": "USD"
   },
   "trend": [
@@ -685,21 +685,25 @@
     {
       "date": "2026-11-23",
       "value": 87.8
+    },
+    {
+      "date": "2026-11-24",
+      "value": 87.84
     }
   ],
   "price_history": {
     "first_date": "2026-04-23",
-    "last_date": "2026-11-23",
-    "observations": 149,
+    "last_date": "2026-11-24",
+    "observations": 150,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-23",
-    "latest_volume": 2100.0,
-    "average_volume_20d": 2220.0,
-    "average_dollar_volume_20d": 38810.9999,
-    "relative_volume_20d": 0.9459,
+    "as_of": "2026-11-24",
+    "latest_volume": 23589.0,
+    "average_volume_20d": 3129.45,
+    "average_dollar_volume_20d": 53810.9397,
+    "relative_volume_20d": 7.5377,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -749,12 +753,26 @@
     },
     {
       "etf_id": "US-RISE",
+      "holding_symbol": "PETR4",
+      "holding_name": "Petroleo Brasileiro SA Petrobras",
+      "weight": 0.031022,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Petroleo Brasileiro SA Petrobras",
+      "holding_name_zh": null,
+      "display_name": "Petroleo Brasileiro SA Petrobras",
+      "display_label": "(PETR4)Petroleo Brasileiro SA Petrobras",
+      "bilingual_name": "Petroleo Brasileiro SA Petrobras"
+    },
+    {
+      "etf_id": "US-RISE",
       "holding_symbol": "BAP",
       "holding_name": "Credicorp Ltd",
       "weight": 0.030254,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "Credicorp Ltd",
       "holding_name_zh": null,
       "display_name": "Credicorp Ltd",
@@ -768,7 +786,7 @@
       "weight": 0.0295252,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Coforge Ltd",
       "holding_name_zh": null,
       "display_name": "Coforge Ltd",
@@ -782,7 +800,7 @@
       "weight": 0.0285305,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 7,
       "holding_name_en": "Naspers Ltd Class N",
       "holding_name_zh": null,
       "display_name": "Naspers Ltd Class N",
@@ -791,12 +809,26 @@
     },
     {
       "etf_id": "US-RISE",
+      "holding_symbol": "ITUB4",
+      "holding_name": "Itau Unibanco Holding SA",
+      "weight": 0.0263713,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "Itau Unibanco Holding SA",
+      "holding_name_zh": null,
+      "display_name": "Itau Unibanco Holding SA",
+      "display_label": "(ITUB4)Itau Unibanco Holding SA",
+      "bilingual_name": "Itau Unibanco Holding SA"
+    },
+    {
+      "etf_id": "US-RISE",
       "holding_symbol": "GFI.JO",
       "holding_name": "Gold Fields Ltd",
       "weight": 0.0237604,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 9,
       "holding_name_en": "Gold Fields Ltd",
       "holding_name_zh": null,
       "display_name": "Gold Fields Ltd",
@@ -810,7 +842,7 @@
       "weight": 0.022618,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 10,
       "holding_name_en": "First Abu Dhabi Bank PJSC",
       "holding_name_zh": null,
       "display_name": "First Abu Dhabi Bank PJSC",
@@ -819,8 +851,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 8,
-    "top_10_weight": 0.234365,
+    "holding_count": 10,
+    "top_10_weight": 0.291758,
     "top_3_weight": 0.099677
   },
   "research": {

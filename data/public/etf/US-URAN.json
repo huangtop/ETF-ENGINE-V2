@@ -55,23 +55,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -44.4939,
+      "value": -46.0908,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -29.4443,
+      "value": -32.6144,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 39.0412,
+      "value": 38.954,
       "unit": "percent"
     },
     "beta": {
-      "value": 1.5326,
+      "value": 1.529,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.1587,
+      "value": 2.1627,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,22 +79,22 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.7926,
+      "value": -0.8758,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -29.4443,
+      "value": -32.6144,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 32.5378,
+      "value": 32.5149,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-23",
-    "value": 27.86,
+    "date": "2026-11-24",
+    "value": 27.3861,
     "currency": "USD"
   },
   "trend": [
@@ -2273,21 +2273,25 @@
     {
       "date": "2026-11-23",
       "value": 104.07
+    },
+    {
+      "date": "2026-11-24",
+      "value": 102.3
     }
   ],
   "price_history": {
     "first_date": "2024-09-24",
-    "last_date": "2026-11-23",
-    "observations": 544,
+    "last_date": "2026-11-24",
+    "observations": 545,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-23",
-    "latest_volume": 3100.0,
-    "average_volume_20d": 7825.0,
-    "average_dollar_volume_20d": 237758.606,
-    "relative_volume_20d": 0.3962,
+    "as_of": "2026-11-24",
+    "latest_volume": 3077.0,
+    "average_volume_20d": 7863.85,
+    "average_dollar_volume_20d": 238245.9574,
+    "relative_volume_20d": 0.3913,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -2323,12 +2327,26 @@
     },
     {
       "etf_id": "US-URAN",
+      "holding_symbol": "KAP",
+      "holding_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "weight": 0.0445304,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "holding_name_zh": null,
+      "display_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "display_label": "(KAP)National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "bilingual_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S"
+    },
+    {
+      "etf_id": "US-URAN",
       "holding_symbol": "DUK",
       "holding_name": "Duke Energy Corp",
       "weight": 0.0420738,
       "as_of": null,
       "source": "yahoo",
-      "rank": 3,
+      "rank": 4,
       "holding_name_en": "Duke Energy Corp",
       "holding_name_zh": null,
       "display_name": "Duke Energy Corp",
@@ -2342,7 +2360,7 @@
       "weight": 0.0415274,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "American Electric Power Co Inc",
       "holding_name_zh": null,
       "display_name": "American Electric Power Co Inc",
@@ -2356,7 +2374,7 @@
       "weight": 0.0362669,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Public Service Enterprise Group Inc",
       "holding_name_zh": null,
       "display_name": "Public Service Enterprise Group Inc",
@@ -2370,7 +2388,7 @@
       "weight": 0.0359568,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 7,
       "holding_name_en": "China National Nuclear Power Co Ltd Class A",
       "holding_name_zh": null,
       "display_name": "China National Nuclear Power Co Ltd Class A",
@@ -2384,7 +2402,7 @@
       "weight": 0.0351016,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 8,
       "holding_name_en": "CGN Power Co Ltd Ordinary Shares Class A",
       "holding_name_zh": null,
       "display_name": "CGN Power Co Ltd Ordinary Shares Class A",
@@ -2398,7 +2416,7 @@
       "weight": 0.0289849,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Yellow Cake PLC Ordinary Shares",
       "holding_name_zh": null,
       "display_name": "Yellow Cake PLC Ordinary Shares",
@@ -2412,7 +2430,7 @@
       "weight": 0.0283994,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "NexGen Energy Ltd",
       "holding_name_zh": null,
       "display_name": "NexGen Energy Ltd",
@@ -2421,9 +2439,9 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.418561,
-    "top_3_weight": 0.212324
+    "holding_count": 10,
+    "top_10_weight": 0.463091,
+    "top_3_weight": 0.21478
   },
   "research": {
     "tier": "context",

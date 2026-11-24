@@ -55,19 +55,19 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -64.7278,
+      "value": -68.3315,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 46.2234,
+      "value": 46.2123,
       "unit": "percent"
     },
     "beta": {
-      "value": 2.1494,
+      "value": 2.1526,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 0.7659,
+      "value": 0.7698,
       "unit": "years"
     },
     "max_drawdown": {
@@ -79,18 +79,18 @@
       "unit": "ratio"
     },
     "total_return_since_inception": {
-      "value": -34.7225,
+      "value": -37.3391,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 35.8131,
+      "value": 35.8211,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-23",
-    "value": 16.76,
+    "date": "2026-11-24",
+    "value": 16.0882,
     "currency": "USD"
   },
   "trend": [
@@ -824,7 +824,7 @@
     },
     {
       "date": "2026-11-09",
-      "value": 74.98
+      "value": 74.78
     },
     {
       "date": "2026-11-10",
@@ -865,21 +865,25 @@
     {
       "date": "2026-11-23",
       "value": 65.28
+    },
+    {
+      "date": "2026-11-24",
+      "value": 62.66
     }
   ],
   "price_history": {
     "first_date": "2026-02-19",
-    "last_date": "2026-11-23",
-    "observations": 193,
+    "last_date": "2026-11-24",
+    "observations": 194,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-23",
-    "latest_volume": 4000.0,
-    "average_volume_20d": 11515.0,
-    "average_dollar_volume_20d": 210922.7941,
-    "relative_volume_20d": 0.3474,
+    "as_of": "2026-11-24",
+    "latest_volume": 3235.0,
+    "average_volume_20d": 10961.75,
+    "average_dollar_volume_20d": 199096.4888,
+    "relative_volume_20d": 0.2951,
     "currency": "USD",
     "volume_unit": "shares",
     "observation_count": 20
@@ -929,12 +933,26 @@
     },
     {
       "etf_id": "US-SMRF",
+      "holding_symbol": "KAP",
+      "holding_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "weight": 0.0468039,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "holding_name_zh": null,
+      "display_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "display_label": "(KAP)National Atomic Co Kazatomprom JSC GDR - Regulation S",
+      "bilingual_name": "National Atomic Co Kazatomprom JSC GDR - Regulation S"
+    },
+    {
+      "etf_id": "US-SMRF",
       "holding_symbol": "CCO.TO",
       "holding_name": "Cameco Corp",
       "weight": 0.0454343,
       "as_of": null,
       "source": "yahoo",
-      "rank": 4,
+      "rank": 5,
       "holding_name_en": "Cameco Corp",
       "holding_name_zh": null,
       "display_name": "Cameco Corp",
@@ -948,7 +966,7 @@
       "weight": 0.0422684,
       "as_of": null,
       "source": "yahoo",
-      "rank": 5,
+      "rank": 6,
       "holding_name_en": "Uranium Energy Corp",
       "holding_name_zh": null,
       "display_name": "Uranium Energy Corp",
@@ -962,7 +980,7 @@
       "weight": 0.0376007,
       "as_of": null,
       "source": "yahoo",
-      "rank": 6,
+      "rank": 7,
       "holding_name_en": "Oklo Inc Class A Shares",
       "holding_name_zh": null,
       "display_name": "Oklo Inc Class A Shares",
@@ -976,7 +994,7 @@
       "weight": 0.0264374,
       "as_of": null,
       "source": "yahoo",
-      "rank": 7,
+      "rank": 8,
       "holding_name_en": "Paladin Energy Ltd",
       "holding_name_zh": null,
       "display_name": "Paladin Energy Ltd",
@@ -990,7 +1008,7 @@
       "weight": 0.0259144,
       "as_of": null,
       "source": "yahoo",
-      "rank": 8,
+      "rank": 9,
       "holding_name_en": "Duke Energy Corp",
       "holding_name_zh": null,
       "display_name": "Duke Energy Corp",
@@ -1004,7 +1022,7 @@
       "weight": 0.0255518,
       "as_of": null,
       "source": "yahoo",
-      "rank": 9,
+      "rank": 10,
       "holding_name_en": "NuScale Power Corp Class A",
       "holding_name_zh": null,
       "display_name": "NuScale Power Corp Class A",
@@ -1013,8 +1031,8 @@
     }
   ],
   "holdings_summary": {
-    "holding_count": 9,
-    "top_10_weight": 0.354832,
+    "holding_count": 10,
+    "top_10_weight": 0.401636,
     "top_3_weight": 0.151625
   },
   "research": {
