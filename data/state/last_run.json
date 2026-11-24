@@ -1,37 +1,37 @@
 {
-  "run_date": "2026-11-23",
+  "run_date": "2026-11-24",
   "market": "all",
-  "eligible": 984,
-  "processed": 984,
+  "eligible": 985,
+  "processed": 985,
   "bootstrap_limit": 30,
   "bootstrap_attempted": 1,
   "bootstrap_ready": 984,
-  "bootstrap_pending": 0,
+  "bootstrap_pending": 1,
   "metric_rows": 8662,
-  "holdings_synced": 518,
+  "holdings_synced": 517,
   "holdings_rotation_limit": 40,
-  "holdings_scheduled": 691,
+  "holdings_scheduled": 692,
   "holdings_rotating": [
-    "TW-00709",
-    "TW-00710B",
-    "TW-00711B",
-    "TW-00712",
-    "TW-00713",
-    "TW-00714",
-    "TW-00715L",
-    "TW-00717",
-    "TW-00719B",
-    "TW-00720B",
-    "TW-00722B",
-    "TW-00723B",
-    "TW-00724B",
-    "TW-00725B",
-    "TW-00726B",
-    "TW-00727B",
-    "TW-00728",
-    "TW-00730",
-    "TW-00731",
-    "TW-00733"
+    "TW-00734B",
+    "TW-00735",
+    "TW-00736",
+    "TW-00737",
+    "TW-00738U",
+    "TW-00739",
+    "TW-00740B",
+    "TW-00741B",
+    "TW-00746B",
+    "TW-00749B",
+    "TW-00750B",
+    "TW-00751B",
+    "TW-00752",
+    "TW-00753L",
+    "TW-00754B",
+    "TW-00755B",
+    "TW-00756B",
+    "TW-00757",
+    "TW-00758B",
+    "TW-00759B"
   ],
   "holdings_updated": [
     "TW-00400A",
@@ -45,14 +45,13 @@
     "TW-00408A",
     "TW-0050",
     "TW-006208",
-    "TW-00709",
-    "TW-00712",
-    "TW-00713",
-    "TW-00714",
-    "TW-00728",
-    "TW-00730",
-    "TW-00731",
-    "TW-00733",
+    "TW-00735",
+    "TW-00736",
+    "TW-00737",
+    "TW-00739",
+    "TW-00752",
+    "TW-00753L",
+    "TW-00757",
     "TW-00980A",
     "TW-00981A",
     "TW-00982A",
@@ -566,6 +565,11 @@
   "skipped_after_provider_halt": [],
   "errors": [
     {
+      "etf_id": "US-IVEA",
+      "stage": "prices",
+      "error": "no provider data"
+    },
+    {
       "etf_id": "US-FIVG",
       "stage": "holdings",
       "error": "yahoo: HTTP Error 404: "
@@ -596,6 +600,11 @@
       "error": "yahoo: No Fund data found."
     },
     {
+      "etf_id": "US-ACEM",
+      "stage": "holdings",
+      "error": "yahoo: No Fund data found."
+    },
+    {
       "etf_id": "US-EMDI",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
@@ -606,19 +615,14 @@
       "error": "yahoo: No Fund data found."
     },
     {
-      "etf_id": "US-ZDAY",
-      "stage": "holdings",
-      "error": "yahoo: No Fund data found."
-    },
-    {
-      "etf_id": "US-ISMH",
-      "stage": "holdings",
-      "error": "yahoo: No Fund data found."
-    },
-    {
       "etf_id": "US-ZCAP",
       "stage": "holdings",
       "error": "yahoo: No Fund data found."
+    },
+    {
+      "etf_id": "US-IVEA",
+      "stage": "holdings",
+      "error": "yahoo: HTTP Error 404: "
     }
   ]
 }
