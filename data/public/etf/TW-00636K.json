@@ -51,23 +51,23 @@
   ],
   "metrics": {
     "alpha": {
-      "value": -22.5547,
+      "value": -24.5422,
       "unit": "percent"
     },
     "annualized_return": {
-      "value": -11.385,
+      "value": -12.3399,
       "unit": "percent"
     },
     "annualized_volatility": {
-      "value": 19.8587,
+      "value": 19.841,
       "unit": "percent"
     },
     "beta": {
-      "value": 0.2892,
+      "value": 0.2875,
       "unit": "ratio"
     },
     "data_years": {
-      "value": 2.9246,
+      "value": 2.9286,
       "unit": "years"
     },
     "max_drawdown": {
@@ -75,29 +75,25 @@
       "unit": "percent"
     },
     "sharpe_ratio": {
-      "value": -0.6488,
+      "value": -0.6975,
       "unit": "ratio"
     },
     "total_return_1y": {
-      "value": -11.385,
+      "value": -12.3399,
       "unit": "percent"
     },
     "tracking_error": {
-      "value": 29.759,
+      "value": 29.8604,
       "unit": "percent"
     }
   },
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-25",
-    "value": 7.55,
+    "date": "2026-11-26",
+    "value": 7.53,
     "currency": "TWD"
   },
   "trend": [
-    {
-      "date": "2023-10-17",
-      "value": 100.0
-    },
     {
       "date": "2023-10-18",
       "value": 100.0
@@ -3117,21 +3113,25 @@
     {
       "date": "2026-11-25",
       "value": 119.84
+    },
+    {
+      "date": "2026-11-26",
+      "value": 119.52
     }
   ],
   "price_history": {
     "first_date": "2023-07-17",
-    "last_date": "2026-11-25",
-    "observations": 818,
+    "last_date": "2026-11-26",
+    "observations": 819,
     "one_year_eligible": true,
     "status": "complete_1y"
   },
   "liquidity": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-26",
     "latest_volume": 200.0,
-    "average_volume_20d": 1100.0,
-    "average_dollar_volume_20d": 8308.6,
-    "relative_volume_20d": 0.1818,
+    "average_volume_20d": 1045.0,
+    "average_dollar_volume_20d": 7889.9,
+    "relative_volume_20d": 0.1914,
     "currency": "TWD",
     "volume_unit": "shares",
     "observation_count": 20
