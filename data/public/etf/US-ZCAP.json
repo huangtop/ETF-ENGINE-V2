@@ -52,8 +52,8 @@
   "metrics": {},
   "bootstrap_status": "ready",
   "latest_price": {
-    "date": "2026-11-25",
-    "value": 32.0968,
+    "date": "2026-11-27",
+    "value": 32.5984,
     "currency": "USD"
   },
   "trend": [
@@ -68,30 +68,175 @@
     {
       "date": "2026-11-25",
       "value": 99.34
+    },
+    {
+      "date": "2026-11-27",
+      "value": 100.89
     }
   ],
   "price_history": {
     "first_date": "2026-11-23",
-    "last_date": "2026-11-25",
-    "observations": 3,
+    "last_date": "2026-11-27",
+    "observations": 4,
     "one_year_eligible": false,
     "status": "insufficient_history"
   },
   "liquidity": {
-    "as_of": "2026-11-25",
-    "latest_volume": 7786.0,
-    "average_volume_20d": 5709.6667,
-    "average_dollar_volume_20d": 183457.8309,
-    "relative_volume_20d": 1.3637,
+    "as_of": "2026-11-27",
+    "latest_volume": 1345.0,
+    "average_volume_20d": 4618.5,
+    "average_dollar_volume_20d": 148554.5852,
+    "relative_volume_20d": 0.2912,
     "currency": "USD",
     "volume_unit": "shares",
-    "observation_count": 3
+    "observation_count": 4
   },
-  "top_holdings": [],
+  "top_holdings": [
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "UFCS",
+      "holding_name": "United Fire Group Inc",
+      "weight": 0.0208234,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 1,
+      "holding_name_en": "United Fire Group Inc",
+      "holding_name_zh": null,
+      "display_name": "United Fire Group Inc",
+      "display_label": "(UFCS)United Fire Group Inc",
+      "bilingual_name": "United Fire Group Inc"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "PDLB",
+      "holding_name": "Ponce Financial Group Inc",
+      "weight": 0.0198554,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 2,
+      "holding_name_en": "Ponce Financial Group Inc",
+      "holding_name_zh": null,
+      "display_name": "Ponce Financial Group Inc",
+      "display_label": "(PDLB)Ponce Financial Group Inc",
+      "bilingual_name": "Ponce Financial Group Inc"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "HBT",
+      "holding_name": "HBT Financial Inc Ordinary Shares",
+      "weight": 0.019442,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 3,
+      "holding_name_en": "HBT Financial Inc Ordinary Shares",
+      "holding_name_zh": null,
+      "display_name": "HBT Financial Inc Ordinary Shares",
+      "display_label": "(HBT)HBT Financial Inc Ordinary Shares",
+      "bilingual_name": "HBT Financial Inc Ordinary Shares"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "NTB",
+      "holding_name": "Bank of N.T Butterfield & Son Ltd",
+      "weight": 0.0191131,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 4,
+      "holding_name_en": "Bank of N.T Butterfield & Son Ltd",
+      "holding_name_zh": null,
+      "display_name": "Bank of N.T Butterfield & Son Ltd",
+      "display_label": "(NTB)Bank of N.T Butterfield & Son Ltd",
+      "bilingual_name": "Bank of N.T Butterfield & Son Ltd"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "SMBK",
+      "holding_name": "SmartFinancial Inc",
+      "weight": 0.0190173,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 5,
+      "holding_name_en": "SmartFinancial Inc",
+      "holding_name_zh": null,
+      "display_name": "SmartFinancial Inc",
+      "display_label": "(SMBK)SmartFinancial Inc",
+      "bilingual_name": "SmartFinancial Inc"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "MOG-A",
+      "holding_name": "Moog Inc Class A",
+      "weight": 0.0182597,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 6,
+      "holding_name_en": "Moog Inc Class A",
+      "holding_name_zh": null,
+      "display_name": "Moog Inc Class A",
+      "display_label": "(MOG-A)Moog Inc Class A",
+      "bilingual_name": "Moog Inc Class A"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "TOIXX",
+      "holding_name": "Federated Hermes Treasury Obl IS",
+      "weight": 0.0181209,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 7,
+      "holding_name_en": "Federated Hermes Treasury Obl IS",
+      "holding_name_zh": null,
+      "display_name": "Federated Hermes Treasury Obl IS",
+      "display_label": "(TOIXX)Federated Hermes Treasury Obl IS",
+      "bilingual_name": "Federated Hermes Treasury Obl IS"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "CTO",
+      "holding_name": "CTO Realty Growth Inc Ordinary Shares- New",
+      "weight": 0.0174587,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 8,
+      "holding_name_en": "CTO Realty Growth Inc Ordinary Shares- New",
+      "holding_name_zh": null,
+      "display_name": "CTO Realty Growth Inc Ordinary Shares- New",
+      "display_label": "(CTO)CTO Realty Growth Inc Ordinary Shares- New",
+      "bilingual_name": "CTO Realty Growth Inc Ordinary Shares- New"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "FTDR",
+      "holding_name": "Frontdoor Inc",
+      "weight": 0.0166585,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 9,
+      "holding_name_en": "Frontdoor Inc",
+      "holding_name_zh": null,
+      "display_name": "Frontdoor Inc",
+      "display_label": "(FTDR)Frontdoor Inc",
+      "bilingual_name": "Frontdoor Inc"
+    },
+    {
+      "etf_id": "US-ZCAP",
+      "holding_symbol": "CON",
+      "holding_name": "Concentra Group Holdings Parent Inc",
+      "weight": 0.0166557,
+      "as_of": null,
+      "source": "yahoo",
+      "rank": 10,
+      "holding_name_en": "Concentra Group Holdings Parent Inc",
+      "holding_name_zh": null,
+      "display_name": "Concentra Group Holdings Parent Inc",
+      "display_label": "(CON)Concentra Group Holdings Parent Inc",
+      "bilingual_name": "Concentra Group Holdings Parent Inc"
+    }
+  ],
   "holdings_summary": {
-    "holding_count": 0,
-    "top_10_weight": 0,
-    "top_3_weight": 0
+    "holding_count": 10,
+    "top_10_weight": 0.185405,
+    "top_3_weight": 0.060121
   },
   "research": {
     "tier": "context",
